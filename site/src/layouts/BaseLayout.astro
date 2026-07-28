@@ -1,6 +1,13 @@
 ---
 import '../styles/tokens.css';
-import { assertParity, localePath, otherLocale, translator, type Locale } from '../i18n/index.ts';
+import {
+  assertParity,
+  localePath,
+  otherLocale,
+  translator,
+  withBase,
+  type Locale,
+} from '../i18n/index.ts';
 
 interface Props {
   locale: Locale;
@@ -54,7 +61,7 @@ const other = otherLocale(locale);
     <footer class="site-foot">
       <div class="wide">
         <p>
-          {t('site.tagline')}. <a href="/data/ministries.json">{t('nav.download')}</a>
+          {t('site.tagline')}. <a href={withBase('data/ministries.json')}>{t('nav.download')}</a>
         </p>
       </div>
     </footer>

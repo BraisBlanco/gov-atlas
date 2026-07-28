@@ -12,7 +12,7 @@ import path from 'node:path';
 
 import { loadDataset, valuesOf } from './lib/load.ts';
 import { checkDataset } from './lib/rules.ts';
-import { countBySeverity, formatIssues } from './lib/issues.ts';
+import { countBySeverity, formatIssues, warning } from './lib/issues.ts';
 import { SITE_DATA_DIR, rel } from './lib/paths.ts';
 import { EU27 } from './lib/scope.ts';
 import { toCsv } from './lib/csv.ts';
@@ -29,8 +29,15 @@ const today = process.env.GOV_ATLAS_TODAY ?? new Date().toISOString().slice(0, 1
 /** Overridable so a rebuild of the same commit produces byte-identical output. */
 const generatedAt = process.env.GOV_ATLAS_GENERATED_AT ?? new Date().toISOString();
 
+const allowMissingArchives = process.argv.includes('--allow-missing-archives');
 const dataset = await loadDataset();
-const issues = [...dataset.issues, ...checkDataset(dataset, { today })];
+const issues = [...dataset.issues, ...checkDataset(dataset, { today })].map((issue) =>
+  allowMissingArchives &&
+  issue.rule === 'source-archive-required' &&
+  issue.severity === 'error'
+    ? warning(issue.rule, issue.file, issue.message, issue.path)
+    : issue,
+);
 const { errors, warnings } = countBySeverity(issues);
 
 if (errors > 0) {

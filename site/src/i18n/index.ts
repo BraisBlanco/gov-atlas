@@ -55,7 +55,14 @@ export function assertParity(): void {
 
 export function localePath(locale: Locale, path = ''): string {
   const clean = path.replace(/^\/+/, '');
-  return clean ? `/${locale}/${clean}` : `/${locale}/`;
+  return withBase(clean ? `${locale}/${clean}` : `${locale}/`);
+}
+
+/** Prefixes a root-relative path with Astro's deployment base. */
+export function withBase(path = ''): string {
+  const base = import.meta.env.BASE_URL.replace(/\/+$/, '');
+  const clean = path.replace(/^\/+/, '');
+  return clean ? `${base}/${clean}` : `${base}/`;
 }
 
 export function otherLocale(locale: Locale): Locale {
