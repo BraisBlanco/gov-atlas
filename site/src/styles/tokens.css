@@ -96,38 +96,9 @@
 }
 
 /*
- * Dark values are declared twice on purpose: the media query follows the OS, the
- * data-theme scope follows the viewer's toggle, and the toggle has to win in both
- * directions. The :not() guard lets an explicit light stamp beat OS dark.
+ * Light is the default for every reader, regardless of OS preference; dark applies only
+ * when the viewer opts in via the header toggle, which stamps data-theme on the root.
  */
-@media (prefers-color-scheme: dark) {
-  :root:where(:not([data-theme='light'])) {
-    color-scheme: dark;
-
-    --surface-1: #1a1a19;
-    --page-plane: #0d0d0d;
-    --text-primary: #ffffff;
-    --text-secondary: #c3c2b7;
-    --text-muted: #898781;
-    --gridline: #2c2c2a;
-    --axis: #383835;
-    --border: rgba(255, 255, 255, 0.1);
-    --wash: rgba(255, 255, 255, 0.06);
-
-    --series-1: #3987e5;
-    --series-2: #d95926;
-    --series-3: #199e70;
-    --series-4: #c98500;
-    --series-5: #d55181;
-    --series-6: #008300;
-    --series-7: #9085e9;
-    --series-8: #e66767;
-
-    --div-neutral: #383835;
-    --link: #86b6ef;
-  }
-}
-
 :root[data-theme='dark'] {
   color-scheme: dark;
 

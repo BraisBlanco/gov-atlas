@@ -2,14 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ChoroplethEurope from './charts/ChoroplethEurope.tsx';
 import RankedBars from './charts/RankedBars.tsx';
-import {
-  chartSources,
-  formatDate,
-  formatNumber,
-  loadCountries,
-  loadMetadata,
-  loadMinistries,
-} from '../lib/data.ts';
+import { chartSources, loadCountries, loadMetadata, loadMinistries } from '../lib/data.ts';
 import { localePath, translator, type Locale } from '../i18n/index.ts';
 
 interface Props {
@@ -38,35 +31,10 @@ const countryPathBase = localePath(locale, 'countries');
 ---
 
 <BaseLayout locale={locale} title={t('site.title')} description={t('site.tagline')}>
-  <div class="prose">
+  <div class="wide">
     <h1>
       {isSpanish ? 'Cuántos ministerios tiene cada país' : 'How many ministries each country has'}
     </h1>
-    <p class="lede">
-      {
-        isSpanish
-          ? 'La cifra no es un dato objetivo: es la consecuencia de una definición. Aquí está la definición, están las fuentes, y está lo que hemos dejado fuera.'
-          : 'The number is not an objective fact: it is the consequence of a definition. Here is the definition, here are the sources, and here is what we left out.'
-      }
-    </p>
-    <p>
-      {
-        isSpanish
-          ? `Cobertura actual: ${formatNumber(metadata.countries_covered, locale)} de ${formatNumber(metadata.target_total, locale)} países previstos, ${formatNumber(metadata.ministries_total, locale)} ministerios contados y ${formatNumber(metadata.sources_total, locale)} fuentes citadas. Datos a ${formatDate(metadata.as_of, locale)}.`
-          : `Current coverage: ${formatNumber(metadata.countries_covered, locale)} of ${formatNumber(metadata.target_total, locale)} planned countries, ${formatNumber(metadata.ministries_total, locale)} counted ministries and ${formatNumber(metadata.sources_total, locale)} cited sources. Data as of ${formatDate(metadata.as_of, locale)}.`
-      }{' '}<a href={localePath(locale, 'methodology')}>{t('nav.methodology')}</a>.
-    </p>
-    <p>
-      {
-        isSpanish
-          ? '¿Quieres saber cuáles son esos ministerios? '
-          : 'Want to know which ministries those are? '
-      }<a href={localePath(locale, 'countries')}>{t('countries.title')}</a>{
-        isSpanish
-          ? ' — la lista completa de cada gobierno, con el nombre oficial y la fuente de cada departamento.'
-          : ' — the full list for each government, with the official name and the source behind every department.'
-      }
-    </p>
   </div>
 
   <div class="wide chart-slot">
@@ -99,11 +67,6 @@ const countryPathBase = localePath(locale, 'countries');
   </div>
 
   <style>
-    .lede {
-      font-size: var(--text-lg);
-      color: var(--text-secondary);
-    }
-
     .chart-slot {
       margin-top: var(--space-6);
     }

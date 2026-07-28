@@ -34,18 +34,8 @@
   --ce-bin-5: var(--seq-700);
 }
 
-/* Declared twice, like tokens.css: the media query follows the OS, the data-theme scope
-   follows the viewer's toggle, and the toggle has to win in both directions. */
-@media (prefers-color-scheme: dark) {
-  :root:where(:not([data-theme='light'])) .ce {
-    --ce-bin-1: var(--seq-100);
-    --ce-bin-2: var(--seq-250);
-    --ce-bin-3: var(--seq-400);
-    --ce-bin-4: var(--seq-500);
-    --ce-bin-5: var(--seq-600);
-  }
-}
-
+/* Like tokens.css, dark applies only via the toggle's data-theme stamp; light is the
+   default for every reader regardless of OS preference. */
 :root[data-theme='dark'] .ce {
   --ce-bin-1: var(--seq-100);
   --ce-bin-2: var(--seq-250);
