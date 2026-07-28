@@ -1,0 +1,1244 @@
+# Italy — government structure of the XIX legislature (Governo Meloni).
+#
+# Italy is unusual and helpful: the ministries are enumerated by *statute*, not by each
+# government's own decree. Article 2 of decreto legislativo 30 luglio 1999, n. 300 lists
+# them, and comma 4-bis of the same article fixes their number. A new government does not
+# restructure the departments; it fills them.
+#
+# Two things to notice before reading the entity list:
+#
+#   1. Nowhere does this file state "15" or "25". Both figures are derived from the
+#      entities below.
+#   2. The nine *ministri senza portafoglio* are recorded and NOT counted. They hold
+#      ministerial rank and a seat in the Consiglio dei Ministri but head no ministry,
+#      which is exactly why Italy's cabinet is much larger than its list of ministries.
+
+country: IT
+cabinet_id: IT-2022-10-22
+
+cabinet_name_original: Governo Meloni, XIX Legislatura
+cabinet_name_en: Meloni Government, 19th legislature
+cabinet_name_es: Gobierno Meloni, XIX Legislatura
+
+head_of_government_title_original: Presidente del Consiglio dei ministri
+head_of_government_title_en: President of the Council of Ministers
+
+took_office: 2022-10-22
+left_office: null
+
+methodology_notes:
+  - en: >-
+      Italy has 15 ministries but 25 members of its Council of Ministers. The gap is
+      almost entirely the nine ministers without portfolio — relations with Parliament,
+      public administration, regional affairs and autonomies, civil protection and
+      maritime policy, European affairs/NRRP/cohesion policy, sport and youth, family and
+      birth rate and equal opportunities, disabilities, and institutional reforms and
+      regulatory simplification — plus the President of the Council, who holds a seat
+      without heading a department. Neither number is wrong; they answer different
+      questions.
+    es: >-
+      Italia tiene 15 ministerios pero 25 miembros en su Consejo de Ministros. La
+      diferencia son, casi por completo, los nueve ministros sin cartera —relaciones con
+      el Parlamento, función pública, asuntos regionales y autonomías, protección civil y
+      políticas del mar, asuntos europeos/PNRR/políticas de cohesión, deporte y juventud,
+      familia y natalidad e igualdad de oportunidades, discapacidades, y reformas
+      institucionales y simplificación normativa— más el presidente del Consejo, que
+      ocupa asiento sin encabezar ningún departamento. Ninguna de las dos cifras es
+      incorrecta; responden a preguntas distintas.
+  - en: >-
+      Ministers without portfolio are recorded here but never counted as ministries. Under
+      article 9(1) of legge 23 agosto 1988, n. 400 they are appointed "presso la
+      Presidenza del Consiglio dei ministri" and exercise functions delegated to them by
+      the President of the Council; they head a department (*dipartimento*) of the Prime
+      Minister's own office, not a ministry with its own budget. They contribute to
+      cabinet_seats_count and never to ministries_count. Sources that report "Italy's
+      government has 25 members" are counting the Council of Ministers, which is a
+      different question from how many ministries exist.
+    es: >-
+      Los ministros sin cartera se registran aquí pero nunca se cuentan como ministerios.
+      Según el artículo 9.1 de la legge 23 agosto 1988, n. 400 se nombran «presso la
+      Presidenza del Consiglio dei ministri» y ejercen las funciones que les delega el
+      presidente del Consejo; encabezan un departamento (*dipartimento*) de la propia
+      oficina del presidente, no un ministerio con presupuesto propio. Cuentan para
+      cabinet_seats_count y nunca para ministries_count. Las fuentes que dicen que «el
+      gobierno italiano tiene 25 miembros» están contando el Consejo de Ministros, que es
+      una pregunta distinta de cuántos ministerios existen.
+  - en: >-
+      The statutory list and the government's actual roster agree exactly. Article 2(1) of
+      decreto legislativo 30 luglio 1999, n. 300, in its consolidated text in force since
+      5 January 2023, enumerates fifteen ministries, and comma 4-bis of the same article
+      states that "Il numero dei Ministeri è stabilito in quindici". The fifteen ministries
+      the Meloni government actually operates are those same fifteen, under those same
+      names — so the derived count of 15 needs no reconciliation. This is worth stating
+      because the statutory list and the roster can drift: the appointment decree of
+      21 October 2022 still used five older names (sviluppo economico, politiche agricole
+      alimentari e forestali, transizione ecologica, infrastrutture e mobilità sostenibili,
+      istruzione), which decreto-legge 11 novembre 2022, n. 173 replaced weeks later.
+    es: >-
+      La lista legal y la nómina real del gobierno coinciden exactamente. El artículo 2.1
+      del decreto legislativo 30 luglio 1999, n. 300, en su texto consolidado vigente
+      desde el 5 de enero de 2023, enumera quince ministerios, y el apartado 4-bis del
+      mismo artículo establece que «Il numero dei Ministeri è stabilito in quindici». Los
+      quince ministerios que el gobierno Meloni realmente tiene son esos mismos quince,
+      con esos mismos nombres, de modo que la cifra derivada de 15 no requiere
+      reconciliación. Conviene decirlo porque la lista legal y la nómina pueden divergir:
+      el decreto de nombramiento del 21 de octubre de 2022 aún empleaba cinco
+      denominaciones anteriores (sviluppo economico, politiche agricole alimentari e
+      forestali, transizione ecologica, infrastrutture e mobilità sostenibili,
+      istruzione), que el decreto-legge 11 novembre 2022, n. 173 sustituyó semanas
+      después.
+  - en: >-
+      Two ministers also hold the functions of Vice-President of the Council: the Minister
+      of Foreign Affairs and International Cooperation and the Minister of Infrastructure
+      and Transport. A vice-presidency is a personal office attributed to a serving
+      minister, not a department, so it adds neither a ministry nor a cabinet seat; each is
+      counted once, through the ministry he heads.
+    es: >-
+      Dos ministros ostentan además las funciones de vicepresidente del Consejo: el
+      ministro de Asuntos Exteriores y de la Cooperación Internacional y el ministro de
+      Infraestructuras y Transportes. Una vicepresidencia es un cargo personal atribuido a
+      un ministro en ejercicio, no un departamento, por lo que no añade ni ministerio ni
+      asiento en el gabinete; cada uno se cuenta una sola vez, a través del ministerio que
+      encabeza.
+  - en: >-
+      The delegations of ministers without portfolio are personal and are conferred by
+      decree of the President of the Council, so they change during a term while the
+      number of posts does not. Three of the nine differ from the original decree of
+      23 October 2022: civil protection was added to the maritime-policy portfolio and
+      "the South" removed from it (decree of 10 November 2022); regulatory simplification
+      was added to institutional reforms (same date); and the European affairs portfolio
+      was re-conferred, retitled and given to a different person in December 2024. This
+      file records the configuration in force on the access date, 27 July 2026, and cites
+      the decree behind each. The count of nine such posts has held throughout the term,
+      so cabinet_seats_count is unaffected by the churn.
+    es: >-
+      Las delegaciones de los ministros sin cartera son personales y se confieren por
+      decreto del presidente del Consejo, de modo que cambian a lo largo de la legislatura
+      aunque el número de puestos no lo haga. Tres de los nueve difieren del decreto
+      original del 23 de octubre de 2022: se añadió la protección civil a la cartera de
+      políticas del mar y se le retiró «el Sur» (decreto del 10 de noviembre de 2022); se
+      añadió la simplificación normativa a las reformas institucionales (misma fecha); y
+      la cartera de asuntos europeos se volvió a conferir, con otro título y a otra
+      persona, en diciembre de 2024. Este fichero registra la configuración vigente en la
+      fecha de consulta, 27 de julio de 2026, y cita el decreto de cada una. El número de
+      nueve puestos se ha mantenido toda la legislatura, por lo que cabinet_seats_count no
+      se ve afectado por esos cambios.
+  - en: >-
+      The Presidenza del Consiglio dei Ministri is not a ministry. Article 2 of decreto
+      legislativo 300/1999 does not list it, it holds no portfolio, and it is governed by a
+      separate statute (decreto legislativo 30 luglio 1999, n. 303). It is recorded because
+      its holder chairs the Council of Ministers, which is what makes the cabinet 25 people
+      and the government 15 departments.
+    es: >-
+      La Presidenza del Consiglio dei Ministri no es un ministerio. El artículo 2 del
+      decreto legislativo 300/1999 no la enumera, no tiene cartera y se rige por una norma
+      distinta (decreto legislativo 30 luglio 1999, n. 303). Se registra porque su titular
+      preside el Consejo de Ministros, y eso es lo que hace que el gabinete sean 25
+      personas y el gobierno 15 departamentos.
+  - en: >-
+      Vice-ministri and sottosegretari di Stato are subordinate to a minister and work
+      inside an existing department, so they are neither ministries nor cabinet seats and
+      are not enumerated here — there are around forty of them and they belong to a
+      different dataset. One exception is recorded: the Under-Secretary of State to the
+      Presidency of the Council who serves as Secretary of the Council of Ministers. He
+      attends every meeting and signs its minutes, but article 92 of the Constitution makes
+      the Council "il Presidente del Consiglio e i ministri" only, so he is recorded with no
+      cabinet seat. Sources that put Italy's cabinet at 26 are including him.
+    es: >-
+      Los viceministros y los subsecretarios de Estado están subordinados a un ministro y
+      trabajan dentro de un departamento existente, por lo que no son ni ministerios ni
+      asientos en el gabinete y no se enumeran aquí: son unos cuarenta y pertenecen a otro
+      conjunto de datos. Se registra una excepción: el subsecretario de Estado de la
+      Presidencia del Consejo que ejerce de secretario del Consejo de Ministros. Asiste a
+      todas las reuniones y firma sus actas, pero el artículo 92 de la Constitución define
+      el Consejo únicamente como «il Presidente del Consiglio e i ministri», de modo que se
+      registra sin asiento en el gabinete. Las fuentes que cifran el gabinete italiano en
+      26 lo están incluyendo.
+
+sources:
+  - id: normattiva-dlgs-300-1999-art2
+    tier: 1
+    type: statute
+    publisher: Normattiva - Istituto Poligrafico e Zecca dello Stato
+    title: >-
+      Decreto legislativo 30 luglio 1999, n. 300, Riforma dell'organizzazione del Governo,
+      a norma dell'articolo 11 della legge 15 marzo 1997, n. 59 - articolo 2 (Ministeri),
+      testo consolidato
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1999-07-30;300~art2
+    archive_url: "https://web.archive.org/web/20260727183540/https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=1999-08-30&atto.codiceRedazionale=099G0372&atto.articolo.numero=2&atto.articolo.sottoArticolo=1&atto.articolo.sottoArticolo1=10&tipoDettaglio=multivigenza&qId=&tabID=0.1&title=lbl.risultatoRicerca"
+    lang: it
+    published: 1999-08-30
+    accessed: 2026-07-27
+    quote: |-
+      Art. 2
+      (Ministeri)
+      1. I Ministeri sono i seguenti:
+      1) Ministero degli affari esteri e della cooperazione internazionale;
+      2) Ministero dell'interno;
+      3) Ministero della giustizia;
+      4) Ministero della difesa;
+      5) Ministero dell'economia e delle finanze;
+      6) Ministero delle imprese e del made in Italy;
+      7) Ministero dell'agricoltura, della sovranità alimentare e delle foreste;
+      8) Ministero dell'ambiente e della sicurezza energetica;
+      9) Ministero delle infrastrutture e dei trasporti;
+      10) Ministero del lavoro e delle politiche sociali;
+      11) Ministero dell'istruzione e del merito;
+      12) Ministero dell'università e della ricerca;
+      13) Ministero della cultura;
+      14) Ministero della salute;
+      15) Ministero del turismo.
+      [...]
+      4-bis. Il numero dei Ministeri è stabilito in quindici. Il numero totale dei componenti del Governo a qualsiasi titolo, ivi compresi Ministri senza portafoglio, vice Ministri e Sottosegretari, non può essere superiore a sessantacinque e la composizione del Governo deve essere coerente con il principio sancito nel secondo periodo del primo comma dell'articolo 51 della Costituzione.
+    note: >-
+      Consolidated text of article 2, in force since 5 January 2023. That version reflects
+      the amendments made by decreto-legge 11 novembre 2022, n. 173, as converted with
+      modifications by legge 16 dicembre 2022, n. 204, whose coordinated text was published
+      in Gazzetta Ufficiale n. 3 of 4 January 2023; no later act has amended article 2. The
+      listing order of the counted ministries below follows this enumeration. The quote is
+      normalised in two disclosed ways and is otherwise verbatim. First, commas 2 to 4 are
+      elided at "[...]". Second, the quote omits Normattiva's "((" and "))" markers, which
+      the portal prints inline to delimit text introduced into an article by a later
+      amendment; the entries so marked are 6, 7, 8, 9 and 11 — exactly the five renamed by
+      decreto-legge 173/2022 — so that where this quote reads "6) Ministero delle imprese e
+      del made in Italy;" the snapshot reads "6) Ministero ((delle imprese e del made in
+      Italy));". The markers are display notation of the database rather than text of the
+      decree, but a reader comparing the quote against the snapshot will see them, hence
+      this note. Normattiva's URN resolver (the url above) cannot be captured by a web archive
+      — it returns a session error to crawlers — so archive_url is a snapshot, taken on the
+      access date, of Normattiva's equivalent article view of the same article, carrying the
+      identical consolidated text.
+
+  - id: gu-dpr-2022-10-21-nomina-ministri
+    tier: 1
+    type: official_gazette
+    publisher: Gazzetta Ufficiale della Repubblica Italiana
+    title: >-
+      Decreto del Presidente della Repubblica 21 ottobre 2022, Nomina dei Ministri
+      (22A06175)
+    url: https://www.gazzettaufficiale.it/eli/id/2022/10/25/22A06175/sg
+    archive_url: https://web.archive.org/web/20240424162113/https://www.gazzettaufficiale.it/eli/gu/2022/10/25/250/sg/pdf
+    lang: it
+    published: 2022-10-25
+    accessed: 2026-07-27
+    quote: |-
+      Sono nominati Ministri senza portafoglio:
+      a) il sen. Luca Ciriani;
+      b) il sen. Paolo Zangrillo;
+      c) il sen. Roberto Calderoli;
+      d) il sen. Sebastiano Musumeci, detto Nello;
+      e) l’on. Raffaele Fitto;
+      f) il dott. Andrea Abodi;
+      h) l’on. Eugenia Maria Roccella;
+      i) la dott.ssa Alessandra Locatelli;
+      l) la sen. Maria Elisabetta Alberti Casellati.
+      Sono nominati Ministri:
+      degli affari esteri e della cooperazione internazionale: l’on. Antonio Tajani;
+      dell’interno: il pref. Matteo Piantedosi;
+      della giustizia: l’on. Carlo Nordio;
+      della difesa: il sig. Guido Crosetto;
+      dell’economia e delle finanze: l’on. Giancarlo Giorgetti;
+      dello sviluppo economico: il sen. Adolfo Urso;
+      delle politiche agricole alimentari e forestali: l’on. Francesco Lollobrigida;
+      della transizione ecologica: l’on. Gilberto Pichetto Fratin;
+      delle infrastrutture e della mobilità sostenibili: il sen. Matteo Salvini;
+      del lavoro e delle politiche sociali: la dott.ssa Marina Elvira Calderone;
+      dell’istruzione: il prof. Giuseppe Valditara;
+      dell’università e della ricerca: la sen. Anna Maria Bernini;
+      della cultura: il dott. Gennaro Sangiuliano;
+      della salute: il prof. Orazio Schillaci;
+      del turismo: la sen. Daniela Garnero Santanché.
+    note: >-
+      The decree that constituted the government: it appoints nine ministers without
+      portfolio and fifteen ministers, one for each ministry in article 2 of decreto
+      legislativo 300/1999, which is the tier-1 evidence that all fifteen statutory
+      ministries are actually filled. Two features of the printed text are reproduced as
+      they stand: the lettering of the ministers without portfolio skips "g)", and five
+      ministries are named with the denominations they bore before decreto-legge 173/2022
+      renamed them. The Gazzetta Ufficiale act page renders decree text inside an iframe
+      that web archives do not capture, so archive_url is a snapshot of the archived PDF of
+      the whole issue (Serie generale n. 250 of 25 October 2022), where the quoted text
+      appears verbatim on page 2.
+
+  - id: gu-dl-173-2022-testo-coordinato
+    tier: 1
+    type: official_gazette
+    publisher: Gazzetta Ufficiale della Repubblica Italiana
+    title: >-
+      Testo del decreto-legge 11 novembre 2022, n. 173, coordinato con la legge di
+      conversione 16 dicembre 2022, n. 204, recante: «Disposizioni urgenti in materia di
+      riordino delle attribuzioni dei Ministeri» (22A07447)
+    url: https://www.gazzettaufficiale.it/eli/id/2023/01/04/22A07447/SG
+    archive_url: https://web.archive.org/web/20240811101627/https://www.gazzettaufficiale.it/eli/gu/2023/01/04/3/sg/pdf
+    lang: it
+    published: 2023-01-04
+    accessed: 2026-07-27
+    quote: |-
+      Art. 1.
+      Modifiche all’articolo 2 del decreto legislativo 30 luglio 1999, n. 300
+      1. All’articolo 2, comma 1, del decreto legislativo 30 luglio 1999, n. 300, sono apportate le seguenti modificazioni:
+      a) il numero 6) è sostituito dal seguente: «6) Ministero delle imprese e del made in Italy»;
+      b) il numero 7) è sostituito dal seguente: «7) Ministero dell’agricoltura, della sovranità alimentare e delle foreste»;
+      c) il numero 8) è sostituito dal seguente: «8) Ministero dell’ambiente e della sicurezza energetica»;
+      d) il numero 9) è sostituito dal seguente: «9) Ministero delle infrastrutture e dei trasporti»;
+      e) il numero 11) è sostituito dal seguente: «11) Ministero dell’istruzione e del merito».
+    note: >-
+      The amendment behind the consolidated text cited above, and the tier-1 authority for
+      the five current names that differ from the appointment decree of 21 October 2022.
+      Cited by exactly those five ministries. The renamings are pure redenominations: each
+      article of the decree states that the existing ministry "assume la denominazione di"
+      the new name, so no ministry was created or abolished and the entities are not split
+      with valid_from / valid_to. As with the other Gazzetta Ufficiale citations,
+      archive_url points at the archived PDF of the whole issue (Serie generale n. 3 of
+      4 January 2023) because the act page itself renders the text in an uncaptured iframe;
+      the quoted text appears verbatim on page 82.
+
+  - id: gu-dpcm-2022-10-23-incarichi-senza-portafoglio
+    tier: 1
+    type: official_gazette
+    publisher: Gazzetta Ufficiale della Repubblica Italiana
+    title: >-
+      Decreto del Presidente del Consiglio dei Ministri 23 ottobre 2022, Conferimento di
+      incarichi ai Ministri senza portafoglio (22A06178)
+    url: https://www.gazzettaufficiale.it/eli/id/2022/10/25/22A06178/sg
+    archive_url: https://web.archive.org/web/20240424162113/https://www.gazzettaufficiale.it/eli/gu/2022/10/25/250/sg/pdf
+    lang: it
+    published: 2022-10-25
+    accessed: 2026-07-27
+    quote: |-
+      Ai sottoelencati Ministri senza portafoglio sono conferiti i seguenti incarichi:
+      al sen. Luca CIRIANI i rapporti con il Parlamento;
+      al sen. Paolo ZANGRILLO la pubblica amministrazione;
+      al sen. Roberto CALDEROLI gli affari regionali e le autonomie;
+      al sen. Sebastiano MUSUMECI, detto Nello, le politiche del mare e il Sud;
+      all’on. Raffaele FITTO gli affari europei, le politiche di coesione e il PNRR;
+      al dott. Andrea ABODI lo sport e i giovani;
+      all’on. Eugenia Maria ROCCELLA la famiglia, la natalità e le pari opportunità;
+      alla dott.ssa Alessandra LOCATELLI le disabilità;
+      alla sen. Maria Elisabetta ALBERTI CASELLATI le riforme istituzionali.
+    note: >-
+      The decree that gave each minister without portfolio a subject-matter delegation, and
+      therefore the nine posts their titles. It is the "provvedimento da pubblicarsi nella
+      Gazzetta Ufficiale" that article 9(1) of legge 400/1988 requires. Cited by all nine
+      such entities as the origin of the post; three of the nine have since been re-conferred
+      or retitled by later decrees, which are cited alongside on those entities. archive_url
+      is the archived PDF of the whole issue (Serie generale n. 250 of 25 October 2022),
+      where the quoted text appears verbatim on page 3.
+
+  - id: gu-dpcm-2022-11-10-musumeci
+    tier: 1
+    type: official_gazette
+    publisher: Gazzetta Ufficiale della Repubblica Italiana
+    title: >-
+      Decreto del Presidente del Consiglio dei Ministri 10 novembre 2022, Conferimento
+      dell'incarico per la protezione civile e le politiche del mare al Ministro senza
+      portafoglio sen. Sebastiano MUSUMECI, detto Nello (22A06599)
+    url: https://www.gazzettaufficiale.it/eli/id/2022/11/16/22A06599/sg
+    archive_url: https://web.archive.org/web/20240811101614/https://www.gazzettaufficiale.it/eli/gu/2022/11/16/268/sg/pdf
+    lang: it
+    published: 2022-11-16
+    accessed: 2026-07-27
+    quote: >-
+      Al Ministro senza portafoglio sen. Sebastiano MUSUMECI, detto Nello, è conferito il
+      seguente incarico: la protezione civile e le politiche del mare.
+    note: >-
+      Redefines the delegation conferred on 23 October 2022 ("le politiche del mare e il
+      Sud"): the decree's preamble says the President of the Council considered it necessary
+      "di dover ridefinire l'incarico", civil protection was added and "il Sud" was moved to
+      the European affairs portfolio by a companion decree of the same date. This is the
+      authority for the current title of that post. archive_url is the archived PDF of the
+      whole issue (Serie generale n. 268 of 16 November 2022), where the quoted text appears
+      verbatim on page 9.
+
+  - id: gu-dpcm-2022-11-10-casellati
+    tier: 1
+    type: official_gazette
+    publisher: Gazzetta Ufficiale della Repubblica Italiana
+    title: >-
+      Decreto del Presidente del Consiglio dei Ministri 10 novembre 2022, Conferimento
+      dell'incarico per le riforme istituzionali e la semplificazione normativa al Ministro
+      senza portafoglio sen. Maria Elisabetta ALBERTI CASELLATI (22A06589)
+    url: https://www.gazzettaufficiale.it/eli/id/2022/11/16/22A06589/sg
+    archive_url: https://web.archive.org/web/20240811101614/https://www.gazzettaufficiale.it/eli/gu/2022/11/16/268/sg/pdf
+    lang: it
+    published: 2022-11-16
+    accessed: 2026-07-27
+    quote: >-
+      Al Ministro senza portafoglio sen. Maria Elisabetta ALBERTI CASELLATI, è conferito il
+      seguente incarico: le riforme istituzionali e la semplificazione normativa.
+    note: >-
+      Extends the delegation conferred on 23 October 2022 ("le riforme istituzionali") by
+      adding regulatory simplification, and is therefore the authority for the current title
+      of that post. archive_url is the archived PDF of the whole issue (Serie generale n. 268
+      of 16 November 2022), where the quoted text appears verbatim across pages 8 and 9.
+
+  - id: gu-dpcm-2024-12-03-foti
+    tier: 1
+    type: official_gazette
+    publisher: Gazzetta Ufficiale della Repubblica Italiana
+    title: >-
+      Decreto del Presidente del Consiglio dei Ministri 3 dicembre 2024, Conferimento
+      dell'incarico per gli affari europei, il PNRR e le politiche di coesione al Ministro
+      senza portafoglio on. Tommaso FOTI (24A06502)
+    url: https://www.gazzettaufficiale.it/eli/id/2024/12/03/24A06502/SG
+    archive_url: https://web.archive.org/web/20250913114418/https://www.gazzettaufficiale.it/eli/gu/2024/12/03/283/sg/pdf
+    lang: it
+    published: 2024-12-03
+    accessed: 2026-07-27
+    quote: >-
+      Al Ministro senza portafoglio on. Tommaso FOTI è conferito il seguente incarico: per
+      gli affari europei, il PNRR e le politiche di coesione.
+    note: >-
+      The European affairs post changed hands in December 2024 and was retitled at the same
+      time: the delegation dropped "il Sud", which the decree of 10 November 2022 had added,
+      and re-ordered the remaining subjects. This is the authority for the current title.
+      The post itself is continuous — one of the nine created on 23 October 2022 — so it is
+      recorded as one entity rather than closed and reopened; the change was to the
+      officeholder and to the wording of a personal delegation, and this dataset records
+      structure rather than officeholders. archive_url is the archived PDF of the whole issue
+      (Serie generale n. 283 of 3 December 2024), where the quoted text appears verbatim on
+      page 35.
+
+  - id: gu-dpr-2022-10-23-vicepresidenti
+    tier: 1
+    type: official_gazette
+    publisher: Gazzetta Ufficiale della Repubblica Italiana
+    title: >-
+      Decreto del Presidente della Repubblica 23 ottobre 2022, Attribuzione delle funzioni
+      di Vicepresidente del Consiglio dei ministri al Ministro degli affari esteri e della
+      cooperazione internazionale on. Antonio TAJANI e al Ministro delle infrastrutture e
+      della mobilità sostenibili sen. Matteo SALVINI (22A06177)
+    url: https://www.gazzettaufficiale.it/eli/id/2022/10/25/22A06177/sg
+    archive_url: https://web.archive.org/web/20240424162113/https://www.gazzettaufficiale.it/eli/gu/2022/10/25/250/sg/pdf
+    lang: it
+    published: 2022-10-25
+    accessed: 2026-07-27
+    quote: >-
+      Al Ministro degli affari esteri e della cooperazione internazionale on. Antonio TAJANI
+      e al Ministro delle infrastrutture e della mobilità sostenibili sen. Matteo SALVINI
+      sono attribuite le funzioni di Vicepresidente del Consiglio dei ministri.
+    note: >-
+      Cited by the two ministries whose heads also hold the vice-presidency. The decree
+      "attribuisce le funzioni" to two serving ministers rather than creating an office, so
+      the vice-presidency adds neither a department nor a cabinet seat and each minister is
+      counted once through his ministry. archive_url is the archived PDF of the whole issue
+      (Serie generale n. 250 of 25 October 2022), where the quoted text appears verbatim on
+      page 3.
+
+  - id: gu-dpr-2022-10-23-mantovano
+    tier: 1
+    type: official_gazette
+    publisher: Gazzetta Ufficiale della Repubblica Italiana
+    title: >-
+      Decreto del Presidente della Repubblica 23 ottobre 2022, Nomina a Sottosegretario di
+      Stato alla Presidenza del Consiglio dei ministri, con le funzioni di Segretario del
+      Consiglio medesimo, del dott. Alfredo MANTOVANO (22A06176)
+    url: https://www.gazzettaufficiale.it/eli/id/2022/10/25/22A06176/sg
+    archive_url: https://web.archive.org/web/20240424162113/https://www.gazzettaufficiale.it/eli/gu/2022/10/25/250/sg/pdf
+    lang: it
+    published: 2022-10-25
+    accessed: 2026-07-27
+    quote: >-
+      Il dott. Alfredo Mantovano è nominato Sottosegretario di Stato alla Presidenza del
+      Consiglio dei ministri, con le funzioni di Segretario del Consiglio medesimo.
+    note: >-
+      Cited by the one junior office this file records, to make explicit where the boundary
+      of the cabinet is drawn. The post is a sottosegretariato, not a ministry, and its
+      holder is not a member of the Council of Ministers under article 92 of the
+      Constitution. archive_url is the archived PDF of the whole issue (Serie generale n. 250
+      of 25 October 2022), where the quoted text appears verbatim on page 2.
+
+  - id: normattiva-costituzione-art92
+    tier: 1
+    type: statute
+    publisher: Normattiva - Istituto Poligrafico e Zecca dello Stato
+    title: Costituzione della Repubblica Italiana - articolo 92
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:costituzione:1947-12-27~art92
+    archive_url: https://web.archive.org/web/20260116212414/https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:costituzione:1947-12-27~art92
+    lang: it
+    published: 1947-12-27
+    accessed: 2026-07-27
+    quote: >-
+      Il Governo della Repubblica è composto del Presidente del Consiglio e dei ministri,
+      che costituiscono insieme il Consiglio dei ministri.
+    note: >-
+      The constitutional definition of the cabinet, and therefore the reason the President
+      of the Council holds a seat without a department while an under-secretary holds
+      neither. It is what makes cabinet_seats_count 25 while ministries_count is 15 a matter
+      of Italian constitutional law rather than of our interpretation.
+
+  - id: normattiva-legge-400-1988-art9
+    tier: 1
+    type: statute
+    publisher: Normattiva - Istituto Poligrafico e Zecca dello Stato
+    title: >-
+      Legge 23 agosto 1988, n. 400, Disciplina dell'attività di Governo e ordinamento della
+      Presidenza del Consiglio dei Ministri - articolo 9 (Ministri senza portafoglio,
+      incarichi speciali di Governo, incarichi di reggenza ad interim), testo consolidato
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1988-08-23;400~art9
+    archive_url: https://web.archive.org/web/20251116163422/https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1988-08-23;400~art9
+    lang: it
+    published: 1988-09-12
+    accessed: 2026-07-27
+    quote: >-
+      All'atto della costituzione del Governo, il Presidente della Repubblica, su proposta
+      del Presidente del Consiglio dei ministri, può nominare, presso la Presidenza del
+      Consiglio dei ministri, ministri senza portafoglio, i quali svolgono le funzioni loro
+      delegate dal Presidente del Consiglio dei ministri sentito il Consiglio dei ministri,
+      con provvedimento da pubblicarsi nella Gazzetta Ufficiale.
+    note: >-
+      The statutory basis for excluding ministers without portfolio from the ministry count.
+      "Presso la Presidenza del Consiglio dei ministri" is the operative phrase: they sit
+      inside the Prime Minister's office and exercise delegated functions, so they have
+      ministerial rank and a cabinet seat but no administrative department of their own.
+      Cited by all nine.
+
+  - id: normattiva-legge-400-1988-art4
+    tier: 1
+    type: statute
+    publisher: Normattiva - Istituto Poligrafico e Zecca dello Stato
+    title: >-
+      Legge 23 agosto 1988, n. 400 - articolo 4 (Convocazione, sedute e regolamento interno
+      del Consiglio dei ministri), testo consolidato
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1988-08-23;400~art4
+    archive_url: "https://web.archive.org/web/20260727184401/https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=1988-09-12&atto.codiceRedazionale=088G0458&atto.articolo.numero=4&atto.articolo.sottoArticolo=1&atto.articolo.sottoArticolo1=10&tipoDettaglio=multivigenza&qId=&tabID=0.1&title=lbl.risultatoRicerca"
+    lang: it
+    published: 1988-09-12
+    accessed: 2026-07-27
+    quote: >-
+      Il sottosegretario di Stato alla Presidenza del Consiglio dei ministri, designato nel
+      decreto di nomina, è il segretario del Consiglio ed esercita le relative funzioni; cura
+      la verbalizzazione e la conservazione del registro delle deliberazioni.
+    note: >-
+      Cited to justify recording the Secretary of the Council of Ministers while giving him
+      no cabinet seat: the statute gives him a function at every meeting, but article 92 of
+      the Constitution confines membership to the President of the Council and the ministers.
+      As with the other Normattiva citation, the URN resolver cannot be captured by a web
+      archive, so archive_url is a snapshot taken on the access date of Normattiva's
+      equivalent article view of the same article, carrying the identical consolidated text.
+
+  - id: governo-ministri-e-sottosegretari
+    tier: 2
+    type: government_website
+    publisher: Governo Italiano - Presidenza del Consiglio dei Ministri
+    title: Vice Presidenti, Ministri e Sottosegretari
+    url: https://www.governo.it/it/ministri-e-sottosegretari
+    archive_url: https://web.archive.org/web/20260713193402/https://www.governo.it/it/ministri-e-sottosegretari
+    lang: it
+    published: null
+    accessed: 2026-07-27
+    quote: |-
+      Ministri Senza Portafoglio
+      Ministro per i Rapporti con il Parlamento
+      Ministro per la Pubblica Amministrazione
+      Ministro per gli Affari regionali e le Autonomie
+      Ministro per la Protezione civile e le Politiche del Mare
+      Ministro per lo Sport e i Giovani
+      Ministro per la Famiglia, la Natalità e le Pari opportunità
+      Ministro per le Riforme istituzionali e la Semplificazione normativa
+      Ministro per le disabilità
+      Ministro per gli Affari europei, il PNRR e le Politiche di coesione
+    note: >-
+      The government's own roster, cited as the currency check: it establishes that the nine
+      ministers without portfolio, the fifteen ministries and the Presidency were all still
+      in place shortly before the access date. The quote reproduces the nine headings of the
+      page's "Ministri Senza Portafoglio" section in the page's own order and wording; the
+      officeholders' names and their under-secretaries, which appear interleaved between the
+      headings on the page, are omitted from the excerpt. This page also lists the two
+      Vice Presidenti, both of them serving ministers, and six under-secretaries at the
+      Presidency of the Council. Note that a second official page,
+      https://www.governo.it/it/i-ministeri-0, still carries the pre-December-2024 title
+      "Affari europei, Sud, Politiche di Coesione e PNRR" and several superseded ministry
+      domain names; where the two disagree this file follows the tier-1 decrees, and this
+      page only for the current titles they confirm. The newest snapshot is from 13 July 2026;
+      the entity names use the lower-case style of the Gazzetta Ufficiale decrees rather than
+      this page's title case.
+
+  - id: governo-governo-meloni
+    tier: 2
+    type: government_website
+    publisher: Governo Italiano - Presidenza del Consiglio dei Ministri
+    title: Governo Meloni - I Governi dal 1943 a oggi
+    url: https://www.governo.it/it/i-governi-dal-1943-ad-oggi/governo-meloni/20727
+    archive_url: https://web.archive.org/web/20260608065702/https://www.governo.it/it/i-governi-dal-1943-ad-oggi/governo-meloni/20727
+    lang: it
+    published: null
+    accessed: 2026-07-27
+    quote: |-
+      Governo Meloni (dal 22 ottobre 2022)
+      XIX Legislatura
+      Presidente del Consiglio dei Ministri
+      Giorgia Meloni
+    note: >-
+      The source for took_office. The ministers were appointed by decree of 21 October 2022
+      but the government took office on being sworn in the following day, which is the date
+      the government's own register of administrations gives, and hence the date in
+      cabinet_id. The entry carries no end date, which is the basis for left_office: null.
+
+# Entities 1 to 15 are the ministeri enumerated in article 2(1) of D.lgs. 300/1999, in the
+# statute's own order. Entities 16 to 24 are the ministri senza portafoglio, in the order of
+# the decree of 23 October 2022. Entities 25 and 26 are recorded and not counted.
+entities:
+  - id: IT-2022-affari-esteri
+    order: 1
+    name_original: Ministero degli affari esteri e della cooperazione internazionale
+    abbreviation_original: null
+    name_en: Ministry of Foreign Affairs and International Cooperation
+    name_es: Ministerio de Asuntos Exteriores y de la Cooperación Internacional
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [foreign_affairs, development_cooperation]
+    counts_as_ministry: true
+    url: https://www.esteri.it
+    sources: [normattiva-dlgs-300-1999-art2, gu-dpr-2022-10-21-nomina-ministri, gu-dpr-2022-10-23-vicepresidenti]
+    note:
+      en: >-
+        Its head also holds the functions of Vice-President of the Council of Ministers. That
+        is a personal attribution to a serving minister, not a department, so it adds neither
+        a ministry nor a cabinet seat. European affairs are not tagged here: they belong to a
+        minister without portfolio, which is why Italy has no counted ministry covering them.
+      es: >-
+        Su titular ostenta además las funciones de vicepresidente del Consejo de Ministros.
+        Es una atribución personal a un ministro en ejercicio, no un departamento, por lo que
+        no añade ni ministerio ni asiento en el gabinete. Los asuntos europeos no se etiquetan
+        aquí: corresponden a un ministro sin cartera, y por eso Italia no tiene ningún
+        ministerio contado que los cubra.
+
+  - id: IT-2022-interno
+    order: 2
+    name_original: Ministero dell'interno
+    abbreviation_original: null
+    name_en: Ministry of the Interior
+    name_es: Ministerio del Interior
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [interior, migration]
+    counts_as_ministry: true
+    url: https://www.interno.gov.it
+    sources: [normattiva-dlgs-300-1999-art2, gu-dpr-2022-10-21-nomina-ministri]
+    note:
+      en: >-
+        Tagged with migration because immigration and asylum are a primary competence of this
+        ministry in Italy, not of a separate department. Civil protection is deliberately not
+        tagged here: it sits with a minister without portfolio and the corresponding
+        department of the Presidency of the Council.
+      es: >-
+        Se etiqueta con migración porque la inmigración y el asilo son competencia principal
+        de este ministerio en Italia y no de un departamento aparte. La protección civil no se
+        etiqueta aquí de forma deliberada: corresponde a un ministro sin cartera y al
+        departamento correspondiente de la Presidencia del Consejo.
+
+  - id: IT-2022-giustizia
+    order: 3
+    name_original: Ministero della giustizia
+    abbreviation_original: null
+    name_en: Ministry of Justice
+    name_es: Ministerio de Justicia
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [justice]
+    counts_as_ministry: true
+    url: https://www.giustizia.it
+    sources: [normattiva-dlgs-300-1999-art2, gu-dpr-2022-10-21-nomina-ministri]
+
+  - id: IT-2022-difesa
+    order: 4
+    name_original: Ministero della difesa
+    abbreviation_original: null
+    name_en: Ministry of Defence
+    name_es: Ministerio de Defensa
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [defence]
+    counts_as_ministry: true
+    url: https://www.difesa.it
+    sources: [normattiva-dlgs-300-1999-art2, gu-dpr-2022-10-21-nomina-ministri]
+
+  - id: IT-2022-economia-finanze
+    order: 5
+    name_original: Ministero dell'economia e delle finanze
+    abbreviation_original: null
+    name_en: Ministry of Economy and Finance
+    name_es: Ministerio de Economía y Hacienda
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [economy, finance, budget, state_assets]
+    counts_as_ministry: true
+    url: https://www.mef.gov.it
+    sources: [normattiva-dlgs-300-1999-art2, gu-dpr-2022-10-21-nomina-ministri]
+    note:
+      en: >-
+        A single department covering ground that several countries split: economic policy,
+        the treasury and taxation, the state budget, and the state's shareholdings in public
+        companies. Tagged with all four areas for that reason, which is why Italy shows no
+        separate budget or state-assets ministry.
+      es: >-
+        Un solo departamento que abarca terreno que otros países reparten: política
+        económica, tesoro y fiscalidad, presupuesto del Estado y participaciones estatales en
+        empresas públicas. Por eso se etiqueta con las cuatro áreas, y por eso Italia no
+        presenta un ministerio de presupuesto ni de patrimonio estatal separados.
+
+  - id: IT-2022-imprese-made-in-italy
+    order: 6
+    name_original: Ministero delle imprese e del made in Italy
+    abbreviation_original: null
+    name_en: Ministry of Enterprises and Made in Italy
+    name_es: Ministerio de Empresas y del Made in Italy
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [industry, small_business, trade, telecommunications]
+    counts_as_ministry: true
+    url: https://www.mimit.gov.it
+    sources: [normattiva-dlgs-300-1999-art2, gu-dl-173-2022-testo-coordinato, gu-dpr-2022-10-21-nomina-ministri]
+    note:
+      en: >-
+        Renamed from "Ministero dello sviluppo economico" by decreto-legge 173/2022, which
+        states that the existing ministry "assume la denominazione di" the new name. Same body,
+        new name, so it is one entity. It retains the communications department, hence the
+        telecommunications tag.
+      es: >-
+        Renombrado desde «Ministero dello sviluppo economico» por el decreto-legge 173/2022,
+        que dispone que el ministerio existente «assume la denominazione di» el nuevo nombre.
+        Mismo órgano, nuevo nombre, de modo que es una sola entidad. Conserva el departamento
+        de comunicaciones, de ahí la etiqueta de telecomunicaciones.
+
+  - id: IT-2022-agricoltura
+    order: 7
+    name_original: Ministero dell'agricoltura, della sovranità alimentare e delle foreste
+    abbreviation_original: null
+    name_en: Ministry of Agriculture, Food Sovereignty and Forestry
+    name_es: Ministerio de Agricultura, Soberanía Alimentaria y Bosques
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [agriculture, food_safety, forestry, fisheries]
+    counts_as_ministry: true
+    url: https://www.masaf.gov.it
+    sources: [normattiva-dlgs-300-1999-art2, gu-dl-173-2022-testo-coordinato, gu-dpr-2022-10-21-nomina-ministri]
+    note:
+      en: >-
+        Renamed from "Ministero delle politiche agricole alimentari e forestali" by
+        decreto-legge 173/2022. Fisheries is tagged although the name does not mention it,
+        because the ministry holds the sea-fisheries department; "sovranità alimentare" is
+        rendered here through the food area rather than translated into a policy category of
+        its own.
+      es: >-
+        Renombrado desde «Ministero delle politiche agricole alimentari e forestali» por el
+        decreto-legge 173/2022. La pesca se etiqueta aunque el nombre no la mencione, porque el
+        ministerio tiene el departamento de pesca marítima; «sovranità alimentare» se recoge
+        aquí mediante el área de alimentación y no como categoría propia.
+
+  - id: IT-2022-ambiente-sicurezza-energetica
+    order: 8
+    name_original: Ministero dell'ambiente e della sicurezza energetica
+    abbreviation_original: null
+    name_en: Ministry of the Environment and Energy Security
+    name_es: Ministerio de Medio Ambiente y Seguridad Energética
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [environment, energy, climate, water]
+    counts_as_ministry: true
+    url: https://www.mase.gov.it
+    sources: [normattiva-dlgs-300-1999-art2, gu-dl-173-2022-testo-coordinato, gu-dpr-2022-10-21-nomina-ministri]
+    note:
+      en: >-
+        Renamed from "Ministero della transizione ecologica" by decreto-legge 173/2022, which
+        also moved energy-security functions into it. It keeps the climate and water
+        directorates of its predecessor, hence those tags.
+      es: >-
+        Renombrado desde «Ministero della transizione ecologica» por el decreto-legge
+        173/2022, que además le trasladó funciones de seguridad energética. Conserva las
+        direcciones de clima y de recursos hídricos de su predecesor, de ahí esas etiquetas.
+
+  - id: IT-2022-infrastrutture-trasporti
+    order: 9
+    name_original: Ministero delle infrastrutture e dei trasporti
+    abbreviation_original: null
+    name_en: Ministry of Infrastructure and Transport
+    name_es: Ministerio de Infraestructuras y Transportes
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [infrastructure, transport, shipping]
+    counts_as_ministry: true
+    url: https://www.mit.gov.it
+    sources: [normattiva-dlgs-300-1999-art2, gu-dl-173-2022-testo-coordinato, gu-dpr-2022-10-21-nomina-ministri, gu-dpr-2022-10-23-vicepresidenti]
+    note:
+      en: >-
+        Renamed from "Ministero delle infrastrutture e della mobilità sostenibili" by
+        decreto-legge 173/2022. Its head also holds the functions of Vice-President of the
+        Council, which adds neither a ministry nor a seat. Housing is not tagged: the ministry
+        does run state and social building programmes, but the name gives them no prominence
+        and Italy has no housing ministry in the sense this taxonomy means.
+      es: >-
+        Renombrado desde «Ministero delle infrastrutture e della mobilità sostenibili» por el
+        decreto-legge 173/2022. Su titular ostenta además las funciones de vicepresidente del
+        Consejo, lo que no añade ni ministerio ni asiento. La vivienda no se etiqueta: el
+        ministerio gestiona programas de edificación estatal y social, pero el nombre no les da
+        relieve e Italia no tiene un ministerio de vivienda en el sentido de esta taxonomía.
+
+  - id: IT-2022-lavoro
+    order: 10
+    name_original: Ministero del lavoro e delle politiche sociali
+    abbreviation_original: null
+    name_en: Ministry of Labour and Social Policies
+    name_es: Ministerio de Trabajo y Políticas Sociales
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [labour, social_affairs, social_security]
+    counts_as_ministry: true
+    url: https://www.lavoro.gov.it
+    sources: [normattiva-dlgs-300-1999-art2, gu-dpr-2022-10-21-nomina-ministri]
+
+  - id: IT-2022-istruzione-merito
+    order: 11
+    name_original: Ministero dell'istruzione e del merito
+    abbreviation_original: null
+    name_en: Ministry of Education and Merit
+    name_es: Ministerio de Educación y Mérito
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [education, vocational_training]
+    counts_as_ministry: true
+    url: https://www.mim.gov.it
+    sources: [normattiva-dlgs-300-1999-art2, gu-dl-173-2022-testo-coordinato, gu-dpr-2022-10-21-nomina-ministri]
+    note:
+      en: >-
+        Renamed from "Ministero dell'istruzione" by decreto-legge 173/2022. School education
+        only: universities and research are a separate ministry, which is why Italy shows two
+        education departments rather than one.
+      es: >-
+        Renombrado desde «Ministero dell'istruzione» por el decreto-legge 173/2022. Solo
+        educación escolar: las universidades y la investigación son un ministerio aparte, y por
+        eso Italia presenta dos departamentos educativos en lugar de uno.
+
+  - id: IT-2022-universita-ricerca
+    order: 12
+    name_original: Ministero dell'università e della ricerca
+    abbreviation_original: null
+    name_en: Ministry of University and Research
+    name_es: Ministerio de Universidad e Investigación
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [higher_education, research]
+    counts_as_ministry: true
+    url: https://www.mur.gov.it
+    sources: [normattiva-dlgs-300-1999-art2, gu-dpr-2022-10-21-nomina-ministri]
+
+  - id: IT-2022-cultura
+    order: 13
+    name_original: Ministero della cultura
+    abbreviation_original: null
+    name_en: Ministry of Culture
+    name_es: Ministerio de Cultura
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [culture]
+    counts_as_ministry: true
+    url: https://www.cultura.gov.it
+    sources: [normattiva-dlgs-300-1999-art2, gu-dpr-2022-10-21-nomina-ministri]
+
+  - id: IT-2022-salute
+    order: 14
+    name_original: Ministero della salute
+    abbreviation_original: null
+    name_en: Ministry of Health
+    name_es: Ministerio de Sanidad
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [health]
+    counts_as_ministry: true
+    url: https://www.salute.gov.it
+    sources: [normattiva-dlgs-300-1999-art2, gu-dpr-2022-10-21-nomina-ministri]
+
+  - id: IT-2022-turismo
+    order: 15
+    name_original: Ministero del turismo
+    abbreviation_original: null
+    name_en: Ministry of Tourism
+    name_es: Ministerio de Turismo
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [tourism]
+    counts_as_ministry: true
+    url: https://www.ministeroturismo.gov.it
+    sources: [normattiva-dlgs-300-1999-art2, gu-dpr-2022-10-21-nomina-ministri]
+    note:
+      en: >-
+        The department changed minister on 3 April 2026, when a new minister was sworn in after
+        the previous one resigned. The department itself was unaffected, and this dataset
+        records departments rather than officeholders, so the entity is not split.
+      es: >-
+        El departamento cambió de ministro el 3 de abril de 2026, cuando juró un nuevo titular
+        tras la renuncia del anterior. El departamento no se vio afectado y este conjunto de
+        datos registra departamentos y no titulares, por lo que la entidad no se desdobla.
+
+  # --- ministri senza portafoglio: recorded, not counted -------------------------
+  - id: IT-2022-rapporti-parlamento
+    order: 16
+    name_original: Ministro per i rapporti con il Parlamento
+    abbreviation_original: null
+    name_en: Minister for Relations with Parliament
+    name_es: Ministro para las Relaciones con el Parlamento
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro senza portafoglio
+    head_title_en: Minister without portfolio
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    url: https://www.rapportiparlamento.gov.it
+    sources: [normattiva-legge-400-1988-art9, gu-dpr-2022-10-21-nomina-ministri, gu-dpcm-2022-10-23-incarichi-senza-portafoglio, governo-ministri-e-sottosegretari]
+    note:
+      en: >-
+        Ministerial rank and a seat in the Council of Ministers, but no ministry: the holder
+        heads a department of the Presidency of the Council. Parliamentary relations therefore
+        have no counted ministry in Italy, unlike Spain, where they are part of a full
+        department.
+      es: >-
+        Rango ministerial y asiento en el Consejo de Ministros, pero ningún ministerio: su
+        titular encabeza un departamento de la Presidencia del Consejo. Las relaciones con el
+        Parlamento no tienen, por tanto, ministerio contado en Italia, a diferencia de España,
+        donde forman parte de un departamento completo.
+
+  - id: IT-2022-pubblica-amministrazione
+    order: 17
+    name_original: Ministro per la pubblica amministrazione
+    abbreviation_original: null
+    name_en: Minister for Public Administration
+    name_es: Ministro para la Función Pública
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro senza portafoglio
+    head_title_en: Minister without portfolio
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    url: https://www.funzionepubblica.gov.it
+    sources: [normattiva-legge-400-1988-art9, gu-dpr-2022-10-21-nomina-ministri, gu-dpcm-2022-10-23-incarichi-senza-portafoglio, governo-ministri-e-sottosegretari]
+    note:
+      en: >-
+        Not counted: the civil-service portfolio is a delegation inside the Presidency of the
+        Council, exercised through its Dipartimento della funzione pubblica, not a ministry. So
+        Italy has no counted ministry for public administration.
+      es: >-
+        No se cuenta: la cartera de función pública es una delegación dentro de la Presidencia
+        del Consejo, ejercida a través de su Dipartimento della funzione pubblica, y no un
+        ministerio. Italia no tiene, por tanto, ministerio contado de función pública.
+
+  - id: IT-2022-affari-regionali
+    order: 18
+    name_original: Ministro per gli affari regionali e le autonomie
+    abbreviation_original: null
+    name_en: Minister for Regional Affairs and Autonomies
+    name_es: Ministro para los Asuntos Regionales y las Autonomías
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro senza portafoglio
+    head_title_en: Minister without portfolio
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    url: https://www.affariregionali.it
+    sources: [normattiva-legge-400-1988-art9, gu-dpr-2022-10-21-nomina-ministri, gu-dpcm-2022-10-23-incarichi-senza-portafoglio, governo-ministri-e-sottosegretari]
+    note:
+      en: >-
+        Not counted. Italy's relations with the regions are handled by a delegated minister at
+        the Presidency of the Council rather than by a territorial-administration ministry, so
+        Italy has no counted ministry in that area.
+      es: >-
+        No se cuenta. Las relaciones de Italia con las regiones las gestiona un ministro
+        delegado en la Presidencia del Consejo y no un ministerio de administración
+        territorial, de modo que Italia no tiene ministerio contado en esa área.
+
+  - id: IT-2022-protezione-civile-mare
+    order: 19
+    name_original: Ministro per la protezione civile e le politiche del mare
+    abbreviation_original: null
+    name_en: Minister for Civil Protection and Maritime Policy
+    name_es: Ministro para la Protección Civil y las Políticas del Mar
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro senza portafoglio
+    head_title_en: Minister without portfolio
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    url: https://www.ministroprotezionecivileemare.gov.it
+    sources: [normattiva-legge-400-1988-art9, gu-dpr-2022-10-21-nomina-ministri, gu-dpcm-2022-10-23-incarichi-senza-portafoglio, gu-dpcm-2022-11-10-musumeci, governo-ministri-e-sottosegretari]
+    note:
+      en: >-
+        Not counted. The original delegation of 23 October 2022 was "le politiche del mare e il
+        Sud"; the decree of 10 November 2022 redefined it as civil protection and maritime
+        policy, moving "il Sud" to the European affairs portfolio. Both decrees are cited. The
+        holder directs the Dipartimento della protezione civile of the Presidency of the
+        Council, which is why civil protection is not tagged on the Ministry of the Interior.
+      es: >-
+        No se cuenta. La delegación original del 23 de octubre de 2022 era «le politiche del
+        mare e il Sud»; el decreto del 10 de noviembre de 2022 la redefinió como protección
+        civil y políticas del mar, trasladando «il Sud» a la cartera de asuntos europeos. Se
+        citan ambos decretos. Su titular dirige el Dipartimento della protezione civile de la
+        Presidencia del Consejo, y por eso la protección civil no se etiqueta en el Ministerio
+        del Interior.
+
+  - id: IT-2022-affari-europei-pnrr-coesione
+    order: 20
+    name_original: Ministro per gli affari europei, il PNRR e le politiche di coesione
+    abbreviation_original: null
+    name_en: Minister for European Affairs, the NRRP and Cohesion Policy
+    name_es: Ministro para los Asuntos Europeos, el PNRR y las Políticas de Cohesión
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro senza portafoglio
+    head_title_en: Minister without portfolio
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    url: https://www.affarieuropei.gov.it
+    sources: [normattiva-legge-400-1988-art9, gu-dpr-2022-10-21-nomina-ministri, gu-dpcm-2022-10-23-incarichi-senza-portafoglio, gu-dpcm-2024-12-03-foti, governo-ministri-e-sottosegretari]
+    note:
+      en: >-
+        Not counted, and the post whose title moved most during the term: conferred on
+        23 October 2022 as European affairs, cohesion policy and the NRRP; extended with "il
+        Sud" on 10 November 2022; re-conferred on a different holder on 3 December 2024 without
+        "il Sud" and in the present wording. All three stages are cited. This is why Italy shows
+        no counted ministry for European affairs, regional development or the recovery funds:
+        all three sit with a delegated minister at the Presidency of the Council. PNRR is the
+        Piano nazionale di ripresa e resilienza, Italy's national recovery and resilience plan.
+      es: >-
+        No se cuenta, y es el puesto cuyo título más se movió en la legislatura: conferido el
+        23 de octubre de 2022 como asuntos europeos, políticas de cohesión y PNRR; ampliado con
+        «il Sud» el 10 de noviembre de 2022; vuelto a conferir a otro titular el 3 de diciembre
+        de 2024 sin «il Sud» y con la redacción actual. Se citan las tres fases. Por eso Italia
+        no presenta ministerio contado de asuntos europeos, desarrollo regional ni fondos de
+        recuperación: los tres corresponden a un ministro delegado en la Presidencia del
+        Consejo. PNRR es el Piano nazionale di ripresa e resilienza, el plan nacional italiano
+        de recuperación y resiliencia.
+
+  - id: IT-2022-sport-giovani
+    order: 21
+    name_original: Ministro per lo sport e i giovani
+    abbreviation_original: null
+    name_en: Minister for Sport and Youth
+    name_es: Ministro para el Deporte y la Juventud
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro senza portafoglio
+    head_title_en: Minister without portfolio
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    url: https://www.sportegiovani.governo.it
+    sources: [normattiva-legge-400-1988-art9, gu-dpr-2022-10-21-nomina-ministri, gu-dpcm-2022-10-23-incarichi-senza-portafoglio, governo-ministri-e-sottosegretari]
+    note:
+      en: >-
+        Not counted. Sport and youth policy sit with a delegated minister at the Presidency of
+        the Council, so Italy has no counted ministry for either — a contrast with Spain, where
+        sport is part of the education department.
+      es: >-
+        No se cuenta. El deporte y las políticas de juventud corresponden a un ministro
+        delegado en la Presidencia del Consejo, de modo que Italia no tiene ministerio contado
+        para ninguno de los dos, a diferencia de España, donde el deporte forma parte del
+        departamento de educación.
+
+  - id: IT-2022-famiglia-natalita
+    order: 22
+    name_original: Ministro per la famiglia, la natalità e le pari opportunità
+    abbreviation_original: null
+    name_en: Minister for Family, Birth Rate and Equal Opportunities
+    name_es: Ministro para la Familia, la Natalidad y la Igualdad de Oportunidades
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro senza portafoglio
+    head_title_en: Minister without portfolio
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    url: https://www.famiglia.governo.it
+    sources: [normattiva-legge-400-1988-art9, gu-dpr-2022-10-21-nomina-ministri, gu-dpcm-2022-10-23-incarichi-senza-portafoglio, governo-ministri-e-sottosegretari]
+    note:
+      en: >-
+        Not counted. Family, birth-rate and equal-opportunities policy is a delegation inside
+        the Presidency of the Council, which is why Italy shows no counted ministry for family
+        or for equality.
+      es: >-
+        No se cuenta. Las políticas de familia, natalidad e igualdad de oportunidades son una
+        delegación dentro de la Presidencia del Consejo, y por eso Italia no presenta
+        ministerio contado de familia ni de igualdad.
+
+  - id: IT-2022-disabilita
+    order: 23
+    name_original: Ministro per le disabilità
+    abbreviation_original: null
+    name_en: Minister for Disabilities
+    name_es: Ministro para las Discapacidades
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro senza portafoglio
+    head_title_en: Minister without portfolio
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    url: https://www.disabilita.governo.it
+    sources: [normattiva-legge-400-1988-art9, gu-dpr-2022-10-21-nomina-ministri, gu-dpcm-2022-10-23-incarichi-senza-portafoglio, governo-ministri-e-sottosegretari]
+    note:
+      en: >-
+        Not counted: a delegated portfolio at the Presidency of the Council, with no ministry
+        and no budget of its own.
+      es: >-
+        No se cuenta: cartera delegada en la Presidencia del Consejo, sin ministerio ni
+        presupuesto propios.
+
+  - id: IT-2022-riforme-istituzionali
+    order: 24
+    name_original: Ministro per le riforme istituzionali e la semplificazione normativa
+    abbreviation_original: null
+    name_en: Minister for Institutional Reforms and Regulatory Simplification
+    name_es: Ministro para las Reformas Institucionales y la Simplificación Normativa
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro senza portafoglio
+    head_title_en: Minister without portfolio
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    url: https://www.riformeistituzionali.gov.it
+    sources: [normattiva-legge-400-1988-art9, gu-dpr-2022-10-21-nomina-ministri, gu-dpcm-2022-10-23-incarichi-senza-portafoglio, gu-dpcm-2022-11-10-casellati, governo-ministri-e-sottosegretari]
+    note:
+      en: >-
+        Not counted. Conferred on 23 October 2022 as institutional reforms alone and extended
+        with regulatory simplification on 10 November 2022; both decrees are cited. The ninth
+        and last of the ministers without portfolio, which is what makes the Council of
+        Ministers ten seats larger than the list of ministries.
+      es: >-
+        No se cuenta. Conferida el 23 de octubre de 2022 solo como reformas institucionales y
+        ampliada con la simplificación normativa el 10 de noviembre de 2022; se citan ambos
+        decretos. Es el noveno y último de los ministros sin cartera, y eso es lo que hace que
+        el Consejo de Ministros tenga diez asientos más que la lista de ministerios.
+
+  # --- other bodies recorded, not counted ----------------------------------------
+  - id: IT-2022-presidenza-consiglio
+    order: 25
+    name_original: Presidenza del Consiglio dei Ministri
+    abbreviation_original: null
+    name_en: Presidency of the Council of Ministers
+    name_es: Presidencia del Consejo de Ministros
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Presidente del Consiglio dei ministri
+    head_title_en: President of the Council of Ministers
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: head_of_government_office
+    url: https://www.governo.it
+    sources: [normattiva-costituzione-art92, governo-ministri-e-sottosegretari, governo-governo-meloni]
+    note:
+      en: >-
+        Not a ministry: article 2 of decreto legislativo 300/1999 does not list it, it holds no
+        portfolio, and it is constituted by a separate statute (decreto legislativo 303/1999).
+        It is recorded because article 92 of the Constitution makes its holder a member of the
+        Council of Ministers, which is what makes the cabinet 25 people and the government 15
+        departments. The nine ministers without portfolio also sit administratively within this
+        body; they are recorded separately above and are not double-counted here.
+      es: >-
+        No es un ministerio: el artículo 2 del decreto legislativo 300/1999 no la enumera, no
+        tiene cartera y se constituye por una norma distinta (decreto legislativo 303/1999). Se
+        registra porque el artículo 92 de la Constitución hace de su titular un miembro del
+        Consejo de Ministros, y eso es lo que hace que el gabinete sean 25 personas y el
+        gobierno 15 departamentos. Los nueve ministros sin cartera se encuadran también
+        administrativamente en este órgano; se registran por separado más arriba y no se
+        cuentan aquí dos veces.
+
+  - id: IT-2022-segretario-consiglio-ministri
+    order: 26
+    name_original: >-
+      Sottosegretario di Stato alla Presidenza del Consiglio dei ministri, con le funzioni di
+      Segretario del Consiglio dei ministri
+    abbreviation_original: null
+    name_en: >-
+      Under-Secretary of State to the Presidency of the Council of Ministers, Secretary of the
+      Council of Ministers
+    name_es: >-
+      Subsecretario de Estado de la Presidencia del Consejo de Ministros, Secretario del Consejo
+      de Ministros
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Sottosegretario di Stato
+    head_title_en: Under-Secretary of State
+    has_cabinet_seat: false
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: junior_minister_or_state_secretary
+    url: https://www.governo.it
+    sources: [normattiva-legge-400-1988-art4, gu-dpr-2022-10-23-mantovano, governo-ministri-e-sottosegretari]
+    note:
+      en: >-
+        Recorded to show where the edge of the cabinet is drawn, and the only junior office in
+        this file. Article 4(2) of legge 400/1988 makes this under-secretary the Secretary of
+        the Council of Ministers, so he attends every meeting and keeps its minutes, but article
+        92 of the Constitution confines membership to the President of the Council and the
+        ministers — hence no cabinet seat. Sources that report Italy's cabinet as 26 people are
+        counting him. The roughly forty other under-secretaries and vice-ministers work inside
+        an existing department and are not enumerated here.
+      es: >-
+        Se registra para mostrar dónde se traza el límite del gabinete, y es el único cargo
+        subordinado de este fichero. El artículo 4.2 de la legge 400/1988 hace de este
+        subsecretario el secretario del Consejo de Ministros, de modo que asiste a todas las
+        reuniones y levanta acta, pero el artículo 92 de la Constitución limita la pertenencia
+        al presidente del Consejo y a los ministros; de ahí que no tenga asiento. Las fuentes
+        que cifran el gabinete italiano en 26 personas lo están contando. Los cerca de cuarenta
+        subsecretarios y viceministros restantes trabajan dentro de un departamento existente y
+        no se enumeran aquí.

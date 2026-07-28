@@ -1,0 +1,130 @@
+---
+import '../styles/tokens.css';
+import { assertParity, localePath, otherLocale, translator, type Locale } from '../i18n/index.ts';
+
+interface Props {
+  locale: Locale;
+  title: string;
+  description?: string;
+}
+
+const { locale, title, description } = Astro.props;
+
+// A missing translation fails the build rather than shipping a bare key to a reader.
+assertParity();
+
+const t = translator(locale);
+const other = otherLocale(locale);
+---
+
+<!doctype html>
+<html lang={locale}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title === t('site.title') ? title : `${title} — ${t('site.title')}`}</title>
+    {description ? <meta name="description" content={description} /> : null}
+    <link rel="alternate" hreflang={other} href={localePath(other)} />
+    <script is:inline>
+      // Stamped before first paint so a dark-mode reader never sees a light flash.
+      const stored = localStorage.getItem('theme');
+      if (stored === 'light' || stored === 'dark') {
+        document.documentElement.dataset.theme = stored;
+      }
+    </script>
+  </head>
+  <body>
+    <header class="site-head">
+      <div class="wide site-head-inner">
+        <a class="site-brand" href={localePath(locale)}>{t('site.title')}</a>
+        <nav class="site-nav" aria-label={t('nav.home')}>
+          <a href={localePath(locale, 'countries')}>{t('nav.countries')}</a>
+          <a href={localePath(locale, 'methodology')}>{t('nav.methodology')}</a>
+          <a href={localePath(locale, 'data-quality')}>{t('nav.dataQuality')}</a>
+          <a href={localePath(other)} lang={other}>{other === 'es' ? 'Español' : 'English'}</a>
+          <button type="button" id="theme-toggle" class="site-theme" aria-label="Toggle theme">◐</button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="site-foot">
+      <div class="wide">
+        <p>
+          {t('site.tagline')}. <a href="/data/ministries.json">{t('nav.download')}</a>
+        </p>
+      </div>
+    </footer>
+
+    <script is:inline>
+      document.getElementById('theme-toggle')?.addEventListener('click', () => {
+        const root = document.documentElement;
+        const isDark =
+          root.dataset.theme === 'dark' ||
+          (!root.dataset.theme && matchMedia('(prefers-color-scheme: dark)').matches);
+        const next = isDark ? 'light' : 'dark';
+        root.dataset.theme = next;
+        localStorage.setItem('theme', next);
+      });
+    </script>
+
+    <style>
+      .site-head {
+        border-bottom: 1px solid var(--border);
+        background: var(--surface-1);
+      }
+
+      .site-head-inner {
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--space-4);
+        align-items: baseline;
+        justify-content: space-between;
+        padding-block: var(--space-4);
+      }
+
+      .site-brand {
+        font-family: var(--font-serif);
+        font-size: var(--text-xl);
+        font-weight: 600;
+        color: var(--text-primary);
+        text-decoration: none;
+      }
+
+      .site-nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--space-4);
+        align-items: center;
+        font-family: var(--font-sans);
+        font-size: var(--text-sm);
+      }
+
+      .site-theme {
+        appearance: none;
+        background: none;
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        color: var(--text-secondary);
+        cursor: pointer;
+        font-size: var(--text-sm);
+        padding: 2px var(--space-2);
+      }
+
+      main {
+        padding-block: var(--space-8);
+      }
+
+      .site-foot {
+        border-top: 1px solid var(--border);
+        padding-block: var(--space-5);
+        font-family: var(--font-sans);
+        font-size: var(--text-sm);
+        color: var(--text-secondary);
+      }
+    </style>
+  </body>
+</html>

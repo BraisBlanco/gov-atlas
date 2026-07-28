@@ -1,0 +1,1266 @@
+# Luxembourg — structure of the Frieden government.
+#
+# Read docs/DATA-CONTRACT.md alongside this file. Five Luxembourg-specific things to know:
+#
+#   1. Luxembourg has a genuinely clean tier-1 enumeration of its ministries, but it is no
+#      longer in an "arrêté grand-ducal portant constitution des Ministères". Since the
+#      revised Constitution came into force on 1 July 2023, the list lives in annexe A of
+#      the règlement interne du Gouvernement, which is itself published in the Journal
+#      officiel. Article 4 of that règlement says so in as many words.
+#   2. There are markedly more ministries than ministers. Twenty ministries, fifteen people.
+#      Six ministers hold two or three ministries each, and those are recorded with
+#      shared_head_with so that one person is one cabinet seat however many departments
+#      they run.
+#   3. One ministry has two ministers, which is the mirror image of the same problem. The
+#      Ministère des Affaires étrangères et européennes, de la Défense, de la Coopération et
+#      du Commerce extérieur is a single ministry in annexe A, but annexe B splits it into a
+#      foreign-affairs section and a defence section, and the two are held by different
+#      people. It therefore carries head_count: 2.
+#   4. Ministerial titles and ministries are different lists. The competences decree confers
+#      twenty-seven distinct mandates on those fifteen people; several of them
+#      ("Ministre de la Protection des consommateurs", "Ministre de la Défense") name a
+#      section of a ministry rather than a ministry.
+#   5. The Ministère d'État is the Prime Minister's own department and is not counted, which
+#      is why the derived figure is 19 and not 20. Both figures are given below.
+
+country: LU
+cabinet_id: LU-2023-11-17
+
+cabinet_name_original: Gouvernement Frieden
+cabinet_name_en: Frieden government
+cabinet_name_es: Gobierno Frieden
+
+head_of_government_title_original: Premier ministre
+head_of_government_title_en: Prime Minister
+
+took_office: 2023-11-17
+left_office: null
+
+methodology_notes:
+  - en: >-
+      Luxembourg is counted here as having 19 ministries and 15 cabinet seats, and the two
+      numbers answer different questions. Annexe A of the règlement interne du Gouvernement
+      enumerates 20 ministries; the Ministère d'État, the Prime Minister's own department, is
+      recorded but not counted, which leaves 19. The 15 seats are the 15 people the
+      competences decree of 17 November 2023, as amended, appoints to the government. The gap
+      of four between 19 and 15 is not an error in either figure: it is what happens when one
+      minister runs several departments.
+    es: >-
+      Luxemburgo se cuenta aquí con 19 ministerios y 15 asientos en el gabinete, y las dos
+      cifras responden a preguntas distintas. El anexo A del règlement interne du
+      Gouvernement enumera 20 ministerios; el Ministère d'État, el departamento propio del
+      primer ministro, se registra pero no se cuenta, lo que deja 19. Los 15 asientos son las
+      15 personas que el arreté de competencias de 17 de noviembre de 2023, en su versión
+      modificada, nombra miembros del Gobierno. La diferencia de cuatro entre 19 y 15 no es un
+      error de ninguna de las dos cifras: es lo que ocurre cuando un ministro dirige varios
+      departamentos.
+  - en: >-
+      Why the ministries and the ministers are not merged into one number. Luxembourg keeps
+      two separate legal instruments, and this dataset keeps them separate too. Annexe A of
+      the règlement interne du Gouvernement says which departments exist; the arrêté
+      grand-ducal portant attribution des compétences ministérielles says who runs them. Six
+      of the fifteen ministers hold more than one ministry: Yuriko Backes holds three
+      (Defence within the foreign-affairs ministry, Gender Equality and Diversity, Mobility
+      and Public Works), and Martine Hansen, Claude Meisch, Stéphanie Obertin, Serge Wilmes
+      and — counting her two delegated mandates — Elisabeth Margue hold two or three each.
+      Collapsing the two lists into a single "number of ministries" would either lose four
+      real departments or invent four ministers who do not exist. Each pairing is recorded
+      with shared_head_with, so the seat count is a count of people and the ministry count is
+      a count of departments.
+    es: >-
+      Por qué no se fusionan los ministerios y los ministros en una sola cifra. Luxemburgo
+      mantiene dos instrumentos jurídicos separados, y este conjunto de datos los mantiene
+      separados también. El anexo A del règlement interne du Gouvernement dice qué
+      departamentos existen; el arrêté grand-ducal portant attribution des compétences
+      ministérielles dice quién los dirige. Seis de los quince ministros ostentan más de un
+      ministerio: Yuriko Backes ostenta tres (Defensa, dentro del ministerio de Exteriores,
+      Igualdad de Géneros y Diversidad, y Movilidad y Obras Públicas), y Martine Hansen,
+      Claude Meisch, Stéphanie Obertin, Serge Wilmes y —contando sus dos mandatos delegados—
+      Elisabeth Margue ostentan dos o tres cada uno. Refundir las dos listas en un único
+      «número de ministerios» perdería cuatro departamentos reales o inventaría cuatro
+      ministros inexistentes. Cada emparejamiento se registra con shared_head_with, de modo
+      que el recuento de asientos cuenta personas y el de ministerios cuenta departamentos.
+  - en: >-
+      The Ministère d'État, and both resulting figures. Annexe A lists the Ministère d'État
+      as ministry number 1, and article 8 of the règlement interne provides that the Prime
+      Minister directs it, so Luxembourg law does constitute the head of government's office
+      as a ministry. This dataset nevertheless excludes it, under the default in
+      METHODOLOGY.md that the office of the head of government is the apex of the cabinet
+      rather than a portfolio department, and the count is therefore 19. Read the other way —
+      counting every entry in the legal enumeration — Luxembourg has 20 ministries. Both
+      figures are defensible and the choice is the project's, not Luxembourg's. The exclusion
+      is a closer call here than in most countries, because the Ministère d'État is not a
+      bare chancellery: annexe B gives it substantive portfolios including media, electronic
+      communications, space, data protection, relations with religious communities, the
+      intelligence service and national security co-ordination.
+    es: >-
+      El Ministère d'État y las dos cifras resultantes. El anexo A enumera el Ministère
+      d'État como ministerio número 1, y el artículo 8 del règlement interne dispone que lo
+      dirige el primer ministro, de modo que el derecho luxemburgués sí constituye la oficina
+      del jefe de gobierno como ministerio. Este conjunto de datos lo excluye de todos modos,
+      conforme al criterio por defecto de METHODOLOGY.md según el cual la oficina del jefe de
+      gobierno es la cúspide del gabinete y no un departamento con cartera, y por eso la cifra
+      es 19. Leído del otro modo —contando todas las entradas de la enumeración legal—
+      Luxemburgo tiene 20 ministerios. Ambas cifras son defendibles y la elección es del
+      proyecto, no de Luxemburgo. La exclusión es aquí más discutible que en la mayoría de los
+      países, porque el Ministère d'État no es una cancillería desnuda: el anexo B le atribuye
+      carteras sustantivas como los medios, las comunicaciones electrónicas, el espacio, la
+      protección de datos, las relaciones con las comunidades religiosas, el servicio de
+      inteligencia y la coordinación de la seguridad nacional.
+  - en: >-
+      Where the enumerating instrument moved to, and why that matters for anyone checking
+      this file. Until 2022 Luxembourg published an "arrêté grand-ducal portant constitution
+      des Ministères" whose article 1 listed the departments; the last one is dated 22 August
+      2022 and ceased to have effect on 1 July 2023, when the revised Constitution came into
+      force. Since then the same two lists are annexes A and B of the règlement interne du
+      Gouvernement, approved by arrêté grand-ducal and published in the Journal officiel.
+      A curator searching Legilux for "constitution des Ministères" will find nothing after
+      2022 and may wrongly conclude that Luxembourg has stopped enumerating its ministries.
+    es: >-
+      Dónde ha ido a parar el instrumento que enumera los ministerios, y por qué importa a
+      quien quiera comprobar este fichero. Hasta 2022 Luxemburgo publicaba un «arrêté
+      grand-ducal portant constitution des Ministères» cuyo artículo 1 enumeraba los
+      departamentos; el último es de 22 de agosto de 2022 y dejó de surtir efecto el 1 de
+      julio de 2023, al entrar en vigor la Constitución revisada. Desde entonces esas dos
+      mismas listas son los anexos A y B del règlement interne du Gouvernement, aprobado por
+      arrêté grand-ducal y publicado en el Journal officiel. Quien busque en Legilux
+      «constitution des Ministères» no encontrará nada posterior a 2022 y podría concluir
+      erróneamente que Luxemburgo ha dejado de enumerar sus ministerios.
+  - en: >-
+      One ministry, two ministers. The Ministère des Affaires étrangères et européennes, de
+      la Défense, de la Coopération et du Commerce extérieur is a single ministry in annexe
+      A, but annexe B divides it into "I. Affaires étrangères et européennes, Coopération,
+      Commerce extérieur et Grande Région" and "II. Défense", and the competences decree
+      gives the first to Xavier Bettel and the second to Yuriko Backes. It is recorded as one
+      ministry with head_count: 2, and linked to Backes's two other ministries, so that the
+      seat arithmetic yields two people — Bettel and Backes — for this group rather than one.
+      This is the only entity in the file with head_count above 1, and the reason is not
+      co-ministers of equal rank over the whole department but two ministers with distinct
+      statutory sections of it.
+    es: >-
+      Un ministerio, dos ministros. El Ministère des Affaires étrangères et européennes, de
+      la Défense, de la Coopération et du Commerce extérieur es un único ministerio en el
+      anexo A, pero el anexo B lo divide en «I. Affaires étrangères et européennes,
+      Coopération, Commerce extérieur et Grande Région» y «II. Défense», y el arrêté de
+      competencias da la primera sección a Xavier Bettel y la segunda a Yuriko Backes. Se
+      registra como un ministerio con head_count: 2, vinculado a los otros dos ministerios de
+      Backes, para que la aritmética de asientos dé dos personas —Bettel y Backes— en este
+      grupo y no una. Es la única entidad del fichero con head_count mayor que 1, y la razón
+      no son co-ministros de igual rango sobre todo el departamento, sino dos ministros con
+      secciones estatutarias distintas del mismo.
+  - en: >-
+      Ministerial titles are not ministries, and Luxembourg has far more of the former. As
+      amended, article 1 of the competences decree confers 27 distinct mandates on 15 people,
+      counting "Premier ministre" and "Vice-Premier ministre". Several of those mandates name
+      a section of a ministry rather than a ministry: "Ministre de la Défense" is section II
+      of the foreign-affairs ministry, "Ministre de la Protection des consommateurs" is
+      section II of the agriculture ministry, and "Ministre de l'Économie, des PME, de
+      l'Énergie et du Tourisme" is the whole of the four-section Ministère de l'Économie. A
+      reader counting the "Ministre de ..." titles on the government's own composition page
+      will therefore arrive at a much larger number than 19, without either source being
+      wrong. This file counts departments named in annexe A.
+    es: >-
+      Los títulos ministeriales no son ministerios, y Luxemburgo tiene muchos más de los
+      primeros. En su versión modificada, el artículo 1 del arrêté de competencias confiere 27
+      mandatos distintos a 15 personas, contando «Premier ministre» y «Vice-Premier ministre».
+      Varios de esos mandatos nombran una sección de un ministerio y no un ministerio:
+      «Ministre de la Défense» es la sección II del ministerio de Exteriores, «Ministre de la
+      Protection des consommateurs» es la sección II del de Agricultura, y «Ministre de
+      l'Économie, des PME, de l'Énergie et du Tourisme» es la totalidad del Ministère de
+      l'Économie, que tiene cuatro secciones. Quien cuente los títulos «Ministre de …» en la
+      página de composición del propio Gobierno llegará por tanto a una cifra muy superior a
+      19, sin que ninguna de las dos fuentes se equivoque. Este fichero cuenta departamentos
+      nombrados en el anexo A.
+  - en: >-
+      Three official languages, and why the names here are French. Luxembourgish is the
+      national language and Luxembourgish, French and German are all official under the loi
+      du 24 février 1984 sur le régime des langues, but that same law makes French the
+      language in which legislation is drafted, and the Journal officiel publishes the
+      règlement interne and the competences decree in French only. There is no authentic
+      Luxembourgish or German text of the list of ministries to record, so unlike Belgium —
+      where two language versions of the same decree are equally authentic — this file has
+      only one original language to put in name_original, and no parallel-language note is
+      possible for the entities.
+    es: >-
+      Tres lenguas oficiales, y por qué los nombres aquí están en francés. El luxemburgués es
+      la lengua nacional y el luxemburgués, el francés y el alemán son todos oficiales según
+      la loi du 24 février 1984 sur le régime des langues, pero esa misma ley hace del francés
+      la lengua en que se redacta la legislación, y el Journal officiel publica el règlement
+      interne y el arrêté de competencias únicamente en francés. No existe un texto auténtico
+      en luxemburgués o en alemán de la lista de ministerios que registrar, de modo que, a
+      diferencia de Bélgica —donde dos versiones lingüísticas del mismo decreto son igualmente
+      auténticas—, este fichero sólo tiene una lengua original que poner en name_original, y
+      no cabe una nota de lengua paralela en las entidades.
+  - en: >-
+      The English names are the government's own. Unusually for this dataset, gouvernement.lu
+      publishes an English edition that names the ministries themselves, not merely the
+      ministers, and its list matches annexe A one for one and in the same order. Every
+      counted ministry therefore carries name_en_provenance: official. The Spanish names are
+      the project's own translations.
+    es: >-
+      Los nombres en inglés son del propio Gobierno. Cosa inusual en este conjunto de datos,
+      gouvernement.lu publica una edición en inglés que nombra los ministerios mismos, y no
+      sólo a los ministros, y su lista coincide uno a uno y en el mismo orden con el anexo A.
+      Por eso todos los ministerios contados llevan name_en_provenance: official. Los nombres
+      en español son traducciones del proyecto.
+  - en: >-
+      The perimeter. This is a central-government file and Luxembourg has no regional tier,
+      so nothing is excluded as subnational; the country's 100 communes are local authorities
+      supervised by the Ministère des Affaires intérieures and are out of scope. This
+      government has no secrétaires d'État at all, which article 2 of the règlement interne
+      expressly allows for but which the competences decree does not appoint, so nothing is
+      excluded on state-secretary grounds. What is excluded, besides the Ministère d'État, is
+      three delegated ministerial mandates — two held by Elisabeth Margue inside the Ministère
+      d'État and one held by Eric Thill inside the Ministère de l'Économie — which are
+      competences within another minister's department rather than departments of their own.
+      The Grand Duke, as head of state, is not part of the government and is not recorded.
+    es: >-
+      El perímetro. Este es un fichero de gobierno central y Luxemburgo no tiene nivel
+      regional, así que nada se excluye por subnacional; las 100 comunas del país son
+      entidades locales tuteladas por el Ministère des Affaires intérieures y quedan fuera de
+      alcance. Este gobierno no tiene ningún secrétaire d'État, figura que el artículo 2 del
+      règlement interne prevé expresamente pero que el arrêté de competencias no nombra, de
+      modo que nada se excluye por ser cargo subalterno de ese tipo. Lo que sí se excluye,
+      además del Ministère d'État, son tres mandatos ministeriales delegados —dos de Elisabeth
+      Margue dentro del Ministère d'État y uno de Eric Thill dentro del Ministère de
+      l'Économie—, que son competencias dentro del departamento de otro ministro y no
+      departamentos propios. El Gran Duque, como jefe del Estado, no forma parte del Gobierno
+      y no se registra.
+  - en: >-
+      A reshuffle, not a new cabinet. The government took office on 17 November 2023 and is
+      still the sitting one, but its distribution of portfolios has changed twice. An arrêté
+      of 13 December 2023 split Xavier Bettel's single foreign-affairs mandate in two and gave
+      Martine Hansen consumer protection, and an arrêté of 11 December 2025 removed Georges
+      Mischo from the government, made Marc Spautz Minister of Labour and moved Sport to
+      Martine Hansen. Neither changed annexe A, so the 20 ministries have been the same
+      throughout and no entity carries valid_from or valid_to; what changed is who heads
+      them, which this dataset records only through the shared-head groupings. A reader
+      reconstructing the cabinet as it stood in 2024 should expect a different set of
+      shared-head pairs, not a different set of ministries.
+    es: >-
+      Una remodelación, no un gabinete nuevo. El gobierno tomó posesión el 17 de noviembre de
+      2023 y sigue siendo el vigente, pero su reparto de carteras ha cambiado dos veces. Un
+      arrêté de 13 de diciembre de 2023 dividió en dos el mandato único de Exteriores de
+      Xavier Bettel y dio a Martine Hansen la protección de los consumidores, y un arrêté de
+      11 de diciembre de 2025 sacó a Georges Mischo del gobierno, hizo a Marc Spautz ministro
+      de Trabajo y pasó Deportes a Martine Hansen. Ninguno modificó el anexo A, de modo que
+      los 20 ministerios han sido los mismos todo el tiempo y ninguna entidad lleva valid_from
+      ni valid_to; lo que cambió es quién los encabeza, y eso este conjunto de datos sólo lo
+      recoge a través de los grupos de titular compartido. Quien reconstruya el gabinete tal
+      como estaba en 2024 debe esperar un conjunto distinto de parejas de titular compartido,
+      no un conjunto distinto de ministerios.
+
+sources:
+  - id: lu-jo-ri-2023-annexe-a
+    tier: 1
+    type: official_gazette
+    publisher: Journal officiel du Grand-Duché de Luxembourg
+    title: >-
+      Règlement interne du Gouvernement, annexe A – Énumération des Ministères (approuvé par
+      arrêté grand-ducal du 27 novembre 2023, Journal officiel A n° 779 du 27 novembre 2023)
+    url: https://data.legilux.public.lu/filestore/eli/etat/leg/ri/2023/11/27/a779/jo/fr/html/eli-etat-leg-ri-2023-11-27-a779-jo-fr-html.html
+    archive_url: https://web.archive.org/web/20260728115534/https://data.legilux.public.lu/filestore/eli/etat/leg/ri/2023/11/27/a779/jo/fr/html/eli-etat-leg-ri-2023-11-27-a779-jo-fr-html.html
+    lang: fr
+    published: 2023-11-27
+    accessed: 2026-07-28
+    quote: |-
+      Annexe A – Énumération des Ministères
+      Article unique.
+      Les Ministères portent la dénomination suivante :
+      1. Ministère d’État ;
+      2. Ministère des Affaires étrangères et européennes, de la Défense, de la Coopération et du Commerce extérieur ;
+      3. Ministère des Affaires intérieures ;
+      4. Ministère de l’Agriculture, de l’Alimentation et de la Viticulture ;
+      5. Ministère de la Culture ;
+      6. Ministère de la Digitalisation ;
+      7. Ministère de l’Économie ;
+      8. Ministère de l’Éducation nationale, de l’Enfance et de la Jeunesse ;
+      9. Ministère de l’Égalité des genres et de la Diversité ;
+      10. Ministère de l’Environnement, du Climat et de la Biodiversité ;
+      11. Ministère de la Famille, des Solidarités, du Vivre ensemble et de l’Accueil ;
+      12. Ministère des Finances ;
+      13. Ministère de la Fonction publique ;
+      14. Ministère de la Justice ;
+      15. Ministère du Logement et de l’Aménagement du territoire ;
+      16. Ministère de la Mobilité et des Travaux publics ;
+      17. Ministère de la Recherche et de l’Enseignement supérieur ;
+      18. Ministère de la Santé et de la Sécurité sociale ;
+      19. Ministère des Sports ;
+      20. Ministère du Travail.
+    note: >-
+      The tier-1 enumeration, quoted in full, and the instrument that fixes the order of the
+      first twenty entities below. This is the successor to the former "arrêté grand-ducal
+      portant constitution des Ministères": since the revised Constitution came into force on
+      1 July 2023 the list is annexe A of the règlement interne du Gouvernement, which
+      article 4 of that règlement identifies as the place where "l'énumération et la
+      constitution des ministères" are fixed. The text is current: the règlement has been
+      amended twice, by the modification of 25 October 2024 (which touched annexes B, C, D
+      and E) and by that of 15 April 2026 (annexe E only), and neither altered annexe A, so
+      no consolidated version differs from this original publication. Its canonical
+      identifier is the ELI
+      https://legilux.public.lu/eli/etat/leg/ri/2023/11/27/a779/jo; the url recorded here is
+      the JO's own HTML rendering of the same text, which is the form the web archive
+      captured, and which states that it is identical to the PDF.
+
+  - id: lu-jo-ri-2023-organisation
+    tier: 1
+    type: official_gazette
+    publisher: Journal officiel du Grand-Duché de Luxembourg
+    title: >-
+      Règlement interne du Gouvernement, articles 2, 4 et 8 (approuvé par arrêté grand-ducal
+      du 27 novembre 2023, Journal officiel A n° 779 du 27 novembre 2023)
+    url: https://data.legilux.public.lu/filestore/eli/etat/leg/ri/2023/11/27/a779/jo/fr/html/eli-etat-leg-ri-2023-11-27-a779-jo-fr-html.html
+    archive_url: https://web.archive.org/web/20260728115534/https://data.legilux.public.lu/filestore/eli/etat/leg/ri/2023/11/27/a779/jo/fr/html/eli-etat-leg-ri-2023-11-27-a779-jo-fr-html.html
+    lang: fr
+    published: 2023-11-27
+    accessed: 2026-07-28
+    quote: |-
+      Le Gouvernement se compose d’un Premier ministre, d’un ou de plusieurs Vice-premiers ministres, de ministres et, le cas échéant, d’un ou de plusieurs ministres délégués et secrétaires d’État.
+      Le ministre délégué dispose d’une compétence propre dans le domaine d’un département ministériel qu’il s’est vu attribuer par voie d’arrêté grand-ducal.
+      Chaque membre du Gouvernement a la direction d’un ou de plusieurs départements ministériels et exerce, relativement aux affaires de son département, les attributions que la Constitution, les lois et les règlements lui confèrent. L’énumération et la constitution des ministères sont fixées dans l’annexe A, respectivement l’annexe B du présent règlement.
+      Il dirige le Ministère d’État.
+    note: >-
+      The same instrument as the entry above, cited separately because it supports different
+      claims and a claim deserves the sentence that carries it. The fragments are articles 2
+      (composition of the government, and the definition of a ministre délégué as holding a
+      competence of his own inside another minister's department), 4 (each member directs one
+      or more départements ministériels, and the annexes that list them) and 8 (the Prime
+      Minister directs the Ministère d'État). Together these are why the Ministère d'État is
+      treated as the head of government's office, why one person can hold several ministries
+      without holding several seats, and why the three delegated mandates are not
+      departments. Quoted in document order; the four fragments are not contiguous in the
+      original.
+
+  - id: lu-jo-agd-2023-11-17-competences
+    tier: 1
+    type: official_gazette
+    publisher: Journal officiel du Grand-Duché de Luxembourg
+    title: >-
+      Arrêté grand-ducal du 17 novembre 2023 portant attribution des compétences
+      ministérielles (Journal officiel A n° 743 du 17 novembre 2023)
+    url: https://data.legilux.public.lu/filestore/eli/etat/leg/agd/2023/11/17/a743/jo/fr/html/eli-etat-leg-agd-2023-11-17-a743-jo-fr-html.html
+    archive_url: https://web.archive.org/web/20260728115619/https://data.legilux.public.lu/filestore/eli/etat/leg/agd/2023/11/17/a743/jo/fr/html/eli-etat-leg-agd-2023-11-17-a743-jo-fr-html.html
+    lang: fr
+    published: 2023-11-17
+    accessed: 2026-07-28
+    quote: |-
+      Art. 1er.
+      Les compétences ministérielles sont attribuées comme suit :
+      - Monsieur Luc FRIEDEN : Premier ministre ;
+      - Monsieur Xavier BETTEL : Vice-Premier ministre ; Ministre des Affaires étrangères et européennes, de la Coopération, du Commerce extérieur et à la Grande Région ;
+      - Madame Martine HANSEN : Ministre de l’Agriculture, de l’Alimentation et de la Viticulture ;
+      - Monsieur Claude MEISCH : Ministre de l’Éducation nationale, de l’Enfance et de la Jeunesse ; Ministre du Logement et de l’Aménagement du territoire ;
+      - Monsieur Lex DELLES : Ministre de l’Économie, des PME, de l’Énergie et du Tourisme ;
+      - Madame Yuriko BACKES : Ministre de la Défense ; Ministre de l’Égalité des genres et de la Diversité ; Ministre de la Mobilité et des Travaux publics ;
+      - Monsieur Max HAHN : Ministre de la Famille, des Solidarités, du Vivre ensemble et de l’Accueil ;
+      - Monsieur Gilles ROTH : Ministre des Finances ;
+      - Madame Martine DEPREZ : Ministre de la Santé et de la Sécurité sociale ;
+      - Monsieur Léon GLODEN : Ministre des Affaires intérieures ;
+      - Madame Stéphanie OBERTIN : Ministre de la Digitalisation ; Ministre de la Recherche et de l’Enseignement supérieur ;
+      - Monsieur Georges MISCHO : Ministre des Sports ; Ministre du Travail ;
+      - Monsieur Serge WILMES : Ministre de l’Environnement, du Climat et de la Biodiversité ; Ministre de la Fonction publique ;
+      - Madame Elisabeth MARGUE : Ministre de la Justice ; Ministre déléguée auprès du Premier ministre, chargée des Médias et des Communications ; Ministre déléguée auprès du Premier ministre, chargée des Relations avec le Parlement ;
+      - Monsieur Eric THILL : Ministre de la Culture ; Ministre délégué au Tourisme.
+    note: >-
+      The instrument that says who runs which ministry, quoted in full, and the source of
+      every shared-head pairing recorded below. Article 3 provides that it takes effect on
+      17 November 2023, which is this cabinet's took_office; the same day, a separate arrêté
+      (Journal officiel A n° 741) appointed Luc Frieden Prime Minister. Two provisions of
+      this article 1 have since been replaced and the quote is the text as first published,
+      not as it stands today: read it with the two amending arrêtés cited below, which is
+      what the entities follow. Legilux publishes no consolidated version of this arrêté.
+
+  - id: lu-jo-agd-2023-12-13-competences-modif
+    tier: 1
+    type: official_gazette
+    publisher: Journal officiel du Grand-Duché de Luxembourg
+    title: >-
+      Arrêté grand-ducal du 13 décembre 2023 portant modification de l’arrêté grand-ducal du
+      17 novembre 2023 portant attribution des compétences ministérielles (Journal officiel
+      A n° 804 du 13 décembre 2023)
+    url: https://data.legilux.public.lu/filestore/eli/etat/leg/agd/2023/12/13/a804/jo/fr/html/eli-etat-leg-agd-2023-12-13-a804-jo-fr-html.html
+    archive_url: https://web.archive.org/web/20260728115718/https://data.legilux.public.lu/filestore/eli/etat/leg/agd/2023/12/13/a804/jo/fr/html/eli-etat-leg-agd-2023-12-13-a804-jo-fr-html.html
+    lang: fr
+    published: 2023-12-13
+    accessed: 2026-07-28
+    quote: |-
+      1° Le deuxième tiret prend la teneur suivante :
+      « Monsieur Xavier BETTEL : Vice-Premier ministre ; Ministre des Affaires étrangères et du Commerce extérieur ; Ministre de la Coopération et de l’Action humanitaire ; » ;
+      2° Le troisième tiret prend la teneur suivante :
+      « Madame Martine HANSEN : Ministre de l’Agriculture, de l’Alimentation et de la Viticulture ; Ministre de la Protection des consommateurs ; » ;
+      3° Le quatorzième tiret prend la teneur suivante :
+      « Madame Elisabeth MARGUE : Ministre de la Justice ; Ministre déléguée auprès du Premier ministre, chargée des Médias et de la Connectivité ; Ministre déléguée auprès du Premier ministre, chargée des Relations avec le Parlement ; ».
+    note: >-
+      The first of the two amendments to the competences decree, in force from the day of
+      publication. It matters to three entities: it splits Xavier Bettel's single
+      foreign-affairs mandate into two, adds consumer protection to Martine Hansen — the
+      section of the agriculture ministry that annexe B calls "II. Protection des
+      consommateurs" — and renames one of Elisabeth Margue's delegated mandates from "Médias
+      et des Communications" to "Médias et de la Connectivité". It creates no ministry:
+      annexe A is untouched.
+
+  - id: lu-jo-agd-2025-12-11-competences-modif
+    tier: 1
+    type: official_gazette
+    publisher: Journal officiel du Grand-Duché de Luxembourg
+    title: >-
+      Arrêté grand-ducal du 11 décembre 2025 portant modification de l’arrêté modifié
+      grand-ducal du 17 novembre 2023 portant attribution des compétences ministérielles
+      (Journal officiel A n° 552 du 11 décembre 2025)
+    url: https://data.legilux.public.lu/filestore/eli/etat/leg/agd/2025/12/11/a552/jo/fr/html/eli-etat-leg-agd-2025-12-11-a552-jo-fr-html.html
+    archive_url: https://web.archive.org/web/20260728115846/https://data.legilux.public.lu/filestore/eli/etat/leg/agd/2025/12/11/a552/jo/fr/html/eli-etat-leg-agd-2025-12-11-a552-jo-fr-html.html
+    lang: fr
+    published: 2025-12-11
+    accessed: 2026-07-28
+    quote: |-
+      1° Le douzième tiret est supprimé ;
+      2° Après le deuxième tiret, il est inséré un troisième tiret nouveau, qui prend la teneur suivante :
+      « - Monsieur Marc SPAUTZ : Ministre du Travail ; » ;
+      3° Le troisième tiret ancien, devenu le quatrième tiret, est remplacé comme suit :
+      « - Madame Martine HANSEN : Ministre de l’Agriculture, de l’Alimentation et de la Viticulture ; Ministre de la Protection des consommateurs ; Ministre des Sports ; ».
+      Le présent arrêté entre en vigueur le jour de sa publication.
+    note: >-
+      The most recent amendment to the competences decree and the one that fixes the current
+      distribution of portfolios. Deleting the twelfth tiret removed Georges Mischo, who had
+      held Sport and Labour, from the government; Labour went to Marc Spautz as a new third
+      tiret and Sport to Martine Hansen. The government still has fifteen members and annexe
+      A still has twenty ministries, so this changed the shared-head groupings below but not
+      the count. Verified as the last such amendment in force on 28 July 2026 by querying
+      Legilux's SPARQL endpoint for every act whose title mentions "compétences
+      ministérielles"; the only later related act is an arrêté of 17 July 2026 delegating
+      signature for the Ministère de la Justice during the Minister's maternity leave in
+      August and September 2026, which changes no attribution and is not recorded here.
+
+  - id: lu-gouv-ministeres-fr
+    tier: 2
+    type: government_website
+    publisher: Le gouvernement luxembourgeois
+    title: Ministères
+    url: https://gouvernement.lu/fr/ministeres.html
+    archive_url: https://web.archive.org/web/20260715182241/https://gouvernement.lu/fr/ministeres.html
+    lang: fr
+    published: null
+    accessed: 2026-07-28
+    quote: >-
+      Ministère d'État
+    note: >-
+      The government portal's own list of ministries, which reproduces the twenty names of
+      annexe A in the same order and is the source of each entity's website. Cited as
+      corroboration of the tier-1 enumeration and of the url field, not as the enumeration
+      itself. The quote is short because the page is a link grid rather than prose; the
+      twenty names are quoted in full from the gazette in the annexe A entry above. Note that
+      the portal writes the apostrophe as a straight quote where the Journal officiel uses a
+      typographic one.
+
+  - id: lu-gouv-ministeres-en
+    tier: 2
+    type: government_website
+    publisher: The Luxembourg Government
+    title: Ministries
+    url: https://gouvernement.lu/en/ministeres.html
+    archive_url: https://web.archive.org/web/20260517183731/https://gouvernement.lu/en/ministeres.html
+    lang: en
+    published: null
+    accessed: 2026-07-28
+    quote: |-
+      Ministry of State
+      Ministry of Foreign and European Affairs, Defence, Development Cooperation and Foreign Trade
+      Ministry of Home Affairs
+      Ministry of Agriculture, Food and Viticulture
+      Ministry of Culture
+      Ministry for Digitalisation
+      Ministry of the Economy
+      Ministry of Education, Children and Youth
+      Ministry for Gender Equality and Diversity
+      Ministry of the Environment, Climate and Biodiversity
+      Ministry of Family Affairs, Solidarity, Living Together and Reception of Refugees
+      Ministry of Finance
+      Ministry of the Civil Service
+      Ministry of Justice
+      Ministry of Housing and Spatial Planning
+      Ministry of Mobility and Public Works
+      Ministry of Research and Higher Education
+      Ministry of Health and Social Security
+      Ministry of Sport
+      Ministry of Labour
+    note: >-
+      The English edition of the same portal page, and the reason every counted ministry
+      carries name_en_provenance: official. Luxembourg is one of the few countries in this
+      dataset whose government publishes English names for the ministries themselves rather
+      than only for the ministers, and the twenty names correspond one for one and in the same
+      order to annexe A. The English names of the three delegated mandates are the project's
+      own, because the portal names those in the minister's title rather than as departments.
+
+  - id: lu-gouv-composition
+    tier: 2
+    type: government_website
+    publisher: Le gouvernement luxembourgeois
+    title: Le gouvernement — composition
+    url: https://gouvernement.lu/fr/gouvernement.html
+    archive_url: https://web.archive.org/web/20260519192326/https://gouvernement.lu/fr/gouvernement.html
+    lang: fr
+    published: null
+    accessed: 2026-07-28
+    quote: |-
+      Dernière modification le 17.12.2025
+      FRIEDEN Luc
+      Premier ministre
+      BETTEL Xavier
+      Vice-Premier ministre
+      Ministre des Affaires étrangères et du Commerce extérieur
+      Ministre de la Coopération et de l'Action humanitaire
+      SPAUTZ Marc
+      Ministre du Travail
+      HANSEN Martine
+      Ministre de l'Agriculture, de l'Alimentation et de la Viticulture
+      Ministre de la Protection des consommateurs
+      Ministre des Sports
+    note: >-
+      The government's own composition page, cited to corroborate that the fifteen people the
+      amended competences decree names are the fifteen members actually in office, and in
+      particular that Marc Spautz holds Labour and Martine Hansen holds Sport after the
+      December 2025 reshuffle. The archived snapshot is from 19 May 2026 and therefore
+      postdates that reshuffle. It is used for the shared-head pairings and the delegated
+      mandates; the count itself rests on the gazette. Note that the portal writes members
+      surname-first ("SPAUTZ Marc"), which is the form reproduced here; the quotation takes
+      the page's own reading order from its last-modified line through the first four members,
+      which is as far as it needs to go to support both post-reshuffle facts. The page's
+      own "Dernière modification le 17.12.2025" is the date of the reshuffle's entry in the
+      portal, six days after the arrêté grand-ducal of 11 December 2025.
+
+entities:
+  # --- the twenty ministries of annexe A, in the gazette's own order -------------
+  - id: LU-2023-etat
+    order: 1
+    name_original: Ministère d’État
+    abbreviation_original: null
+    name_en: Ministry of State
+    name_es: Ministerio de Estado
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Premier ministre
+    head_title_en: Prime Minister
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: head_of_government_office
+    url: https://me.gouvernement.lu/fr.html
+    sources: [lu-jo-ri-2023-annexe-a, lu-jo-ri-2023-organisation, lu-jo-agd-2023-11-17-competences, lu-gouv-ministeres-fr, lu-gouv-ministeres-en]
+    note:
+      en: >-
+        The Prime Minister's own department, headed by Luc Frieden. Annexe A lists it as
+        ministry number 1 and article 8 of the règlement interne provides that the Prime
+        Minister directs it, so Luxembourg law does constitute it as a ministry; it is
+        excluded here under the project's default for the office of the head of government,
+        which is what makes the count 19 rather than 20. It is a substantial department, not
+        a bare chancellery: annexe B attaches to it the media and electronic-communications
+        portfolios, space policy and the State's shareholding in SES, data protection,
+        relations with religious communities, the intelligence service, the
+        Haut-Commissariat à la Protection nationale and relations with the Chamber of
+        Deputies. Two of Elisabeth Margue's delegated mandates sit inside it and are
+        recorded separately further down.
+      es: >-
+        El departamento propio del primer ministro, encabezado por Luc Frieden. El anexo A lo
+        enumera como ministerio número 1 y el artículo 8 del règlement interne dispone que lo
+        dirige el primer ministro, de modo que el derecho luxemburgués sí lo constituye como
+        ministerio; aquí se excluye conforme al criterio por defecto del proyecto para la
+        oficina del jefe de gobierno, y eso es lo que hace que la cifra sea 19 y no 20. Es un
+        departamento sustancial y no una cancillería desnuda: el anexo B le adscribe las
+        carteras de medios y comunicaciones electrónicas, la política espacial y la
+        participación del Estado en SES, la protección de datos, las relaciones con las
+        comunidades religiosas, el servicio de inteligencia, el Haut-Commissariat à la
+        Protection nationale y las relaciones con la Cámara de Diputados. Dos de los mandatos
+        delegados de Elisabeth Margue están dentro de él y se registran aparte más abajo.
+
+  - id: LU-2023-affaires-etrangeres
+    order: 2
+    name_original: >-
+      Ministère des Affaires étrangères et européennes, de la Défense, de la Coopération et du
+      Commerce extérieur
+    abbreviation_original: MAEE
+    name_en: >-
+      Ministry of Foreign and European Affairs, Defence, Development Cooperation and Foreign
+      Trade
+    name_es: >-
+      Ministerio de Asuntos Exteriores y Europeos, Defensa, Cooperación y Comercio Exterior
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    head_count: 2
+    shared_head_with: [LU-2023-egalite-genres, LU-2023-mobilite]
+    policy_areas: [foreign_affairs, european_affairs, defence, development_cooperation, trade]
+    counts_as_ministry: true
+    url: https://maee.gouvernement.lu/fr.html
+    sources: [lu-jo-ri-2023-annexe-a, lu-jo-agd-2023-11-17-competences, lu-jo-agd-2023-12-13-competences-modif, lu-gouv-ministeres-fr, lu-gouv-ministeres-en, lu-gouv-composition]
+    note:
+      en: >-
+        The only entity in this file with two ministers. Annexe B divides it into
+        "I. Affaires étrangères et européennes, Coopération, Commerce extérieur et Grande
+        Région", held by Xavier Bettel as Minister of Foreign Affairs and Foreign Trade and
+        Minister of Development Cooperation and Humanitarian Affairs, and "II. Défense", held
+        by Yuriko Backes as Minister of Defence. It is one ministry with head_count: 2, and it
+        is linked to Backes's two other ministries so that this group of three departments
+        resolves to two people rather than one. Bettel is also Deputy Prime Minister, a
+        personal rank that adds neither a ministry nor a seat. The ministry also runs
+        Luxembourg's relations with the Grande Région, the cross-border cooperation area, for
+        which the taxonomy has no dedicated area.
+      es: >-
+        La única entidad de este fichero con dos ministros. El anexo B lo divide en
+        «I. Affaires étrangères et européennes, Coopération, Commerce extérieur et Grande
+        Région», a cargo de Xavier Bettel como ministro de Asuntos Exteriores y Comercio
+        Exterior y ministro de Cooperación y Acción Humanitaria, y «II. Défense», a cargo de
+        Yuriko Backes como ministra de Defensa. Es un ministerio con head_count: 2, vinculado
+        a los otros dos ministerios de Backes para que este grupo de tres departamentos
+        resuelva a dos personas y no a una. Bettel es además viceprimer ministro, rango
+        personal que no añade ni ministerio ni asiento. El ministerio gestiona también las
+        relaciones con la Grande Región, el área de cooperación transfronteriza, para la que
+        la taxonomía no tiene área propia.
+
+  - id: LU-2023-affaires-interieures
+    order: 3
+    name_original: Ministère des Affaires intérieures
+    abbreviation_original: MINT
+    name_en: Ministry of Home Affairs
+    name_es: Ministerio de Asuntos Interiores
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [interior, territorial_administration, civil_protection]
+    counts_as_ministry: true
+    url: https://mint.gouvernement.lu/fr.html
+    sources: [lu-jo-ri-2023-annexe-a, lu-jo-agd-2023-11-17-competences, lu-gouv-ministeres-fr, lu-gouv-ministeres-en]
+    note:
+      en: >-
+        Held by Léon Gloden. Luxembourg's home-affairs ministry combines what many countries
+        split: the police and internal security, the rescue and fire service (CGDIS), and the
+        supervision of the 100 communes, which is why it carries territorial_administration
+        as well as interior. Immigration and asylum are not here — they sit with the family
+        and reception ministry.
+      es: >-
+        A cargo de Léon Gloden. El ministerio del Interior luxemburgués reúne lo que muchos
+        países separan: la policía y la seguridad interior, el servicio de rescate y bomberos
+        (CGDIS) y la tutela de las 100 comunas, y por eso lleva administración territorial
+        además de interior. La inmigración y el asilo no están aquí: corresponden al
+        ministerio de Familia y Acogida.
+
+  - id: LU-2023-agriculture
+    order: 4
+    name_original: Ministère de l’Agriculture, de l’Alimentation et de la Viticulture
+    abbreviation_original: MA
+    name_en: Ministry of Agriculture, Food and Viticulture
+    name_es: Ministerio de Agricultura, Alimentación y Viticultura
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    shared_head_with: [LU-2023-sports]
+    policy_areas: [agriculture, food_safety, consumer_protection, rural_development]
+    counts_as_ministry: true
+    url: https://ma.gouvernement.lu/fr.html
+    sources: [lu-jo-ri-2023-annexe-a, lu-jo-agd-2023-11-17-competences, lu-jo-agd-2023-12-13-competences-modif, lu-jo-agd-2025-12-11-competences-modif, lu-gouv-ministeres-fr, lu-gouv-ministeres-en, lu-gouv-composition]
+    note:
+      en: >-
+        Held by Martine Hansen, who also holds the Ministère des Sports — two ministries, one
+        cabinet seat. Consumer protection is tagged although the ministry's name does not
+        mention it: annexe B gives this ministry a section "II. Protection des consommateurs",
+        and the arrêté of 13 December 2023 made Hansen Minister for Consumer Protection.
+        Luxembourg had a free-standing Ministère de la Protection des consommateurs until
+        2023 and no longer does, so a reader comparing with earlier years will find one
+        ministry fewer here for that reason and not because the function disappeared.
+      es: >-
+        A cargo de Martine Hansen, que ostenta además el Ministère des Sports: dos
+        ministerios, un asiento en el gabinete. Se etiqueta protección de los consumidores
+        aunque el nombre del ministerio no la mencione: el anexo B le da una sección
+        «II. Protection des consommateurs», y el arrêté de 13 de diciembre de 2023 hizo a
+        Hansen ministra de Protección de los Consumidores. Luxemburgo tuvo un Ministère de la
+        Protection des consommateurs autónomo hasta 2023 y ya no lo tiene, así que quien
+        compare con años anteriores encontrará aquí un ministerio menos por esa razón y no
+        porque la función haya desaparecido.
+
+  - id: LU-2023-culture
+    order: 5
+    name_original: Ministère de la Culture
+    abbreviation_original: MC
+    name_en: Ministry of Culture
+    name_es: Ministerio de Cultura
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    shared_head_with: [LU-2023-tourisme-delegue]
+    policy_areas: [culture]
+    counts_as_ministry: true
+    url: https://mc.gouvernement.lu/fr.html
+    sources: [lu-jo-ri-2023-annexe-a, lu-jo-agd-2023-11-17-competences, lu-gouv-ministeres-fr, lu-gouv-ministeres-en, lu-gouv-composition]
+    note:
+      en: >-
+        Held by Eric Thill, who is also Minister Delegate for Tourism inside the Ministère de
+        l'Économie. The delegated mandate is recorded as its own entity and linked here, so
+        Thill is one seat; it is not a ministry and is not counted.
+      es: >-
+        A cargo de Eric Thill, que es además ministro delegado de Turismo dentro del Ministère
+        de l'Économie. El mandato delegado se registra como entidad propia y se vincula aquí,
+        de modo que Thill es un asiento; no es un ministerio y no se cuenta.
+
+  - id: LU-2023-digitalisation
+    order: 6
+    name_original: Ministère de la Digitalisation
+    abbreviation_original: null
+    name_en: Ministry for Digitalisation
+    name_es: Ministerio de Digitalización
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    shared_head_with: [LU-2023-recherche]
+    policy_areas: [digital, public_administration]
+    counts_as_ministry: true
+    url: https://digital.gouvernement.lu/fr.html
+    sources: [lu-jo-ri-2023-annexe-a, lu-jo-agd-2023-11-17-competences, lu-gouv-ministeres-fr, lu-gouv-ministeres-en, lu-gouv-composition]
+    note:
+      en: >-
+        Held by Stéphanie Obertin, who also holds the Ministère de la Recherche et de
+        l'Enseignement supérieur — two ministries, one cabinet seat. It is tagged with
+        public_administration as well as digital because its remit is the digitalisation of
+        the State's own administrative procedures and it runs the Centre des technologies de
+        l'information de l'État. Media, connectivity and telecommunications regulation are
+        not here: annexe B puts them in the Ministère d'État.
+      es: >-
+        A cargo de Stéphanie Obertin, que ostenta además el Ministère de la Recherche et de
+        l'Enseignement supérieur: dos ministerios, un asiento. Se etiqueta administración
+        pública además de digitalización porque su cometido es la digitalización de los
+        procedimientos administrativos del propio Estado y dirige el Centre des technologies
+        de l'information de l'État. Los medios, la conectividad y la regulación de las
+        telecomunicaciones no están aquí: el anexo B los sitúa en el Ministère d'État.
+
+  - id: LU-2023-economie
+    order: 7
+    name_original: Ministère de l’Économie
+    abbreviation_original: MECO
+    name_en: Ministry of the Economy
+    name_es: Ministerio de Economía
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [economy, energy, small_business, tourism, industry]
+    counts_as_ministry: true
+    url: https://meco.gouvernement.lu/fr.html
+    sources: [lu-jo-ri-2023-annexe-a, lu-jo-agd-2023-11-17-competences, lu-gouv-ministeres-fr, lu-gouv-ministeres-en]
+    note:
+      en: >-
+        Held by Lex Delles, whose full title is Minister of the Economy, SMEs, Energy and
+        Tourism. The ministry's name in annexe A is only "Ministère de l'Économie", but
+        annexe B constitutes it in four sections — Économie, PME, Énergie and Tourisme — and
+        the policy areas follow the constitution rather than the bare name, which is why this
+        entity carries more tags than its title would suggest. Eric Thill is Minister
+        Delegate for Tourism within it. Luxembourg has no separate energy ministry in this
+        cabinet, so energy is tagged here.
+      es: >-
+        A cargo de Lex Delles, cuyo título completo es ministro de Economía, Pymes, Energía y
+        Turismo. El nombre del ministerio en el anexo A es sólo «Ministère de l'Économie»,
+        pero el anexo B lo constituye en cuatro secciones —Économie, PME, Énergie y
+        Tourisme— y las áreas de política siguen esa constitución y no el nombre desnudo, por
+        lo que esta entidad lleva más etiquetas de las que su título sugiere. Eric Thill es
+        ministro delegado de Turismo dentro de él. Este gabinete no tiene un ministerio de
+        Energía separado, así que la energía se etiqueta aquí.
+
+  - id: LU-2023-education
+    order: 8
+    name_original: Ministère de l’Éducation nationale, de l’Enfance et de la Jeunesse
+    abbreviation_original: MENEJ
+    name_en: Ministry of Education, Children and Youth
+    name_es: Ministerio de Educación Nacional, Infancia y Juventud
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    shared_head_with: [LU-2023-logement]
+    policy_areas: [education, vocational_training, family, youth]
+    counts_as_ministry: true
+    url: https://menej.gouvernement.lu/fr.html
+    sources: [lu-jo-ri-2023-annexe-a, lu-jo-agd-2023-11-17-competences, lu-gouv-ministeres-fr, lu-gouv-ministeres-en, lu-gouv-composition]
+    note:
+      en: >-
+        Held by Claude Meisch, who also holds the Ministère du Logement et de l'Aménagement du
+        territoire — two ministries, one cabinet seat, and an unusual pairing of schools with
+        housing. Vocational training is tagged because Luxembourg's formation professionnelle
+        sits in this ministry rather than with labour; "Enfance" covers childcare and early
+        years, which is tagged as family.
+      es: >-
+        A cargo de Claude Meisch, que ostenta además el Ministère du Logement et de
+        l'Aménagement du territoire: dos ministerios, un asiento, y un emparejamiento inusual
+        de escuela con vivienda. Se etiqueta formación profesional porque la formation
+        professionnelle luxemburguesa está en este ministerio y no con trabajo; «Enfance»
+        abarca la atención a la primera infancia, etiquetada como familia.
+
+  - id: LU-2023-egalite-genres
+    order: 9
+    name_original: Ministère de l’Égalité des genres et de la Diversité
+    abbreviation_original: MEGA
+    name_en: Ministry for Gender Equality and Diversity
+    name_es: Ministerio de Igualdad de Géneros y Diversidad
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    shared_head_with: [LU-2023-affaires-etrangeres, LU-2023-mobilite]
+    policy_areas: [equality]
+    counts_as_ministry: true
+    url: https://mega.gouvernement.lu/fr.html
+    sources: [lu-jo-ri-2023-annexe-a, lu-jo-agd-2023-11-17-competences, lu-gouv-ministeres-fr, lu-gouv-ministeres-en, lu-gouv-composition]
+    note:
+      en: >-
+        Held by Yuriko Backes, who also holds Defence within the foreign-affairs ministry and
+        the Ministère de la Mobilité et des Travaux publics — three ministries, one cabinet
+        seat. Luxembourg is one of the few countries in this dataset with a free-standing
+        equality ministry.
+      es: >-
+        A cargo de Yuriko Backes, que ostenta además Defensa dentro del ministerio de
+        Exteriores y el Ministère de la Mobilité et des Travaux publics: tres ministerios, un
+        asiento. Luxemburgo es uno de los pocos países de este conjunto de datos con un
+        ministerio de Igualdad autónomo.
+
+  - id: LU-2023-environnement
+    order: 10
+    name_original: Ministère de l’Environnement, du Climat et de la Biodiversité
+    abbreviation_original: MECDD
+    name_en: Ministry of the Environment, Climate and Biodiversity
+    name_es: Ministerio de Medio Ambiente, Clima y Biodiversidad
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    shared_head_with: [LU-2023-fonction-publique]
+    policy_areas: [environment, climate, water, forestry]
+    counts_as_ministry: true
+    url: https://mecdd.gouvernement.lu/fr.html
+    sources: [lu-jo-ri-2023-annexe-a, lu-jo-agd-2023-11-17-competences, lu-gouv-ministeres-fr, lu-gouv-ministeres-en, lu-gouv-composition]
+    note:
+      en: >-
+        Held by Serge Wilmes, who also holds the Ministère de la Fonction publique — two
+        ministries, one cabinet seat. Water management and forestry are tagged because annexe
+        B attaches the water administration and the nature and forest agency to this ministry
+        even though its name mentions neither. Energy is not here: it is a section of the
+        Ministère de l'Économie.
+      es: >-
+        A cargo de Serge Wilmes, que ostenta además el Ministère de la Fonction publique: dos
+        ministerios, un asiento. Se etiquetan agua y bosques porque el anexo B adscribe a este
+        ministerio la administración del agua y la agencia de la naturaleza y los bosques, aun
+        cuando su nombre no menciona ninguna de las dos. La energía no está aquí: es una
+        sección del Ministère de l'Économie.
+
+  - id: LU-2023-famille
+    order: 11
+    name_original: Ministère de la Famille, des Solidarités, du Vivre ensemble et de l’Accueil
+    abbreviation_original: MFAMIGR
+    name_en: >-
+      Ministry of Family Affairs, Solidarity, Living Together and Reception of Refugees
+    name_es: >-
+      Ministerio de Familia, Solidaridades, Convivencia y Acogida
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [family, social_affairs, migration, elderly, disability]
+    counts_as_ministry: true
+    url: https://mfamigr.gouvernement.lu/fr.html
+    sources: [lu-jo-ri-2023-annexe-a, lu-jo-agd-2023-11-17-competences, lu-gouv-ministeres-fr, lu-gouv-ministeres-en]
+    note:
+      en: >-
+        Held by Max Hahn. "Accueil" is the reception and integration of applicants for
+        international protection, which is why this ministry rather than home affairs carries
+        the migration tag; the government's own English name renders it "Reception of
+        Refugees". The ministry also runs disability policy and long-term care for older
+        people, neither of which its name mentions.
+      es: >-
+        A cargo de Max Hahn. «Accueil» es la acogida e integración de solicitantes de
+        protección internacional, y por eso este ministerio, y no Interior, lleva la etiqueta
+        de migración; el propio nombre inglés del Gobierno lo traduce «Reception of Refugees».
+        El ministerio gestiona además la política de discapacidad y los cuidados de larga
+        duración para mayores, que su nombre no menciona.
+
+  - id: LU-2023-finances
+    order: 12
+    name_original: Ministère des Finances
+    abbreviation_original: MFIN
+    name_en: Ministry of Finance
+    name_es: Ministerio de Finanzas
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [finance, budget]
+    counts_as_ministry: true
+    url: https://mfin.gouvernement.lu/fr.html
+    sources: [lu-jo-ri-2023-annexe-a, lu-jo-agd-2023-11-17-competences, lu-gouv-ministeres-fr, lu-gouv-ministeres-en]
+    note:
+      en: >-
+        Held by Gilles Roth. Unlike Belgium, Luxembourg does not separate the budget from
+        finance: this single ministry covers taxation, the budget, the Treasury and the
+        supervision of the financial centre, so it carries both finance and budget.
+      es: >-
+        A cargo de Gilles Roth. A diferencia de Bélgica, Luxemburgo no separa presupuesto y
+        hacienda: este único ministerio abarca la fiscalidad, el presupuesto, el Tesoro y la
+        supervisión de la plaza financiera, y por eso lleva finanzas y presupuesto.
+
+  - id: LU-2023-fonction-publique
+    order: 13
+    name_original: Ministère de la Fonction publique
+    abbreviation_original: MFP
+    name_en: Ministry of the Civil Service
+    name_es: Ministerio de la Función Pública
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    shared_head_with: [LU-2023-environnement]
+    policy_areas: [public_administration]
+    counts_as_ministry: true
+    url: https://mfp.gouvernement.lu/fr.html
+    sources: [lu-jo-ri-2023-annexe-a, lu-jo-agd-2023-11-17-competences, lu-gouv-ministeres-fr, lu-gouv-ministeres-en, lu-gouv-composition]
+    note:
+      en: >-
+        Held by Serge Wilmes, who also holds the Ministère de l'Environnement, du Climat et de
+        la Biodiversité — two ministries, one cabinet seat, and a pairing with no obvious
+        policy logic, which is a reminder that Luxembourg's ministries are distributed among
+        fewer people than there are departments.
+      es: >-
+        A cargo de Serge Wilmes, que ostenta además el Ministère de l'Environnement, du Climat
+        et de la Biodiversité: dos ministerios, un asiento, y un emparejamiento sin lógica
+        sectorial evidente, lo que recuerda que los ministerios luxemburgueses se reparten
+        entre menos personas que departamentos.
+
+  - id: LU-2023-justice
+    order: 14
+    name_original: Ministère de la Justice
+    abbreviation_original: MJUST
+    name_en: Ministry of Justice
+    name_es: Ministerio de Justicia
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    shared_head_with: [LU-2023-medias-delegue, LU-2023-relations-parlement-delegue]
+    policy_areas: [justice]
+    counts_as_ministry: true
+    url: https://mjust.gouvernement.lu/fr.html
+    sources: [lu-jo-ri-2023-annexe-a, lu-jo-agd-2023-11-17-competences, lu-jo-agd-2023-12-13-competences-modif, lu-gouv-ministeres-fr, lu-gouv-ministeres-en, lu-gouv-composition]
+    note:
+      en: >-
+        Held by Elisabeth Margue, who is additionally Minister Delegate to the Prime Minister
+        for Media and Connectivity and Minister Delegate for Relations with Parliament. Those
+        two mandates are competences inside the Ministère d'État, not ministries; they are
+        recorded as their own entities and linked here, so Margue is one ministry and one
+        cabinet seat.
+      es: >-
+        A cargo de Elisabeth Margue, que es además ministra delegada ante el primer ministro
+        para los Medios y la Conectividad y ministra delegada para las Relaciones con el
+        Parlamento. Esos dos mandatos son competencias dentro del Ministère d'État, no
+        ministerios; se registran como entidades propias y se vinculan aquí, de modo que
+        Margue es un ministerio y un asiento.
+
+  - id: LU-2023-logement
+    order: 15
+    name_original: Ministère du Logement et de l’Aménagement du territoire
+    abbreviation_original: MLOG
+    name_en: Ministry of Housing and Spatial Planning
+    name_es: Ministerio de Vivienda y Ordenación del Territorio
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    shared_head_with: [LU-2023-education]
+    policy_areas: [housing, spatial_planning]
+    counts_as_ministry: true
+    url: https://mlog.gouvernement.lu/fr.html
+    sources: [lu-jo-ri-2023-annexe-a, lu-jo-agd-2023-11-17-competences, lu-gouv-ministeres-fr, lu-gouv-ministeres-en, lu-gouv-composition]
+    note:
+      en: >-
+        Held by Claude Meisch, who also holds the Ministère de l'Éducation nationale, de
+        l'Enfance et de la Jeunesse — two ministries, one cabinet seat. Annexe B constitutes
+        it in two sections, Logement and Aménagement du territoire, matching the two policy
+        areas tagged.
+      es: >-
+        A cargo de Claude Meisch, que ostenta además el Ministère de l'Éducation nationale, de
+        l'Enfance et de la Jeunesse: dos ministerios, un asiento. El anexo B lo constituye en
+        dos secciones, Logement y Aménagement du territoire, que se corresponden con las dos
+        áreas etiquetadas.
+
+  - id: LU-2023-mobilite
+    order: 16
+    name_original: Ministère de la Mobilité et des Travaux publics
+    abbreviation_original: MMTP
+    name_en: Ministry of Mobility and Public Works
+    name_es: Ministerio de Movilidad y Obras Públicas
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    shared_head_with: [LU-2023-affaires-etrangeres, LU-2023-egalite-genres]
+    policy_areas: [transport, infrastructure]
+    counts_as_ministry: true
+    url: https://mmtp.gouvernement.lu/fr.html
+    sources: [lu-jo-ri-2023-annexe-a, lu-jo-agd-2023-11-17-competences, lu-gouv-ministeres-fr, lu-gouv-ministeres-en, lu-gouv-composition]
+    note:
+      en: >-
+        Held by Yuriko Backes, who also holds Defence within the foreign-affairs ministry and
+        the Ministère de l'Égalité des genres et de la Diversité — three ministries, one
+        cabinet seat. The modification of the règlement interne of 25 October 2024 removed the
+        headings "I. Mobilité" and "II. Travaux publics" from this ministry's entry in annexe
+        B and renumbered its points into a single sequence; the ministry's name and its place
+        in annexe A were untouched, so the change is recorded here rather than as a new
+        entity.
+      es: >-
+        A cargo de Yuriko Backes, que ostenta además Defensa dentro del ministerio de
+        Exteriores y el Ministère de l'Égalité des genres et de la Diversité: tres
+        ministerios, un asiento. La modificación del règlement interne de 25 de octubre de
+        2024 suprimió los epígrafes «I. Mobilité» y «II. Travaux publics» de la entrada de
+        este ministerio en el anexo B y renumeró sus puntos en una sola secuencia; el nombre
+        del ministerio y su lugar en el anexo A no cambiaron, así que el cambio se consigna
+        aquí y no como entidad nueva.
+
+  - id: LU-2023-recherche
+    order: 17
+    name_original: Ministère de la Recherche et de l’Enseignement supérieur
+    abbreviation_original: MESR
+    name_en: Ministry of Research and Higher Education
+    name_es: Ministerio de Investigación y Enseñanza Superior
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    shared_head_with: [LU-2023-digitalisation]
+    policy_areas: [research, higher_education]
+    counts_as_ministry: true
+    url: https://mesr.gouvernement.lu/fr.html
+    sources: [lu-jo-ri-2023-annexe-a, lu-jo-agd-2023-11-17-competences, lu-gouv-ministeres-fr, lu-gouv-ministeres-en, lu-gouv-composition]
+    note:
+      en: >-
+        Held by Stéphanie Obertin, who also holds the Ministère de la Digitalisation — two
+        ministries, one cabinet seat. Luxembourg separates higher education and research from
+        school education, which sits in a different ministry under a different minister.
+      es: >-
+        A cargo de Stéphanie Obertin, que ostenta además el Ministère de la Digitalisation:
+        dos ministerios, un asiento. Luxemburgo separa la enseñanza superior y la
+        investigación de la educación escolar, que está en otro ministerio con otro titular.
+
+  - id: LU-2023-sante
+    order: 18
+    name_original: Ministère de la Santé et de la Sécurité sociale
+    abbreviation_original: M3S
+    name_en: Ministry of Health and Social Security
+    name_es: Ministerio de Sanidad y Seguridad Social
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [health, social_security]
+    counts_as_ministry: true
+    url: https://m3s.gouvernement.lu/fr.html
+    sources: [lu-jo-ri-2023-annexe-a, lu-jo-agd-2023-11-17-competences, lu-gouv-ministeres-fr, lu-gouv-ministeres-en]
+    note:
+      en: >-
+        Held by Martine Deprez. Annexe B constitutes it in two sections, Santé and Sécurité
+        sociale, so health policy and the pension and sickness-insurance branches are in one
+        department under one minister.
+      es: >-
+        A cargo de Martine Deprez. El anexo B lo constituye en dos secciones, Santé y Sécurité
+        sociale, de modo que la política sanitaria y las ramas de pensiones y seguro de
+        enfermedad están en un mismo departamento con un solo titular.
+
+  - id: LU-2023-sports
+    order: 19
+    name_original: Ministère des Sports
+    abbreviation_original: MSP
+    name_en: Ministry of Sport
+    name_es: Ministerio de Deportes
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    shared_head_with: [LU-2023-agriculture]
+    policy_areas: [sport]
+    counts_as_ministry: true
+    url: https://msp.gouvernement.lu/fr.html
+    sources: [lu-jo-ri-2023-annexe-a, lu-jo-agd-2023-11-17-competences, lu-jo-agd-2025-12-11-competences-modif, lu-gouv-ministeres-fr, lu-gouv-ministeres-en, lu-gouv-composition]
+    note:
+      en: >-
+        Held by Martine Hansen, who also holds the Ministère de l'Agriculture, de
+        l'Alimentation et de la Viticulture — two ministries, one cabinet seat. Sport was held
+        by Georges Mischo from November 2023 until the arrêté of 11 December 2025 removed him
+        from the government and transferred the portfolio to Hansen. The ministry itself was
+        not created, renamed or abolished by that change, so it carries no valid_from.
+      es: >-
+        A cargo de Martine Hansen, que ostenta además el Ministère de l'Agriculture, de
+        l'Alimentation et de la Viticulture: dos ministerios, un asiento. Deportes lo ostentó
+        Georges Mischo desde noviembre de 2023 hasta que el arrêté de 11 de diciembre de 2025
+        lo sacó del gobierno y traspasó la cartera a Hansen. Ese cambio no creó, renombró ni
+        suprimió el ministerio, así que no lleva valid_from.
+
+  - id: LU-2023-travail
+    order: 20
+    name_original: Ministère du Travail
+    abbreviation_original: MTEESS
+    name_en: Ministry of Labour
+    name_es: Ministerio de Trabajo
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [labour]
+    counts_as_ministry: true
+    url: https://mteess.gouvernement.lu/fr.html
+    sources: [lu-jo-ri-2023-annexe-a, lu-jo-agd-2023-11-17-competences, lu-jo-agd-2025-12-11-competences-modif, lu-gouv-ministeres-fr, lu-gouv-ministeres-en, lu-gouv-composition]
+    note:
+      en: >-
+        Held by Marc Spautz, who joined the government by the arrêté of 11 December 2025 as
+        the only minister appointed after the cabinet took office. Before that the ministry
+        was held by Georges Mischo alongside Sport, so this entity's shared-head status
+        changed during the term while the ministry itself did not. The abbreviation MTEESS
+        survives from the ministry's longer former name, Ministère du Travail, de l'Emploi et
+        de l'Économie sociale et solidaire, and is still the one its website uses.
+      es: >-
+        A cargo de Marc Spautz, que entró en el gobierno por el arrêté de 11 de diciembre de
+        2025 como único ministro nombrado después de la toma de posesión del gabinete. Antes
+        el ministerio lo ostentaba Georges Mischo junto con Deportes, de modo que el estado de
+        titular compartido de esta entidad cambió durante la legislatura mientras el
+        ministerio no. La sigla MTEESS pervive del nombre anterior más largo, Ministère du
+        Travail, de l'Emploi et de l'Économie sociale et solidaire, y sigue siendo la que usa
+        su sitio web.
+
+  # --- recorded, not counted: delegated ministerial mandates ---------------------
+  - id: LU-2023-medias-delegue
+    order: 21
+    name_original: >-
+      Ministre déléguée auprès du Premier ministre, chargée des Médias et de la Connectivité
+    abbreviation_original: null
+    name_en: >-
+      Minister Delegate to the Prime Minister for Media and Connectivity
+    name_es: >-
+      Ministra delegada ante el Primer Ministro para los Medios y la Conectividad
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre déléguée
+    head_title_en: Minister Delegate
+    has_cabinet_seat: true
+    shared_head_with: [LU-2023-justice, LU-2023-relations-parlement-delegue]
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: junior_minister_or_state_secretary
+    url: null
+    sources: [lu-jo-ri-2023-organisation, lu-jo-agd-2023-11-17-competences, lu-jo-agd-2023-12-13-competences-modif, lu-gouv-composition]
+    note:
+      en: >-
+        A delegated mandate held by Elisabeth Margue, who is Minister of Justice in her own
+        right. Not a ministry: annexe A does not list it, and the competences it covers are
+        section "I. Médias et Communications" of the Ministère d'État — media, the audiovisual
+        sector, space and the State's holding in SES, electronic communications, postal
+        services and data protection. Article 2 of the règlement interne defines a ministre
+        délégué as holding a competence of his own within a département ministériel attributed
+        by arrêté grand-ducal, which is more than a Spanish or German junior minister but
+        still not a department; junior_minister_or_state_secretary is the closest reason in
+        the project's vocabulary and is used with that caveat. It is recorded because it is a
+        distinct mandate a reader will see on the government's composition page, and linked to
+        Margue's ministry so it adds no cabinet seat. The title given is the one in force
+        since 13 December 2023; it read "des Médias et des Communications" before that.
+      es: >-
+        Mandato delegado de Elisabeth Margue, que es ministra de Justicia por derecho propio.
+        No es un ministerio: el anexo A no lo enumera, y las competencias que cubre son la
+        sección «I. Médias et Communications» del Ministère d'État —medios, sector
+        audiovisual, espacio y participación del Estado en SES, comunicaciones electrónicas,
+        servicios postales y protección de datos—. El artículo 2 del règlement interne define
+        al ministre délégué como titular de una competencia propia dentro de un département
+        ministériel atribuida por arrêté grand-ducal, lo que es más que un secretario de
+        Estado español o alemán pero sigue sin ser un departamento;
+        junior_minister_or_state_secretary es el motivo más próximo del vocabulario del
+        proyecto y se usa con esa reserva. Se registra porque es un mandato distinto que el
+        lector verá en la página de composición del Gobierno, y se vincula al ministerio de
+        Margue para que no añada asiento. El título es el vigente desde el 13 de diciembre de
+        2023; antes decía «des Médias et des Communications».
+
+  - id: LU-2023-relations-parlement-delegue
+    order: 22
+    name_original: >-
+      Ministre déléguée auprès du Premier ministre, chargée des Relations avec le Parlement
+    abbreviation_original: null
+    name_en: >-
+      Minister Delegate to the Prime Minister for Relations with Parliament
+    name_es: >-
+      Ministra delegada ante el Primer Ministro para las Relaciones con el Parlamento
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre déléguée
+    head_title_en: Minister Delegate
+    has_cabinet_seat: true
+    shared_head_with: [LU-2023-justice, LU-2023-medias-delegue]
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: junior_minister_or_state_secretary
+    url: null
+    sources: [lu-jo-ri-2023-organisation, lu-jo-agd-2023-11-17-competences, lu-gouv-composition]
+    note:
+      en: >-
+        The second delegated mandate held by Elisabeth Margue. Not a ministry: it corresponds
+        to section "II. Relations avec le Parlement" of the Ministère d'État in annexe B,
+        covering relations with the Chamber of Deputies and the Service central de
+        Législation. Linked to her Ministry of Justice and to her other delegated mandate, so
+        the three together are one cabinet seat.
+      es: >-
+        El segundo mandato delegado de Elisabeth Margue. No es un ministerio: corresponde a la
+        sección «II. Relations avec le Parlement» del Ministère d'État en el anexo B, que
+        abarca las relaciones con la Cámara de Diputados y el Service central de Législation.
+        Vinculado a su ministerio de Justicia y a su otro mandato delegado, de modo que los
+        tres juntos son un asiento.
+
+  - id: LU-2023-tourisme-delegue
+    order: 23
+    name_original: Ministre délégué au Tourisme
+    abbreviation_original: null
+    name_en: Minister Delegate for Tourism
+    name_es: Ministro delegado de Turismo
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre délégué
+    head_title_en: Minister Delegate
+    has_cabinet_seat: true
+    shared_head_with: [LU-2023-culture]
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: junior_minister_or_state_secretary
+    url: null
+    sources: [lu-jo-ri-2023-organisation, lu-jo-agd-2023-11-17-competences, lu-gouv-composition]
+    note:
+      en: >-
+        A delegated mandate held by Eric Thill, who is Minister of Culture in his own right.
+        Not a ministry: tourism is section "IV. Tourisme" of the Ministère de l'Économie,
+        whose minister, Lex Delles, also carries tourism in his own title. It is recorded so
+        that the two ministers who both appear under tourism can be told apart, and linked to
+        Thill's Ministry of Culture so it adds no cabinet seat.
+      es: >-
+        Mandato delegado de Eric Thill, que es ministro de Cultura por derecho propio. No es
+        un ministerio: el turismo es la sección «IV. Tourisme» del Ministère de l'Économie,
+        cuyo titular, Lex Delles, lleva también el turismo en su propio título. Se registra
+        para poder distinguir a los dos ministros que aparecen bajo turismo, y se vincula al
+        ministerio de Cultura de Thill para que no añada asiento.

@@ -1,0 +1,49 @@
+# Bulgaria — country metadata.
+#
+# See docs/DATA-CONTRACT.md. The cabinet, its entities and its sources live in
+# data/cabinets/BG-2026-05-08.yml.
+
+iso2: BG
+iso3: BGR
+
+name_en: Bulgaria
+name_es: Bulgaria
+name_original: България
+official_name_original: Република България
+
+continent: europe
+region: south_eastern_europe
+eu_member_since: 2007-01-01
+government_system: parliamentary_republic
+official_languages: [bg]
+
+# Published on the country page as context for reading the cabinet's size, never as a
+# denominator. Bulgaria's National Statistical Institute publishes a single annual
+# resident total, so unlike Spain there is no ambiguity about which figure is "the"
+# population — only about its tier, which is 3 because a statistical release is not a
+# legal instrument.
+population:
+  value: 6423207
+  year: 2025
+  source:
+    id: nsi-naselenie-2025
+    tier: 3
+    type: statistical_office
+    publisher: Национален статистически институт
+    title: Население и демографски процеси - 2025 година (окончателни данни)
+    url: https://www.nsi.bg/press-release/naselenie-i-demografski-procesi-9002
+    archive_url: https://web.archive.org/web/20260719102850/https://www.nsi.bg/press-release/naselenie-i-demografski-procesi-9002
+    lang: bg
+    published: 2026-04-29
+    accessed: 2026-07-28
+    quote: >-
+      Към 31 декември 2025 г. населението на България е 6 423 207 души. В сравнение с
+      2024 г. населението на страната намалява с 14 153 души, или с 0.22%.
+    note: >-
+      Final (окончателни) data for 2025, published 29 April 2026, and the most recent
+      official resident total for Bulgaria available on the access date. The figure is
+      the resident population at 31 December 2025, so `year` is 2025 rather than the
+      year of publication. An archived snapshot is recorded even though tier 3 does not
+      require one, because a statistical release is exactly the kind of page that gets
+      superseded in place. Note that the source separates thousands with non-breaking
+      spaces; the quote above uses ordinary spaces.

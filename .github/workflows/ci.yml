@@ -1,0 +1,49 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+# The order matters. `validate` runs first and alone, so a pull request that adds an
+# unsourced ministry fails on the gate rather than somewhere downstream in a build log.
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # The gate. Every datum sourced, every citation resolving, every exclusion explained.
+      - name: Validate data
+        run: npm run validate
+
+      - name: Tests
+        run: npm test
+
+      - name: Typecheck scripts
+        run: npm run typecheck
+
+      # site/public/data is generated, so it must exist before the site is typechecked.
+      - name: Build derived data
+        run: npm run build:data
+
+      - name: Typecheck site
+        run: npx astro check --root site
+
+      - name: Build site
+        run: npm run build --workspace @gov-atlas/site
+
+      - name: Coverage report
+        run: npm run report:coverage
+
+      # A curator who forgets to regenerate the report leaves the site claiming coverage it
+      # does not have, so the committed report has to match what the data produces.
+      - name: Coverage report is up to date
+        run: git diff --exit-code docs/COVERAGE.md

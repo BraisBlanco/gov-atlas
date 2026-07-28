@@ -1,0 +1,534 @@
+# Spain — government structure of the XV legislature.
+#
+# REFERENCE FILE. This is the worked example every other country file is modelled on.
+# Read docs/DATA-CONTRACT.md alongside it.
+#
+# Three things to notice before you copy it:
+#
+#   1. Nowhere does this file state "22". The count is derived from the entities below,
+#      so the headline figure and the list underneath it cannot drift apart.
+#   2. `Presidencia del Gobierno` is recorded even though it is not counted. Excluded
+#      bodies carry a reason, which is how the site can defend 22 against sources that
+#      say 23 without anyone re-doing the research.
+#   3. Article 1 of the decree is quoted in full. A reader can confirm the whole list in
+#      one glance instead of re-reading a 40-page instrument.
+
+country: ES
+cabinet_id: ES-2023-11-21
+
+cabinet_name_original: Gobierno de España, XV Legislatura
+cabinet_name_en: Government of Spain, 15th legislature
+cabinet_name_es: Gobierno de España, XV Legislatura
+
+head_of_government_title_original: Presidente del Gobierno
+head_of_government_title_en: Prime Minister
+
+took_office: 2023-11-21
+left_office: null
+
+methodology_notes:
+  - en: >-
+      Spain has 22 ministerial departments but 23 members of the Council of Ministers.
+      The Prime Minister holds a seat without heading a department, which is why the two
+      figures differ by one. Neither number is wrong; they answer different questions.
+    es: >-
+      España tiene 22 departamentos ministeriales pero 23 miembros del Consejo de
+      Ministros. El presidente del Gobierno ocupa un asiento sin encabezar ningún
+      departamento, y de ahí la diferencia de uno. Ninguna de las dos cifras es
+      incorrecta; responden a preguntas distintas.
+  - en: >-
+      Three of the 22 ministers also hold vice-presidencies of the Government. A
+      vice-presidency is a personal office attached to a minister, not a department, so
+      it adds neither a ministry nor a cabinet seat. Which ministers hold them changes
+      with reshuffles; the department structure does not, and only the latter is recorded
+      here.
+    es: >-
+      Tres de los 22 ministros ostentan además vicepresidencias del Gobierno. Una
+      vicepresidencia es un cargo personal adscrito a un ministro, no un departamento,
+      por lo que no añade ni ministerio ni asiento en el gabinete. Quién las ostenta
+      cambia con cada remodelación; la estructura departamental no, y aquí sólo se
+      registra esta última.
+  - en: >-
+      Do not confuse the two entries containing the word "Presidencia". The "Ministerio
+      de la Presidencia, Justicia y Relaciones con las Cortes" is a full department and
+      is counted. "Presidencia del Gobierno" is the Prime Minister's own office and is
+      not.
+    es: >-
+      No confundir las dos entradas que contienen la palabra «Presidencia». El
+      «Ministerio de la Presidencia, Justicia y Relaciones con las Cortes» es un
+      departamento completo y se cuenta. La «Presidencia del Gobierno» es la oficina del
+      propio presidente y no se cuenta.
+
+sources:
+  - id: boe-rd-829-2023
+    tier: 1
+    type: official_gazette
+    publisher: Boletín Oficial del Estado
+    title: >-
+      Real Decreto 829/2023, de 20 de noviembre, por el que se reestructuran los
+      departamentos ministeriales (texto consolidado)
+    url: https://www.boe.es/buscar/act.php?id=BOE-A-2023-23537
+    archive_url: https://web.archive.org/web/20260512160805/https://boe.es/buscar/act.php?id=BOE-A-2023-23537
+    lang: es
+    published: 2023-11-21
+    accessed: 2026-07-27
+    quote: |-
+      Artículo 1. Departamentos ministeriales.
+      La Administración General del Estado se estructura en los siguientes departamentos ministeriales:
+      Ministerio de Asuntos Exteriores, Unión Europea y Cooperación.
+      Ministerio de la Presidencia, Justicia y Relaciones con las Cortes.
+      Ministerio de Defensa.
+      Ministerio de Hacienda.
+      Ministerio del Interior.
+      Ministerio de Transportes y Movilidad Sostenible.
+      Ministerio de Educación, Formación Profesional y Deportes.
+      Ministerio de Trabajo y Economía Social.
+      Ministerio de Industria y Turismo.
+      Ministerio de Agricultura, Pesca y Alimentación.
+      Ministerio de Política Territorial y Memoria Democrática.
+      Ministerio para la Transición Ecológica y el Reto Demográfico.
+      Ministerio de Vivienda y Agenda Urbana.
+      Ministerio de Cultura.
+      Ministerio de Economía, Comercio y Empresa.
+      Ministerio de Sanidad.
+      Ministerio de Derechos Sociales, Consumo y Agenda 2030.
+      Ministerio de Ciencia, Innovación y Universidades.
+      Ministerio de Igualdad.
+      Ministerio de Inclusión, Seguridad Social y Migraciones.
+      Ministerio para la Transformación Digital y de la Función Pública.
+      Ministerio de Juventud e Infancia.
+    note: >-
+      Consolidated text, last amended 29 December 2023 by Real Decreto 1230/2023. The
+      listing order below follows this article, and articles 2 to 23 define each
+      department in the same sequence. Later decrees in 2024-2026 altered internal
+      organic structure (directorates, secretariats) without changing this list of
+      departments.
+
+  - id: boe-ley-50-1997
+    tier: 1
+    type: statute
+    publisher: Boletín Oficial del Estado
+    title: Ley 50/1997, de 27 de noviembre, del Gobierno (texto consolidado)
+    url: https://www.boe.es/buscar/act.php?id=BOE-A-1997-25336
+    archive_url: https://web.archive.org/web/20260716135650/https://www.boe.es/buscar/act.php?id=BOE-A-1997-25336
+    lang: es
+    published: 1997-11-28
+    accessed: 2026-07-27
+    quote: >-
+      El Gobierno se compone del Presidente, del Vicepresidente o Vicepresidentes, en su
+      caso, y de los Ministros.
+    note: >-
+      Cited for the composition of the Government, which is what makes the Prime
+      Minister's seat a matter of statute rather than of our interpretation, and
+      therefore why cabinet_seats_count is 23 while ministries_count is 22.
+
+  - id: moncloa-gobierno-xv
+    tier: 2
+    type: government_website
+    publisher: Gobierno de España — La Moncloa
+    title: >-
+      XV Legislatura: biografías de las ministras y ministros del Gobierno de España
+    url: https://www.lamoncloa.gob.es/gobierno/paginas/biografias-xv-legislatura/nuevos-ministros-y-ministras-gobierno-espana-2023.aspx
+    archive_url: https://web.archive.org/web/20250423005432/https://www.lamoncloa.gob.es/gobierno/paginas/biografias-xv-legislatura/nuevos-ministros-y-ministras-gobierno-espana-2023.aspx
+    lang: es
+    published: 2026-03-27
+    accessed: 2026-07-27
+    quote: >-
+      Vicepresidente primero y ministro de Economía, Comercio y Empresa
+    note: >-
+      Corroborates that each vice-presidency is held by a serving minister of a listed
+      department, so no vice-presidency adds a department or a seat. The newest archived
+      snapshot is from 23 April 2025 and therefore predates the March 2026 reshuffle; it
+      supports the structural claim, not the current list of officeholders, which this
+      dataset does not record.
+
+entities:
+  - id: ES-2023-asuntos-exteriores
+    order: 1
+    name_original: Ministerio de Asuntos Exteriores, Unión Europea y Cooperación
+    abbreviation_original: MAUC
+    name_en: Ministry of Foreign Affairs, European Union and Cooperation
+    name_es: Ministerio de Asuntos Exteriores, Unión Europea y Cooperación
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [foreign_affairs, european_affairs, development_cooperation]
+    counts_as_ministry: true
+    url: https://www.exteriores.gob.es
+    sources: [boe-rd-829-2023]
+
+  - id: ES-2023-presidencia-justicia
+    order: 2
+    name_original: Ministerio de la Presidencia, Justicia y Relaciones con las Cortes
+    abbreviation_original: MPR
+    name_en: Ministry of the Presidency, Justice and Relations with the Cortes
+    name_es: Ministerio de la Presidencia, Justicia y Relaciones con las Cortes
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [government_coordination, justice, parliamentary_relations]
+    counts_as_ministry: true
+    url: https://www.mpr.gob.es
+    sources: [boe-rd-829-2023]
+    note:
+      en: >-
+        A full ministerial department, distinct from Presidencia del Gobierno further
+        down this list. It handles government coordination, justice and relations with
+        parliament.
+      es: >-
+        Departamento ministerial completo, distinto de la Presidencia del Gobierno que
+        aparece más abajo. Se ocupa de la coordinación gubernamental, la justicia y las
+        relaciones con las Cortes.
+
+  - id: ES-2023-defensa
+    order: 3
+    name_original: Ministerio de Defensa
+    abbreviation_original: MINISDEF
+    name_en: Ministry of Defence
+    name_es: Ministerio de Defensa
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [defence]
+    counts_as_ministry: true
+    url: https://www.defensa.gob.es
+    sources: [boe-rd-829-2023]
+
+  - id: ES-2023-hacienda
+    order: 4
+    name_original: Ministerio de Hacienda
+    abbreviation_original: MINHAC
+    name_en: Ministry of Finance
+    name_es: Ministerio de Hacienda
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [finance, budget]
+    counts_as_ministry: true
+    url: https://www.hacienda.gob.es
+    sources: [boe-rd-829-2023]
+
+  - id: ES-2023-interior
+    order: 5
+    name_original: Ministerio del Interior
+    abbreviation_original: MIR
+    name_en: Ministry of the Interior
+    name_es: Ministerio del Interior
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [interior, civil_protection]
+    counts_as_ministry: true
+    url: https://www.interior.gob.es
+    sources: [boe-rd-829-2023]
+
+  - id: ES-2023-transportes
+    order: 6
+    name_original: Ministerio de Transportes y Movilidad Sostenible
+    abbreviation_original: MITMS
+    name_en: Ministry of Transport and Sustainable Mobility
+    name_es: Ministerio de Transportes y Movilidad Sostenible
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [transport, infrastructure]
+    counts_as_ministry: true
+    url: https://www.transportes.gob.es
+    sources: [boe-rd-829-2023]
+
+  - id: ES-2023-educacion-fp-deportes
+    order: 7
+    name_original: Ministerio de Educación, Formación Profesional y Deportes
+    abbreviation_original: MEFPD
+    name_en: Ministry of Education, Vocational Training and Sport
+    name_es: Ministerio de Educación, Formación Profesional y Deportes
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [education, vocational_training, sport]
+    counts_as_ministry: true
+    url: https://www.educacionfpydeportes.gob.es
+    sources: [boe-rd-829-2023]
+
+  - id: ES-2023-trabajo
+    order: 8
+    name_original: Ministerio de Trabajo y Economía Social
+    abbreviation_original: MITES
+    name_en: Ministry of Labour and Social Economy
+    name_es: Ministerio de Trabajo y Economía Social
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [labour, social_affairs]
+    counts_as_ministry: true
+    url: https://www.mites.gob.es
+    sources: [boe-rd-829-2023]
+
+  - id: ES-2023-industria-turismo
+    order: 9
+    name_original: Ministerio de Industria y Turismo
+    abbreviation_original: MINTUR
+    name_en: Ministry of Industry and Tourism
+    name_es: Ministerio de Industria y Turismo
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [industry, tourism]
+    counts_as_ministry: true
+    url: https://www.mintur.gob.es
+    sources: [boe-rd-829-2023]
+
+  - id: ES-2023-agricultura
+    order: 10
+    name_original: Ministerio de Agricultura, Pesca y Alimentación
+    abbreviation_original: MAPA
+    name_en: Ministry of Agriculture, Fisheries and Food
+    name_es: Ministerio de Agricultura, Pesca y Alimentación
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [agriculture, fisheries, food_safety]
+    counts_as_ministry: true
+    url: https://www.mapa.gob.es
+    sources: [boe-rd-829-2023]
+
+  - id: ES-2023-politica-territorial
+    order: 11
+    name_original: Ministerio de Política Territorial y Memoria Democrática
+    abbreviation_original: MPTMD
+    name_en: Ministry of Territorial Policy and Democratic Memory
+    name_es: Ministerio de Política Territorial y Memoria Democrática
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [territorial_administration, historical_memory]
+    counts_as_ministry: true
+    url: https://mptmd.gob.es
+    sources: [boe-rd-829-2023]
+
+  - id: ES-2023-transicion-ecologica
+    order: 12
+    name_original: Ministerio para la Transición Ecológica y el Reto Demográfico
+    abbreviation_original: MITECO
+    name_en: Ministry for the Ecological Transition and the Demographic Challenge
+    name_es: Ministerio para la Transición Ecológica y el Reto Demográfico
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [environment, climate, energy, water, rural_development]
+    counts_as_ministry: true
+    url: https://www.miteco.gob.es
+    sources: [boe-rd-829-2023]
+
+  - id: ES-2023-vivienda
+    order: 13
+    name_original: Ministerio de Vivienda y Agenda Urbana
+    abbreviation_original: MIVAU
+    name_en: Ministry of Housing and Urban Agenda
+    name_es: Ministerio de Vivienda y Agenda Urbana
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [housing, spatial_planning]
+    counts_as_ministry: true
+    url: https://www.mivau.gob.es
+    sources: [boe-rd-829-2023]
+
+  - id: ES-2023-cultura
+    order: 14
+    name_original: Ministerio de Cultura
+    abbreviation_original: null
+    name_en: Ministry of Culture
+    name_es: Ministerio de Cultura
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [culture]
+    counts_as_ministry: true
+    url: https://www.cultura.gob.es
+    sources: [boe-rd-829-2023]
+
+  - id: ES-2023-economia
+    order: 15
+    name_original: Ministerio de Economía, Comercio y Empresa
+    abbreviation_original: MINECO
+    name_en: Ministry of Economy, Trade and Enterprise
+    name_es: Ministerio de Economía, Comercio y Empresa
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [economy, trade, small_business]
+    counts_as_ministry: true
+    url: https://portal.mineco.gob.es
+    sources: [boe-rd-829-2023]
+
+  - id: ES-2023-sanidad
+    order: 16
+    name_original: Ministerio de Sanidad
+    abbreviation_original: null
+    name_en: Ministry of Health
+    name_es: Ministerio de Sanidad
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [health]
+    counts_as_ministry: true
+    url: https://www.sanidad.gob.es
+    sources: [boe-rd-829-2023]
+
+  - id: ES-2023-derechos-sociales
+    order: 17
+    name_original: Ministerio de Derechos Sociales, Consumo y Agenda 2030
+    abbreviation_original: DSCA
+    name_en: Ministry of Social Rights, Consumer Affairs and the 2030 Agenda
+    name_es: Ministerio de Derechos Sociales, Consumo y Agenda 2030
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [social_affairs, consumer_protection, disability]
+    counts_as_ministry: true
+    url: https://www.dsca.gob.es
+    sources: [boe-rd-829-2023]
+
+  - id: ES-2023-ciencia
+    order: 18
+    name_original: Ministerio de Ciencia, Innovación y Universidades
+    abbreviation_original: null
+    name_en: Ministry of Science, Innovation and Universities
+    name_es: Ministerio de Ciencia, Innovación y Universidades
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [research, innovation, higher_education]
+    counts_as_ministry: true
+    url: https://www.ciencia.gob.es
+    sources: [boe-rd-829-2023]
+
+  - id: ES-2023-igualdad
+    order: 19
+    name_original: Ministerio de Igualdad
+    abbreviation_original: null
+    name_en: Ministry of Equality
+    name_es: Ministerio de Igualdad
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [equality]
+    counts_as_ministry: true
+    url: https://www.igualdad.gob.es
+    sources: [boe-rd-829-2023]
+
+  - id: ES-2023-inclusion
+    order: 20
+    name_original: Ministerio de Inclusión, Seguridad Social y Migraciones
+    abbreviation_original: MISSM
+    name_en: Ministry of Inclusion, Social Security and Migration
+    name_es: Ministerio de Inclusión, Seguridad Social y Migraciones
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [social_security, migration]
+    counts_as_ministry: true
+    url: https://www.inclusion.gob.es
+    sources: [boe-rd-829-2023]
+
+  - id: ES-2023-transformacion-digital
+    order: 21
+    name_original: Ministerio para la Transformación Digital y de la Función Pública
+    abbreviation_original: MTDFP
+    name_en: Ministry for Digital Transformation and the Civil Service
+    name_es: Ministerio para la Transformación Digital y de la Función Pública
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [digital, telecommunications, public_administration]
+    counts_as_ministry: true
+    url: https://digital.gob.es
+    sources: [boe-rd-829-2023]
+
+  - id: ES-2023-juventud-infancia
+    order: 22
+    name_original: Ministerio de Juventud e Infancia
+    abbreviation_original: MIJUI
+    name_en: Ministry of Youth and Children
+    name_es: Ministerio de Juventud e Infancia
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [youth, family]
+    counts_as_ministry: true
+    url: https://www.juventudeinfancia.gob.es/es
+    sources: [boe-rd-829-2023]
+
+  # --- recorded, not counted ---------------------------------------------------
+  - id: ES-2023-presidencia-del-gobierno
+    order: 23
+    name_original: Presidencia del Gobierno
+    abbreviation_original: null
+    name_en: Office of the Prime Minister
+    name_es: Presidencia del Gobierno
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Presidente/a del Gobierno
+    head_title_en: Prime Minister
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: head_of_government_office
+    url: https://www.lamoncloa.gob.es
+    sources: [boe-ley-50-1997, moncloa-gobierno-xv]
+    note:
+      en: >-
+        Not a ministerial department: Article 1 of Real Decreto 829/2023 does not list it,
+        and it holds no portfolio. It is recorded because its holder sits in the Council
+        of Ministers, which is what makes the cabinet 23 people and the government 22
+        departments.
+      es: >-
+        No es un departamento ministerial: el artículo 1 del Real Decreto 829/2023 no lo
+        enumera y no tiene cartera. Se registra porque su titular forma parte del Consejo
+        de Ministros, y eso es lo que hace que el gabinete sean 23 personas y el gobierno
+        22 departamentos.

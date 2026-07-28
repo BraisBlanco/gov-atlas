@@ -1,0 +1,33 @@
+{
+  "name": "gov-atlas",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Sourced atlas of government structures — how many ministries each country has, and what they are called.",
+  "license": "MIT",
+  "workspaces": [
+    "site"
+  ],
+  "scripts": {
+    "validate": "tsx scripts/validate.ts",
+    "build:data": "tsx scripts/build-data.ts",
+    "build:geo": "tsx scripts/build-geo.ts",
+    "report:coverage": "tsx scripts/report-coverage.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "dev": "npm run build:data && npm run dev --workspace @gov-atlas/site",
+    "build": "npm run validate && npm run build:data && npm run build --workspace @gov-atlas/site",
+    "preview": "npm run preview --workspace @gov-atlas/site"
+  },
+  "dependencies": {
+    "yaml": "^2.9.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.0",
+    "tsx": "^4.23.1",
+    "typescript": "^5.9.0",
+    "vitest": "^4.1.10"
+  }
+}

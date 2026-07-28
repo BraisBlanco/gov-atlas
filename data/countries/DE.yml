@@ -1,0 +1,54 @@
+# Germany — country metadata.
+#
+# See docs/DATA-CONTRACT.md. The government structure lives in
+# data/cabinets/DE-2025-05-06.yml; this file carries only country-level facts.
+
+iso2: DE
+iso3: DEU
+
+name_en: Germany
+name_es: Alemania
+name_original: Deutschland
+official_name_original: Bundesrepublik Deutschland
+
+continent: europe
+region: western_europe
+eu_member_since: 1958-01-01
+government_system: parliamentary_republic
+official_languages: [de]
+
+# Population carries its own citation because the per-capita views publish it as a
+# figure in its own right, not as a convenience constant.
+population:
+  value: 83467117
+  year: 2025
+  source:
+    id: destatis-bevoelkerungsstand-2025
+    tier: 3
+    type: statistical_office
+    publisher: Statistisches Bundesamt (Destatis)
+    title: Bevölkerung nach Nationalität und Geschlecht 2025 (Quartalszahlen)
+    url: https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsstand/Tabellen/zensus-geschlecht-staatsangehoerigkeit-2025.html
+    archive_url: https://web.archive.org/web/20260727183005/https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Bevoelkerungsstand/Tabellen/zensus-geschlecht-staatsangehoerigkeit-2025.html
+    lang: de
+    published: 2026-06-16
+    accessed: 2026-07-27
+    quote: |-
+      Bevölkerung nach Nationalität und Geschlecht 2025 (Quartalszahlen)
+      Bevölkerungsstand	31.03.2025	30.06.2025	30.09.2025	31.12.2025
+      Insgesamt	83 517 030	83 491 249	83 497 147	83 467 117
+      Quelle: Ergebnisse der Bevölkerungsfortschreibung auf Grundlage des Zensus 2022.
+    note: >-
+      Official resident population of Germany on 31 December 2025: 83,467,117. The quote
+      transcribes the table's caption, its column-header row, its "Insgesamt" row and its
+      source line; the amount columns for the other reporting dates are kept so the cited
+      cell can be located, and the soft hyphens Destatis inserts inside
+      "Bevölkerungs-stand" and "Bevölkerungs-fortschreibung" for line breaking are not
+      reproduced. Basis is the Bevölkerungsfortschreibung on the Zensus 2022, page status
+      "Stand 16. Juni 2026". Destatis's own press release of 16 June 2026 reports the same
+      figure rounded ("Zum Jahresende 2025 lebten 83,5 Millionen Menschen in
+      Deutschland"), so this table is cited instead in order to publish an exact integer
+      rather than a rounded one. Tier 3 rather than tier 1: Germany's resident total
+      between censuses is a statistical estimate, not a figure fixed by a legal
+      instrument. A more recent quarterly figure exists (83.4 million at 31 March 2026)
+      but Destatis publishes it only rounded, so the last exact year-end value is used.

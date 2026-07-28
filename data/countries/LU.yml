@@ -1,0 +1,60 @@
+# Luxembourg — country metadata.
+#
+# See docs/DATA-CONTRACT.md. The cabinet lives in data/cabinets/LU-2023-11-17.yml.
+#
+# name_original and official_name_original are given in French only, which is a deliberate
+# choice rather than a shortcut: Luxembourg has three official languages, but the loi du
+# 24 février 1984 sur le régime des langues makes French the language in which legislation
+# is drafted and published, so the French form is the one the Journal officiel actually
+# uses of itself ("Journal officiel du Grand-Duché de Luxembourg"). The other two official
+# languages are recorded in official_languages, and the situation is explained at length in
+# the cabinet file's methodology_notes.
+
+iso2: LU
+iso3: LUX
+
+name_en: Luxembourg
+name_es: Luxemburgo
+name_original: Luxembourg
+official_name_original: Grand-Duché de Luxembourg
+
+continent: europe
+region: western_europe
+eu_member_since: 1958-01-01
+government_system: parliamentary_monarchy
+official_languages: [lb, fr, de]
+
+# Population carries its own citation because the country page publishes it as a figure in
+# its own right, not as a convenience constant.
+population:
+  value: 690959
+  year: 2026
+  source:
+    id: statec-stn15-2026
+    tier: 3
+    type: statistical_office
+    publisher: STATEC — Institut national de la statistique et des études économiques
+    title: >-
+      Moins de migrations, fécondité faible : le ralentissement démographique se poursuit
+      (STATNEWS 15/2026)
+    url: https://statistiques.public.lu/fr/actualites/2026/stn15-population-2026.html
+    archive_url: https://web.archive.org/web/20260728134003/https://statistiques.public.lu/fr/actualites/2026/stn15-population-2026.html
+    lang: fr
+    published: 2026-05-06
+    accessed: 2026-07-28
+    quote: >-
+      Au 1er janvier 2026, le Grand-Duché de Luxembourg compte 690 959 habitants, soit 1.3%
+      de plus qu'au 1er janvier 2025. Ce taux d'accroissement est inférieur à celui observé
+      un an auparavant (1.5%), mais aussi bien plus faible que lors de la dernière décennie
+      (où il variait de 2.0 à 2.5%) ou même de la période COVID-19 (1.4 et 1.7% pour 2020 et
+      2021).
+    note: >-
+      The resident population on 1 January, published annually by the national statistical
+      office; tier 3 for the same reason as the other countries' statistical-office figures.
+      Luxembourg's population is unusually hard to read as a measure of the state it
+      governs: some 230,000 cross-border workers commute in from Belgium, France and Germany
+      daily and are not in this figure, so the working population is far larger than the
+      resident one. Nothing in this dataset divides by it. Transcription notes: the source
+      sets "1er" with a superscript "er" and separates thousands with a narrow no-break
+      space, both rendered here as ordinary characters; a footnote marker after "habitants"
+      is omitted; and the typographic apostrophes are transcribed as straight ones.

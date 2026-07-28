@@ -1,0 +1,1787 @@
+# Austria — federal government structure under the Stocker cabinet.
+#
+# Read docs/DATA-CONTRACT.md alongside this file. Four things to notice:
+#
+#   1. Nowhere does this file state "13". The count is derived from the entities below.
+#   2. Austria enumerates its ministries by statute. § 1 Abs. 1 of the
+#      Bundesministeriengesetz 1986 lists them, so the whole list can be read off one
+#      provision — no budget act or organisational decree has to stand in for it.
+#   3. The Bundeskanzleramt is recorded and deliberately IS counted, which is the opposite
+#      of the decision taken for Germany in DE-2025-05-06.yml. The reason is not a change
+#      of policy but a difference in the statutes: § 1 Abs. 1 Z 1 BMG says in as many words
+#      that the Bundeskanzleramt is a Bundesministerium. See the first methodology note:
+#      13 as published, 12 if the Chancellery is treated as a mere head-of-government
+#      office.
+#   4. This cabinet took office on 3 March 2025 but reorganised its departments on
+#      1 April 2025, when the Bundesministeriengesetz-Novelle 2025 entered into force. The
+#      six designations that ceased on 31 March 2025 are recorded with `valid_to`.
+
+country: AT
+cabinet_id: AT-2025-03-03
+
+cabinet_name_original: Bundesregierung Stocker, XXVIII. Gesetzgebungsperiode des Nationalrates
+cabinet_name_en: Federal Government of Austria (Stocker government), 28th legislative period
+cabinet_name_es: Gobierno Federal de Austria (gabinete Stocker), XXVIII legislatura del Consejo Nacional
+
+head_of_government_title_original: Bundeskanzler
+head_of_government_title_en: Federal Chancellor
+
+took_office: 2025-03-03
+left_office: null
+
+methodology_notes:
+  - en: >-
+      The Federal Chancellery is the contested case in Austria, and unlike in Germany it is
+      counted. Austria is counted here as having 13 federal ministries; it has 12 if the
+      Bundeskanzleramt is treated as the office of the head of government rather than as a
+      ministry. The decisive evidence is that Austrian law says the Chancellery is a
+      ministry, in the very provision that enumerates them: § 1 Abs. 1 of the
+      Bundesministeriengesetz 1986 opens "Bundesministerien im Sinne des Art. 77 B-VG
+      sind:" and its first item is "das Bundeskanzleramt". Article 77 Abs. 3 of the
+      Constitution reinforces it by contrast — "Mit der Leitung des Bundeskanzleramtes ist
+      der Bundeskanzler, mit der Leitung der anderen Bundesministerien je ein Bundesminister
+      betraut" — calling the other twelve "the other federal ministries". Part 2 of the
+      Annex to § 2 BMG then gives the Chancellery section A on exactly the same footing as
+      the twelve sections B to M, with substantive competences no other ministry holds:
+      the constitutional service, the civil service, digital government, religious affairs,
+      national minorities, family policy, youth policy and integration. And the Federal
+      Chancellery's own list of "Bundesministerien" opens with itself. Against counting it:
+      it is led by the Chancellor in person, it is the apex of the cabinet, and this
+      project's default — applied to Spain's Presidencia del Gobierno and to the German
+      Bundeskanzleramt — is to exclude such an office. A reader who prefers that reading
+      should subtract one from every ministry figure this site publishes for Austria. The
+      difference from Germany is a difference between the two statutes, not between two
+      curators: German law never designates the Bundeskanzleramt a Bundesministerium, and
+      the German budget act pointedly heads its budget section "Bundeskanzler und
+      Bundeskanzleramt" while reserving the word "Bundesministerium" for the sixteen
+      departments; Austrian law designates it one, first in the list.
+    es: >-
+      La Cancillería Federal es el caso discutido en Austria y, a diferencia de Alemania,
+      aquí sí se cuenta. Se cuentan 13 ministerios federales; serían 12 si se considerase
+      el Bundeskanzleramt como oficina del jefe de gobierno y no como ministerio. La prueba
+      decisiva es que la ley austriaca dice que la Cancillería es un ministerio, y lo dice
+      en el precepto que los enumera: el § 1 Abs. 1 de la Bundesministeriengesetz 1986
+      empieza «Bundesministerien im Sinne des Art. 77 B-VG sind:» y su primer punto es «das
+      Bundeskanzleramt». El artículo 77 Abs. 3 de la Constitución lo refuerza por contraste
+      —«Mit der Leitung des Bundeskanzleramtes ist der Bundeskanzler, mit der Leitung der
+      anderen Bundesministerien je ein Bundesminister betraut»—, al llamar «los otros
+      ministerios federales» a los otros doce. La Parte 2 del Anexo al § 2 BMG asigna
+      además a la Cancillería la sección A en pie de igualdad con las doce secciones B a M,
+      con competencias sustantivas que ningún otro ministerio ostenta: el servicio
+      constitucional, la función pública, la administración digital, los asuntos
+      religiosos, los grupos étnicos reconocidos, la política de familia, la de juventud y
+      la de integración. Y la propia lista de «Bundesministerien» que publica la
+      Cancillería se abre con ella misma. En contra: la dirige el canciller en persona, es
+      la cúspide del gabinete, y el criterio por defecto de este proyecto —aplicado a la
+      Presidencia del Gobierno española y al Bundeskanzleramt alemán— es excluir esa
+      oficina. Quien prefiera esa lectura debe restar uno a todas las cifras de ministerios
+      que este sitio publica sobre Austria. La diferencia con Alemania es una diferencia
+      entre las dos leyes, no entre dos curadores: la ley alemana nunca designa al
+      Bundeskanzleramt como Bundesministerium, y la ley de presupuestos alemana titula su
+      sección presupuestaria «Bundeskanzler und Bundeskanzleramt» reservando la palabra
+      «Bundesministerium» para los dieciséis departamentos; la ley austriaca sí lo designa
+      ministerio, y en primer lugar de la lista.
+  - en: >-
+      Austria produces three numbers and they are not interchangeable. There are 13
+      Bundesministerien, because § 1 Abs. 1 BMG lists 13. There are 14 members of the
+      Bundesregierung: the Federal Chancellor, plus twelve federal ministers each leading
+      one of the other twelve ministries, plus one further federal minister who leads no
+      ministry of her own but the "sachliche Leitung" of specified matters inside the
+      Chancellery's remit, under § 1 Abs. 2 BMG and Article 77 Abs. 3 B-VG. And there are
+      21 people appointed by the Federal President to the government's ranks, once the
+      seven Staatssekretäre are added. This dataset publishes ministries_count 13 and
+      cabinet_seats_count 14. The Staatssekretäre carry no cabinet seat: Article 69 Abs. 1
+      B-VG composes the Bundesregierung of the Chancellor, the Vice-Chancellor and the
+      other federal ministers and no one else, and Article 78 Abs. 3 makes a Staatssekretär
+      subordinate to and bound by the instructions of his minister. They attend the
+      Ministerrat but are not members of it. A curator who counted attendance as a seat
+      would publish 21 seats rather than 14. The two figures are never added together.
+    es: >-
+      Austria arroja tres cifras que no son intercambiables. Hay 13 Bundesministerien,
+      porque el § 1 Abs. 1 BMG enumera 13. Hay 14 miembros de la Bundesregierung: el
+      canciller federal, doce ministros federales que dirigen cada uno de los otros doce
+      ministerios, y una ministra federal más que no dirige ministerio propio sino la
+      «sachliche Leitung» de determinadas materias del ámbito de la Cancillería, al amparo
+      del § 1 Abs. 2 BMG y del artículo 77 Abs. 3 B-VG. Y hay 21 personas nombradas por el
+      presidente federal para los cargos del gobierno, sumando los siete Staatssekretäre.
+      Este conjunto de datos publica ministries_count 13 y cabinet_seats_count 14. Los
+      Staatssekretäre no ocupan asiento en el gabinete: el artículo 69 Abs. 1 B-VG compone
+      la Bundesregierung con el canciller, el vicecanciller y los demás ministros
+      federales, y con nadie más, y el artículo 78 Abs. 3 subordina al Staatssekretär a su
+      ministro y lo vincula a sus instrucciones. Asisten al Consejo de Ministros pero no son
+      miembros de él. Un curador que contase la asistencia como asiento publicaría 21
+      asientos en lugar de 14. Las dos cifras nunca se suman.
+  - en: >-
+      The department structure changed 29 days into this cabinet's term. When the government
+      was sworn in on 3 March 2025 the Bundesministeriengesetz still listed 12
+      Bundesministerien, in the version last amended by the Bundesministeriengesetz-Novelle
+      2024; two of the incoming ministers were therefore sworn in provisionally without a
+      portfolio, because their departments did not yet exist. The
+      Bundesministeriengesetz-Novelle 2025, BGBl. I Nr. 10/2025, was published on 18 March
+      2025 and entered into force on 1 April 2025, raising the number to 13: it created the
+      Bundesministerium für Frauen, Wissenschaft und Forschung and the Bundesministerium
+      für Innovation, Mobilität und Infrastruktur, renamed five other departments, and
+      dissolved the Bundesministerium für Klimaschutz, Umwelt, Energie, Mobilität,
+      Innovation und Technologie by distributing its competences. Eight ministers and three
+      state secretaries were sworn in again on 2 April 2025 to match their new departments.
+      Austria's count under this cabinet was therefore 12 until 31 March 2025 and has been
+      13 since 1 April 2025. The seven entities created or renamed on that date carry
+      `valid_from: 2025-04-01`; the six designations that ceased are recorded below with
+      `valid_to: 2025-03-31` so the change is visible rather than inferred. Following the
+      precedent set for Sweden, those six are recorded as not counted and carry no cabinet
+      seat, because this file does not reconstruct which minister held which of them in March
+      2025. The consequence is explicit rather than hidden: a replay of any date before 1
+      April 2025 returns six ministries and seven seats, understating both, and only the
+      snapshot from 1 April 2025 onward is a figure this dataset stands behind. Everything
+      else in this file describes the structure in force from 1 April 2025 to the access date.
+    es: >-
+      La estructura departamental cambió a los 29 días de legislatura. Cuando el gobierno
+      tomó posesión el 3 de marzo de 2025, la Bundesministeriengesetz seguía enumerando 12
+      Bundesministerien, en la versión modificada por última vez por la
+      Bundesministeriengesetz-Novelle 2024; dos de las ministras entrantes fueron por ello
+      juramentadas provisionalmente sin cartera, porque sus departamentos aún no existían.
+      La Bundesministeriengesetz-Novelle 2025, BGBl. I Nr. 10/2025, se publicó el 18 de
+      marzo de 2025 y entró en vigor el 1 de abril de 2025, elevando la cifra a 13: creó el
+      Bundesministerium für Frauen, Wissenschaft und Forschung y el Bundesministerium für
+      Innovation, Mobilität und Infrastruktur, renombró otros cinco departamentos y
+      disolvió el Bundesministerium für Klimaschutz, Umwelt, Energie, Mobilität, Innovation
+      und Technologie repartiendo sus competencias. Ocho ministros y tres secretarias de
+      Estado volvieron a ser juramentados el 2 de abril de 2025 conforme a sus nuevos
+      departamentos. La cifra austriaca bajo este gobierno fue por tanto 12 hasta el 31 de
+      marzo de 2025 y es 13 desde el 1 de abril de 2025. Las siete entidades creadas o
+      renombradas en esa fecha llevan `valid_from: 2025-04-01`; las seis denominaciones que
+      cesaron se registran abajo con `valid_to: 2025-03-31`, para que el cambio sea visible
+      y no deducido. Siguiendo el precedente fijado para Suecia, esas seis se registran como
+      no contadas y sin asiento en el gabinete, porque este fichero no reconstruye qué
+      ministro ocupaba cada una de ellas en marzo de 2025. La consecuencia es explícita y no
+      oculta: una reconstrucción de cualquier fecha anterior al 1 de abril de 2025 devuelve
+      seis ministerios y siete asientos, subestimando ambos, y sólo la foto desde el 1 de
+      abril de 2025 es una cifra que este conjunto de datos respalda. Todo lo demás en este
+      fichero describe la estructura vigente desde el 1 de abril de 2025 hasta la fecha de
+      consulta.
+  - en: >-
+      The Vice-Chancellorship is a personal office held by a serving minister — in this
+      cabinet by the Federal Minister for Housing, Art, Culture, Media and Sport — and adds
+      neither a ministry nor a cabinet seat. Article 69 Abs. 2 B-VG makes the
+      Vice-Chancellor the Chancellor's deputy across the Chancellor's whole remit, which is
+      a function, not a department. Which minister holds it changes with reshuffles; the
+      department structure does not, and only the latter is recorded here.
+    es: >-
+      La vicecancillería es un cargo personal que ostenta un ministro en ejercicio —en este
+      gabinete el ministro federal de Vivienda, Arte, Cultura, Medios y Deporte— y no añade
+      ni ministerio ni asiento en el gabinete. El artículo 69 Abs. 2 B-VG convierte al
+      vicecanciller en sustituto del canciller en todo su ámbito, lo que es una función y no
+      un departamento. Quién lo ostenta cambia con las remodelaciones; la estructura
+      departamental no, y aquí sólo se registra esta última.
+  - en: >-
+      Policy areas here are tagged by a rule, not by impression: an area is tagged when Part
+      2 of the Annex to § 2 BMG assigns the ministry a numbered item (a "Ziffer") whose
+      subject matter is that area. The rule produces a few results a reader should not read
+      as errors. Housing is tagged on two ministries, because the Bundesministerium für
+      Wohnen, Kunst, Kultur, Medien und Sport holds only the coordination of housing policy
+      while the substantive Bau-, Wohnungs- und Siedlungswesen and the housing subsidy
+      remain with the Bundesministerium für Wirtschaft, Energie und Tourismus. Public
+      administration is tagged on two, because the Bundesministerium für europäische und
+      internationale Angelegenheiten holds deregulation and cutting red tape as one of only
+      two items in its whole section. Economy and state assets are each tagged on two,
+      because general economic policy and the administration of federal property sit with
+      Finance while sectoral economic policy and the state-owned enterprises sit with
+      Economy. Research is tagged on two, because academic research sits with the science
+      ministry and applied industrial research with the innovation ministry. Austria has no
+      dedicated environment ministry, no dedicated culture ministry and no dedicated
+      education-and-science ministry: those areas are tagged where the Annex actually puts
+      them.
+    es: >-
+      Las áreas de política se etiquetan aquí con una regla, no a ojo: un área se etiqueta
+      cuando la Parte 2 del Anexo al § 2 BMG asigna al ministerio un punto numerado (una
+      «Ziffer») cuya materia es esa área. La regla produce algunos resultados que el lector
+      no debe tomar por errores. La vivienda se etiqueta en dos ministerios, porque el
+      Bundesministerium für Wohnen, Kunst, Kultur, Medien und Sport sólo tiene la
+      coordinación de la política de vivienda, mientras que el Bau-, Wohnungs- und
+      Siedlungswesen sustantivo y la ayuda a la construcción de viviendas siguen en el
+      Bundesministerium für Wirtschaft, Energie und Tourismus. La administración pública se
+      etiqueta en dos, porque el Bundesministerium für europäische und internationale
+      Angelegenheiten tiene la desregulación y la desburocratización como uno de los dos
+      únicos puntos de toda su sección. Economía y patrimonio estatal se etiquetan en dos
+      cada una, porque la política económica general y la administración del patrimonio
+      federal están en Hacienda mientras la política económica sectorial y las empresas
+      públicas están en Economía. La investigación se etiqueta en dos, porque la
+      investigación científica está en el ministerio de Ciencia y la industrial aplicada en
+      el de Innovación. Austria no tiene ministerio propio de Medio Ambiente, ni de Cultura,
+      ni de Educación y Ciencia conjunto: esas áreas se etiquetan donde el Anexo las sitúa
+      realmente.
+  - en: >-
+      Two competences that the Annex assigns to the Bundeskanzleramt are not tagged at all,
+      because the project's policy-area vocabulary has no id for them. One is Integration —
+      "Angelegenheiten der gesellschaftlichen Integration und des Zusammenlebens von
+      Menschen mit und ohne Migrationshintergrund", item 25 of section A, which is a
+      distinct competence from the migration and asylum powers held by the interior
+      ministry and is not the same thing as social welfare. The other is Volksgruppen, item
+      15 of section A: the affairs of Austria's six legally recognised ethnic groups, which
+      is neither language policy nor equality as those ids are defined. Both are named in
+      the title the Federal Chancellery gives the minister who runs them —
+      "Bundesministerin für Europa, Integration und Familie im Bundeskanzleramt" — so a
+      reader who looks for Austrian integration policy in the comparison views will not
+      find it, and this note is the reason.
+    es: >-
+      Dos competencias que el Anexo asigna al Bundeskanzleramt no se etiquetan en absoluto,
+      porque el vocabulario de áreas de política del proyecto no tiene identificador para
+      ellas. Una es la Integración —«Angelegenheiten der gesellschaftlichen Integration und
+      des Zusammenlebens von Menschen mit und ohne Migrationshintergrund», punto 25 de la
+      sección A—, competencia distinta de las de migración y asilo que ostenta el
+      ministerio del Interior y que no es lo mismo que la asistencia social. La otra son los
+      Volksgruppen, punto 15 de la sección A: los asuntos de los seis grupos étnicos
+      legalmente reconocidos de Austria, que no son ni política lingüística ni igualdad tal
+      como se definen esos identificadores. Ambas figuran en el título que la Cancillería
+      Federal da a la ministra que las dirige —«Bundesministerin für Europa, Integration und
+      Familie im Bundeskanzleramt»—, de modo que quien busque la política austriaca de
+      integración en las vistas comparativas no la encontrará, y esta nota es la razón.
+  - en: >-
+      The Präsidentschaftskanzlei, the office of the Federal President, is not recorded as
+      an entity at all rather than recorded and excluded. It is not a Bundesministerium —
+      § 1 Abs. 1 BMG does not list it — and under Article 69 Abs. 1 B-VG the executive
+      business of the Federation belongs to the Chancellor and the ministers "soweit diese
+      nicht dem Bundespräsidenten übertragen sind", which places the President outside the
+      Bundesregierung rather than inside it as a non-counted member. No Austrian source
+      presents the office at cabinet level, so listing it would invent a candidacy nobody
+      asserts. The same reasoning excludes the Rechnungshof and the Volksanwaltschaft, which
+      are organs of the Nationalrat.
+    es: >-
+      La Präsidentschaftskanzlei, la oficina del presidente federal, no se registra como
+      entidad en absoluto, en lugar de registrarse y excluirse. No es un Bundesministerium
+      —el § 1 Abs. 1 BMG no la enumera— y conforme al artículo 69 Abs. 1 B-VG los asuntos
+      ejecutivos superiores de la Federación corresponden al canciller y a los ministros
+      «soweit diese nicht dem Bundespräsidenten übertragen sind», lo que sitúa al presidente
+      fuera de la Bundesregierung y no dentro de ella como miembro no contado. Ninguna
+      fuente austriaca presenta esa oficina a nivel de gabinete, de modo que listarla sería
+      inventar una candidatura que nadie sostiene. El mismo razonamiento excluye al
+      Rechnungshof y a la Volksanwaltschaft, órganos del Consejo Nacional.
+  - en: >-
+      Austria is a federal state and this file covers the Bundesregierung only. Each of the
+      nine Länder has its own Landesregierung whose members hold competences that in a
+      centralised state would sit with a national ministry — building law, nature
+      conservation, youth welfare, hospitals and kindergartens above all, and the
+      administration of much federal law through the Länder under Article 102 B-VG. State
+      governments are out of scope for this dataset, so they are not listed at all rather
+      than listed and excluded. Austria's federalism is nonetheless less far-reaching than
+      Germany's: school education, policing and culture are federal competences here and
+      state competences there, which is part of why Austria's 13 and Germany's 16 are not a
+      like-for-like measure of governmental reach.
+    es: >-
+      Austria es un Estado federal y este fichero cubre únicamente la Bundesregierung. Cada
+      uno de los nueve Länder tiene su propia Landesregierung, cuyos miembros ostentan
+      competencias que en un Estado centralizado corresponderían a un ministerio nacional:
+      sobre todo derecho de la edificación, protección de la naturaleza, protección de la
+      juventud, hospitales y guarderías, además de la ejecución de gran parte del derecho
+      federal a través de los Länder conforme al artículo 102 B-VG. Los gobiernos de los
+      Länder quedan fuera del alcance de este conjunto de datos, por lo que no se listan en
+      absoluto en lugar de listarse y excluirse. El federalismo austriaco es sin embargo
+      menos extenso que el alemán: la educación escolar, la policía y la cultura son aquí
+      competencias federales y allí competencias de los Länder, y en parte por eso los 13 de
+      Austria y los 16 de Alemania no miden el mismo alcance de gobierno.
+  - en: >-
+      Every English and Spanish ministry name in this file is the project's own rendering,
+      marked translated accordingly. The Austrian federal government publishes no
+      consolidated list of its ministries' names in either language: the Federal
+      Chancellery's English pages do not carry one, and RIS notes that the English
+      translation of the Bundesministeriengesetz lives in a separate "Austrian Laws"
+      application as an expressly non-binding aid. Several ministries do publish an English
+      name of their own on their own sites, and adopting those would be defensible, but no
+      archived snapshot of those pages was obtained for this pass, and an unverifiable claim
+      of officialness is worse than an understated one. The original German name is shown
+      alongside every rendering.
+    es: >-
+      Todos los nombres de ministerios en inglés y español de este fichero son traducciones
+      del proyecto, señaladas como tales. El gobierno federal austriaco no publica una lista
+      consolidada de los nombres de sus ministerios en ninguno de los dos idiomas: las
+      páginas en inglés de la Cancillería Federal no la incluyen, y RIS advierte que la
+      traducción inglesa de la Bundesministeriengesetz reside en una aplicación aparte,
+      «Austrian Laws», como auxilio expresamente no vinculante. Varios ministerios sí
+      publican un nombre inglés propio en sus webs, y adoptarlo sería defendible, pero no se
+      obtuvo copia archivada de esas páginas en esta pasada, y una afirmación de oficialidad
+      no verificable es peor que una subestimada. El nombre alemán original se muestra junto
+      a cada traducción.
+
+sources:
+  - id: ris-bmg-1986-p1
+    tier: 1
+    type: statute
+    publisher: Bundeskanzleramt — Rechtsinformationssystem des Bundes (RIS)
+    title: >-
+      Bundesgesetz über die Zahl, den Wirkungsbereich und die Einrichtung der
+      Bundesministerien (Bundesministeriengesetz 1986 – BMG), § 1, Bundesrecht
+      konsolidiert
+    url: https://ris.bka.gv.at/Dokumente/Bundesnormen/NOR40268742/NOR40268742.pdf
+    archive_url: https://web.archive.org/web/20260728100507/https://ris.bka.gv.at/Dokumente/Bundesnormen/NOR40268742/NOR40268742.pdf
+    lang: de
+    published: 2025-03-18
+    accessed: 2026-07-28
+    quote: |-
+      Abschnitt I
+      Allgemeine Bestimmungen
+      Bundesministerien und Bundesminister im Bundeskanzleramt
+      § 1. (1) Bundesministerien im Sinne des Art. 77 B-VG sind:
+      1. das Bundeskanzleramt,
+      2. das Bundesministerium für Wohnen, Kunst, Kultur, Medien und Sport,
+      3. das Bundesministerium für europäische und internationale Angelegenheiten,
+      4. das Bundesministerium für Arbeit, Soziales, Gesundheit, Pflege und Konsumentenschutz,
+      5. das Bundesministerium für Bildung,
+      6. das Bundesministerium für Finanzen,
+      7. das Bundesministerium für Frauen, Wissenschaft und Forschung,
+      8. das Bundesministerium für Inneres,
+      9. das Bundesministerium für Innovation, Mobilität und Infrastruktur,
+      10. das Bundesministerium für Justiz,
+      11. das Bundesministerium für Land- und Forstwirtschaft, Klima- und Umweltschutz, Regionen und Wasserwirtschaft,
+      12. das Bundesministerium für Landesverteidigung,
+      13. das Bundesministerium für Wirtschaft, Energie und Tourismus.
+      (2) Soweit der Bundespräsident mit Entschließung gemäß Art. 77 Abs. 3 B-VG die sachliche Leitung bestimmter, zum Wirkungsbereich des Bundeskanzleramtes gehörender Angelegenheiten einem eigenen Bundesminister überträgt, führt dieser einen auf die ihm übertragenen Angelegenheiten hinweisenden Titel.
+    note: >-
+      The enumerating instrument, and the reason Austria needs no substitute for one. RIS
+      states this consolidated version of § 1 as "BGBl. Nr. 76/1986 zuletzt geändert durch
+      BGBl. I Nr. 10/2025" with "Inkrafttretensdatum 01.04.2025", so it reflects the
+      Bundesministeriengesetz-Novelle 2025 and nothing later; the consolidated text of the
+      whole Act, retrieved for the version valid on 28 July 2026, lists BGBl. I Nr. 10/2025
+      as its most recent amendment. `published` is the date that amending Act was published
+      in the Bundesgesetzblatt, 18 March 2025, since a consolidated text has no publication
+      date of its own. The quote reproduces the section heading, the provision's own
+      heading, the whole of Abs. 1 and the whole of Abs. 2 from the RIS PDF; the PDF's
+      indentation is normalised and the line break the typesetter puts inside item 11 is
+      closed up, and no wording is altered. Abs. 2 is quoted because it is the legal basis
+      for the Bundesministerin im Bundeskanzleramt recorded below. Note that the version of
+      this provision rendered in RIS's HTML interface interleaves an accessibility rendering
+      that expands abbreviations ("Paragraph eins,", "Ziffer eins"); that rendering is not
+      part of the enacted text and the PDF cited here does not contain it. The listing order
+      of the entities in this file follows Abs. 1.
+
+  - id: ris-bmg-1986-anlage
+    tier: 1
+    type: statute
+    publisher: Bundeskanzleramt — Rechtsinformationssystem des Bundes (RIS)
+    title: >-
+      Bundesministeriengesetz 1986 – BMG, Anlage zu § 2 (Wirkungsbereich der
+      Bundesministerien), Bundesrecht konsolidiert
+    url: https://ris.bka.gv.at/Dokumente/Bundesnormen/NOR40268786/NOR40268786.pdf
+    archive_url: https://web.archive.org/web/20260728100518/https://ris.bka.gv.at/Dokumente/Bundesnormen/NOR40268786/NOR40268786.pdf
+    lang: de
+    published: 2025-03-18
+    accessed: 2026-07-28
+    quote: |-
+      A. Bundeskanzleramt
+      1. Angelegenheiten der allgemeinen Regierungspolitik einschließlich der Koordination der gesamten Verwaltung des Bundes, soweit sie nicht in den Wirkungsbereich eines anderen Bundesministeriums fällt.
+      3. Angelegenheiten der staatlichen Verfassung.
+      12. Angelegenheiten des Kultus.
+      15. Angelegenheiten der Volksgruppen.
+      16. Allgemeine Angelegenheiten der Familienpolitik einschließlich der Koordination der Familienpolitik und der Familienförderung sowie Bevölkerungspolitik in Angelegenheiten der Familie und Jugend.
+      22. Angelegenheiten der außerschulischen Jugenderziehung, soweit es sich nicht um außerschulische Berufsausbildung handelt.
+      24. Allgemeine Personalangelegenheiten von öffentlich Bediensteten, soweit sie nicht in den Wirkungsbereich des Bundesministeriums für Finanzen fallen.
+      25. Angelegenheiten der Integration.
+      27. Angelegenheiten der Digitalisierung einschließlich der staatlichen Verwaltung für das Service und die Interaktion mit Bürgern und Unternehmen.
+    note: >-
+      The instrument that defines what each ministry actually does, and therefore the source
+      for every policy-area tag in this file. Part 1 lists the housekeeping business every
+      ministry conducts; Part 2 divides the substantive subject matter into thirteen
+      lettered sections, A to M, one per Bundesministerium in the order of § 1 Abs. 1, with
+      section A the Bundeskanzleramt. The quote transcribes the heading of section A and
+      nine of its twenty-nine numbered items, chosen because they are the ones the
+      Chancellery's counted policy areas rest on; the items' subordinate paragraphs ("Dazu
+      gehören insbesondere auch: ...") and the items not tagged here are omitted, and no
+      wording is altered. Sections B to M are structured identically and are read the same
+      way for the twelve other ministries. Same consolidated version and same `published`
+      reasoning as ris-bmg-1986-p1.
+
+  - id: bgbl-2025-i-10-bmg-novelle
+    tier: 1
+    type: official_gazette
+    publisher: Bundesgesetzblatt für die Republik Österreich
+    title: >-
+      10. Bundesgesetz, mit dem das Bundesministeriengesetz 1986 geändert wird
+      (Bundesministeriengesetz-Novelle 2025), BGBl. I Nr. 10/2025
+    url: https://ris.bka.gv.at/Dokumente/BgblAuth/BGBLA_2025_I_10/BGBLA_2025_I_10.pdf
+    archive_url: https://web.archive.org/web/20251211183538/https://ris.bka.gv.at/Dokumente/BgblAuth/BGBLA_2025_I_10/BGBLA_2025_I_10.pdf
+    lang: de
+    published: 2025-03-18
+    accessed: 2026-07-28
+    quote: |-
+      10. Bundesgesetz, mit dem das Bundesministeriengesetz 1986 geändert wird (Bundesministeriengesetz-Novelle 2025)
+      Der Nationalrat hat beschlossen:
+      Das Bundesgesetz über die Zahl, den Wirkungsbereich und die Einrichtung der Bundesministerien (Bundesministeriengesetz 1986 – BMG), BGBl. Nr. 76/1986, zuletzt geändert durch die Bundesministeriengesetz-Novelle 2024, BGBl. I Nr. 44/2024, wird wie folgt geändert:
+      Anlage zu § 2
+      Teil 1
+      Teil 2
+      Abschnitt A Bundeskanzleramt
+      Abschnitt B Bundesministerium für Wohnen, Kunst, Kultur, Medien und Sport
+      Abschnitt C Bundesministerium für europäische und internationale Angelegenheiten
+      Abschnitt D Bundesministerium für Arbeit, Soziales, Gesundheit, Pflege und Konsumentenschutz
+      Abschnitt E Bundesministerium für Bildung
+      Abschnitt F Bundesministerium für Finanzen
+      Abschnitt G Bundesministerium für Frauen, Wissenschaft und Forschung
+      Abschnitt H Bundesministerium für Inneres
+      Abschnitt I Bundesministerium für Innovation, Mobilität und Infrastruktur
+      Abschnitt J Bundesministerium für Justiz
+      Abschnitt K Bundesministerium für Land- und Forstwirtschaft, Klima- und Umweltschutz, Regionen und Wasserwirtschaft
+      Abschnitt L Bundesministerium für Landesverteidigung
+      Abschnitt M Bundesministerium für Wirtschaft, Energie und Tourismus
+      4. § 1 Abs. 1 lautet:
+      1. Das Inhaltsverzeichnis, die Überschrift des Abschnitts I, die Überschrift zu § 1, § 1 Abs. 1, die §§ 1a, 2 und 3 samt Überschriften, ... sowie die Anlage zu § 2 in der Fassung der Bundesministeriengesetz-Novelle 2025, BGBl. I Nr. 10/2025, treten mit 1. April 2025 in Kraft
+    note: >-
+      The amending Act, cited for the date of the reorganisation and for the fact that the
+      thirteen sections of the Annex are established as a set. The quote reproduces the
+      Act's title, its enacting formula, the Annex portion of the table of contents it
+      inserts, the opening line of its item 4 (which replaces § 1 Abs. 1 — the replacement
+      text itself is quoted in full under ris-bmg-1986-p1 instead of being repeated here),
+      and the entry-into-force provision it appends as § 16 Abs. 33 Z 1. Within that last
+      sentence an ellipsis marks a long list of further provisions that is omitted; it is
+      the only elision in the quote and it removes no words bearing on the date. Items 1 to
+      3 and 5 to 42 of the Act, which renumber and reword provisions unrelated to the list
+      of ministries, are omitted entirely. The gazette's typesetting line breaks inside a
+      designation are closed up and its indentation is normalised; no wording is altered.
+      A second entry-into-force date of 1 September 2025 applies under Z 2 to §§ 3a Abs. 3,
+      4, 7 Abs. 8 and 11, none of which touches the number or the names of the ministries.
+
+  - id: bvg-art-77
+    tier: 1
+    type: statute
+    publisher: Bundeskanzleramt — Rechtsinformationssystem des Bundes (RIS)
+    title: Bundes-Verfassungsgesetz (B-VG), Artikel 77
+    url: https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10000138&Artikel=77&Paragraf=&Anlage=&Uebergangsrecht=
+    archive_url: https://web.archive.org/web/20260518084600/https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10000138&Artikel=77&Paragraf=&Anlage=&Uebergangsrecht=
+    lang: de
+    published: 1930-01-01
+    accessed: 2026-07-28
+    quote: |-
+      Artikel 77. (1) Zur Besorgung der Geschäfte der Bundesverwaltung sind die Bundesministerien und die ihnen unterstellten Ämter berufen.
+      (2) Die Zahl der Bundesministerien, ihr Wirkungsbereich und ihre Einrichtung werden durch Bundesgesetz bestimmt.
+      (3) Mit der Leitung des Bundeskanzleramtes ist der Bundeskanzler, mit der Leitung der anderen Bundesministerien je ein Bundesminister betraut. Der Bundespräsident kann die sachliche Leitung bestimmter, zum Wirkungsbereich des Bundeskanzleramtes gehörender Angelegenheiten, und zwar auch einschließlich der Aufgaben der Personalverwaltung und der Organisation, unbeschadet des Fortbestandes ihrer Zugehörigkeit zum Bundeskanzleramt eigenen Bundesministern übertragen; solche Bundesminister haben bezüglich der betreffenden Angelegenheiten die Stellung eines zuständigen Bundesministers.
+      (4) Der Bundeskanzler und die übrigen Bundesminister können ausnahmsweise auch mit der Leitung eines zweiten Bundesministeriums betraut werden.
+    note: >-
+      Four paragraphs of constitutional law that settle most of this file. Abs. 2 is why
+      Austria has a statutory enumeration at all: the number of ministries is a matter for
+      an Act of Parliament, which is what the Bundesministeriengesetz is. Abs. 3 is
+      load-bearing for the Chancellery decision — it says the Chancellor leads the
+      Bundeskanzleramt and a federal minister leads each of "the other federal ministries",
+      so the Constitution itself treats the Chancellery as one of the ministries. Its second
+      sentence creates the office of a Bundesminister inside the Chancellery's remit and
+      gives such a minister "die Stellung eines zuständigen Bundesministers" for the matters
+      transferred, which is why the entity recorded for that office below holds a full
+      cabinet seat. Abs. 4 permits one person to lead two ministries; no minister in this
+      cabinet does, so no entity in this file carries shared_head_with. `published` is
+      recorded as 1930-01-01 because the B-VG's reissued version is the Fassung of 1930 and
+      RIS gives no day-precise publication date for the consolidated article; the article
+      has not been amended since 15 September 2016 according to RIS's own "Zuletzt
+      aktualisiert" line. Quote transcribed from the RIS page with the inline accessibility
+      expansions ("Absatz eins,", "Artikel 77,") removed, as they are not part of the
+      enacted text.
+
+  - id: bvg-art-69
+    tier: 1
+    type: statute
+    publisher: Bundeskanzleramt — Rechtsinformationssystem des Bundes (RIS)
+    title: Bundes-Verfassungsgesetz (B-VG), Artikel 69
+    url: https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10000138&Artikel=69&Paragraf=&Anlage=&Uebergangsrecht=
+    archive_url: https://web.archive.org/web/20260208171754/https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10000138&Artikel=69&Paragraf=&Anlage=&Uebergangsrecht=
+    lang: de
+    published: 1930-01-01
+    accessed: 2026-07-28
+    quote: |-
+      Artikel 69. (1) Mit den obersten Verwaltungsgeschäften des Bundes sind, soweit diese nicht dem Bundespräsidenten übertragen sind, der Bundeskanzler, der Vizekanzler und die übrigen Bundesminister betraut. Sie bilden in ihrer Gesamtheit die Bundesregierung unter dem Vorsitz des Bundeskanzlers.
+      (2) Der Vizekanzler ist zur Vertretung des Bundeskanzlers in dessen gesamtem Wirkungsbereich berufen.
+    note: >-
+      The provision that fixes who holds a cabinet seat in Austria, and therefore what
+      cabinet_seats_count means here. It puts the Chancellor in the Bundesregierung, which
+      is why the Bundeskanzleramt entity carries a seat. It makes every Bundesminister a
+      member whether or not he leads a ministry, which is why the Bundesministerin im
+      Bundeskanzleramt carries one. And by naming only the Chancellor, the Vice-Chancellor
+      and the other federal ministers it excludes the seven Staatssekretäre from membership,
+      which is why they carry none. Its opening clause also puts the Federal President
+      outside the Bundesregierung. Abs. 2 makes the Vice-Chancellorship a function of
+      deputising for the Chancellor rather than a department. Abs. 3, on how the government
+      takes decisions, is omitted from the quote. Same `published` and transcription
+      reasoning as bvg-art-77.
+
+  - id: bvg-art-78
+    tier: 1
+    type: statute
+    publisher: Bundeskanzleramt — Rechtsinformationssystem des Bundes (RIS)
+    title: Bundes-Verfassungsgesetz (B-VG), Artikel 78
+    url: https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10000138&Artikel=78&Paragraf=&Anlage=&Uebergangsrecht=
+    archive_url: https://web.archive.org/web/20260214200700/https://ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10000138&Artikel=78&Paragraf=&Anlage=&Uebergangsrecht=
+    lang: de
+    published: 1930-01-01
+    accessed: 2026-07-28
+    quote: |-
+      Artikel 78. (1) In besonderen Fällen können Bundesminister auch ohne gleichzeitige Betrauung mit der Leitung eines Bundesministeriums bestellt werden.
+      (2) Den Bundesministern können zur Unterstützung in der Geschäftsführung und zur parlamentarischen Vertretung Staatssekretäre beigegeben werden, die unter denselben Voraussetzungen und in gleicher Weise wie die Bundesminister bestellt werden und aus dem Amt scheiden.
+      (3) Der Bundesminister kann den Staatssekretär mit dessen Zustimmung auch mit der Besorgung bestimmter Aufgaben betrauen. Der Staatssekretär ist dem Bundesminister auch bei Erfüllung dieser Aufgaben unterstellt und an seine Weisungen gebunden.
+    note: >-
+      The constitutional basis for the two kinds of entity in this file that hold
+      ministerial rank without a ministry of their own. Abs. 1 allows a Bundesminister to be
+      appointed without being charged with leading a ministry, which is the Austrian
+      equivalent of a minister without portfolio. Abs. 2 and Abs. 3 settle the Staatssekretär
+      question: a Staatssekretär is attached to a minister, is appointed and leaves office
+      exactly as a minister does — which is why the Federal Chancellery lists all seven
+      alongside the ministers — but is subordinate to that minister and bound by his
+      instructions, and Article 69 Abs. 1 does not name him a member of the Bundesregierung.
+      The second and third sentences of Abs. 2, on how the Chancellor and Vice-Chancellor
+      may be represented in Parliament by each other's state secretaries, are omitted from
+      the quote. Same `published` and transcription reasoning as bvg-art-77.
+
+  - id: bgbl-2025-ii-62-entschliessung
+    tier: 1
+    type: official_gazette
+    publisher: Bundesgesetzblatt für die Republik Österreich
+    title: >-
+      62. Entschließung des Bundespräsidenten, mit der die sachliche Leitung bestimmter,
+      zum Wirkungsbereich des Bundeskanzleramtes gehörender Angelegenheiten einer eigenen
+      Bundesministerin übertragen wird, BGBl. II Nr. 62/2025
+    url: https://www.ris.bka.gv.at/Dokumente/BgblAuth/BGBLA_2025_II_62/BGBLA_2025_II_62.pdf
+    archive_url: https://web.archive.org/web/20260728101500/https://www.ris.bka.gv.at/Dokumente/BgblAuth/BGBLA_2025_II_62/BGBLA_2025_II_62.pdf
+    lang: de
+    published: 2025-04-08
+    accessed: 2026-07-28
+    quote: |-
+      Aufgrund des Art. 77 Abs. 3 B-VG übertrage ich der Bundesministerin im Bundeskanzleramt Claudia PLAKOLM die sachliche Leitung folgender, zum Wirkungsbereich des Bundeskanzleramtes gehörender Angelegenheiten:
+      (1) 1. Koordination in Angelegenheiten der Europäischen Union; Erteilung von Weisungen für den Ausschuss der Ständigen Vertreter (I, II) und für mit diesem eng zusammenarbeitende Gruppen, jeweils im Einvernehmen mit dem Bundesministerium für europäische und internationale Angelegenheiten.
+      2. Angelegenheiten des Kultus.
+      5. Angelegenheiten der Volksgruppen.
+      6. Allgemeine Angelegenheiten der Familienpolitik einschließlich der Koordination der Familienpolitik und der Familienförderung sowie Bevölkerungspolitik in Angelegenheiten der Familie und Jugend.
+      14. Angelegenheiten der Integration.
+      15. Angelegenheiten des Zivildienstes.
+      (2) Abs. 1 gilt nicht für Aufgaben der Personalverwaltung und der Organisation.
+      (4) Diese Entschließung tritt mit ihrer Kundmachung in Kraft.
+    note: >-
+      The instrument that constitutes the one office in this cabinet that is a federal
+      ministry's worth of business without being a federal ministry. It transfers to a
+      federal minister inside the Bundeskanzleramt, by name, the sachliche Leitung of
+      fifteen groups of matters drawn from section A of the Annex — European coordination,
+      religious affairs, national minorities, family, youth, integration and civil service
+      in the alternative-service sense — while, as Article 77 Abs. 3 requires, those matters
+      remain part of the Chancellery's remit. The quote reproduces the operative opening
+      sentence, six of the fifteen numbered groups, and paragraphs 2 and 4; groups 3, 4, 7 to
+      13 and paragraph 3 are omitted, as is the signature block. It is the only Entschließung
+      of this kind published under this cabinet: a title search of the Bundesgesetzblatt for
+      2025 returns this one and no other. The minister named here has since taken the surname
+      Bauer, which the Federal Chancellery notes as "Claudia Bauer (vormals Plakolm)"; this
+      dataset records offices rather than officeholders, so the change alters nothing in this
+      file.
+
+  - id: ris-bmg-1986-p1-bis-2025-03-31
+    tier: 1
+    type: statute
+    publisher: Bundeskanzleramt — Rechtsinformationssystem des Bundes (RIS)
+    title: >-
+      Bundesministeriengesetz 1986 – BMG, § 1 in der Fassung BGBl. I Nr. 98/2022, gültig
+      bis 31. März 2025, Bundesrecht konsolidiert
+    url: https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40245504/NOR40245504.pdf
+    archive_url: https://web.archive.org/web/20241004185658/https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40245504/NOR40245504.pdf
+    lang: de
+    published: 2022-07-18
+    accessed: 2026-07-28
+    quote: |-
+      Abschnitt I
+      Zahl der Bundesministerien
+      § 1. (1) Bundesministerien im Sinne des Art. 77 B-VG sind:
+      1. das Bundeskanzleramt,
+      2. das Bundesministerium für Kunst, Kultur, öffentlichen Dienst und Sport,
+      3. das Bundesministerium für europäische und internationale Angelegenheiten,
+      4. das Bundesministerium für Arbeit und Wirtschaft,
+      5. das Bundesministerium für Bildung, Wissenschaft und Forschung,
+      6. das Bundesministerium für Finanzen,
+      7. das Bundesministerium für Inneres,
+      8. das Bundesministerium für Justiz,
+      9. das Bundesministerium für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie,
+      10. das Bundesministerium für Landesverteidigung,
+      11. das Bundesministerium für Land- und Forstwirtschaft, Regionen und Wasserwirtschaft,
+      12. das Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz.
+    note: >-
+      The version of the enumerating provision that was in force when this cabinet was sworn
+      in on 3 March 2025, and until 31 March 2025 — RIS gives it
+      "Außerkrafttretensdatum 31.03.2025" and "zuletzt geändert durch BGBl. I Nr. 98/2022".
+      Cited for the six designations that ceased to exist on that date, which are recorded
+      below with valid_to so that the reorganisation four weeks into the term is visible in
+      the data rather than only in a note. Twelve ministries, against thirteen from 1 April
+      2025. The archived snapshot predates the amendment and therefore shows exactly this
+      superseded text. The quote reproduces the section heading, the provision's heading and
+      the whole of Abs. 1; Abs. 2, identical in substance to the current one, is omitted.
+
+  - id: bka-bundesministerien
+    tier: 2
+    type: government_website
+    publisher: Bundeskanzleramt Österreich
+    title: Bundesministerien
+    url: https://www.bundeskanzleramt.gv.at/bundeskanzleramt/die-bundesregierung/bundesministerien.html
+    archive_url: https://web.archive.org/web/20260512064649/https://www.bundeskanzleramt.gv.at/bundeskanzleramt/die-bundesregierung/bundesministerien.html
+    lang: de
+    accessed: 2026-07-28
+    quote: |-
+      Bundesministerien
+      Bundeskanzleramt
+      Bundesministerium für Arbeit, Soziales, Gesundheit, Pflege und Konsumentenschutz
+      Bundesministerium für Bildung
+      Bundesministerium für europäische und internationale Angelegenheiten
+      Bundesministerium für Frauen, Wissenschaft und Forschung
+      Bundesministerium für Finanzen
+      Bundesministerium für Inneres
+      Bundesministerium für Innovation, Mobilität und Infrastruktur
+      Bundesministerium für Justiz
+      Bundesministerium für Landesverteidigung
+      Bundesministerium für Land- und Forstwirtschaft, Klima- und Umweltschutz, Regionen und Wasserwirtschaft
+      Bundesministerium für Wirtschaft, Energie und Tourismus
+      Bundesministerium für Wohnen, Kunst, Kultur, Medien und Sport
+      Die Namen und Zuständigkeitsbereiche der einzelnen Bundesministerien sind im Bundesministeriengesetz geregelt. Das Bundesministeriengesetz wurde zuletzt am 18. März 2025 novelliert und trat mit 1. April 2025 in Kraft.
+    note: >-
+      The Austrian government's own directory of its ministries, and a second, independent
+      reason to count the Bundeskanzleramt: the page is headed "Bundesministerien" and the
+      Chancellery is the first entry in it, which is the opposite of what the equivalent
+      German page does. The page corroborates the statutory list item for item and adds
+      nothing to it — thirteen bodies, the same thirteen. Its closing note also confirms that
+      no Bundesministeriengesetz amendment has followed BGBl. I Nr. 10/2025 as of the access
+      date. The quote lists the entries in the page's own order, which is the Chancellery
+      first and then alphabetical by German name and therefore not the statutory order; each
+      entry's postal address, telephone number and internet domain are omitted, and the
+      abbreviations used in this file are taken from those domains (bmwkms.gv.at, bmeia.gv.at,
+      bmb.gv.at and so on), except for the social ministry, whose domain is
+      sozialministerium.gv.at and whose own site gives BMASGPK. No `published` date is
+      recorded because the page carries none.
+
+  - id: bka-mitglieder-bundesregierung
+    tier: 2
+    type: government_website
+    publisher: Bundeskanzleramt Österreich
+    title: >-
+      Bundesministerinnen und Bundesminister, Staatssekretärinnen und Staatssekretäre
+    url: https://www.bundeskanzleramt.gv.at/bundeskanzleramt/die-bundesregierung/bundesministerinnen-und-bundesminister.html
+    archive_url: https://web.archive.org/web/20260728100537/https://www.bundeskanzleramt.gv.at/bundeskanzleramt/die-bundesregierung/bundesministerinnen-und-bundesminister.html
+    lang: de
+    accessed: 2026-07-28
+    quote: |-
+      Bundeskanzler
+      Vizekanzler, Bundesminister für Wohnen, Kunst, Kultur, Medien und Sport
+      Bundesministerin für Europa, Integration und Familie im Bundeskanzleramt
+      Bundesminister für Innovation, Mobilität und Infrastruktur
+      Bundesminister für Wirtschaft, Energie und Tourismus
+      Bundesministerin für Frauen, Wissenschaft und Forschung
+      Bundesminister für Inneres
+      Bundesminister für Finanzen
+      Bundesministerin für europäische und internationale Angelegenheiten
+      Bundesministerin für Arbeit, Soziales, Gesundheit, Pflege und Konsumentenschutz
+      Bundesministerin für Justiz
+      Bundesministerin für Landesverteidigung
+      Bundesminister für Land- und Forstwirtschaft, Klima- und Umweltschutz, Regionen und Wasserwirtschaft
+      Bundesminister für Bildung
+      Staatssekretärin im Bundesministerium für Finanzen
+      Staatssekretärin im Bundesministerium für Arbeit, Soziales, Gesundheit, Pflege und Konsumentenschutz
+      Staatssekretär im Bundesministerium für Inneres
+      Staatssekretär im Bundeskanzleramt
+      Staatssekretär im Bundesministerium für europäische und internationale Angelegenheiten
+      Staatssekretärin im Bundesministerium für Wohnen, Kunst, Kultur, Medien und Sport
+      Staatssekretärin im Bundesministerium für Wirtschaft, Energie und Tourismus
+      Die Staatssekretäre und Staatssekretärinnen werden gemäß Artikel 70 Absatz 1 in Verbindung mit Artikel 78 Absatz 2 Bundes-Verfassungsgesetz vom Bundespräsidenten ernannt und zur Unterstützung in der Geschäftsführung und zur parlamentarischen Vertretung dem jeweiligen Bundesminister, der jeweiligen Bundesministerin beziehungsweise dem Bundeskanzler zugeordnet.
+    note: >-
+      The government's own roster, cited for three things the statute cannot give: the exact
+      official title of the federal minister in the Chancellery, which ministries have a
+      Staatssekretär, and the fact that the Vice-Chancellorship is held by a serving minister
+      rather than existing as an office of its own. Fourteen members of the Bundesregierung
+      are listed — one Chancellor and thirteen federal ministers, one of whom is also
+      Vice-Chancellor — followed by seven Staatssekretäre. The quote transcribes the office
+      titles in the page's own order, which is the Chancellor, then the Vice-Chancellor, then
+      the ministers and the state secretaries alphabetically by surname; the officeholders'
+      names, academic titles and photograph credits are omitted, and where the page breaks a
+      title across two lines it is closed up. The page carries the internal revision date
+      "Stand: 2. April 2025", which is the day eight ministers were sworn in again to match
+      their reorganised departments; it was live and unchanged when accessed on 28 July 2026,
+      and the Chancellery's own newsroom shows the same Chancellor acting on 27 July 2026.
+
+entities:
+  # --- the 13 Bundesministerien of § 1 Abs. 1 BMG, in the statute's own order ----------
+  - id: AT-2025-bundeskanzleramt
+    order: 1
+    name_original: Bundeskanzleramt
+    abbreviation_original: BKA
+    name_en: Federal Chancellery
+    name_es: Cancillería Federal
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Bundeskanzler
+    head_title_en: Federal Chancellor
+    has_cabinet_seat: true
+    policy_areas: [government_coordination, public_administration, digital, european_affairs, family, youth, religion]
+    counts_as_ministry: true
+    url: https://www.bundeskanzleramt.gv.at
+    sources: [ris-bmg-1986-p1, ris-bmg-1986-anlage, bvg-art-77, bvg-art-69, bka-bundesministerien]
+    note:
+      en: >-
+        The single most consequential judgement in this file, and it goes the other way from
+        the German one: counted, which is why Austria is published as 13 and not 12. Item 1
+        of § 1 Abs. 1 BMG says "Bundesministerien im Sinne des Art. 77 B-VG sind: 1. das
+        Bundeskanzleramt", and Article 77 Abs. 3 B-VG speaks of "der Leitung der anderen
+        Bundesministerien", so both the statute and the Constitution class it as one of the
+        ministries rather than as something adjacent to them. It is also not a bare apex
+        office: section A of the Annex to § 2 gives it twenty-nine numbered competences of
+        its own, including the constitutional service, the law of the civil service, digital
+        government, religious affairs, the recognised ethnic groups, family policy, youth
+        policy outside school, alternative civilian service and integration — subject matter
+        that in most European cabinets sits in a named department. The tagged areas follow
+        those items; integration and Volksgruppen are untagged only because the project's
+        vocabulary has no id for them, which is recorded in the methodology notes. The
+        contrary argument is real and is stated there too: this is the office of the head of
+        government, led by the Chancellor in person, and the project's default is to exclude
+        such an office, as it does for Spain's Presidencia del Gobierno and for the German
+        Bundeskanzleramt. Read that way, every Austrian ministry figure on this site falls by
+        one, to 12. The seat recorded here is the Chancellor's own; the federal minister who
+        runs part of this ministry's business is recorded separately below and holds her own
+        seat, so no seat is double-counted and head_count stays at 1.
+      es: >-
+        El juicio de mayor consecuencia de este fichero, y se resuelve al contrario que el
+        alemán: se cuenta, y por eso Austria se publica como 13 y no como 12. El punto 1 del
+        § 1 Abs. 1 BMG dice «Bundesministerien im Sinne des Art. 77 B-VG sind: 1. das
+        Bundeskanzleramt», y el artículo 77 Abs. 3 B-VG habla de «der Leitung der anderen
+        Bundesministerien», de modo que tanto la ley como la Constitución lo clasifican como
+        uno de los ministerios y no como algo contiguo a ellos. Tampoco es una simple
+        oficina de cúspide: la sección A del Anexo al § 2 le atribuye veintinueve
+        competencias numeradas propias, entre ellas el servicio constitucional, el derecho
+        de la función pública, la administración digital, los asuntos religiosos, los grupos
+        étnicos reconocidos, la política de familia, la política de juventud extraescolar,
+        el servicio civil sustitutorio y la integración: materias que en la mayoría de los
+        gabinetes europeos residen en un departamento con nombre propio. Las áreas
+        etiquetadas siguen esos puntos; integración y Volksgruppen quedan sin etiquetar sólo
+        porque el vocabulario del proyecto no tiene identificador para ellas, lo que consta
+        en las notas metodológicas. El argumento contrario es real y también consta allí:
+        esta es la oficina del jefe de gobierno, dirigida por el canciller en persona, y el
+        criterio por defecto del proyecto es excluirla, como hace con la Presidencia del
+        Gobierno española y con el Bundeskanzleramt alemán. Leído así, toda cifra austriaca
+        de ministerios de este sitio baja en uno, a 12. El asiento que aquí se registra es el
+        del propio canciller; la ministra federal que dirige parte de los asuntos de este
+        ministerio se registra aparte más abajo y ocupa su propio asiento, por lo que ningún
+        asiento se cuenta dos veces y head_count queda en 1.
+
+  - id: AT-2025-wohnen-kunst-kultur-medien-sport
+    order: 2
+    name_original: Bundesministerium für Wohnen, Kunst, Kultur, Medien und Sport
+    abbreviation_original: BMWKMS
+    name_en: Federal Ministry for Housing, Art, Culture, Media and Sport
+    name_es: Ministerio Federal de Vivienda, Arte, Cultura, Medios y Deporte
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Bundesminister
+    head_title_en: Federal Minister
+    has_cabinet_seat: true
+    policy_areas: [housing, culture, media, telecommunications, sport]
+    counts_as_ministry: true
+    valid_from: 2025-04-01
+    url: https://www.bmwkms.gv.at
+    sources: [ris-bmg-1986-p1, ris-bmg-1986-anlage, bgbl-2025-i-10-bmg-novelle, bka-bundesministerien, bka-mitglieder-bundesregierung]
+    note:
+      en: >-
+        Created in this form on 1 April 2025 by the Bundesministeriengesetz-Novelle 2025,
+        which took the former Bundesministerium für Kunst, Kultur, öffentlichen Dienst und
+        Sport, moved the civil service out of it to the Bundeskanzleramt, and moved housing
+        and media in. Its minister is also Vice-Chancellor in this cabinet: a personal
+        office attached to a serving minister, not a department, so it adds neither a
+        ministry nor a cabinet seat and is not recorded as an entity. The housing tag needs
+        reading with care — the Annex gives this ministry only "Koordination in
+        Angelegenheiten der nationalen und internationalen Wohnungspolitik" and building
+        coordination, while the substantive Bau-, Wohnungs- und Siedlungswesen and the
+        Wohnbauförderung stayed with the economy ministry, so Austria has a ministry named
+        for housing and a different ministry holding most of the housing law. Culture covers
+        art, the Bundestheater, film funding, museums, monument protection and public
+        libraries; Austria has no separate culture ministry. Telecommunications is tagged
+        because the Annex assigns it the regulation of posts and telecommunications, which
+        sits oddly next to sport and is the residue of an older ministry's remit.
+      es: >-
+        Creado en esta forma el 1 de abril de 2025 por la Bundesministeriengesetz-Novelle
+        2025, que tomó el anterior Bundesministerium für Kunst, Kultur, öffentlichen Dienst
+        und Sport, le sacó la función pública hacia el Bundeskanzleramt y le incorporó
+        vivienda y medios. Su titular es además vicecanciller en este gabinete: cargo
+        personal adscrito a un ministro en ejercicio, no departamento, por lo que no añade ni
+        ministerio ni asiento y no se registra como entidad. La etiqueta de vivienda hay que
+        leerla con cuidado: el Anexo le da sólo la «Koordination in Angelegenheiten der
+        nationalen und internationalen Wohnungspolitik» y la coordinación de la
+        construcción, mientras que el Bau-, Wohnungs- und Siedlungswesen sustantivo y la
+        Wohnbauförderung se quedaron en el ministerio de Economía, de modo que Austria tiene
+        un ministerio que lleva el nombre de la vivienda y otro distinto que ostenta la mayor
+        parte de su derecho. Cultura abarca arte, los Bundestheater, el fomento del cine, los
+        museos, la protección de monumentos y las bibliotecas públicas; Austria no tiene
+        ministerio de Cultura separado. Se etiqueta telecomunicaciones porque el Anexo le
+        asigna la regulación de correos y telecomunicaciones, que casa mal con el deporte y
+        es el residuo del ámbito de un ministerio anterior.
+
+  - id: AT-2025-europaeische-internationale-angelegenheiten
+    order: 3
+    name_original: Bundesministerium für europäische und internationale Angelegenheiten
+    abbreviation_original: BMEIA
+    name_en: Federal Ministry for European and International Affairs
+    name_es: Ministerio Federal de Asuntos Europeos e Internacionales
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Bundesministerin
+    head_title_en: Federal Minister
+    has_cabinet_seat: true
+    policy_areas: [foreign_affairs, european_affairs, development_cooperation, public_administration]
+    counts_as_ministry: true
+    url: https://www.bmeia.gv.at
+    sources: [ris-bmg-1986-p1, ris-bmg-1986-anlage, bka-bundesministerien]
+    note:
+      en: >-
+        Austria's foreign ministry, and one of the six departments whose statutory
+        designation the Bundesministeriengesetz-Novelle 2025 left untouched, which is why it
+        carries no valid_from. Section C of the Annex contains only two numbered items. The
+        first is foreign affairs in the widest sense — foreign policy, international law,
+        treaty negotiation, representation of the Republic, the diplomatic and consular
+        network, cultural relations abroad, protection of Austrian citizens abroad, and
+        expressly "Angelegenheiten der Entwicklungszusammenarbeit sowie Koordination der
+        internationalen Entwicklungspolitik", which is why development cooperation is tagged
+        and Austria has no separate development ministry. The second is deregulation and
+        cutting red tape, which has nothing to do with foreign affairs and is why
+        public_administration is tagged here as well as on the Chancellery; a reader who
+        finds that surprising should note that it is one of only two items in the section,
+        so it cannot be dismissed as incidental. European affairs are shared with the
+        Chancellery by design: the Annex gives the Chancellery the coordination of EU
+        business and this ministry the representation of Austrian interests in the Union,
+        each in agreement with the other.
+      es: >-
+        El ministerio de Exteriores austriaco, y uno de los seis departamentos cuya
+        denominación legal no tocó la Bundesministeriengesetz-Novelle 2025, y por eso no
+        lleva valid_from. La sección C del Anexo contiene sólo dos puntos numerados. El
+        primero son los asuntos exteriores en el sentido más amplio —política exterior,
+        derecho internacional, negociación de tratados, representación de la República, red
+        diplomática y consular, relaciones culturales en el exterior, protección de los
+        ciudadanos austriacos en el extranjero— y expresamente «Angelegenheiten der
+        Entwicklungszusammenarbeit sowie Koordination der internationalen
+        Entwicklungspolitik», motivo por el que se etiqueta cooperación al desarrollo y por
+        el que Austria no tiene ministerio de Cooperación separado. El segundo es la
+        desregulación y la desburocratización, que nada tiene que ver con la acción exterior
+        y es la razón de que se etiquete aquí administración pública además de en la
+        Cancillería; a quien le sorprenda conviene recordarle que es uno de los dos únicos
+        puntos de la sección, así que no puede despacharse como accesorio. Los asuntos
+        europeos se comparten con la Cancillería por diseño: el Anexo da a la Cancillería la
+        coordinación de los asuntos de la Unión y a este ministerio la representación de los
+        intereses austriacos en ella, cada uno de acuerdo con el otro.
+
+  - id: AT-2025-arbeit-soziales-gesundheit-pflege-konsumentenschutz
+    order: 4
+    name_original: Bundesministerium für Arbeit, Soziales, Gesundheit, Pflege und Konsumentenschutz
+    abbreviation_original: BMASGPK
+    name_en: >-
+      Federal Ministry of Labour, Social Affairs, Health, Care and Consumer Protection
+    name_es: >-
+      Ministerio Federal de Trabajo, Asuntos Sociales, Sanidad, Cuidados y Consumo
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Bundesministerin
+    head_title_en: Federal Minister
+    has_cabinet_seat: true
+    policy_areas: [labour, social_affairs, health, social_security, elderly, disability, consumer_protection, food_safety, animal_welfare]
+    counts_as_ministry: true
+    valid_from: 2025-04-01
+    url: https://www.sozialministerium.gv.at
+    sources: [ris-bmg-1986-p1, ris-bmg-1986-anlage, bgbl-2025-i-10-bmg-novelle, bka-bundesministerien, bka-mitglieder-bundesregierung]
+    note:
+      en: >-
+        Renamed and enlarged on 1 April 2025: the former Bundesministerium für Soziales,
+        Gesundheit, Pflege und Konsumentenschutz gained "Arbeit" at the front of its name
+        and, with it, labour law, the labour market and unemployment insurance, which had
+        been in the Bundesministerium für Arbeit und Wirtschaft. It is the broadest
+        department in this cabinet, and its nine tagged areas are all separately numbered
+        items of section D of the Annex. Two of them will surprise a reader scanning for a
+        food or an animal ministry: food safety is here because item 15 gives it the
+        Nahrungsmittelkontrolle, and animal welfare because item 13 gives it "Allgemeine
+        Angelegenheiten des Tierschutzes" alongside veterinary affairs. Pensions are tagged
+        as social_security because item 5 covers Sozialversicherung as a whole; ageing is
+        tagged because items 7, 8 and 10 give it long-term care provision and policy for
+        older people, which in several other cabinets is a ministry of its own.
+      es: >-
+        Renombrado y ampliado el 1 de abril de 2025: el anterior Bundesministerium für
+        Soziales, Gesundheit, Pflege und Konsumentenschutz ganó «Arbeit» al frente de su
+        nombre y, con ello, el derecho del trabajo, el mercado laboral y el seguro de
+        desempleo, que estaban en el Bundesministerium für Arbeit und Wirtschaft. Es el
+        departamento más amplio de este gabinete, y sus nueve áreas etiquetadas son todas
+        puntos numerados por separado de la sección D del Anexo. Dos sorprenderán a quien
+        busque un ministerio de Alimentación o de Animales: la seguridad alimentaria está
+        aquí porque el punto 15 le da la Nahrungsmittelkontrolle, y el bienestar animal
+        porque el punto 13 le da las «Allgemeine Angelegenheiten des Tierschutzes» junto a
+        los asuntos veterinarios. Las pensiones se etiquetan como seguridad social porque el
+        punto 5 cubre la Sozialversicherung en su conjunto; el envejecimiento se etiqueta
+        porque los puntos 7, 8 y 10 le dan la previsión de cuidados de larga duración y la
+        política de mayores, que en varios otros gabinetes es un ministerio propio.
+
+  - id: AT-2025-bildung
+    order: 5
+    name_original: Bundesministerium für Bildung
+    abbreviation_original: BMB
+    name_en: Federal Ministry of Education
+    name_es: Ministerio Federal de Educación
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Bundesminister
+    head_title_en: Federal Minister
+    has_cabinet_seat: true
+    policy_areas: [education]
+    counts_as_ministry: true
+    valid_from: 2025-04-01
+    url: https://www.bmb.gv.at
+    sources: [ris-bmg-1986-p1, ris-bmg-1986-anlage, bgbl-2025-i-10-bmg-novelle, bka-bundesministerien, bka-mitglieder-bundesregierung]
+    note:
+      en: >-
+        Reduced to schools on 1 April 2025. The predecessor Bundesministerium für Bildung,
+        Wissenschaft und Forschung lost universities and research to the new
+        Bundesministerium für Frauen, Wissenschaft und Forschung, and what is left is the
+        narrowest section in the Annex: coordination of early-childhood pedagogy, the school
+        system including kindergartens and after-school care, the teacher-training
+        Pädagogische Hochschulen, school foundations and school mobility programmes. Only
+        `education` is tagged even though the Pädagogische Hochschulen are formally tertiary
+        institutions, because tagging higher_education here would make Austria appear to have
+        two higher-education ministries when the universities are unambiguously elsewhere.
+        Vocational training is not tagged either: apprenticeship training is assigned by the
+        Annex to the economy ministry, not to this one.
+      es: >-
+        Reducido a la escuela el 1 de abril de 2025. El predecesor Bundesministerium für
+        Bildung, Wissenschaft und Forschung perdió las universidades y la investigación en
+        favor del nuevo Bundesministerium für Frauen, Wissenschaft und Forschung, y lo que
+        queda es la sección más estrecha del Anexo: coordinación de la pedagogía infantil, el
+        sistema escolar incluidas guarderías y centros de día, las Pädagogische Hochschulen
+        de formación del profesorado, las fundaciones escolares y los programas escolares de
+        movilidad. Se etiqueta sólo `education` aunque las Pädagogische Hochschulen sean
+        formalmente instituciones terciarias, porque etiquetar aquí higher_education haría
+        parecer que Austria tiene dos ministerios de universidades cuando estas están sin
+        ambigüedad en otro. Tampoco se etiqueta formación profesional: el Anexo asigna la
+        formación de aprendices al ministerio de Economía, no a este.
+
+  - id: AT-2025-finanzen
+    order: 6
+    name_original: Bundesministerium für Finanzen
+    abbreviation_original: BMF
+    name_en: Federal Ministry of Finance
+    name_es: Ministerio Federal de Hacienda
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Bundesminister
+    head_title_en: Federal Minister
+    has_cabinet_seat: true
+    policy_areas: [finance, budget, economy, state_assets, mining]
+    counts_as_ministry: true
+    url: https://www.bmf.gv.at
+    sources: [ris-bmg-1986-p1, ris-bmg-1986-anlage, bka-bundesministerien]
+    note:
+      en: >-
+        One of the six departments the 2025 amendment left named as it was. Section F of the
+        Annex is unusually wide for a finance ministry: besides the fiscal constitution, the
+        Finanzausgleich between the Federation, the Länder and the municipalities, the
+        federal budget and banking, capital-market and insurance supervision, item 5 gives it
+        general economic policy "soweit sie nicht in die Zuständigkeit eines anderen
+        Bundesministeriums fallen", item 7 the administration and disposal of federal
+        property, and item 15 mining. `economy` is therefore tagged here as well as on the
+        economy ministry, and `state_assets` here as well as there: in Austria the general
+        and the sectoral halves of economic policy, and the property and the enterprise
+        halves of state ownership, sit in different departments. Mining is the tag most
+        likely to look like a mistake and is not one — "Angelegenheiten des Bergwesens" has
+        been a Finance competence since the 2025 amendment moved it.
+      es: >-
+        Uno de los seis departamentos que la reforma de 2025 dejó con el mismo nombre. La
+        sección F del Anexo es inusualmente amplia para un ministerio de Hacienda: además de
+        la constitución financiera, el Finanzausgleich entre Federación, Länder y municipios,
+        el presupuesto federal y la supervisión bancaria, de mercados de capitales y de
+        seguros, el punto 5 le da la política económica general «soweit sie nicht in die
+        Zuständigkeit eines anderen Bundesministeriums fallen», el punto 7 la administración
+        y disposición del patrimonio federal y el punto 15 la minería. Por eso se etiqueta
+        aquí `economy` además de en el ministerio de Economía, y `state_assets` aquí además
+        de allí: en Austria las mitades general y sectorial de la política económica, y las
+        mitades patrimonial y empresarial de la propiedad estatal, residen en departamentos
+        distintos. La minería es la etiqueta que más parece un error y no lo es: las
+        «Angelegenheiten des Bergwesens» son competencia de Hacienda desde que la reforma de
+        2025 las trasladó.
+
+  - id: AT-2025-frauen-wissenschaft-forschung
+    order: 7
+    name_original: Bundesministerium für Frauen, Wissenschaft und Forschung
+    abbreviation_original: BMFWF
+    name_en: Federal Ministry for Women, Science and Research
+    name_es: Ministerio Federal de Mujeres, Ciencia e Investigación
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Bundesministerin
+    head_title_en: Federal Minister
+    has_cabinet_seat: true
+    policy_areas: [equality, higher_education, research]
+    counts_as_ministry: true
+    valid_from: 2025-04-01
+    url: https://www.bmfwf.gv.at
+    sources: [ris-bmg-1986-p1, ris-bmg-1986-anlage, bgbl-2025-i-10-bmg-novelle, bka-bundesministerien, bka-mitglieder-bundesregierung]
+    note:
+      en: >-
+        A new department, created by the Bundesministeriengesetz-Novelle 2025 with effect
+        from 1 April 2025 and inserted into § 1 Abs. 1 as item 7, which is why valid_from is
+        set. It joins two remits that were previously apart: women's and equal-treatment
+        policy, which had been run from the Bundeskanzleramt, and universities and research,
+        which came from the former Bundesministerium für Bildung, Wissenschaft und
+        Forschung. Its minister was one of the two sworn in provisionally without a portfolio
+        on 3 March 2025, because this department did not exist for the cabinet's first four
+        weeks. Higher education covers the public universities, the private universities and
+        the Fachhochschulen; research covers the Austrian Science Fund and the Academy of
+        Sciences. Equality is tagged first because the ministry's name puts "Frauen" first
+        and because the Annex gives it the Gleichbehandlungskommission and the equal
+        treatment ombuds office as items of their own.
+      es: >-
+        Departamento nuevo, creado por la Bundesministeriengesetz-Novelle 2025 con efecto
+        desde el 1 de abril de 2025 e insertado en el § 1 Abs. 1 como punto 7, y por eso
+        lleva valid_from. Reúne dos ámbitos antes separados: la política de mujeres e
+        igualdad de trato, que se dirigía desde el Bundeskanzleramt, y las universidades y la
+        investigación, procedentes del anterior Bundesministerium für Bildung, Wissenschaft
+        und Forschung. Su titular fue una de las dos juramentadas provisionalmente sin
+        cartera el 3 de marzo de 2025, porque este departamento no existió durante las
+        primeras cuatro semanas del gabinete. Universidades abarca las universidades
+        públicas, las privadas y las Fachhochschulen; investigación abarca el Fondo
+        Austriaco de Ciencia y la Academia de Ciencias. La igualdad se etiqueta primero
+        porque el nombre del ministerio pone «Frauen» delante y porque el Anexo le asigna la
+        Gleichbehandlungskommission y la defensoría de la igualdad de trato como puntos
+        propios.
+
+  - id: AT-2025-inneres
+    order: 8
+    name_original: Bundesministerium für Inneres
+    abbreviation_original: BMI
+    name_en: Federal Ministry of the Interior
+    name_es: Ministerio Federal del Interior
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Bundesminister
+    head_title_en: Federal Minister
+    has_cabinet_seat: true
+    policy_areas: [interior, migration, civil_protection, territorial_administration, historical_memory]
+    counts_as_ministry: true
+    url: https://www.bmi.gv.at
+    sources: [ris-bmg-1986-p1, ris-bmg-1986-anlage, bka-bundesministerien]
+    note:
+      en: >-
+        Named as it was before the 2025 amendment, hence no valid_from. Item 1 of section H
+        carries policing and public security and, within the same item, "Aufenthaltsverbot,
+        Ausweisung und Abschiebung; Asyl", the rescue services and the fire brigades,
+        national crisis and disaster-response coordination, international disaster relief and
+        civil defence — which is why migration and civil protection are both tagged here
+        rather than anywhere else. Territorial administration follows items 7 and 8, the
+        organisation of the internal administration in the Länder and the affairs of the
+        municipalities. Historical memory follows items 10 and 11: the care of war graves and
+        the running of the Mauthausen concentration-camp memorial, a competence that in Spain
+        sits in a ministry named for democratic memory and in Austria sits with the police
+        ministry. Elections are also run from here, under item 6, and are untagged only
+        because the project's vocabulary has no id for electoral administration.
+      es: >-
+        Con el mismo nombre que antes de la reforma de 2025, de ahí que no lleve valid_from.
+        El punto 1 de la sección H lleva la policía y la seguridad pública y, dentro del
+        mismo punto, «Aufenthaltsverbot, Ausweisung und Abschiebung; Asyl», los servicios de
+        rescate y los bomberos, la coordinación estatal de crisis y catástrofes, la ayuda
+        internacional en catástrofes y la protección civil: por eso migración y protección
+        civil se etiquetan aquí y no en otro sitio. La administración territorial sigue a los
+        puntos 7 y 8, la organización de la administración interior en los Länder y los
+        asuntos de los municipios. La memoria histórica sigue a los puntos 10 y 11: el
+        cuidado de las tumbas de guerra y la gestión del memorial del campo de concentración
+        de Mauthausen, competencia que en España reside en un ministerio que lleva la memoria
+        democrática en el nombre y en Austria reside en el ministerio de la policía. Las
+        elecciones también se dirigen desde aquí, por el punto 6, y quedan sin etiquetar sólo
+        porque el vocabulario del proyecto no tiene identificador para la administración
+        electoral.
+
+  - id: AT-2025-innovation-mobilitaet-infrastruktur
+    order: 9
+    name_original: Bundesministerium für Innovation, Mobilität und Infrastruktur
+    abbreviation_original: BMIMI
+    name_en: Federal Ministry for Innovation, Mobility and Infrastructure
+    name_es: Ministerio Federal de Innovación, Movilidad e Infraestructuras
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Bundesminister
+    head_title_en: Federal Minister
+    has_cabinet_seat: true
+    policy_areas: [innovation, transport, infrastructure, research, space, shipping]
+    counts_as_ministry: true
+    valid_from: 2025-04-01
+    url: https://www.bmimi.gv.at
+    sources: [ris-bmg-1986-p1, ris-bmg-1986-anlage, bgbl-2025-i-10-bmg-novelle, bka-bundesministerien, bka-mitglieder-bundesregierung]
+    note:
+      en: >-
+        The other department created on 1 April 2025, and the successor to the largest part
+        of the dissolved Bundesministerium für Klimaschutz, Umwelt, Energie, Mobilität,
+        Innovation und Technologie. It kept that ministry's transport, infrastructure,
+        applied research, patents and space competences; climate, environment and water went
+        to the agriculture ministry and energy to the economy ministry. That split is the
+        single most consequential structural change of this cabinet's term: Austria had a
+        combined climate-and-transport ministry until 31 March 2025 and has not had one
+        since. Research is tagged alongside the science ministry because item 11 of section I
+        gives this department "Angelegenheiten der wirtschaftlich-technischen Forschung";
+        innovation follows the same item and item 12 on industrial property and patents;
+        shipping follows item 2 and item 6 on the navigable Danube and the other waterways;
+        space follows item 13, "Weltraumangelegenheiten", which is a numbered competence of
+        its own.
+      es: >-
+        El otro departamento creado el 1 de abril de 2025, y sucesor de la mayor parte del
+        disuelto Bundesministerium für Klimaschutz, Umwelt, Energie, Mobilität, Innovation
+        und Technologie. Conservó de aquel ministerio el transporte, las infraestructuras, la
+        investigación aplicada, las patentes y el espacio; clima, medio ambiente y agua
+        pasaron al ministerio de Agricultura y la energía al de Economía. Esa escisión es el
+        cambio estructural de mayor consecuencia de esta legislatura: Austria tuvo un
+        ministerio conjunto de clima y transporte hasta el 31 de marzo de 2025 y no lo ha
+        tenido desde entonces. La investigación se etiqueta junto al ministerio de Ciencia
+        porque el punto 11 de la sección I da a este departamento las «Angelegenheiten der
+        wirtschaftlich-technischen Forschung»; la innovación sigue al mismo punto y al 12,
+        sobre propiedad industrial y patentes; la marina mercante sigue a los puntos 2 y 6,
+        sobre el Danubio navegable y las demás vías fluviales; el espacio sigue al punto 13,
+        «Weltraumangelegenheiten», que es una competencia numerada propia.
+
+  - id: AT-2025-justiz
+    order: 10
+    name_original: Bundesministerium für Justiz
+    abbreviation_original: BMJ
+    name_en: Federal Ministry of Justice
+    name_es: Ministerio Federal de Justicia
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Bundesministerin
+    head_title_en: Federal Minister
+    has_cabinet_seat: true
+    policy_areas: [justice]
+    counts_as_ministry: true
+    url: https://www.bmj.gv.at
+    sources: [ris-bmg-1986-p1, ris-bmg-1986-anlage, bka-bundesministerien]
+    note:
+      en: >-
+        Named as it was before the 2025 amendment. Section J is long but single-subject:
+        civil law, criminal law, the courts, the public prosecution service, enforcement,
+        insolvency, the prisons, the bar and the notariat, court fees, and the legal aspects
+        of public procurement and of data protection. Only `justice` is tagged, because every
+        item is an aspect of the administration of justice; the prosecution service is part
+        of this department in Austria rather than an independent body, which is worth knowing
+        when comparing with countries where it is not.
+      es: >-
+        Con el mismo nombre que antes de la reforma de 2025. La sección J es larga pero
+        monotemática: derecho civil, derecho penal, los tribunales, el ministerio fiscal, la
+        ejecución, la insolvencia, las prisiones, la abogacía y el notariado, las tasas
+        judiciales y los aspectos jurídicos de la contratación pública y de la protección de
+        datos. Se etiqueta sólo `justice`, porque todos los puntos son aspectos de la
+        administración de justicia; en Austria la fiscalía forma parte de este departamento y
+        no es un organismo independiente, lo que conviene saber al comparar con países donde
+        no es así.
+
+  - id: AT-2025-land-forstwirtschaft-klima-umweltschutz
+    order: 11
+    name_original: >-
+      Bundesministerium für Land- und Forstwirtschaft, Klima- und Umweltschutz, Regionen und
+      Wasserwirtschaft
+    abbreviation_original: BMLUK
+    name_en: >-
+      Federal Ministry of Agriculture and Forestry, Climate and Environmental Protection,
+      Regions and Water Management
+    name_es: >-
+      Ministerio Federal de Agricultura y Silvicultura, Clima y Medio Ambiente, Regiones y
+      Gestión del Agua
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Bundesminister
+    head_title_en: Federal Minister
+    has_cabinet_seat: true
+    policy_areas: [agriculture, forestry, climate, environment, water, regional_development, spatial_planning, fisheries]
+    counts_as_ministry: true
+    valid_from: 2025-04-01
+    url: https://www.bmluk.gv.at
+    sources: [ris-bmg-1986-p1, ris-bmg-1986-anlage, bgbl-2025-i-10-bmg-novelle, bka-bundesministerien, bka-mitglieder-bundesregierung]
+    note:
+      en: >-
+        Renamed on 1 April 2025: the former Bundesministerium für Land- und Forstwirtschaft,
+        Regionen und Wasserwirtschaft took "Klima- und Umweltschutz" into its title and, with
+        it, the climate and environment competences of the dissolved climate ministry —
+        general climate policy including carbon management, waste management and
+        contaminated-land remediation, species protection, nature and landscape
+        conservation, radiation protection and nuclear coordination. Austria therefore has no
+        environment ministry as such: environmental and climate policy is a second remit of
+        the agriculture ministry, which is a comparison a reader should be able to see rather
+        than have to infer. Fisheries is tagged from item 14, "Angelegenheiten der Jagd und
+        der Fischerei"; the taxonomy's fisheries id covers maritime affairs too, which is
+        vacuous for a landlocked state, so it should be read here as inland fishing and
+        hunting. Regional development and spatial planning follow items 16 and 17, the
+        financial handling of the European Regional Development Fund and the coordination of
+        Raumordnung, Raumplanung and Regionalpolitik. Ernährungswesen — food and nutrition
+        other than food inspection — is also here, under item 1, but food_safety is tagged on
+        the social ministry instead, which holds the Nahrungsmittelkontrolle that the tag
+        actually describes.
+      es: >-
+        Renombrado el 1 de abril de 2025: el anterior Bundesministerium für Land- und
+        Forstwirtschaft, Regionen und Wasserwirtschaft incorporó «Klima- und Umweltschutz» a
+        su título y, con ello, las competencias de clima y medio ambiente del disuelto
+        ministerio de Clima: política climática general incluida la gestión del carbono,
+        gestión de residuos y saneamiento de suelos contaminados, protección de especies,
+        protección de la naturaleza y del paisaje, protección radiológica y coordinación
+        nuclear. Austria no tiene por tanto ministerio de Medio Ambiente como tal: la
+        política ambiental y climática es un segundo ámbito del ministerio de Agricultura, y
+        es una comparación que el lector debe poder ver y no tener que deducir. La pesca se
+        etiqueta desde el punto 14, «Angelegenheiten der Jagd und der Fischerei»; el
+        identificador fisheries de la taxonomía abarca también los asuntos marítimos, vacíos
+        en un Estado sin litoral, así que aquí debe leerse como pesca continental y caza. El
+        desarrollo regional y la ordenación del territorio siguen a los puntos 16 y 17, la
+        gestión financiera del Fondo Europeo de Desarrollo Regional y la coordinación de
+        Raumordnung, Raumplanung y Regionalpolitik. El Ernährungswesen —alimentación y
+        nutrición al margen del control alimentario— también está aquí, en el punto 1, pero
+        food_safety se etiqueta en el ministerio de lo social, que ostenta la
+        Nahrungsmittelkontrolle que la etiqueta describe realmente.
+
+  - id: AT-2025-landesverteidigung
+    order: 12
+    name_original: Bundesministerium für Landesverteidigung
+    abbreviation_original: BMLV
+    name_en: Federal Ministry of Defence
+    name_es: Ministerio Federal de Defensa
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Bundesministerin
+    head_title_en: Federal Minister
+    has_cabinet_seat: true
+    policy_areas: [defence]
+    counts_as_ministry: true
+    url: https://www.bmlv.gv.at
+    sources: [ris-bmg-1986-p1, ris-bmg-1986-anlage, bka-bundesministerien]
+    note:
+      en: >-
+        Named as it was before the 2025 amendment. Section L of the Annex is the only one
+        with no numbered items at all: it reads simply "Militärische Angelegenheiten",
+        followed by a list of particulars covering the Bundesheer's constitutional tasks,
+        its operational command, military aviation, armament and procurement, military
+        medicine, the attaché service, the Heeresgeschichtliches Museum and the European
+        Defence Agency. Only `defence` is tagged. Note that Austria's alternative civilian
+        service, the Zivildienst, is not here but in the Bundeskanzleramt, and conscription
+        policy therefore straddles two departments.
+      es: >-
+        Con el mismo nombre que antes de la reforma de 2025. La sección L del Anexo es la
+        única sin puntos numerados: dice simplemente «Militärische Angelegenheiten», seguido
+        de una relación de particulares que cubre las tareas constitucionales del Bundesheer,
+        su mando operativo, la aviación militar, el armamento y la adquisición, la medicina
+        militar, el servicio de agregados, el Heeresgeschichtliches Museum y la Agencia
+        Europea de Defensa. Se etiqueta sólo `defence`. Nótese que el servicio civil
+        sustitutorio austriaco, el Zivildienst, no está aquí sino en el Bundeskanzleramt, de
+        modo que la política de reclutamiento se reparte entre dos departamentos.
+
+  - id: AT-2025-wirtschaft-energie-tourismus
+    order: 13
+    name_original: Bundesministerium für Wirtschaft, Energie und Tourismus
+    abbreviation_original: BMWET
+    name_en: Federal Ministry for Economy, Energy and Tourism
+    name_es: Ministerio Federal de Economía, Energía y Turismo
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Bundesminister
+    head_title_en: Federal Minister
+    has_cabinet_seat: true
+    policy_areas: [economy, energy, tourism, industry, trade, small_business, vocational_training, housing, state_assets]
+    counts_as_ministry: true
+    valid_from: 2025-04-01
+    url: https://www.bmwet.gv.at
+    sources: [ris-bmg-1986-p1, ris-bmg-1986-anlage, bgbl-2025-i-10-bmg-novelle, bka-bundesministerien, bka-mitglieder-bundesregierung]
+    note:
+      en: >-
+        Renamed on 1 April 2025 from Bundesministerium für Arbeit und Wirtschaft: labour left
+        for the social ministry and energy arrived from the dissolved climate ministry, which
+        is a swap large enough that treating this as the same department under a new name is
+        itself a judgement. It keeps the trades and industry, competition and price
+        regulation, the internal market, foreign trade policy and the WTO mission, the
+        management of federal buildings and land, technical standards and metrology, and the
+        state-owned enterprises. Two tags need explaining. Housing is tagged here as well as
+        on the ministry named for it, because item 17 gives this department "Angelegenheiten
+        des Bau-, Wohnungs- und Siedlungswesens" including the Wohnbauförderung. Vocational
+        training is tagged only here, because item 1 gives it the "betriebliche
+        Berufsausbildung und Berufsfortbildung" — Austria's apprenticeship system sits with
+        economic affairs, not with education.
+      es: >-
+        Renombrado el 1 de abril de 2025 desde Bundesministerium für Arbeit und Wirtschaft: el
+        trabajo se marchó al ministerio de lo social y la energía llegó del disuelto
+        ministerio de Clima, un intercambio lo bastante grande como para que tratarlo como el
+        mismo departamento con nombre nuevo sea ya un juicio. Conserva el comercio y la
+        industria, la competencia y la regulación de precios, el mercado interior, la
+        política comercial exterior y la misión ante la OMC, la administración de los
+        edificios y terrenos federales, las normas técnicas y la metrología, y las empresas
+        públicas. Dos etiquetas requieren explicación. La vivienda se etiqueta aquí además de
+        en el ministerio que la lleva en el nombre, porque el punto 17 da a este departamento
+        las «Angelegenheiten des Bau-, Wohnungs- und Siedlungswesens», incluida la
+        Wohnbauförderung. La formación profesional se etiqueta sólo aquí, porque el punto 1 le
+        da la «betriebliche Berufsausbildung und Berufsfortbildung»: el sistema austriaco de
+        aprendizaje reside en Economía y no en Educación.
+
+  # --- recorded, not counted: a federal minister with no ministry of her own -----------
+  - id: AT-2025-bundesministerin-im-bundeskanzleramt
+    order: 14
+    name_original: Bundesministerin für Europa, Integration und Familie im Bundeskanzleramt
+    abbreviation_original: null
+    name_en: >-
+      Federal Minister for Europe, Integration and Family in the Federal Chancellery
+    name_es: >-
+      Ministra Federal de Europa, Integración y Familia en la Cancillería Federal
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Bundesministerin im Bundeskanzleramt
+    head_title_en: Federal Minister in the Federal Chancellery
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    url: https://www.bundeskanzleramt.gv.at
+    sources: [ris-bmg-1986-p1, bvg-art-77, bvg-art-69, bvg-art-78, bgbl-2025-ii-62-entschliessung, bka-mitglieder-bundesregierung]
+    note:
+      en: >-
+        A full member of the Bundesregierung with a cabinet seat and no ministry of her own:
+        this is the second half of the Austrian Chancellery problem, and it is what makes 13
+        ministries coexist with 14 cabinet seats even though the Chancellery is counted. The
+        mechanism is § 1 Abs. 2 BMG and Article 77 Abs. 3 B-VG: the Federal President may
+        transfer the sachliche Leitung of specified matters belonging to the Chancellery's
+        remit to a separate federal minister, who then holds "die Stellung eines zuständigen
+        Bundesministers" for them while the matters remain part of the Chancellery. That
+        transfer was made by Entschließung of 8 April 2025, BGBl. II Nr. 62/2025, covering
+        European coordination, religious affairs, national minorities, family, youth,
+        integration and the Zivildienst. She is recorded as an entity rather than folded into
+        the Bundeskanzleramt because she is a distinct person holding a distinct
+        appointment; folding her in would have required head_count 2 on the Chancellery and
+        would have hidden a real office. She is classified minister_without_portfolio rather
+        than head_of_government_office because the Chancellor's own seat is already recorded
+        on the Bundeskanzleramt, and because § 1 Abs. 1 does not list her office as a
+        fourteenth Bundesministerium — her matters are the Chancellery's. No policy area is
+        tagged, because areas are counted only for counted ministries; the areas she runs are
+        tagged on the Bundeskanzleramt, which is where the Annex puts them. valid_from is
+        deliberately left null even though the Entschließung took effect on 8 April 2025: she
+        was appointed a federal minister on 3 March 2025, one of the two sworn in
+        provisionally without a portfolio, so her cabinet seat runs from the swearing-in, and
+        a valid_from of April would make a replay of March 2025 understate the seats. What
+        began in April is the title recorded here, not the seat.
+      es: >-
+        Miembro pleno de la Bundesregierung con asiento en el gabinete y sin ministerio
+        propio: esta es la segunda mitad del problema austriaco de la Cancillería, y es lo
+        que hace que 13 ministerios convivan con 14 asientos aunque la Cancillería sí se
+        cuente. El mecanismo es el § 1 Abs. 2 BMG y el artículo 77 Abs. 3 B-VG: el presidente
+        federal puede transferir la sachliche Leitung de determinadas materias del ámbito de
+        la Cancillería a una ministra federal propia, que pasa a tener respecto de ellas «die
+        Stellung eines zuständigen Bundesministers» mientras las materias siguen siendo de la
+        Cancillería. Esa transferencia se hizo por Entschließung del 8 de abril de 2025, BGBl.
+        II Nr. 62/2025, y abarca la coordinación europea, los asuntos religiosos, los grupos
+        étnicos, la familia, la juventud, la integración y el Zivildienst. Se registra como
+        entidad y no se integra en el Bundeskanzleramt porque es una persona distinta con un
+        nombramiento distinto; integrarla habría exigido head_count 2 en la Cancillería y
+        habría ocultado un cargo real. Se clasifica como minister_without_portfolio y no como
+        head_of_government_office porque el asiento propio del canciller ya está registrado
+        en el Bundeskanzleramt y porque el § 1 Abs. 1 no enumera su cargo como decimocuarto
+        Bundesministerium: sus materias son las de la Cancillería. No se etiqueta ninguna área
+        de política, porque las áreas sólo cuentan para los ministerios contados; las áreas
+        que ella dirige se etiquetan en el Bundeskanzleramt, que es donde las sitúa el Anexo.
+        valid_from se deja deliberadamente en null aunque la Entschließung entrase en vigor el
+        8 de abril de 2025: fue nombrada ministra federal el 3 de marzo de 2025, una de las
+        dos juramentadas provisionalmente sin cartera, así que su asiento corre desde la
+        juramentación, y un valid_from de abril haría que una reconstrucción de marzo de 2025
+        subestimase los asientos. Lo que empezó en abril es el título aquí registrado, no el
+        asiento.
+
+  # --- recorded, not counted: the seven Staatssekretäre -------------------------------
+  # Listed individually, in the order of the ministry they are attached to, because a
+  # reader asking why Austria is not 21 people deserves to see the seven names of the
+  # posts rather than a sentence asserting they exist. None holds a cabinet seat.
+  - id: AT-2025-staatssekretaer-bundeskanzleramt
+    order: 15
+    name_original: Staatssekretär im Bundeskanzleramt
+    abbreviation_original: null
+    name_en: State Secretary in the Federal Chancellery
+    name_es: Secretario de Estado en la Cancillería Federal
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Staatssekretär
+    head_title_en: State Secretary
+    has_cabinet_seat: false
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: junior_minister_or_state_secretary
+    url: https://www.bundeskanzleramt.gv.at
+    sources: [bvg-art-78, bvg-art-69, bka-mitglieder-bundesregierung]
+    note:
+      en: >-
+        Attached to the Federal Chancellor rather than to a minister, which Article 78 Abs. 2
+        B-VG expressly provides for. In practice this post runs the Chancellery's
+        digitalisation and public-service innovation business, which is why those areas are
+        tagged on the Bundeskanzleramt and not here: policy areas are counted only for
+        counted ministries. No cabinet seat, for the reason given in the second methodology
+        note.
+      es: >-
+        Adscrito al canciller federal y no a un ministro, posibilidad que el artículo 78 Abs.
+        2 B-VG prevé expresamente. En la práctica este cargo dirige los asuntos de
+        digitalización e innovación administrativa de la Cancillería, y por eso esas áreas se
+        etiquetan en el Bundeskanzleramt y no aquí: las áreas de política sólo cuentan para
+        los ministerios contados. Sin asiento en el gabinete, por la razón expuesta en la
+        segunda nota metodológica.
+
+  - id: AT-2025-staatssekretaerin-wohnen-kunst-kultur-medien-sport
+    order: 16
+    name_original: >-
+      Staatssekretärin im Bundesministerium für Wohnen, Kunst, Kultur, Medien und Sport
+    abbreviation_original: null
+    name_en: >-
+      State Secretary in the Federal Ministry for Housing, Art, Culture, Media and Sport
+    name_es: >-
+      Secretaria de Estado en el Ministerio Federal de Vivienda, Arte, Cultura, Medios y
+      Deporte
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Staatssekretärin
+    head_title_en: State Secretary
+    has_cabinet_seat: false
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: junior_minister_or_state_secretary
+    url: https://www.bmwkms.gv.at
+    sources: [bvg-art-78, bvg-art-69, bka-mitglieder-bundesregierung]
+    note:
+      en: >-
+        Subordinate to the Federal Minister for Housing, Art, Culture, Media and Sport under
+        Article 78 Abs. 3 B-VG, and bound by his instructions even for the tasks he entrusts
+        to her. Neither a ministry nor a cabinet seat.
+      es: >-
+        Subordinada al ministro federal de Vivienda, Arte, Cultura, Medios y Deporte conforme
+        al artículo 78 Abs. 3 B-VG, y vinculada a sus instrucciones incluso en las tareas que
+        él le encomiende. Ni ministerio ni asiento en el gabinete.
+
+  - id: AT-2025-staatssekretaer-europaeische-internationale-angelegenheiten
+    order: 17
+    name_original: >-
+      Staatssekretär im Bundesministerium für europäische und internationale Angelegenheiten
+    abbreviation_original: null
+    name_en: >-
+      State Secretary in the Federal Ministry for European and International Affairs
+    name_es: >-
+      Secretario de Estado en el Ministerio Federal de Asuntos Europeos e Internacionales
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Staatssekretär
+    head_title_en: State Secretary
+    has_cabinet_seat: false
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: junior_minister_or_state_secretary
+    url: https://www.bmeia.gv.at
+    sources: [bvg-art-78, bvg-art-69, bka-mitglieder-bundesregierung]
+    note:
+      en: >-
+        Subordinate to the Federal Minister for European and International Affairs under
+        Article 78 Abs. 3 B-VG. Neither a ministry nor a cabinet seat.
+      es: >-
+        Subordinado a la ministra federal de Asuntos Europeos e Internacionales conforme al
+        artículo 78 Abs. 3 B-VG. Ni ministerio ni asiento en el gabinete.
+
+  - id: AT-2025-staatssekretaerin-arbeit-soziales-gesundheit
+    order: 18
+    name_original: >-
+      Staatssekretärin im Bundesministerium für Arbeit, Soziales, Gesundheit, Pflege und
+      Konsumentenschutz
+    abbreviation_original: null
+    name_en: >-
+      State Secretary in the Federal Ministry of Labour, Social Affairs, Health, Care and
+      Consumer Protection
+    name_es: >-
+      Secretaria de Estado en el Ministerio Federal de Trabajo, Asuntos Sociales, Sanidad,
+      Cuidados y Consumo
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Staatssekretärin
+    head_title_en: State Secretary
+    has_cabinet_seat: false
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: junior_minister_or_state_secretary
+    url: https://www.sozialministerium.gv.at
+    sources: [bvg-art-78, bvg-art-69, bka-mitglieder-bundesregierung]
+    note:
+      en: >-
+        Subordinate to the Federal Minister of Labour, Social Affairs, Health, Care and
+        Consumer Protection under Article 78 Abs. 3 B-VG. One of the three state secretaries
+        sworn in again on 2 April 2025 to match the reorganised departments. Neither a
+        ministry nor a cabinet seat.
+      es: >-
+        Subordinada a la ministra federal de Trabajo, Asuntos Sociales, Sanidad, Cuidados y
+        Consumo conforme al artículo 78 Abs. 3 B-VG. Una de las tres secretarias de Estado
+        vueltas a juramentar el 2 de abril de 2025 conforme a los departamentos
+        reorganizados. Ni ministerio ni asiento en el gabinete.
+
+  - id: AT-2025-staatssekretaerin-finanzen
+    order: 19
+    name_original: Staatssekretärin im Bundesministerium für Finanzen
+    abbreviation_original: null
+    name_en: State Secretary in the Federal Ministry of Finance
+    name_es: Secretaria de Estado en el Ministerio Federal de Hacienda
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Staatssekretärin
+    head_title_en: State Secretary
+    has_cabinet_seat: false
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: junior_minister_or_state_secretary
+    url: https://www.bmf.gv.at
+    sources: [bvg-art-78, bvg-art-69, bka-mitglieder-bundesregierung]
+    note:
+      en: >-
+        Subordinate to the Federal Minister of Finance under Article 78 Abs. 3 B-VG. Neither
+        a ministry nor a cabinet seat.
+      es: >-
+        Subordinada al ministro federal de Hacienda conforme al artículo 78 Abs. 3 B-VG. Ni
+        ministerio ni asiento en el gabinete.
+
+  - id: AT-2025-staatssekretaer-inneres
+    order: 20
+    name_original: Staatssekretär im Bundesministerium für Inneres
+    abbreviation_original: null
+    name_en: State Secretary in the Federal Ministry of the Interior
+    name_es: Secretario de Estado en el Ministerio Federal del Interior
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Staatssekretär
+    head_title_en: State Secretary
+    has_cabinet_seat: false
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: junior_minister_or_state_secretary
+    url: https://www.bmi.gv.at
+    sources: [bvg-art-78, bvg-art-69, bka-mitglieder-bundesregierung]
+    note:
+      en: >-
+        Subordinate to the Federal Minister of the Interior under Article 78 Abs. 3 B-VG.
+        Neither a ministry nor a cabinet seat.
+      es: >-
+        Subordinado al ministro federal del Interior conforme al artículo 78 Abs. 3 B-VG. Ni
+        ministerio ni asiento en el gabinete.
+
+  - id: AT-2025-staatssekretaerin-wirtschaft-energie-tourismus
+    order: 21
+    name_original: >-
+      Staatssekretärin im Bundesministerium für Wirtschaft, Energie und Tourismus
+    abbreviation_original: null
+    name_en: >-
+      State Secretary in the Federal Ministry for Economy, Energy and Tourism
+    name_es: >-
+      Secretaria de Estado en el Ministerio Federal de Economía, Energía y Turismo
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Staatssekretärin
+    head_title_en: State Secretary
+    has_cabinet_seat: false
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: junior_minister_or_state_secretary
+    url: https://www.bmwet.gv.at
+    sources: [bvg-art-78, bvg-art-69, bka-mitglieder-bundesregierung]
+    note:
+      en: >-
+        Subordinate to the Federal Minister for Economy, Energy and Tourism under Article 78
+        Abs. 3 B-VG. Neither a ministry nor a cabinet seat.
+      es: >-
+        Subordinada al ministro federal de Economía, Energía y Turismo conforme al artículo
+        78 Abs. 3 B-VG. Ni ministerio ni asiento en el gabinete.
+
+  # --- recorded, not counted: the six designations that ceased on 31 March 2025 --------
+  # They were departments of this cabinet for its first 29 days, under the
+  # Bundesministeriengesetz as it stood before the Novelle 2025. This file records that
+  # they existed and when they ceased, but not their ministers — see the third
+  # methodology note.
+  - id: AT-2025-kunst-kultur-oeffentlicher-dienst-sport
+    order: 22
+    name_original: Bundesministerium für Kunst, Kultur, öffentlichen Dienst und Sport
+    abbreviation_original: BMKÖS
+    name_en: Federal Ministry for Art, Culture, the Civil Service and Sport
+    name_es: Ministerio Federal de Arte, Cultura, Función Pública y Deporte
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Bundesminister
+    head_title_en: Federal Minister
+    has_cabinet_seat: false
+    head_count: 0
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: superseded_within_cabinet
+    valid_to: 2025-03-31
+    url: null
+    sources: [ris-bmg-1986-p1-bis-2025-03-31, bgbl-2025-i-10-bmg-novelle]
+    note:
+      en: >-
+        Item 2 of § 1 Abs. 1 BMG until 31 March 2025. From 1 April 2025 the same department
+        continues as the Bundesministerium für Wohnen, Kunst, Kultur, Medien und Sport, minus
+        the civil service, which went to the Bundeskanzleramt, and plus housing and media.
+        Recorded for the historical record, with no seat because this file does not
+        reconstruct the March 2025 allocation of ministers.
+      es: >-
+        Punto 2 del § 1 Abs. 1 BMG hasta el 31 de marzo de 2025. Desde el 1 de abril de 2025
+        el mismo departamento continúa como Bundesministerium für Wohnen, Kunst, Kultur,
+        Medien und Sport, menos la función pública, que pasó al Bundeskanzleramt, y más
+        vivienda y medios. Se registra para el histórico, sin asiento porque este fichero no
+        reconstruye el reparto de ministros de marzo de 2025.
+
+  - id: AT-2025-arbeit-und-wirtschaft
+    order: 23
+    name_original: Bundesministerium für Arbeit und Wirtschaft
+    abbreviation_original: BMAW
+    name_en: Federal Ministry of Labour and Economy
+    name_es: Ministerio Federal de Trabajo y Economía
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Bundesminister
+    head_title_en: Federal Minister
+    has_cabinet_seat: false
+    head_count: 0
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: superseded_within_cabinet
+    valid_to: 2025-03-31
+    url: null
+    sources: [ris-bmg-1986-p1-bis-2025-03-31, bgbl-2025-i-10-bmg-novelle]
+    note:
+      en: >-
+        Item 4 of § 1 Abs. 1 BMG until 31 March 2025. Its labour competences went to the
+        Bundesministerium für Arbeit, Soziales, Gesundheit, Pflege und Konsumentenschutz on 1
+        April 2025 and its economic competences continue, with energy added, as the
+        Bundesministerium für Wirtschaft, Energie und Tourismus. Recorded for the historical
+        record, with no seat.
+      es: >-
+        Punto 4 del § 1 Abs. 1 BMG hasta el 31 de marzo de 2025. Sus competencias de trabajo
+        pasaron al Bundesministerium für Arbeit, Soziales, Gesundheit, Pflege und
+        Konsumentenschutz el 1 de abril de 2025 y sus competencias económicas continúan, con
+        la energía añadida, como Bundesministerium für Wirtschaft, Energie und Tourismus. Se
+        registra para el histórico, sin asiento.
+
+  - id: AT-2025-bildung-wissenschaft-forschung
+    order: 24
+    name_original: Bundesministerium für Bildung, Wissenschaft und Forschung
+    abbreviation_original: BMBWF
+    name_en: Federal Ministry of Education, Science and Research
+    name_es: Ministerio Federal de Educación, Ciencia e Investigación
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Bundesminister
+    head_title_en: Federal Minister
+    has_cabinet_seat: false
+    head_count: 0
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: superseded_within_cabinet
+    valid_to: 2025-03-31
+    url: null
+    sources: [ris-bmg-1986-p1-bis-2025-03-31, bgbl-2025-i-10-bmg-novelle]
+    note:
+      en: >-
+        Item 5 of § 1 Abs. 1 BMG until 31 March 2025. Split on 1 April 2025: schools continue
+        as the Bundesministerium für Bildung, while universities and research went to the new
+        Bundesministerium für Frauen, Wissenschaft und Forschung. Recorded for the historical
+        record, with no seat.
+      es: >-
+        Punto 5 del § 1 Abs. 1 BMG hasta el 31 de marzo de 2025. Escindido el 1 de abril de
+        2025: la escuela continúa como Bundesministerium für Bildung, mientras las
+        universidades y la investigación pasaron al nuevo Bundesministerium für Frauen,
+        Wissenschaft und Forschung. Se registra para el histórico, sin asiento.
+
+  - id: AT-2025-klimaschutz-umwelt-energie-mobilitaet
+    order: 25
+    name_original: >-
+      Bundesministerium für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und
+      Technologie
+    abbreviation_original: BMK
+    name_en: >-
+      Federal Ministry for Climate Action, Environment, Energy, Mobility, Innovation and
+      Technology
+    name_es: >-
+      Ministerio Federal de Acción Climática, Medio Ambiente, Energía, Movilidad, Innovación
+      y Tecnología
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Bundesminister
+    head_title_en: Federal Minister
+    has_cabinet_seat: false
+    head_count: 0
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: superseded_within_cabinet
+    valid_to: 2025-03-31
+    url: null
+    sources: [ris-bmg-1986-p1-bis-2025-03-31, bgbl-2025-i-10-bmg-novelle]
+    note:
+      en: >-
+        Item 9 of § 1 Abs. 1 BMG until 31 March 2025, and the only department dissolved
+        outright rather than renamed. On 1 April 2025 its competences were distributed three
+        ways: transport, infrastructure, applied research, patents and space to the new
+        Bundesministerium für Innovation, Mobilität und Infrastruktur; climate, environment
+        and water to the Bundesministerium für Land- und Forstwirtschaft, Klima- und
+        Umweltschutz, Regionen und Wasserwirtschaft; energy to the Bundesministerium für
+        Wirtschaft, Energie und Tourismus. Austria has had no combined climate ministry since.
+        Recorded for the historical record, with no seat.
+      es: >-
+        Punto 9 del § 1 Abs. 1 BMG hasta el 31 de marzo de 2025, y el único departamento
+        disuelto de plano en lugar de renombrado. El 1 de abril de 2025 sus competencias se
+        repartieron en tres: transporte, infraestructuras, investigación aplicada, patentes y
+        espacio al nuevo Bundesministerium für Innovation, Mobilität und Infrastruktur; clima,
+        medio ambiente y agua al Bundesministerium für Land- und Forstwirtschaft, Klima- und
+        Umweltschutz, Regionen und Wasserwirtschaft; energía al Bundesministerium für
+        Wirtschaft, Energie und Tourismus. Austria no ha tenido desde entonces un ministerio
+        de Clima conjunto. Se registra para el histórico, sin asiento.
+
+  - id: AT-2025-land-forstwirtschaft-regionen-wasserwirtschaft
+    order: 26
+    name_original: >-
+      Bundesministerium für Land- und Forstwirtschaft, Regionen und Wasserwirtschaft
+    abbreviation_original: BML
+    name_en: >-
+      Federal Ministry of Agriculture, Forestry, Regions and Water Management
+    name_es: >-
+      Ministerio Federal de Agricultura, Silvicultura, Regiones y Gestión del Agua
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Bundesminister
+    head_title_en: Federal Minister
+    has_cabinet_seat: false
+    head_count: 0
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: superseded_within_cabinet
+    valid_to: 2025-03-31
+    url: null
+    sources: [ris-bmg-1986-p1-bis-2025-03-31, bgbl-2025-i-10-bmg-novelle]
+    note:
+      en: >-
+        Item 11 of § 1 Abs. 1 BMG until 31 March 2025. From 1 April 2025 the same department
+        continues as the Bundesministerium für Land- und Forstwirtschaft, Klima- und
+        Umweltschutz, Regionen und Wasserwirtschaft, having taken the climate and environment
+        competences of the dissolved climate ministry. Recorded for the historical record,
+        with no seat.
+      es: >-
+        Punto 11 del § 1 Abs. 1 BMG hasta el 31 de marzo de 2025. Desde el 1 de abril de 2025
+        el mismo departamento continúa como Bundesministerium für Land- und Forstwirtschaft,
+        Klima- und Umweltschutz, Regionen und Wasserwirtschaft, tras asumir las competencias
+        de clima y medio ambiente del disuelto ministerio de Clima. Se registra para el
+        histórico, sin asiento.
+
+  - id: AT-2025-soziales-gesundheit-pflege-konsumentenschutz
+    order: 27
+    name_original: >-
+      Bundesministerium für Soziales, Gesundheit, Pflege und Konsumentenschutz
+    abbreviation_original: BMSGPK
+    name_en: >-
+      Federal Ministry of Social Affairs, Health, Care and Consumer Protection
+    name_es: >-
+      Ministerio Federal de Asuntos Sociales, Sanidad, Cuidados y Consumo
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Bundesministerin
+    head_title_en: Federal Minister
+    has_cabinet_seat: false
+    head_count: 0
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: superseded_within_cabinet
+    valid_to: 2025-03-31
+    url: null
+    sources: [ris-bmg-1986-p1-bis-2025-03-31, bgbl-2025-i-10-bmg-novelle]
+    note:
+      en: >-
+        Item 12 of § 1 Abs. 1 BMG until 31 March 2025. From 1 April 2025 the same department
+        continues as the Bundesministerium für Arbeit, Soziales, Gesundheit, Pflege und
+        Konsumentenschutz, having taken labour law, the labour market and unemployment
+        insurance from the former Bundesministerium für Arbeit und Wirtschaft. Recorded for
+        the historical record, with no seat.
+      es: >-
+        Punto 12 del § 1 Abs. 1 BMG hasta el 31 de marzo de 2025. Desde el 1 de abril de 2025
+        el mismo departamento continúa como Bundesministerium für Arbeit, Soziales,
+        Gesundheit, Pflege und Konsumentenschutz, tras asumir el derecho del trabajo, el
+        mercado laboral y el seguro de desempleo del anterior Bundesministerium für Arbeit
+        und Wirtschaft. Se registra para el histórico, sin asiento.

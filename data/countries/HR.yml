@@ -1,0 +1,45 @@
+# Croatia — country metadata.
+#
+# See docs/DATA-CONTRACT.md. The cabinet itself is in data/cabinets/HR-2024-05-17.yml.
+
+iso2: HR
+iso3: HRV
+
+name_en: Croatia
+name_es: Croacia
+name_original: Hrvatska
+official_name_original: Republika Hrvatska
+
+continent: europe
+region: south_eastern_europe
+eu_member_since: 2013-07-01
+government_system: parliamentary_republic
+official_languages: [hr]
+
+population:
+  value: 3866233
+  year: 2024
+  source:
+    id: dzs-stan-2025-3-1
+    tier: 3
+    type: statistical_office
+    publisher: Državni zavod za statistiku
+    title: >-
+      Priopćenje STAN-2025-3-1: Procjena stanovništva Republike Hrvatske u 2024.
+    url: https://podaci.dzs.hr/2025/hr/97253
+    archive_url: https://web.archive.org/web/20260728115612/https://podaci.dzs.hr/2025/hr/97253
+    lang: hr
+    published: 2025-08-29
+    accessed: 2026-07-28
+    quote: >-
+      Prema procjeni stanovništva sredinom 2024. Republika Hrvatska imala je 3 866 233
+      stanovnika, od toga 1 882 564 muškarca i 1 983 669 žena.
+    note: >-
+      Croatia's most recent published population estimate as at the access date. The figure
+      is the mid-year estimate for 2024, not a census count and not an end-of-year stock:
+      the last census was in 2021 and the estimate for 2025 (STAN-2026-3-1) was still
+      scheduled for 4 September 2026, five weeks after this file was written, so no 2025 or
+      2026 figure exists to cite. Tier 3 rather than tier 1 because a statistical release is
+      not a legal instrument; the Državni zavod za statistiku is nonetheless the official
+      producer of the figure, and it is recorded as an uncounted entity in the cabinet file
+      because the same Act that lists Croatia's ministries lists the Bureau alongside them.

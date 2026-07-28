@@ -1,0 +1,54 @@
+# Sweden — country metadata.
+#
+# See docs/DATA-CONTRACT.md. The cabinet, its entities and its citations live in
+# data/cabinets/SE-2022-10-18.yml; this file carries only country-level metadata.
+
+iso2: SE
+iso3: SWE
+
+name_en: Sweden
+name_es: Suecia
+name_original: Sverige
+official_name_original: Konungariket Sverige
+
+continent: europe
+region: northern_europe
+eu_member_since: 1995-01-01
+government_system: parliamentary_monarchy
+official_languages: [sv]
+
+# Population carries its own citation because the country page publishes it as a figure in
+# its own right, not as a convenience constant. Nothing divides by it.
+population:
+  value: 10608128
+  year: 2026
+  source:
+    id: scb-tab6471-2026m05
+    tier: 3
+    type: statistical_office
+    publisher: Statistiska centralbyrån
+    title: >-
+      Statistikdatabasen, tabell TAB6471 — Folkmängden per månad efter region, ålder och
+      kön (riket, samtliga åldrar, båda könen, maj 2026), läst via SCB:s API
+    url: >-
+      https://api.scb.se/OV0104/v2beta/api/v2/tables/TAB6471/data?lang=sv&outputFormat=csv&valueCodes%5BRegion%5D=00&valueCodes%5BTid%5D=2026M05&valueCodes%5BAlder%5D=TotSA&valueCodes%5BKon%5D=TotSa&valueCodes%5BContentsCode%5D=000007SF
+    archive_url: null
+    lang: sv
+    published: 2026-07-07
+    accessed: 2026-07-28
+    quote: |-
+      "Region","Alder","Kon","000007SF 2026M05"
+      "00","TotSA","TotSa",10608128
+    note: >-
+      Sweden's population on 31 May 2026 — SCB's monthly table reports the figure for the
+      last day of each month — read from the CSV output of SCB's statistical database API.
+      The response is quoted verbatim rather than a press sentence because SCB's monthly
+      news items give rounded figures. The table was last updated on 7 July 2026, which is
+      why `published` carries that date. Tier 3 rather than tier 1: a statistical
+      compilation from the population register, not a legal instrument. One caveat SCB
+      itself attaches to this table and which a reader of the figure should know: from
+      reference year 2025 onwards SCB perturbs every published cell slightly to protect
+      individuals ("Från och med referensåret 2025 och framåt är en liten kontrollerad
+      slumpmässig osäkerhet införd i samtliga redovisade uppgifter"), so the last digits of
+      a Swedish population figure are not exact and totals need not equal the sum of their
+      parts.

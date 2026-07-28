@@ -1,0 +1,50 @@
+# Portugal — country metadata.
+#
+# See docs/DATA-CONTRACT.md. The government structure lives in
+# data/cabinets/PT-2025-06-05.yml; nothing here states a count.
+
+iso2: PT
+iso3: PRT
+
+name_en: Portugal
+name_es: Portugal
+name_original: Portugal
+official_name_original: República Portuguesa
+
+continent: europe
+region: southern_europe
+eu_member_since: 1986-01-01
+government_system: semi_presidential_republic
+official_languages: [pt]
+
+# Population carries its own citation because the per-capita views publish it as a
+# figure in its own right, not as a convenience constant.
+population:
+  value: 11424031
+  year: 2025
+  source:
+    id: ine-epr-2025
+    tier: 3
+    type: statistical_office
+    publisher: Instituto Nacional de Estatística
+    title: >-
+      Estimativas de População Residente — 2025. População residente atinge 11,4
+      milhões (Destaque de informação à comunicação social)
+    url: "https://www.ine.pt/ngt_server/attachfileu.jsp?look_parentBoui=799432499&att_display=n&att_download=y"
+    archive_url: "https://web.archive.org/web/20260727183230/https://www.ine.pt/ngt_server/attachfileu.jsp?look_parentBoui=799432499&att_display=n&att_download=y"
+    lang: pt
+    published: 2026-06-22
+    accessed: 2026-07-27
+    quote: >-
+      Em 31 de dezembro de 2025, a população residente em Portugal foi estimada em
+      11 424 031 pessoas, o que corresponde a um aumento de 36 809 pessoas
+      relativamente a 2024 (0,32%).
+    note: >-
+      Perimeter: total resident population ("população residente") of Portugal as a
+      whole, i.e. mainland plus the Azores and Madeira, at the 31 December 2025
+      reference date. Vintage: the 2025 annual estimate released on 22 June 2026, the
+      first series computed entirely from administrative sources; the same release
+      revised 2021-2024. Portugal has no official resident total between censuses, so
+      this is an official estimate and therefore tier 3 rather than tier 1. The URL is
+      INE's own PDF of the press release; the destaque landing page is a session-bound
+      portal page that web archives capture only as a shell.

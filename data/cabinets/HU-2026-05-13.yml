@@ -1,0 +1,1395 @@
+# Hungary — government structure of the Magyar government, formed after the 12 April 2026
+# parliamentary election.
+#
+# Read docs/DATA-CONTRACT.md alongside this file. Five Hungary-specific things to know:
+#
+#   1. Hungary enumerates its ministries by statute. The 2026 general election was held on
+#      12 April, the new National Assembly convened on 9 May and elected Péter Magyar prime
+#      minister the same day, and the Assembly passed a new list-of-ministries act — 2026. évi
+#      XIII. törvény — at that same sitting. Its § 1 is the whole basis of the entity list
+#      below, and the order of entities 1 to 16 is its own order.
+#   2. `took_office` is 13 May 2026, not 9 May. Article 16(4) of the Fundamental Law puts the
+#      prime minister in office on his election, but article 16(8) forms the *Government* only
+#      on the appointment of the ministers, and decision 76/2026. (V. 12.) KE appointed all
+#      sixteen "2026. május 13-ai hatállyal" — with effect from 13 May. Decision 1/2026.
+#      (V. 12.) MvM then fixed 13 May 2026 as the day Act XIII entered into force, because
+#      the act's § 5(1) ties its entry into force to the Government's formation. The outgoing
+#      Orbán government's mandate ran as a caretaker until that moment; it is not recorded
+#      here, and this is the sitting cabinet.
+#   3. The Miniszterelnökség is counted. It is a contested case and note 2 below states both
+#      figures. The Miniszterelnöki Kabinetiroda, which stood beside it as a separate ministry
+#      until this government, was abolished by § 2(7) of Act XIII and is recorded with a
+#      valid_to, not deleted.
+#   4. There are no ministers without portfolio. Article 17(2) of the Fundamental Law allows
+#      them and the repealed 2022 act did not name any either; sixteen ministers were
+#      appointed and each heads exactly one of the sixteen ministries, so there is no shared
+#      portfolio and no second seat anywhere in this file.
+#   5. Every English and Spanish name here is this project's own translation. kormany.hu
+#      serves Hungarian content on its /en/ paths, so there is no official English
+#      nomenclature to adopt — see note 6.
+
+country: HU
+cabinet_id: HU-2026-05-13
+
+cabinet_name_original: Magyar Péter kormánya
+cabinet_name_en: Government of Péter Magyar
+cabinet_name_es: Gobierno de Péter Magyar
+
+head_of_government_title_original: miniszterelnök
+head_of_government_title_en: Prime Minister
+
+took_office: 2026-05-13
+left_office: null
+
+methodology_notes:
+  - en: >-
+      Hungary has 16 ministries but 17 seats in the Government. The gap is a matter of
+      constitutional text rather than interpretation: article 16(1) of the Fundamental Law
+      provides that "A Kormány tagjai a miniszterelnök és a miniszterek" — the members of the
+      Government are the prime minister and the ministers — so the prime minister holds a seat
+      without heading a department, and the sixteen ministers appointed on 12 May 2026 head one
+      department each. Two of those ministers, the foreign minister and the minister heading
+      the Miniszterelnökség, are also designated deputy prime ministers under article 16(2). A
+      deputy premiership is a personal designation made by prime-ministerial decree, not a
+      department, so it adds neither a ministry nor a seat. The 16 and the 17 answer different
+      questions and are never added together.
+    es: >-
+      Hungría tiene 16 ministerios pero 17 asientos en el Gobierno. La diferencia es una
+      cuestión de texto constitucional y no de interpretación: el artículo 16(1) de la Ley
+      Fundamental dispone que «A Kormány tagjai a miniszterelnök és a miniszterek» —los
+      miembros del Gobierno son el primer ministro y los ministros—, de modo que el primer
+      ministro ocupa un asiento sin encabezar ningún departamento y los dieciséis ministros
+      nombrados el 12 de mayo de 2026 encabezan un departamento cada uno. Dos de ellos, la
+      ministra de Asuntos Exteriores y el ministro que dirige la Miniszterelnökség, son además
+      viceprimeros ministros conforme al artículo 16(2). La vicepresidencia es una designación
+      personal hecha por decreto del primer ministro, no un departamento, y no añade ni
+      ministerio ni asiento. El 16 y el 17 responden a preguntas distintas y nunca se suman.
+  - en: >-
+      The contested case, stated plainly. The Miniszterelnökség (Prime Minister's Office) is
+      counted as a ministry, which gives 16; excluding it as the office of the head of
+      government would give 15, and would leave the seat count unchanged at 17. It is counted
+      for three reasons. Point 12 of § 1 of Act XIII of 2026 lists it among "Magyarország
+      minisztériumai" in exactly the same terms as the Belügyminisztérium or the
+      Honvédelmi Minisztérium. It is headed by its own minister — the "Miniszterelnökséget
+      vezető miniszter", a different person from the prime minister — and § 8(1) of government
+      decree 90/2026. (V. 13.) gives that minister a substantive portfolio of nine
+      responsibilities including the coordination of European Union affairs and the making of
+      EU policy, government communication, the design of the civil-service career and the
+      coordination of social policy. And this project's own rule for a chancellery constituted
+      as a ministry by national law is to count it and to publish both figures, which is what
+      this note does. The argument the other way is real and a reader should have it: § 5 of
+      the same decree provides that "A miniszterelnök munkaszervezete az általános politikai
+      koordinációért felelős miniszter munkaszervezetében működik" — the prime minister's own
+      work organisation operates inside the work organisation of the minister responsible for
+      general political coordination, which is this ministry — and § 16(2) of the Act on
+      government administration places the Miniszterelnöki Kormányiroda inside it too. So the
+      Miniszterelnökség does house the prime minister's apparatus. What it is not is a body
+      whose head is the prime minister, and that is the distinction this dataset draws. The
+      prime minister's seat and the Miniszterelnöki Kormányiroda are both recorded separately
+      below and neither is counted.
+    es: >-
+      El caso discutido, dicho sin rodeos. La Miniszterelnökség (Oficina del Primer Ministro)
+      se cuenta como ministerio, lo que da 16; excluirla como oficina del jefe de gobierno
+      daría 15 y dejaría el número de asientos igual, en 17. Se cuenta por tres razones. El
+      punto 12 del § 1 de la Ley XIII de 2026 la enumera entre «Magyarország minisztériumai»
+      exactamente en los mismos términos que el Ministerio del Interior o el de Defensa. La
+      encabeza su propio ministro —el «Miniszterelnökséget vezető miniszter», persona distinta
+      del primer ministro— y el § 8(1) del decreto gubernamental 90/2026. (V. 13.) atribuye a
+      ese ministro una cartera sustantiva de nueve responsabilidades, entre ellas la
+      coordinación de los asuntos de la Unión Europea y la elaboración de la política europea,
+      la comunicación gubernamental, el diseño de la carrera en la función pública y la
+      coordinación de la política social. Y la regla propia de este proyecto para una
+      cancillería constituida como ministerio por la ley nacional es contarla y publicar ambas
+      cifras, que es lo que hace esta nota. El argumento contrario existe y el lector debe
+      conocerlo: el § 5 del mismo decreto dispone que «A miniszterelnök munkaszervezete az
+      általános politikai koordinációért felelős miniszter munkaszervezetében működik» —la
+      organización de trabajo del primer ministro funciona dentro de la del ministro
+      responsable de la coordinación política general, que es este ministerio— y el § 16(2) de
+      la ley de administración gubernamental sitúa también dentro de ella la Miniszterelnöki
+      Kormányiroda. La Miniszterelnökség aloja, por tanto, el aparato del primer ministro. Lo
+      que no es es un órgano cuyo titular sea el primer ministro, y esa es la distinción que
+      traza este conjunto de datos. El asiento del primer ministro y la Miniszterelnöki
+      Kormányiroda se registran aparte más abajo y ninguno se cuenta.
+  - en: >-
+      Do not compare 16 with a pre-2026 Hungarian figure without reading this. The repealed
+      2022 act listed thirteen ministries and included *both* the Miniszterelnökség and the
+      Miniszterelnöki Kabinetiroda, and its § 2 made the Kabinetiroda, not the
+      Miniszterelnökség, the prime minister's work organisation. Act XIII of 2026 dissolved the
+      Kabinetiroda into the Miniszterelnökség (§ 2(7)) and dissolved the Ministry for European
+      Union Affairs into it as well (§ 2(6)), split three new ministries out of the
+      Belügyminisztérium and one each out of the energy and the culture ministries, and renamed
+      seven others. Both dissolved bodies kept operating as budgetary and government
+      administrative organs after 13 May — § 4(2) and § 4(3) of the act say so, and put the
+      minister heading the Miniszterelnökség in charge of them — until 15 June 2026, the date
+      fixed by § 206 of decree 90/2026. They are therefore recorded here with
+      `valid_to: 2026-06-15` and the exclusion reason superseded_within_cabinet, so they appear
+      in the cabinet's history and not in its current structure. A source counting Hungary's
+      ministries on 12 May 2026 answers a different question from one counting them today.
+    es: >-
+      No compare el 16 con una cifra húngara anterior a 2026 sin leer esto. La ley de 2022,
+      hoy derogada, enumeraba trece ministerios e incluía *tanto* la Miniszterelnökség como la
+      Miniszterelnöki Kabinetiroda, y su § 2 hacía de la Kabinetiroda, no de la
+      Miniszterelnökség, la organización de trabajo del primer ministro. La Ley XIII de 2026
+      disolvió la Kabinetiroda en la Miniszterelnökség (§ 2(7)) y disolvió también en ella el
+      Ministerio de Asuntos de la Unión Europea (§ 2(6)), escindió tres ministerios nuevos del
+      Ministerio del Interior y uno de los de Energía y de Cultura respectivamente, y cambió el
+      nombre de otros siete. Los dos órganos disueltos siguieron funcionando como órganos
+      presupuestarios y de administración gubernamental después del 13 de mayo —así lo dicen
+      los § 4(2) y § 4(3) de la ley, que ponen al frente de ellos al ministro que dirige la
+      Miniszterelnökség— hasta el 15 de junio de 2026, fecha fijada por el § 206 del decreto
+      90/2026. Por eso se registran aquí con `valid_to: 2026-06-15` y el motivo de exclusión
+      superseded_within_cabinet, de modo que aparecen en la historia del gabinete y no en su
+      estructura actual. Una fuente que cuente los ministerios húngaros a 12 de mayo de 2026
+      responde a una pregunta distinta de la que cuenta los de hoy.
+  - en: >-
+      Hungary has no ministers without portfolio in this government, and their absence is a
+      fact rather than an omission. Article 17(2) of the Fundamental Law provides that a
+      "tárca nélküli miniszter" may be appointed for a remit determined by the Government;
+      neither Act XIII of 2026 nor the repealed 2022 act names any, decree 90/2026 does not use
+      the phrase at all, and decision 76/2026. (V. 12.) KE appointed exactly sixteen ministers
+      whose sixteen titles map one-to-one onto the sixteen ministries. Nor are the
+      "kormánybiztos" (government commissioners), whose activity § 8(1)(e) of decree 90/2026
+      puts under the minister heading the Miniszterelnökség, members of the Government under
+      article 16(1); they are absent from this file for that reason. State secretaries
+      (államtitkár) and administrative state secretaries (közigazgatási államtitkár) are
+      likewise not members of the Government and are not recorded, with one exception: the
+      administrative state secretary who heads the Miniszterelnöki Kormányiroda, because that
+      body is one a reader looking for Hungary's prime-ministerial office will go hunting for.
+    es: >-
+      Hungría no tiene ministros sin cartera en este gobierno, y su ausencia es un hecho y no
+      una omisión. El artículo 17(2) de la Ley Fundamental dispone que puede nombrarse un
+      «tárca nélküli miniszter» para un cometido determinado por el Gobierno; ni la Ley XIII de
+      2026 ni la derogada ley de 2022 nombran a ninguno, el decreto 90/2026 no emplea la
+      expresión y la decisión 76/2026. (V. 12.) KE nombró exactamente dieciséis ministros cuyos
+      dieciséis títulos se corresponden uno a uno con los dieciséis ministerios. Tampoco los
+      «kormánybiztos» (comisionados del Gobierno), cuya actividad el § 8(1)(e) del decreto
+      90/2026 sitúa bajo el ministro que dirige la Miniszterelnökség, son miembros del Gobierno
+      según el artículo 16(1); están ausentes de este fichero por esa razón. Los secretarios de
+      Estado (államtitkár) y los secretarios de Estado administrativos (közigazgatási
+      államtitkár) tampoco son miembros del Gobierno y no se registran, con una excepción: el
+      secretario de Estado administrativo que dirige la Miniszterelnöki Kormányiroda, porque
+      ese órgano es uno que buscará quien vaya tras la oficina del primer ministro húngaro.
+  - en: >-
+      Where the policy-area tags come from, and three that will surprise a reader. Every
+      counted ministry is tagged from the responsibilities that government decree 90/2026.
+      (V. 13.) assigns to its minister, each ministry having its own subtitle in chapter III:
+      §§ 8, 25, 34, 56, 60, 75, 93, 97, 106, 118, 124, 130, 145, 157, 168 and 179, in that
+      order. First surprise: sport is in the interior ministry, whose § 34(1) makes the
+      belügyminiszter responsible for "sportpolitikáért" and for major international sporting
+      events, so no Hungarian ministry has sport in its name and the sport tag sits on the
+      Belügyminisztérium. Second: foreign trade is not in the foreign ministry. The former
+      Külgazdasági és Külügyminisztérium was renamed simply Külügyminisztérium and
+      "külgazdasági ügyekért" is listed under the economic and energy minister in § 75, so the
+      trade tag sits there. Third: three tags this project's vocabulary cannot express are
+      missing rather than approximated — the minority-affairs and diaspora ministry's
+      "nemzetiségpolitika" (policy toward Hungary's recognised national minorities) has no id,
+      nor does its remit for relations with civil society, and the science ministry's
+      "kormányzati tudománypolitika" is tagged research rather than innovation because the
+      decree assigns it no innovation remit even though the ministry is the successor of the
+      Kulturális és Innovációs Minisztérium.
+    es: >-
+      De dónde salen las áreas de política, y tres que sorprenderán al lector. Cada ministerio
+      contado se etiqueta a partir de las responsabilidades que el decreto gubernamental
+      90/2026. (V. 13.) asigna a su ministro, con un subtítulo propio para cada ministerio en
+      el capítulo III: §§ 8, 25, 34, 56, 60, 75, 93, 97, 106, 118, 124, 130, 145, 157, 168 y
+      179, en ese orden. Primera sorpresa: el deporte está en el ministerio del Interior, cuyo
+      § 34(1) hace al belügyminiszter responsable de la «sportpolitikáért» y de los grandes
+      eventos deportivos internacionales, de modo que ningún ministerio húngaro lleva el
+      deporte en el nombre y la etiqueta «sport» va al Belügyminisztérium. Segunda: el comercio
+      exterior no está en Exteriores. El antiguo Külgazdasági és Külügyminisztérium pasó a
+      llamarse simplemente Külügyminisztérium y los «külgazdasági ügyekért» figuran bajo el
+      ministro de Economía y Energía en el § 75, así que la etiqueta «trade» va allí. Tercera:
+      tres etiquetas que el vocabulario de este proyecto no puede expresar faltan en lugar de
+      aproximarse — la «nemzetiségpolitika» (política hacia las minorías nacionales reconocidas
+      de Hungría) del ministerio de Relaciones Sociales y Cultura no tiene id, ni tampoco su
+      competencia sobre las relaciones con la sociedad civil, y la «kormányzati
+      tudománypolitika» del ministerio de Ciencia se etiqueta como research y no como
+      innovation porque el decreto no le asigna competencia de innovación aunque el ministerio
+      sea el sucesor del Kulturális és Innovációs Minisztérium.
+  - en: >-
+      All English and Spanish names in this file are the project's own. Hungary's government
+      publishes no English list of its ministries: kormany.hu carries /en/ paths for every
+      ministry, but as of 28 July 2026 they serve the Hungarian pages unchanged, so there is no
+      official English nomenclature to adopt and every name_en_provenance and
+      name_es_provenance is `translated`. Two renderings are worth flagging. "Miniszterelnökség"
+      is given as "Prime Minister's Office" because that is what it is called in ordinary
+      English usage, but the name should not be read as implying that the prime minister heads
+      it — see note 2. And "Élő Környezetért Felelős Minisztérium" is rendered literally as
+      "Ministry for the Living Environment": it is the environment, nature, water and waste
+      department, and the reader who expects a Hungarian climate or energy ministry will find
+      energy in the Gazdasági és Energetikai Minisztérium and no dedicated climate portfolio at
+      all.
+    es: >-
+      Todos los nombres en inglés y español de este fichero son del proyecto. El Gobierno de
+      Hungría no publica una lista en inglés de sus ministerios: kormany.hu mantiene rutas /en/
+      para cada ministerio, pero a 28 de julio de 2026 sirven las páginas húngaras sin cambios,
+      por lo que no hay nomenclatura oficial en inglés que adoptar y todos los valores de
+      name_en_provenance y name_es_provenance son `translated`. Dos traducciones merecen
+      señalarse. «Miniszterelnökség» se da como «Oficina del Primer Ministro» porque es el
+      nombre habitual en español, pero no debe leerse como que el primer ministro la encabece
+      —véase la nota 2—. Y «Élő Környezetért Felelős Minisztérium» se traduce literalmente como
+      «Ministerio para el Entorno Vivo»: es el departamento de medio ambiente, naturaleza, agua
+      y residuos, y quien espere un ministerio húngaro de clima o de energía encontrará la
+      energía en el Gazdasági és Energetikai Minisztérium y ninguna cartera de clima.
+  - en: >-
+      The abbreviations recorded here are ministerial, not departmental. § 193 of decree
+      90/2026 prescribes the short form to be used for each minister when legislation cites
+      one — MvM, AÉM, EüM, ÉKFM, BM, KBM, GEM, HM, IM, KüM, TKKM, OGYM, PM, SZCSM, TTM, VTM —
+      and no instrument fixes an acronym for the ministries themselves. Several of these are
+      also the ministries' everyday acronyms; BM in particular appears as a departmental prefix
+      in the decree's own annex ("Belügyminisztérium Országos Katasztrófavédelmi
+      Főigazgatóság"). They are recorded in `abbreviation_original` because they are the only
+      official short forms that exist, but a reader should know that MvM strictly abbreviates
+      the *minister* heading the Miniszterelnökség rather than the ministry, and that PM here
+      means Pénzügyminisztérium and not prime minister.
+    es: >-
+      Las abreviaturas registradas aquí son ministeriales, no departamentales. El § 193 del
+      decreto 90/2026 prescribe la forma abreviada que debe usarse para cada ministro cuando
+      una norma lo cita —MvM, AÉM, EüM, ÉKFM, BM, KBM, GEM, HM, IM, KüM, TKKM, OGYM, PM, SZCSM,
+      TTM, VTM— y ningún instrumento fija un acrónimo para los ministerios en sí. Varias son
+      además los acrónimos de uso corriente de los ministerios; BM en particular aparece como
+      prefijo departamental en el propio anexo del decreto («Belügyminisztérium Országos
+      Katasztrófavédelmi Főigazgatóság»). Se registran en `abbreviation_original` porque son las
+      únicas formas breves oficiales que existen, pero el lector debe saber que MvM abrevia
+      estrictamente al *ministro* que dirige la Miniszterelnökség y no al ministerio, y que PM
+      aquí significa Pénzügyminisztérium y no primer ministro.
+
+sources:
+  - id: njt-2026-evi-xiii-torveny
+    tier: 1
+    type: statute
+    publisher: Nemzeti Jogszabálytár — MKIFK Magyar Közlönykiadó és Igazságügyi Fordítóközpont Zrt.
+    title: 2026. évi XIII. törvény Magyarország minisztériumainak felsorolásáról
+    url: https://njt.jog.gov.hu/jogszabaly/2026-13-00-00.0
+    archive_url: https://web.archive.org/web/20260728101012/https://njt.jog.gov.hu/jogszabaly/2026-13-00-00.0
+    lang: hu
+    published: 2026-05-09
+    accessed: 2026-07-28
+    quote: |-
+      1. § Magyarország minisztériumai a következők:
+      1. Egészségügyi Minisztérium,
+      2. Igazságügyi Minisztérium,
+      3. Oktatási és Gyermekügyi Minisztérium,
+      4. Pénzügyminisztérium,
+      5. Agrár- és Élelmiszergazdaságért Felelős Minisztérium,
+      6. Belügyminisztérium,
+      7. Élő Környezetért Felelős Minisztérium,
+      8. Gazdasági és Energetikai Minisztérium,
+      9. Honvédelmi Minisztérium,
+      10. Közlekedési és Beruházási Minisztérium,
+      11. Külügyminisztérium,
+      12. Miniszterelnökség,
+      13. Szociális és Családügyi Minisztérium,
+      14. Társadalmi Kapcsolatokért és Kultúráért Felelős Minisztérium,
+      15. Tudományos és Technológiai Minisztérium,
+      16. Vidék- és Településfejlesztési Minisztérium.
+    note: >-
+      The consolidated text on the official Nemzeti Jogszabálytár, whose state marker reads
+      2026.05.13. and whose "Változott rendelkezések" panel reports no past and no scheduled
+      change, so the consolidated text reflects no amendment: it is the act as enacted, in force
+      unamended from 13 May 2026 to the access date. The act's own footnote records "A törvényt
+      az Országgyűlés a 2026. május 9-i ülésnapján fogadta el. A kihirdetés napja: 2026. május
+      9.", which is the `published` date. The order of the sixteen entities below follows this
+      section; note that it is alphabetical only from point 5 onwards, the first four being
+      listed out of alphabetical order, and the order recorded here is the statute's and not a
+      normalised one.
+
+  - id: mk-2026-44-torveny-xiii
+    tier: 1
+    type: official_gazette
+    publisher: Magyar Közlöny — Magyarország hivatalos lapja
+    title: >-
+      Magyar Közlöny 2026. évi 44. szám — 2026. évi XIII. törvény Magyarország
+      minisztériumainak felsorolásáról, 2–6. §
+    url: https://www.magyarkozlony.hu/dokumentumok/7f841dfae11a76776f555462bc09e8741289997a/letoltes
+    archive_url: https://web.archive.org/web/20260519004157/https://www.magyarkozlony.hu/dokumentumok/7f841dfae11a76776f555462bc09e8741289997a/letoltes
+    lang: hu
+    published: 2026-05-09
+    accessed: 2026-07-28
+    quote: |-
+      2. § (1) Az Egészségügyi Minisztérium a Belügyminisztériumból történő kiválással jön létre.
+      (2) Az Oktatási és Gyermekügyi Minisztérium a Belügyminisztériumból történő kiválással jön létre.
+      (3) Az Élő Környezetért Felelős Minisztérium a Magyarország minisztériumainak felsorolásáról szóló 2022. évi II. törvény szerinti Energiaügyi Minisztériumból történő kiválással jön létre.
+      (4) A Szociális és Családügyi Minisztérium a Belügyminisztériumból történő kiválással jön létre.
+      (5) A Társadalmi Kapcsolatokért és Kultúráért Felelős Minisztérium a Magyarország minisztériumainak felsorolásáról szóló 2022. évi II. törvény szerinti Kulturális és Innovációs Minisztériumból történő kiválással jön létre.
+      (6) Az Európai Uniós Ügyek Minisztériuma a Miniszterelnökségbe történő beolvadással megszűnik.
+      (7) A Miniszterelnöki Kabinetiroda a Miniszterelnökségbe történő beolvadással megszűnik.
+      3. § (1) A Magyarország minisztériumainak felsorolásáról szóló 2022. évi II. törvény szerinti Nemzetgazdasági Minisztérium Pénzügyminisztérium elnevezéssel működik tovább.
+      (2) A Magyarország minisztériumainak felsorolásáról szóló 2022. évi II. törvény szerinti Agrárminisztérium Agrár- és Élelmiszergazdaságért Felelős Minisztérium elnevezéssel működik tovább.
+      (3) A Magyarország minisztériumainak felsorolásáról szóló 2022. évi II. törvény szerinti Energiaügyi Minisztérium Gazdasági és Energetikai Minisztérium elnevezéssel működik tovább.
+      (4) A Magyarország minisztériumainak felsorolásáról szóló 2022. évi II. törvény szerinti Építési és Közlekedési Minisztérium Közlekedési és Beruházási Minisztérium elnevezéssel működik tovább.
+      (5) A Magyarország minisztériumainak felsorolásáról szóló 2022. évi II. törvény szerinti Külgazdasági és Külügyminisztérium Külügyminisztérium elnevezéssel működik tovább.
+      (6) A Magyarország minisztériumainak felsorolásáról szóló 2022. évi II. törvény szerinti Kulturális és Innovációs Minisztérium Tudományos és Technológiai Minisztérium elnevezéssel működik tovább.
+      (7) A Magyarország minisztériumainak felsorolásáról szóló 2022. évi II. törvény szerinti Közigazgatási és Területfejlesztési Minisztérium Vidék- és Településfejlesztési Minisztérium elnevezéssel működik tovább.
+      4. § (1) Az 1. § szerinti minisztériumok és a Magyarország minisztériumainak felsorolásáról szóló 2022. évi II. törvény szerinti minisztériumok közötti jogutódlást a Kormány eredeti jogalkotói hatáskörben kiadott rendelete állapítja meg.
+      (2) A 2. § (6) és (7) bekezdésében meghatározott minisztériumok az államháztartásról szóló törvény szerinti költségvetési szervként, valamint a kormányzati igazgatásról szóló törvény szerinti kormányzati igazgatási szervként az (1) bekezdés szerinti kormányrendeletben meghatározott időpontig működnek.
+      (3) Az 1. § 12. pontjában meghatározott minisztériumot vezető miniszter gyakorolja a 2. § (6) és (7) bekezdésében meghatározott minisztériumok – ideértve költségvetési szervi – vezetőjének hatásköreit. A 2. § (6) és (7) bekezdésében meghatározott minisztériumok megszűnésének időpontját az (1) bekezdés szerinti kormányrendelet határozza meg.
+      5. § (1) Ez a törvény az országgyűlési képviselők 2026. évi általános választását követően megalakult Országgyűlés alakuló ülésén megválasztott miniszterelnök által vezetett Kormány megalakulásának napján lép hatályba.
+      (2) Az (1) bekezdés szerinti feltétel bekövetkezésének naptári napját a társadalompolitika összehangolásáért felelős miniszter annak ismertté válását követően a Magyar Közlönyben haladéktalanul közzétett egyedi határozatával állapítja meg.
+      6. § Hatályát veszti a Magyarország minisztériumainak felsorolásáról szóló 2022. évi II. törvény.
+    note: >-
+      The gazette PDF of the act as promulgated, pages 2536–2537 of issue 44 of 9 May 2026,
+      cited for everything in the act except the § 1 list, which is quoted from the consolidated
+      text instead. This is the source for which ministries were created by splitting from
+      which, which were merely renamed, and — in § 4(2) and § 4(3) — for the fact that the two
+      abolished ministries continued to operate as budgetary and government administrative
+      organs under the minister heading the Miniszterelnökség until a date set by government
+      decree. The PDF sets these paragraphs in a hanging-indent layout with mid-sentence line
+      breaks; the quotation reflows them to one paragraph per numbered subsection and changes
+      no word.
+
+  - id: mk-2026-44-ogy-18-miniszterelnok
+    tier: 1
+    type: official_gazette
+    publisher: Magyar Közlöny — Magyarország hivatalos lapja
+    title: >-
+      Magyar Közlöny 2026. évi 44. szám — Az Országgyűlés 18/2026. (V. 9.) OGY határozata a
+      miniszterelnök megválasztásáról
+    url: https://www.magyarkozlony.hu/dokumentumok/7f841dfae11a76776f555462bc09e8741289997a/letoltes
+    archive_url: https://web.archive.org/web/20260519004157/https://www.magyarkozlony.hu/dokumentumok/7f841dfae11a76776f555462bc09e8741289997a/letoltes
+    lang: hu
+    published: 2026-05-09
+    accessed: 2026-07-28
+    quote: |-
+      Az Országgyűlés 18/2026. (V. 9.) OGY határozata
+      a miniszterelnök megválasztásáról
+      1. Az Országgyűlés az Alaptörvény 16. cikk (3) és (4) bekezdése alapján
+      Magyar Pétert
+      miniszterelnökké megválasztja.
+      2. Ez a határozat az elfogadásakor lép hatályba.
+    note: >-
+      Page 2593 of the same gazette issue. This is the instrument that put the prime minister in
+      office, on 9 May 2026, and it is cited to make plain why this cabinet's `took_office` is
+      nevertheless 13 May: the prime minister's own term and the Government's formation are
+      different events under articles 16(4) and 16(8) of the Fundamental Law. The Assembly's
+      constituent sitting also elected its Speaker and its committees on the same day, so 9 May
+      is the date the legislature and the premiership begin and 13 May the date the Government
+      does.
+
+  - id: mk-2026-45-ke-76-miniszterek-kinevezese
+    tier: 1
+    type: official_gazette
+    publisher: Magyar Közlöny — Magyarország hivatalos lapja
+    title: >-
+      Magyar Közlöny 2026. évi 45. szám — A köztársasági elnök 76/2026. (V. 12.) KE határozata
+      miniszterek kinevezéséről
+    url: https://magyarkozlony.hu/hivatalos-lapok/xMDWJs5ow5CMQkII1RA769ea63cd87913/dokumentumok/9c93d581438b96bfe6b1a96a9ee397ffc9badce8/letoltes
+    archive_url: https://web.archive.org/web/20260513192031/https://magyarkozlony.hu/hivatalos-lapok/xMDWJs5ow5CMQkII1RA769ea63cd87913/dokumentumok/9c93d581438b96bfe6b1a96a9ee397ffc9badce8/letoltes
+    lang: hu
+    published: 2026-05-12
+    accessed: 2026-07-28
+    quote: |-
+      Az Alaptörvény 9. cikk (4) bekezdés c) pontja és 16. cikk (7) bekezdése alapján
+      – a miniszterelnök javaslatára –
+      Bóna Szabolcs Jánost agrár- és élelmiszergazdaságért felelős miniszterré,
+      Gajdos László Attilát élő környezetért felelős miniszterré,
+      Dr. Törőcsikné Dr. Görög Mártát igazságügyi miniszterré,
+      dr. Hegedűs Zsolt Csabát egészségügyi miniszterré,
+      Kapitány Istvánt gazdasági és energetikai miniszterré,
+      Kármán András Miklóst pénzügyminiszterré,
+      dr. Kátai-Németh Vilmost szociális és családügyi miniszterré,
+      Lannert Judit Orsolyát oktatási és gyermekügyi miniszterré,
+      dr. Lőrincz Viktóriát vidék- és településfejlesztési miniszterré,
+      Dr. Orbán Anitát külügyminiszterré,
+      Pósfai Gábort belügyminiszterré,
+      dr. Ruff Bálint Györgyöt a Miniszterelnökséget vezető miniszterré,
+      Dr. Ruszin-Szendi Romuluszt honvédelmi miniszterré,
+      Tanács Zoltánt tudományos és technológiai miniszterré,
+      Tarr Zoltán Józsefet társadalmi kapcsolatokért és kultúráért felelős miniszterré, valamint
+      Vitézy Dávid Lászlót közlekedési és beruházási miniszterré
+      2026. május 13-ai hatállyal kinevezem.
+    note: >-
+      Page 2596 of issue 45 of 12 May 2026. Cited for three separate things. It fixes the date
+      this cabinet took office — the appointments take effect "2026. május 13-ai hatállyal", and
+      under article 16(8) of the Fundamental Law the Government is formed by the appointment of
+      the ministers. It shows that exactly sixteen ministers were appointed and that their
+      sixteen ministerial titles correspond one-to-one to the sixteen ministries of § 1 of Act
+      XIII, so no minister holds two portfolios and none is without portfolio. And it gives each
+      ministry's head title in the original, of which only the Miniszterelnökség's — "a
+      Miniszterelnökséget vezető miniszter" — is not simply the ministry's adjective plus
+      "miniszter". Officeholders' names are not data this project records; they appear only
+      inside this quotation.
+
+  - id: mk-2026-45-mvm-1-hatalybalepes
+    tier: 1
+    type: official_gazette
+    publisher: Magyar Közlöny — Magyarország hivatalos lapja
+    title: >-
+      Magyar Közlöny 2026. évi 45. szám — A Miniszterelnökséget vezető miniszter 1/2026.
+      (V. 12.) MvM határozata a Magyarország minisztériumainak felsorolásáról szóló 2026. évi
+      XIII. törvény hatálybalépéséről
+    url: https://magyarkozlony.hu/hivatalos-lapok/xMDWJs5ow5CMQkII1RA769ea63cd87913/dokumentumok/9c93d581438b96bfe6b1a96a9ee397ffc9badce8/letoltes
+    archive_url: https://web.archive.org/web/20260513192031/https://magyarkozlony.hu/hivatalos-lapok/xMDWJs5ow5CMQkII1RA769ea63cd87913/dokumentumok/9c93d581438b96bfe6b1a96a9ee397ffc9badce8/letoltes
+    lang: hu
+    published: 2026-05-12
+    accessed: 2026-07-28
+    quote: >-
+      Megállapítom, hogy a Magyarország minisztériumainak felsorolásáról szóló 2026. évi XIII.
+      törvény (a továbbiakban: törvény) 5. § (1) bekezdése szerinti feltétel bekövetkezésének
+      napja, erre tekintettel a törvény hatálybalépésének naptári napja 2026. május 13., azaz
+      kettőezerhuszonhat május tizenharmadik napja.
+    note: >-
+      Page 2598 of the same issue. Act XIII of 2026 does not carry a calendar entry-into-force
+      date: its § 5(1) ties entry into force to the day the new Government is formed, and § 5(2)
+      requires the minister responsible for coordinating social policy to publish a decision in
+      the Magyar Közlöny fixing that calendar day once it is known. This is that decision, and
+      it is the official determination that the Government was formed on 13 May 2026. It was
+      signed on 12 May by the outgoing holder of the Miniszterelnökség portfolio, which is why
+      the signature is Gergely Gulyás's and not the incoming minister's. The Nemzeti
+      Jogszabálytár's state marker for the act, 2026.05.13., agrees, and so does the footnote to
+      the repealed 2022 act, which records that § 6 of Act XIII repealed it "2026. május 13.
+      napjával".
+
+  - id: njt-alaptorveny
+    tier: 1
+    type: statute
+    publisher: Nemzeti Jogszabálytár — MKIFK Magyar Közlönykiadó és Igazságügyi Fordítóközpont Zrt.
+    title: Magyarország Alaptörvénye (2011. április 25.), 16. és 17. cikk
+    url: https://njt.jog.gov.hu/jogszabaly/2011-4301-02-00
+    archive_url: https://web.archive.org/web/20260721042009/https://njt.jog.gov.hu/jogszabaly/2011-4301-02-00
+    lang: hu
+    published: 2011-04-25
+    accessed: 2026-07-28
+    quote: |-
+      16. cikk
+      (1) A Kormány tagjai a miniszterelnök és a miniszterek.
+      (2) A miniszterelnök rendeletben a miniszterek közül egy vagy több miniszterelnök-helyettest jelöl ki.
+      [...]
+      (7) A minisztert a miniszterelnök javaslatára a köztársasági elnök nevezi ki. A miniszter a kinevezésében megjelölt időpontban, ennek hiányában a kinevezésével hivatalba lép.
+      (8) A Kormány a miniszterek kinevezésével alakul meg.
+      (9) A Kormány tagja az Országgyűlés előtt esküt tesz.
+      17. cikk
+      (1) A minisztériumok felsorolásáról törvény rendelkezik.
+      (2) Tárca nélküli miniszter a Kormány által meghatározott feladatkör ellátására nevezhető ki.
+    note: >-
+      The consolidated Fundamental Law, cited for four things this file turns on: who sits in the
+      Government (16(1) — the prime minister and the ministers, and nobody else, which is what
+      makes the seat count 17), that deputy premierships are a designation among the existing
+      ministers rather than an office of their own (16(2)), when the Government is formed
+      (16(7)–(8), and the appointment decision named 13 May), and that the list of ministries is
+      a matter for statute while ministers without portfolio are a matter for the Government
+      (17(1)–(2)). The elision marked "[...]" omits paragraphs (3) to (6), on the election of
+      the prime minister; it also avoids reproducing the Jogszabálytár's inline footnote
+      reference numbers, which are the site's apparatus and not part of the text.
+
+  - id: njt-90-2026-korm-rendelet
+    tier: 1
+    type: statute
+    publisher: Nemzeti Jogszabálytár — MKIFK Magyar Közlönykiadó és Igazságügyi Fordítóközpont Zrt.
+    title: 90/2026. (V. 13.) Korm. rendelet a Kormány tagjainak feladat- és hatásköréről
+    url: https://njt.jog.gov.hu/jogszabaly/2026-90-20-22
+    archive_url: https://web.archive.org/web/20260728101101/https://njt.jog.gov.hu/jogszabaly/2026-90-20-22
+    lang: hu
+    published: 2026-05-13
+    accessed: 2026-07-28
+    quote: |-
+      8. § (1) A Miniszterelnökséget vezető miniszter (ezen alcím alkalmazásában a továbbiakban: miniszter) a Kormány
+      a) általános politikai koordinációért,
+      b) európai uniós ügyek koordinációjáért,
+      c) európai uniós politikák kialakításáért és koordinációjáért, valamint
+      d) kormányzati kommunikációért,
+      e) kormánybiztosok tevékenységének összehangolásáért,
+      f) kormányzati társadalmi kapcsolatok összehangolásáért,
+      g) kormányzati stratégiák kidolgozásának támogatásáért,
+      h) közszolgálati életpálya kidolgozásáért,
+      i) – a 27. §-ban meghatározott kivétellel – társadalompolitika összehangolásáért
+      felelős tagja.
+    note: >-
+      The consolidated remit decree, state marker 2026.05.15., with no past or scheduled change
+      recorded, so the text is the decree as made. It is the source of every policy-area tag in
+      this file: chapter III gives each minister a subtitle of their own, at §§ 8, 25, 34, 56,
+      60, 75, 93, 97, 106, 118, 124, 130, 145, 157, 168 and 179 respectively for the
+      Miniszterelnökség, agriculture and food economy, interior, health, living environment,
+      economy and energy, defence, justice, transport and investment, foreign affairs, education
+      and children, finance, social and family affairs, social relations and culture, science
+      and technology, and rural and settlement development. The paragraph quoted is § 8(1),
+      because the Miniszterelnökség's portfolio is the one contested fact in this file. Also
+      cited for § 5, which places the prime minister's work organisation inside the
+      Miniszterelnökség, for § 193, the short designations recorded as abbreviations, and for
+      § 201 and § 202, by which the decree entered into force on 14 May 2026 and repealed its
+      predecessor 182/2022. (V. 24.) Korm. rendelet.
+
+  - id: mk-2026-46-korm-90-2026-atmeneti
+    tier: 1
+    type: official_gazette
+    publisher: Magyar Közlöny — Magyarország hivatalos lapja
+    title: >-
+      Magyar Közlöny 2026. évi 46. szám — 90/2026. (V. 13.) Korm. rendelet a Kormány tagjainak
+      feladat- és hatásköréről, 206. § (átmeneti rendelkezés)
+    url: https://magyarkozlony.hu/hivatalos-lapok/Yp9oPCoYxkiUxJbtJ8T869f3a08a753e4/dokumentumok/89a0efdfc4757902c59111c272d8d808a56fd398/letoltes
+    archive_url: https://web.archive.org/web/20260516185316/https://magyarkozlony.hu/hivatalos-lapok/Yp9oPCoYxkiUxJbtJ8T869f3a08a753e4/dokumentumok/89a0efdfc4757902c59111c272d8d808a56fd398/letoltes
+    lang: hu
+    published: 2026-05-13
+    accessed: 2026-07-28
+    quote: >-
+      206. § A Magyarország minisztériumainak felsorolásáról szóló 2026. évi XIII. törvény 2. §
+      (6) és (7) bekezdésében meghatározott minisztériumoknak a Magyarország minisztériumainak
+      felsorolásáról szóló 2026. évi XIII. törvény 4. § (3) bekezdése szerinti megszűnésének
+      időpontja 2026. június 15. napja.
+    note: >-
+      Page 2657 of issue 46 of 13 May 2026. This is the provision Act XIII § 4(1) and § 4(3)
+      delegate to: it fixes 15 June 2026 as the day the Ministry for European Union Affairs and
+      the Prime Minister's Cabinet Office ceased to exist as organs, having been dissolved into
+      the Miniszterelnökség on 13 May. It is what supplies `valid_to: 2026-06-15` for those two
+      entities, and therefore what keeps them out of the cabinet's current structure while
+      leaving them in its record.
+
+  - id: njt-kit-2018-cxxv
+    tier: 1
+    type: statute
+    publisher: Nemzeti Jogszabálytár — MKIFK Magyar Közlönykiadó és Igazságügyi Fordítóközpont Zrt.
+    title: 2018. évi CXXV. törvény a kormányzati igazgatásról, 16. § (a Miniszterelnöki Kormányiroda jogállása)
+    url: https://njt.jog.gov.hu/jogszabaly/2018-125-00-00
+    archive_url: https://web.archive.org/web/20260728102025/https://njt.jog.gov.hu/jogszabaly/2018-125-00-00
+    lang: hu
+    published: 2018-12-21
+    accessed: 2026-07-28
+    quote: |-
+      16. § (1) A Miniszterelnöki Kormányiroda kormányzati igazgatási munkaszervezet.
+      (2) A Miniszterelnöki Kormányiroda az általános politikai koordinációért felelős miniszter által vezetett minisztériumban működik.
+    note: >-
+      The Act on government administration, in its consolidated state of 6 January 2026 (the
+      next change is scheduled for 26 August 2026 and does not touch this section). Cited for
+      the status of the Miniszterelnöki Kormányiroda, which Act XIII does not mention at all:
+      it is a work organisation operating inside the ministry led by the minister responsible
+      for general political coordination — the Miniszterelnökség — and § 17(1) provides that
+      "A Miniszterelnöki Kormányirodát közigazgatási államtitkár vezeti", an administrative
+      state secretary and not a minister. That is why it is recorded and not counted, and it is
+      the closest thing in Hungarian law to a prime-ministerial office distinct from a ministry.
+
+  - id: njt-2022-evi-ii-torveny
+    tier: 1
+    type: statute
+    publisher: Nemzeti Jogszabálytár — MKIFK Magyar Közlönykiadó és Igazságügyi Fordítóközpont Zrt.
+    title: 2022. évi II. törvény Magyarország minisztériumainak felsorolásáról (hatályon kívül helyezve)
+    url: https://njt.jog.gov.hu/jogszabaly/2022-2-00-00
+    archive_url: https://web.archive.org/web/20260514044427/https://njt.jog.gov.hu/jogszabaly/2022-2-00-00
+    lang: hu
+    published: 2022-05-23
+    accessed: 2026-07-28
+    quote: |-
+      1. § Magyarország minisztériumai a következők:
+      a) Agrárminisztérium,
+      b) Belügyminisztérium,
+      c) Energiaügyi Minisztérium,
+      d) Európai Uniós Ügyek Minisztériuma,
+      e) Építési és Közlekedési Minisztérium,
+      f) Honvédelmi Minisztérium,
+      g) Igazságügyi Minisztérium,
+      h) Közigazgatási és Területfejlesztési Minisztérium,
+      i) Kulturális és Innovációs Minisztérium,
+      j) Külgazdasági és Külügyminisztérium,
+      k) Miniszterelnöki Kabinetiroda,
+      l) Miniszterelnökség és
+      m) Nemzetgazdasági Minisztérium.
+      2. § A miniszterelnök munkaszervezete a Miniszterelnöki Kabinetiroda, amelynek része kormányzati igazgatási munkaszervezetként a Miniszterelnöki Kormányiroda.
+    note: >-
+      The repealed predecessor act, in its final consolidated state, cited only for the two
+      excluded bodies and for the comparison note. It is what shows that Hungary until 13 May
+      2026 had thirteen statutory ministries including both the Miniszterelnökség and the
+      Miniszterelnöki Kabinetiroda, and that under § 2 it was the Kabinetiroda, not the
+      Miniszterelnökség, that was the prime minister's work organisation — which is the change
+      Act XIII of 2026 made and the reason the Miniszterelnökség's treatment had to be decided
+      afresh. Its footnote also records the repeal date independently: "A törvényt a 2026. évi
+      XIII. törvény 6. §-a hatályon kívül helyezte 2026. május 13. napjával." The act named no
+      ministers without portfolio and no government commissioners.
+
+  - id: kormany-hu-kormanyzat
+    tier: 2
+    type: government_website
+    publisher: Magyarország Kormánya
+    title: Kormányzat — a Kormány tagjai és a minisztériumok
+    url: https://kormany.hu/kormanyzat
+    archive_url: https://web.archive.org/web/20260728101824/https://kormany.hu/kormanyzat
+    lang: hu
+    published: null
+    accessed: 2026-07-28
+    quote: |-
+      Agrár- és Élelmiszergazdaságért felelős Minisztérium
+      Belügyminisztérium
+      Egészségügyi Minisztérium
+      Élő Környezetért felelős Minisztérium
+      Gazdasági és Energetikai Minisztérium
+      Oktatási és Gyermekügyi Minisztérium
+      Honvédelmi Minisztérium
+      Igazságügyi Minisztérium
+      Közlekedési és Beruházási Minisztérium
+      Külügyminisztérium
+      Miniszterelnökség
+      Pénzügyminisztérium
+      Szociális és Családügyi Minisztérium
+      Társadalmi kapcsolatokért és Kultúráért felelős Minisztérium
+      Vidék- és Településfejlesztési Minisztérium
+      Tudományos és Technológiai Minisztérium
+    note: >-
+      The government's own list, quoted from the "Minisztériumok" block of the page with the
+      "Felelős miniszter" line under each name omitted. It corroborates the statutory list
+      exactly — sixteen ministries, the same sixteen — and it is the source of the departmental
+      web addresses recorded on each entity, each of which is a /kormanyzat/ page on this site.
+      The page also lists the prime minister and, separately, two deputy prime ministers, both
+      of whom appear again among the sixteen ministers, which is the corroboration for the
+      claim that no deputy premiership adds a seat. Two spellings differ from the statute's in
+      capitalisation only ("Agrár- és Élelmiszergazdaságért felelős", "Társadalmi
+      kapcsolatokért és Kultúráért felelős"); the entity names below follow the statute. Note
+      that this page's /en/ counterpart, kormany.hu/en/government, served this same Hungarian
+      content on the access date, which is why no name in this file is marked as an official
+      English name.
+
+entities:
+  - id: HU-2026-egeszsegugy
+    order: 1
+    name_original: Egészségügyi Minisztérium
+    abbreviation_original: EüM
+    name_en: Ministry of Health
+    name_es: Ministerio de Sanidad
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: miniszter
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [health, social_security]
+    counts_as_ministry: true
+    url: https://kormany.hu/kormanyzat/egeszsegugyi-miniszterium
+    sources: [njt-2026-evi-xiii-torveny, mk-2026-44-torveny-xiii, mk-2026-45-ke-76-miniszterek-kinevezese, njt-90-2026-korm-rendelet, kormany-hu-kormanyzat]
+    note:
+      en: >-
+        A new ministry, created by splitting out of the Belügyminisztérium (§ 2(1) of Act XIII);
+        until 13 May 2026 Hungary had no health ministry and health sat inside the interior
+        portfolio. § 56(1) of decree 90/2026 makes the minister responsible for health, for
+        health insurance and for drug-prevention coordination. The social_security tag records
+        health insurance ("egészségbiztosításért") only; pensions are in the finance ministry.
+      es: >-
+        Ministerio nuevo, creado por escisión del Ministerio del Interior (§ 2(1) de la Ley
+        XIII); hasta el 13 de mayo de 2026 Hungría no tenía ministerio de Sanidad y la sanidad
+        estaba dentro de la cartera de Interior. El § 56(1) del decreto 90/2026 hace al ministro
+        responsable de la sanidad, del seguro de enfermedad y de la coordinación en materia de
+        drogas. La etiqueta social_security recoge únicamente el seguro de enfermedad
+        («egészségbiztosításért»); las pensiones están en el ministerio de Hacienda.
+
+  - id: HU-2026-igazsagugy
+    order: 2
+    name_original: Igazságügyi Minisztérium
+    abbreviation_original: IM
+    name_en: Ministry of Justice
+    name_es: Ministerio de Justicia
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: miniszter
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [justice]
+    counts_as_ministry: true
+    url: https://kormany.hu/kormanyzat/igazsagugyi-miniszterium
+    sources: [njt-2026-evi-xiii-torveny, mk-2026-45-ke-76-miniszterek-kinevezese, njt-90-2026-korm-rendelet, mk-2026-46-korm-90-2026-atmeneti, kormany-hu-kormanyzat]
+    note:
+      en: >-
+        One of four ministries § 203(1) of decree 90/2026 says continue under an unchanged name.
+        Its remit under § 97(1) is justice, citizenship, compensation for past wrongs, the
+        professional supervision of public records, and the regulation of administrative
+        offences and of electoral and referendum law. Only the justice tag is applied:
+        citizenship is not migration policy, which sits with the interior ministry, and
+        electoral regulation has no area of its own in this vocabulary.
+      es: >-
+        Uno de los cuatro ministerios que el § 203(1) del decreto 90/2026 declara que continúan
+        con nombre inalterado. Su competencia según el § 97(1) abarca la justicia, la
+        nacionalidad, la indemnización por agravios pasados, la dirección profesional de la
+        gestión de documentos públicos y la regulación de las infracciones administrativas y del
+        derecho electoral y de referéndum. Solo se aplica la etiqueta justice: la nacionalidad
+        no es política migratoria, que corresponde a Interior, y la regulación electoral no
+        tiene área propia en este vocabulario.
+
+  - id: HU-2026-oktatas-gyermekugy
+    order: 3
+    name_original: Oktatási és Gyermekügyi Minisztérium
+    abbreviation_original: OGYM
+    name_en: Ministry of Education and Children's Affairs
+    name_es: Ministerio de Educación y Asuntos de la Infancia
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: miniszter
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [education, higher_education, vocational_training, family, youth]
+    counts_as_ministry: true
+    url: https://kormany.hu/kormanyzat/oktatasi-es-gyermekugyi-miniszterium
+    sources: [njt-2026-evi-xiii-torveny, mk-2026-44-torveny-xiii, mk-2026-45-ke-76-miniszterek-kinevezese, njt-90-2026-korm-rendelet, kormany-hu-kormanyzat]
+    note:
+      en: >-
+        A new ministry split out of the Belügyminisztérium (§ 2(2)). § 124(1) of decree 90/2026
+        gives its minister adult education, higher education, school education, child and youth
+        policy and vocational training, so Hungary's whole education system from school to
+        university sits in one department. The protection of children is a separate
+        responsibility held by the social and family affairs minister under § 145(1)(d), which
+        is the exception § 124(1)(d) refers to.
+      es: >-
+        Ministerio nuevo escindido del Ministerio del Interior (§ 2(2)). El § 124(1) del decreto
+        90/2026 atribuye a su ministra la educación de adultos, la enseñanza superior, la
+        enseñanza escolar, la política de infancia y juventud y la formación profesional, de
+        modo que todo el sistema educativo húngaro, de la escuela a la universidad, está en un
+        solo departamento. La protección de la infancia es una competencia distinta, del
+        ministro de Asuntos Sociales y de Familia según el § 145(1)(d), que es la excepción a la
+        que remite el § 124(1)(d).
+
+  - id: HU-2026-penzugy
+    order: 4
+    name_original: Pénzügyminisztérium
+    abbreviation_original: PM
+    name_en: Ministry of Finance
+    name_es: Ministerio de Hacienda
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: miniszter
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [finance, budget, social_security, state_assets]
+    counts_as_ministry: true
+    url: https://kormany.hu/kormanyzat/penzugyminiszterium
+    sources: [njt-2026-evi-xiii-torveny, mk-2026-44-torveny-xiii, mk-2026-45-ke-76-miniszterek-kinevezese, njt-90-2026-korm-rendelet, kormany-hu-kormanyzat]
+    note:
+      en: >-
+        Not a new ministry: § 3(1) of Act XIII renames the Nemzetgazdasági Minisztérium
+        Pénzügyminisztérium, restoring a name Hungary used until the end of 2024. § 130(1) of
+        decree 90/2026 gives it tax policy, public finance, the supervision of state assets,
+        the macroeconomic basis of the budget, public procurement, pension policy and financial
+        market regulation. The social_security tag is for pension policy
+        ("nyugdíjpolitikáért"), which in Hungary sits with the treasury rather than with a
+        social ministry, and state_assets for "állami vagyon felügyeletéért".
+      es: >-
+        No es un ministerio nuevo: el § 3(1) de la Ley XIII rebautiza el Nemzetgazdasági
+        Minisztérium como Pénzügyminisztérium, recuperando un nombre que Hungría usó hasta
+        finales de 2024. El § 130(1) del decreto 90/2026 le atribuye la política fiscal, la
+        hacienda pública, la supervisión del patrimonio estatal, la base macroeconómica del
+        presupuesto, la contratación pública, la política de pensiones y la regulación de los
+        mercados financieros. La etiqueta social_security corresponde a la política de pensiones
+        («nyugdíjpolitikáért»), que en Hungría está en el tesoro y no en un ministerio social, y
+        state_assets a «állami vagyon felügyeletéért».
+
+  - id: HU-2026-agrar-elelmiszergazdasag
+    order: 5
+    name_original: Agrár- és Élelmiszergazdaságért Felelős Minisztérium
+    abbreviation_original: AÉM
+    name_en: Ministry for Agriculture and the Food Economy
+    name_es: Ministerio para la Agricultura y la Economía Alimentaria
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: miniszter
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [agriculture, food_safety, fisheries]
+    counts_as_ministry: true
+    url: https://kormany.hu/kormanyzat/agrar-es-elelmiszergazdasagi-miniszterium
+    sources: [njt-2026-evi-xiii-torveny, mk-2026-44-torveny-xiii, mk-2026-45-ke-76-miniszterek-kinevezese, njt-90-2026-korm-rendelet, kormany-hu-kormanyzat]
+    note:
+      en: >-
+        The former Agrárminisztérium, renamed by § 3(2) of Act XIII. § 25 of decree 90/2026
+        gives it agricultural policy, food-chain supervision, the food industry, land affairs,
+        cartography for land and agricultural support administration, fish farming and game
+        management. The fisheries tag covers "halgazdálkodásért", which in a landlocked country
+        means inland fish farming rather than sea fishing. Rural development is not here: it
+        belongs to the Vidék- és Településfejlesztési Minisztérium, and forestry belongs to the
+        Élő Környezetért Felelős Minisztérium.
+      es: >-
+        El antiguo Agrárminisztérium, rebautizado por el § 3(2) de la Ley XIII. El § 25 del
+        decreto 90/2026 le atribuye la política agraria, la supervisión de la cadena
+        alimentaria, la industria alimentaria, los asuntos de la tierra, la cartografía para la
+        administración de la tierra y de las ayudas agrarias, la piscicultura y la gestión
+        cinegética. La etiqueta fisheries corresponde a «halgazdálkodásért», que en un país sin
+        litoral significa piscicultura continental y no pesca marítima. El desarrollo rural no
+        está aquí: pertenece al Vidék- és Településfejlesztési Minisztérium, y los bosques al
+        Élő Környezetért Felelős Minisztérium.
+
+  - id: HU-2026-belugy
+    order: 6
+    name_original: Belügyminisztérium
+    abbreviation_original: BM
+    name_en: Ministry of the Interior
+    name_es: Ministerio del Interior
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: miniszter
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [interior, migration, civil_protection, sport]
+    counts_as_ministry: true
+    url: https://kormany.hu/kormanyzat/belugyminiszterium
+    sources: [njt-2026-evi-xiii-torveny, mk-2026-44-torveny-xiii, mk-2026-45-ke-76-miniszterek-kinevezese, njt-90-2026-korm-rendelet, mk-2026-46-korm-90-2026-atmeneti, kormany-hu-kormanyzat]
+    note:
+      en: >-
+        The ministry this reorganisation changed most, though its name did not change at all.
+        Three new ministries — health, education and children, and social and family affairs —
+        were split out of it by § 2(1), (2) and (4) of Act XIII, and what remains under § 34(1)
+        of decree 90/2026 is a policing and public-order department: public security, policing,
+        border policing, immigration and asylum, disaster management, prison administration,
+        counter-terrorism, the direction of the civilian national security services, and
+        registry and personal-data records. It also keeps sport policy and the staging of major
+        international sporting events, which is why the sport tag is here rather than on an
+        education or culture ministry.
+      es: >-
+        El ministerio que más cambió con esta reorganización, aunque su nombre no cambió en
+        absoluto. Tres ministerios nuevos —Sanidad, Educación e Infancia, y Asuntos Sociales y
+        de Familia— se escindieron de él por los § 2(1), (2) y (4) de la Ley XIII, y lo que
+        queda según el § 34(1) del decreto 90/2026 es un departamento de policía y orden
+        público: seguridad ciudadana, policía, policía de fronteras, extranjería y asilo,
+        protección civil, instituciones penitenciarias, lucha antiterrorista, dirección de los
+        servicios civiles de seguridad nacional y registros civiles y de datos personales.
+        Conserva además la política deportiva y la organización de grandes eventos deportivos
+        internacionales, y por eso la etiqueta sport está aquí y no en un ministerio de
+        educación o de cultura.
+
+  - id: HU-2026-elo-kornyezet
+    order: 7
+    name_original: Élő Környezetért Felelős Minisztérium
+    abbreviation_original: ÉKFM
+    name_en: Ministry for the Living Environment
+    name_es: Ministerio para el Entorno Vivo
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: miniszter
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [environment, water, forestry]
+    counts_as_ministry: true
+    url: https://kormany.hu/kormanyzat/elo-kornyezet-miniszterium
+    sources: [njt-2026-evi-xiii-torveny, mk-2026-44-torveny-xiii, mk-2026-45-ke-76-miniszterek-kinevezese, njt-90-2026-korm-rendelet, kormany-hu-kormanyzat]
+    note:
+      en: >-
+        A new ministry, split out of the Energiaügyi Minisztérium by § 2(3) of Act XIII, which
+        is the first time since 2010 that environmental protection has had a Hungarian
+        department of its own rather than a directorate inside a larger one. § 60 of decree
+        90/2026 gives it environmental protection, nature conservation, forestry, water
+        management, water utilities and water protection, waste management and the transition to
+        a circular economy. It has no climate remit: no ministry in this government does, so
+        Hungary is one of the countries where the climate policy area is unclaimed.
+      es: >-
+        Ministerio nuevo, escindido del Energiaügyi Minisztérium por el § 2(3) de la Ley XIII, y
+        primera vez desde 2010 que la protección del medio ambiente tiene departamento propio en
+        Hungría en lugar de una dirección general dentro de otro mayor. El § 60 del decreto
+        90/2026 le atribuye la protección del medio ambiente, la conservación de la naturaleza,
+        la gestión forestal, la gestión del agua, los servicios públicos de agua y la protección
+        de las aguas, la gestión de residuos y la transición a la economía circular. No tiene
+        competencia de clima: ningún ministerio de este gobierno la tiene, de modo que Hungría
+        es uno de los países en los que el área «clima» queda sin titular.
+
+  - id: HU-2026-gazdasag-energetika
+    order: 8
+    name_original: Gazdasági és Energetikai Minisztérium
+    abbreviation_original: GEM
+    name_en: Ministry of Economy and Energy
+    name_es: Ministerio de Economía y Energía
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: miniszter
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [economy, energy, industry, trade, tourism, small_business, consumer_protection, mining]
+    counts_as_ministry: true
+    url: https://kormany.hu/kormanyzat/gazdasagi-es-energetikai-miniszterium
+    sources: [njt-2026-evi-xiii-torveny, mk-2026-44-torveny-xiii, mk-2026-45-ke-76-miniszterek-kinevezese, njt-90-2026-korm-rendelet, kormany-hu-kormanyzat]
+    note:
+      en: >-
+        The former Energiaügyi Minisztérium, renamed and enlarged by § 3(3) of Act XIII after
+        losing environment to the new Élő Környezetért Felelős Minisztérium. It is the widest
+        portfolio in the government: § 75 of decree 90/2026 lists sixteen responsibilities,
+        including mining, domestic and foreign trade, energy policy, consumer protection,
+        economic development, industry, national utility services, the two new blocks at the
+        Paks nuclear plant, postal affairs, tourism, hospitality and enterprise development. The
+        trade tag covers both "belföldi kereskedelemért" and "külgazdasági ügyekért" — foreign
+        trade moved out of the foreign ministry in this reorganisation.
+      es: >-
+        El antiguo Energiaügyi Minisztérium, rebautizado y ampliado por el § 3(3) de la Ley XIII
+        tras perder el medio ambiente en favor del nuevo Élő Környezetért Felelős Minisztérium.
+        Es la cartera más amplia del gobierno: el § 75 del decreto 90/2026 enumera dieciséis
+        responsabilidades, entre ellas la minería, el comercio interior y exterior, la política
+        energética, la protección de los consumidores, el desarrollo económico, la industria,
+        los servicios públicos nacionales, los dos nuevos bloques de la central nuclear de Paks,
+        el servicio postal, el turismo, la hostelería y el fomento empresarial. La etiqueta
+        trade cubre tanto «belföldi kereskedelemért» como «külgazdasági ügyekért»: el comercio
+        exterior salió del ministerio de Exteriores en esta reorganización.
+
+  - id: HU-2026-honvedelem
+    order: 9
+    name_original: Honvédelmi Minisztérium
+    abbreviation_original: HM
+    name_en: Ministry of Defence
+    name_es: Ministerio de Defensa
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: miniszter
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [defence]
+    counts_as_ministry: true
+    url: https://kormany.hu/kormanyzat/honvedelmi-miniszterium
+    sources: [njt-2026-evi-xiii-torveny, mk-2026-45-ke-76-miniszterek-kinevezese, njt-90-2026-korm-rendelet, mk-2026-46-korm-90-2026-atmeneti, kormany-hu-kormanyzat]
+    note:
+      en: >-
+        Unchanged in name and remit — one of the four ministries § 203(1) of decree 90/2026
+        carries over untouched. § 93 gives its minister defence, central procurement for defence
+        and security tasks, and defence development. Military intelligence stays with it while
+        civilian intelligence sits with the interior minister and civilian foreign intelligence
+        with the foreign minister.
+      es: >-
+        Sin cambios de nombre ni de competencias: uno de los cuatro ministerios que el § 203(1)
+        del decreto 90/2026 mantiene intactos. El § 93 atribuye a su ministro la defensa, la
+        contratación centralizada para tareas de defensa y seguridad, y el desarrollo de
+        capacidades de defensa. La inteligencia militar sigue en él, mientras la inteligencia
+        civil está en Interior y la inteligencia exterior civil en Exteriores.
+
+  - id: HU-2026-kozlekedes-beruhazas
+    order: 10
+    name_original: Közlekedési és Beruházási Minisztérium
+    abbreviation_original: KBM
+    name_en: Ministry of Transport and Investment
+    name_es: Ministerio de Transporte e Inversiones
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: miniszter
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [transport, infrastructure, housing, spatial_planning]
+    counts_as_ministry: true
+    url: https://kormany.hu/kormanyzat/kozlekedesi-es-beruhazasi-miniszterium
+    sources: [njt-2026-evi-xiii-torveny, mk-2026-44-torveny-xiii, mk-2026-45-ke-76-miniszterek-kinevezese, njt-90-2026-korm-rendelet, kormany-hu-kormanyzat]
+    note:
+      en: >-
+        The former Építési és Közlekedési Minisztérium, renamed by § 3(4) of Act XIII. § 106 of
+        decree 90/2026 gives it state investments, construction economy and building regulation,
+        transport, housing policy, brownfield action areas, settlement development and
+        settlement planning, the protection of townscape, spatial planning and road tolling.
+        Housing is split: this ministry holds housing policy ("lakáspolitikáért") while state
+        housing subsidies are the finance minister's under § 130(1).
+      es: >-
+        El antiguo Építési és Közlekedési Minisztérium, rebautizado por el § 3(4) de la Ley
+        XIII. El § 106 del decreto 90/2026 le atribuye las inversiones estatales, la economía y
+        la regulación de la construcción, el transporte, la política de vivienda, las áreas de
+        actuación en suelo industrial degradado, el desarrollo y la ordenación de los núcleos de
+        población, la protección del paisaje urbano, la ordenación del territorio y el peaje de
+        carreteras. La vivienda está repartida: este ministerio tiene la política de vivienda
+        («lakáspolitikáért») mientras las ayudas estatales a la vivienda son del ministro de
+        Hacienda según el § 130(1).
+
+  - id: HU-2026-kulugy
+    order: 11
+    name_original: Külügyminisztérium
+    abbreviation_original: KüM
+    name_en: Ministry of Foreign Affairs
+    name_es: Ministerio de Asuntos Exteriores
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: miniszter
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [foreign_affairs, development_cooperation]
+    counts_as_ministry: true
+    url: https://kormany.hu/kormanyzat/kulugyminiszter
+    sources: [njt-2026-evi-xiii-torveny, mk-2026-44-torveny-xiii, mk-2026-45-ke-76-miniszterek-kinevezese, njt-90-2026-korm-rendelet, kormany-hu-kormanyzat]
+    note:
+      en: >-
+        Narrower than its predecessor and deliberately so: § 3(5) of Act XIII renames the
+        Külgazdasági és Külügyminisztérium simply Külügyminisztérium, and § 118 of decree
+        90/2026 leaves its minister with foreign policy, cultural diplomacy and the Hungarian
+        cultural institutes abroad, the direction of civilian foreign intelligence, and the
+        Hungary Helps programme of aid to persecuted Christians, which is what the
+        development_cooperation tag records. Foreign trade went to the economy and energy
+        ministry and European Union affairs to the Miniszterelnökség, so a reader looking for
+        either in the foreign ministry will not find it. The site path for this ministry is
+        /kormanyzat/kulugyminiszter — the government's own slug names the minister, not the
+        department.
+      es: >-
+        Más estrecho que su predecesor, y a propósito: el § 3(5) de la Ley XIII rebautiza el
+        Külgazdasági és Külügyminisztérium como simple Külügyminisztérium, y el § 118 del
+        decreto 90/2026 deja a su titular la política exterior, la diplomacia cultural y los
+        institutos culturales húngaros en el extranjero, la dirección de la inteligencia
+        exterior civil y el programa Hungary Helps de ayuda a los cristianos perseguidos, que es
+        lo que recoge la etiqueta development_cooperation. El comercio exterior pasó al
+        ministerio de Economía y Energía y los asuntos de la Unión Europea a la
+        Miniszterelnökség, de modo que quien busque cualquiera de los dos en Exteriores no los
+        encontrará. La ruta del sitio para este ministerio es /kormanyzat/kulugyminiszter: el
+        propio slug del gobierno nombra a la ministra, no al departamento.
+
+  - id: HU-2026-miniszterelnokseg
+    order: 12
+    name_original: Miniszterelnökség
+    abbreviation_original: MvM
+    name_en: Prime Minister's Office
+    name_es: Oficina del Primer Ministro
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Miniszterelnökséget vezető miniszter
+    head_title_en: Minister heading the Prime Minister's Office
+    has_cabinet_seat: true
+    policy_areas: [government_coordination, european_affairs, public_administration, parliamentary_relations]
+    counts_as_ministry: true
+    url: https://kormany.hu/kormanyzat/miniszterelnokseg
+    sources: [njt-2026-evi-xiii-torveny, mk-2026-44-torveny-xiii, mk-2026-45-ke-76-miniszterek-kinevezese, mk-2026-45-mvm-1-hatalybalepes, njt-alaptorveny, njt-90-2026-korm-rendelet, mk-2026-46-korm-90-2026-atmeneti, njt-2022-evi-ii-torveny, kormany-hu-kormanyzat]
+    note:
+      en: >-
+        The contested entity, counted. Read the second methodology note before quoting the
+        figure of 16: excluding this ministry as the office of the head of government would give
+        15, and this project's rule for a chancellery that national law constitutes as a
+        ministry is to count it and publish both numbers. Point 12 of § 1 of Act XIII lists it
+        as a ministry, § 203(1) of decree 90/2026 carries it over under an unchanged name, and
+        § 8(1) of that decree gives its minister nine substantive responsibilities: general
+        political coordination, the coordination of European Union affairs, the making and
+        coordination of EU policy, government communication, the coordination of government
+        commissioners' work, the coordination of the government's social relations, support for
+        the drafting of government strategies, the design of the civil-service career, and the
+        coordination of social policy. § 7 adds the government's relations with the National
+        Assembly, which is what the parliamentary_relations tag records, and § 8(1)(h) the
+        public_administration tag. Two things this reorganisation added to it: the Ministry for
+        European Union Affairs and the Prime Minister's Cabinet Office were both dissolved into
+        it on 13 May 2026, and under § 4(3) of Act XIII its minister exercised the powers of
+        their heads until they ceased to exist on 15 June. Its minister is one of the two deputy
+        prime ministers, which adds no seat and no department.
+      es: >-
+        La entidad discutida, contada. Lea la segunda nota metodológica antes de citar la cifra
+        de 16: excluir este ministerio como oficina del jefe de gobierno daría 15, y la regla de
+        este proyecto para una cancillería que la ley nacional constituye como ministerio es
+        contarla y publicar ambas cifras. El punto 12 del § 1 de la Ley XIII la enumera como
+        ministerio, el § 203(1) del decreto 90/2026 la mantiene con nombre inalterado y el
+        § 8(1) de ese decreto atribuye a su ministro nueve responsabilidades sustantivas: la
+        coordinación política general, la coordinación de los asuntos de la Unión Europea, la
+        elaboración y coordinación de la política europea, la comunicación gubernamental, la
+        coordinación de la actividad de los comisionados del Gobierno, la coordinación de las
+        relaciones sociales del Gobierno, el apoyo a la elaboración de estrategias
+        gubernamentales, el diseño de la carrera en la función pública y la coordinación de la
+        política social. El § 7 añade las relaciones del Gobierno con la Asamblea Nacional, que
+        es lo que recoge la etiqueta parliamentary_relations, y el § 8(1)(h) la etiqueta
+        public_administration. Dos cosas le añadió esta reorganización: el Ministerio de Asuntos
+        de la Unión Europea y la Oficina del Gabinete del Primer Ministro se disolvieron en ella
+        el 13 de mayo de 2026, y conforme al § 4(3) de la Ley XIII su ministro ejerció las
+        competencias de los titulares de ambos hasta su extinción el 15 de junio. Su ministro es
+        uno de los dos viceprimeros ministros, lo que no añade asiento ni departamento.
+
+  - id: HU-2026-szocialis-csaladugy
+    order: 13
+    name_original: Szociális és Családügyi Minisztérium
+    abbreviation_original: SZCSM
+    name_en: Ministry of Social and Family Affairs
+    name_es: Ministerio de Asuntos Sociales y de Familia
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: miniszter
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [social_affairs, family, labour]
+    counts_as_ministry: true
+    url: https://kormany.hu/kormanyzat/szocialis-es-csaladugyi-miniszterium
+    sources: [njt-2026-evi-xiii-torveny, mk-2026-44-torveny-xiii, mk-2026-45-ke-76-miniszterek-kinevezese, njt-90-2026-korm-rendelet, kormany-hu-kormanyzat]
+    note:
+      en: >-
+        A new ministry split out of the Belügyminisztérium (§ 2(4)). § 145(1) of decree 90/2026
+        gives it victim support, family policy, employment policy, the protection of children
+        and young people, the employment of third-country nationals, public-works employment,
+        social policy and social inclusion. It is the labour ministry as well as the social one:
+        Hungary has no separate employment department, which is why the labour tag is here.
+        Pensions are not: they are the finance minister's.
+      es: >-
+        Ministerio nuevo escindido del Ministerio del Interior (§ 2(4)). El § 145(1) del decreto
+        90/2026 le atribuye la asistencia a las víctimas, la política de familia, la política de
+        empleo, la protección de la infancia y la juventud, el empleo de nacionales de terceros
+        países, el empleo público de inserción, la política social y la inclusión social. Es
+        también el ministerio de Trabajo: Hungría no tiene departamento de empleo separado, y por
+        eso la etiqueta labour está aquí. Las pensiones no: son del ministro de Hacienda.
+
+  - id: HU-2026-tarsadalmi-kapcsolatok-kultura
+    order: 14
+    name_original: Társadalmi Kapcsolatokért és Kultúráért Felelős Minisztérium
+    abbreviation_original: TKKM
+    name_en: Ministry for Social Relations and Culture
+    name_es: Ministerio para las Relaciones Sociales y la Cultura
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: miniszter
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [culture, diaspora, religion, media]
+    counts_as_ministry: true
+    url: https://kormany.hu/kormanyzat/tarsadalmi-kapcsolatokert-es-kulturaert-felelos-miniszterium
+    sources: [njt-2026-evi-xiii-torveny, mk-2026-44-torveny-xiii, mk-2026-45-ke-76-miniszterek-kinevezese, njt-90-2026-korm-rendelet, kormany-hu-kormanyzat]
+    note:
+      en: >-
+        A new ministry split out of the Kulturális és Innovációs Minisztérium by § 2(5) of Act
+        XIII, taking the culture half while the innovation half became the science and
+        technology ministry. § 157 of decree 90/2026 gives it audiovisual policy, the
+        coordination of relations with the churches, the European Capital of Culture programme,
+        culture, the protection of cultural heritage, the film industry, minority policy,
+        Hungarian-nation policy, the development of social and civil relations, and social
+        dialogue. Two of those have no home in this project's vocabulary and are therefore not
+        tagged rather than approximated: "nemzetiségpolitika", policy toward Hungary's recognised
+        national minorities, and the ministry's remit for relations with civil society and for
+        social dialogue. The diaspora tag records "nemzetpolitikáért", policy toward Hungarians
+        living outside Hungary, which in this government sits with culture rather than with the
+        foreign ministry.
+      es: >-
+        Ministerio nuevo escindido del Kulturális és Innovációs Minisztérium por el § 2(5) de la
+        Ley XIII, que se queda con la mitad cultural mientras la mitad de innovación pasó a ser
+        el ministerio de Ciencia y Tecnología. El § 157 del decreto 90/2026 le atribuye la
+        política audiovisual, la coordinación de las relaciones con las iglesias, el programa
+        Capital Europea de la Cultura, la cultura, la protección del patrimonio cultural, el
+        sector cinematográfico, la política hacia las minorías nacionales, la política de
+        nación, el desarrollo de las relaciones sociales y civiles, y el diálogo social. Dos de
+        ellas no tienen sitio en el vocabulario de este proyecto y por eso no se etiquetan en
+        lugar de aproximarse: la «nemzetiségpolitika», la política hacia las minorías nacionales
+        reconocidas de Hungría, y su competencia sobre las relaciones con la sociedad civil y el
+        diálogo social. La etiqueta diaspora recoge «nemzetpolitikáért», la política hacia los
+        húngaros que viven fuera de Hungría, que en este gobierno está en Cultura y no en
+        Exteriores.
+
+  - id: HU-2026-tudomany-technologia
+    order: 15
+    name_original: Tudományos és Technológiai Minisztérium
+    abbreviation_original: TTM
+    name_en: Ministry of Science and Technology
+    name_es: Ministerio de Ciencia y Tecnología
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: miniszter
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [research, digital, telecommunications, space]
+    counts_as_ministry: true
+    url: https://kormany.hu/kormanyzat/tudomanyos-es-technologiai-miniszterium
+    sources: [njt-2026-evi-xiii-torveny, mk-2026-44-torveny-xiii, mk-2026-45-ke-76-miniszterek-kinevezese, njt-90-2026-korm-rendelet, kormany-hu-kormanyzat]
+    note:
+      en: >-
+        The former Kulturális és Innovációs Minisztérium, renamed by § 3(6) of Act XIII after
+        culture was split out of it. § 168 of decree 90/2026 gives it e-government, the
+        unification of e-government and IT development, electronic communications, informatics,
+        government science policy, the infrastructure of public-administration IT, the
+        coordination of science policy, and space industry development and space technologies.
+        Its predecessor also held higher education, which has moved to the education and
+        children ministry, so this is a research-and-digital department and not a
+        higher-education one. The innovation area is deliberately not tagged: the decree assigns
+        this minister no innovation remit in those words, only science policy.
+      es: >-
+        El antiguo Kulturális és Innovációs Minisztérium, rebautizado por el § 3(6) de la Ley
+        XIII tras escindirse de él la cultura. El § 168 del decreto 90/2026 le atribuye la
+        administración electrónica, la unificación de los desarrollos de administración
+        electrónica e informática, las comunicaciones electrónicas, la informática, la política
+        científica del Gobierno, la infraestructura informática de la administración pública, la
+        coordinación de la política científica, y el desarrollo de la industria y las tecnologías
+        espaciales. Su predecesor tenía además la enseñanza superior, que ha pasado al ministerio
+        de Educación e Infancia, de modo que este es un departamento de investigación y
+        digitalización y no de universidades. El área «innovation» no se etiqueta a propósito: el
+        decreto no atribuye a este ministro competencia de innovación con ese nombre, solo
+        política científica.
+
+  - id: HU-2026-videk-telepulesfejlesztes
+    order: 16
+    name_original: Vidék- és Településfejlesztési Minisztérium
+    abbreviation_original: VTM
+    name_en: Ministry of Rural and Settlement Development
+    name_es: Ministerio de Desarrollo Rural y Local
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: miniszter
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [rural_development, territorial_administration, regional_development, public_administration]
+    counts_as_ministry: true
+    url: https://kormany.hu/kormanyzat/videk-es-telepulesfejlesztesi-miniszterium
+    sources: [njt-2026-evi-xiii-torveny, mk-2026-44-torveny-xiii, mk-2026-45-ke-76-miniszterek-kinevezese, njt-90-2026-korm-rendelet, kormany-hu-kormanyzat]
+    note:
+      en: >-
+        The former Közigazgatási és Területfejlesztési Minisztérium, renamed by § 3(7) of Act
+        XIII. § 179 of decree 90/2026 gives it the use of European Union funds, local
+        government and the legality supervision of local government, the land register,
+        administrative development, administrative quality and personnel policy, administrative
+        organisation, the Magyar Falu (Hungarian Village) Programme, settlement operation,
+        spatial development, cartography and rural development. The regional_development tag
+        records both "területfejlesztésért" and "európai uniós források felhasználásáért" —
+        Hungary's EU cohesion funds are administered here, not in the foreign ministry or the
+        Miniszterelnökség, which holds only the coordination of EU affairs and policy.
+      es: >-
+        El antiguo Közigazgatási és Területfejlesztési Minisztérium, rebautizado por el § 3(7)
+        de la Ley XIII. El § 179 del decreto 90/2026 le atribuye el uso de los fondos de la
+        Unión Europea, las entidades locales y su tutela de legalidad, el registro de la
+        propiedad, el desarrollo administrativo, la política de calidad y de personal de la
+        administración, la organización administrativa, el Programa Magyar Falu (Aldea Húngara),
+        la gestión municipal, el desarrollo territorial, la cartografía y el desarrollo rural. La
+        etiqueta regional_development recoge tanto «területfejlesztésért» como «európai uniós
+        források felhasználásáért»: los fondos de cohesión europeos de Hungría se administran
+        aquí, no en Exteriores ni en la Miniszterelnökség, que solo tiene la coordinación de los
+        asuntos y de la política europea.
+
+  # --- recorded, not counted ---------------------------------------------------
+  - id: HU-2026-miniszterelnok
+    order: 17
+    name_original: Miniszterelnök
+    abbreviation_original: null
+    name_en: Prime Minister
+    name_es: Primer Ministro
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: miniszterelnök
+    head_title_en: Prime Minister
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: head_of_government_office
+    url: https://kormany.hu/kormanyzat/miniszterelnok
+    sources: [njt-alaptorveny, mk-2026-44-ogy-18-miniszterelnok, mk-2026-45-mvm-1-hatalybalepes, njt-90-2026-korm-rendelet, kormany-hu-kormanyzat]
+    note:
+      en: >-
+        The head of government holds a seat without heading a department. § 1 of Act XIII lists
+        no prime-ministerial ministry, and chapter I of decree 90/2026 gives the prime minister
+        representation of the Government, the determination of its general policy and the
+        direction of its collective work rather than a portfolio. He is recorded because
+        article 16(1) of the Fundamental Law makes him a member of the Government, which is what
+        makes this cabinet 17 people and 16 departments. Do not confuse this entry with the
+        Miniszterelnökség above: that is a statutory ministry with its own minister and its own
+        portfolio, this is the prime minister's seat, and the administrative apparatus that
+        serves him is the Miniszterelnöki Kormányiroda below. He took office on 9 May 2026 on
+        his election by the National Assembly, four days before the Government he leads was
+        formed.
+      es: >-
+        El jefe de gobierno ocupa asiento sin encabezar departamento alguno. El § 1 de la Ley
+        XIII no enumera ningún ministerio de la presidencia, y el capítulo I del decreto 90/2026
+        atribuye al primer ministro la representación del Gobierno, la determinación de su
+        política general y la dirección de su funcionamiento colegiado, no una cartera. Se
+        registra porque el artículo 16(1) de la Ley Fundamental lo hace miembro del Gobierno, y
+        eso es lo que hace que este gabinete sean 17 personas y 16 departamentos. No confundir
+        esta entrada con la Miniszterelnökség de más arriba: aquélla es un ministerio legal con
+        ministro y cartera propios, ésta es el asiento del primer ministro, y el aparato
+        administrativo que le sirve es la Miniszterelnöki Kormányiroda de más abajo. Tomó
+        posesión el 9 de mayo de 2026 al ser elegido por la Asamblea Nacional, cuatro días antes
+        de que se formara el Gobierno que encabeza.
+
+  - id: HU-2026-miniszterelnoki-kormanyiroda
+    order: 18
+    name_original: Miniszterelnöki Kormányiroda
+    abbreviation_original: null
+    name_en: Prime Minister's Government Office
+    name_es: Oficina Gubernamental del Primer Ministro
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: közigazgatási államtitkár
+    head_title_en: Administrative State Secretary
+    has_cabinet_seat: false
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: not_headed_by_minister
+    url: null
+    sources: [njt-kit-2018-cxxv, njt-alaptorveny, njt-2022-evi-ii-torveny]
+    note:
+      en: >-
+        Recorded so that the perimeter is visible: a reader comparing Hungary with Germany's
+        Bundeskanzleramt or Latvia's Valsts kanceleja will look for a prime-ministerial office
+        that is not a ministry, and this is it. § 16(1) of the Act on government administration
+        calls it a "kormányzati igazgatási munkaszervezet", a government administrative work
+        organisation, § 16(2) places it inside the ministry led by the minister responsible for
+        general political coordination — the Miniszterelnökség — and § 17(1) provides that it is
+        headed by a közigazgatási államtitkár, an administrative state secretary who chairs the
+        state secretaries' conference and whose work that minister directs on the prime
+        minister's instructions. It is excluded as not_headed_by_minister rather than as
+        head_of_government_office, which is reserved above for the prime minister's own seat,
+        and it carries no cabinet seat. It is not named in Act XIII of 2026 or in decree 90/2026
+        at all; under the repealed 2022 act it sat inside the Miniszterelnöki Kabinetiroda
+        instead. A new administrative state secretary was appointed to it with effect from
+        13 May 2026, so it survived the change of government intact.
+      es: >-
+        Se registra para que el perímetro sea visible: quien compare Hungría con la
+        Bundeskanzleramt alemana o la Valsts kanceleja letona buscará una oficina del primer
+        ministro que no sea un ministerio, y ésta es. El § 16(1) de la ley de administración
+        gubernamental la llama «kormányzati igazgatási munkaszervezet», organización de trabajo
+        de la administración gubernamental, el § 16(2) la sitúa dentro del ministerio dirigido
+        por el ministro responsable de la coordinación política general —la Miniszterelnökség— y
+        el § 17(1) dispone que la dirige un közigazgatási államtitkár, un secretario de Estado
+        administrativo que preside la conferencia de secretarios de Estado y cuya actividad
+        dirige ese ministro siguiendo las instrucciones del primer ministro. Se excluye como
+        not_headed_by_minister y no como head_of_government_office, motivo reservado más arriba
+        al asiento del propio primer ministro, y no aporta asiento en el gabinete. No aparece
+        nombrada ni en la Ley XIII de 2026 ni en el decreto 90/2026; bajo la derogada ley de
+        2022 estaba dentro de la Miniszterelnöki Kabinetiroda. Se nombró un nuevo secretario de
+        Estado administrativo con efectos del 13 de mayo de 2026, de modo que sobrevivió intacta
+        al cambio de gobierno.
+
+  - id: HU-2026-miniszterelnoki-kabinetiroda
+    order: 19
+    name_original: Miniszterelnöki Kabinetiroda
+    abbreviation_original: null
+    name_en: Prime Minister's Cabinet Office
+    name_es: Oficina del Gabinete del Primer Ministro
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: miniszter
+    head_title_en: Minister
+    has_cabinet_seat: false
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: superseded_within_cabinet
+    valid_from: null
+    valid_to: 2026-06-15
+    url: null
+    sources: [njt-2026-evi-xiii-torveny, mk-2026-44-torveny-xiii, mk-2026-45-mvm-1-hatalybalepes, mk-2026-46-korm-90-2026-atmeneti, njt-2022-evi-ii-torveny]
+    note:
+      en: >-
+        The second half of the Miniszterelnökség question, and the reason a Hungarian ministry
+        count from before 13 May 2026 does not compare with this one. Under the repealed 2022
+        act the Kabinetiroda was a ministry in its own right — point k) of its § 1 — headed by
+        its own minister, and § 2 of that act made it, not the Miniszterelnökség, "a
+        miniszterelnök munkaszervezete", the prime minister's work organisation. § 2(7) of Act
+        XIII of 2026 abolished it by merging it into the Miniszterelnökség with effect from
+        13 May 2026, the day this Government was formed. It did not vanish that day: § 4(2) and
+        § 4(3) of the act kept it in being as a budgetary and government administrative organ
+        with the minister heading the Miniszterelnökség exercising its head's powers, and § 206
+        of decree 90/2026 fixed 15 June 2026 as the day it ceased to exist. So for the first
+        month of this cabinet it existed without a minister of its own, which is why it is
+        recorded here, is not counted, carries no cabinet seat, and closes with
+        valid_to: 2026-06-15 instead of being deleted.
+      es: >-
+        La segunda mitad de la cuestión de la Miniszterelnökség, y la razón por la que un
+        recuento de ministerios húngaros anterior al 13 de mayo de 2026 no es comparable con
+        éste. Bajo la derogada ley de 2022 la Kabinetiroda era un ministerio de pleno derecho
+        —punto k) de su § 1— con ministro propio, y el § 2 de esa ley hacía de ella, y no de la
+        Miniszterelnökség, «a miniszterelnök munkaszervezete», la organización de trabajo del
+        primer ministro. El § 2(7) de la Ley XIII de 2026 la suprimió fusionándola en la
+        Miniszterelnökség con efectos del 13 de mayo de 2026, día en que se formó este Gobierno.
+        No desapareció ese día: los § 4(2) y § 4(3) de la ley la mantuvieron como órgano
+        presupuestario y de administración gubernamental, ejerciendo las competencias de su
+        titular el ministro que dirige la Miniszterelnökség, y el § 206 del decreto 90/2026 fijó
+        el 15 de junio de 2026 como día de su extinción. Durante el primer mes de este gabinete
+        existió, por tanto, sin ministro propio, y por eso se registra aquí, no se cuenta, no
+        aporta asiento y se cierra con valid_to: 2026-06-15 en lugar de borrarse.
+
+  - id: HU-2026-europai-unios-ugyek
+    order: 20
+    name_original: Európai Uniós Ügyek Minisztériuma
+    abbreviation_original: null
+    name_en: Ministry for European Union Affairs
+    name_es: Ministerio de Asuntos de la Unión Europea
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: miniszter
+    head_title_en: Minister
+    has_cabinet_seat: false
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: superseded_within_cabinet
+    valid_from: null
+    valid_to: 2026-06-15
+    url: null
+    sources: [njt-2026-evi-xiii-torveny, mk-2026-44-torveny-xiii, mk-2026-45-mvm-1-hatalybalepes, mk-2026-46-korm-90-2026-atmeneti, njt-2022-evi-ii-torveny]
+    note:
+      en: >-
+        Hungary had a dedicated European Union affairs ministry from 1 August 2023, created by
+        splitting out of the justice ministry under the 2022 act. § 2(6) of Act XIII of 2026
+        abolished it by merging it into the Miniszterelnökség on 13 May 2026, and § 206 of decree
+        90/2026 fixed 15 June 2026 as the day it ceased to exist as an organ; in between, under
+        § 4(2) and § 4(3) of the act, it operated with no minister of its own and with the
+        minister heading the Miniszterelnökség exercising its head's powers. It is recorded with
+        valid_to for the same reason as the Kabinetiroda above, and its portfolio can be found
+        in § 8(1)(b) and (c) of decree 90/2026, under the Miniszterelnökség, which is where the
+        european_affairs tag now sits.
+      es: >-
+        Hungría tuvo un ministerio propio de asuntos de la Unión Europea desde el 1 de agosto de
+        2023, creado por escisión del ministerio de Justicia conforme a la ley de 2022. El
+        § 2(6) de la Ley XIII de 2026 lo suprimió fusionándolo en la Miniszterelnökség el 13 de
+        mayo de 2026, y el § 206 del decreto 90/2026 fijó el 15 de junio de 2026 como día de su
+        extinción como órgano; entretanto, conforme a los § 4(2) y § 4(3) de la ley, funcionó
+        sin ministro propio y con el ministro que dirige la Miniszterelnökség ejerciendo las
+        competencias de su titular. Se registra con valid_to por la misma razón que la
+        Kabinetiroda de más arriba, y su cartera puede encontrarse en el § 8(1)(b) y (c) del
+        decreto 90/2026, bajo la Miniszterelnökség, que es donde está ahora la etiqueta
+        european_affairs.

@@ -1,0 +1,1046 @@
+# Denmark — government structure of Regeringen Mette Frederiksen III.
+#
+# See docs/DATA-CONTRACT.md. Three things worth knowing before reading the list:
+#
+#   1. Denmark has no instrument that enumerates its ministries. Ministries are created,
+#      renamed and abolished one at a time by kongelig resolution, and the resolution is
+#      published in Lovtidende A as a "Bekendtgørelse om ændring i forretningernes
+#      fordeling mellem ministrene". The enumerating instrument used here is BEK nr 514 af
+#      08/06/2026, which gives effect to the royal resolutions of 3 and 5 June 2026 and
+#      names eighteen of the twenty-one ministries; the Prime Minister's Office publishes
+#      the matching list of the twenty-one ministers in precedence order.
+#   2. Denmark is the rare 1:1 case. Every one of the twenty-one ministers heads exactly
+#      one ministry and every ministry has exactly one minister, so the only difference
+#      between the two published figures is Statsministeriet, which is excluded as the
+#      office of the head of government: 20 ministries, 21 cabinet seats.
+#   3. The 3 June 2026 reorganisation cut the cabinet from 25 ministers to 21. Three
+#      ministries were abolished and eleven renamed; none was created. Any description of
+#      the Danish government written before that date lists different ministries.
+
+country: DK
+cabinet_id: DK-2026-06-03
+
+cabinet_name_original: Regeringen Mette Frederiksen III
+cabinet_name_en: Mette Frederiksen III government
+cabinet_name_es: Gobierno Mette Frederiksen III
+
+head_of_government_title_original: Statsminister
+head_of_government_title_en: Prime Minister
+
+took_office: 2026-06-03
+left_office: null
+
+methodology_notes:
+  - en: >-
+      20 ministries and 21 cabinet seats. Denmark is unusual in that the two numbers differ
+      by exactly one: each of the twenty-one ministers appointed on 3 June 2026 heads one
+      ministry, no minister holds two departments, there is no minister without portfolio
+      and no deputy prime minister. The single difference is Statsministeriet, the Prime
+      Minister's own department, which this project excludes as the office of the head of
+      government — the same treatment given to Spain's Presidencia del Gobierno. Counting
+      it would give 21 ministries. Note that Denmark's own convention is to count ministers
+      rather than ministries: Danish reporting describes this as a government of "21
+      ministre", which is the seat count, not the ministry count.
+    es: >-
+      20 ministerios y 21 asientos en el gabinete. Dinamarca es un caso singular porque las
+      dos cifras difieren exactamente en uno: cada uno de los veintiún ministros nombrados
+      el 3 de junio de 2026 dirige un ministerio, ningún ministro acumula dos departamentos,
+      no hay ministros sin cartera ni vicepresidente del gobierno. La única diferencia es el
+      Statsministeriet, el departamento propio de la primera ministra, que este proyecto
+      excluye como oficina del jefe de gobierno —el mismo trato que recibe la Presidencia
+      del Gobierno española—. Contarlo daría 21 ministerios. Nótese que la convención danesa
+      es contar ministros y no ministerios: la prensa danesa habla de un gobierno de «21
+      ministre», que es el recuento de asientos y no el de ministerios.
+  - en: >-
+      There is no Danish legal instrument that lists the ministries in one place, so the
+      enumeration here is assembled rather than copied. Under Danish constitutional
+      practice the King, on the Prime Minister's recommendation, distributes business among
+      the ministers by royal resolution; the resolution is then published in Lovtidende A
+      as a "Bekendtgørelse om ændring i forretningernes fordeling mellem ministrene", which
+      records only what changed. The instrument used here is BEK nr 514 af 08/06/2026,
+      which gives effect to the royal resolutions of 3 and 5 June 2026 and names eighteen of
+      the twenty-one ministries. The three it does not name — Forsvarsministeriet,
+      Kulturministeriet and Ministeriet for Samfundssikkerhed og Beredskab — are each
+      carried by another tier-1 instrument cited on the entity itself, so every counted
+      ministry here rests on a legal instrument. The set of twenty-one is closed by the
+      Prime Minister's Office's own precedence list of the government's ministers, which is
+      the listing order used for the `order` field below.
+    es: >-
+      No existe un instrumento jurídico danés que enumere los ministerios en un solo lugar,
+      de modo que la enumeración aquí se compone en lugar de copiarse. Según la práctica
+      constitucional danesa, el Rey, a propuesta de la primera ministra, reparte los asuntos
+      entre los ministros mediante real resolución; esa resolución se publica después en el
+      Lovtidende A como «Bekendtgørelse om ændring i forretningernes fordeling mellem
+      ministrene», que sólo consigna lo que cambia. El instrumento utilizado aquí es el BEK
+      nr 514 af 08/06/2026, que da efecto a las reales resoluciones de 3 y 5 de junio de
+      2026 y nombra dieciocho de los veintiún ministerios. Los tres que no nombra
+      —Forsvarsministeriet, Kulturministeriet y Ministeriet for Samfundssikkerhed og
+      Beredskab— llevan cada uno otro instrumento de nivel 1 citado en la propia entidad,
+      por lo que todos los ministerios contados se apoyan en un instrumento jurídico. El
+      conjunto de veintiuno se cierra con la lista de precedencia de los ministros que
+      publica el Statsministeriet, que es el orden de listado usado en el campo `order`.
+  - en: >-
+      What changed on 3 June 2026, and why the Danish count fell. Three ministries were
+      abolished: Ministeriet for Fødevarer, Landbrug og Fiskeri (its business going mainly
+      to the ministry renamed Ministeriet for Natur og Dyrevelfærd, with food safety to
+      Erhvervsministeriet, animal-welfare enforcement to Justitsministeriet and fisheries to
+      Miljøministeriet), Digitaliseringsministeriet (to the ministry renamed Forsknings-,
+      Uddannelses- og Digitaliseringsministeriet) and By-, Land- og Kirkeministeriet (split,
+      with church affairs to the ministry renamed Sundheds- og Kirkeministeriet and the rest
+      to the ministry renamed By-, Land- og Transportministeriet). Eleven ministries were
+      renamed and none was created, which is how a cabinet of 25 ministers became one of 21.
+      Denmark therefore now has no food or agriculture ministry under that name, no
+      digitalisation ministry and no ministry of the church as such. The separate
+      europaminister post was also abolished and its areas assigned to the udenrigsminister.
+    es: >-
+      Qué cambió el 3 de junio de 2026 y por qué bajó la cifra danesa. Se suprimieron tres
+      ministerios: el Ministeriet for Fødevarer, Landbrug og Fiskeri (sus asuntos pasaron
+      sobre todo al ministerio renombrado Ministeriet for Natur og Dyrevelfærd, con la
+      seguridad alimentaria a Erhvervsministeriet, el control del bienestar animal a
+      Justitsministeriet y la pesca a Miljøministeriet), el Digitaliseringsministeriet (al
+      ministerio renombrado Forsknings-, Uddannelses- og Digitaliseringsministeriet) y el
+      By-, Land- og Kirkeministeriet (dividido: los asuntos de la Iglesia al ministerio
+      renombrado Sundheds- og Kirkeministeriet y el resto al renombrado By-, Land- og
+      Transportministeriet). Once ministerios cambiaron de nombre y no se creó ninguno, y así
+      un gabinete de 25 ministros pasó a tener 21. Dinamarca ya no tiene, por tanto,
+      ministerio de alimentación o agricultura con ese nombre, ni ministerio de
+      digitalización, ni ministerio de la Iglesia como tal. También se suprimió el puesto de
+      europaminister y sus áreas se asignaron al ministro de Exteriores.
+  - en: >-
+      Minister titles and ministry names do not always match in Denmark, and this file
+      follows the ministry. Three cases: the minister appointed on 3 June 2026 is styled
+      erhvervs- og konkurrencekraftsminister, but no instrument renamed Erhvervsministeriet
+      and the ministry's own website still calls itself Erhvervsministeriet; the
+      sundhedsminister is simultaneously kirkeminister, but of one ministry, Sundheds- og
+      Kirkeministeriet, not two; and the socialminister is simultaneously minister for
+      nordisk samarbejde, a portfolio whose departmental business is transacted inside
+      Udenrigsministeriet under that minister's responsibility (BEK 514, § 21). Nordic
+      cooperation is therefore recorded as a portfolio of Socialministeriet and not as an
+      entity, because no such department exists. Equality is the mirror case: there is no
+      equality ministry, the Ligestillingsafdelingen having been moved into the ministry
+      renamed Beskæftigelses- og Ligestillingsministeriet.
+    es: >-
+      En Dinamarca los títulos de los ministros no siempre coinciden con los nombres de los
+      ministerios, y este fichero sigue al ministerio. Tres casos: el ministro nombrado el 3
+      de junio de 2026 se titula erhvervs- og konkurrencekraftsminister, pero ningún
+      instrumento renombró el Erhvervsministeriet y la propia web del ministerio sigue
+      llamándose Erhvervsministeriet; el ministro de Sanidad es a la vez ministro de la
+      Iglesia, pero de un solo ministerio, el Sundheds- og Kirkeministeriet, y no de dos; y
+      el ministro de Asuntos Sociales es a la vez ministro de Cooperación Nórdica, cartera
+      cuya tramitación departamental se realiza dentro del Udenrigsministeriet bajo su
+      responsabilidad (BEK 514, § 21). La cooperación nórdica se registra, por tanto, como
+      cartera del Socialministeriet y no como entidad, porque no existe tal departamento. La
+      igualdad es el caso simétrico: no hay ministerio de igualdad, ya que la
+      Ligestillingsafdelingen se trasladó al ministerio renombrado Beskæftigelses- og
+      Ligestillingsministeriet.
+  - en: >-
+      Two royal resolutions, one date of taking office. The government was appointed by the
+      royal resolution of 3 June 2026, and a second royal resolution of 5 June 2026 moved a
+      few further subject areas (ECOFIN and international economic affairs, and relations
+      with the IMF, to the ministry renamed Skatte- og Vækstministeriet). Both were
+      published together as BEK nr 514 af 08/06/2026, in Lovtidende A of 11 June 2026.
+      `took_office` is 3 June 2026, the date the ministers were appointed and the date the
+      Prime Minister's Office gives for the government.
+    es: >-
+      Dos reales resoluciones, una fecha de toma de posesión. El gobierno fue nombrado por la
+      real resolución de 3 de junio de 2026, y una segunda real resolución de 5 de junio de
+      2026 trasladó algunas materias adicionales (ECOFIN y economía internacional, y las
+      relaciones con el FMI, al ministerio renombrado Skatte- og Vækstministeriet). Ambas se
+      publicaron juntas como BEK nr 514 af 08/06/2026, en el Lovtidende A de 11 de junio de
+      2026. `took_office` es el 3 de junio de 2026, fecha del nombramiento de los ministros y
+      la que da el Statsministeriet para este gobierno.
+  - en: >-
+      Ministeriet for Samfundssikkerhed og Beredskab is recorded in the definite form used
+      by Lovtidende and by the ministry itself. The instrument that created it, BEK nr 1005
+      af 29/08/2024, writes the indefinite "Ministerium for Samfundssikkerhed og Beredskab",
+      which is the ordinary Danish formula for creating a department rather than a second
+      name.
+    es: >-
+      El Ministeriet for Samfundssikkerhed og Beredskab se registra en la forma definida que
+      emplean el Lovtidende y el propio ministerio. El instrumento que lo creó, el BEK nr
+      1005 af 29/08/2024, escribe la forma indefinida «Ministerium for Samfundssikkerhed og
+      Beredskab», que es la fórmula danesa habitual para crear un departamento y no un
+      segundo nombre.
+  - en: >-
+      English and Spanish ministry names in this file are the project's own renderings and
+      are marked translated. Danish ministries do publish English names, but after the
+      reorganisation of 3 June 2026 there is no consolidated official English list of the
+      twenty-one, and several of the renamed ministries had not published an English name at
+      the access date. Marking a rendering official when it is ours is the one error the
+      validator cannot catch, so nothing here is marked official.
+    es: >-
+      Los nombres en inglés y español de este fichero son traducciones del proyecto y llevan
+      la marca translated. Los ministerios daneses publican nombres en inglés, pero tras la
+      reorganización del 3 de junio de 2026 no existe una lista oficial consolidada en inglés
+      de los veintiuno, y varios de los ministerios renombrados no habían publicado nombre
+      inglés en la fecha de consulta. Marcar como oficial una traducción propia es el único
+      error que el validador no puede detectar, así que aquí nada se marca como oficial.
+  - en: >-
+      Perimeter. This file describes the central government of Denmark. Greenland and the
+      Faroe Islands are self-governing parts of the Kingdom with their own governments and
+      their own ministers, and they are out of scope; Danish ministers who hold Realm
+      portfolios do so within the departments recorded here. The population figure in
+      data/countries/DK.yml is on the same perimeter.
+    es: >-
+      Perímetro. Este fichero describe el gobierno central de Dinamarca. Groenlandia y las
+      Islas Feroe son partes autónomas del Reino con sus propios gobiernos y ministros, y
+      quedan fuera de alcance; los ministros daneses con carteras del Reino las ejercen
+      dentro de los departamentos aquí registrados. La cifra de población de
+      data/countries/DK.yml se refiere al mismo perímetro.
+
+sources:
+  - id: bek-514-2026
+    tier: 1
+    type: official_gazette
+    publisher: Lovtidende A (Statsministeriet)
+    title: >-
+      BEK nr 514 af 08/06/2026 — Bekendtgørelse om ændring i forretningernes fordeling
+      mellem ministrene
+    url: https://www.retsinformation.dk/eli/lta/2026/514/pdf
+    archive_url: https://web.archive.org/web/20260727232815/https://www.retsinformation.dk/eli/lta/2026/514/pdf
+    lang: da
+    published: 2026-06-11
+    accessed: 2026-07-28
+    quote: |-
+      Efter statsministerens indstilling er der ved kongelig resolution af 3. juni 2026 og kongelig resolution af 5. juni 2026 fastsat følgende bestemmelser vedrørende forretningernes fordeling mellem ministrene:
+      § 1. De under europaministeren hørende områder henlægges til udenrigsministeren.
+      § 2. Ministeriet for Fødevarer, Landbrug og Fiskeri nedlægges, således at de til dette ministerium hørende forretninger overføres til Ministeriet for Grøn Trepart, dog således at følgende sagsområder overføres på følgende måde:
+      § 3. Betegnelsen for Ministeriet for Grøn Trepart ændres til Ministeriet for Natur og Dyrevelfærd.
+      § 4. Digitaliseringsministeriet nedlægges, således at de til dette ministerium hørende forretninger overføres til Uddannelses- og Forskningsministeriet.
+      § 5. Betegnelsen for Uddannelses- og Forskningsministeriet ændres til Forsknings-, Uddannelses- og Digitaliseringsministeriet.
+      § 6. By-, Land- og Kirkeministeriet nedlægges, således at de til dette ministerium hørende forretninger overføres til Transportministeriet, dog således at ressortansvaret for sager vedrørende folkekirken og sager vedrørende trossamfund uden for folkekirken overføres til Indenrigs- og Sundhedsministeriet.
+      § 7. Ressortansvaret for sager vedrørende sproglig genoptræning (logopæd-træning) overføres fra Børne- og Undervisningsministeriet til Indenrigs- og Sundhedsministeriet.
+      § 8. Betegnelsen for Indenrigs- og Sundhedsministeriet ændres til Sundheds- og Kirkeministeriet.
+      § 9. Betegnelsen for Transportministeriet ændres til By-, Land- og Transportministeriet.
+      § 10. Økonomiministeriet omdannes til et Økonomi- og Indenrigsministerium, således at der til dette ministerium overføres følgende sagsområder:
+      § 11. Betegnelsen for Ældreministeriet ændres til Børne-, Ældre- og Boligministeriet, således at der til dette ministerium overføres følgende sagsområder:
+      § 12. Betegnelsen for Social- og Boligministeriet ændres til Socialministeriet.
+      § 13. Betegnelsen for Børne- og Undervisningsministeriet ændres til Undervisningsministeriet.
+      § 14. Følgende områder henlægges til Skatteministeriet:
+      § 15. Betegnelsen for Skatteministeriet ændres til Skatte- og Vækstministeriet.
+      § 16. Ressortansvaret for sager vedrørende affald overføres fra Miljø- og Ligestillingsministeriet til Klima-, Energi- og Forsyningsministeriet.
+      § 17. Ressortansvaret for Ligestillingsafdelingen med tilhørende sagsområder overføres fra Miljø- og Ligestillingsministeriet til Beskæftigelsesministeriet.
+      § 18. Betegnelsen for Beskæftigelsesministeriet ændres til Beskæftigelses- og Ligestillingsministeriet.
+      § 19. Betegnelsen for Miljø- og Ligestillingsministeriet ændres til Miljøministeriet.
+      § 21. Sager vedrørende nordisk samarbejde henlægges til socialministeren og ministeren for nordisk samarbejde.
+      § 22. Ressortansvaret for sager vedrørende deltagelse i det økonomisk-politiske samarbejde i EU (ECOFIN) samt international økonomi overføres fra Økonomi- og Indenrigsministeriet til Skatte- og Vækstministeriet.
+      § 23. Ressortansvaret for sager vedrørende relationer til Den Internationale Valutafond (IMF) overføres fra Finansministeriet til Skatte- og Vækstministeriet.
+      Statsministeriet, den 8. juni 2026
+      Mette Frederiksen
+    note: >-
+      The enumerating instrument for this cabinet: it gives effect to the royal resolutions
+      of 3 and 5 June 2026 and names eighteen of the twenty-one ministries, including every
+      one that was created, renamed or abolished. Quoted are the operative sentences of the
+      §§ that bear on the identity of a ministry, in the order they appear; the numbered
+      lists of individual subject areas transferred inside §§ 2, 10, 11 and 14, and §§ 20
+      (transfer of parallel-society policy to Udlændinge- og Integrationsministeriet), are
+      omitted from the quotation for length. Note that a Danish ressort bekendtgørelse
+      records only what changed, which is why it cannot serve as a list of the ministries on
+      its own.
+
+  - id: bek-1005-2024
+    tier: 1
+    type: official_gazette
+    publisher: Lovtidende A (Statsministeriet)
+    title: >-
+      BEK nr 1005 af 29/08/2024 — Bekendtgørelse om ændring i forretningernes fordeling
+      mellem ministrene
+    url: https://www.retsinformation.dk/eli/lta/2024/1005/pdf
+    archive_url: https://web.archive.org/web/20260727232833/https://www.retsinformation.dk/eli/lta/2024/1005/pdf
+    lang: da
+    published: 2024-08-31
+    accessed: 2026-07-28
+    quote: |-
+      § 1. Der oprettes Ministerium for Samfundssikkerhed og Beredskab, således at der til dette ministerium overføres følgende sagsområder, idet den nærmere fastlæggelse af ministerens ansvarsområde vil ske ved kongelig resolution:
+      § 2. Der oprettes et Ministerium for Grøn Trepart, således at der til dette ministerium overføres følgende sagsområder, idet den nærmere fastlæggelse af ministerens ansvarsområde vil ske ved kongelig resolution:
+      5) fra Kulturministeriet: ressortansvaret for sager vedrørende tech-området, herunder sociale medier og gaming samt Center for sociale medier, tech og demokrati.
+    note: >-
+      The instrument that created Ministeriet for Samfundssikkerhed og Beredskab (§ 1) and
+      the ministry that this cabinet renamed Ministeriet for Natur og Dyrevelfærd (§ 2,
+      created as Ministerium for Grøn Trepart). Cited here for those two ministries and,
+      through the quoted item 5 of § 5, as the tier-1 source naming Kulturministeriet, which
+      BEK 514 of 2026 does not mention because nothing about it changed. The § 1 and § 2
+      subject-area lists are omitted from the quotation for length; § 1 item 1 transfers the
+      emergency-preparedness ressort "fra Forsvarsministeriet".
+
+  - id: bek-704-2023
+    tier: 1
+    type: official_gazette
+    publisher: Lovtidende A (Forsvarsministeriet)
+    title: >-
+      BEK nr 704 af 08/06/2023 — Bekendtgørelse om disciplinarmyndighed inden for
+      Forsvarsministeriets område
+    url: https://www.retsinformation.dk/eli/lta/2023/704/pdf
+    archive_url: https://web.archive.org/web/20260727233745/https://www.retsinformation.dk/eli/lta/2023/704/pdf
+    lang: da
+    published: 2023-06-13
+    accessed: 2026-07-28
+    quote: >-
+      Bekendtgørelse om disciplinarmyndighed inden for Forsvarsministeriets område
+    note: >-
+      Cited for one narrow fact: the name Forsvarsministeriet. Nothing about the ministry
+      changed in June 2026, so BEK 514 of 2026 does not mention it, and this project does
+      not accept an official website as sufficient for a counted ministry when a legal
+      instrument is available. This bekendtgørelse, still in force, carries the name in its
+      title. It says nothing else relevant to this dataset.
+
+  - id: lov-435-2025
+    tier: 1
+    type: statute
+    publisher: Lovtidende A (Ministeriet for Samfundssikkerhed og Beredskab)
+    title: LOV nr 435 af 06/05/2025 — Lov om sikkerhed og beredskab i telesektoren
+    url: https://www.retsinformation.dk/eli/lta/2025/435/PDF
+    archive_url: https://web.archive.org/web/20250928180912/https://www.retsinformation.dk/eli/lta/2025/435/PDF
+    lang: da
+    published: 2025-05-07
+    accessed: 2026-07-28
+    quote: >-
+      Ministeriet for Samfundssikkerhed og Beredskab, j.nr. 2025-75
+    note: >-
+      Cited for the definite form of the ministry's name as printed in Lovtidende A, which
+      is the form the ministry itself uses; BEK 1005 of 2024 creates it in the indefinite
+      form "Ministerium for Samfundssikkerhed og Beredskab". The quoted line is the
+      ministry-and-file-number line Lovtidende prints on every page of the Act. The archived
+      snapshot is of the same document at the upper-case path .../435/PDF, which
+      retsinformation serves identically.
+
+  - id: stm-kgl-resolution-2026-06-03
+    tier: 2
+    type: government_website
+    publisher: Statsministeriet
+    title: >-
+      Statsministeriets forestilling om udnævnelse af et nyt ministerium — kongelig
+      resolution af 3. juni 2026
+    url: https://stm.dk/media/nishv4wc/kgl-resolution-af-3-juni-2026.pdf
+    archive_url: https://web.archive.org/web/20260603163814/https://stm.dk/media/nishv4wc/kgl-resolution-af-3-juni-2026.pdf
+    lang: da
+    published: 2026-06-03
+    accessed: 2026-07-28
+    quote: |-
+      Statsministeriets forestilling
+      om
+      udnævnelse af et nyt ministerium
+      Amalienborg,
+      den 3. juni 2026
+      at bestemme
+      at Digitaliseringsministeriet nedlægges, således at de til dette ministerium hørende forretninger overføres til Uddannelses- og Forskningsministeriet,
+      at bestemme
+      at betegnelsen for Indenrigs- og Sundhedsministeriet ændres til Sundheds- og Kirkeministeriet,
+      at udnævne
+      forhenværende minister, medlem af Folketinget Pia Olsen Dyhr til økonomi- og indenrigsminister,
+    note: >-
+      The royal resolution itself, published by the Prime Minister's Office as a scanned
+      document signed at Amalienborg. It is the primary act; BEK nr 514 af 08/06/2026 is its
+      publication in Lovtidende and is cited as the tier-1 source. Recorded here as tier 2
+      because it is a government publication rather than a gazette text, and because the
+      project's source vocabulary has no type for an unpublished instrument. Quoted are the
+      heading, the date, two of the roughly thirty "at bestemme" items and one "at udnævne"
+      item, to show the form of the instrument; the resolution runs to six pages and also
+      dismisses and appoints every minister by name.
+
+  - id: stm-statsraadsraekkefoelge-2026-06-03
+    tier: 2
+    type: government_website
+    publisher: Statsministeriet
+    title: Regeringen Mette Frederiksen III — statsrådsrækkefølgen
+    url: https://stm.dk/media/utnhl5on/regeringen-mette-frederiksen-iii.pdf
+    archive_url: https://web.archive.org/web/20260724090351/https://stm.dk/media/utnhl5on/regeringen-mette-frederiksen-iii.pdf
+    lang: da
+    published: 2026-06-03
+    accessed: 2026-07-28
+    quote: |-
+      Regeringen Mette Frederiksen III
+      1) Statsminister Mette Frederiksen
+      2) Økonomi- og indenrigsminister Pia Olsen Dyhr
+      3) Udenrigsminister Lars Løkke Rasmussen
+      4) Erhvervs- og konkurrencekraftsminister Martin Lidegaard
+      5) Finansminister Peter Hummelgaard
+      6) Justitsminister Nicolai Wammen
+      7) Forsknings-, uddannelses- og digitaliseringsminister Christina Egelund
+      8) Klima-, energi- og forsyningsminister Samira Nawa
+      9) By-, land- og transportminister Signe Munk
+      10) Udlændinge- og integrationsminister Morten Bødskov
+      11) Undervisningsminister Magnus Heunicke
+      12) Beskæftigelsesminister og minister for ligestilling Ane Halsboe-Jørgensen
+      13) Forsvarsminister Jeppe Bruus
+      14) Skatte- og vækstminister Jakob Engel-Schmidt
+      15) Sundhedsminister og kirkeminister Ida Auken
+      16) Minister for natur og dyrevelfærd Christian Rabjerg Madsen
+      17) Kulturminister Zenia Stampe
+      18) Minister for samfundssikkerhed og beredskab Lisbeth Bech-Nielsen
+      19) Børne-, ældre- og boligminister Jacob Mark
+      20) Socialminister og minister for nordisk samarbejde Monika Rubin
+      21) Miljøminister Maria Reumert Gjerding
+    note: >-
+      The official order of precedence, published by the Prime Minister's Office, and the
+      source of the `order` field and of every head_title_original below. It is also what
+      closes the list at twenty-one: because each Danish minister heads exactly one ministry
+      in this cabinet, a list of the ministers is also a list of the ministries. The titles
+      are as printed, with only the first word capitalised.
+
+  - id: em-dk-ministeren
+    tier: 2
+    type: ministry_website
+    publisher: Erhvervsministeriet
+    title: Ministeren — Erhvervsministeriet
+    url: https://www.em.dk/ministeriet/ministeren
+    archive_url: https://web.archive.org/web/20260727234530/https://www.em.dk/ministeriet/ministeren
+    lang: da
+    published: null
+    accessed: 2026-07-28
+    quote: |-
+      Martin Lidegaard er minister for erhverv og konkurrencekraft.
+      Han tiltrådte den 3. juni 2026.
+    note: >-
+      Cited for the mismatch between a minister's title and a ministry's name: the minister
+      appointed on 3 June 2026 is styled erhvervs- og konkurrencekraftsminister, but the
+      department is still Erhvervsministeriet — no instrument renamed it, and the ministry's
+      own site, including this page, uses the old name throughout.
+
+  - id: mssb-dk-ministeriet
+    tier: 2
+    type: ministry_website
+    publisher: Ministeriet for Samfundssikkerhed og Beredskab
+    title: Om Ministeriet for Samfundssikkerhed og Beredskab
+    url: https://mssb.dk/ministeriet/
+    archive_url: https://web.archive.org/web/20260727234507/https://mssb.dk/ministeriet/
+    lang: da
+    published: null
+    accessed: 2026-07-28
+    quote: >-
+      Ministeriet for Samfundssikkerhed og Beredskab (MSSB) har i et tæt samarbejde med de
+      ansvarlige sektorer ansvaret for at forebygge, modstå og håndtere større ulykker,
+      kriser, katastrofer og andre hændelser, der udfordrer samfundets grundlæggende
+      funktioner.
+    note: >-
+      Cited for the ministry's own definite-form name, for its abbreviation MSSB and for its
+      remit. The archived snapshot is of the site's front page, which carries the same name.
+
+entities:
+  # --- Statsministeriet: recorded, not counted ---------------------------------------
+  - id: DK-2026-statsministeriet
+    order: 1
+    name_original: Statsministeriet
+    abbreviation_original: null
+    name_en: Prime Minister's Office
+    name_es: Ministerio de la Presidencia
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Statsminister
+    head_title_en: Prime Minister
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: head_of_government_office
+    url: https://stm.dk/
+    sources: [stm-statsraadsraekkefoelge-2026-06-03, bek-514-2026, stm-kgl-resolution-2026-06-03]
+    note:
+      en: >-
+        Excluded as the office of the head of government, which is this project's default.
+        Statsministeriet is a ministry in Danish administrative practice — it issues the
+        ressort bekendtgørelser cited in this file and signs them "Statsministeriet, den 8.
+        juni 2026" — but it is the apex of the cabinet rather than a portfolio department,
+        and Denmark has no statute constituting it otherwise. Counting it would give Denmark
+        21 ministries instead of 20. Its seat is the Prime Minister's and is counted.
+      es: >-
+        Excluido como oficina del jefe de gobierno, que es el criterio por defecto de este
+        proyecto. El Statsministeriet es un ministerio en la práctica administrativa danesa
+        —dicta las bekendtgørelser de reparto de ressort citadas en este fichero y las firma
+        «Statsministeriet, den 8. juni 2026»—, pero es la cúspide del gabinete y no un
+        departamento con cartera, y ninguna ley danesa lo constituye de otro modo. Contarlo
+        daría 21 ministerios en lugar de 20. Su asiento es el de la primera ministra y sí se
+        cuenta.
+
+  # --- the twenty counted ministries, in the precedence order of the Prime Minister's
+  # --- Office's own list --------------------------------------------------------------
+  - id: DK-2026-oekonomi-og-indenrigsministeriet
+    order: 2
+    name_original: Økonomi- og Indenrigsministeriet
+    abbreviation_original: null
+    name_en: Ministry of Economic Affairs and the Interior
+    name_es: Ministerio de Economía e Interior
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Økonomi- og indenrigsminister
+    head_title_en: Minister for Economic Affairs and the Interior
+    has_cabinet_seat: true
+    policy_areas: [economy, territorial_administration]
+    counts_as_ministry: true
+    url: https://oem.dk/
+    sources: [bek-514-2026, stm-statsraadsraekkefoelge-2026-06-03, stm-kgl-resolution-2026-06-03]
+    note:
+      en: >-
+        The former Økonomiministerium, converted on 3 June 2026 into an Økonomi- og
+        Indenrigsministerium: it took the local-government finance agreements from
+        Finansministeriet and the whole indenrigs (domestic-administration) area, including
+        VIVE, from the ministry now called Sundheds- og Kirkeministeriet. It lost economic
+        forecasting and the Økonomisk Redegørelse to Skatte- og Vækstministeriet, and two
+        days later also ECOFIN and international economic affairs. Tagged
+        territorial_administration for the indenrigs area, which in Denmark means the
+        relationship with municipalities and regions rather than police or public security.
+      es: >-
+        El antiguo Økonomiministerium, transformado el 3 de junio de 2026 en un Økonomi- og
+        Indenrigsministerium: asumió los acuerdos de financiación local del Finansministeriet
+        y todo el área de interior administrativo (indenrigs), incluido el VIVE, del
+        ministerio hoy llamado Sundheds- og Kirkeministeriet. Perdió la previsión económica y
+        la Økonomisk Redegørelse en favor del Skatte- og Vækstministeriet y, dos días después,
+        también el ECOFIN y la economía internacional. Se etiqueta
+        territorial_administration por el área de indenrigs, que en Dinamarca significa la
+        relación con municipios y regiones y no policía ni seguridad pública.
+
+  - id: DK-2026-udenrigsministeriet
+    order: 3
+    name_original: Udenrigsministeriet
+    abbreviation_original: null
+    name_en: Ministry of Foreign Affairs
+    name_es: Ministerio de Asuntos Exteriores
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Udenrigsminister
+    head_title_en: Minister for Foreign Affairs
+    has_cabinet_seat: true
+    policy_areas: [foreign_affairs, european_affairs, development_cooperation]
+    counts_as_ministry: true
+    url: https://um.dk/
+    sources: [bek-514-2026, stm-statsraadsraekkefoelge-2026-06-03, stm-kgl-resolution-2026-06-03]
+    note:
+      en: >-
+        Tagged european_affairs because the separate europaminister post was abolished on 3
+        June 2026 and its areas assigned to the udenrigsminister, with the departmental
+        business staying in Udenrigsministeriet. Nordic cooperation is also transacted in
+        this ministry, but under the responsibility of the socialminister, and is tagged
+        there.
+      es: >-
+        Se etiqueta european_affairs porque el puesto propio de europaminister se suprimió el
+        3 de junio de 2026 y sus áreas se asignaron al ministro de Exteriores, quedando la
+        tramitación departamental en el Udenrigsministeriet. La cooperación nórdica también se
+        tramita en este ministerio, pero bajo la responsabilidad del ministro de Asuntos
+        Sociales, y se etiqueta allí.
+
+  - id: DK-2026-erhvervsministeriet
+    order: 4
+    name_original: Erhvervsministeriet
+    abbreviation_original: null
+    name_en: Ministry of Business
+    name_es: Ministerio de Empresa
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Erhvervs- og konkurrencekraftsminister
+    head_title_en: Minister for Business and Competitiveness
+    has_cabinet_seat: true
+    policy_areas: [economy, industry, small_business, food_safety]
+    counts_as_ministry: true
+    url: https://www.em.dk/
+    sources: [bek-514-2026, em-dk-ministeren, stm-statsraadsraekkefoelge-2026-06-03]
+    note:
+      en: >-
+        The minister is styled erhvervs- og konkurrencekraftsminister, but the ministry was
+        not renamed and calls itself Erhvervsministeriet; this file follows the ministry. It
+        gained food safety, food health and food supply from the abolished Ministeriet for
+        Fødevarer, Landbrug og Fiskeri, which is why food_safety is tagged here rather than
+        on Ministeriet for Natur og Dyrevelfærd, and it lost the whole financial-regulation
+        area, including Finanstilsynet, to Skatte- og Vækstministeriet.
+      es: >-
+        El ministro se titula erhvervs- og konkurrencekraftsminister, pero el ministerio no se
+        renombró y se llama a sí mismo Erhvervsministeriet; este fichero sigue al ministerio.
+        Asumió la seguridad, la salud y el abastecimiento alimentarios del suprimido
+        Ministeriet for Fødevarer, Landbrug og Fiskeri —de ahí la etiqueta food_safety aquí y
+        no en el Ministeriet for Natur og Dyrevelfærd— y perdió toda el área de regulación
+        financiera, incluido el Finanstilsynet, en favor del Skatte- og Vækstministeriet.
+
+  - id: DK-2026-finansministeriet
+    order: 5
+    name_original: Finansministeriet
+    abbreviation_original: null
+    name_en: Ministry of Finance
+    name_es: Ministerio de Finanzas
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Finansminister
+    head_title_en: Minister for Finance
+    has_cabinet_seat: true
+    policy_areas: [finance, budget, public_administration]
+    counts_as_ministry: true
+    url: https://fm.dk/
+    sources: [bek-514-2026, stm-statsraadsraekkefoelge-2026-06-03]
+    note:
+      en: >-
+        Denmark separates the budget ministry from the tax ministry: Finansministeriet
+        prepares the finanslov and is the state's employer authority, while taxation belongs
+        to Skatte- og Vækstministeriet. On 3 June 2026 it lost the economic agreements with
+        municipalities and regions to Økonomi- og Indenrigsministeriet, and on 5 June
+        relations with the IMF to Skatte- og Vækstministeriet.
+      es: >-
+        Dinamarca separa el ministerio de presupuesto del de impuestos: el Finansministeriet
+        prepara la finanslov y ejerce de autoridad empleadora del Estado, mientras que la
+        fiscalidad corresponde al Skatte- og Vækstministeriet. El 3 de junio de 2026 perdió
+        los acuerdos económicos con municipios y regiones en favor del Økonomi- og
+        Indenrigsministeriet y el 5 de junio las relaciones con el FMI en favor del Skatte- og
+        Vækstministeriet.
+
+  - id: DK-2026-justitsministeriet
+    order: 6
+    name_original: Justitsministeriet
+    abbreviation_original: null
+    name_en: Ministry of Justice
+    name_es: Ministerio de Justicia
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Justitsminister
+    head_title_en: Minister of Justice
+    has_cabinet_seat: true
+    policy_areas: [justice, interior]
+    counts_as_ministry: true
+    url: https://www.justitsministeriet.dk/
+    sources: [bek-514-2026, stm-statsraadsraekkefoelge-2026-06-03]
+    note:
+      en: >-
+        Tagged interior as well as justice because the police and the intelligence service
+        PET belong to this ministry, not to Økonomi- og Indenrigsministeriet, whose
+        "indenrigs" area is local government. It also picked up enforcement of the animal
+        welfare act from the abolished food ministry; animal-welfare policy itself sits with
+        Ministeriet for Natur og Dyrevelfærd.
+      es: >-
+        Se etiqueta interior además de justice porque la policía y el servicio de inteligencia
+        PET dependen de este ministerio y no del Økonomi- og Indenrigsministeriet, cuyo área
+        de «indenrigs» es la administración local. También asumió el control del cumplimiento
+        de la ley de bienestar animal del suprimido ministerio de alimentación; la política de
+        bienestar animal en sí corresponde al Ministeriet for Natur og Dyrevelfærd.
+
+  - id: DK-2026-forsknings-uddannelses-og-digitaliseringsministeriet
+    order: 7
+    name_original: Forsknings-, Uddannelses- og Digitaliseringsministeriet
+    abbreviation_original: null
+    name_en: Ministry of Research, Education and Digitalisation
+    name_es: Ministerio de Investigación, Educación y Digitalización
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Forsknings-, uddannelses- og digitaliseringsminister
+    head_title_en: Minister for Research, Education and Digitalisation
+    has_cabinet_seat: true
+    policy_areas: [research, higher_education, digital]
+    counts_as_ministry: true
+    url: https://ufm.dk/
+    sources: [bek-514-2026, stm-statsraadsraekkefoelge-2026-06-03]
+    note:
+      en: >-
+        The former Uddannelses- og Forskningsministeriet, which absorbed the abolished
+        Digitaliseringsministeriet on 3 June 2026 and was renamed. "Uddannelse" here means
+        higher education: schools and upper-secondary education belong to
+        Undervisningsministeriet.
+      es: >-
+        El antiguo Uddannelses- og Forskningsministeriet, que absorbió el suprimido
+        Digitaliseringsministeriet el 3 de junio de 2026 y fue renombrado. «Uddannelse»
+        significa aquí educación superior: la escuela y la secundaria corresponden al
+        Undervisningsministeriet.
+
+  - id: DK-2026-klima-energi-og-forsyningsministeriet
+    order: 8
+    name_original: Klima-, Energi- og Forsyningsministeriet
+    abbreviation_original: null
+    name_en: Ministry of Climate, Energy and Utilities
+    name_es: Ministerio de Clima, Energía y Suministros
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Klima-, energi- og forsyningsminister
+    head_title_en: Minister for Climate, Energy and Utilities
+    has_cabinet_seat: true
+    policy_areas: [climate, energy, water]
+    counts_as_ministry: true
+    url: https://www.kefm.dk/
+    sources: [bek-514-2026, stm-statsraadsraekkefoelge-2026-06-03]
+    note:
+      en: >-
+        Unchanged in name, but it gained the waste area from the ministry now called
+        Miljøministeriet on 3 June 2026. Tagged water for the supply (forsyning) side —
+        drinking water and waste water — while nature and the aquatic environment belong to
+        Miljøministeriet.
+      es: >-
+        Sin cambio de nombre, pero asumió el área de residuos del ministerio hoy llamado
+        Miljøministeriet el 3 de junio de 2026. Se etiqueta water por la vertiente de
+        suministro (forsyning) —agua potable y saneamiento—, mientras que la naturaleza y el
+        medio acuático corresponden al Miljøministeriet.
+
+  - id: DK-2026-by-land-og-transportministeriet
+    order: 9
+    name_original: By-, Land- og Transportministeriet
+    abbreviation_original: null
+    name_en: Ministry of Urban Affairs, Rural Districts and Transport
+    name_es: Ministerio de Ciudad, Territorio Rural y Transporte
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: By-, land- og transportminister
+    head_title_en: Minister for Urban Affairs, Rural Districts and Transport
+    has_cabinet_seat: true
+    policy_areas: [transport, infrastructure, rural_development, tourism]
+    counts_as_ministry: true
+    url: https://www.trm.dk/
+    sources: [bek-514-2026, stm-statsraadsraekkefoelge-2026-06-03]
+    note:
+      en: >-
+        The former Transportministeriet, renamed after taking over the business of the
+        abolished By-, Land- og Kirkeministeriet apart from church affairs. Tourism came to
+        it from Erhvervsministeriet in 2024 and stays here.
+      es: >-
+        El antiguo Transportministeriet, renombrado tras asumir los asuntos del suprimido By-,
+        Land- og Kirkeministeriet salvo los eclesiásticos. El turismo llegó desde el
+        Erhvervsministeriet en 2024 y permanece aquí.
+
+  - id: DK-2026-udlaendinge-og-integrationsministeriet
+    order: 10
+    name_original: Udlændinge- og Integrationsministeriet
+    abbreviation_original: null
+    name_en: Ministry of Immigration and Integration
+    name_es: Ministerio de Extranjería e Integración
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Udlændinge- og integrationsminister
+    head_title_en: Minister for Immigration and Integration
+    has_cabinet_seat: true
+    policy_areas: [migration]
+    counts_as_ministry: true
+    url: https://uim.dk/
+    sources: [bek-514-2026, stm-statsraadsraekkefoelge-2026-06-03]
+    note:
+      en: >-
+        Unchanged in name; it gained parallel-society policy from the ministry now called
+        Socialministeriet on 3 June 2026. Tagged migration only: the taxonomy has no
+        integration area, and this is one of the gaps recorded in the hand-off notes.
+      es: >-
+        Sin cambio de nombre; asumió la política contra las sociedades paralelas del
+        ministerio hoy llamado Socialministeriet el 3 de junio de 2026. Se etiqueta sólo
+        migration: la taxonomía no tiene un área de integración, y es una de las carencias
+        anotadas en las notas de entrega.
+
+  - id: DK-2026-undervisningsministeriet
+    order: 11
+    name_original: Undervisningsministeriet
+    abbreviation_original: null
+    name_en: Ministry of Education
+    name_es: Ministerio de Enseñanza
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Undervisningsminister
+    head_title_en: Minister for Education
+    has_cabinet_seat: true
+    policy_areas: [education, vocational_training]
+    counts_as_ministry: true
+    url: https://uvm.dk/
+    sources: [bek-514-2026, stm-statsraadsraekkefoelge-2026-06-03]
+    note:
+      en: >-
+        The former Børne- og Undervisningsministeriet, renamed after losing day care and
+        pre-school childcare to Børne-, Ældre- og Boligministeriet and speech therapy to
+        Sundheds- og Kirkeministeriet. It keeps the folkeskole, upper-secondary and
+        vocational education; higher education is Forsknings-, Uddannelses- og
+        Digitaliseringsministeriet's.
+      es: >-
+        El antiguo Børne- og Undervisningsministeriet, renombrado tras perder las guarderías y
+        la atención infantil previa a la escolarización en favor del Børne-, Ældre- og
+        Boligministeriet y la logopedia en favor del Sundheds- og Kirkeministeriet. Conserva la
+        folkeskole y la enseñanza secundaria y profesional; la educación superior corresponde
+        al Forsknings-, Uddannelses- og Digitaliseringsministeriet.
+
+  - id: DK-2026-beskaeftigelses-og-ligestillingsministeriet
+    order: 12
+    name_original: Beskæftigelses- og Ligestillingsministeriet
+    abbreviation_original: null
+    name_en: Ministry of Employment and Gender Equality
+    name_es: Ministerio de Empleo e Igualdad
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Beskæftigelsesminister og minister for ligestilling
+    head_title_en: Minister for Employment and Minister for Gender Equality
+    has_cabinet_seat: true
+    policy_areas: [labour, equality, social_security]
+    counts_as_ministry: true
+    url: https://www.bm.dk/
+    sources: [bek-514-2026, stm-statsraadsraekkefoelge-2026-06-03]
+    note:
+      en: >-
+        The former Beskæftigelsesministeriet, renamed when the Ligestillingsafdelingen and
+        its subject areas moved here from the ministry now called Miljøministeriet. Denmark
+        therefore has no separate equality ministry, and the two titles — beskæftigelses-
+        minister and minister for ligestilling — belong to one person heading one ministry,
+        so they are one seat.
+      es: >-
+        El antiguo Beskæftigelsesministeriet, renombrado cuando la Ligestillingsafdelingen y
+        sus materias se trasladaron aquí desde el ministerio hoy llamado Miljøministeriet.
+        Dinamarca no tiene, por tanto, un ministerio de igualdad propio, y los dos títulos
+        —beskæftigelsesminister y minister for ligestilling— corresponden a una sola persona
+        al frente de un solo ministerio, de modo que son un único asiento.
+
+  - id: DK-2026-forsvarsministeriet
+    order: 13
+    name_original: Forsvarsministeriet
+    abbreviation_original: null
+    name_en: Ministry of Defence
+    name_es: Ministerio de Defensa
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Forsvarsminister
+    head_title_en: Minister of Defence
+    has_cabinet_seat: true
+    policy_areas: [defence]
+    counts_as_ministry: true
+    url: https://www.fmn.dk/
+    sources: [bek-704-2023, bek-1005-2024, stm-statsraadsraekkefoelge-2026-06-03]
+    note:
+      en: >-
+        Not tagged civil_protection: the emergency-preparedness ressort, including
+        Beredskabsstyrelsen, left this ministry in August 2024 for the new Ministeriet for
+        Samfundssikkerhed og Beredskab. Nothing about the ministry changed in June 2026,
+        which is why its tier-1 citation is an older instrument.
+      es: >-
+        No se etiqueta civil_protection: el ressort de protección civil, incluida la
+        Beredskabsstyrelsen, salió de este ministerio en agosto de 2024 hacia el nuevo
+        Ministeriet for Samfundssikkerhed og Beredskab. Nada cambió en este ministerio en junio
+        de 2026, y por eso su cita de nivel 1 es un instrumento anterior.
+
+  - id: DK-2026-skatte-og-vaekstministeriet
+    order: 14
+    name_original: Skatte- og Vækstministeriet
+    abbreviation_original: null
+    name_en: Ministry of Taxation and Growth
+    name_es: Ministerio de Fiscalidad y Crecimiento
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Skatte- og vækstminister
+    head_title_en: Minister for Taxation and Growth
+    has_cabinet_seat: true
+    policy_areas: [finance, economy]
+    counts_as_ministry: true
+    url: https://skm.dk/
+    sources: [bek-514-2026, stm-statsraadsraekkefoelge-2026-06-03]
+    note:
+      en: >-
+        The former Skatteministeriet, renamed after taking the financial-regulation area
+        (Finanstilsynet, Finansiel Stabilitet, coordination of entrepreneurship) from
+        Erhvervsministeriet and economic forecasting and the Økonomisk Redegørelse from
+        Økonomiministeriet, and, by the royal resolution of 5 June 2026, ECOFIN,
+        international economic affairs and relations with the IMF. Tagged finance for
+        taxation — the taxonomy has no separate taxation area — and economy for the growth
+        and forecasting side.
+      es: >-
+        El antiguo Skatteministeriet, renombrado tras asumir el área de regulación financiera
+        (Finanstilsynet, Finansiel Stabilitet, coordinación del emprendimiento) del
+        Erhvervsministeriet y la previsión económica y la Økonomisk Redegørelse del
+        Økonomiministeriet y, por la real resolución de 5 de junio de 2026, el ECOFIN, la
+        economía internacional y las relaciones con el FMI. Se etiqueta finance por la
+        fiscalidad —la taxonomía no tiene un área propia de impuestos— y economy por la
+        vertiente de crecimiento y previsión.
+
+  - id: DK-2026-sundheds-og-kirkeministeriet
+    order: 15
+    name_original: Sundheds- og Kirkeministeriet
+    abbreviation_original: null
+    name_en: Ministry of Health and Ecclesiastical Affairs
+    name_es: Ministerio de Sanidad y Asuntos Eclesiásticos
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Sundhedsminister og kirkeminister
+    head_title_en: Minister for Health and Minister for Ecclesiastical Affairs
+    has_cabinet_seat: true
+    policy_areas: [health, religion]
+    counts_as_ministry: true
+    url: https://www.ism.dk/
+    sources: [bek-514-2026, stm-statsraadsraekkefoelge-2026-06-03]
+    note:
+      en: >-
+        The former Indenrigs- og Sundhedsministeriet: it lost the indenrigs area to Økonomi-
+        og Indenrigsministeriet, took the folkekirke and other religious communities from the
+        abolished By-, Land- og Kirkeministeriet and speech therapy from the ministry now
+        called Undervisningsministeriet, and was renamed. One minister holds both titles and
+        heads one ministry, so this is one seat and one ministry.
+      es: >-
+        El antiguo Indenrigs- og Sundhedsministeriet: perdió el área de indenrigs en favor del
+        Økonomi- og Indenrigsministeriet, asumió la Iglesia nacional y las demás confesiones
+        del suprimido By-, Land- og Kirkeministeriet y la logopedia del ministerio hoy llamado
+        Undervisningsministeriet, y fue renombrado. Un solo ministro ostenta ambos títulos y
+        dirige un solo ministerio, por lo que es un asiento y un ministerio.
+
+  - id: DK-2026-ministeriet-for-natur-og-dyrevelfaerd
+    order: 16
+    name_original: Ministeriet for Natur og Dyrevelfærd
+    abbreviation_original: null
+    name_en: Ministry of Nature and Animal Welfare
+    name_es: Ministerio de Naturaleza y Bienestar Animal
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Minister for natur og dyrevelfærd
+    head_title_en: Minister for Nature and Animal Welfare
+    has_cabinet_seat: true
+    policy_areas: [environment, animal_welfare, agriculture, forestry]
+    counts_as_ministry: true
+    url: https://mgtp.dk/
+    sources: [bek-514-2026, bek-1005-2024, stm-statsraadsraekkefoelge-2026-06-03]
+    note:
+      en: >-
+        The same body as the Ministeriet for Grøn Trepart created in August 2024, renamed on
+        3 June 2026 when it absorbed the abolished Ministeriet for Fødevarer, Landbrug og
+        Fiskeri. It holds agriculture, forests, protected areas and animal-welfare policy;
+        food safety went to Erhvervsministeriet, fisheries to Miljøministeriet and
+        enforcement of the animal welfare act to Justitsministeriet. Denmark has had a food
+        and agriculture ministry under one name or another for well over a century, and this
+        is the reorganisation that ended that: agriculture is now a portfolio of a nature
+        ministry.
+      es: >-
+        El mismo órgano que el Ministeriet for Grøn Trepart creado en agosto de 2024,
+        renombrado el 3 de junio de 2026 al absorber el suprimido Ministeriet for Fødevarer,
+        Landbrug og Fiskeri. Tiene la agricultura, los bosques, los espacios protegidos y la
+        política de bienestar animal; la seguridad alimentaria pasó al Erhvervsministeriet, la
+        pesca al Miljøministeriet y el control de la ley de bienestar animal al
+        Justitsministeriet. Dinamarca había tenido durante más de un siglo un ministerio de
+        alimentación y agricultura con uno u otro nombre, y esta es la reorganización que puso
+        fin a ello: la agricultura es ahora una cartera de un ministerio de naturaleza.
+
+  - id: DK-2026-kulturministeriet
+    order: 17
+    name_original: Kulturministeriet
+    abbreviation_original: null
+    name_en: Ministry of Culture
+    name_es: Ministerio de Cultura
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Kulturminister
+    head_title_en: Minister for Culture
+    has_cabinet_seat: true
+    policy_areas: [culture, media, sport]
+    counts_as_ministry: true
+    url: https://kum.dk/
+    sources: [bek-1005-2024, stm-statsraadsraekkefoelge-2026-06-03]
+    note:
+      en: >-
+        Unchanged by the 2026 reorganisation, which is why its tier-1 citation is the 2024
+        instrument that names it. Tagged sport because organised sport (idræt) belongs to
+        this ministry in Denmark, and media for broadcasting and press subsidy; the tech and
+        social-media area left it in 2024 for Ministeriet for Samfundssikkerhed og Beredskab.
+      es: >-
+        No lo alteró la reorganización de 2026, y por eso su cita de nivel 1 es el instrumento
+        de 2024 que lo nombra. Se etiqueta sport porque el deporte organizado (idræt)
+        corresponde a este ministerio en Dinamarca, y media por la radiodifusión y las ayudas
+        a la prensa; el área tecnológica y de redes sociales salió de aquí en 2024 hacia el
+        Ministeriet for Samfundssikkerhed og Beredskab.
+
+  - id: DK-2026-ministeriet-for-samfundssikkerhed-og-beredskab
+    order: 18
+    name_original: Ministeriet for Samfundssikkerhed og Beredskab
+    abbreviation_original: MSSB
+    name_en: Ministry of Societal Security and Emergency Preparedness
+    name_es: Ministerio de Seguridad Social Colectiva y Protección Civil
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Minister for samfundssikkerhed og beredskab
+    head_title_en: Minister for Societal Security and Emergency Preparedness
+    has_cabinet_seat: true
+    policy_areas: [civil_protection]
+    counts_as_ministry: true
+    url: https://mssb.dk/
+    sources: [bek-1005-2024, lov-435-2025, mssb-dk-ministeriet, stm-statsraadsraekkefoelge-2026-06-03]
+    note:
+      en: >-
+        Created on 29 August 2024 out of preparedness and security functions drawn from eight
+        existing ministries, and untouched by the 2026 reorganisation. The Spanish rendering
+        is awkward on purpose: "samfundssikkerhed" is societal security in the
+        critical-infrastructure sense, not social security, which belongs to Beskæftigelses-
+        og Ligestillingsministeriet. Tagged civil_protection only; its cyber-security remit
+        has no home in the taxonomy, which is recorded in the hand-off notes.
+      es: >-
+        Creado el 29 de agosto de 2024 con funciones de protección civil y seguridad
+        procedentes de ocho ministerios existentes, y no afectado por la reorganización de
+        2026. La traducción española es deliberadamente incómoda: «samfundssikkerhed» es
+        seguridad colectiva en el sentido de infraestructuras críticas, no seguridad social,
+        que corresponde al Beskæftigelses- og Ligestillingsministeriet. Se etiqueta sólo
+        civil_protection; su competencia de ciberseguridad no tiene hueco en la taxonomía, lo
+        que queda anotado en las notas de entrega.
+
+  - id: DK-2026-boerne-aeldre-og-boligministeriet
+    order: 19
+    name_original: Børne-, Ældre- og Boligministeriet
+    abbreviation_original: null
+    name_en: Ministry of Children, the Elderly and Housing
+    name_es: Ministerio de Infancia, Mayores y Vivienda
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Børne-, ældre- og boligminister
+    head_title_en: Minister for Children, the Elderly and Housing
+    has_cabinet_seat: true
+    policy_areas: [family, elderly, housing]
+    counts_as_ministry: true
+    url: https://aeldremin.dk/
+    sources: [bek-514-2026, stm-statsraadsraekkefoelge-2026-06-03]
+    note:
+      en: >-
+        The former Ældreministeriet, renamed on 3 June 2026 when it took day care and
+        pre-school childcare from the ministry now called Undervisningsministeriet and the
+        whole housing area — social housing, student and youth housing, private letting,
+        urban renewal, building regulation and Christiania — from the ministry now called
+        Socialministeriet.
+      es: >-
+        El antiguo Ældreministeriet, renombrado el 3 de junio de 2026 al asumir las guarderías
+        y la atención infantil previa a la escolarización del ministerio hoy llamado
+        Undervisningsministeriet y toda el área de vivienda —vivienda social, estudiantil y
+        juvenil, alquiler privado, renovación urbana, normativa de edificación y Christiania—
+        del ministerio hoy llamado Socialministeriet.
+
+  - id: DK-2026-socialministeriet
+    order: 20
+    name_original: Socialministeriet
+    abbreviation_original: null
+    name_en: Ministry of Social Affairs
+    name_es: Ministerio de Asuntos Sociales
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Socialminister og minister for nordisk samarbejde
+    head_title_en: Minister for Social Affairs and Minister for Nordic Cooperation
+    has_cabinet_seat: true
+    policy_areas: [social_affairs, disability]
+    counts_as_ministry: true
+    url: https://www.sm.dk/
+    sources: [bek-514-2026, stm-statsraadsraekkefoelge-2026-06-03]
+    note:
+      en: >-
+        The former Social- og Boligministeriet, renamed after losing housing to Børne-,
+        Ældre- og Boligministeriet and parallel-society policy to Udlændinge- og
+        Integrationsministeriet. Its minister is also minister for Nordic cooperation, a
+        portfolio transacted inside Udenrigsministeriet under this minister's responsibility;
+        that is a portfolio and not a department, so it adds neither a ministry nor a seat.
+      es: >-
+        El antiguo Social- og Boligministeriet, renombrado tras perder la vivienda en favor del
+        Børne-, Ældre- og Boligministeriet y la política contra las sociedades paralelas en
+        favor del Udlændinge- og Integrationsministeriet. Su ministra es además ministra de
+        Cooperación Nórdica, cartera que se tramita dentro del Udenrigsministeriet bajo su
+        responsabilidad; eso es una cartera y no un departamento, por lo que no añade ni
+        ministerio ni asiento.
+
+  - id: DK-2026-miljoeministeriet
+    order: 21
+    name_original: Miljøministeriet
+    abbreviation_original: null
+    name_en: Ministry of the Environment
+    name_es: Ministerio de Medio Ambiente
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Miljøminister
+    head_title_en: Minister for the Environment
+    has_cabinet_seat: true
+    policy_areas: [environment, fisheries]
+    counts_as_ministry: true
+    url: https://mim.dk/
+    sources: [bek-514-2026, stm-statsraadsraekkefoelge-2026-06-03]
+    note:
+      en: >-
+        The former Miljø- og Ligestillingsministeriet, renamed on 3 June 2026 after equality
+        moved to Beskæftigelses- og Ligestillingsministeriet and waste to Klima-, Energi- og
+        Forsyningsministeriet, and after it gained fisheries from the abolished Ministeriet
+        for Fødevarer, Landbrug og Fiskeri. Denmark therefore splits the green portfolios
+        three ways: environment and fisheries here, nature and agriculture in Ministeriet for
+        Natur og Dyrevelfærd, climate and energy in Klima-, Energi- og Forsyningsministeriet.
+      es: >-
+        El antiguo Miljø- og Ligestillingsministeriet, renombrado el 3 de junio de 2026 después
+        de que la igualdad pasara al Beskæftigelses- og Ligestillingsministeriet y los
+        residuos al Klima-, Energi- og Forsyningsministeriet, y tras asumir la pesca del
+        suprimido Ministeriet for Fødevarer, Landbrug og Fiskeri. Dinamarca reparte así las
+        carteras verdes en tres: medio ambiente y pesca aquí, naturaleza y agricultura en el
+        Ministeriet for Natur og Dyrevelfærd, y clima y energía en el Klima-, Energi- og
+        Forsyningsministeriet.

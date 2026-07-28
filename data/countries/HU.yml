@@ -1,0 +1,55 @@
+# Hungary — country metadata.
+#
+# See docs/DATA-CONTRACT.md. The cabinet itself is in data/cabinets/HU-2026-05-13.yml.
+#
+# One thing to notice about the population figure: the Központi Statisztikai Hivatal has no
+# prose release that states the start-of-year resident total, so the citation quotes two rows
+# of the STADAT table that carries it. Several third-party "Hungary population" pages
+# circulate a start-of-2026 figure near 9.68 million; that is roughly Hungary's 2020 level and
+# does not appear anywhere in KSH's own tables. The figure recorded here is KSH's.
+
+iso2: HU
+iso3: HUN
+
+name_en: Hungary
+name_es: Hungría
+name_original: Magyarország
+official_name_original: Magyarország
+
+continent: europe
+region: central_europe
+eu_member_since: 2004-05-01
+government_system: parliamentary_republic
+official_languages: [hu]
+
+population:
+  value: 9488428
+  year: 2026
+  source:
+    id: ksh-stadat-nep0003-2026
+    tier: 3
+    type: statistical_office
+    publisher: Központi Statisztikai Hivatal
+    title: >-
+      STADAT 22.1.1.3. Népesség korév és nem szerint, január 1. (Összefoglaló táblák,
+      idősoros éves adatok)
+    url: https://www.ksh.hu/stadat_files/nep/hu/nep0003.html
+    archive_url: https://web.archive.org/web/20260715223656/https://www.ksh.hu/stadat_files/nep/hu/nep0003.html
+    lang: hu
+    published: 2026-06-26
+    accessed: 2026-07-28
+    quote: |-
+      Korév	1980	1990	2001	2012	2013	2014	2015	2016	2017	2018	2019	2020	2021	2022	2023	2024	2025	2026
+      Összesen	10 709 463	10 374 823	10 200 298	9 931 925	9 895 250	9 850 217	9 815 858	9 779 652	9 739 857	9 713 655	9 700 272	9 689 376	9 651 461	9 610 403	9 599 744	9 584 627	9 539 502	9 488 428
+    note: >-
+      The population of Hungary on 1 January 2026. The quotation is the tab-separated
+      rendering of the table's header row and of its final "Összesen" (total, both sexes) row,
+      so a reader can line up the last column, 2026, with 9 488 428 without opening the
+      document; the two sex-specific totals in the same table, 4 583 768 men and 4 904 660
+      women, add to the same figure, and KSH's separate table 22.1.2.1 (resident population by
+      county) gives 9 488 428 as well. The page's own "Utolsó frissítés" date of 26 June 2026
+      is recorded as `published`. Tier 3 rather than tier 1: this is a statistical compilation
+      projected forward from the 1 October 2022 census, not a legal instrument, and KSH
+      publishes no gazetted population figure between censuses. KSH's monthly Népmozgalom
+      releases report births, deaths and marriages but never the resident total, which is why
+      a table and not a press sentence is cited.

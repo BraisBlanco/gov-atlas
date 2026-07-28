@@ -1,0 +1,70 @@
+# Slovenia — country metadata.
+#
+# See docs/DATA-CONTRACT.md. The cabinet, its entities and its citations live in
+# data/cabinets/SI-2026-06-04.yml; this file carries only country-level metadata.
+#
+# Perimeter: the Republic of Slovenia is a unitary state with no federated, autonomous or
+# devolved tier. Its občine (municipalities) are local self-government and are out of
+# scope; the twelve statistical regions are statistical units and not a tier of government.
+# Slovenia's Italian and Hungarian national communities and its Roma community hold
+# constitutionally guaranteed rights administered by a government office, not by a
+# subnational executive.
+#
+# `region: central_europe` is a judgement and not a quotation. The UN M49 geoscheme files
+# Slovenia under Southern Europe, and some ex-Yugoslav groupings under South-Eastern
+# Europe; Slovenian official and EU practice treats the country as Central European, and
+# this dataset already places its immediate neighbours Czechia, Hungary and Slovakia in
+# `central_europe`, so that is the value used here. Nothing downstream depends on it
+# except the clustering of chart rows.
+#
+# `government_system: parliamentary_republic`. The President of the Republic is directly
+# elected (Constitution, Article 103) but the executive is not shared: the National
+# Assembly elects the Prime Minister and appoints and dismisses the ministers (Articles 111
+# and 112), and the President's role in forming a government is limited to proposing a
+# candidate. Slovenia is therefore a parliamentary republic, not a semi-presidential one —
+# unlike Lithuania in this dataset, where the President appoints ministers by decree.
+
+iso2: SI
+iso3: SVN
+
+name_en: Slovenia
+name_es: Eslovenia
+name_original: Slovenija
+official_name_original: Republika Slovenija
+
+continent: europe
+region: central_europe
+eu_member_since: 2004-05-01
+government_system: parliamentary_republic
+official_languages: [sl]
+
+# Population carries its own citation because the country page publishes it as a figure in
+# its own right, not as a convenience constant. Nothing divides by it.
+population:
+  value: 2135107
+  year: 2026
+  source:
+    id: surs-prebivalstvo-2026-01-01
+    tier: 3
+    type: statistical_office
+    publisher: Statistični urad Republike Slovenije (SURS)
+    title: Prebivalstvo, 1. januar 2026 (končni podatki)
+    url: https://www.stat.si/StatWeb/News/Index/14290
+    archive_url: https://web.archive.org/web/20260728104050/https://www.stat.si/StatWeb/News/Index/14290
+    lang: sl
+    published: 2026-04-24
+    accessed: 2026-07-28
+    quote: >-
+      V letu 2025 se je število prebivalcev povečalo za 4.257. 1. januarja 2026 je bilo med
+      2.135.107 prebivalci Slovenije 10,5 % tujih državljanov.
+    note: >-
+      The number of residents of Slovenia on 1 January 2026, published by the Statistical
+      Office of the Republic of Slovenia as final data ("končni podatki") on 24 April 2026.
+      Tier 3 rather than tier 1: a statistical compilation from the Central Population
+      Register, not a legal instrument, which follows the precedent set by Spain's INE
+      figure. The same release's table gives the sex breakdown, 1.074.630 men and 1.060.477
+      women, which sums exactly to the figure recorded here — a useful arithmetic check,
+      because SURS also publishes a quarterly series whose earlier 2026 vintages
+      (2.133.852 at 1 October 2025) circulate in secondary compilations and do not
+      reconcile with the start-of-year figure. Slovenia's resident concept counts foreign
+      citizens with residence permits, who were 10,5 % of the total.

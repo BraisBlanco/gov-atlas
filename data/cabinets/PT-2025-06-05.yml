@@ -1,0 +1,939 @@
+# Portugal — government structure of the XXV Governo Constitucional.
+#
+# Read docs/DATA-CONTRACT.md alongside this file.
+#
+# The one thing to understand before reading the entity list: Portugal's tier-1
+# instrument enumerates *ministers* (Article 2, sixteen of them) and, separately,
+# *ministries* (Section III, twelve of them). Four ministers hold no ministry: Article
+# 13(3) integrates them in the Presidência do Conselho de Ministros. The Government's
+# own portal says "16 Ministérios"; the decree that constitutes them names twelve. Both
+# figures are recorded below — twelve counted, the rest recorded with a reason — and the
+# gap is explained in methodology_notes rather than resolved silently.
+
+country: PT
+cabinet_id: PT-2025-06-05
+
+cabinet_name_original: XXV Governo Constitucional
+cabinet_name_en: XXV Constitutional Government
+cabinet_name_es: XXV Gobierno Constitucional
+
+head_of_government_title_original: Primeiro-Ministro
+head_of_government_title_en: Prime Minister
+
+took_office: 2025-06-05
+left_office: null
+
+methodology_notes:
+  - en: >-
+      Portugal is counted as having 12 ministries, not the 16 its own government portal
+      publishes. Decreto-Lei n.º 87-A/2025 does two different things in two different
+      places: Article 2 lists the sixteen ministers who make up the Government, and
+      Section III ("Orgânica do Governo") constitutes the ministries, each with the
+      formula "O Ministério X é o departamento governamental que tem por missão...".
+      That formula appears exactly twelve times. The remaining four ministers —
+      Presidência, Adjunto e Reforma do Estado, Assuntos Parlamentares, and
+      Infraestruturas e Habitação — are placed by Article 13(3) inside the Presidência
+      do Conselho de Ministros, and no article of the decree creates a ministry for any
+      of them. The Government's news release of 5 June 2025 nonetheless states "O novo
+      Executivo é composto por 16 Ministérios" and calls State Reform a "recém-criado
+      Ministério". Following this project's rule of preferring the higher-tier source,
+      the legal instrument prevails over the portal and the published figure is 12.
+      Read 16 if you count ministers with a portfolio; read 12 if you count ministerial
+      departments; read 13 if you also count the Presidência do Conselho de Ministros
+      as a department in its own right.
+    es: >-
+      Portugal se cuenta con 12 ministerios, no con los 16 que publica su propio portal
+      gubernamental. El Decreto-Lei n.º 87-A/2025 hace dos cosas distintas en dos
+      lugares distintos: el artículo 2 enumera los dieciséis ministros que componen el
+      Gobierno, y la sección III («Orgánica do Governo») constituye los ministerios,
+      cada uno con la fórmula «O Ministério X é o departamento governamental que tem
+      por missão...». Esa fórmula aparece exactamente doce veces. Los otros cuatro
+      ministros —Presidencia, Adjunto y Reforma del Estado, Asuntos Parlamentarios e
+      Infraestructuras y Vivienda— quedan situados por el artículo 13(3) dentro de la
+      Presidência do Conselho de Ministros, y ningún artículo del decreto crea un
+      ministerio para ellos. Aun así, la nota de prensa del Gobierno del 5 de junio de
+      2025 afirma «O novo Executivo é composto por 16 Ministérios» y llama a la Reforma
+      del Estado «recém-criado Ministério». Aplicando la regla del proyecto de seguir la
+      fuente de nivel superior, prevalece el instrumento jurídico y la cifra publicada
+      es 12. Lea 16 si cuenta ministros con cartera; 12 si cuenta departamentos
+      ministeriales; 13 si además cuenta la Presidência do Conselho de Ministros como
+      departamento propio.
+  - en: >-
+      Portugal has 12 ministries but 17 cabinet seats. Article 4(1) of Decreto-Lei n.º
+      87-A/2025 makes the Conselho de Ministros the Prime Minister plus all sixteen
+      ministers. The Prime Minister holds a seat without heading a ministry, and four
+      ministers hold a seat without heading one either, which is where the five-seat
+      gap comes from. Neither number is wrong; they answer different questions, and
+      this dataset never adds them.
+    es: >-
+      Portugal tiene 12 ministerios pero 17 asientos en el gabinete. El artículo 4(1)
+      del Decreto-Lei n.º 87-A/2025 compone el Conselho de Ministros con el
+      primer ministro y los dieciséis ministros. El primer ministro ocupa asiento sin
+      encabezar ministerio, y cuatro ministros también ocupan asiento sin encabezarlo:
+      de ahí la diferencia de cinco. Ninguna cifra es incorrecta; responden a preguntas
+      distintas, y este conjunto de datos nunca las suma.
+  - en: >-
+      The four ministers who head no ministry carry the exclusion reason
+      "minister_without_portfolio", and the label is imprecise. Three of them hold
+      substantial policy responsibilities — migration, media and government
+      coordination (Presidência); public-administration reform and digitalisation
+      (Adjunto e Reforma do Estado); infrastructure, transport, housing and urban
+      regeneration (Infraestruturas e Habitação) — and only Assuntos Parlamentares is a
+      genuinely portfolio-free liaison office (Article 17 is a single sentence). The id
+      was chosen because its definition in data/taxonomy/exclusion-reasons.yml is
+      exactly the test applied here — "holds ministerial rank and a cabinet seat but no
+      administrative department" — and because it has the correct counting behaviour.
+      What the project's vocabulary lacks is an id for a minister with a real portfolio
+      exercised inside another department.
+    es: >-
+      Los cuatro ministros que no encabezan ministerio llevan el motivo de exclusión
+      «minister_without_portfolio», y la etiqueta es imprecisa. Tres de ellos tienen
+      responsabilidades sustantivas —migraciones, comunicación social y coordinación
+      gubernamental (Presidencia); reforma de la Administración Pública y
+      digitalización (Adjunto y Reforma del Estado); infraestructuras, transportes,
+      vivienda y rehabilitación urbana (Infraestructuras y Vivienda)— y solo Asuntos
+      Parlamentarios es una verdadera oficina de enlace sin cartera (el artículo 17 es
+      una sola frase). Se eligió ese id porque su definición en
+      data/taxonomy/exclusion-reasons.yml es exactamente la prueba aplicada aquí
+      —«tiene rango ministerial y asiento en el gabinete pero ningún departamento
+      administrativo»— y porque su efecto sobre los recuentos es el correcto. Lo que
+      falta en el vocabulario del proyecto es un id para un ministro con cartera real
+      ejercida dentro de otro departamento.
+  - en: >-
+      The Presidência do Conselho de Ministros is recorded but not counted. Article
+      13(1) calls it "o departamento central do Governo", not a ministério; its mission
+      is to support the Council of Ministers, the Prime Minister and the members of the
+      Government inside it, and Article 13(5) sweeps into it every service "não
+      expressamente integrados em outros ministérios". Under this project's default the
+      office of the head of government is excluded as the apex of the cabinet rather
+      than a portfolio department. A curator who counted it would publish 13 rather
+      than 12.
+    es: >-
+      La Presidência do Conselho de Ministros se registra pero no se cuenta. El
+      artículo 13(1) la llama «o departamento central do Governo», no un ministério; su
+      misión es apoyar al Consejo de Ministros, al primer ministro y a los miembros del
+      Gobierno integrados en ella, y el artículo 13(5) le atribuye todo servicio «não
+      expressamente integrados em outros ministérios». Por defecto, este proyecto
+      excluye la oficina del jefe de gobierno por ser la cúspide del gabinete y no un
+      departamento con cartera. Un curador que la contara publicaría 13 en lugar de 12.
+  - en: >-
+      Secretários de Estado are not recorded individually. Article 3 of the decree
+      attaches 43 of them to the sixteen ministers; Article 10 gives them no competence
+      of their own, and Article 4 keeps them out of the Council of Ministers. They are
+      junior ministers inside an existing department and would add neither a ministry
+      nor a seat. The one exception is recorded: the Secretário de Estado da
+      Presidência do Conselho de Ministros, who under Article 4(2) attends the Council
+      of Ministers but without a vote, and is therefore listed with no cabinet seat.
+      Counting him would make the cabinet 18.
+    es: >-
+      Los secretarios de Estado no se registran individualmente. El artículo 3 del
+      decreto adscribe 43 de ellos a los dieciséis ministros; el artículo 10 no les
+      atribuye competencia propia y el artículo 4 los deja fuera del Consejo de
+      Ministros. Son ministros junior dentro de un departamento existente y no
+      añadirían ni ministerio ni asiento. Se registra la única excepción: el Secretário
+      de Estado da Presidência do Conselho de Ministros, que según el artículo 4(2)
+      asiste al Consejo de Ministros pero sin derecho de voto, y por eso figura sin
+      asiento en el gabinete. Contarlo haría del gabinete 18 personas.
+  - en: >-
+      Portugal is recorded as a semi-presidential republic. The President is elected by
+      direct universal suffrage and holds real powers — appointing the Prime Minister,
+      dissolving the Assembleia da República, vetoing legislation, referring laws to
+      the Constitutional Court — and the ministers in this file were appointed by
+      presidential decree (Decreto do Presidente da República n.º 47-C/2025). A
+      defensible curator could record "parliamentary_republic" instead, because since
+      the 1982 constitutional revision the President cannot dismiss the Government at
+      will and the executive is answerable to parliament alone; comparative datasets
+      split on this. The value here is fixed for cross-country consistency.
+    es: >-
+      Portugal se registra como república semipresidencial. El presidente se elige por
+      sufragio universal directo y tiene poderes reales —nombrar al primer ministro,
+      disolver la Assembleia da República, vetar leyes, someterlas al Tribunal
+      Constitucional— y los ministros de este fichero fueron nombrados por decreto
+      presidencial (Decreto do Presidente da República n.º 47-C/2025). Un curador
+      razonable podría registrar «parliamentary_republic», porque desde la revisión
+      constitucional de 1982 el presidente no puede destituir al Gobierno a voluntad y
+      el ejecutivo responde solo ante el parlamento; los conjuntos de datos
+      comparativos discrepan. El valor se fija aquí por coherencia entre países.
+  - en: >-
+      All English and Spanish names in this file are the project's own. The Government's
+      English-language portal does publish short area labels under a heading
+      "Ministries" — "Foreign Affairs", "Home Affairs", "Agriculture and Maritime
+      Affairs" — and those wordings are followed here, but the full "Ministry of X"
+      form is ours, so every name_en_provenance and name_es_provenance is "translated".
+    es: >-
+      Todos los nombres en inglés y español de este fichero son propios del proyecto. El
+      portal en inglés del Gobierno publica etiquetas breves de área bajo el
+      encabezado «Ministries» —«Foreign Affairs», «Home Affairs», «Agriculture and
+      Maritime Affairs»— y aquí se sigue esa terminología, pero la forma completa
+      «Ministry of X» es nuestra, de modo que todos los campos name_en_provenance y
+      name_es_provenance son «translated».
+  - en: >-
+      This file records departments, not officeholders. The nomination decree is cited
+      for the set of ministerial offices actually filled on 5 June 2025, not for who
+      occupies them today: the Minister of Home Affairs named in it resigned in
+      February 2026 and was replaced, which changed no department. No abbreviation is
+      recorded for any ministry, because Decreto-Lei n.º 87-A/2025 does not establish
+      acronyms and this dataset does not carry unsourced fields.
+    es: >-
+      Este fichero registra departamentos, no titulares. El decreto de nombramiento se
+      cita por el conjunto de cargos ministeriales efectivamente cubiertos el 5 de
+      junio de 2025, no por quién los ocupa hoy: la ministra de Administração Interna
+      que figura en él dimitió en febrero de 2026 y fue sustituida, sin que cambiara
+      ningún departamento. No se registra ninguna sigla, porque el Decreto-Lei n.º
+      87-A/2025 no establece acrónimos y este conjunto de datos no admite campos sin
+      fuente.
+
+sources:
+  - id: dre-dl-87-a-2025
+    tier: 1
+    type: official_gazette
+    publisher: Diário da República
+    title: >-
+      Decreto-Lei n.º 87-A/2025, de 25 de julho — Aprova o regime de organização e
+      funcionamento do XXV Governo Constitucional
+    url: https://files.diariodarepublica.pt/1s/2025/07/14201/0000200027.pdf
+    archive_url: https://web.archive.org/web/20260106173829/https://files.diariodarepublica.pt/1s/2025/07/14201/0000200027.pdf
+    lang: pt
+    published: 2025-07-25
+    accessed: 2026-07-27
+    quote: |-
+      Artigo 1.º
+      Composição
+      1 — O Governo é constituído pelo Primeiro-Ministro, pelos ministros e pelos secretários de Estado.
+      2 — São órgãos colegiais do Governo o Conselho de Ministros e a Reunião de Secretários de Estado.
+      Artigo 2.º
+      Ministros
+      Integram o Governo os seguintes ministros:
+      a) Ministro de Estado e dos Negócios Estrangeiros;
+      b) Ministro de Estado e das Finanças;
+      c) Ministro da Presidência;
+      d) Ministro da Economia e da Coesão Territorial;
+      e) Ministro Adjunto e da Reforma do Estado;
+      f) Ministro dos Assuntos Parlamentares;
+      g) Ministro da Defesa Nacional;
+      h) Ministro das Infraestruturas e Habitação;
+      i) Ministra da Justiça;
+      j) Ministra da Administração Interna;
+      k) Ministro da Educação, Ciência e Inovação;
+      l) Ministra da Saúde;
+      m) Ministra do Trabalho, Solidariedade e Segurança Social;
+      n) Ministra do Ambiente e Energia;
+      o) Ministra da Cultura, Juventude e Desporto;
+      p) Ministro da Agricultura e Mar.
+      Artigo 4.º
+      Composição do Conselho de Ministros
+      1 — O Conselho de Ministros é constituído pelo Primeiro-Ministro, que preside, e pelos ministros.
+      2 — Salvo determinação em contrário do Primeiro-Ministro, participa nas reuniões do Conselho de Ministros, sem direito a voto, o Secretário de Estado da Presidência do Conselho de Ministros.
+      SECÇÃO III
+      Orgânica do Governo
+      Artigo 11.º
+      Negócios Estrangeiros
+      1 — O Ministério dos Negócios Estrangeiros é o departamento governamental [...]
+      Artigo 12.º
+      Finanças
+      1 — O Ministério das Finanças é o departamento governamental [...]
+      Artigo 13.º
+      Presidência do Conselho de Ministros
+      1 — A Presidência do Conselho de Ministros é o departamento central do Governo que tem por missão prestar apoio ao Conselho de Ministros, ao Primeiro-Ministro e aos demais membros do Governo nela integrados e promover a coordenação interministerial dos diversos departamentos governamentais.
+      [...]
+      3 — A Presidência do Conselho de Ministros integra os seguintes membros do Governo:
+      a) Ministro da Presidência;
+      b) Ministro Adjunto e da Reforma do Estado;
+      c) Ministro dos Assuntos Parlamentares;
+      d) Ministro das Infraestruturas e Habitação;
+      [...]
+      5 — A Presidência do Conselho de Ministros compreende ainda todos os serviços, organismos, entidades e estruturas não expressamente integrados em outros ministérios [...]
+      Artigo 15.º
+      Economia e Coesão Territorial
+      1 — O Ministério da Economia e da Coesão Territorial é o departamento governamental [...]
+      Artigo 18.º
+      Defesa Nacional
+      1 — O Ministério da Defesa Nacional é o departamento governamental [...]
+      Artigo 20.º
+      Justiça
+      1 — O Ministério da Justiça é o departamento governamental [...]
+      Artigo 21.º
+      Administração Interna
+      1 — O Ministério da Administração Interna é o departamento governamental [...]
+      Artigo 22.º
+      Educação, Ciência e Inovação
+      1 — O Ministério da Educação, Ciência e Inovação é o departamento governamental [...]
+      Artigo 23.º
+      Saúde
+      1 — O Ministério da Saúde é o departamento governamental [...]
+      Artigo 24.º
+      Trabalho, Solidariedade e Segurança Social
+      1 — O Ministério do Trabalho, Solidariedade e Segurança Social é o departamento governamental [...]
+      Artigo 25.º
+      Ambiente e Energia
+      1 — O Ministério do Ambiente e Energia é o departamento governamental [...]
+      Artigo 26.º
+      Cultura, Juventude e Desporto
+      1 — O Ministério da Cultura, Juventude e Desporto é o departamento governamental [...]
+      Artigo 27.º
+      Agricultura e Mar
+      1 — O Ministério da Agricultura e Mar é o departamento governamental [...]
+      Artigo 40.º
+      Produção de efeitos
+      O presente decreto-lei produz efeitos a 5 de junho de 2025, considerando-se ratificados todos os atos entretanto praticados.
+    note: >-
+      The tier-1 instrument for this cabinet: the Lei Orgânica do XXV Governo. Cited
+      from the Diário da República's own PDF of Suplemento 1 to DR n.º 142, 1.ª série,
+      25 July 2025 — the original publication. DRE's consolidated-text page
+      (https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2025-926588602)
+      is a client-rendered application that web archives capture only as an empty
+      shell, so it is not usable as an archive_url; the consolidated version as of the
+      access date reflects two changes, neither touching the list of ministries or
+      ministers. Declaração de Retificação n.º 38/2025/1, of 22 September 2025,
+      corrects one body's name in Article 26(11)(b) ("Conselho Nacional da Juventude"
+      to "Conselho Consultivo da Juventude"). Decreto-Lei n.º 139/2026, of 10 July
+      2026, amends only Article 33, on the administration of State real estate.
+      The quote is an extract, not the whole decree: it reproduces Articles 1, 2 and 4,
+      the heading of Section III, Articles 11, 12, 13, 15, 18, 20 to 27 and Article 40
+      of a 41-article instrument, in the order the gazette prints them, and every
+      elision is marked. Quotation convention: each line is verbatim as printed, with
+      section, article and article-subject headings on their own lines; a trailing
+      "[...]" marks truncation of the remainder of that sentence or paragraph; a
+      standalone "[...]" line marks paragraphs omitted inside a quoted article;
+      articles not reproduced are simply absent. Nothing inside a quoted line is
+      altered. The twelve Section III articles quoted here are every occurrence in the
+      decree of the formula constituting a ministério; Articles 14, 16, 17 and 19
+      define the competences of the other four ministers without creating a department
+      for them.
+
+  - id: dre-dpr-47-c-2025
+    tier: 1
+    type: official_gazette
+    publisher: Diário da República
+    title: >-
+      Decreto do Presidente da República n.º 47-C/2025, de 5 de junho — nomeação dos
+      ministros do XXV Governo Constitucional
+    url: https://files.diariodarepublica.pt/1s/2025/06/10801/0000400005.pdf
+    archive_url: https://web.archive.org/web/20251206032801/https://files.diariodarepublica.pt/1s/2025/06/10801/0000400005.pdf
+    lang: pt
+    published: 2025-06-05
+    accessed: 2026-07-27
+    quote: |-
+      O Presidente da República decreta, nos termos do artigo 133.º, alínea h), da Constituição, o seguinte:
+      São nomeados, sob proposta do Primeiro-Ministro:
+      Paulo Artur dos Santos de Castro de Campos Rangel, Ministro de Estado e dos Negócios Estrangeiros;
+      Joaquim José Miranda Sarmento, Ministro de Estado e das Finanças;
+      António Egrejas Leitão Amaro, Ministro da Presidência;
+      Manuel Castro Almeida, Ministro da Economia e da Coesão Territorial;
+      Gonçalo Nuno da Cruz Saraiva Matias, Ministro Adjunto e da Reforma do Estado;
+      Carlos Eduardo Almeida de Abreu Amorim, Ministro dos Assuntos Parlamentares;
+      João Nuno Lacerda Teixeira de Melo, Ministro da Defesa Nacional;
+      Miguel Martinez de Castro Pinto Luz, Ministro das Infraestruturas e Habitação;
+      Rita Fragoso de Rhodes Alarcão Júdice de Abreu e Mota, Ministra da Justiça;
+      Maria Lúcia da Conceição Abrantes Amaral, Ministra da Administração Interna;
+      Fernando Manuel de Almeida Alexandre, Ministro da Educação, Ciência e Inovação;
+      Ana Paula Mecheiro de Almeida Martins Silvestre Correia, Ministra da Saúde;
+      Maria do Rosário Valente Rebelo Pinto Palma Ramalho, Ministra do Trabalho, Solidariedade e Segurança Social;
+      Maria da Graça Martins da Silva Carvalho, Ministra do Ambiente e Energia;
+      Ana Margarida Balseiro de Sousa Lopes, Ministra da Cultura, Juventude e Desporto;
+      José Manuel Ferreira Fernandes, Ministro da Agricultura e Mar.
+      Assinado em 5 de junho de 2025.
+    note: >-
+      The appointment decree, published in Suplemento 1 to DR n.º 108, 1.ª série. It
+      fixes took_office at 5 June 2025 and shows that all sixteen ministerial offices
+      of Article 2 were actually filled — including the four that head no ministry,
+      which is why they are recorded here rather than omitted. Cited for the offices,
+      not the officeholders: this dataset does not record who currently holds them, and
+      at least one has changed since.
+
+  - id: dre-dpr-47-b-2025
+    tier: 1
+    type: official_gazette
+    publisher: Diário da República
+    title: >-
+      Decreto do Presidente da República n.º 47-B/2025, de 5 de junho — nomeação do
+      Primeiro-Ministro do XXV Governo Constitucional
+    url: https://files.diariodarepublica.pt/1s/2025/06/10801/0000300003.pdf
+    archive_url: https://web.archive.org/web/20251206024556/https://files.diariodarepublica.pt/1s/2025/06/10801/0000300003.pdf
+    lang: pt
+    published: 2025-06-05
+    accessed: 2026-07-27
+    quote: |-
+      O Presidente da República decreta, nos termos do artigo 133.º, alínea f), da Constituição, o seguinte:
+      É nomeado Primeiro-Ministro do XXV Governo Constitucional Luís Filipe Montenegro Cardoso de Morais Esteves.
+      Assinado em 5 de junho de 2025.
+    note: >-
+      Establishes that the cabinet recorded in this file is the XXV Governo
+      Constitucional and that its head of government took office on 5 June 2025. Cited
+      on the Presidência do Conselho de Ministros entity, which is what carries the
+      Prime Minister's cabinet seat.
+
+  - id: portugal-gov-gc25-posse
+    tier: 2
+    type: government_website
+    publisher: Governo da República Portuguesa — XXV Governo Constitucional
+    title: XXV Governo Constitucional tomou posse
+    url: "https://www.portugal.gov.pt/pt/gc25/comunicacao/noticia?i=xxv-governo-constitucional-tomou-posse"
+    archive_url: "https://web.archive.org/web/20250618154233/https://www.portugal.gov.pt/pt/gc25/comunicacao/noticia?i=xxv-governo-constitucional-tomou-posse"
+    lang: pt
+    published: 2025-06-05
+    accessed: 2026-07-27
+    quote: >-
+      O Primeiro-Ministro Luís Montenegro e os 16 Ministros que compõem o XXV Governo
+      Constitucional tomaram posse numa cerimónia presidida pelo Presidente da
+      República, Marcelo Rebelo de Sousa, no Palácio Nacional da Ajuda, em Lisboa. O
+      novo Executivo é composto por 16 Ministérios, menos um do que o Governo anterior,
+      refletindo uma reorganização estrutural que visa reforçar a eficácia da ação
+      governativa e responder de forma mais direta aos desafios atuais.
+    note: >-
+      The Government's own account of the swearing-in, and the source that disagrees
+      with the decree: it counts sixteen ministries where Decreto-Lei n.º 87-A/2025
+      constitutes twelve. Recorded deliberately, cited on every entity whose
+      classification the disagreement affects, and explained in methodology_notes; the
+      tier-1 instrument is followed. The snapshot is from 18 June 2025 because it is
+      the earliest capture of this page that is not a 403, and the page is a dated news
+      item that has not changed since.
+
+entities:
+  - id: PT-2025-negocios-estrangeiros
+    order: 1
+    name_original: Ministério dos Negócios Estrangeiros
+    abbreviation_original: null
+    name_en: Ministry of Foreign Affairs
+    name_es: Ministerio de Asuntos Exteriores
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro/a de Estado e dos Negócios Estrangeiros
+    head_title_en: Minister of State and Foreign Affairs
+    has_cabinet_seat: true
+    policy_areas: [foreign_affairs, european_affairs, development_cooperation, diaspora]
+    counts_as_ministry: true
+    url: https://portugal.gov.pt/pt/gc25/area-de-governo/negocios-estrangeiros
+    sources: [dre-dl-87-a-2025, dre-dpr-47-c-2025]
+    note:
+      en: >-
+        Its minister also carries the precedence title "Ministro de Estado". Under
+        Article 7 that title only fixes who stands in for the Prime Minister; it adds
+        neither a department nor a seat.
+      es: >-
+        Su titular ostenta además el título de precedencia «Ministro de Estado». Según
+        el artículo 7, ese título solo determina quién sustituye al primer ministro; no
+        añade departamento ni asiento.
+
+  - id: PT-2025-financas
+    order: 2
+    name_original: Ministério das Finanças
+    abbreviation_original: null
+    name_en: Ministry of Finance
+    name_es: Ministerio de Finanzas
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro/a de Estado e das Finanças
+    head_title_en: Minister of State and Finance
+    has_cabinet_seat: true
+    policy_areas: [finance, budget, public_administration, state_assets]
+    counts_as_ministry: true
+    url: https://portugal.gov.pt/pt/gc25/area-de-governo/financas
+    sources: [dre-dl-87-a-2025, dre-dpr-47-c-2025]
+    note:
+      en: >-
+        Article 12(1) gives it "políticas para a Administração Pública e o emprego
+        público" alongside State finances, which is why public administration is tagged
+        here as well as being a responsibility of two ministers inside the Presidência
+        do Conselho de Ministros. Article 12(7) leaves it the residual shareholder
+        function over State-owned enterprises, hence state_assets.
+      es: >-
+        El artículo 12(1) le atribuye «políticas para a Administração Pública e o
+        emprego público» junto con las finanzas del Estado, y de ahí la etiqueta de
+        administración pública, que además comparten dos ministros integrados en la
+        Presidência do Conselho de Ministros. El artículo 12(7) le deja la función
+        accionarial residual sobre el sector empresarial del Estado, de ahí
+        state_assets.
+
+  - id: PT-2025-ministro-presidencia
+    order: 3
+    name_original: Ministro da Presidência
+    abbreviation_original: null
+    name_en: Minister of the Presidency
+    name_es: Ministro de la Presidencia
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro/a da Presidência
+    head_title_en: Minister of the Presidency
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    url: https://portugal.gov.pt/pt/gc25/area-de-governo/presidencia
+    sources: [dre-dl-87-a-2025, dre-dpr-47-c-2025, portugal-gov-gc25-posse]
+    note:
+      en: >-
+        No "Ministério da Presidência" exists. Article 13(3)(a) integrates this
+        minister in the Presidência do Conselho de Ministros, and Article 14 defines
+        his competences — preparing and coordinating the Council of Ministers,
+        inter-ministerial coordination, migration, media, the Sustainable Development
+        Goals, and superintendence of the national statistical institute — without
+        constituting a department. Recorded because he sits in the Council of
+        Ministers. The Government's portal counts this area as one of "16 Ministérios".
+      es: >-
+        No existe ningún «Ministério da Presidência». El artículo 13(3)(a) integra a
+        este ministro en la Presidência do Conselho de Ministros, y el artículo 14
+        define sus competencias —preparar y coordinar el Consejo de Ministros,
+        coordinación interministerial, migraciones, comunicación social, Objetivos de
+        Desarrollo Sostenible y la tutela del instituto nacional de estadística— sin
+        constituir departamento. Se registra porque forma parte del Consejo de
+        Ministros. El portal del Gobierno cuenta esta área como uno de los «16
+        Ministérios».
+
+  - id: PT-2025-economia-coesao-territorial
+    order: 4
+    name_original: Ministério da Economia e da Coesão Territorial
+    abbreviation_original: null
+    name_en: Ministry of Economy and Territorial Cohesion
+    name_es: Ministerio de Economía y Cohesión Territorial
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro/a da Economia e da Coesão Territorial
+    head_title_en: Minister of Economy and Territorial Cohesion
+    has_cabinet_seat: true
+    policy_areas:
+      [
+        economy,
+        territorial_administration,
+        regional_development,
+        industry,
+        trade,
+        tourism,
+        consumer_protection,
+        spatial_planning,
+        reconstruction,
+      ]
+    counts_as_ministry: true
+    url: https://portugal.gov.pt/pt/gc25/area-de-governo/economia-e-coesao-territorial
+    sources: [dre-dl-87-a-2025, dre-dpr-47-c-2025]
+    note:
+      en: >-
+        The widest portfolio in this government: Article 15(1) merges economic policy
+        (competitiveness, industry, trade, services, tourism, consumer protection) with
+        territorial cohesion (local government, spatial planning, regional development,
+        European territorial cooperation), and Article 15(2) adds management of EU
+        cohesion funds and of the Recovery and Resilience Plan, which is what the
+        "reconstruction" tag records.
+      es: >-
+        La cartera más amplia de este gobierno: el artículo 15(1) une la política
+        económica (competitividad, industria, comercio, servicios, turismo, defensa del
+        consumidor) con la cohesión territorial (administración local, ordenación del
+        territorio, desarrollo regional, cooperación territorial europea), y el
+        artículo 15(2) añade la gestión de los fondos de cohesión de la UE y del Plan
+        de Recuperación y Resiliencia, que es lo que registra la etiqueta
+        «reconstruction».
+
+  - id: PT-2025-ministro-reforma-estado
+    order: 5
+    name_original: Ministro Adjunto e da Reforma do Estado
+    abbreviation_original: null
+    name_en: Deputy Minister and Minister for State Reform
+    name_es: Ministro Adjunto y de la Reforma del Estado
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro/a Adjunto e da Reforma do Estado
+    head_title_en: Deputy Minister and Minister for State Reform
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    url: https://portugal.gov.pt/pt/gc25/area-de-governo/reforma-do-estado
+    sources: [dre-dl-87-a-2025, dre-dpr-47-c-2025, portugal-gov-gc25-posse]
+    note:
+      en: >-
+        The clearest case of the gap between the two sources. The Government's news
+        release calls this "o recém-criado Ministério da Reforma do Estado", but no
+        such ministry is constituted: Article 13(3)(b) places the minister in the
+        Presidência do Conselho de Ministros and Article 16 gives him cross-cutting
+        powers of intervention over services belonging to other ministries — public
+        administration reform, simplification and digitalisation — expressly listing
+        directorates-general that remain in Finance, Economy, Justice, Health,
+        Education, Environment and Agriculture. A transversal mandate over other
+        departments is not a department.
+      es: >-
+        El caso más claro de la discrepancia entre las dos fuentes. La nota de prensa
+        del Gobierno lo llama «o recém-criado Ministério da Reforma do Estado», pero no
+        se constituye tal ministerio: el artículo 13(3)(b) sitúa al ministro en la
+        Presidência do Conselho de Ministros y el artículo 16 le da poderes
+        transversales de intervención sobre servicios de otros ministerios —reforma de
+        la Administración Pública, simplificación y digitalización— enumerando
+        expresamente direcciones generales que siguen en Finanzas, Economía, Justicia,
+        Sanidad, Educación, Medio Ambiente y Agricultura. Un mandato transversal sobre
+        otros departamentos no es un departamento.
+
+  - id: PT-2025-ministro-assuntos-parlamentares
+    order: 6
+    name_original: Ministro dos Assuntos Parlamentares
+    abbreviation_original: null
+    name_en: Minister of Parliamentary Affairs
+    name_es: Ministro de Asuntos Parlamentarios
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro/a dos Assuntos Parlamentares
+    head_title_en: Minister of Parliamentary Affairs
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    url: https://portugal.gov.pt/pt/gc25/area-de-governo/assuntos-parlamentares
+    sources: [dre-dl-87-a-2025, dre-dpr-47-c-2025, portugal-gov-gc25-posse]
+    note:
+      en: >-
+        The least contestable of the four exclusions. Article 17 is one sentence long —
+        the minister "acompanha a atividade parlamentar e assegura as relações do
+        Governo com a Assembleia da República e com os grupos parlamentares" — with no
+        services, no agencies and no department; Article 13(3)(c) places him in the
+        Presidência do Conselho de Ministros. He holds a Council of Ministers seat.
+      es: >-
+        La menos discutible de las cuatro exclusiones. El artículo 17 tiene una sola
+        frase —el ministro «acompanha a atividade parlamentar e assegura as relações do
+        Governo com a Assembleia da República e com os grupos parlamentares»— sin
+        servicios, sin organismos y sin departamento; el artículo 13(3)(c) lo sitúa en
+        la Presidência do Conselho de Ministros. Ocupa asiento en el Consejo de
+        Ministros.
+
+  - id: PT-2025-defesa-nacional
+    order: 7
+    name_original: Ministério da Defesa Nacional
+    abbreviation_original: null
+    name_en: Ministry of National Defence
+    name_es: Ministerio de Defensa Nacional
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro/a da Defesa Nacional
+    head_title_en: Minister of National Defence
+    has_cabinet_seat: true
+    policy_areas: [defence]
+    counts_as_ministry: true
+    url: https://portugal.gov.pt/pt/gc25/area-de-governo/defesa-nacional
+    sources: [dre-dl-87-a-2025, dre-dpr-47-c-2025]
+
+  - id: PT-2025-ministro-infraestruturas-habitacao
+    order: 8
+    name_original: Ministro das Infraestruturas e Habitação
+    abbreviation_original: null
+    name_en: Minister of Infrastructure and Housing
+    name_es: Ministro de Infraestructuras y Vivienda
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro/a das Infraestruturas e Habitação
+    head_title_en: Minister of Infrastructure and Housing
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    url: https://portugal.gov.pt/pt/gc25/area-de-governo/infraestruturas-e-habitacao
+    sources: [dre-dl-87-a-2025, dre-dpr-47-c-2025, portugal-gov-gc25-posse]
+    note:
+      en: >-
+        The hardest call in this file, and the one most likely to be decided
+        differently. This minister has an unmistakable portfolio — mobility, land, air
+        and maritime transport, communications, ports, housing, urban regeneration,
+        construction and public procurement — and directs services and State-owned
+        companies of his own under Article 19. What he does not have is a ministério:
+        Article 19 is headed "Ministro das Infraestruturas e Habitação", not
+        "Infraestruturas e Habitação" like the twelve ministry articles, it never uses
+        the constituting formula, Article 13(3)(d) integrates him in the Presidência do
+        Conselho de Ministros, and Article 13(7) has that department provide the
+        support services for the bodies under him. Excluded because the definition this
+        project applies asks for a department; if you read the portfolio rather than
+        the instrument, count 13.
+      es: >-
+        La decisión más difícil de este fichero y la que otro curador cambiaría con más
+        facilidad. Este ministro tiene una cartera inequívoca —movilidad, transportes
+        terrestres, aéreos y marítimos, comunicaciones, puertos, vivienda,
+        rehabilitación urbana, construcción y contratación pública— y dirige servicios
+        y empresas públicas propios según el artículo 19. Lo que no tiene es un
+        ministério: el artículo 19 se titula «Ministro das Infraestruturas e
+        Habitação», no «Infraestruturas e Habitação» como los doce artículos de
+        ministerio, nunca emplea la fórmula constitutiva, el artículo 13(3)(d) lo
+        integra en la Presidência do Conselho de Ministros y el artículo 13(7) atribuye
+        a ese departamento los servicios de apoyo de los organismos que de él dependen.
+        Se excluye porque la definición que aplica este proyecto exige un departamento;
+        quien lea la cartera en lugar del instrumento contará 13.
+
+  - id: PT-2025-justica
+    order: 9
+    name_original: Ministério da Justiça
+    abbreviation_original: null
+    name_en: Ministry of Justice
+    name_es: Ministerio de Justicia
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro/a da Justiça
+    head_title_en: Minister of Justice
+    has_cabinet_seat: true
+    policy_areas: [justice]
+    counts_as_ministry: true
+    url: https://portugal.gov.pt/pt/gc25/area-de-governo/justica
+    sources: [dre-dl-87-a-2025, dre-dpr-47-c-2025]
+
+  - id: PT-2025-administracao-interna
+    order: 10
+    name_original: Ministério da Administração Interna
+    abbreviation_original: null
+    name_en: Ministry of Home Affairs
+    name_es: Ministerio del Interior
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro/a da Administração Interna
+    head_title_en: Minister of Home Affairs
+    has_cabinet_seat: true
+    policy_areas: [interior, civil_protection]
+    counts_as_ministry: true
+    url: https://portugal.gov.pt/pt/gc25/area-de-governo/administracao-interna
+    sources: [dre-dl-87-a-2025, dre-dpr-47-c-2025]
+    note:
+      en: >-
+        Article 21(1) also gives it road safety and electoral administration, neither
+        of which has an id in the project's policy-area vocabulary; they are left
+        untagged rather than folded into a neighbouring area. Border control sits here,
+        but migration and asylum policy does not: Article 14 assigns those to the
+        Minister of the Presidency, so this ministry is not tagged with migration.
+      es: >-
+        El artículo 21(1) le atribuye además la seguridad viaria y la administración
+        electoral, y ninguna de las dos tiene id en el vocabulario de áreas del
+        proyecto; se dejan sin etiquetar en lugar de asimilarlas a un área vecina. El
+        control de fronteras está aquí, pero la política de migración y asilo no: el
+        artículo 14 se la asigna al ministro de la Presidencia, por lo que este
+        ministerio no lleva la etiqueta de migración.
+
+  - id: PT-2025-educacao-ciencia-inovacao
+    order: 11
+    name_original: Ministério da Educação, Ciência e Inovação
+    abbreviation_original: null
+    name_en: Ministry of Education, Science and Innovation
+    name_es: Ministerio de Educación, Ciencia e Innovación
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro/a da Educação, Ciência e Inovação
+    head_title_en: Minister of Education, Science and Innovation
+    has_cabinet_seat: true
+    policy_areas: [education, research, innovation, higher_education, vocational_training, space]
+    counts_as_ministry: true
+    url: https://portugal.gov.pt/pt/gc25/area-de-governo/educacao-ciencia-e-inovacao
+    sources: [dre-dl-87-a-2025, dre-dpr-47-c-2025]
+    note:
+      en: >-
+        Space is tagged because Article 22(2) names it explicitly among the ministry's
+        missions. Vocational training is tagged here on the strength of Article 22(1)
+        ("articular as políticas nacionais de qualificação e de formação
+        profissional"), although Article 24(1) gives the Ministry of Labour its own
+        vocational-training mandate; a curator could reasonably tag it on both.
+      es: >-
+        Se etiqueta «space» porque el artículo 22(2) menciona expresamente el espacio
+        entre sus misiones. La formación profesional se etiqueta aquí por el artículo
+        22(1) («articular as políticas nacionais de qualificação e de formação
+        profissional»), aunque el artículo 24(1) da al Ministerio de Trabajo su propio
+        mandato en formación profesional; sería razonable etiquetarla en ambos.
+
+  - id: PT-2025-saude
+    order: 12
+    name_original: Ministério da Saúde
+    abbreviation_original: null
+    name_en: Ministry of Health
+    name_es: Ministerio de Sanidad
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro/a da Saúde
+    head_title_en: Minister of Health
+    has_cabinet_seat: true
+    policy_areas: [health]
+    counts_as_ministry: true
+    url: https://portugal.gov.pt/pt/gc25/area-de-governo/saude
+    sources: [dre-dl-87-a-2025, dre-dpr-47-c-2025]
+
+  - id: PT-2025-trabalho-solidariedade-seguranca-social
+    order: 13
+    name_original: Ministério do Trabalho, Solidariedade e Segurança Social
+    abbreviation_original: null
+    name_en: Ministry of Labour, Solidarity and Social Security
+    name_es: Ministerio de Trabajo, Solidaridad y Seguridad Social
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro/a do Trabalho, Solidariedade e Segurança Social
+    head_title_en: Minister of Labour, Solidarity and Social Security
+    has_cabinet_seat: true
+    policy_areas: [labour, social_affairs, social_security, family, disability, elderly]
+    counts_as_ministry: true
+    url: https://portugal.gov.pt/pt/gc25/area-de-governo/trabalho-solidariedade-e-seguranca-social
+    sources: [dre-dl-87-a-2025, dre-dpr-47-c-2025]
+    note:
+      en: >-
+        Family, disability and ageing are tagged from Article 24(1), which names
+        support for families, children and young people at risk, the elderly and
+        birth rates, and the inclusion of people with disabilities, alongside
+        employment, labour relations, solidarity and social security.
+      es: >-
+        Familia, discapacidad y envejecimiento se etiquetan a partir del artículo
+        24(1), que menciona el apoyo a la familia, a niños y jóvenes en riesgo, a los
+        mayores y a la natalidad, y la inclusión de las personas con discapacidad,
+        junto al empleo, las relaciones laborales, la solidaridad y la seguridad
+        social.
+
+  - id: PT-2025-ambiente-energia
+    order: 14
+    name_original: Ministério do Ambiente e Energia
+    abbreviation_original: null
+    name_en: Ministry of Environment and Energy
+    name_es: Ministerio de Medio Ambiente y Energía
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro/a do Ambiente e Energia
+    head_title_en: Minister of Environment and Energy
+    has_cabinet_seat: true
+    policy_areas: [environment, energy, climate, water, mining]
+    counts_as_ministry: true
+    url: https://portugal.gov.pt/pt/gc25/area-de-governo/ambiente-e-energia
+    sources: [dre-dl-87-a-2025, dre-dpr-47-c-2025]
+    note:
+      en: >-
+        Article 25(1) lists environment, water, waste, climate, coastal protection,
+        nature conservation, biodiversity, energy and geology. It is not tagged with
+        spatial planning: the planning of the coastline and of rural land is its own,
+        but general spatial planning belongs to the Ministry of Economy and Territorial
+        Cohesion.
+      es: >-
+        El artículo 25(1) enumera medio ambiente, agua, residuos, clima, protección del
+        litoral, conservación de la naturaleza, biodiversidad, energía y geología. No se
+        etiqueta con ordenación del territorio: la del litoral y del suelo rústico es
+        suya, pero la ordenación general corresponde al Ministerio de Economía y
+        Cohesión Territorial.
+
+  - id: PT-2025-cultura-juventude-desporto
+    order: 15
+    name_original: Ministério da Cultura, Juventude e Desporto
+    abbreviation_original: null
+    name_en: Ministry of Culture, Youth and Sport
+    name_es: Ministerio de Cultura, Juventud y Deporte
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro/a da Cultura, Juventude e Desporto
+    head_title_en: Minister of Culture, Youth and Sport
+    has_cabinet_seat: true
+    policy_areas: [culture, youth, sport, equality]
+    counts_as_ministry: true
+    url: https://portugal.gov.pt/pt/gc25/area-de-governo/cultura-juventude-e-desporto
+    sources: [dre-dl-87-a-2025, dre-dpr-47-c-2025]
+    note:
+      en: >-
+        Equality is tagged because Article 26(1) puts citizenship and equality here,
+        including the prevention of violence against women, domestic violence and any
+        form of discrimination, and Article 26(2) places the Comissão para a Cidadania
+        e a Igualdade de Género under this minister. Portugal therefore has no separate
+        equality ministry, which a comparison by ministry name would miss.
+      es: >-
+        Se etiqueta igualdad porque el artículo 26(1) sitúa aquí la ciudadanía y la
+        igualdad, incluida la prevención de la violencia contra las mujeres, la
+        violencia doméstica y toda forma de discriminación, y el artículo 26(2) coloca
+        la Comissão para a Cidadania e a Igualdade de Género bajo esta ministra.
+        Portugal no tiene, por tanto, un ministerio de igualdad separado, algo que una
+        comparación por nombres no vería.
+
+  - id: PT-2025-agricultura-mar
+    order: 16
+    name_original: Ministério da Agricultura e Mar
+    abbreviation_original: null
+    name_en: Ministry of Agriculture and Maritime Affairs
+    name_es: Ministerio de Agricultura y Mar
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministro/a da Agricultura e Mar
+    head_title_en: Minister of Agriculture and Maritime Affairs
+    has_cabinet_seat: true
+    policy_areas: [agriculture, fisheries, food_safety, forestry, rural_development, animal_welfare]
+    counts_as_ministry: true
+    url: https://portugal.gov.pt/pt/gc25/area-de-governo/agricultura-e-mar
+    sources: [dre-dl-87-a-2025, dre-dpr-47-c-2025]
+    note:
+      en: >-
+        Article 27(1) covers food, agriculture, silviculture, forests, rural
+        development, animal welfare, hunting, fisheries and aquaculture; Article 27(2)
+        adds cross-cutting responsibility for maritime affairs and the Estratégia
+        Nacional para o Mar, which the "fisheries and maritime affairs" tag carries.
+        Commercial ports are not tagged here: Article 19 gives those to the Minister of
+        Infrastructure and Housing, with this ministry retaining fishing ports.
+      es: >-
+        El artículo 27(1) abarca alimentación, agricultura, silvicultura, bosques,
+        desarrollo rural, bienestar animal, actividad cinegética, pesca y acuicultura;
+        el artículo 27(2) añade la responsabilidad transversal sobre los asuntos del
+        mar y la Estratégia Nacional para o Mar, que recoge la etiqueta de pesca y
+        asuntos marítimos. Los puertos comerciales no se etiquetan aquí: el artículo 19
+        los asigna al ministro de Infraestructuras y Vivienda, quedando para este
+        ministerio los puertos de pesca.
+
+  # --- recorded, not counted ---------------------------------------------------
+  - id: PT-2025-presidencia-conselho-ministros
+    order: 17
+    name_original: Presidência do Conselho de Ministros
+    abbreviation_original: null
+    name_en: Presidency of the Council of Ministers
+    name_es: Presidencia del Consejo de Ministros
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Primeiro-Ministro
+    head_title_en: Prime Minister
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: head_of_government_office
+    url: https://portugal.gov.pt/gc25/primeiro-ministro
+    sources: [dre-dl-87-a-2025, dre-dpr-47-b-2025, portugal-gov-gc25-posse]
+    note:
+      en: >-
+        The department of the head of government, and the entity that carries his
+        cabinet seat. Article 13(1) calls it "o departamento central do Governo" whose
+        mission is to support the Council of Ministers, the Prime Minister and the
+        members of the Government within it; Article 6(3) leaves the Prime Minister the
+        powers over everything in it not assigned to those members. Not counted as a
+        ministry: Section III never applies the constituting formula to it, and this
+        project excludes the office of the head of government by default. It is also
+        the reason four ministers above are recorded but not counted — Article 13(3)
+        puts them here.
+      es: >-
+        El departamento del jefe de gobierno y la entidad que lleva su asiento en el
+        gabinete. El artículo 13(1) la llama «o departamento central do Governo», cuya
+        misión es apoyar al Consejo de Ministros, al primer ministro y a los miembros
+        del Gobierno integrados en ella; el artículo 6(3) reserva al primer ministro
+        los poderes sobre todo lo que contiene y no esté atribuido a esos miembros. No
+        se cuenta como ministerio: la sección III nunca le aplica la fórmula
+        constitutiva y este proyecto excluye por defecto la oficina del jefe de
+        gobierno. Es también la razón por la que cuatro ministros anteriores se
+        registran sin contarse: el artículo 13(3) los sitúa aquí.
+
+  - id: PT-2025-secretario-estado-pcm
+    order: 18
+    name_original: Secretário de Estado da Presidência do Conselho de Ministros
+    abbreviation_original: null
+    name_en: Secretary of State to the Presidency of the Council of Ministers
+    name_es: Secretario de Estado de la Presidencia del Consejo de Ministros
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Secretário/a de Estado
+    head_title_en: Secretary of State
+    has_cabinet_seat: false
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: junior_minister_or_state_secretary
+    url: null
+    sources: [dre-dl-87-a-2025]
+    note:
+      en: >-
+        The only one of the government's 43 secretaries of State recorded here, because
+        he is the only one the decree admits to the Council of Ministers: Article 4(2)
+        has him attend "sem direito a voto" unless the Prime Minister rules otherwise,
+        and Article 5 has him chair the Reunião de Secretários de Estado in the absence
+        of the Minister of the Presidency. Attendance without a vote is not a cabinet
+        seat, so has_cabinet_seat is false and the cabinet remains 17 people; treating
+        him as a member would make it 18. Not counted as a ministry: Article 10 gives
+        secretaries of State no competence of their own beyond their private offices.
+      es: >-
+        El único de los 43 secretarios de Estado del Gobierno que se registra aquí,
+        porque es el único al que el decreto admite en el Consejo de Ministros: el
+        artículo 4(2) lo hace asistir «sem direito a voto» salvo decisión contraria del
+        primer ministro, y el artículo 5 le atribuye presidir la Reunião de Secretários
+        de Estado en ausencia del ministro de la Presidencia. Asistir sin voto no es
+        ocupar asiento, por lo que has_cabinet_seat es falso y el gabinete sigue siendo
+        de 17 personas; considerarlo miembro lo elevaría a 18. No se cuenta como
+        ministerio: el artículo 10 no atribuye a los secretarios de Estado competencia
+        propia más allá de sus gabinetes.

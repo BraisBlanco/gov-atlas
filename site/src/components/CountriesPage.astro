@@ -1,0 +1,222 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { countryName, formatDate, formatNumber, loadCountries, loadMetadata } from '../lib/data.ts';
+import { flagEmoji } from '../lib/flag.ts';
+import { localePath, translator, type Locale } from '../i18n/index.ts';
+
+/**
+ * The index of country pages.
+ *
+ * Sorted by name rather than by ministry count on purpose: the ranking already has two
+ * charts on the home page, and a reader who arrives here has a country in mind and wants
+ * to find it, not to be told again who is top.
+ */
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const t = translator(locale);
+
+const [countries, metadata] = await Promise.all([loadCountries(), loadMetadata()]);
+
+const rows = countries
+  .slice()
+  .sort((a, b) => countryName(a, locale).localeCompare(countryName(b, locale), locale));
+
+const pending = metadata.target_missing;
+---
+
+<BaseLayout locale={locale} title={t('countries.title')} description={t('countries.lede')}>
+  <div class="prose">
+    <h1>{t('countries.title')}</h1>
+    <p class="lede">{t('countries.lede')}</p>
+  </div>
+
+  <div class="wide">
+    <h2 class="section-head">{t('countries.covered')}</h2>
+    <ul class="country-grid">
+      {
+        rows.map((country) => (
+          <li class="country-card">
+            <a class="country-card-link" href={localePath(locale, `countries/${country.iso2}`)}>
+              <span class="country-card-heading">
+                {/* Decorative: the name says the same thing, so a reader on a screen reader
+                    hears the country once rather than "flag, Spain, Spain". */}
+                <span class="country-card-flag" aria-hidden="true">{flagEmoji(country.iso2)}</span>
+                <span class="country-card-name">{countryName(country, locale)}</span>
+              </span>
+              <span class="country-card-original" lang={country.official_languages[0]}>
+                {country.name_original}
+              </span>
+            </a>
+            <dl class="country-card-figures">
+              <div>
+                <dt>{t('table.ministries')}</dt>
+                <dd class="is-headline">{formatNumber(country.ministries_count, locale)}</dd>
+              </div>
+              <div>
+                <dt>{t('table.seats')}</dt>
+                <dd>{formatNumber(country.cabinet_seats_count, locale)}</dd>
+              </div>
+              <div>
+                <dt>{t('table.excluded')}</dt>
+                <dd>{formatNumber(country.excluded_count, locale)}</dd>
+              </div>
+              <div>
+                <dt>{t('table.grade')}</dt>
+                <dd>{country.quality.grade}</dd>
+              </div>
+            </dl>
+            <p class="country-card-cabinet">
+              {country.cabinet_name_original} · {t('country.tookOffice')}{' '}
+              {formatDate(country.took_office, locale)}
+            </p>
+          </li>
+        ))
+      }
+    </ul>
+
+    {
+      pending.length > 0 ? (
+        <section class="pending">
+          <h2 class="section-head">{t('countries.pending')}</h2>
+          <p>{t('countries.pendingNote', { count: pending.length })}</p>
+          <p class="pending-list">{pending.join(' · ')}</p>
+        </section>
+      ) : null
+    }
+  </div>
+
+  <style>
+    .lede {
+      font-size: var(--text-lg);
+      color: var(--text-secondary);
+    }
+
+    .section-head {
+      font-family: var(--font-sans);
+      font-size: var(--text-sm);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--text-secondary);
+      border-bottom: 1px solid var(--axis);
+      padding-bottom: var(--space-2);
+      margin-bottom: var(--space-5);
+    }
+
+    .country-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+      gap: var(--space-5);
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .country-card {
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: var(--space-4);
+      background: var(--surface-1);
+    }
+
+    .country-card-link {
+      text-decoration: none;
+      display: block;
+    }
+
+    /* The whole card is the hit target; the name carries the underline so it still reads
+       as a link rather than as a mystery clickable rectangle. */
+    .country-card-link::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+    }
+
+    .country-card {
+      position: relative;
+    }
+
+    .country-card-heading {
+      display: flex;
+      align-items: baseline;
+      gap: var(--space-2);
+    }
+
+    /* Sized below the name and never underlined: the flag is an aid to scanning the grid,
+       not part of the link's label. Emoji fonts sit low on the baseline, so a flag matched
+       to the name's size reads as larger than it is. */
+    .country-card-flag {
+      flex: none;
+      font-size: var(--text-lg);
+      line-height: 1;
+      text-decoration: none;
+    }
+
+    .country-card-name {
+      display: block;
+      font-family: var(--font-serif);
+      font-size: var(--text-xl);
+      color: var(--link);
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+    }
+
+    .country-card-original {
+      display: block;
+      font-family: var(--font-sans);
+      font-size: var(--text-xs);
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    .country-card-figures {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-4);
+      margin: var(--space-4) 0 0;
+      font-family: var(--font-sans);
+    }
+
+    .country-card-figures dt {
+      font-size: var(--text-xs);
+      color: var(--text-secondary);
+    }
+
+    .country-card-figures dd {
+      margin: 0;
+      font-size: var(--text-lg);
+      font-variant-numeric: tabular-nums;
+      color: var(--text-primary);
+    }
+
+    .country-card-figures dd.is-headline {
+      font-size: var(--text-2xl);
+      font-weight: 600;
+    }
+
+    .country-card-cabinet {
+      margin: var(--space-3) 0 0;
+      font-family: var(--font-sans);
+      font-size: var(--text-xs);
+      color: var(--text-muted);
+    }
+
+    .pending {
+      margin-top: var(--space-8);
+      font-family: var(--font-sans);
+      font-size: var(--text-sm);
+      color: var(--text-secondary);
+      max-width: var(--measure);
+    }
+
+    .pending-list {
+      font-family: var(--font-mono);
+      color: var(--text-muted);
+    }
+  </style>
+</BaseLayout>

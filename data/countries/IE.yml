@@ -1,0 +1,46 @@
+# Ireland — country metadata.
+#
+# See docs/DATA-CONTRACT.md. The cabinet lives in data/cabinets/IE-2025-01-23.yml.
+#
+# name_original is "Éire" because article 4 of the Constitution says so: "The name of the
+# State is Éire, or, in the English language, Ireland." Both are official, and the State has
+# no longer-form official name, so official_name_original repeats it rather than inventing a
+# "Republic of Ireland" style that the Constitution does not use.
+
+iso2: IE
+iso3: IRL
+
+name_en: Ireland
+name_es: Irlanda
+name_original: Éire
+official_name_original: Éire
+
+continent: europe
+region: northern_europe
+eu_member_since: 1973-01-01
+government_system: parliamentary_republic
+official_languages: [ga, en]
+
+# Population carries its own citation because the country page publishes it as a figure in
+# its own right, not as a convenience constant.
+population:
+  value: 5458600
+  year: 2025
+  source:
+    id: cso-pme-april-2025
+    tier: 3
+    type: statistical_office
+    publisher: Central Statistics Office
+    title: Population and Migration Estimates, April 2025 — Key Findings
+    url: https://www.cso.ie/en/releasesandpublications/ep/p-pme/populationandmigrationestimatesapril2025/keyfindings/
+    archive_url: https://web.archive.org/web/20260727223619/https://www.cso.ie/en/releasesandpublications/ep/p-pme/populationandmigrationestimatesapril2025/keyfindings/
+    lang: en
+    published: 2025-08-26
+    accessed: 2026-07-27
+    quote: >-
+      In the 12 months to the end of April 2025: The population in Ireland rose by 78,300
+      people and now stands at 5,458,600 people.
+    note: >-
+      Ireland's population figure between censuses is an estimate produced by the statistical
+      office, which is why this is tier 3 rather than tier 1. The reference date is April
+      2025; the April 2026 estimate had not been published when this file was written.

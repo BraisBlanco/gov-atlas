@@ -1,0 +1,2165 @@
+# Poland — government structure of the Council of Ministers appointed on 13 December 2023
+# (third Tusk cabinet), as it stands after the reconstruction of 24 July 2025.
+#
+# Read docs/DATA-CONTRACT.md alongside this file. Four things to notice:
+#
+#   1. Nowhere does this file state "19". The count is derived from the entities below.
+#   2. Poland has no single instrument that enumerates its ministries. Ministries are
+#      created one at a time by rozporządzenie Rady Ministrów, and each minister's remit
+#      by a rozporządzenie Prezesa Rady Ministrów. The list of *ministers* comes from the
+#      presidential postanowienia in Monitor Polski; the list of *ministerstwa* comes from
+#      the 18 in-force remit regulations, each of which names the ministry that serves its
+#      minister. Those two lists do not have the same length — see note 2 below.
+#   3. There are 18 portfolio ministers but 19 ministries, because the Minister Finansów
+#      i Gospodarki is served by two of them: Ministerstwo Finansów and Ministerstwo
+#      Rozwoju i Technologii. That is the contested figure for Poland.
+#   4. Kancelaria Prezesa Rady Ministrów is recorded and deliberately not counted, and so
+#      are the three ministers who hold a seat without a department.
+
+country: PL
+cabinet_id: PL-2023-12-13
+
+cabinet_name_original: Rada Ministrów Donalda Tuska (trzeci rząd Donalda Tuska), X kadencja Sejmu
+cabinet_name_en: Council of Ministers of Poland (third Tusk cabinet), 10th Sejm
+cabinet_name_es: Consejo de Ministros de Polonia (tercer gobierno de Donald Tusk), X legislatura del Sejm
+
+head_of_government_title_original: Prezes Rady Ministrów
+head_of_government_title_en: Prime Minister
+
+took_office: 2023-12-13
+left_office: null
+
+methodology_notes:
+  - en: >-
+      Poland is counted here as having 19 ministries and 22 members of the Council of
+      Ministers. The two figures answer different questions and are never added. Of the 22
+      members, one is the Prime Minister, who holds a seat without a department; three are
+      ministers with a cabinet seat and no department at all; and 18 head a department. The
+      ministry count is 19 rather than 18 because one of those 18 ministers heads two
+      ministries — see the next note.
+    es: >-
+      Aquí se cuentan para Polonia 19 ministerios y 22 miembros del Consejo de Ministros.
+      Las dos cifras responden a preguntas distintas y nunca se suman. De los 22 miembros,
+      uno es el primer ministro, que ocupa asiento sin departamento; tres son ministros con
+      asiento en el gabinete y sin departamento alguno; y 18 encabezan un departamento. El
+      recuento de ministerios es 19 y no 18 porque uno de esos 18 ministros encabeza dos
+      ministerios: véase la nota siguiente.
+  - en: >-
+      The contested figure for Poland is 19 against 18, and the reason is the Minister
+      Finansów i Gospodarki. The reconstruction of 24 July 2025 merged the finance and
+      economy portfolios into one minister but did not merge the two ministries that serve
+      him. Paragraph 1(4) of the rozporządzenie of 25 July 2025 (Dz. U. 2025 poz. 997)
+      states in terms that his office is provided by "Ministerstwo Rozwoju i Technologii"
+      for construction, spatial planning, housing and the economy and by "Ministerstwo
+      Finansów" for the budget, public finances and financial institutions. That
+      regulation was still in force and unamended on 28 July 2026, no rozporządzenie Rady
+      Ministrów has merged, abolished or renamed either ministry, the Prime Minister gave
+      Ministerstwo Rozwoju i Technologii a fresh statute on 23 January 2026 (M.P. 2026
+      poz. 137), and the government's own directory of ministries lists both separately.
+      There is no legal entity called "Ministerstwo Finansów i Gospodarki". This dataset
+      therefore records two counted ministries with one shared minister and one cabinet
+      seat, which is the same treatment every other country in the dataset receives for a
+      minister holding two departments. A reader who prefers to count ministers rather than
+      ministries should read 18 wherever this site says 19 for Poland; the cabinet-seat
+      figure of 22 is unaffected either way.
+    es: >-
+      La cifra discutida en Polonia es 19 frente a 18, y la causa es el Minister Finansów
+      i Gospodarki. La remodelación del 24 de julio de 2025 unió las carteras de Hacienda y
+      Economía en un solo ministro, pero no fusionó los dos ministerios que le sirven. El
+      § 1 apartado 4 del reglamento del 25 de julio de 2025 (Dz. U. 2025 poz. 997) dice
+      expresamente que su despacho lo atiende el «Ministerstwo Rozwoju i Technologii» en
+      materia de construcción, ordenación del territorio, vivienda y economía, y el
+      «Ministerstwo Finansów» en materia de presupuesto, finanzas públicas e instituciones
+      financieras. Ese reglamento seguía vigente y sin modificar el 28 de julio de 2026,
+      ningún rozporządzenie del Consejo de Ministros ha fusionado, suprimido ni renombrado
+      ninguno de los dos ministerios, el primer ministro aprobó un nuevo estatuto para el
+      Ministerstwo Rozwoju i Technologii el 23 de enero de 2026 (M.P. 2026 poz. 137) y el
+      propio directorio gubernamental de ministerios los lista por separado. No existe
+      ninguna entidad jurídica llamada «Ministerstwo Finansów i Gospodarki». Este conjunto
+      de datos registra por tanto dos ministerios contados con un ministro compartido y un
+      único asiento en el gabinete, exactamente el mismo tratamiento que recibe cualquier
+      otro país cuando un ministro ostenta dos departamentos. Quien prefiera contar
+      ministros en lugar de ministerios debe leer 18 donde este sitio dice 19 para Polonia;
+      la cifra de 22 asientos no cambia en ningún caso.
+  - en: >-
+      No Polish instrument enumerates the ministries the way Spain's Real Decreto 829/2023
+      does. Article 39(1) of the ustawa o Radzie Ministrów has the Council of Ministers
+      create, abolish and transform a ministry one at a time by rozporządzenie, and article
+      33 has the Prime Minister fix each minister's remit by a separate rozporządzenie
+      naming the branches of government administration the minister runs and the ministry
+      that serves him. The enumeration used here is therefore built from two tier-1 layers.
+      The presidential postanowienia published in Monitor Polski give the exact list of
+      members of the Council of Ministers: the appointment of 13 December 2023 (M.P. 2023
+      poz. 1383) with the dismissals and appointments of 24 July 2025 (M.P. 2025 poz. 689
+      and 690) applied to it. The 18 in-force remit regulations then name the 19
+      ministerstwa. The Council of Ministers has not changed since 24 July 2025: Monitor
+      Polski contains no postanowienie o zmianie w składzie Rady Ministrów after that date,
+      and the Chancellery's own composition page as archived on 25 July 2026 lists exactly
+      these 22 offices.
+    es: >-
+      Ningún instrumento polaco enumera los ministerios como lo hace el Real Decreto
+      829/2023 español. El artículo 39.1 de la ustawa o Radzie Ministrów encarga al Consejo
+      de Ministros crear, suprimir y transformar cada ministerio de uno en uno mediante
+      rozporządzenie, y el artículo 33 encarga al primer ministro fijar el ámbito de cada
+      ministro mediante otro rozporządzenie que nombra los ramos de la administración que
+      dirige y el ministerio que le atiende. La enumeración empleada aquí se construye por
+      tanto con dos capas de nivel 1. Los postanowienia presidenciales publicados en el
+      Monitor Polski dan la lista exacta de los miembros del Consejo de Ministros: el
+      nombramiento del 13 de diciembre de 2023 (M.P. 2023 poz. 1383) con los ceses y
+      nombramientos del 24 de julio de 2025 (M.P. 2025 poz. 689 y 690) aplicados sobre él.
+      Los 18 reglamentos de ámbito vigentes nombran después los 19 ministerstwa. El Consejo
+      de Ministros no ha cambiado desde el 24 de julio de 2025: el Monitor Polski no
+      contiene ningún postanowienie o zmianie w składzie Rady Ministrów posterior a esa
+      fecha, y la página de composición de la Cancillería, archivada el 25 de julio de
+      2026, lista exactamente estos 22 cargos.
+  - en: >-
+      Kancelaria Prezesa Rady Ministrów is not a ministry and is not counted as one. It is
+      an urząd constituted by article 26 of the ustawa o Radzie Ministrów to serve the
+      Council of Ministers, the Prime Minister and the deputy prime ministers, it appears in
+      no rozporządzenie creating a ministerstwo, and it is absent from the government's own
+      directory of ministries. It is recorded because the Prime Minister sits in the Council
+      of Ministers under article 147(1) of the Constitution without heading a department,
+      which is the first reason the seat count exceeds the ministry count. Note that the
+      Chancellery accounts for two of the 22 seats, not one: the Prime Minister's, recorded
+      on this entity, and that of the Szef Kancelarii Prezesa Rady Ministrów, who is
+      separately appointed a Minister – Członek Rady Ministrów and is recorded as a minister
+      without portfolio further down the list.
+    es: >-
+      La Kancelaria Prezesa Rady Ministrów no es un ministerio y no se cuenta como tal. Es
+      un urząd constituido por el artículo 26 de la ustawa o Radzie Ministrów para atender
+      al Consejo de Ministros, al primer ministro y a los vicepresidentes, no aparece en
+      ningún rozporządzenie de creación de un ministerstwo y está ausente del directorio
+      gubernamental de ministerios. Se registra porque el primer ministro forma parte del
+      Consejo de Ministros conforme al artículo 147.1 de la Constitución sin encabezar
+      ningún departamento, y esa es la primera razón por la que los asientos superan a los
+      ministerios. Adviértase que la Cancillería aporta dos de los 22 asientos, no uno: el
+      del primer ministro, registrado en esta entidad, y el del Szef Kancelarii Prezesa Rady
+      Ministrów, nombrado aparte Minister – Członek Rady Ministrów y registrado más abajo
+      como ministro sin cartera.
+  - en: >-
+      Three members of the Council of Ministers hold a seat and no department. Article
+      149(1) of the Constitution draws the line explicitly: ministers "kierują określonymi
+      działami administracji rządowej lub wypełniają zadania wyznaczone im przez Prezesa
+      Rady Ministrów" — they either run branches of government administration or carry out
+      tasks assigned by the Prime Minister. The three in the second category are the
+      Minister do spraw Nadzoru nad Wdrażaniem Polityki Rządu, the Minister – Członek Rady
+      Ministrów who heads the Chancellery, and the Minister – Członek Rady Ministrów who
+      coordinates the special services. Each has a remit regulation of his own, and each of
+      those regulations ends with the same sentence: "Obsługę ministra zapewnia Kancelaria
+      Prezesa Rady Ministrów." None of them is served by a ministry, so each is a cabinet
+      seat and no ministry.
+    es: >-
+      Tres miembros del Consejo de Ministros ocupan asiento sin departamento. El artículo
+      149.1 de la Constitución traza la frontera de manera explícita: los ministros
+      «kierują określonymi działami administracji rządowej lub wypełniają zadania wyznaczone
+      im przez Prezesa Rady Ministrów», es decir, o dirigen ramos de la administración
+      gubernamental o desempeñan las tareas que les asigna el primer ministro. Los tres de
+      la segunda categoría son el Minister do spraw Nadzoru nad Wdrażaniem Polityki Rządu,
+      el Minister – Członek Rady Ministrów que dirige la Cancillería y el Minister – Członek
+      Rady Ministrów que coordina los servicios especiales. Cada uno tiene su propio
+      reglamento de ámbito, y todos terminan con la misma frase: «Obsługę ministra zapewnia
+      Kancelaria Prezesa Rady Ministrów.» A ninguno le atiende un ministerio, de modo que
+      cada uno es un asiento de gabinete y ningún ministerio.
+  - en: >-
+      The three deputy prime ministerships add neither a ministry nor a cabinet seat.
+      Article 147(3) of the Constitution allows a deputy prime minister to hold a ministry
+      as well, and all three currently do — national defence, foreign affairs and digital
+      affairs. The postanowienie of 24 July 2025 appoints each of them "na urzędy Wiceprezesa
+      Rady Ministrów i Ministra ...", one person and two offices, so each is counted once,
+      through his ministry. Which ministers hold the deputy prime ministerships changes with
+      reshuffles; the departmental structure does not, and only the latter is recorded here.
+    es: >-
+      Las tres vicepresidencias del Consejo de Ministros no añaden ni ministerio ni asiento.
+      El artículo 147.3 de la Constitución permite que un vicepresidente ostente además un
+      ministerio, y los tres actuales lo hacen: Defensa Nacional, Asuntos Exteriores y
+      Digitalización. El postanowienie del 24 de julio de 2025 nombra a cada uno «na urzędy
+      Wiceprezesa Rady Ministrów i Ministra …», una persona y dos cargos, por lo que cada
+      uno se cuenta una sola vez, a través de su ministerio. Quién ostenta las
+      vicepresidencias cambia con cada remodelación; la estructura departamental no, y aquí
+      sólo se registra esta última.
+  - en: >-
+      Four structural changes happened during this cabinet's term and are recorded with
+      valid_from and valid_to rather than by rewriting the list. Ministerstwo Edukacji i
+      Nauki served both the Minister Edukacji and the Minister Nauki until 31 December 2023,
+      and was split into Ministerstwo Edukacji Narodowej and Ministerstwo Nauki i
+      Szkolnictwa Wyższego on 1 January 2024. Ministerstwo Przemysłu was created on 1 March
+      2024 out of Ministerstwo Aktywów Państwowych. On 21 August 2025 Ministerstwo Przemysłu
+      became Ministerstwo Energii, absorbing the energy units of Ministerstwo Klimatu i
+      Środowiska. And the reconstruction of 24 July 2025 abolished four ministerial offices
+      that had no department — European Union affairs, equality, senior policy and civil
+      society — which is why the Council of Ministers went from 27 members to 22 without any
+      ministry being abolished. Two consequences a reader should know. This file records
+      departmental structure, not officeholders, so it does not reconstruct every personnel
+      change: a replay of an earlier date will give the ministries in place then, but not
+      necessarily every seat. And between 24 July and 20 August 2025 the Minister Energii
+      was briefly served by two ministries — Ministerstwo Klimatu i Środowiska for energy and
+      Ministerstwo Przemysłu for energy raw materials — because his remit regulation preceded
+      the reorganisation of the ministries by four weeks.
+    es: >-
+      Durante esta legislatura se produjeron cuatro cambios estructurales, registrados con
+      valid_from y valid_to en lugar de reescribiendo la lista. El Ministerstwo Edukacji i
+      Nauki atendía tanto al Minister Edukacji como al Minister Nauki hasta el 31 de
+      diciembre de 2023, y se escindió en Ministerstwo Edukacji Narodowej y Ministerstwo
+      Nauki i Szkolnictwa Wyższego el 1 de enero de 2024. El Ministerstwo Przemysłu se creó
+      el 1 de marzo de 2024 a partir del Ministerstwo Aktywów Państwowych. El 21 de agosto
+      de 2025 el Ministerstwo Przemysłu se convirtió en Ministerstwo Energii, absorbiendo las
+      unidades de energía del Ministerstwo Klimatu i Środowiska. Y la remodelación del 24 de
+      julio de 2025 suprimió cuatro cargos ministeriales sin departamento —asuntos de la
+      Unión Europea, igualdad, política sénior y sociedad civil—, razón por la cual el
+      Consejo de Ministros pasó de 27 miembros a 22 sin que se suprimiera ningún ministerio.
+      Dos consecuencias que conviene conocer. Este fichero registra la estructura
+      departamental, no a los titulares, por lo que no reconstruye cada cambio de personas:
+      una reconstrucción de una fecha anterior dará los ministerios entonces existentes, pero
+      no necesariamente todos los asientos. Y entre el 24 de julio y el 20 de agosto de 2025
+      el Minister Energii estuvo atendido brevemente por dos ministerios —Ministerstwo
+      Klimatu i Środowiska para energía y Ministerstwo Przemysłu para materias primas
+      energéticas—, porque su reglamento de ámbito precedió en cuatro semanas a la
+      reorganización de los ministerios.
+  - en: >-
+      In Poland the name of a ministry and the title of its minister are set by different
+      instruments and do not always match, and this file keeps both. The department called
+      Ministerstwo Edukacji Narodowej is headed by a minister whose office is simply
+      "Minister Edukacji"; the department called Ministerstwo Nauki i Szkolnictwa Wyższego
+      was headed until January 2025 by a "Minister Nauki" and since then by a "Minister
+      Nauki i Szkolnictwa Wyższego"; and the Minister Finansów i Gospodarki heads two
+      departments, neither of which carries his title. name_original always gives the
+      ministry as its own legal instrument spells it, never the minister's title.
+    es: >-
+      En Polonia el nombre de un ministerio y el título de su ministro los fijan
+      instrumentos distintos y no siempre coinciden; este fichero conserva ambos. El
+      departamento llamado Ministerstwo Edukacji Narodowej lo encabeza un ministro cuyo
+      cargo es simplemente «Minister Edukacji»; el departamento llamado Ministerstwo Nauki i
+      Szkolnictwa Wyższego lo encabezó hasta enero de 2025 un «Minister Nauki» y desde
+      entonces un «Minister Nauki i Szkolnictwa Wyższego»; y el Minister Finansów i
+      Gospodarki encabeza dos departamentos, ninguno de los cuales lleva su título.
+      name_original da siempre el ministerio tal como lo escribe su propio instrumento
+      jurídico, nunca el título del ministro.
+  - en: >-
+      All English and Spanish ministry names in this file are the project's own renderings
+      and are marked translated accordingly. Several Polish ministries do publish English
+      pages under gov.pl, but the English titles there are not uniform, no consolidated
+      official English list of ministry names exists, and an unverifiable claim of
+      officialness is worse than an understated one. The original Polish name is shown
+      alongside everywhere.
+    es: >-
+      Todos los nombres de ministerios en inglés y español de este fichero son traducciones
+      del proyecto y se marcan como tales. Varios ministerios polacos publican páginas en
+      inglés en gov.pl, pero los títulos ingleses no son uniformes, no existe ninguna lista
+      oficial consolidada de nombres de ministerios en inglés y una afirmación de oficialidad
+      no verificable es peor que una subestimada. El nombre polaco original se muestra
+      siempre al lado.
+  - en: >-
+      One policy area could not be tagged for want of a vocabulary id. Ministerstwo Aktywów
+      Państwowych runs the branch "łączność", which article 16 of the ustawa o działach
+      administracji rządowej defines as postal affairs — "Dział łączność obejmuje sprawy
+      poczty." The taxonomy has telecommunications but nothing for postal services, and
+      telecommunications is the wrong label here: under article 12a of the same statute
+      telecommunications belongs to the branch "informatyzacja" and therefore to
+      Ministerstwo Cyfryzacji. The state-assets ministry is consequently tagged with
+      state_assets alone, and its postal remit is invisible in the comparison views.
+    es: >-
+      Un área de política no ha podido etiquetarse por falta de un id en el vocabulario. El
+      Ministerstwo Aktywów Państwowych dirige el ramo «łączność», que el artículo 16 de la
+      ustawa o działach administracji rządowej define como asuntos postales: «Dział łączność
+      obejmuje sprawy poczty.» La taxonomía tiene telecommunications pero nada para los
+      servicios postales, y telecommunications sería aquí la etiqueta equivocada: conforme al
+      artículo 12a de la misma ley las telecomunicaciones pertenecen al ramo
+      «informatyzacja» y por tanto al Ministerstwo Cyfryzacji. En consecuencia el ministerio
+      de activos estatales sólo lleva state_assets, y su competencia postal es invisible en
+      las vistas comparativas.
+
+sources:
+  # --- the enumeration of the Council of Ministers ------------------------------------
+  - id: mp-2023-1383
+    tier: 1
+    type: official_gazette
+    publisher: Monitor Polski — Dziennik Urzędowy Rzeczypospolitej Polskiej
+    title: >-
+      Postanowienie Prezydenta Rzeczypospolitej Polskiej z dnia 13 grudnia 2023 r.
+      nr 1131.45.2023 o powołaniu w skład Rady Ministrów (M.P. 2023 poz. 1383)
+    url: https://monitorpolski.gov.pl/M2023000138301.pdf
+    archive_url: https://web.archive.org/web/20231215214924/https://monitorpolski.gov.pl/M2023000138301.pdf
+    lang: pl
+    published: 2023-12-13
+    accessed: 2026-07-28
+    quote: |-
+      Na podstawie art. 154 ust. 3 w związku z art. 147 Konstytucji Rzeczypospolitej Polskiej z dnia 2 kwietnia 1997 r., z dniem 13 grudnia 2023 r. powołuję w skład Rady Ministrów wybranej przez Sejm Rzeczypospolitej Polskiej:
+      Pana Władysława Kosiniaka-Kamysza – na urzędy Wiceprezesa Rady Ministrów i Ministra Obrony Narodowej
+      Pana Krzysztofa Gawkowskiego – na urzędy Wiceprezesa Rady Ministrów i Ministra Cyfryzacji
+      Pana Macieja Berka – na urząd Ministra – Członka Rady Ministrów
+      Pana Adama Bodnara – na urząd Ministra Sprawiedliwości
+      Panią Agnieszkę Buczyńską – na urzędy Ministra do spraw Społeczeństwa Obywatelskiego i Przewodniczącej Komitetu do spraw Pożytku Publicznego
+      Pana Borysa Budkę – na urząd Ministra Aktywów Państwowych
+      Panią Marzenę Czarnecką – na urząd Ministra Przemysłu
+      Pana Andrzeja Domańskiego – na urząd Ministra Finansów
+      Panią Agnieszkę Dziemianowicz-Bąk – na urząd Ministra Rodziny, Pracy i Polityki Społecznej
+      Pana Jana Grabca – na urząd Ministra – Członka Rady Ministrów
+      Panią Paulinę Hennig-Kloskę – na urząd Ministra Klimatu i Środowiska
+      Pana Krzysztofa Hetmana – na urząd Ministra Rozwoju i Technologii
+      Pana Marcina Kierwińskiego – na urząd Ministra Spraw Wewnętrznych i Administracji
+      Pana Dariusza Klimczaka – na urząd Ministra Infrastruktury
+      Panią Katarzynę Kotulę – na urząd Ministra do spraw Równości
+      Panią Izabelę Leszczynę – na urząd Ministra Zdrowia
+      Pana Sławomira Nitrasa – na urząd Ministra Sportu i Turystyki
+      Panią Barbarę Nowacką – na urząd Ministra Edukacji
+      Panią Marzenę Okłę-Drewnowicz – na urząd Ministra do spraw Polityki Senioralnej
+      Panią Katarzynę Pełczyńską-Nałęcz – na urząd Ministra Funduszy i Polityki Regionalnej
+      Pana Czesława Siekierskiego – na urząd Ministra Rolnictwa i Rozwoju Wsi
+      Pana Tomasza Siemoniaka – na urząd Ministra – Członka Rady Ministrów
+      Pana Bartłomieja Sienkiewicza – na urząd Ministra Kultury i Dziedzictwa Narodowego
+      Pana Radosława Sikorskiego – na urząd Ministra Spraw Zagranicznych
+      Pana Adama Szłapkę – na urząd Ministra do spraw Unii Europejskiej
+      Pana Dariusza Wieczorka – na urząd Ministra Nauki
+    note: >-
+      The instrument that constitutes this Council of Ministers, quoted in full: 26
+      ministers, to which the separately published appointment of the Prime Minister adds a
+      27th seat. It is the baseline for the entity list, and it names five offices that no
+      longer exist — Minister Przemysłu, Minister do spraw Społeczeństwa Obywatelskiego,
+      Minister do spraw Równości, Minister do spraw Polityki Senioralnej and Minister do
+      spraw Unii Europejskiej — plus one, Minister Finansów, that has since been widened
+      into Minister Finansów i Gospodarki. Note that it appoints offices, not ministries:
+      the word "Ministerstwo" does not appear in it. Line breaks that the gazette's
+      two-column typesetting introduces inside a single entry are closed up; no words are
+      altered.
+
+  - id: mp-2023-1382
+    tier: 1
+    type: official_gazette
+    publisher: Monitor Polski — Dziennik Urzędowy Rzeczypospolitej Polskiej
+    title: >-
+      Postanowienie Prezydenta Rzeczypospolitej Polskiej z dnia 13 grudnia 2023 r.
+      nr 1131.44.2023 o powołaniu Prezesa Rady Ministrów (M.P. 2023 poz. 1382)
+    url: https://monitorpolski.gov.pl/M2023000138201.pdf
+    archive_url: https://web.archive.org/web/20231215214914/https://monitorpolski.gov.pl/M2023000138201.pdf
+    lang: pl
+    published: 2023-12-13
+    accessed: 2026-07-28
+    quote: >-
+      Na podstawie art. 154 ust. 3 Konstytucji Rzeczypospolitej Polskiej z dnia 2 kwietnia
+      1997 r., w związku z wyborem dokonanym przez Sejm Rzeczypospolitej Polskiej, powołuję
+      Pana Donalda Franciszka Tuska na urząd Prezesa Rady Ministrów.
+    note: >-
+      Fixes took_office at 13 December 2023 and establishes the Prime Minister's own seat,
+      which is separate from the 26 appointments in poz. 1383 and is why the cabinet had 27
+      members at the start of the term.
+
+  - id: mp-2025-689
+    tier: 1
+    type: official_gazette
+    publisher: Monitor Polski — Dziennik Urzędowy Rzeczypospolitej Polskiej
+    title: >-
+      Postanowienie Prezydenta Rzeczypospolitej Polskiej z dnia 24 lipca 2025 r.
+      nr 1131.27.2025 o zmianie w składzie Rady Ministrów (M.P. 2025 poz. 689)
+    url: https://monitorpolski.gov.pl/M2025000068901.pdf
+    archive_url: https://web.archive.org/web/20260728102143/https://monitorpolski.gov.pl/M2025000068901.pdf
+    lang: pl
+    published: 2025-07-24
+    accessed: 2026-07-28
+    quote: |-
+      Na podstawie art. 161 Konstytucji Rzeczypospolitej Polskiej z dnia 2 kwietnia 1997 r., na wniosek Prezesa Rady Ministrów, z dniem 24 lipca 2025 r. odwołuję ze składu Rady Ministrów:
+      Pana Macieja Berka – z urzędu Ministra – Członka Rady Ministrów
+      Pana Adama Bodnara – z urzędu Ministra Sprawiedliwości
+      Panią Marzenę Czarnecką – z urzędu Ministra Przemysłu
+      Pana Andrzeja Domańskiego – z urzędu Ministra Finansów
+      Pana Jana Grabca – z urzędu Ministra – Członka Rady Ministrów
+      Pana Jakuba Krzysztofa Jaworowskiego – z urzędu Ministra Aktywów Państwowych
+      Pana Marcina Kierwińskiego – z urzędu Ministra – Członka Rady Ministrów
+      Panią Katarzynę Kotulę – z urzędu Ministra do spraw Równości
+      Panią Izabelę Leszczynę – z urzędu Ministra Zdrowia
+      Pana Sławomira Nitrasa – z urzędu Ministra Sportu i Turystyki
+      Panią Marzenę Okłę-Drewnowicz – z urzędu Ministra do spraw Polityki Senioralnej
+      Pana Krzysztofa Michała Paszyka – z urzędu Ministra Rozwoju i Technologii
+      Panią Adrianę Porowską – z urzędów Ministra do spraw Społeczeństwa Obywatelskiego i Przewodniczącej Komitetu do spraw Pożytku Publicznego
+      Pana Czesława Siekierskiego – z urzędu Ministra Rolnictwa i Rozwoju Wsi
+      Pana Tomasza Siemoniaka – z urzędów Ministra Spraw Wewnętrznych i Administracji i Ministra – Członka Rady Ministrów
+      Pana Radosława Sikorskiego – z urzędu Ministra Spraw Zagranicznych
+      Pana Adama Szłapkę – z urzędu Ministra do spraw Unii Europejskiej
+      Panią Hannę Kamilę Wróblewską – z urzędu Ministra Kultury i Dziedzictwa Narodowego
+    note: >-
+      The dismissals half of the 24 July 2025 reconstruction, quoted in full because it is
+      what closes five ministerial offices for good: Minister Przemysłu, Minister do spraw
+      Równości, Minister do spraw Polityki Senioralnej, Minister do spraw Społeczeństwa
+      Obywatelskiego and Minister do spraw Unii Europejskiej are dismissed here and appear
+      in no later appointment. It is also the tier-1 basis for the valid_to dates on those
+      entities. No Wayback snapshot of this document existed; one was requested and taken on
+      28 July 2026, and the archived copy is the one cited. Line breaks introduced inside a
+      single entry by the gazette's typesetting are closed up; no words are altered.
+
+  - id: mp-2025-690
+    tier: 1
+    type: official_gazette
+    publisher: Monitor Polski — Dziennik Urzędowy Rzeczypospolitej Polskiej
+    title: >-
+      Postanowienie Prezydenta Rzeczypospolitej Polskiej z dnia 24 lipca 2025 r.
+      nr 1131.28.2025 o zmianie w składzie Rady Ministrów (M.P. 2025 poz. 690)
+    url: https://api.sejm.gov.pl/eli/acts/MP/2025/690/text.pdf
+    archive_url: https://web.archive.org/web/20260728110801/https://api.sejm.gov.pl/eli/acts/MP/2025/690/text.pdf
+    lang: pl
+    published: 2025-07-24
+    accessed: 2026-07-28
+    quote: |-
+      Na podstawie art. 161 Konstytucji Rzeczypospolitej Polskiej z dnia 2 kwietnia 1997 r., na wniosek Prezesa Rady Ministrów, z dniem 24 lipca 2025 r. powołuję w skład Rady Ministrów:
+      Pana Radosława Sikorskiego – na urzędy Wiceprezesa Rady Ministrów i Ministra Spraw Zagranicznych
+      Pana Wojciecha Balczuna – na urząd Ministra Aktywów Państwowych
+      Pana Macieja Berka – na urząd Ministra do spraw Nadzoru nad Wdrażaniem Polityki Rządu
+      Panią Martę Cienkowską – na urząd Ministra Kultury i Dziedzictwa Narodowego
+      Pana Andrzeja Domańskiego – na urząd Ministra Finansów i Gospodarki
+      Pana Jana Grabca – na urzędy Ministra – Członka Rady Ministrów i Przewodniczącego Komitetu do spraw Pożytku Publicznego
+      Pana Marcina Kierwińskiego – na urząd Ministra Spraw Wewnętrznych i Administracji
+      Pana Stefana Krajewskiego – na urząd Ministra Rolnictwa i Rozwoju Wsi
+      Pana Miłosza Motykę – na urząd Ministra Energii
+      Pana Jakuba Adama Rutnickiego – na urząd Ministra Sportu i Turystyki
+      Pana Tomasza Siemoniaka – na urząd Ministra – Członka Rady Ministrów, Koordynatora Służb Specjalnych
+      Panią Jolantę Sobierańską-Grendę – na urząd Ministra Zdrowia
+      Pana Waldemara Jana Żurka – na urząd Ministra Sprawiedliwości
+    note: >-
+      The appointments half of the 24 July 2025 reconstruction, quoted in full. Read against
+      poz. 689 it produces the Council of Ministers as it stands today: two new offices
+      (Minister Energii, Minister do spraw Nadzoru nad Wdrażaniem Polityki Rządu), one
+      widened office (Minister Finansów i Gospodarki, replacing Minister Finansów), a third
+      deputy prime ministership for the foreign minister, and no replacement for the four
+      abolished non-departmental offices. Line breaks introduced inside a single entry by
+      the gazette's typesetting are closed up; no words are altered. The document's canonical
+      address is https://monitorpolski.gov.pl/M2025000069001.pdf, but the only Wayback record
+      of that address is corrupt and 404s on playback, so the URL cited is the Sejm
+      Chancellery's ELI service, which serves the identical authentic PDF (M20250690.pdf) and
+      could be archived.
+
+  # --- constitutional and statutory framework -----------------------------------------
+  - id: konstytucja-rp-1997
+    tier: 1
+    type: statute
+    publisher: Kancelaria Sejmu — Internetowy System Aktów Prawnych
+    title: >-
+      Konstytucja Rzeczypospolitej Polskiej z dnia 2 kwietnia 1997 r. (Dz.U. 1997 nr 78
+      poz. 483), tekst ujednolicony, art. 147 i 149
+    url: https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19970780483/U/D19970483Lj.pdf
+    archive_url: https://web.archive.org/web/20260717075837/https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19970780483/U/D19970483Lj.pdf
+    lang: pl
+    published: 1997-07-16
+    accessed: 2026-07-28
+    quote: |-
+      Art. 147. 1. Rada Ministrów składa się z Prezesa Rady Ministrów i ministrów.
+      2. W skład Rady Ministrów mogą być powoływani wiceprezesi Rady Ministrów.
+      3. Prezes i wiceprezes Rady Ministrów mogą pełnić także funkcję ministra.
+      4. W skład Rady Ministrów mogą być ponadto powoływani przewodniczący określonych w ustawach komitetów.
+      Art. 149. 1. Ministrowie kierują określonymi działami administracji rządowej lub wypełniają zadania wyznaczone im przez Prezesa Rady Ministrów. Zakres działania ministra kierującego działem administracji rządowej określają ustawy.
+    note: >-
+      Two articles that settle four questions in this file. Article 147(1) puts the Prime
+      Minister in the Council of Ministers without giving him a department, which is why the
+      seat count exceeds the ministry count. Article 147(3) makes a deputy prime
+      ministership a second office of the same person rather than an extra seat. Article
+      149(1) is the constitutional basis for the distinction this dataset draws between a
+      minister who runs a branch of government administration and one who merely carries out
+      tasks assigned by the Prime Minister — the latter is a seat and no ministry. Quoted
+      from the Sejm Chancellery's consolidated text; hyphenation that the typesetting
+      introduces mid-word is closed up and no words are altered. The live URL is served
+      behind a bot filter, so the archived copy is the readable one.
+
+  - id: ustawa-o-radzie-ministrow
+    tier: 1
+    type: statute
+    publisher: Dziennik Ustaw Rzeczypospolitej Polskiej
+    title: >-
+      Ustawa z dnia 8 sierpnia 1996 r. o Radzie Ministrów, tekst jednolity
+      (Dz.U. 2025 poz. 780), art. 26, 33 i 39
+    url: https://api.sejm.gov.pl/eli/acts/DU/2025/780/text.pdf
+    archive_url: https://web.archive.org/web/20260728110845/https://api.sejm.gov.pl/eli/acts/DU/2025/780/text.pdf
+    lang: pl
+    published: 2025-06-17
+    accessed: 2026-07-28
+    quote: |-
+      Art. 26. 1. Kancelaria Prezesa Rady Ministrów, zwana dalej „Kancelarią”, zapewnia obsługę:
+      1) Rady Ministrów i Prezesa Rady Ministrów;
+      2) wiceprezesów Rady Ministrów;
+      4) Kolegium do Spraw Służb Specjalnych;
+      6) Szefa Służby Cywilnej.
+      Art. 33. 1. Prezes Rady Ministrów ustala, w drodze rozporządzenia:
+      1) szczegółowy zakres działania ministra, niezwłocznie po powołaniu Rady Ministrów, a jeżeli minister został powołany w innym czasie – niezwłocznie po jego powołaniu;
+      2) ministerstwo lub inny urząd administracji rządowej, który ma obsługiwać ministra, a w wypadku ministra kierującego określonym działem administracji rządowej – również organy jemu podległe lub przez niego nadzorowane, z zastrzeżeniem art. 34 ust. 2.
+      Art. 39. 1. Ministerstwo tworzy, znosi lub przekształca Rada Ministrów, w drodze rozporządzenia.
+    note: >-
+      The consolidated text in force during the period covered here. Article 39(1) is why
+      there is no Polish equivalent of Real Decreto 829/2023: a ministry is created,
+      abolished or transformed one at a time, so the set of ministries has to be assembled
+      from the individual instruments. Article 33(1) is why the remit regulations cited below
+      are the authority for which ministry serves which minister — and, at point 2, why a
+      minister may lawfully be served by an urząd that is not a ministry, which is the case
+      for the three ministers without portfolio. Article 26 constitutes the Chancellery and
+      shows what it is: the office that serves the Council of Ministers and the Prime
+      Minister, not a department of its own. Numbered points 3 and 5 of article 26(1) are
+      repealed and are omitted from the quote. The document's canonical address is
+      https://dziennikustaw.gov.pl/D2025000078001.pdf, but the only Wayback record of that
+      address is corrupt and 404s on playback, so the URL cited is the Sejm Chancellery's ELI
+      service, which serves the identical authentic PDF (D20250780.pdf).
+
+  - id: ustawa-o-dzialach-administracji-rzadowej
+    tier: 1
+    type: statute
+    publisher: Dziennik Ustaw Rzeczypospolitej Polskiej
+    title: >-
+      Ustawa z dnia 4 września 1997 r. o działach administracji rządowej, tekst jednolity
+      (Dz.U. 2025 poz. 1275), art. 5
+    url: https://dziennikustaw.gov.pl/D2025000127501.pdf
+    archive_url: https://web.archive.org/web/20250926191251/https://dziennikustaw.gov.pl/D2025000127501.pdf
+    lang: pl
+    published: 2025-09-24
+    accessed: 2026-07-28
+    quote: |-
+      Art. 5. Ustala się następujące działy:
+      1) administracja publiczna;
+      1a) budownictwo, planowanie i zagospodarowanie przestrzenne oraz mieszkalnictwo;
+      1b) aktywa państwowe;
+      2) budżet;
+      2a) energia;
+      3) finanse publiczne;
+      4) gospodarka;
+      5) gospodarka morska;
+      6) gospodarka wodna;
+      6a) gospodarka surowcami energetycznymi;
+      7) instytucje finansowe;
+      7a) informatyzacja;
+      8) członkostwo Rzeczypospolitej Polskiej w Unii Europejskiej;
+      8a) klimat;
+      9) kultura i ochrona dziedzictwa narodowego;
+      10) kultura fizyczna;
+      11) łączność;
+      14) obrona narodowa;
+      15) oświata i wychowanie;
+      16) praca;
+      17) rolnictwo;
+      18) rozwój wsi;
+      18a) rozwój regionalny;
+      18b) rynki rolne;
+      18c) rybołówstwo;
+      20) sprawiedliwość;
+      21) szkolnictwo wyższe i nauka;
+      22) transport;
+      22a) turystyka;
+      23) środowisko;
+      23a) rodzina;
+      24) sprawy wewnętrzne;
+      25) wyznania religijne oraz mniejszości narodowe i etniczne;
+      26) zabezpieczenie społeczne;
+      27) sprawy zagraniczne;
+      28) zdrowie;
+      29) żegluga śródlądowa.
+    note: >-
+      The statutory list of the 35 branches of government administration, quoted in full.
+      This is not a list of ministries — a branch is a competence, a ministry is an office,
+      and the two do not map one to one: the branch "łączność" is postal affairs and sits
+      with the state-assets ministry, telecommunications sits inside "informatyzacja", and
+      the 35 branches are distributed across 18 portfolio ministers. It is cited as the
+      authority for the policy_areas tagging, because each remit regulation below assigns
+      branches from this list, and articles 6 to 33 define what each branch contains.
+      Repealed items 12, 13 and 19 are omitted from the quote.
+
+  # --- remit regulations: the instruments that name the ministries ---------------------
+  - id: du-2023-2707-mon
+    tier: 1
+    type: official_gazette
+    publisher: Dziennik Ustaw Rzeczypospolitej Polskiej
+    title: >-
+      Rozporządzenie Prezesa Rady Ministrów z dnia 18 grudnia 2023 r. w sprawie
+      szczegółowego zakresu działania Ministra Obrony Narodowej (Dz.U. 2023 poz. 2707)
+    url: https://dziennikustaw.gov.pl/D2023000270701.pdf
+    archive_url: https://web.archive.org/web/20250515192408/https://dziennikustaw.gov.pl/D2023000270701.pdf
+    lang: pl
+    published: 2023-12-19
+    accessed: 2026-07-28
+    quote: |-
+      § 1. 1. Rozporządzenie określa szczegółowy zakres działania Ministra Obrony Narodowej, zwanego dalej „ministrem”.
+      2. Minister kieruje działem administracji rządowej – obrona narodowa.
+      3. Minister jest dysponentem części 29 budżetu państwa.
+      4. Obsługę ministra zapewnia Ministerstwo Obrony Narodowej.
+    note: In force on 28 July 2026; unchanged by the 24 July 2025 reconstruction.
+
+  - id: du-2023-2711-mfipr
+    tier: 1
+    type: official_gazette
+    publisher: Dziennik Ustaw Rzeczypospolitej Polskiej
+    title: >-
+      Rozporządzenie Prezesa Rady Ministrów z dnia 18 grudnia 2023 r. w sprawie
+      szczegółowego zakresu działania Ministra Funduszy i Polityki Regionalnej
+      (Dz.U. 2023 poz. 2711)
+    url: https://dziennikustaw.gov.pl/D2023000271101.pdf
+    archive_url: https://web.archive.org/web/20250515160549/https://dziennikustaw.gov.pl/D2023000271101.pdf
+    lang: pl
+    published: 2023-12-19
+    accessed: 2026-07-28
+    quote: |-
+      § 1. 1. Rozporządzenie określa szczegółowy zakres działania Ministra Funduszy i Polityki Regionalnej, zwanego dalej „ministrem”.
+      2. Minister kieruje działem administracji rządowej – rozwój regionalny.
+      3. Minister jest dysponentem części 34 budżetu państwa.
+      4. Obsługę ministra zapewnia Ministerstwo Funduszy i Polityki Regionalnej.
+    note: In force on 28 July 2026; unchanged by the 24 July 2025 reconstruction.
+
+  - id: du-2023-2715-mrpips
+    tier: 1
+    type: official_gazette
+    publisher: Dziennik Ustaw Rzeczypospolitej Polskiej
+    title: >-
+      Rozporządzenie Prezesa Rady Ministrów z dnia 18 grudnia 2023 r. w sprawie
+      szczegółowego zakresu działania Ministra Rodziny, Pracy i Polityki Społecznej
+      (Dz.U. 2023 poz. 2715)
+    url: https://dziennikustaw.gov.pl/D2023000271501.pdf
+    archive_url: https://web.archive.org/web/20250516010808/https://dziennikustaw.gov.pl/D2023000271501.pdf
+    lang: pl
+    published: 2023-12-19
+    accessed: 2026-07-28
+    quote: |-
+      § 1. 1. Rozporządzenie określa szczegółowy zakres działania Ministra Rodziny, Pracy i Polityki Społecznej, zwanego dalej „ministrem”.
+      2. Minister kieruje następującymi działami administracji rządowej:
+      1) rodzina;
+      2) praca;
+      3) zabezpieczenie społeczne.
+      3. Minister jest dysponentem części 63, 31 i 44 budżetu państwa.
+      4. Obsługę ministra zapewnia Ministerstwo Rodziny, Pracy i Polityki Społecznej.
+      5. Ministrowi podlega Szef Urzędu do Spraw Kombatantów i Osób Represjonowanych.
+    note: >-
+      In force on 28 July 2026. Paragraph 5 and article 31(1)(7) of the ustawa o działach
+      are why this ministry carries the veterans tag: war veterans and victims of repression
+      sit inside the branch "zabezpieczenie społeczne" and Poland has no separate veterans
+      ministry.
+
+  - id: du-2023-2717-men
+    tier: 1
+    type: official_gazette
+    publisher: Dziennik Ustaw Rzeczypospolitej Polskiej
+    title: >-
+      Rozporządzenie Prezesa Rady Ministrów z dnia 18 grudnia 2023 r. w sprawie
+      szczegółowego zakresu działania Ministra Edukacji (Dz.U. 2023 poz. 2717)
+    url: https://dziennikustaw.gov.pl/D2023000271701.pdf
+    archive_url: https://web.archive.org/web/20240608073358/https://dziennikustaw.gov.pl/D2023000271701.pdf
+    lang: pl
+    published: 2023-12-19
+    accessed: 2026-07-28
+    quote: |-
+      § 1. 1. Rozporządzenie określa szczegółowy zakres działania Ministra Edukacji, zwanego dalej „ministrem”.
+      2. Minister kieruje działem administracji rządowej – oświata i wychowanie.
+      3. Minister jest dysponentem części 30 budżetu państwa.
+      4. Obsługę ministra zapewnia:
+      1) do dnia 31 grudnia 2023 r. – Ministerstwo Edukacji i Nauki;
+      2) od dnia 1 stycznia 2024 r. – Ministerstwo Edukacji Narodowej.
+    note: >-
+      In force on 28 July 2026, and the clearest evidence in this file that a ministry and
+      its minister's title are different things: the minister is a "Minister Edukacji", the
+      department was Ministerstwo Edukacji i Nauki until 31 December 2023 and has been
+      Ministerstwo Edukacji Narodowej since 1 January 2024. It is the tier-1 basis for the
+      valid_to on the former and the valid_from on the latter.
+
+  - id: du-2023-2720-mc
+    tier: 1
+    type: official_gazette
+    publisher: Dziennik Ustaw Rzeczypospolitej Polskiej
+    title: >-
+      Rozporządzenie Prezesa Rady Ministrów z dnia 18 grudnia 2023 r. w sprawie
+      szczegółowego zakresu działania Ministra Cyfryzacji (Dz.U. 2023 poz. 2720)
+    url: https://dziennikustaw.gov.pl/D2023000272001.pdf
+    archive_url: https://web.archive.org/web/20240714104751/https://dziennikustaw.gov.pl/D2023000272001.pdf
+    lang: pl
+    published: 2023-12-19
+    accessed: 2026-07-28
+    quote: |-
+      § 1. 1. Rozporządzenie określa szczegółowy zakres działania Ministra Cyfryzacji, zwanego dalej „ministrem”.
+      2. Minister kieruje działem administracji rządowej – informatyzacja.
+      3. Minister jest dysponentem części 27 budżetu państwa.
+      4. Obsługę ministra zapewnia Ministerstwo Cyfryzacji.
+      5. Minister sprawuje nadzór nad Prezesem Urzędu Komunikacji Elektronicznej.
+    note: >-
+      In force on 28 July 2026. Paragraph 5 and article 12a(1)(9) of the ustawa o działach
+      are why telecommunications is tagged here rather than on the state-assets ministry:
+      telecommunications and the electronic communications regulator sit inside the branch
+      "informatyzacja".
+
+  - id: du-2023-2725-mi
+    tier: 1
+    type: official_gazette
+    publisher: Dziennik Ustaw Rzeczypospolitej Polskiej
+    title: >-
+      Rozporządzenie Prezesa Rady Ministrów z dnia 18 grudnia 2023 r. w sprawie
+      szczegółowego zakresu działania Ministra Infrastruktury (Dz.U. 2023 poz. 2725)
+    url: https://dziennikustaw.gov.pl/D2023000272501.pdf
+    archive_url: https://web.archive.org/web/20250929050814/https://dziennikustaw.gov.pl/D2023000272501.pdf
+    lang: pl
+    published: 2023-12-19
+    accessed: 2026-07-28
+    quote: |-
+      § 1. 1. Rozporządzenie określa szczegółowy zakres działania Ministra Infrastruktury, zwanego dalej „ministrem”.
+      2. Minister kieruje następującymi działami administracji rządowej:
+      1) gospodarka morska;
+      2) gospodarka wodna;
+      3) transport;
+      4) żegluga śródlądowa.
+      3. Minister jest dysponentem części 21, 22, 39 i 69 budżetu państwa.
+      4. Obsługę ministra zapewnia Ministerstwo Infrastruktury.
+    note: In force on 28 July 2026; unchanged by the 24 July 2025 reconstruction.
+
+  - id: du-2025-68-mnisw
+    tier: 1
+    type: official_gazette
+    publisher: Dziennik Ustaw Rzeczypospolitej Polskiej
+    title: >-
+      Rozporządzenie Prezesa Rady Ministrów z dnia 20 stycznia 2025 r. w sprawie
+      szczegółowego zakresu działania Ministra Nauki i Szkolnictwa Wyższego
+      (Dz.U. 2025 poz. 68)
+    url: https://dziennikustaw.gov.pl/D2025000006801.pdf
+    archive_url: https://web.archive.org/web/20250120190438/https://dziennikustaw.gov.pl/D2025000006801.pdf
+    lang: pl
+    published: 2025-01-20
+    accessed: 2026-07-28
+    quote: |-
+      § 1. 1. Rozporządzenie określa szczegółowy zakres działania Ministra Nauki i Szkolnictwa Wyższego, zwanego dalej „ministrem”.
+      2. Minister kieruje działem administracji rządowej – szkolnictwo wyższe i nauka.
+      3. Minister jest dysponentem części 28, 67 i 90 budżetu państwa.
+      4. Obsługę ministra zapewnia Ministerstwo Nauki i Szkolnictwa Wyższego.
+      § 2. Rozporządzenie wchodzi w życie z dniem ogłoszenia, z mocą od dnia 17 stycznia 2025 r.
+    note: >-
+      In force on 28 July 2026. It replaces the December 2023 regulation for the "Minister
+      Nauki" and is the instrument by which the minister's own title acquired the words
+      "i Szkolnictwa Wyższego" that the ministry had carried since 1 January 2024. The
+      ministry itself did not change.
+
+  - id: du-2025-993-msz
+    tier: 1
+    type: official_gazette
+    publisher: Dziennik Ustaw Rzeczypospolitej Polskiej
+    title: >-
+      Rozporządzenie Prezesa Rady Ministrów z dnia 25 lipca 2025 r. w sprawie szczegółowego
+      zakresu działania Ministra Spraw Zagranicznych (Dz.U. 2025 poz. 993)
+    url: https://dziennikustaw.gov.pl/D2025000099301.pdf
+    archive_url: https://web.archive.org/web/20250730005719/https://dziennikustaw.gov.pl/D2025000099301.pdf
+    lang: pl
+    published: 2025-07-25
+    accessed: 2026-07-28
+    quote: |-
+      § 1. 1. Rozporządzenie określa szczegółowy zakres działania Ministra Spraw Zagranicznych, zwanego dalej „ministrem”.
+      2. Minister kieruje następującymi działami administracji rządowej:
+      1) członkostwo Rzeczypospolitej Polskiej w Unii Europejskiej;
+      2) sprawy zagraniczne.
+      3. Minister jest dysponentem części 23 i 45 budżetu państwa.
+      4. Obsługę ministra zapewnia Ministerstwo Spraw Zagranicznych.
+    note: >-
+      In force on 28 July 2026, and the instrument that folded European Union membership
+      into the foreign affairs portfolio when the separate Minister do spraw Unii
+      Europejskiej was abolished. Article 32(1) of the ustawa o działach puts development
+      cooperation and humanitarian aid, and relations with Poles living abroad, inside the
+      branch "sprawy zagraniczne", which is why this ministry carries the
+      development_cooperation and diaspora tags.
+
+  - id: du-2025-994-map
+    tier: 1
+    type: official_gazette
+    publisher: Dziennik Ustaw Rzeczypospolitej Polskiej
+    title: >-
+      Rozporządzenie Prezesa Rady Ministrów z dnia 25 lipca 2025 r. w sprawie szczegółowego
+      zakresu działania Ministra Aktywów Państwowych (Dz.U. 2025 poz. 994)
+    url: https://dziennikustaw.gov.pl/D2025000099401.pdf
+    archive_url: https://web.archive.org/web/20250730215526/https://dziennikustaw.gov.pl/D2025000099401.pdf
+    lang: pl
+    published: 2025-07-25
+    accessed: 2026-07-28
+    quote: |-
+      § 1. 1. Rozporządzenie określa szczegółowy zakres działania Ministra Aktywów Państwowych, zwanego dalej „ministrem”.
+      2. Minister kieruje następującymi działami administracji rządowej:
+      1) aktywa państwowe;
+      2) łączność.
+      3. Minister jest dysponentem części 55 i 26 budżetu państwa.
+      4. Obsługę ministra zapewnia Ministerstwo Aktywów Państwowych.
+    note: >-
+      In force on 28 July 2026. The branch "łączność" is postal affairs, not
+      telecommunications — see article 16 of the ustawa o działach — and the taxonomy has no
+      id for it, so this ministry is tagged with state_assets alone.
+
+  - id: du-2025-995-mkis
+    tier: 1
+    type: official_gazette
+    publisher: Dziennik Ustaw Rzeczypospolitej Polskiej
+    title: >-
+      Rozporządzenie Prezesa Rady Ministrów z dnia 25 lipca 2025 r. w sprawie szczegółowego
+      zakresu działania Ministra Klimatu i Środowiska (Dz.U. 2025 poz. 995)
+    url: https://dziennikustaw.gov.pl/D2025000099501.pdf
+    archive_url: https://web.archive.org/web/20250729203913/https://dziennikustaw.gov.pl/D2025000099501.pdf
+    lang: pl
+    published: 2025-07-25
+    accessed: 2026-07-28
+    quote: |-
+      § 1. 1. Rozporządzenie określa szczegółowy zakres działania Ministra Klimatu i Środowiska, zwanego dalej „ministrem”.
+      2. Minister kieruje następującymi działami administracji rządowej:
+      1) klimat;
+      2) środowisko.
+      3. Minister jest dysponentem części 51 i 41 budżetu państwa.
+      4. Obsługę ministra zapewnia Ministerstwo Klimatu i Środowiska.
+      5. Organy podległe ministrowi lub przez niego nadzorowane określa załącznik do rozporządzenia.
+    note: >-
+      In force on 28 July 2026. Note what is no longer here: the branch "energia", which
+      this minister ran until 24 July 2025 and which moved to the new Minister Energii.
+
+  - id: du-2025-996-mkidn
+    tier: 1
+    type: official_gazette
+    publisher: Dziennik Ustaw Rzeczypospolitej Polskiej
+    title: >-
+      Rozporządzenie Prezesa Rady Ministrów z dnia 25 lipca 2025 r. w sprawie szczegółowego
+      zakresu działania Ministra Kultury i Dziedzictwa Narodowego (Dz.U. 2025 poz. 996)
+    url: https://dziennikustaw.gov.pl/D2025000099601.pdf
+    archive_url: https://web.archive.org/web/20250730033202/https://dziennikustaw.gov.pl/D2025000099601.pdf
+    lang: pl
+    published: 2025-07-25
+    accessed: 2026-07-28
+    quote: |-
+      § 1. 1. Rozporządzenie określa szczegółowy zakres działania Ministra Kultury i Dziedzictwa Narodowego, zwanego dalej „ministrem”.
+      2. Minister kieruje działem administracji rządowej – kultura i ochrona dziedzictwa narodowego.
+      3. Minister jest dysponentem części 24 budżetu państwa.
+      4. Obsługę ministra zapewnia Ministerstwo Kultury i Dziedzictwa Narodowego.
+      5. Minister sprawuje nadzór nad Naczelnym Dyrektorem Archiwów Państwowych.
+    note: In force on 28 July 2026.
+
+  - id: du-2025-997-mfig
+    tier: 1
+    type: official_gazette
+    publisher: Dziennik Ustaw Rzeczypospolitej Polskiej
+    title: >-
+      Rozporządzenie Prezesa Rady Ministrów z dnia 25 lipca 2025 r. w sprawie szczegółowego
+      zakresu działania Ministra Finansów i Gospodarki (Dz.U. 2025 poz. 997)
+    url: https://dziennikustaw.gov.pl/D2025000099701.pdf
+    archive_url: https://web.archive.org/web/20250729202311/https://dziennikustaw.gov.pl/D2025000099701.pdf
+    lang: pl
+    published: 2025-07-25
+    accessed: 2026-07-28
+    quote: |-
+      § 1. 1. Rozporządzenie określa szczegółowy zakres działania Ministra Finansów i Gospodarki, zwanego dalej „ministrem”.
+      2. Minister kieruje następującymi działami administracji rządowej:
+      1) budownictwo, planowanie i zagospodarowanie przestrzenne oraz mieszkalnictwo;
+      2) budżet;
+      3) finanse publiczne;
+      4) gospodarka;
+      5) instytucje finansowe.
+      3. Minister jest dysponentem części 18, 19 i 20 budżetu państwa.
+      4. Obsługę ministra zapewnia:
+      1) Ministerstwo Rozwoju i Technologii w zakresie działów administracji rządowej:
+      a) budownictwo, planowanie i zagospodarowanie przestrzenne oraz mieszkalnictwo,
+      b) gospodarka;
+      2) Ministerstwo Finansów w zakresie działów administracji rządowej:
+      a) budżet,
+      b) finanse publiczne,
+      c) instytucje finansowe.
+      5. Organy podległe ministrowi lub przez niego nadzorowane określa załącznik do rozporządzenia.
+      § 2. Rozporządzenie wchodzi w życie z dniem ogłoszenia, z mocą od dnia 24 lipca 2025 r.
+      Prezes Rady Ministrów: D. Tusk
+    note: >-
+      The single most load-bearing document in this file, quoted at length because it is the
+      reason Poland is counted as 19 ministries rather than 18. Paragraph 1(4) names two
+      ministries serving one minister and divides the five branches between them. Its status
+      in ISAP on 28 July 2026 is "obowiązujący", with no amending act recorded, and no
+      rozporządzenie Rady Ministrów under article 39(1) has since created, abolished,
+      renamed or merged either Ministerstwo Finansów or Ministerstwo Rozwoju i Technologii.
+      There is accordingly no urząd named "Ministerstwo Finansów i Gospodarki"; that phrase
+      is the minister's title only. Indentation of the lettered sub-points is normalised in
+      the quote; no words are altered.
+
+  - id: du-2025-998-grabiec
+    tier: 1
+    type: official_gazette
+    publisher: Dziennik Ustaw Rzeczypospolitej Polskiej
+    title: >-
+      Rozporządzenie Prezesa Rady Ministrów z dnia 25 lipca 2025 r. w sprawie szczegółowego
+      zakresu działania Ministra – Członka Rady Ministrów Jana Grabca (Dz.U. 2025 poz. 998)
+    url: https://dziennikustaw.gov.pl/D2025000099801.pdf
+    archive_url: https://web.archive.org/web/20250729233847/https://dziennikustaw.gov.pl/D2025000099801.pdf
+    lang: pl
+    published: 2025-07-25
+    accessed: 2026-07-28
+    quote: |-
+      § 1. Minister – Członek Rady Ministrów Jan Grabiec, zwany dalej „ministrem”, wykonuje zadania wyznaczone przez Prezesa Rady Ministrów.
+      § 2. Do zakresu działania ministra należy w szczególności:
+      1) nadzór nad zapewnieniem przez Kancelarię Prezesa Rady Ministrów obsługi Rady Ministrów i Prezesa Rady Ministrów, ministrów wykonujących zadania wyznaczone przez Prezesa Rady Ministrów, pełnomocników Rządu, komisji wspólnych oraz organów pomocniczych Rady Ministrów i Prezesa Rady Ministrów;
+      2) kierowanie działalnością i nadzór nad realizacją zadań Kancelarii Prezesa Rady Ministrów określonych w art. 29 pkt 3, 4, 8 i 9 ustawy z dnia 8 sierpnia 1996 r. o Radzie Ministrów;
+      3) wykonywanie innych zadań zleconych przez Radę Ministrów lub Prezesa Rady Ministrów.
+      § 5. Obsługę ministra zapewnia Kancelaria Prezesa Rady Ministrów.
+    note: >-
+      The remit of the minister who runs the Chancellery. Article 149(1) of the Constitution
+      puts him squarely in the second category — he carries out tasks assigned by the Prime
+      Minister rather than running a branch — and § 5 confirms that the office serving him is
+      the Chancellery and not a ministry. He is therefore a cabinet seat and no ministry.
+      Paragraphs 3 and 4, which concern his powers to demand information and to convene
+      working groups, are omitted from the quote as immaterial here.
+
+  - id: du-2025-999-mswia
+    tier: 1
+    type: official_gazette
+    publisher: Dziennik Ustaw Rzeczypospolitej Polskiej
+    title: >-
+      Rozporządzenie Prezesa Rady Ministrów z dnia 25 lipca 2025 r. w sprawie szczegółowego
+      zakresu działania Ministra Spraw Wewnętrznych i Administracji (Dz.U. 2025 poz. 999)
+    url: https://dziennikustaw.gov.pl/D2025000099901.pdf
+    archive_url: https://web.archive.org/web/20250726145545/https://dziennikustaw.gov.pl/D2025000099901.pdf
+    lang: pl
+    published: 2025-07-25
+    accessed: 2026-07-28
+    quote: |-
+      § 1. 1. Rozporządzenie określa szczegółowy zakres działania Ministra Spraw Wewnętrznych i Administracji, zwanego dalej „ministrem”.
+      2. Minister kieruje następującymi działami administracji rządowej:
+      1) administracja publiczna;
+      2) sprawy wewnętrzne;
+      3) wyznania religijne oraz mniejszości narodowe i etniczne.
+      3. Minister jest dysponentem części 17, 42 i 43 budżetu państwa.
+      4. Obsługę ministra zapewnia Ministerstwo Spraw Wewnętrznych i Administracji.
+      5. Organy podległe ministrowi lub przez niego nadzorowane określa załącznik do rozporządzenia.
+    note: >-
+      In force on 28 July 2026. Three branches carry six policy areas here: article 29 of
+      the ustawa o działach puts border control, aliens and the coordination of migration
+      policy, crisis management, civil protection and fire safety inside "sprawy
+      wewnętrzne"; article 6 puts the administrative division of the state and the
+      integrated provincial administration inside "administracja publiczna"; and article 30
+      covers relations with churches and religious associations.
+
+  - id: du-2025-1000-mrirw
+    tier: 1
+    type: official_gazette
+    publisher: Dziennik Ustaw Rzeczypospolitej Polskiej
+    title: >-
+      Rozporządzenie Prezesa Rady Ministrów z dnia 25 lipca 2025 r. w sprawie szczegółowego
+      zakresu działania Ministra Rolnictwa i Rozwoju Wsi (Dz.U. 2025 poz. 1000)
+    url: https://dziennikustaw.gov.pl/D2025000100001.pdf
+    archive_url: https://web.archive.org/web/20250726164256/https://dziennikustaw.gov.pl/D2025000100001.pdf
+    lang: pl
+    published: 2025-07-25
+    accessed: 2026-07-28
+    quote: |-
+      § 1. 1. Rozporządzenie określa szczegółowy zakres działania Ministra Rolnictwa i Rozwoju Wsi, zwanego dalej „ministrem”.
+      2. Minister kieruje następującymi działami administracji rządowej:
+      1) rolnictwo;
+      2) rozwój wsi;
+      3) rybołówstwo;
+      4) rynki rolne.
+      3. Minister jest dysponentem części 32, 33, 62 i 35 budżetu państwa.
+      4. Obsługę ministra zapewnia Ministerstwo Rolnictwa i Rozwoju Wsi.
+      5. Organy podległe ministrowi określa załącznik do rozporządzenia.
+    note: >-
+      In force on 28 July 2026. The branch "rynki rolne" is agri-food processing, storage
+      and commercial quality under article 23b of the ustawa o działach, which is why
+      food_safety is tagged here.
+
+  - id: du-2025-1002-msit
+    tier: 1
+    type: official_gazette
+    publisher: Dziennik Ustaw Rzeczypospolitej Polskiej
+    title: >-
+      Rozporządzenie Prezesa Rady Ministrów z dnia 25 lipca 2025 r. w sprawie szczegółowego
+      zakresu działania Ministra Sportu i Turystyki (Dz.U. 2025 poz. 1002)
+    url: https://dziennikustaw.gov.pl/D2025000100201.pdf
+    archive_url: https://web.archive.org/web/20250726152605/https://dziennikustaw.gov.pl/D2025000100201.pdf
+    lang: pl
+    published: 2025-07-25
+    accessed: 2026-07-28
+    quote: |-
+      § 1. 1. Rozporządzenie określa szczegółowy zakres działania Ministra Sportu i Turystyki, zwanego dalej „ministrem”.
+      2. Minister kieruje następującymi działami administracji rządowej:
+      1) kultura fizyczna;
+      2) turystyka.
+      3. Minister jest dysponentem części 25 i 40 budżetu państwa.
+      4. Obsługę ministra zapewnia Ministerstwo Sportu i Turystyki.
+    note: In force on 28 July 2026.
+
+  - id: du-2025-1003-siemoniak
+    tier: 1
+    type: official_gazette
+    publisher: Dziennik Ustaw Rzeczypospolitej Polskiej
+    title: >-
+      Rozporządzenie Prezesa Rady Ministrów z dnia 25 lipca 2025 r. w sprawie szczegółowego
+      zakresu działania Ministra – Członka Rady Ministrów, Koordynatora Służb Specjalnych,
+      Tomasza Siemoniaka (Dz.U. 2025 poz. 1003)
+    url: https://dziennikustaw.gov.pl/D2025000100301.pdf
+    archive_url: https://web.archive.org/web/20250726154323/https://dziennikustaw.gov.pl/D2025000100301.pdf
+    lang: pl
+    published: 2025-07-25
+    accessed: 2026-07-28
+    quote: |-
+      § 1. 1. Minister – Członek Rady Ministrów, Koordynator Służb Specjalnych, Tomasz Siemoniak, zwany dalej „ministrem”, wykonuje zadania, o których mowa w ustawie z dnia 24 maja 2002 r. o Agencji Bezpieczeństwa Wewnętrznego oraz Agencji Wywiadu (Dz. U. z 2025 r. poz. 902), określone dla ministra powołanego w celu koordynowania służb specjalnych.
+      2. Do szczegółowego zakresu działania ministra należy:
+      1) sprawowanie nadzoru i kontroli działalności służb specjalnych;
+      2) koordynowanie działalności służb specjalnych;
+      3) wspomaganie Rady Ministrów w kształtowaniu głównych kierunków polityki rządu dotyczącej działalności służb specjalnych.
+      § 8. Obsługę ministra zapewnia Kancelaria Prezesa Rady Ministrów.
+    note: >-
+      The remit of the minister who coordinates the intelligence services. He supervises and
+      coordinates agencies; he runs no branch of government administration and § 8 confirms
+      that the Chancellery, not a ministry, serves him. A cabinet seat and no ministry.
+      Paragraphs 2 to 7, which detail his supervisory powers over the individual agencies,
+      are omitted from the quote.
+
+  - id: du-2025-1004-mz
+    tier: 1
+    type: official_gazette
+    publisher: Dziennik Ustaw Rzeczypospolitej Polskiej
+    title: >-
+      Rozporządzenie Prezesa Rady Ministrów z dnia 25 lipca 2025 r. w sprawie szczegółowego
+      zakresu działania Ministra Zdrowia (Dz.U. 2025 poz. 1004)
+    url: https://dziennikustaw.gov.pl/D2025000100401.pdf
+    archive_url: https://web.archive.org/web/20250726163316/https://dziennikustaw.gov.pl/D2025000100401.pdf
+    lang: pl
+    published: 2025-07-25
+    accessed: 2026-07-28
+    quote: |-
+      § 1. 1. Rozporządzenie określa szczegółowy zakres działania Ministra Zdrowia, zwanego dalej „ministrem”.
+      2. Minister kieruje działem administracji rządowej – zdrowie.
+      3. Minister jest dysponentem części 46 budżetu państwa.
+      4. Obsługę ministra zapewnia Ministerstwo Zdrowia.
+      5. Organy podległe ministrowi lub przez niego nadzorowane określa załącznik do rozporządzenia.
+    note: In force on 28 July 2026.
+
+  - id: du-2025-1005-ms
+    tier: 1
+    type: official_gazette
+    publisher: Dziennik Ustaw Rzeczypospolitej Polskiej
+    title: >-
+      Rozporządzenie Prezesa Rady Ministrów z dnia 25 lipca 2025 r. w sprawie szczegółowego
+      zakresu działania Ministra Sprawiedliwości (Dz.U. 2025 poz. 1005)
+    url: https://dziennikustaw.gov.pl/D2025000100501.pdf
+    archive_url: https://web.archive.org/web/20250726213455/https://dziennikustaw.gov.pl/D2025000100501.pdf
+    lang: pl
+    published: 2025-07-25
+    accessed: 2026-07-28
+    quote: |-
+      § 1. 1. Rozporządzenie określa szczegółowy zakres działania Ministra Sprawiedliwości, zwanego dalej „ministrem”.
+      2. Minister kieruje działem administracji rządowej – sprawiedliwość.
+      3. Minister jest dysponentem części 15 i 37 budżetu państwa.
+      4. Obsługę ministra zapewnia Ministerstwo Sprawiedliwości.
+    note: In force on 28 July 2026.
+
+  - id: du-2025-1047-berek
+    tier: 1
+    type: official_gazette
+    publisher: Dziennik Ustaw Rzeczypospolitej Polskiej
+    title: >-
+      Rozporządzenie Prezesa Rady Ministrów z dnia 31 lipca 2025 r. w sprawie szczegółowego
+      zakresu działania Ministra do spraw Nadzoru nad Wdrażaniem Polityki Rządu
+      (Dz.U. 2025 poz. 1047)
+    url: https://dziennikustaw.gov.pl/D2025000104701.pdf
+    archive_url: https://web.archive.org/web/20250731183532/https://dziennikustaw.gov.pl/D2025000104701.pdf
+    lang: pl
+    published: 2025-07-31
+    accessed: 2026-07-28
+    quote: |-
+      § 1. Minister do spraw Nadzoru nad Wdrażaniem Polityki Rządu, zwany dalej „ministrem”, jest właściwy do spraw koordynowania i monitorowania realizacji polityki Rządu oraz koordynowania rządowego procesu legislacyjnego.
+      § 2. Do zakresu działania ministra należy:
+      1) kierowanie pracami Stałego Komitetu Rady Ministrów;
+      2) kierowanie pracami Komitetu Rady Ministrów do spraw Nadzoru nad Wdrażaniem Polityki Rządu;
+      3) koordynowanie i monitorowanie wdrażania priorytetowych zadań realizujących politykę Rządu;
+      4) współpraca z Zespołem do spraw Programowania Prac Rządu;
+      5) kierowanie pracami:
+      a) Zespołu do spraw koordynacji procesu legislacyjnego wdrażającego deregulację,
+      b) Zespołu „e-Legislacja”;
+      6) wykonywanie innych zadań zleconych przez Radę Ministrów lub Prezesa Rady Ministrów.
+      § 5. Obsługę ministra zapewnia Kancelaria Prezesa Rady Ministrów.
+    note: >-
+      The remit of the third minister without a department, and the office that replaced
+      the generic "Minister – Członek Rady Ministrów" the same person held from December
+      2023. He coordinates government policy and the legislative process; § 5 confirms the
+      Chancellery serves him. Paragraphs 3 and 4 are omitted from the quote as immaterial.
+
+  - id: du-2025-1206-me
+    tier: 1
+    type: official_gazette
+    publisher: Dziennik Ustaw Rzeczypospolitej Polskiej
+    title: >-
+      Obwieszczenie Prezesa Rady Ministrów z dnia 29 sierpnia 2025 r. w sprawie ogłoszenia
+      jednolitego tekstu rozporządzenia Prezesa Rady Ministrów w sprawie szczegółowego
+      zakresu działania Ministra Energii (Dz.U. 2025 poz. 1206)
+    url: https://dziennikustaw.gov.pl/D2025000120601.pdf
+    archive_url: https://web.archive.org/web/20250902201804/https://dziennikustaw.gov.pl/D2025000120601.pdf
+    lang: pl
+    published: 2025-09-02
+    accessed: 2026-07-28
+    quote: |-
+      § 1. 1. Rozporządzenie określa szczegółowy zakres działania Ministra Energii, zwanego dalej „ministrem”.
+      2. Minister kieruje następującymi działami administracji rządowej:
+      1) energia;
+      2) gospodarka surowcami energetycznymi.
+      3. Minister jest dysponentem części 47 i 48 budżetu państwa.
+      4. Obsługę ministra zapewnia Ministerstwo Energii.
+      5. Minister sprawuje nadzór nad Prezesem Wyższego Urzędu Górniczego.
+    note: >-
+      The consolidated text of the remit regulation of 25 July 2025 (Dz.U. 2025 poz. 1001)
+      as amended on 20 August 2025 (Dz.U. 2025 poz. 1142), and the version in force on
+      28 July 2026. The amendment is exactly the point of interest: as originally enacted,
+      paragraph 1(4) provided that the minister was served by "Ministerstwo Klimatu i
+      Środowiska w zakresie działu administracji rządowej – energia" and "Ministerstwo
+      Przemysłu w zakresie działu administracji rządowej – gospodarka surowcami
+      energetycznymi", because the ministries were reorganised four weeks after the minister
+      was appointed. Since 21 August 2025 a single Ministerstwo Energii serves him. The
+      superscript footnote markers of the consolidated text are dropped from the quote; no
+      words are altered.
+
+  # --- instruments creating, transforming and abolishing ministries ---------------------
+  - id: du-2023-2694-utworzenie-men
+    tier: 1
+    type: official_gazette
+    publisher: Dziennik Ustaw Rzeczypospolitej Polskiej
+    title: >-
+      Rozporządzenie Rady Ministrów z dnia 16 grudnia 2023 r. w sprawie utworzenia
+      Ministerstwa Edukacji Narodowej (Dz.U. 2023 poz. 2694)
+    url: https://dziennikustaw.gov.pl/D2023000269401.pdf
+    archive_url: https://web.archive.org/web/20240607141917/https://dziennikustaw.gov.pl/D2023000269401.pdf
+    lang: pl
+    published: 2023-12-16
+    accessed: 2026-07-28
+    quote: |-
+      § 1. 1. Tworzy się Ministerstwo Edukacji Narodowej w drodze przekształcenia dotychczasowego Ministerstwa Edukacji i Nauki.
+      2. Przekształcenie, o którym mowa w ust. 1, polega na wyłączeniu z dotychczasowego Ministerstwa Edukacji i Nauki, obsługującego sprawy działów administracji rządowej oświata i wychowanie oraz szkolnictwo wyższe i nauka, komórek organizacyjnych obsługujących sprawy działu administracji rządowej szkolnictwo wyższe i nauka oraz pracowników obsługujących sprawy tego działu.
+      § 2. Traci moc rozporządzenie Rady Ministrów z dnia 17 grudnia 2020 r. w sprawie utworzenia Ministerstwa Edukacji i Nauki oraz zniesienia Ministerstwa Edukacji Narodowej i Ministerstwa Nauki i Szkolnictwa Wyższego (Dz. U. poz. 2334).
+      § 3. Rozporządzenie wchodzi w życie z dniem 1 stycznia 2024 r.
+    note: >-
+      One half of the split of Ministerstwo Edukacji i Nauki, and the tier-1 basis for both
+      the valid_to on that entity and the valid_from on Ministerstwo Edukacji Narodowej.
+      Line breaks introduced mid-sentence by the gazette's typesetting are closed up.
+
+  - id: du-2023-2695-utworzenie-mnisw
+    tier: 1
+    type: official_gazette
+    publisher: Dziennik Ustaw Rzeczypospolitej Polskiej
+    title: >-
+      Rozporządzenie Rady Ministrów z dnia 16 grudnia 2023 r. w sprawie utworzenia
+      Ministerstwa Nauki i Szkolnictwa Wyższego (Dz.U. 2023 poz. 2695)
+    url: https://dziennikustaw.gov.pl/D2023000269501.pdf
+    archive_url: https://web.archive.org/web/20231217130712/https://dziennikustaw.gov.pl/D2023000269501.pdf
+    lang: pl
+    published: 2023-12-16
+    accessed: 2026-07-28
+    quote: |-
+      § 1. 1. Tworzy się Ministerstwo Nauki i Szkolnictwa Wyższego.
+      2. W skład Ministerstwa Nauki i Szkolnictwa Wyższego wchodzą komórki organizacyjne dotychczasowego Ministerstwa Edukacji i Nauki obsługujące sprawy działu administracji rządowej szkolnictwo wyższe i nauka oraz pracownicy obsługujący sprawy tego działu.
+      § 2. Rozporządzenie wchodzi w życie z dniem 1 stycznia 2024 r.
+    note: >-
+      The other half of the split, and the tier-1 basis for the valid_from on Ministerstwo
+      Nauki i Szkolnictwa Wyższego. Line breaks introduced mid-sentence by the gazette's
+      typesetting are closed up.
+
+  - id: du-2025-1076-przeksztalcenie-msz
+    tier: 1
+    type: official_gazette
+    publisher: Dziennik Ustaw Rzeczypospolitej Polskiej
+    title: >-
+      Rozporządzenie Rady Ministrów z dnia 5 sierpnia 2025 r. w sprawie przekształcenia
+      Ministerstwa Spraw Zagranicznych (Dz.U. 2025 poz. 1076)
+    url: https://dziennikustaw.gov.pl/D2025000107601.pdf
+    archive_url: https://web.archive.org/web/20250806171828/https://dziennikustaw.gov.pl/D2025000107601.pdf
+    lang: pl
+    published: 2025-08-06
+    accessed: 2026-07-28
+    quote: |-
+      § 1. 1. Przekształca się Ministerstwo Spraw Zagranicznych.
+      2. Przekształcenie, o którym mowa w ust. 1, polega na włączeniu do Ministerstwa Spraw Zagranicznych komórek organizacyjnych zapewniających obsługę zadań ministra właściwego do spraw członkostwa Rzeczypospolitej Polskiej w Unii Europejskiej oraz pracowników obsługujących te zadania i wyłączeniu tych komórek organizacyjnych oraz tych pracowników z urzędu dotychczas obsługującego ministra właściwego do spraw członkostwa Rzeczypospolitej Polskiej w Unii Europejskiej.
+      § 2. Rozporządzenie wchodzi w życie z dniem ogłoszenia, z mocą od dnia 24 lipca 2025 r.
+    note: >-
+      Records what happened to the abolished Minister do spraw Unii Europejskiej: the units
+      that had served him, which sat in the Chancellery rather than in a ministry, were moved
+      into the foreign ministry. No ministry was created or abolished, which is why the
+      ministry count is unchanged by this instrument while the seat count falls by one. Line
+      breaks introduced mid-sentence by the gazette's typesetting are closed up.
+
+  - id: du-2025-1140-przeksztalcenie-mkis
+    tier: 1
+    type: official_gazette
+    publisher: Dziennik Ustaw Rzeczypospolitej Polskiej
+    title: >-
+      Rozporządzenie Rady Ministrów z dnia 18 sierpnia 2025 r. w sprawie przekształcenia
+      Ministerstwa Klimatu i Środowiska (Dz.U. 2025 poz. 1140)
+    url: https://dziennikustaw.gov.pl/D2025000114001.pdf
+    archive_url: https://web.archive.org/web/20250820200602/https://dziennikustaw.gov.pl/D2025000114001.pdf
+    lang: pl
+    published: 2025-08-20
+    accessed: 2026-07-28
+    quote: |-
+      § 1. 1. Przekształca się Ministerstwo Klimatu i Środowiska.
+      2. Przekształcenie, o którym mowa w ust. 1, polega na wyłączeniu z dotychczasowego Ministerstwa Klimatu i Środowiska, obsługującego sprawy działów administracji rządowej energia, klimat i środowisko, komórek organizacyjnych obsługujących sprawy działu administracji rządowej energia oraz pracowników obsługujących sprawy tego działu.
+      § 2. Rozporządzenie wchodzi w życie z dniem następującym po dniu ogłoszenia.
+    note: >-
+      The instrument that took energy out of the climate ministry with effect from
+      21 August 2025. Ministerstwo Klimatu i Środowiska was transformed, not renamed or
+      replaced, so its entity runs continuously through the term. Line breaks introduced
+      mid-sentence by the gazette's typesetting are closed up.
+
+  - id: du-2025-1141-utworzenie-ministerstwa-energii
+    tier: 1
+    type: official_gazette
+    publisher: Dziennik Ustaw Rzeczypospolitej Polskiej
+    title: >-
+      Rozporządzenie Rady Ministrów z dnia 18 sierpnia 2025 r. w sprawie utworzenia
+      Ministerstwa Energii (Dz.U. 2025 poz. 1141)
+    url: https://dziennikustaw.gov.pl/D2025000114101.pdf
+    archive_url: https://web.archive.org/web/20250820195736/https://dziennikustaw.gov.pl/D2025000114101.pdf
+    lang: pl
+    published: 2025-08-20
+    accessed: 2026-07-28
+    quote: |-
+      § 1. 1. Tworzy się Ministerstwo Energii w drodze przekształcenia dotychczasowego Ministerstwa Przemysłu.
+      2. Przekształcenie, o którym mowa w ust. 1, polega na włączeniu do dotychczasowego Ministerstwa Przemysłu, obsługującego sprawy działu administracji rządowej gospodarka surowcami energetycznymi, komórek organizacyjnych dotychczasowego Ministerstwa Klimatu i Środowiska obsługujących sprawy działu administracji rządowej energia oraz pracowników obsługujących sprawy tego działu.
+      § 2. Traci moc rozporządzenie Rady Ministrów z dnia 20 lutego 2024 r. w sprawie utworzenia Ministerstwa Przemysłu (Dz. U. poz. 260).
+      § 3. Rozporządzenie wchodzi w życie z dniem następującym po dniu ogłoszenia.
+      Prezes Rady Ministrów: D. Tusk
+    note: >-
+      The only ministry created during this cabinet's term after the education split, and the
+      instrument that ends Ministerstwo Przemysłu. It is quoted with § 2 and § 3 because
+      those two paragraphs are what fix the changeover date: the 2024 regulation creating
+      Ministerstwo Przemysłu ceases to have effect and this one enters into force on
+      21 August 2025, the day after publication. It is also the tier-1 record that
+      Ministerstwo Przemysłu existed and was created on 20 February 2024, which is why no
+      separate citation of Dz.U. 2024 poz. 260 was needed. Line breaks introduced
+      mid-sentence by the gazette's typesetting are closed up.
+
+  # --- corroboration from the government's own portal ----------------------------------
+  - id: gov-pl-sklad-rady-ministrow
+    tier: 2
+    type: government_website
+    publisher: Kancelaria Prezesa Rady Ministrów — Portal Gov.pl
+    title: Skład Rady Ministrów
+    url: https://www.gov.pl/web/premier/sklad-rady-ministrow
+    archive_url: https://web.archive.org/web/20260725021205/https://www.gov.pl/web/premier/sklad-rady-ministrow
+    lang: pl
+    published: null
+    accessed: 2026-07-28
+    quote: |-
+      Prezes Rady Ministrów
+      Wiceprezes Rady Ministrów, Minister Obrony Narodowej
+      Wiceprezes Rady Ministrów, Minister Spraw Zagranicznych
+      Wiceprezes Rady Ministrów, Minister Cyfryzacji
+      Minister Aktywów Państwowych
+      Minister do spraw Nadzoru nad Wdrażaniem Polityki Rządu
+      Minister Kultury i Dziedzictwa Narodowego
+      Minister Finansów i Gospodarki
+      Minister - Członek Rady Ministrów, Szef Kancelarii Prezesa Rady Ministrów, Przewodniczący Komitetu do spraw Pożytku Publicznego
+      Minister Klimatu i Środowiska
+      Minister Spraw Wewnętrznych i Administracji
+      Minister Infrastruktury
+      Minister Nauki i Szkolnictwa Wyższego
+      Minister Rolnictwa i Rozwoju Wsi
+      Minister Energii
+      Minister Edukacji
+      Minister Funduszy i Polityki Regionalnej
+      Minister Sportu i Turystyki
+      Minister, członek Rady Ministrów, Koordynator Służb Specjalnych
+      Minister Zdrowia
+      Minister Sprawiedliwości
+    note: >-
+      The Chancellery's own list of the members of the Council of Ministers, quoted in the
+      portal's own order and used for the listing order of this file. It is 22 offices, and
+      it agrees exactly with the gazette record — the postanowienie of 13 December 2023 with
+      the changes of 24 July 2025 applied. Cited as of the snapshot of 25 July 2026, three
+      days before the access date, which is what establishes that this composition is the
+      sitting one. The names of the officeholders are omitted from the quote because this
+      dataset records structure, not personnel. Note that it lists offices, not ministries:
+      "Minister Finansów i Gospodarki" appears once even though two ministries serve him,
+      and "Minister Edukacji" heads Ministerstwo Edukacji Narodowej.
+
+  - id: gov-pl-ministerstwa
+    tier: 2
+    type: government_website
+    publisher: Kancelaria Prezesa Rady Ministrów — Portal Gov.pl
+    title: Ministerstwa — katalog urzędów administracji rządowej
+    url: https://www.gov.pl/web/gov/ministerstwa
+    archive_url: https://web.archive.org/web/20260727165349/https://www.gov.pl/web/gov/ministerstwa
+    lang: pl
+    published: null
+    accessed: 2026-07-28
+    quote: |-
+      Ministerstwo Aktywów Państwowych
+      Ministerstwo Cyfryzacji
+      Ministerstwo Edukacji Narodowej
+      Ministerstwo Energii
+      Ministerstwo Finansów
+      Ministerstwo Funduszy i Polityki Regionalnej
+      Ministerstwo Infrastruktury
+      Ministerstwo Klimatu i Środowiska
+      Ministerstwo Kultury i Dziedzictwa Narodowego
+      Ministerstwo Nauki i Szkolnictwa Wyższego
+      Ministerstwo Obrony Narodowej
+      Ministerstwo Rodziny, Pracy i Polityki Społecznej
+      Ministerstwo Rolnictwa i Rozwoju Wsi
+      Ministerstwo Rozwoju i Technologii
+      Ministerstwo Sportu i Turystyki
+      Ministerstwo Sprawiedliwości
+      Ministerstwo Spraw Wewnętrznych i Administracji
+      Ministerstwo Spraw Zagranicznych
+      Ministerstwo Zdrowia
+    note: >-
+      The government's own directory of ministries, snapshotted on 27 July 2026, one day
+      before the access date. It is the closest thing Poland has to a published enumeration
+      of its ministerstwa, and it is the tier-2 corroboration of the count derived from the
+      remit regulations: 19 entries, including both Ministerstwo Finansów and Ministerstwo
+      Rozwoju i Technologii and no "Ministerstwo Finansów i Gospodarki", and excluding
+      Kancelaria Prezesa Rady Ministrów, which the portal lists elsewhere. It also shows
+      that Ministerstwo Przemysłu is gone. The portal's markup breaks each name after the
+      word "Ministerstwo"; those line breaks are closed up in the quote and the entries are
+      given in the portal's own alphabetical order, unaltered otherwise.
+
+  - id: gov-pl-rozwoj-technologia
+    tier: 2
+    type: ministry_website
+    publisher: Ministerstwo Rozwoju i Technologii — Portal Gov.pl
+    title: Ministerstwo Rozwoju i Technologii
+    url: https://www.gov.pl/web/rozwoj-technologia
+    archive_url: https://web.archive.org/web/20260727032218/https://www.gov.pl/web/rozwoj-technologia
+    lang: pl
+    published: null
+    accessed: 2026-07-28
+    quote: |-
+      Ministerstwo Rozwoju i Technologii - Portal Gov.pl
+      Minister Finansów i Gospodarki
+      Patronat Ministerstwa Rozwoju i Technologii
+    note: >-
+      The site of the ministry that the 19-versus-18 question turns on, snapshotted on
+      27 July 2026. It still exists under its own name, with its own portal presence,
+      organisational structure and accessibility statement, and the minister shown at its head
+      is styled "Minister Finansów i Gospodarki" — the plainest possible demonstration that
+      one minister and two ministries is the actual arrangement rather than an artefact of
+      lagging paperwork. The three quoted lines are the page title, the minister's title in
+      the masthead and a section heading, in the order they appear; the tier-1 authority for
+      the arrangement is Dz.U. 2025 poz. 997.
+
+entities:
+  # --- recorded, not counted: the head of government's office -------------------------
+  - id: PL-2023-kprm
+    order: 1
+    name_original: Kancelaria Prezesa Rady Ministrów
+    abbreviation_original: KPRM
+    name_en: Chancellery of the Prime Minister
+    name_es: Cancillería del Presidente del Consejo de Ministros
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Prezes Rady Ministrów
+    head_title_en: Prime Minister
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: head_of_government_office
+    url: https://www.gov.pl/web/premier
+    sources: [konstytucja-rp-1997, ustawa-o-radzie-ministrow, mp-2023-1382, gov-pl-sklad-rady-ministrow]
+    note:
+      en: >-
+        Not a ministry: article 26 of the ustawa o Radzie Ministrów constitutes it as the
+        office that serves the Council of Ministers, the Prime Minister and the deputy prime
+        ministers, no rozporządzenie under article 39 created it as a ministerstwo, and the
+        government's own directory of ministries does not list it. It is recorded because
+        article 147(1) of the Constitution puts the Prime Minister in the Council of
+        Ministers, and that seat is carried here. The Chancellery also serves the three
+        ministers without portfolio, whose seats are recorded on their own entries; the seat
+        of the Szef Kancelarii, who is himself a Minister – Członek Rady Ministrów, is one of
+        those.
+      es: >-
+        No es un ministerio: el artículo 26 de la ustawa o Radzie Ministrów lo constituye
+        como la oficina que atiende al Consejo de Ministros, al primer ministro y a los
+        vicepresidentes, ningún rozporządzenie del artículo 39 lo creó como ministerstwo y
+        el directorio gubernamental de ministerios no lo lista. Se registra porque el
+        artículo 147.1 de la Constitución incorpora al primer ministro al Consejo de
+        Ministros, y ese asiento se imputa aquí. La Cancillería atiende además a los tres
+        ministros sin cartera, cuyos asientos figuran en sus propias entradas; el del Szef
+        Kancelarii, que es a su vez Minister – Członek Rady Ministrów, es uno de ellos.
+
+  # --- counted ministries, in the Chancellery's own listing order ----------------------
+  - id: PL-2023-obrony-narodowej
+    order: 2
+    name_original: Ministerstwo Obrony Narodowej
+    abbreviation_original: MON
+    name_en: Ministry of National Defence
+    name_es: Ministerio de Defensa Nacional
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [defence]
+    counts_as_ministry: true
+    url: https://www.gov.pl/web/obrona-narodowa
+    sources: [du-2023-2707-mon, mp-2023-1383, mp-2025-690, gov-pl-ministerstwa]
+    note:
+      en: >-
+        Its minister is also one of the three deputy prime ministers. Under article 147(3)
+        of the Constitution that is a second office of the same person, so it adds neither a
+        ministry nor a seat.
+      es: >-
+        Su ministro es además uno de los tres vicepresidentes del Consejo de Ministros.
+        Conforme al artículo 147.3 de la Constitución eso es un segundo cargo de la misma
+        persona, por lo que no añade ni ministerio ni asiento.
+
+  - id: PL-2023-spraw-zagranicznych
+    order: 3
+    name_original: Ministerstwo Spraw Zagranicznych
+    abbreviation_original: MSZ
+    name_en: Ministry of Foreign Affairs
+    name_es: Ministerio de Asuntos Exteriores
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [foreign_affairs, european_affairs, development_cooperation, diaspora]
+    counts_as_ministry: true
+    url: https://www.gov.pl/web/dyplomacja
+    sources: [du-2025-993-msz, du-2025-1076-przeksztalcenie-msz, mp-2025-690, gov-pl-ministerstwa]
+    note:
+      en: >-
+        Since 24 July 2025 it also runs the branch "członkostwo Rzeczypospolitej Polskiej w
+        Unii Europejskiej", which until then belonged to a separate Minister do spraw Unii
+        Europejskiej who had no ministry of his own. Its minister is also a deputy prime
+        minister, which adds neither a ministry nor a seat.
+      es: >-
+        Desde el 24 de julio de 2025 dirige además el ramo «członkostwo Rzeczypospolitej
+        Polskiej w Unii Europejskiej», que hasta entonces correspondía a un Minister do
+        spraw Unii Europejskiej separado y sin ministerio propio. Su ministro es además
+        vicepresidente del Consejo de Ministros, lo que no añade ni ministerio ni asiento.
+
+  - id: PL-2023-cyfryzacji
+    order: 4
+    name_original: Ministerstwo Cyfryzacji
+    abbreviation_original: MC
+    name_en: Ministry of Digital Affairs
+    name_es: Ministerio de Digitalización
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [digital, telecommunications]
+    counts_as_ministry: true
+    url: https://www.gov.pl/web/cyfryzacja
+    sources: [du-2023-2720-mc, mp-2023-1383, gov-pl-ministerstwa]
+    note:
+      en: >-
+        Its minister is also a deputy prime minister, which adds neither a ministry nor a
+        seat. Telecommunications is tagged here rather than on the state-assets ministry:
+        article 12a of the ustawa o działach places telecommunications and the electronic
+        communications regulator inside the branch "informatyzacja".
+      es: >-
+        Su ministro es además vicepresidente del Consejo de Ministros, lo que no añade ni
+        ministerio ni asiento. Las telecomunicaciones se etiquetan aquí y no en el
+        ministerio de activos estatales: el artículo 12a de la ustawa o działach sitúa las
+        telecomunicaciones y el regulador de comunicaciones electrónicas dentro del ramo
+        «informatyzacja».
+
+  - id: PL-2023-aktywow-panstwowych
+    order: 5
+    name_original: Ministerstwo Aktywów Państwowych
+    abbreviation_original: MAP
+    name_en: Ministry of State Assets
+    name_es: Ministerio de Activos Estatales
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [state_assets]
+    counts_as_ministry: true
+    url: https://www.gov.pl/web/aktywa-panstwowe
+    sources: [du-2025-994-map, ustawa-o-dzialach-administracji-rzadowej, mp-2023-1383, mp-2025-690, gov-pl-ministerstwa]
+    note:
+      en: >-
+        It runs two branches, "aktywa państwowe" and "łączność", but only the first is
+        taggable: "łączność" is postal affairs under article 16 of the ustawa o działach and
+        the taxonomy has no id for postal services. Its mining competence left in March 2024
+        with the creation of Ministerstwo Przemysłu, which was carved out of this ministry.
+      es: >-
+        Dirige dos ramos, «aktywa państwowe» y «łączność», pero sólo el primero es
+        etiquetable: «łączność» son los asuntos postales conforme al artículo 16 de la
+        ustawa o działach y la taxonomía no tiene id para los servicios postales. Su
+        competencia minera se marchó en marzo de 2024 con la creación del Ministerstwo
+        Przemysłu, escindido de este ministerio.
+
+  # --- recorded, not counted: minister with a seat and no department -------------------
+  - id: PL-2023-nadzor-nad-wdrazaniem-polityki-rzadu
+    order: 6
+    name_original: Minister do spraw Nadzoru nad Wdrażaniem Polityki Rządu
+    abbreviation_original: null
+    name_en: Minister for Oversight of the Implementation of Government Policy
+    name_es: Ministro para la Supervisión de la Aplicación de la Política del Gobierno
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Minister do spraw Nadzoru nad Wdrażaniem Polityki Rządu
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    valid_from: 2025-07-24
+    url: null
+    sources: [du-2025-1047-berek, mp-2025-690, gov-pl-sklad-rady-ministrow]
+    note:
+      en: >-
+        A minister without portfolio: he runs no branch of government administration and,
+        by § 5 of his own remit regulation, is served by the Chancellery rather than by a
+        ministry. He coordinates the implementation of government policy and the government's
+        legislative process, and chairs the Stały Komitet Rady Ministrów. The office was
+        created on 24 July 2025 in place of the generic "Minister – Członek Rady Ministrów"
+        the same person had held since 13 December 2023, which is why valid_from is set.
+      es: >-
+        Ministro sin cartera: no dirige ningún ramo de la administración gubernamental y,
+        según el § 5 de su propio reglamento de ámbito, le atiende la Cancillería y no un
+        ministerio. Coordina la aplicación de la política del Gobierno y el proceso
+        legislativo gubernamental, y preside el Stały Komitet Rady Ministrów. El cargo se
+        creó el 24 de julio de 2025 en sustitución del genérico «Minister – Członek Rady
+        Ministrów» que la misma persona ostentaba desde el 13 de diciembre de 2023, y de ahí
+        el valid_from.
+
+  - id: PL-2023-kultury-i-dziedzictwa-narodowego
+    order: 7
+    name_original: Ministerstwo Kultury i Dziedzictwa Narodowego
+    abbreviation_original: MKiDN
+    name_en: Ministry of Culture and National Heritage
+    name_es: Ministerio de Cultura y Patrimonio Nacional
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [culture]
+    counts_as_ministry: true
+    url: https://www.gov.pl/web/kultura
+    sources: [du-2025-996-mkidn, mp-2023-1383, mp-2025-690, gov-pl-ministerstwa]
+
+  - id: PL-2023-finansow
+    order: 8
+    name_original: Ministerstwo Finansów
+    abbreviation_original: MF
+    name_en: Ministry of Finance
+    name_es: Ministerio de Hacienda
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    shared_head_with: [PL-2023-rozwoju-i-technologii]
+    policy_areas: [finance, budget]
+    counts_as_ministry: true
+    url: https://www.gov.pl/web/finanse
+    sources: [du-2025-997-mfig, mp-2023-1383, mp-2025-690, gov-pl-ministerstwa]
+    note:
+      en: >-
+        One of the two ministries that serve the Minister Finansów i Gospodarki. Under
+        § 1(4)(2) of Dz.U. 2025 poz. 997 this one covers the budget, public finances and
+        financial institutions. Counted as a ministry and linked to Ministerstwo Rozwoju i
+        Technologii through shared_head_with, so the pair is two ministries and one cabinet
+        seat. Until 24 July 2025 its minister's title was simply "Minister Finansów"; the
+        ministry's name has not changed.
+      es: >-
+        Uno de los dos ministerios que atienden al Minister Finansów i Gospodarki. Conforme
+        al § 1.4.2 del Dz.U. 2025 poz. 997, a este le corresponden el presupuesto, las
+        finanzas públicas y las instituciones financieras. Se cuenta como ministerio y se
+        vincula al Ministerstwo Rozwoju i Technologii mediante shared_head_with, de modo que
+        el par son dos ministerios y un solo asiento. Hasta el 24 de julio de 2025 el título
+        de su ministro era simplemente «Minister Finansów»; el nombre del ministerio no ha
+        cambiado.
+
+  - id: PL-2023-rozwoju-i-technologii
+    order: 9
+    name_original: Ministerstwo Rozwoju i Technologii
+    abbreviation_original: MRiT
+    name_en: Ministry of Development and Technology
+    name_es: Ministerio de Desarrollo y Tecnología
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    shared_head_with: [PL-2023-finansow]
+    policy_areas: [economy, industry, trade, small_business, housing, spatial_planning]
+    counts_as_ministry: true
+    url: https://www.gov.pl/web/rozwoj-technologia
+    sources: [du-2025-997-mfig, ustawa-o-dzialach-administracji-rzadowej, mp-2023-1383, gov-pl-ministerstwa, gov-pl-rozwoj-technologia]
+    note:
+      en: >-
+        The other ministry serving the Minister Finansów i Gospodarki, covering the economy
+        and construction, spatial planning and housing under § 1(4)(1) of Dz.U. 2025
+        poz. 997. Until 24 July 2025 it had a minister of its own, the Minister Rozwoju i
+        Technologii; since then it has shared the finance minister, but it was not abolished,
+        merged or renamed, and the Prime Minister gave it a fresh statute on 23 January
+        2026. This is the entity a curator counting ministers rather than ministries would
+        drop, taking Poland from 19 to 18. The policy areas follow the branches it serves:
+        article 9 of the ustawa o działach puts entrepreneurship and industry, foreign
+        economic cooperation and innovation inside "gospodarka".
+      es: >-
+        El otro ministerio que atiende al Minister Finansów i Gospodarki, con la economía y
+        la construcción, la ordenación del territorio y la vivienda conforme al § 1.4.1 del
+        Dz.U. 2025 poz. 997. Hasta el 24 de julio de 2025 tuvo ministro propio, el Minister
+        Rozwoju i Technologii; desde entonces comparte al ministro de Hacienda, pero no fue
+        suprimido, fusionado ni renombrado, y el primer ministro le aprobó un nuevo estatuto
+        el 23 de enero de 2026. Esta es la entidad que suprimiría un curador que contase
+        ministros en vez de ministerios, llevando a Polonia de 19 a 18. Las áreas de
+        política siguen los ramos que atiende: el artículo 9 de la ustawa o działach sitúa
+        el emprendimiento y la industria, la cooperación económica exterior y la innovación
+        dentro de «gospodarka».
+
+  - id: PL-2023-rodziny-pracy-i-polityki-spolecznej
+    order: 10
+    name_original: Ministerstwo Rodziny, Pracy i Polityki Społecznej
+    abbreviation_original: MRPiPS
+    name_en: Ministry of Family, Labour and Social Policy
+    name_es: Ministerio de Familia, Trabajo y Política Social
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [family, labour, social_affairs, social_security, disability, veterans]
+    counts_as_ministry: true
+    url: https://www.gov.pl/web/rodzina
+    sources: [du-2023-2715-mrpips, ustawa-o-dzialach-administracji-rzadowej, mp-2023-1383, gov-pl-ministerstwa]
+    note:
+      en: >-
+        Six policy areas for three branches. Article 31 of the ustawa o działach puts social
+        insurance and pension funds, social assistance, the employment and rehabilitation of
+        disabled people, and war veterans and victims of repression all inside
+        "zabezpieczenie społeczne"; the Szef Urzędu do Spraw Kombatantów i Osób
+        Represjonowanych reports to this minister, and Poland has no separate veterans
+        ministry.
+      es: >-
+        Seis áreas de política para tres ramos. El artículo 31 de la ustawa o działach sitúa
+        los seguros sociales y los fondos de pensiones, la asistencia social, el empleo y la
+        rehabilitación de las personas con discapacidad y los excombatientes y víctimas de
+        represión dentro de «zabezpieczenie społeczne»; el Szef Urzędu do Spraw Kombatantów
+        i Osób Represjonowanych depende de este ministro, y Polonia no tiene un ministerio
+        de veteranos separado.
+
+  # --- recorded, not counted: minister with a seat and no department -------------------
+  - id: PL-2023-czlonek-rady-ministrow-szef-kprm
+    order: 11
+    name_original: Minister – Członek Rady Ministrów, Szef Kancelarii Prezesa Rady Ministrów
+    abbreviation_original: null
+    name_en: Minister – Member of the Council of Ministers, Head of the Chancellery of the Prime Minister
+    name_es: Ministro – Miembro del Consejo de Ministros, Jefe de la Cancillería del Presidente del Consejo de Ministros
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Minister – Członek Rady Ministrów
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    url: null
+    sources: [du-2025-998-grabiec, mp-2023-1383, mp-2025-690, gov-pl-sklad-rady-ministrow, konstytucja-rp-1997]
+    note:
+      en: >-
+        A minister without portfolio who runs the Chancellery. The presidential
+        postanowienie appoints him only "na urzędy Ministra – Członka Rady Ministrów i
+        Przewodniczącego Komitetu do spraw Pożytku Publicznego"; the office of Szef
+        Kancelarii is conferred separately by the Prime Minister and is not a ministry.
+        Under article 149(1) of the Constitution he carries out tasks assigned by the Prime
+        Minister rather than running a branch of government administration, and § 5 of his
+        remit regulation confirms that the Chancellery serves him. He is recorded separately
+        from the Chancellery entity because his seat and the Prime Minister's are two of the
+        22, not one. A curator could defensibly file him under head_of_government_office
+        instead; the reason chosen here follows the gazette, which appoints him a
+        minister-member with no department.
+      es: >-
+        Ministro sin cartera que dirige la Cancillería. El postanowienie presidencial lo
+        nombra únicamente «na urzędy Ministra – Członka Rady Ministrów i Przewodniczącego
+        Komitetu do spraw Pożytku Publicznego»; el cargo de Szef Kancelarii lo confiere
+        aparte el primer ministro y no es un ministerio. Conforme al artículo 149.1 de la
+        Constitución desempeña las tareas que le asigna el primer ministro en lugar de
+        dirigir un ramo de la administración, y el § 5 de su reglamento de ámbito confirma
+        que le atiende la Cancillería. Se registra por separado de la entidad de la
+        Cancillería porque su asiento y el del primer ministro son dos de los 22, no uno. Un
+        curador podría razonablemente clasificarlo como head_of_government_office; el motivo
+        elegido aquí sigue al boletín, que lo nombra ministro-miembro sin departamento.
+
+  - id: PL-2023-klimatu-i-srodowiska
+    order: 12
+    name_original: Ministerstwo Klimatu i Środowiska
+    abbreviation_original: MKiŚ
+    name_en: Ministry of Climate and Environment
+    name_es: Ministerio de Clima y Medio Ambiente
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [climate, environment]
+    counts_as_ministry: true
+    url: https://www.gov.pl/web/klimat
+    sources: [du-2025-995-mkis, du-2025-1140-przeksztalcenie-mkis, mp-2023-1383, gov-pl-ministerstwa]
+    note:
+      en: >-
+        It ran the branch "energia" as well until 24 July 2025, and its energy units were
+        transferred out on 21 August 2025 to form Ministerstwo Energii. The ministry was
+        transformed rather than replaced, so this entity runs continuously through the term
+        and carries no valid_to.
+      es: >-
+        Dirigió también el ramo «energia» hasta el 24 de julio de 2025, y sus unidades de
+        energía se traspasaron el 21 de agosto de 2025 para formar el Ministerstwo Energii.
+        El ministerio fue transformado, no sustituido, por lo que esta entidad se mantiene de
+        forma continua durante la legislatura y no lleva valid_to.
+
+  - id: PL-2023-spraw-wewnetrznych-i-administracji
+    order: 13
+    name_original: Ministerstwo Spraw Wewnętrznych i Administracji
+    abbreviation_original: MSWiA
+    name_en: Ministry of the Interior and Administration
+    name_es: Ministerio del Interior y Administración
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [interior, public_administration, civil_protection, migration, religion, territorial_administration]
+    counts_as_ministry: true
+    url: https://www.gov.pl/web/mswia
+    sources: [du-2025-999-mswia, ustawa-o-dzialach-administracji-rzadowej, mp-2023-1383, mp-2025-690, gov-pl-ministerstwa]
+    note:
+      en: >-
+        Poland has no migration ministry and no civil protection ministry: article 29 of the
+        ustawa o działach puts border control, aliens and the coordination of migration
+        policy, crisis management, civil protection and fire safety inside the branch
+        "sprawy wewnętrzne", and the head of the Urząd do Spraw Cudzoziemców reports to this
+        minister. Religious affairs and national minorities are a branch of their own under
+        article 30, and the administrative division of the state and the integrated
+        provincial administration sit in "administracja publiczna" under article 6.
+      es: >-
+        Polonia no tiene ministerio de migración ni de protección civil: el artículo 29 de
+        la ustawa o działach sitúa el control de fronteras, los extranjeros y la coordinación
+        de la política migratoria, la gestión de crisis, la protección civil y la seguridad
+        contra incendios dentro del ramo «sprawy wewnętrzne», y el jefe del Urząd do Spraw
+        Cudzoziemców depende de este ministro. Los asuntos religiosos y las minorías
+        nacionales son un ramo propio conforme al artículo 30, y la división administrativa
+        del Estado y la administración estatal integrada en la provincia están en
+        «administracja publiczna» conforme al artículo 6.
+
+  - id: PL-2023-infrastruktury
+    order: 14
+    name_original: Ministerstwo Infrastruktury
+    abbreviation_original: MI
+    name_en: Ministry of Infrastructure
+    name_es: Ministerio de Infraestructuras
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [transport, shipping, water, infrastructure]
+    counts_as_ministry: true
+    url: https://www.gov.pl/web/infrastruktura
+    sources: [du-2023-2725-mi, mp-2023-1383, gov-pl-ministerstwa]
+    note:
+      en: >-
+        Four branches: maritime economy, water management, transport and inland waterways.
+        Water is a full branch of its own here, which is unusual in this dataset — in most
+        countries water policy sits with an environment ministry.
+      es: >-
+        Cuatro ramos: economía marítima, gestión del agua, transporte y navegación interior.
+        El agua es aquí un ramo propio completo, lo que resulta inusual en este conjunto de
+        datos: en la mayoría de los países la política del agua está en un ministerio de
+        medio ambiente.
+
+  - id: PL-2023-nauki-i-szkolnictwa-wyzszego
+    order: 15
+    name_original: Ministerstwo Nauki i Szkolnictwa Wyższego
+    abbreviation_original: MNiSW
+    name_en: Ministry of Science and Higher Education
+    name_es: Ministerio de Ciencia y Educación Superior
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [higher_education, research]
+    counts_as_ministry: true
+    valid_from: 2024-01-01
+    url: https://www.gov.pl/web/nauka
+    sources: [du-2023-2695-utworzenie-mnisw, du-2025-68-mnisw, mp-2023-1383, gov-pl-ministerstwa]
+    note:
+      en: >-
+        Created on 1 January 2024 out of Ministerstwo Edukacji i Nauki, which is why
+        valid_from is set nineteen days after the cabinet took office. Its minister was
+        titled simply "Minister Nauki" until 17 January 2025 and has carried the ministry's
+        full name since.
+      es: >-
+        Creado el 1 de enero de 2024 a partir del Ministerstwo Edukacji i Nauki, y de ahí el
+        valid_from diecinueve días posterior a la toma de posesión del gobierno. Su ministro
+        se tituló simplemente «Minister Nauki» hasta el 17 de enero de 2025 y desde entonces
+        lleva el nombre completo del ministerio.
+
+  - id: PL-2023-rolnictwa-i-rozwoju-wsi
+    order: 16
+    name_original: Ministerstwo Rolnictwa i Rozwoju Wsi
+    abbreviation_original: MRiRW
+    name_en: Ministry of Agriculture and Rural Development
+    name_es: Ministerio de Agricultura y Desarrollo Rural
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [agriculture, rural_development, fisheries, food_safety]
+    counts_as_ministry: true
+    url: https://www.gov.pl/web/rolnictwo
+    sources: [du-2025-1000-mrirw, mp-2023-1383, mp-2025-690, gov-pl-ministerstwa]
+
+  - id: PL-2023-energii
+    order: 17
+    name_original: Ministerstwo Energii
+    abbreviation_original: ME
+    name_en: Ministry of Energy
+    name_es: Ministerio de Energía
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [energy, mining]
+    counts_as_ministry: true
+    valid_from: 2025-08-21
+    url: https://www.gov.pl/web/energia
+    sources: [du-2025-1141-utworzenie-ministerstwa-energii, du-2025-1206-me, mp-2025-690, gov-pl-ministerstwa]
+    note:
+      en: >-
+        Created on 21 August 2025 by transforming Ministerstwo Przemysłu and adding the
+        energy units of Ministerstwo Klimatu i Środowiska. The minister took office four
+        weeks earlier, on 24 July 2025, and until 20 August was served by those two
+        ministries jointly; valid_from follows the ministry, not the minister. It runs the
+        branch "gospodarka surowcami energetycznymi" and supervises the Wyższy Urząd
+        Górniczy, hence the mining tag.
+      es: >-
+        Creado el 21 de agosto de 2025 transformando el Ministerstwo Przemysłu y añadiendo
+        las unidades de energía del Ministerstwo Klimatu i Środowiska. El ministro tomó
+        posesión cuatro semanas antes, el 24 de julio de 2025, y hasta el 20 de agosto lo
+        atendieron conjuntamente esos dos ministerios; valid_from sigue al ministerio, no al
+        ministro. Dirige el ramo «gospodarka surowcami energetycznymi» y supervisa el
+        Wyższy Urząd Górniczy, de ahí la etiqueta de minería.
+
+  - id: PL-2023-edukacji-narodowej
+    order: 18
+    name_original: Ministerstwo Edukacji Narodowej
+    abbreviation_original: MEN
+    name_en: Ministry of National Education
+    name_es: Ministerio de Educación Nacional
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [education]
+    counts_as_ministry: true
+    valid_from: 2024-01-01
+    url: https://www.gov.pl/web/edukacja
+    sources: [du-2023-2694-utworzenie-men, du-2023-2717-men, mp-2023-1383, gov-pl-ministerstwa]
+    note:
+      en: >-
+        Created on 1 January 2024 by transforming Ministerstwo Edukacji i Nauki, which is
+        why valid_from is set. Its minister's office is titled simply "Minister Edukacji",
+        not "Minister Edukacji Narodowej"; name_original gives the ministry as its own
+        instrument spells it. It runs one branch, "oświata i wychowanie" — school education.
+        Higher education and research sit with a separate ministry.
+      es: >-
+        Creado el 1 de enero de 2024 transformando el Ministerstwo Edukacji i Nauki, y de ahí
+        el valid_from. El cargo de su ministra se titula simplemente «Minister Edukacji» y no
+        «Minister Edukacji Narodowej»; name_original da el ministerio tal como lo escribe su
+        propio instrumento. Dirige un solo ramo, «oświata i wychowanie», la educación
+        escolar. La educación superior y la investigación corresponden a otro ministerio.
+
+  - id: PL-2023-funduszy-i-polityki-regionalnej
+    order: 19
+    name_original: Ministerstwo Funduszy i Polityki Regionalnej
+    abbreviation_original: MFiPR
+    name_en: Ministry of Funds and Regional Policy
+    name_es: Ministerio de Fondos y Política Regional
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [regional_development, reconstruction]
+    counts_as_ministry: true
+    url: https://www.gov.pl/web/fundusze-regiony
+    sources: [du-2023-2711-mfipr, ustawa-o-dzialach-administracji-rzadowej, mp-2023-1383, gov-pl-ministerstwa]
+    note:
+      en: >-
+        One branch, "rozwój regionalny", which article 23a of the ustawa o działach defines
+        broadly: it covers regional and urban policy, the structural funds and the Cohesion
+        Fund, and the "plany rozwojowe" through which Poland draws EU recovery money. The
+        reconstruction tag reflects that last part; a curator tagging only the branch name
+        would leave it off.
+      es: >-
+        Un solo ramo, «rozwój regionalny», que el artículo 23a de la ustawa o działach
+        define de forma amplia: abarca la política regional y urbana, los fondos
+        estructurales y el Fondo de Cohesión, y los «plany rozwojowe» mediante los cuales
+        Polonia capta los fondos europeos de recuperación. La etiqueta de reconstrucción
+        refleja esto último; un curador que etiquetase sólo por el nombre del ramo la
+        omitiría.
+
+  - id: PL-2023-sportu-i-turystyki
+    order: 20
+    name_original: Ministerstwo Sportu i Turystyki
+    abbreviation_original: MSiT
+    name_en: Ministry of Sport and Tourism
+    name_es: Ministerio de Deporte y Turismo
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [sport, tourism]
+    counts_as_ministry: true
+    url: https://www.gov.pl/web/sport
+    sources: [du-2025-1002-msit, mp-2023-1383, mp-2025-690, gov-pl-ministerstwa]
+
+  # --- recorded, not counted: minister with a seat and no department -------------------
+  - id: PL-2023-koordynator-sluzb-specjalnych
+    order: 21
+    name_original: Minister – Członek Rady Ministrów, Koordynator Służb Specjalnych
+    abbreviation_original: null
+    name_en: Minister – Member of the Council of Ministers, Coordinator of the Special Services
+    name_es: Ministro – Miembro del Consejo de Ministros, Coordinador de los Servicios Especiales
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Minister – Członek Rady Ministrów
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    url: null
+    sources: [du-2025-1003-siemoniak, mp-2023-1383, mp-2025-690, gov-pl-sklad-rady-ministrow]
+    note:
+      en: >-
+        A minister without portfolio who supervises and coordinates the intelligence and
+        security services under the ustawa o Agencji Bezpieczeństwa Wewnętrznego oraz
+        Agencji Wywiadu. He runs no branch of government administration and § 8 of his remit
+        regulation puts him with the Chancellery, not a ministry. The agencies he oversees —
+        ABW, AW, SKW, SWW, CBA — are public bodies and are not recorded individually. The
+        same person held a generic Minister – Członek Rady Ministrów seat from December 2023
+        and was Minister Spraw Wewnętrznych i Administracji between May 2024 and July 2025;
+        this dataset records structure, not officeholders.
+      es: >-
+        Ministro sin cartera que supervisa y coordina los servicios de inteligencia y
+        seguridad conforme a la ustawa o Agencji Bezpieczeństwa Wewnętrznego oraz Agencji
+        Wywiadu. No dirige ningún ramo de la administración gubernamental y el § 8 de su
+        reglamento de ámbito lo sitúa en la Cancillería, no en un ministerio. Las agencias
+        que supervisa —ABW, AW, SKW, SWW, CBA— son organismos públicos y no se registran
+        individualmente. La misma persona ocupó un asiento genérico de Minister – Członek
+        Rady Ministrów desde diciembre de 2023 y fue Minister Spraw Wewnętrznych i
+        Administracji entre mayo de 2024 y julio de 2025; este conjunto de datos registra la
+        estructura, no a los titulares.
+
+  - id: PL-2023-zdrowia
+    order: 22
+    name_original: Ministerstwo Zdrowia
+    abbreviation_original: MZ
+    name_en: Ministry of Health
+    name_es: Ministerio de Sanidad
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [health]
+    counts_as_ministry: true
+    url: https://www.gov.pl/web/zdrowie
+    sources: [du-2025-1004-mz, mp-2023-1383, mp-2025-690, gov-pl-ministerstwa]
+
+  - id: PL-2023-sprawiedliwosci
+    order: 23
+    name_original: Ministerstwo Sprawiedliwości
+    abbreviation_original: MS
+    name_en: Ministry of Justice
+    name_es: Ministerio de Justicia
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [justice]
+    counts_as_ministry: true
+    url: https://www.gov.pl/web/sprawiedliwosc
+    sources: [du-2025-1005-ms, mp-2023-1383, mp-2025-690, gov-pl-ministerstwa]
+
+  # --- recorded, not counted: departments superseded during the term -------------------
+  # Kept for the historical record with valid_to set, following the Swedish precedent.
+  # They are outside the current snapshot and therefore move no published figure.
+  - id: PL-2023-edukacji-i-nauki
+    order: 24
+    name_original: Ministerstwo Edukacji i Nauki
+    abbreviation_original: MEiN
+    name_en: Ministry of Education and Science
+    name_es: Ministerio de Educación y Ciencia
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: false
+    head_count: 0
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: superseded_within_cabinet
+    valid_to: 2023-12-31
+    url: null
+    sources: [du-2023-2694-utworzenie-men, du-2023-2695-utworzenie-mnisw, du-2023-2717-men]
+    note:
+      en: >-
+        A department of this cabinet for its first nineteen days. It served two ministers at
+        once — the Minister Edukacji and the Minister Nauki — and on 1 January 2024 was split
+        into Ministerstwo Edukacji Narodowej and Ministerstwo Nauki i Szkolnictwa Wyższego.
+        Recorded for the historical record with no seat, because this file does not
+        reconstruct the December 2023 allocation of ministers to offices.
+      es: >-
+        Departamento de este gobierno durante sus primeros diecinueve días. Atendía a dos
+        ministros a la vez —el Minister Edukacji y el Minister Nauki— y el 1 de enero de 2024
+        se escindió en Ministerstwo Edukacji Narodowej y Ministerstwo Nauki i Szkolnictwa
+        Wyższego. Se registra para el histórico sin asiento, porque este fichero no
+        reconstruye el reparto de ministros por cargos de diciembre de 2023.
+
+  - id: PL-2023-przemyslu
+    order: 25
+    name_original: Ministerstwo Przemysłu
+    abbreviation_original: null
+    name_en: Ministry of Industry
+    name_es: Ministerio de Industria
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: false
+    head_count: 0
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: superseded_within_cabinet
+    valid_from: 2024-03-01
+    valid_to: 2025-08-20
+    url: null
+    sources: [du-2025-1141-utworzenie-ministerstwa-energii, mp-2023-1383, mp-2025-689]
+    note:
+      en: >-
+        Created on 1 March 2024 out of Ministerstwo Aktywów Państwowych, seated in Katowice,
+        and transformed into Ministerstwo Energii on 21 August 2025. Its minister's office,
+        Minister Przemysłu, existed from 13 December 2023 and was abolished on 24 July 2025,
+        four weeks before the ministry itself changed; between those dates the ministry
+        served the new Minister Energii. Recorded with no seat, because this file does not
+        reconstruct the term's personnel history.
+      es: >-
+        Creado el 1 de marzo de 2024 a partir del Ministerstwo Aktywów Państwowych, con sede
+        en Katowice, y transformado en Ministerstwo Energii el 21 de agosto de 2025. El cargo
+        de su ministra, Minister Przemysłu, existió desde el 13 de diciembre de 2023 y se
+        suprimió el 24 de julio de 2025, cuatro semanas antes de que cambiara el ministerio;
+        entre esas fechas el ministerio atendió al nuevo Minister Energii. Se registra sin
+        asiento, porque este fichero no reconstruye el historial de titulares de la
+        legislatura.
+
+  # --- recorded, not counted: non-departmental offices abolished on 24 July 2025 -------
+  - id: PL-2023-minister-unii-europejskiej
+    order: 26
+    name_original: Minister do spraw Unii Europejskiej
+    abbreviation_original: null
+    name_en: Minister for European Union Affairs
+    name_es: Ministro para Asuntos de la Unión Europea
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Minister do spraw Unii Europejskiej
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    valid_to: 2025-07-24
+    url: null
+    sources: [mp-2023-1383, mp-2025-689, du-2025-1076-przeksztalcenie-msz]
+    note:
+      en: >-
+        A cabinet seat with no ministry from 13 December 2023 to 24 July 2025. He ran the
+        branch "członkostwo Rzeczypospolitej Polskiej w Unii Europejskiej" but was served by
+        the Chancellery, not by a ministerstwo, which is why the office is recorded as a
+        minister without portfolio rather than as a department. On his dismissal the branch
+        and the units serving it moved into Ministerstwo Spraw Zagranicznych.
+      es: >-
+        Asiento de gabinete sin ministerio del 13 de diciembre de 2023 al 24 de julio de
+        2025. Dirigía el ramo «członkostwo Rzeczypospolitej Polskiej w Unii Europejskiej»
+        pero le atendía la Cancillería y no un ministerstwo, y por eso el cargo se registra
+        como ministro sin cartera y no como departamento. Con su cese el ramo y las unidades
+        que lo servían pasaron al Ministerstwo Spraw Zagranicznych.
+
+  - id: PL-2023-minister-rownosci
+    order: 27
+    name_original: Minister do spraw Równości
+    abbreviation_original: null
+    name_en: Minister for Equality
+    name_es: Ministro para la Igualdad
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Minister do spraw Równości
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    valid_to: 2025-07-24
+    url: null
+    sources: [mp-2023-1383, mp-2025-689]
+    note:
+      en: >-
+        A cabinet seat with no ministry from 13 December 2023 to 24 July 2025, served by the
+        Chancellery. The office was not replaced at the reconstruction, so Poland has had no
+        minister for equality since; this is one of the four abolitions that took the
+        cabinet from 27 seats to 22 without abolishing a ministry.
+      es: >-
+        Asiento de gabinete sin ministerio del 13 de diciembre de 2023 al 24 de julio de
+        2025, atendido por la Cancillería. El cargo no se sustituyó en la remodelación, por
+        lo que Polonia no tiene ministra de Igualdad desde entonces; es una de las cuatro
+        supresiones que llevaron al gabinete de 27 asientos a 22 sin suprimir ningún
+        ministerio.
+
+  - id: PL-2023-minister-polityki-senioralnej
+    order: 28
+    name_original: Minister do spraw Polityki Senioralnej
+    abbreviation_original: null
+    name_en: Minister for Senior Policy
+    name_es: Ministro para la Política de Mayores
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Minister do spraw Polityki Senioralnej
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    valid_to: 2025-07-24
+    url: null
+    sources: [mp-2023-1383, mp-2025-689]
+    note:
+      en: >-
+        A cabinet seat with no ministry from 13 December 2023 to 24 July 2025, served by the
+        Chancellery, and not replaced at the reconstruction. Poland consequently has no
+        dedicated ageing portfolio in the current cabinet, which is why no counted ministry
+        carries the elderly tag.
+      es: >-
+        Asiento de gabinete sin ministerio del 13 de diciembre de 2023 al 24 de julio de
+        2025, atendido por la Cancillería, y no sustituido en la remodelación. Polonia no
+        tiene por tanto una cartera específica de envejecimiento en el gabinete actual, y de
+        ahí que ningún ministerio contado lleve la etiqueta elderly.
+
+  - id: PL-2023-minister-spoleczenstwa-obywatelskiego
+    order: 29
+    name_original: Minister do spraw Społeczeństwa Obywatelskiego
+    abbreviation_original: null
+    name_en: Minister for Civil Society
+    name_es: Ministro para la Sociedad Civil
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Minister do spraw Społeczeństwa Obywatelskiego
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    valid_to: 2025-07-24
+    url: null
+    sources: [mp-2023-1383, mp-2025-689]
+    note:
+      en: >-
+        A cabinet seat with no ministry from 13 December 2023 to 24 July 2025, served by the
+        Chancellery, and held jointly with the chairmanship of the Komitet do spraw Pożytku
+        Publicznego. The office was abolished at the reconstruction and the committee
+        chairmanship passed to the Minister – Członek Rady Ministrów who heads the
+        Chancellery, so no seat and no ministry was added in its place.
+      es: >-
+        Asiento de gabinete sin ministerio del 13 de diciembre de 2023 al 24 de julio de
+        2025, atendido por la Cancillería y ejercido junto con la presidencia del Komitet do
+        spraw Pożytku Publicznego. El cargo se suprimió en la remodelación y la presidencia
+        del comité pasó al Minister – Członek Rady Ministrów que dirige la Cancillería, por
+        lo que no se añadió ni asiento ni ministerio en su lugar.

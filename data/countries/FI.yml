@@ -1,0 +1,58 @@
+# Finland — country metadata.
+#
+# See docs/DATA-CONTRACT.md. The cabinet, its entities and its citations live in
+# data/cabinets/FI-2023-06-20.yml; this file carries only country-level metadata.
+#
+# Perimeter: this record describes the Republic of Finland, including Åland, whose
+# autonomous government (Ålands landskapsregering) is a subnational government and out of
+# scope; matters concerning Åland are a portfolio of the Ministry of Justice. The
+# population figure below covers the whole country, Åland included.
+
+iso2: FI
+iso3: FIN
+
+name_en: Finland
+name_es: Finlandia
+name_original: Suomi
+official_name_original: Suomen tasavalta
+
+continent: europe
+region: northern_europe
+eu_member_since: 1995-01-01
+government_system: parliamentary_republic
+official_languages: [fi, sv]
+
+# Population carries its own citation because the country page publishes it as a figure in
+# its own right, not as a convenience constant. Nothing divides by it.
+population:
+  value: 5652897
+  year: 2026
+  source:
+    id: tilastokeskus-vamuu-2026m06
+    tier: 3
+    type: statistical_office
+    publisher: Tilastokeskus
+    title: >-
+      Väestön ennakkotilasto — ennakkoväkiluku kesäkuun 2026 lopussa (tilaston avainluvut)
+    url: https://stat.fi/tilasto/vamuu
+    archive_url: null
+    lang: fi
+    published: 2026-07-23
+    accessed: 2026-07-28
+    quote: |-
+      Ennakkoväkiluku
+      5 652 897
+      Kesäkuu 2026, ennakko
+    note: >-
+      Finland's preliminary population at the end of June 2026, as published in the key
+      figures of Statistics Finland's monthly preliminary population statistics and
+      confirmed against the same figure in StatFin database table 11lj (Väestörakenteen
+      ennakkotiedot alueittain, whole country, June 2026), which returns 5652897 for the
+      same month. Tier 3 rather than tier 1: a statistical compilation from the population
+      information system, not a legal instrument. Two caveats Statistics Finland attaches
+      and a reader of the figure should know: the figure is preliminary ("ennakkotieto") and
+      earlier months are revised as late registrations arrive, and the release carries a
+      correction notice dated 23 July 2026 ("Julkistuksen tekstiä korjattu 23.7.2026"),
+      which is the date used for `published`. The definitive population by age and sex is
+      published later in the StatFin Väestörakenne tables, and Statistics Finland asks that
+      the preliminary figures not be used once the final ones exist.

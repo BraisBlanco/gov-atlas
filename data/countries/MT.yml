@@ -1,0 +1,56 @@
+# Malta — country metadata.
+#
+# See docs/DATA-CONTRACT.md. The cabinet lives in data/cabinets/MT-2026-06-04.yml.
+#
+# name_original is "Malta", which is the short form in both official languages: article 5 of
+# the Constitution makes Maltese the national language and both Maltese and English the
+# official languages of Malta, and the state's name is spelt the same way in each.
+# official_name_original takes a single original-language string, so it carries the Maltese
+# long form "Repubblika ta' Malta"; "Republic of Malta" is the equally official English form
+# and is not a translation of it.
+
+iso2: MT
+iso3: MLT
+
+name_en: Malta
+name_es: Malta
+name_original: Malta
+official_name_original: Repubblika ta' Malta
+
+continent: europe
+region: southern_europe
+eu_member_since: 2004-05-01
+government_system: parliamentary_republic
+official_languages: [mt, en]
+
+# Population carries its own citation because the country page publishes it as a figure in
+# its own right, not as a convenience constant.
+population:
+  value: 588254
+  year: 2026
+  source:
+    id: estat-tps00001-mt-2026
+    tier: 3
+    type: statistical_office
+    publisher: Eurostat
+    title: >-
+      Population on 1 January (TPS00001) — Malta, reference year 2026, JSON-stat extract
+      from the Eurostat dissemination API
+    url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tps00001?format=JSON&geo=MT&lang=en
+    archive_url: null
+    lang: en
+    published: 2026-07-21
+    accessed: 2026-07-28
+    quote: >-
+      "label":"Population on 1 January","source":"ESTAT","updated":"2026-07-21T23:00:00+0200","value":{"0":438805,"1":449635,"2":459375,"3":474837,"4":492968,"5":514855,"6":516125,"7":520174,"8":542051,"9":563443,"10":574250,"11":588254}
+    note: >-
+      Malta's own National Statistics Office is the ultimate producer of this series and
+      reports the same total — 588,254 — but nso.gov.mt sits behind a bot-protection layer
+      that returned HTTP 403 to every automated request made while this file was written,
+      so it could be neither read nor archived and is not cited. The figure is therefore
+      taken from Eurostat's dissemination API, where the reference date is 1 January 2026
+      (equivalently, the end of 2025). In the JSON-stat payload the value index "11"
+      corresponds to time "2026" in the time dimension, which is the 588,254 quoted above.
+      Tier 3 because it is a statistical estimate rather than a legal instrument, so no
+      archive is required; the URL is a stable, parameterised API endpoint rather than a
+      page that can be reorganised.

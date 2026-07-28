@@ -1,0 +1,111 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ChoroplethEurope from './charts/ChoroplethEurope.tsx';
+import RankedBars from './charts/RankedBars.tsx';
+import {
+  chartSources,
+  formatDate,
+  formatNumber,
+  loadCountries,
+  loadMetadata,
+  loadMinistries,
+} from '../lib/data.ts';
+import { localePath, translator, type Locale } from '../i18n/index.ts';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const t = translator(locale);
+
+const [countries, metadata, ministries] = await Promise.all([
+  loadCountries(),
+  loadMetadata(),
+  loadMinistries(),
+]);
+
+// The citations shown under the chart are the ones actually behind what it draws — the
+// instruments that enumerate the counted ministries, and nothing else. The population
+// figures used to appear here because the per-million metric divided by them; no chart
+// does now, so citing them would be citing a source for a number the chart never shows.
+const sources = chartSources(
+  ministries.filter((entity) => entity.counts_as_ministry).flatMap((entity) => entity.sources),
+);
+
+const isSpanish = locale === 'es';
+const countryPathBase = localePath(locale, 'countries');
+---
+
+<BaseLayout locale={locale} title={t('site.title')} description={t('site.tagline')}>
+  <div class="prose">
+    <h1>
+      {isSpanish ? 'Cuántos ministerios tiene cada país' : 'How many ministries each country has'}
+    </h1>
+    <p class="lede">
+      {
+        isSpanish
+          ? 'La cifra no es un dato objetivo: es la consecuencia de una definición. Aquí está la definición, están las fuentes, y está lo que hemos dejado fuera.'
+          : 'The number is not an objective fact: it is the consequence of a definition. Here is the definition, here are the sources, and here is what we left out.'
+      }
+    </p>
+    <p>
+      {
+        isSpanish
+          ? `Cobertura actual: ${formatNumber(metadata.countries_covered, locale)} de ${formatNumber(metadata.target_total, locale)} países previstos, ${formatNumber(metadata.ministries_total, locale)} ministerios contados y ${formatNumber(metadata.sources_total, locale)} fuentes citadas. Datos a ${formatDate(metadata.as_of, locale)}.`
+          : `Current coverage: ${formatNumber(metadata.countries_covered, locale)} of ${formatNumber(metadata.target_total, locale)} planned countries, ${formatNumber(metadata.ministries_total, locale)} counted ministries and ${formatNumber(metadata.sources_total, locale)} cited sources. Data as of ${formatDate(metadata.as_of, locale)}.`
+      }{' '}<a href={localePath(locale, 'methodology')}>{t('nav.methodology')}</a>.
+    </p>
+    <p>
+      {
+        isSpanish
+          ? '¿Quieres saber cuáles son esos ministerios? '
+          : 'Want to know which ministries those are? '
+      }<a href={localePath(locale, 'countries')}>{t('countries.title')}</a>{
+        isSpanish
+          ? ' — la lista completa de cada gobierno, con el nombre oficial y la fuente de cada departamento.'
+          : ' — the full list for each government, with the official name and the source behind every department.'
+      }
+    </p>
+  </div>
+
+  <div class="wide chart-slot">
+    <ChoroplethEurope
+      client:load
+      locale={locale}
+      summaries={countries}
+      sources={sources}
+      asOf={metadata.as_of}
+      methodologyHref={localePath(locale, 'methodology')}
+      countryPathBase={countryPathBase}
+    />
+  </div>
+
+  <div class="wide chart-slot">
+    <RankedBars
+      client:load
+      locale={locale}
+      summaries={countries}
+      sources={sources}
+      asOf={metadata.as_of}
+      methodologyHref={localePath(locale, 'methodology')}
+      countryPathBase={countryPathBase}
+      notes={[
+        isSpanish
+          ? 'Los ministerios contados y los asientos del gabinete son cifras distintas y no se suman: un jefe de gobierno ocupa asiento sin departamento, y un ministro con dos carteras es un asiento y dos ministerios.'
+          : 'Counted ministries and cabinet seats are different figures and are never added together: a head of government holds a seat without a department, and a minister with two portfolios is one seat and two ministries.',
+      ]}
+    />
+  </div>
+
+  <style>
+    .lede {
+      font-size: var(--text-lg);
+      color: var(--text-secondary);
+    }
+
+    .chart-slot {
+      margin-top: var(--space-6);
+    }
+  </style>
+</BaseLayout>

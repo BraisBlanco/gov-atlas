@@ -1,0 +1,53 @@
+# Belgium — country metadata.
+#
+# See docs/DATA-CONTRACT.md. The cabinet lives in data/cabinets/BE-2025-02-03.yml.
+#
+# name_original and official_name_original carry all three official languages, in the
+# alphabetical order of the language codes, because no one of them is the country's name and
+# picking one would be a political statement rather than a datum.
+
+iso2: BE
+iso3: BEL
+
+name_en: Belgium
+name_es: Bélgica
+name_original: België / Belgique / Belgien
+official_name_original: Koninkrijk België / Royaume de Belgique / Königreich Belgien
+
+continent: europe
+region: western_europe
+eu_member_since: 1958-01-01
+government_system: parliamentary_monarchy
+official_languages: [nl, fr, de]
+
+# Population carries its own citation because the country page publishes it as a figure in
+# its own right, not as a convenience constant.
+population:
+  value: 11825551
+  year: 2025
+  source:
+    id: statbel-structure-population
+    tier: 3
+    type: statistical_office
+    publisher: Statbel — Direction générale Statistique, Statistics Belgium
+    title: Structure de la population
+    url: https://statbel.fgov.be/fr/themes/population/structure-de-la-population
+    archive_url: https://web.archive.org/web/20260310182616/https://statbel.fgov.be/fr/themes/population/structure-de-la-population
+    lang: fr
+    published: 2025-06-11
+    accessed: 2026-07-27
+    quote: >-
+      Au 1er janvier 2025, la population légale belge comptait 11.825.551 habitants. Entre le
+      1er janvier 2024 et le 1er janvier 2025, le chiffre de population de la Belgique a
+      augmenté de 0,52 %, soit de 61.901 habitants. C'est ce que montrent les chiffres
+      officiels de Statbel, l'office belge de statistique.
+    note: >-
+      The legal population at 1 January, published annually by the federal statistical
+      office; tier 3 for the same reason as the other countries' statistical-office figures.
+      A more recent figure exists — Statbel's release of 10 June 2026 puts the population at
+      11.867.634 on 1 January 2026 — but it is not used here because statbel.fgov.be sits
+      behind a bot challenge and every archive capture of that release shows the challenge
+      page instead of the text, so it could not be cited with an archive_url that displays
+      what is claimed. This page, whose March 2026 capture is readable, is used instead. The
+      figure is therefore one year older than Belgium's most recent official count, and the
+      quote's typographic apostrophe is transcribed as a straight one.

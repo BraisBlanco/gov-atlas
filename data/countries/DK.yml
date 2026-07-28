@@ -1,0 +1,57 @@
+# Denmark — country metadata.
+#
+# See docs/DATA-CONTRACT.md. The cabinet, its entities and its citations live in
+# data/cabinets/DK-2026-06-03.yml; this file carries only country-level metadata.
+#
+# Perimeter: this record describes Denmark proper, the part of the Kingdom of Denmark
+# whose central government sits in Copenhagen. Greenland and the Faroe Islands are
+# self-governing parts of the Realm with their own governments (Naalakkersuisut and
+# Løgmansskrivstovan) and their own ministers, and they are out of scope; the population
+# figure below is on the same perimeter.
+
+iso2: DK
+iso3: DNK
+
+name_en: Denmark
+name_es: Dinamarca
+name_original: Danmark
+official_name_original: Kongeriget Danmark
+
+continent: europe
+region: northern_europe
+eu_member_since: 1973-01-01
+government_system: parliamentary_monarchy
+official_languages: [da]
+
+# Population carries its own citation because the country page publishes it as a figure in
+# its own right, not as a convenience constant. Nothing divides by it.
+population:
+  value: 6031247
+  year: 2026
+  source:
+    id: dst-folk1a-2026k2
+    tier: 3
+    type: statistical_office
+    publisher: Danmarks Statistik
+    title: >-
+      Statistikbanken, tabel FOLK1A — Befolkningen den 1. i kvartalet (hele landet,
+      2. kvartal 2026), læst via Statistikbankens API
+    url: https://api.statbank.dk/v1/data/FOLK1A/CSV?Tid=2026K2&lang=da
+    archive_url: null
+    lang: da
+    published: 2026-05-11
+    accessed: 2026-07-28
+    quote: |-
+      TID;INDHOLD
+      2026K2;6031247
+    note: >-
+      Denmark's population on 1 April 2026 (FOLK1A reports the population on the first day
+      of the quarter, so "2026K2" is 1 April 2026), read from the CSV endpoint of
+      Statistikbanken; the human-readable table is at
+      https://www.statistikbanken.dk/FOLK1A. The response is quoted verbatim rather than a
+      press sentence because Danmarks Statistik's news releases give rounded figures. The
+      table was last updated on 11 May 2026, which is why `published` carries that date.
+      Tier 3 rather than tier 1: this is a statistical compilation from the civil register,
+      not a legal instrument. FOLK1A covers Denmark proper and contains no figure for
+      Greenland or the Faroe Islands, which Danmarks Statistik publishes separately — the
+      same perimeter as the cabinet file.

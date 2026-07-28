@@ -1,0 +1,1244 @@
+# Czechia — the government of předseda vlády Andrej Babiš, appointed 15 December 2025.
+#
+# See docs/DATA-CONTRACT.md. Five things worth knowing before reading the list:
+#
+#   1. Czechia is one of the countries in this dataset whose ministries are created by a
+#      statute rather than by a reorganisation decree. The instrument is § 1 of zákon
+#      č. 2/1969 Sb., the kompetenční zákon, which opens with "V České republice působí tyto
+#      ústřední orgány státní správy, v jejichž čele je člen vlády" and lists fourteen.
+#      Creating, abolishing or renaming a Czech ministry means amending that list, and the
+#      October 2025 election and the change of government did not amend it.
+#   2. Fourteen ministries, sixteen cabinet members. The předseda vlády heads no ministry,
+#      and one further member — the ministr pro sport, prevenci a zdraví — heads no ministry
+#      either: he is based at the Úřad vlády, which is what the Constitution's čl. 68 odst. 2
+#      allows when it says the President charges ministers with running "ministerstev nebo
+#      jiných úřadů".
+#   3. § 2 of the same statute lists seventeen *other* central authorities — the Český
+#      statistický úřad, the Úřad vlády, the Národní sportovní agentura, the Digitální a
+#      informační agentura and so on. None of them is a ministry and none of their heads sits
+#      in the cabinet, so none is recorded as an entity. See the methodology notes.
+#   4. Four of the fourteen ministers are also místopředsedové vlády. A deputy premiership is
+#      a personal office, not a department; it adds neither a ministry nor a seat.
+#   5. The Ministerstvo životního prostředí had no minister of its own between 15 December
+#      2025 and 23 February 2026 — the foreign minister was charged with running it. The
+#      department existed throughout, so no entity here carries a valid_from.
+
+country: CZ
+cabinet_id: CZ-2025-12-15
+
+cabinet_name_original: Vláda Andreje Babiše
+cabinet_name_en: Babiš government
+cabinet_name_es: Gobierno de Andrej Babiš
+
+head_of_government_title_original: Předseda vlády
+head_of_government_title_en: Prime Minister
+
+took_office: 2025-12-15
+left_office: null
+
+methodology_notes:
+  - en: >-
+      14 ministries and 16 cabinet seats. The fourteen are exactly the central authorities
+      listed in § 1 of zákon č. 2/1969 Sb. (the kompetenční zákon) in the consolidated
+      redaction in force from 1 January 2026, and no other Czech body is a ministry: § 1 is
+      the section that constitutes them, by naming them and by saying that a member of the
+      government stands at the head of each. The sixteen seats are the předseda vlády, the
+      fourteen ministers who lead those ministries, and one minister who leads none. Article
+      67(2) of the Constitution makes the government "předsedy vlády, místopředsedů vlády a
+      ministrů", so the Prime Minister's seat is a matter of constitutional law rather than
+      of our interpretation, and article 68(2) is what allows a minister to be charged with
+      running "jiných úřadů" instead of a ministry. Neither figure is wrong; they answer
+      different questions, and this file never adds them.
+    es: >-
+      14 ministerios y 16 asientos en el gabinete. Los catorce son exactamente los órganos
+      centrales enumerados en el § 1 de la zákon č. 2/1969 Sb. (la kompetenční zákon) en la
+      redacción consolidada vigente desde el 1 de enero de 2026, y ningún otro órgano checo
+      es un ministerio: el § 1 es el precepto que los constituye, al nombrarlos y al
+      establecer que al frente de cada uno está un miembro del gobierno. Los dieciséis
+      asientos son el předseda vlády, los catorce ministros que dirigen esos ministerios y un
+      ministro que no dirige ninguno. El artículo 67.2 de la Constitución compone el gobierno
+      de «předsedy vlády, místopředsedů vlády a ministrů», de modo que el asiento del primer
+      ministro es cuestión de derecho constitucional y no de nuestra interpretación, y el
+      artículo 68.2 es lo que permite encomendar a un ministro la dirección de «jiných úřadů»
+      en lugar de un ministerio. Ninguna de las dos cifras es incorrecta: responden a
+      preguntas distintas, y este fichero nunca las suma.
+  - en: >-
+      The one minister without a portfolio, and why sport is tagged where it is. Boris
+      Šťastný was sworn in on 15 December 2025 as ministr pro sport, prevenci a zdraví, a post
+      this government created; the government's own press release says he "bude sídlit na
+      Úřadu vlády", and § 1 of the kompetenční zákon was not amended to add a ministry for
+      him. He therefore holds a cabinet seat and no department, and is recorded here as
+      minister_without_portfolio — the reason the cabinet is sixteen people and the government
+      fourteen departments. The statutory home of sport is unchanged: § 7 odst. 1 gives
+      "státní péče o děti, mládež a tělesnou výchovu" to the Ministerstvo školství, mládeže a
+      tělovýchovy, whose name still ends in "a tělovýchovy", and the Národní sportovní
+      agentura remains one of the central authorities of § 2. The sport tag is therefore on
+      the education ministry, not on the new post. A curator who treated the new post as a
+      fifteenth ministry — as several press summaries of the cabinet do, calling it a
+      "ministerstvo sportu" — would publish 15; that reading has no support in § 1.
+    es: >-
+      El único ministro sin cartera, y por qué el deporte se etiqueta donde se etiqueta. Boris
+      Šťastný tomó posesión el 15 de diciembre de 2025 como ministr pro sport, prevenci a
+      zdraví, un puesto creado por este gobierno; la propia nota de prensa del gobierno dice
+      que «bude sídlit na Úřadu vlády», y el § 1 de la kompetenční zákon no se modificó para
+      añadirle un ministerio. Ocupa por tanto un asiento en el gabinete sin departamento y se
+      registra como minister_without_portfolio: es la razón de que el gabinete sean dieciséis
+      personas y el gobierno catorce departamentos. La sede legal del deporte no ha cambiado:
+      el § 7 apartado 1 atribuye la «státní péče o děti, mládež a tělesnou výchovu» al
+      Ministerstvo školství, mládeže a tělovýchovy, cuyo nombre sigue terminando en «a
+      tělovýchovy», y la Národní sportovní agentura sigue siendo uno de los órganos centrales
+      del § 2. La etiqueta sport está por tanto en el ministerio de educación y no en el nuevo
+      puesto. Un curador que tratara el nuevo puesto como un decimoquinto ministerio —como
+      hacen varios resúmenes de prensa del gabinete, que lo llaman «ministerstvo sportu»—
+      publicaría 15; esa lectura no tiene apoyo en el § 1.
+  - en: >-
+      Why the Úřad vlády České republiky is not recorded, and neither is any other body from
+      § 2. The Úřad vlády (Office of the Government) is item 10 of § 2, the list of central
+      authorities that are *not* headed by a member of the government. § 28 odst. 3 gives it
+      the professional, organisational and technical support of the government, of its bodies
+      and of "členů vlády, kteří nejsou pověřeni řízením ministerstva nebo jiného úřadu" —
+      which is precisely the minister for sport's situation — and § 28 odst. 5 puts it under a
+      vedoucí Úřadu vlády appointed and dismissed by the government, a civil servant who is
+      not a minister and holds no seat. Recording it as an entity would either invent a
+      fifteenth department or a seventeenth seat, so the předseda vlády is recorded instead,
+      uncounted, under head_of_government_office. The same reasoning excludes the other
+      sixteen § 2 authorities: the Český statistický úřad (whose figure this dataset's Czech
+      population comes from), the Český úřad zeměměřický a katastrální, the Úřad pro ochranu
+      hospodářské soutěže, the Národní sportovní agentura, the Digitální a informační agentura
+      and the rest are central authorities whose heads do not sit in the cabinet, and no
+      official source presents any of them as cabinet-level. Two consequences are worth
+      naming: Czechia has no ministry holding the digital portfolio — state digitalisation is
+      the Digitální a informační agentura's, with the Ministerstvo vnitra holding only a
+      coordinating role for communication technologies under § 12 odst. 6 — and it has no
+      ministry of equality, of migration as such, or of European affairs. The Legislativní
+      rada vlády, which § 28a lets the government establish as an advisory body chaired by a
+      member of the government, is likewise not a department and adds no seat, because its
+      chair already holds one.
+    es: >-
+      Por qué no se registra el Úřad vlády České republiky ni ningún otro órgano del § 2. El
+      Úřad vlády (Oficina del Gobierno) es el punto 10 del § 2, la lista de órganos centrales
+      que *no* están encabezados por un miembro del gobierno. El § 28 apartado 3 le atribuye
+      el apoyo técnico, organizativo y especializado del gobierno, de sus órganos y de los
+      «členů vlády, kteří nejsou pověřeni řízením ministerstva nebo jiného úřadu» —que es
+      exactamente la situación del ministro de deporte— y el § 28 apartado 5 lo pone bajo un
+      vedoucí Úřadu vlády nombrado y separado por el gobierno, un funcionario que no es
+      ministro y no tiene asiento. Registrarlo como entidad inventaría un decimoquinto
+      departamento o un decimoséptimo asiento, de modo que se registra en su lugar el předseda
+      vlády, sin contarlo, por head_of_government_office. El mismo razonamiento excluye a los
+      otros dieciséis órganos del § 2: el Český statistický úřad (de donde procede la cifra de
+      población checa de este dataset), el Český úřad zeměměřický a katastrální, el Úřad pro
+      ochranu hospodářské soutěže, la Národní sportovní agentura, la Digitální a informační
+      agentura y los demás son órganos centrales cuyos titulares no se sientan en el gabinete,
+      y ninguna fuente oficial los presenta como de rango ministerial. Dos consecuencias
+      merecen mención: Chequia no tiene ningún ministerio con la cartera digital —la
+      digitalización del Estado es de la Digitální a informační agentura, y el Ministerstvo
+      vnitra sólo tiene un papel coordinador de las tecnologías de comunicación según el § 12
+      apartado 6— y no tiene ministerio de igualdad, ni de migración como tal, ni de asuntos
+      europeos. La Legislativní rada vlády, que el § 28a permite al gobierno crear como órgano
+      consultivo presidido por un miembro del gobierno, tampoco es un departamento ni añade
+      asiento, porque quien la preside ya tiene uno.
+  - en: >-
+      Deputy prime ministers add nothing to either figure. Four of the fourteen ministers are
+      also místopředsedové vlády: the ministers of industry and trade (as 1. místopředseda
+      vlády), of foreign affairs, of finance and of defence, as the government's own list of
+      members shows. A deputy premiership is a personal office attached to a minister, not a
+      department, so it creates neither a ministry nor a seat, and no entity here is recorded
+      for it. Which ministers hold them can change with a reshuffle; the departmental
+      structure of § 1 does not, and only the latter is recorded in this file. There is no
+      deputy prime minister without a portfolio in this cabinet.
+    es: >-
+      Los viceprimeros ministros no añaden nada a ninguna de las dos cifras. Cuatro de los
+      catorce ministros son además místopředsedové vlády: los de industria y comercio (como
+      1. místopředseda vlády), asuntos exteriores, finanzas y defensa, según la propia lista
+      de miembros del gobierno. Una vicepresidencia del gobierno es un cargo personal adscrito
+      a un ministro, no un departamento, por lo que no crea ni ministerio ni asiento, y aquí
+      no se registra ninguna entidad por ella. Quién las ostenta puede cambiar con una
+      remodelación; la estructura departamental del § 1 no, y en este fichero sólo se registra
+      esta última. En este gabinete no hay ningún viceprimer ministro sin cartera.
+  - en: >-
+      One ministry ran without its own minister for ten weeks, and no entity records it. The
+      President appointed fifteen of the sixteen members on 15 December 2025; the Motoristé
+      sobě nominee for the environment was not appointed, and the foreign minister, Petr
+      Macinka, was charged with running the Ministerstvo životního prostředí until Igor Červený
+      was appointed to it on 23 February 2026. That was a vacancy in a ministerial post, not a
+      change to the list of departments: § 1 was untouched, the ministry existed and acted
+      throughout, and this file records the structure in force on the access date, so the
+      environment entity carries no valid_from and no shared_head_with. A reader reconstructing
+      the cabinet as it stood in January 2026 should note that the ministry then shared a head
+      with the foreign ministry, and that the derived seat count for that period would have
+      been fifteen rather than sixteen. The government won the confidence of the Poslanecká
+      sněmovna on 15 January 2026, within the thirty days článek 68 odst. 3 allows;
+      took_office in this file is the date of appointment, not of the confidence vote.
+    es: >-
+      Un ministerio funcionó diez semanas sin ministro propio, y ninguna entidad lo refleja. El
+      presidente nombró a quince de los dieciséis miembros el 15 de diciembre de 2025; el
+      candidato de Motoristé sobě para medio ambiente no fue nombrado, y el ministro de Asuntos
+      Exteriores, Petr Macinka, quedó encargado de dirigir el Ministerstvo životního prostředí
+      hasta que Igor Červený fue nombrado el 23 de febrero de 2026. Fue una vacante en un
+      puesto ministerial, no un cambio en la lista de departamentos: el § 1 no se tocó, el
+      ministerio existió y actuó durante todo ese tiempo, y este fichero registra la estructura
+      vigente en la fecha de consulta, de modo que la entidad de medio ambiente no lleva
+      valid_from ni shared_head_with. Quien reconstruya el gabinete tal como estaba en enero de
+      2026 debe tener en cuenta que entonces el ministerio compartía titular con el de
+      Exteriores y que el recuento derivado de asientos para ese periodo habría sido quince y
+      no dieciséis. El gobierno obtuvo la confianza de la Poslanecká sněmovna el 15 de enero de
+      2026, dentro de los treinta días que permite el artículo 68 apartado 3; el took_office de
+      este fichero es la fecha del nombramiento, no la de la votación de confianza.
+  - en: >-
+      English ministry names are the Czech government's own; Spanish names are ours. All
+      fourteen English names are copied from the Ministries page of the English-language
+      edition of vlada.gov.cz and are marked name_en_provenance official, as are the English
+      ministerial titles, which come from the same site's list of members. Two inconsistencies
+      in that source are reproduced faithfully rather than smoothed over: the site writes
+      "Ministry of Interior" for the department but "Minister of the Interior" for its head,
+      and it writes "Ministry of the Environment" as the department's heading while the body
+      text of the same entry says "Ministry of Environment". Every Spanish name in this file is
+      this project's own rendering and is marked translated; so is the Spanish name of the
+      country's own institutions in the notes. Czech has one official language, so
+      name_original raises none of the parallel-name questions that Belgium's or Finland's
+      entries do.
+    es: >-
+      Los nombres ingleses de los ministerios son los del propio gobierno checo; los españoles
+      son nuestros. Los catorce nombres en inglés están copiados de la página Ministries de la
+      edición inglesa de vlada.gov.cz y llevan name_en_provenance official, igual que los
+      títulos ministeriales en inglés, que proceden de la lista de miembros del mismo sitio.
+      Dos incoherencias de esa fuente se reproducen fielmente en lugar de corregirse: el sitio
+      escribe «Ministry of Interior» para el departamento pero «Minister of the Interior» para
+      su titular, y escribe «Ministry of the Environment» como encabezamiento del departamento
+      mientras el cuerpo de la misma entrada dice «Ministry of Environment». Todos los nombres
+      en español de este fichero son traducciones propias del proyecto y llevan la marca
+      translated. El checo es la única lengua oficial, de modo que name_original no plantea
+      aquí las cuestiones de nombres paralelos que sí plantean Bélgica o Finlandia.
+  - en: >-
+      A sourcing weakness a reader should know about. The instrument that enumerates the
+      ministries is a statute, and the official Sbírka zákonů publishes it at e-sbirka.cz — but
+      that site is a client-rendered application, and every web-archive snapshot of it,
+      including the one cited here and every attempt made on the access date to create a fresh
+      one, preserves only the empty application shell. The quoted text of §§ 1, 2 and 28 was
+      therefore read from the official machine-readable ELI open data of the same system
+      (opendata.eselpoint.gov.cz), fragment by fragment, and cross-checked word for word
+      against two static renderings: the Ministry of Agriculture's official publication of the
+      consolidated Act, whose server blocks archiving crawlers, and the commercial consolidated
+      text at zakonyprolidi.cz, which is archived and is cited at tier 3 for that purpose. All
+      three agree exactly. This is the reason Czechia's tier-1 citation cannot be checked by
+      opening its snapshot the way Spain's or Estonia's can, and it is a property of the Czech
+      official gazette rather than of this file.
+    es: >-
+      Una debilidad de las fuentes que el lector debe conocer. El instrumento que enumera los
+      ministerios es una ley, y la Sbírka zákonů oficial la publica en e-sbirka.cz, pero ese
+      sitio es una aplicación que se renderiza en el navegador y todas las copias de archivo
+      web que existen de él —incluida la citada aquí y todos los intentos de crear una nueva en
+      la fecha de consulta— conservan sólo el armazón vacío de la aplicación. El texto citado
+      de los §§ 1, 2 y 28 se leyó por ello en los datos abiertos oficiales legibles por máquina
+      del mismo sistema (opendata.eselpoint.gov.cz), fragmento a fragmento, y se cotejó palabra
+      por palabra con dos versiones estáticas: la publicación oficial del texto consolidado por
+      el Ministerio de Agricultura, cuyo servidor bloquea a los rastreadores de archivo, y el
+      texto consolidado comercial de zakonyprolidi.cz, que sí está archivado y se cita en nivel
+      3 con ese fin. Las tres coinciden exactamente. Es la razón por la que la cita de nivel 1
+      de Chequia no puede comprobarse abriendo su copia archivada como sí puede hacerse con la
+      de España o Estonia, y es una propiedad del boletín oficial checo, no de este fichero.
+  - en: >-
+      Perimeter. This file describes the central government of the Czech Republic. The fourteen
+      kraje and the municipalities are subnational and out of scope; oversight of them is a
+      portfolio of the Ministerstvo vnitra and the Ministerstvo pro místní rozvoj rather than a
+      ministry of its own. The President of the Republic is head of state, appoints the
+      government under článek 68, and is not a member of it. The Česká národní banka is an
+      independent monetary authority outside the executive and is not one of the § 2 central
+      authorities. § 1 lists fourteen items in the redaction in force on the access date and in
+      the later redaction already published as taking effect on 1 January 2027, so the ministry
+      count is not due to change on any instrument published so far; § 2, by contrast, grows
+      from seventeen items to nineteen in that 2027 redaction, which changes the count of
+      central authorities and not the count of ministries.
+    es: >-
+      Perímetro. Este fichero describe el gobierno central de la República Checa. Los catorce
+      kraje y los municipios son subnacionales y quedan fuera de alcance; su tutela es una
+      cartera del Ministerstvo vnitra y del Ministerstvo pro místní rozvoj y no un ministerio
+      propio. El presidente de la República es jefe del Estado, nombra al gobierno según el
+      artículo 68 y no forma parte de él. La Česká národní banka es una autoridad monetaria
+      independiente ajena al ejecutivo y no figura entre los órganos centrales del § 2. El § 1
+      enumera catorce puntos en la redacción vigente en la fecha de consulta y también en la
+      redacción posterior ya publicada con efectos de 1 de enero de 2027, de modo que la cifra
+      de ministerios no va a cambiar según ningún instrumento publicado hasta ahora; el § 2, en
+      cambio, pasa de diecisiete a diecinueve puntos en esa redacción de 2027, lo que altera el
+      recuento de órganos centrales y no el de ministerios.
+
+sources:
+  - id: sb-2-1969
+    tier: 1
+    type: statute
+    publisher: Sbírka zákonů a mezinárodních smluv (e-Sbírka) — Ministerstvo vnitra
+    title: >-
+      Zákon č. 2/1969 Sb., o zřízení ministerstev a jiných ústředních orgánů státní správy
+      České republiky (kompetenční zákon), konsolidované znění účinné od 1. 1. 2026
+    url: https://www.e-sbirka.cz/sb/1969/2
+    archive_url: https://web.archive.org/web/20251015144441/https://www.e-sbirka.cz/sb/1969/2
+    lang: cs
+    published: 1969-01-08
+    accessed: 2026-07-28
+    quote: |-
+      § 1
+      V České republice působí tyto ústřední orgány státní správy, v jejichž čele je člen vlády:
+      1. Ministerstvo financí,
+      2. Ministerstvo zahraničních věcí,
+      3. Ministerstvo školství, mládeže a tělovýchovy,
+      4. Ministerstvo kultury,
+      5. Ministerstvo práce a sociálních věcí,
+      6. Ministerstvo zdravotnictví,
+      7. Ministerstvo spravedlnosti,
+      8. Ministerstvo vnitra,
+      9. Ministerstvo průmyslu a obchodu,
+      10. Ministerstvo pro místní rozvoj,
+      11. Ministerstvo zemědělství,
+      12. Ministerstvo obrany,
+      13. Ministerstvo dopravy,
+      14. Ministerstvo životního prostředí.
+      § 2
+      V České republice působí tyto další ústřední orgány státní správy:
+      1. Český statistický úřad,
+      2. Český úřad zeměměřický a katastrální,
+      3. Český báňský úřad,
+      4. Úřad průmyslového vlastnictví,
+      5. Úřad pro ochranu hospodářské soutěže,
+      6. Správa státních hmotných rezerv,
+      7. Státní úřad pro jadernou bezpečnost,
+      8. Národní bezpečnostní úřad,
+      9. Energetický regulační úřad,
+      10. Úřad vlády České republiky,
+      11. Český telekomunikační úřad,
+      12. Úřad pro ochranu osobních údajů,
+      13. Rada pro rozhlasové a televizní vysílání,
+      14. Úřad pro dohled nad hospodařením politických stran a politických hnutí,
+      15. Národní úřad pro kybernetickou a informační bezpečnost,
+      16. Národní sportovní agentura,
+      17. Digitální a informační agentura.
+      § 28
+      (3) Úkoly spojené s odborným, organizačním a technickým zabezpečením činnosti vlády České republiky, jejích orgánů, členů vlády, kteří nejsou pověřeni řízením ministerstva nebo jiného úřadu, a orgánů, o nichž tak stanoví zvláštní zákon nebo tak rozhodne vláda, plní Úřad vlády České republiky.
+      (5) Vedoucího Úřadu vlády České republiky jmenuje a odvolává vláda České republiky. Činnost Úřadu vlády České republiky řídí vedoucí Úřadu vlády České republiky, s výjimkou organizačních věcí státní služby a služebních vztahů státních zaměstnanců; v těchto věcech postupuje vedoucí Úřadu vlády České republiky podle zákona o státní službě.
+    note: >-
+      The enumerating instrument. § 1 constitutes the ministries by naming them and by stating
+      that a member of the government stands at the head of each; § 2 lists the other central
+      authorities, which are not ministries and whose heads hold no cabinet seat; § 28 odst. 3
+      and 5 are quoted because they are why the Úřad vlády is not recorded as a department and
+      why a minister can exist without one. The quotation reproduces those passages in the
+      order of the document and omits everything between them, including the repealed § 1a and
+      the ministry-by-ministry competences of §§ 4 to 19, which are the basis for the policy
+      tags in the entity notes below. Consolidated text: e-Sbírka's own version metadata gives
+      this redaction as type KONSOL with účinnost-znění-od 2026-01-01 and účinnost-znění-do
+      2026-12-31, and the last amendments incorporated are zákon č. 448/2024 Sb. (in part) and
+      zákon č. 220/2025 Sb.; the same source publishes a further redaction taking effect on
+      1 January 2027 in which § 1 still lists the same fourteen items. IMPORTANT CAVEAT: the
+      cited URL is a client-rendered application, so the archived snapshot preserves only its
+      empty shell — attempts to create a fresh snapshot on the access date returned HTTP 520
+      repeatedly. The quoted text was read instead from the official machine-readable ELI open
+      data of the same system, one fragment at a time, under
+      https://opendata.eselpoint.gov.cz/esel-esb/eli/cz/sb/1969/2/2026-01-01/dokument/norma/,
+      and cross-checked word for word against the Ministry of Agriculture's official
+      publication of the consolidated Act
+      (https://mze.gov.cz/public/portal/regulation?ck=regulation&id=31338&name=2/1969, whose
+      server blocks archiving crawlers) and against the archived consolidated text cited at
+      tier 3 below. All three agree exactly. The published date is the date of the original Act.
+
+  - id: ustava-1-1993
+    tier: 1
+    type: statute
+    publisher: Parlament České republiky — Poslanecká sněmovna
+    title: >-
+      Ústava České republiky, ústavní zákon č. 1/1993 Sb., ve znění ústavních zákonů
+      č. 347/1997 Sb., 300/2000 Sb., 448/2001 Sb., 395/2001 Sb., 515/2002 Sb., 319/2009 Sb.,
+      71/2012 Sb. a 98/2013 Sb. — hlava třetí, Vláda
+    url: https://www.psp.cz/docs/laws/constitution.html
+    archive_url: https://web.archive.org/web/20260726130412/https://www.psp.cz/docs/laws/constitution.html
+    lang: cs
+    published: 1992-12-16
+    accessed: 2026-07-28
+    quote: |-
+      Článek 67
+      (1) Vláda je vrcholným orgánem výkonné moci.
+      (2) Vláda se skládá z předsedy vlády, místopředsedů vlády a ministrů.
+      Článek 68
+      (1) Vláda je odpovědna Poslanecké sněmovně.
+      (2) Předsedu vlády jmenuje prezident republiky a na jeho návrh jmenuje ostatní členy vlády a pověřuje je řízením ministerstev nebo jiných úřadů.
+      (3) Vláda předstoupí do třiceti dnů po svém jmenování před Poslaneckou sněmovnu a požádá ji o vyslovení důvěry.
+    note: >-
+      Cited for three facts this file rests on: that the government consists of the předseda
+      vlády, the místopředsedové vlády and the ministers, which is what makes the Prime
+      Minister's cabinet seat a matter of constitutional law rather than of our interpretation;
+      that the President appoints the members of the government and charges them with running
+      "ministerstev nebo jiných úřadů", which is the constitutional basis for a minister
+      without a ministry; and that a newly appointed government must seek the confidence of the
+      Chamber of Deputies within thirty days, which is why the appointment date and the
+      confidence date differ. The Chamber of Deputies' static publication of the constitutional
+      Act is cited rather than e-Sbírka because it can actually be archived — see the note on
+      the source above. Its text of articles 67 and 68 is identical, word for word, to the
+      consolidated redaction e-Sbírka publishes as in force from 1 January 2026, and articles
+      67 and 68 have not been amended since 1993. The published date is the date the Act was
+      adopted.
+
+  - id: vlada-clenove-vlady
+    tier: 2
+    type: government_website
+    publisher: Vláda České republiky — Úřad vlády České republiky
+    title: Vláda — Členové vlády
+    url: https://vlada.gov.cz/cz/vlada/
+    archive_url: https://web.archive.org/web/20260720225846/https://vlada.gov.cz/cz/vlada/
+    lang: cs
+    published: null
+    accessed: 2026-07-28
+    quote: |-
+      Vláda je vrcholným orgánem výkonné moci, skládá se z předsedy vlády, místopředsedů vlády a ministrů. Vláda je odpovědna Poslanecké sněmovně.
+      Členové vlády
+      Premiér Andrej Babiš
+      Karel Havlíček
+      1. místopředseda vlády a ministr průmyslu a obchodu
+      Petr Macinka
+      místopředseda vlády, ministr zahraničních věcí
+      Alena Schillerová
+      místopředsedkyně vlády a ministryně financí
+      Jaromír Zůna
+      místopředseda vlády a ministr obrany
+      Lubomír Metnar
+      ministr vnitra
+      Aleš Juchelka
+      ministr práce a sociálních věcí
+      Zuzana Mrázová
+      ministryně pro místní rozvoj
+      Adam Vojtěch
+      ministr zdravotnictví
+      Robert Plaga
+      ministr školství, mládeže a tělovýchovy
+      Jeroným Tejc
+      ministr spravedlnosti
+      Ivan Bednárik
+      ministr dopravy
+      Martin Šebestyán
+      ministr zemědělství
+      Igor Červený
+      ministr životního prostředí
+      Oto Klempíř
+      ministr kultury
+      Boris Šťastný
+      ministr pro sport, prevenci a zdraví
+    note: >-
+      The government's own list of its members, cited for the size and shape of the cabinet:
+      the předseda vlády plus fifteen ministers, of whom fourteen lead one of the ministries of
+      § 1 and one leads none. It is also the source for the gendered Czech ministerial titles
+      used in this file and for which ministers hold a deputy premiership. The quotation
+      reproduces the page's own order — the Prime Minister, then the four deputy prime
+      ministers, then the remaining ministers — and omits the descriptive sentence under the
+      Prime Minister's name and the repeated biography links. The page carries no publication
+      date; the snapshot cited is from 20 July 2026 and matches the live page on the access
+      date, including the government's meeting agendas for 13 and 20 July 2026, which is
+      independent evidence that this cabinet was still sitting.
+
+  - id: vlada-en-ministerstva
+    tier: 2
+    type: government_website
+    publisher: Government of the Czech Republic (vlada.gov.cz/en)
+    title: Government of the Czech Republic — Ministries (English-language edition)
+    url: https://vlada.gov.cz/en/vlada/ministerstva/
+    archive_url: https://web.archive.org/web/20260728102207/https://vlada.gov.cz/en/vlada/ministerstva/
+    lang: en
+    published: null
+    accessed: 2026-07-28
+    quote: |-
+      Ministries
+      Ministry of Interior
+      Ministry of Labour and Social Affairs
+      Ministry of Regional Development
+      Ministry of Health
+      Ministry of Finance
+      Ministry of Defence
+      Ministry of Justice
+      Ministry of Foreign Affairs
+      Ministry of Industry and Trade
+      Ministry of Transport
+      Ministry of Education, Youth and Sports
+      Ministry of Agriculture
+      Ministry of the Environment
+      Ministry of Culture
+    note: >-
+      The English-language edition of the government's own site, which is what makes
+      name_en_provenance "official" for all fourteen ministries in this file. The quotation
+      reproduces the page's fourteen headings in its own order, which is neither the statutory
+      order of § 1 nor alphabetical, and omits the paragraph of competences printed under each.
+      Two of its own inconsistencies are worth noting: the heading "Ministry of Interior" sits
+      beside "Minister of the Interior" in the same site's list of members, and the heading
+      "Ministry of the Environment" sits above body text that says "Ministry of Environment".
+      This file uses the headings for the departments and the members list for the ministerial
+      titles, and neither is this project's invention. The page carries no publication date;
+      the snapshot cited was created on the access date.
+
+  - id: vlada-uvedeni-do-funkci-2025-12-15
+    tier: 2
+    type: government_website
+    publisher: Vláda České republiky — Úřad vlády České republiky
+    title: Premiér Andrej Babiš uvedl do funkcí ministry a ministryně nové vlády
+    url: https://vlada.gov.cz/cz/media-centrum/aktualne/premier-andrej-babis-uvedl-do-funkci-ministry-a-ministryne-nove-vlady-224215/
+    archive_url: https://web.archive.org/web/20260122221833/https://vlada.gov.cz/cz/media-centrum/aktualne/premier-andrej-babis-uvedl-do-funkci-ministry-a-ministryne-nove-vlady-224215/
+    lang: cs
+    published: 2025-12-15
+    accessed: 2026-07-28
+    quote: >-
+      Premiér Andrej Babiš uvedl v pondělí 15. prosince 2025 do úřadů členy své vlády, včetně
+      ministra pro sport, prevenci a zdraví, který bude sídlit na Úřadu vlády. Předcházelo
+      tomu slavnostní jmenování vlády prezidentem Petrem Pavlem na Pražském hradě a první
+      zasedání kabinetu ve Strakově akademii.
+    note: >-
+      The government's own account of the day it took office, cited for two things: the date
+      this cabinet was appointed by the President — 15 December 2025, which is this file's
+      took_office — and the fact that the ministr pro sport, prevenci a zdraví is based at the
+      Úřad vlády rather than at a ministry, which is what makes him a minister without
+      portfolio. The Prime Minister himself had been appointed six days earlier, on
+      9 December 2025; the date used here is the one on which the government as a body came
+      into being.
+
+  - id: zakonyprolidi-2-1969
+    tier: 3
+    type: other
+    publisher: AION CS, s.r.o. (Zákony pro lidi)
+    title: >-
+      2/1969 Sb. Kompetenční zákon — aktuální znění 01.01.2026 - 31.12.2026 (verze 96)
+    url: https://www.zakonyprolidi.cz/cs/1969-2
+    archive_url: https://web.archive.org/web/20260728103631/https://www.zakonyprolidi.cz/cs/1969-2
+    lang: cs
+    published: null
+    accessed: 2026-07-28
+    quote: |-
+      Aktuální znění 01.01.2026 - 31.12.2026 (verze 96)
+      § 1
+      V České republice působí tyto ústřední orgány státní správy, v jejichž čele je člen vlády:
+      1. Ministerstvo financí,
+      2. Ministerstvo zahraničních věcí,
+      3. Ministerstvo školství, mládeže a tělovýchovy,
+      4. Ministerstvo kultury,
+      5. Ministerstvo práce a sociálních věcí,
+      6. Ministerstvo zdravotnictví,
+      7. Ministerstvo spravedlnosti,
+      8. Ministerstvo vnitra,
+      9. Ministerstvo průmyslu a obchodu,
+      10. Ministerstvo pro místní rozvoj,
+      11. Ministerstvo zemědělství,
+      12. Ministerstvo obrany,
+      13. Ministerstvo dopravy,
+      14. Ministerstvo životního prostředí.
+      § 1a zrušeno
+    note: >-
+      A commercial consolidated text, cited for one purpose only: it is a static page a reader
+      can open and read § 1 in, which the official gazette's own client-rendered site is not.
+      Its version banner independently confirms the redaction this file relies on — in force
+      from 1 January 2026 to 31 December 2026 — and its § 1 is identical, word for word, to the
+      text retrieved from the official ELI open data of e-Sbírka. It is tier 3 and no counted
+      ministry rests on it alone; every ministry below also cites the statute and the
+      government's own publications.
+
+entities:
+  # --- the head of government: recorded, not counted ---------------------------------------
+  - id: CZ-2025-predseda-vlady
+    order: 1
+    name_original: Předseda vlády
+    abbreviation_original: null
+    name_en: Prime Minister
+    name_es: Primer Ministro
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Předseda vlády
+    head_title_en: Prime Minister
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: head_of_government_office
+    valid_from: null
+    valid_to: null
+    url: https://vlada.gov.cz/cz/vlada/premier/
+    sources: [ustava-1-1993, sb-2-1969, vlada-clenove-vlady, vlada-uvedeni-do-funkci-2025-12-15]
+    note:
+      en: >-
+        Czechia's Prime Minister heads no ministry. Article 67(2) of the Constitution makes the
+        members of the government the předseda vlády, the místopředsedové vlády and the
+        ministers, and § 1 of the kompetenční zákon lists no prime-ministerial department, so
+        this entity is a seat without a portfolio and is excluded under
+        head_of_government_office. It is recorded rather than omitted because that is what
+        makes the cabinet come out at sixteen seats against fourteen ministries. The body that
+        serves the government and the Prime Minister is the Úřad vlády České republiky, which
+        § 2 lists as one of the central authorities that are not headed by a member of the
+        government and § 28 odst. 5 puts under a vedoucí appointed by the government — a civil
+        servant, not a minister, holding no seat — so it is not recorded as an entity of its
+        own.
+      es: >-
+        El primer ministro checo no dirige ningún ministerio. El artículo 67.2 de la
+        Constitución hace miembros del gobierno al předseda vlády, a los místopředsedové vlády
+        y a los ministros, y el § 1 de la kompetenční zákon no enumera ningún departamento del
+        primer ministro, de modo que esta entidad es un asiento sin cartera y se excluye por
+        head_of_government_office. Se registra en lugar de omitirse porque es lo que hace que
+        el gabinete dé dieciséis asientos frente a catorce ministerios. El órgano que sirve al
+        gobierno y al primer ministro es el Úřad vlády České republiky, que el § 2 enumera
+        entre los órganos centrales no encabezados por un miembro del gobierno y que el § 28
+        apartado 5 pone bajo un vedoucí nombrado por el gobierno —un funcionario, no un
+        ministro, sin asiento—, por lo que no se registra como entidad propia.
+
+  # --- the fourteen ministries, in the statutory order of § 1 of zákon č. 2/1969 Sb. --------
+  - id: CZ-2025-ministerstvo-financi
+    order: 2
+    name_original: Ministerstvo financí
+    abbreviation_original: null
+    name_en: Ministry of Finance
+    name_es: Ministerio de Finanzas
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: ministr/ministryně financí
+    head_title_en: Minister of Finance
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [finance, budget, state_assets]
+    counts_as_ministry: true
+    valid_from: null
+    valid_to: null
+    url: https://mf.gov.cz
+    sources: [sb-2-1969, vlada-clenove-vlady, vlada-en-ministerstva, zakonyprolidi-2-1969]
+    note:
+      en: >-
+        § 4 gives it the state budget and final account, the state treasury, fiscal policy and
+        forecasting, the financial market and payment services, taxes, fees and customs,
+        financial management and control, accounting, audit and tax advice, foreign-exchange
+        matters, gambling, the management and privatisation of state property, prices, and
+        anti-money-laundering and the domestic coordination of international sanctions. It is
+        also the ministry responsible for adopting the euro. state_assets is tagged for
+        "hospodaření s majetkem státu" and "privatizaci majetku státu"; consumer protection on
+        the financial market is a fragment of a portfolio held mainly by the industry ministry
+        and is not tagged here. Banking supervision belongs to the Česká národní banka, which
+        is outside the executive.
+      es: >-
+        El § 4 le atribuye el presupuesto del Estado y la cuenta general, la tesorería, la
+        política fiscal y las previsiones, el mercado financiero y los servicios de pago, los
+        impuestos, tasas y aduanas, la gestión y el control financieros, la contabilidad, la
+        auditoría y el asesoramiento fiscal, las cuestiones de divisas, el juego, la gestión y
+        privatización del patrimonio estatal, los precios y la lucha contra el blanqueo junto a
+        la coordinación interna de las sanciones internacionales. Es además el ministerio
+        responsable de la adopción del euro. Se etiqueta state_assets por «hospodaření s
+        majetkem státu» y «privatizaci majetku státu»; la protección del consumidor en el
+        mercado financiero es un fragmento de una cartera que tiene sobre todo el ministerio de
+        industria y no se etiqueta aquí. La supervisión bancaria es de la Česká národní banka,
+        ajena al ejecutivo.
+
+  - id: CZ-2025-ministerstvo-zahranicnich-veci
+    order: 3
+    name_original: Ministerstvo zahraničních věcí
+    abbreviation_original: null
+    name_en: Ministry of Foreign Affairs
+    name_es: Ministerio de Asuntos Exteriores
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: ministr/ministryně zahraničních věcí
+    head_title_en: Minister of Foreign Affairs
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [foreign_affairs, development_cooperation, european_affairs]
+    counts_as_ministry: true
+    valid_from: null
+    valid_to: null
+    url: https://mzv.gov.cz
+    sources: [sb-2-1969, vlada-clenove-vlady, vlada-en-ministerstva, zakonyprolidi-2-1969]
+    note:
+      en: >-
+        § 6 makes it the central authority for foreign policy, within which it designs and
+        coordinates foreign development assistance — hence development_cooperation — and
+        coordinates external economic relations; it maintains the Republic's relations with
+        other states, international organisations and "integračním seskupením", runs the
+        embassies, protects Czech citizens abroad and negotiates treaties. european_affairs is
+        tagged on the strength of that phrase and because no other Czech entity could carry it:
+        § 1 lists no ministry for European affairs and the government's own list of members
+        contains no minister for them. Consular protection of
+        citizens abroad is not tagged as diaspora, which in this taxonomy means a portfolio for
+        citizens abroad as a constituency rather than consular work.
+      es: >-
+        El § 6 lo hace órgano central para la política exterior, en cuyo marco diseña y
+        coordina la ayuda exterior al desarrollo —de ahí development_cooperation— y coordina
+        las relaciones económicas exteriores; mantiene las relaciones de la República con otros
+        Estados, organizaciones internacionales y «integračním seskupením», dirige las
+        embajadas, protege a los ciudadanos checos en el extranjero y negocia los tratados. Se
+        etiqueta european_affairs por esa expresión y porque ninguna otra entidad checa podría
+        llevarla: el § 1 no enumera ningún ministerio de Asuntos Europeos y la propia lista de
+        miembros del gobierno no incluye ningún ministro de esa materia. La protección consular de los
+        ciudadanos en el exterior no se etiqueta como diaspora, que en esta taxonomía designa
+        una cartera dirigida a los ciudadanos en el exterior como colectivo y no el trabajo
+        consular.
+
+  - id: CZ-2025-ministerstvo-skolstvi
+    order: 4
+    name_original: Ministerstvo školství, mládeže a tělovýchovy
+    abbreviation_original: MŠMT
+    name_en: Ministry of Education, Youth and Sports
+    name_es: Ministerio de Educación, Juventud y Deporte
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: ministr/ministryně školství, mládeže a tělovýchovy
+    head_title_en: Minister of Education, Youth and Sports
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [education, youth, sport, higher_education, research, vocational_training]
+    counts_as_ministry: true
+    valid_from: null
+    valid_to: null
+    url: https://msmt.gov.cz
+    sources: [sb-2-1969, vlada-clenove-vlady, vlada-en-ministerstva, zakonyprolidi-2-1969]
+    note:
+      en: >-
+        § 7 odst. 1 gives it pre-school facilities, school facilities, basic, secondary and
+        higher education, science policy, research and development including international
+        cooperation in it, academic degrees, and "státní péče o děti, mládež a tělesnou
+        výchovu"; § 7 odst. 2 adds the coordination of the recognition of professional
+        qualifications and of qualifications obtained in further education, which is why
+        vocational_training is tagged. The areas are ordered as the ministry's own name orders
+        them. sport is tagged here and not on the new ministr pro sport, prevenci a zdraví,
+        who heads no department; the other statutory home of sport is the Národní sportovní
+        agentura, one of the central authorities of § 2, which is not a ministry either. The
+        Česká školní inspekce is subordinate to this ministry.
+      es: >-
+        El § 7 apartado 1 le atribuye los centros de educación infantil, los establecimientos
+        escolares, la enseñanza básica, secundaria y superior, la política científica, la
+        investigación y el desarrollo incluida la cooperación internacional en ese campo, los
+        grados académicos y la «státní péče o děti, mládež a tělesnou výchovu»; el § 7 apartado
+        2 añade la coordinación del reconocimiento de cualificaciones profesionales y de las
+        obtenidas en la formación continua, y de ahí la etiqueta vocational_training. Las áreas
+        se ordenan como las ordena el propio nombre del ministerio. sport se etiqueta aquí y no
+        en el nuevo ministr pro sport, prevenci a zdraví, que no dirige ningún departamento; la
+        otra sede legal del deporte es la Národní sportovní agentura, uno de los órganos
+        centrales del § 2, que tampoco es un ministerio. La Česká školní inspekce está
+        subordinada a este ministerio.
+
+  - id: CZ-2025-ministerstvo-kultury
+    order: 5
+    name_original: Ministerstvo kultury
+    abbreviation_original: null
+    name_en: Ministry of Culture
+    name_es: Ministerio de Cultura
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: ministr/ministryně kultury
+    head_title_en: Minister of Culture
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [culture, media, religion]
+    counts_as_ministry: true
+    valid_from: null
+    valid_to: null
+    url: https://mk.gov.cz
+    sources: [sb-2-1969, vlada-clenove-vlady, vlada-en-ministerstva, zakonyprolidi-2-1969]
+    note:
+      en: >-
+        § 8 gives it the arts, cultural and educational activity, cultural property and
+        monuments, "věci církví a náboženských společností" — which is why religion is tagged,
+        Czechia having no separate ministry for it — matters of the press including
+        non-periodical publications, radio and television broadcasting unless a special Act
+        provides otherwise, copyright, and production and trade in the cultural field. media is
+        tagged for the press and broadcasting remit; note that broadcasting *regulation* sits
+        with the Rada pro rozhlasové a televizní vysílání, one of the central authorities of
+        § 2, which is the special Act the section refers to.
+      es: >-
+        El § 8 le atribuye las artes, la actividad cultural y educativa, los bienes y monumentos
+        culturales, los «věci církví a náboženských společností» —de ahí la etiqueta religion,
+        pues Chequia no tiene un ministerio propio para ello—, los asuntos de prensa incluidas
+        las publicaciones no periódicas, la radiodifusión y la televisión salvo que una ley
+        especial disponga otra cosa, los derechos de autor y la producción y el comercio en el
+        ámbito cultural. Se etiqueta media por la prensa y la radiodifusión; nótese que la
+        *regulación* de la radiodifusión corresponde a la Rada pro rozhlasové a televizní
+        vysílání, uno de los órganos centrales del § 2, que es la ley especial a la que el
+        precepto se remite.
+
+  - id: CZ-2025-ministerstvo-prace-a-socialnich-veci
+    order: 6
+    name_original: Ministerstvo práce a sociálních věcí
+    abbreviation_original: MPSV
+    name_en: Ministry of Labour and Social Affairs
+    name_es: Ministerio de Trabajo y Asuntos Sociales
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: ministr/ministryně práce a sociálních věcí
+    head_title_en: Minister of Labour and Social Affairs
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [labour, social_affairs, social_security, family, disability]
+    counts_as_ministry: true
+    valid_from: null
+    valid_to: null
+    url: https://mpsv.gov.cz
+    sources: [sb-2-1969, vlada-clenove-vlady, vlada-en-ministerstva, zakonyprolidi-2-1969]
+    note:
+      en: >-
+        § 9 gives it labour-law relations, occupational safety, employment and retraining,
+        collective bargaining, wages and other remuneration, pension provision and sickness
+        insurance — hence social_security — social care, the care and working conditions of
+        women and young people, the legal protection of maternity, "péče o rodinu a dětí" and
+        "péče o občany, kteří potřebují zvláštní pomoc", and other wage and social policy.
+        family is tagged for the family and children remit and disability for the care of
+        citizens needing special assistance, which is where Czech disability policy sits; there
+        is no ministry of equality, and gender equality is coordinated from the Úřad vlády
+        rather than from a department.
+      es: >-
+        El § 9 le atribuye las relaciones laborales, la seguridad en el trabajo, el empleo y la
+        recualificación, la negociación colectiva, los salarios y otras retribuciones, las
+        pensiones y el seguro de enfermedad —de ahí social_security—, la asistencia social, el
+        cuidado y las condiciones de trabajo de mujeres y jóvenes, la protección jurídica de la
+        maternidad, la «péče o rodinu a dětí» y la «péče o občany, kteří potřebují zvláštní
+        pomoc», y demás política salarial y social. Se etiqueta family por la cartera de familia
+        e infancia y disability por la atención a los ciudadanos que necesitan ayuda especial,
+        que es donde se sitúa la política checa de discapacidad; no existe ministerio de
+        igualdad, y la igualdad de género se coordina desde el Úřad vlády y no desde un
+        departamento.
+
+  - id: CZ-2025-ministerstvo-zdravotnictvi
+    order: 7
+    name_original: Ministerstvo zdravotnictví
+    abbreviation_original: null
+    name_en: Ministry of Health
+    name_es: Ministerio de Sanidad
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: ministr/ministryně zdravotnictví
+    head_title_en: Minister of Health
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [health]
+    counts_as_ministry: true
+    valid_from: null
+    valid_to: null
+    url: https://mzd.gov.cz
+    sources: [sb-2-1969, vlada-clenove-vlady, vlada-en-ministerstva, zakonyprolidi-2-1969]
+    note:
+      en: >-
+        § 10 gives it health services, public-health protection, health research, the providers
+        it directly manages, the handling of addictive substances and their precursors, natural
+        healing sources and spas, medicines and medical devices, health insurance, the health
+        information system and e-health, and biocidal products. Tagged health only: nothing in
+        the section is a primary portfolio in another area. The Inspektorát omamných a
+        psychotropních látek and the Český inspektorát lázní a zřídel are organisational parts
+        of the ministry, not separate bodies. Note that the ministr pro sport, prevenci a zdraví
+        carries "zdraví" in his title but heads no department; prevention policy is exercised
+        through this ministry and through advisory bodies at the Úřad vlády.
+      es: >-
+        El § 10 le atribuye los servicios sanitarios, la protección de la salud pública, la
+        investigación sanitaria, los proveedores que gestiona directamente, el manejo de
+        sustancias adictivas y sus precursores, las fuentes curativas naturales y los balnearios,
+        los medicamentos y productos sanitarios, el seguro de enfermedad, el sistema de
+        información sanitaria y la sanidad electrónica, y los biocidas. Se etiqueta sólo health:
+        nada en el precepto constituye una cartera principal en otra área. El Inspektorát
+        omamných a psychotropních látek y el Český inspektorát lázní a zřídel son partes
+        organizativas del ministerio, no órganos separados. Nótese que el ministr pro sport,
+        prevenci a zdraví lleva «zdraví» en su título pero no dirige ningún departamento; la
+        política de prevención se ejerce a través de este ministerio y de órganos consultivos
+        del Úřad vlády.
+
+  - id: CZ-2025-ministerstvo-spravedlnosti
+    order: 8
+    name_original: Ministerstvo spravedlnosti
+    abbreviation_original: null
+    name_en: Ministry of Justice
+    name_es: Ministerio de Justicia
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: ministr/ministryně spravedlnosti
+    head_title_en: Minister of Justice
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [justice]
+    counts_as_ministry: true
+    valid_from: null
+    valid_to: null
+    url: https://msp.gov.cz
+    sources: [sb-2-1969, vlada-clenove-vlady, vlada-en-ministerstva, zakonyprolidi-2-1969]
+    note:
+      en: >-
+        § 11 makes it the central authority for the courts and the public prosecution service,
+        for the prison system (the Vězeňská služba is subordinate to it), for probation and
+        mediation, for conflict of interest, for the protection of whistleblowers and for
+        lobbying; it also represents the Republic before the European Court of Human Rights and
+        compensates victims of crime. Tagged justice only. The courts and the prosecution
+        service themselves are not part of the executive and are not recorded as entities: the
+        ministry's remit is their administration, not their function.
+      es: >-
+        El § 11 lo hace órgano central para los tribunales y la fiscalía, para el sistema
+        penitenciario (la Vězeňská služba le está subordinada), para la libertad vigilada y la
+        mediación, para el conflicto de intereses, para la protección de los denunciantes y para
+        el lobby; representa además a la República ante el Tribunal Europeo de Derechos Humanos
+        e indemniza a las víctimas de delitos. Se etiqueta sólo justice. Los tribunales y la
+        fiscalía no forman parte del ejecutivo y no se registran como entidades: la competencia
+        del ministerio es su administración, no su función.
+
+  - id: CZ-2025-ministerstvo-vnitra
+    order: 9
+    name_original: Ministerstvo vnitra
+    abbreviation_original: null
+    name_en: Ministry of Interior
+    name_es: Ministerio del Interior
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: ministr/ministryně vnitra
+    head_title_en: Minister of the Interior
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [interior, migration, civil_protection, public_administration, territorial_administration]
+    counts_as_ministry: true
+    valid_from: null
+    valid_to: null
+    url: https://mv.gov.cz
+    sources: [sb-2-1969, vlada-clenove-vlady, vlada-en-ministerstva, zakonyprolidi-2-1969]
+    note:
+      en: >-
+        § 12 gives it public order and internal security including road-traffic safety, names
+        and civil registers, citizenship, identity cards, residence registration and the
+        population register, the right of assembly and political parties, public collections,
+        archives and records management, weapons and ammunition, fire protection, travel
+        documents and "povolování pobytu cizinců a postavení uprchlíků" — hence migration, there
+        being no separate migration ministry — the territorial division of the state, the state
+        borders, state symbols, all elections held on Czech territory, and crisis management,
+        civil emergency planning, protection of the population and the integrated rescue system,
+        hence civil_protection. public_administration and territorial_administration are tagged
+        for the coordinating roles § 12 odst. 2 and 3 give it over administrative procedure and
+        over "organizace a výkonu veřejné správy", which in Czechia includes the legality
+        oversight of municipalities and regions. Two remits have no id in this project's
+        taxonomy and are recorded here in prose: archives, and the coordinating role for
+        communication technologies in § 12 odst. 6 — the latter is not tagged digital, because
+        state digitalisation is the Digitální a informační agentura's and no Czech ministry holds
+        it. The English name is the government's own even though the same site titles the
+        minister "Minister of the Interior".
+      es: >-
+        El § 12 le atribuye el orden público y la seguridad interior incluida la seguridad viaria,
+        los nombres y el registro civil, la nacionalidad, los documentos de identidad, el registro
+        de residencia y el censo de población, el derecho de reunión y los partidos políticos, las
+        colectas públicas, los archivos y la gestión documental, las armas y municiones, la
+        protección contra incendios, los documentos de viaje y el «povolování pobytu cizinců a
+        postavení uprchlíků» —de ahí migration, al no existir un ministerio de migración—, la
+        división territorial del Estado, las fronteras, los símbolos del Estado, todas las
+        elecciones celebradas en territorio checo y la gestión de crisis, la planificación civil
+        de emergencia, la protección de la población y el sistema integrado de rescate, de ahí
+        civil_protection. Se etiquetan public_administration y territorial_administration por los
+        papeles coordinadores que le dan los apartados 2 y 3 del § 12 sobre el procedimiento
+        administrativo y sobre la «organizace a výkonu veřejné správy», que en Chequia incluye el
+        control de legalidad de municipios y regiones. Dos competencias no tienen id en la
+        taxonomía del proyecto y aquí sólo constan en prosa: los archivos y el papel coordinador
+        en tecnologías de comunicación del § 12 apartado 6; esta última no se etiqueta como
+        digital, porque la digitalización del Estado es de la Digitální a informační agentura y
+        ningún ministerio checo la tiene. El nombre inglés es el del propio gobierno aunque el
+        mismo sitio titule al ministro «Minister of the Interior».
+
+  - id: CZ-2025-ministerstvo-prumyslu-a-obchodu
+    order: 10
+    name_original: Ministerstvo průmyslu a obchodu
+    abbreviation_original: null
+    name_en: Ministry of Industry and Trade
+    name_es: Ministerio de Industria y Comercio
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: ministr/ministryně průmyslu a obchodu
+    head_title_en: Minister of Industry and Trade
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [industry, trade, energy, mining, small_business, consumer_protection, telecommunications, innovation]
+    counts_as_ministry: true
+    valid_from: null
+    valid_to: null
+    url: https://mpo.gov.cz
+    sources: [sb-2-1969, vlada-clenove-vlady, vlada-en-ministerstva, zakonyprolidi-2-1969]
+    note:
+      en: >-
+        The widest portfolio in the Czech government. § 13 gives it industrial, commercial and
+        external economic policy, raw-materials policy and the use of mineral wealth, energy,
+        district heating and gas, the extraction and processing of oil, natural gas, solid
+        fuels, radioactive raw materials, ores and non-ores — hence energy and mining — the whole
+        span of manufacturing from metallurgy and engineering to textiles and building materials,
+        internal trade and consumer protection, foreign trade and export promotion, the screening
+        of foreign investment, small and medium enterprises and trades, technical standardisation
+        and metrology, industrial research and the development of technology, and "elektronické
+        komunikace a poštovní služby" except what is reserved to the Český telekomunikační úřad,
+        hence telecommunications. innovation is tagged for industrial research and technology
+        development, which is distinct from the education ministry's science policy. Energy
+        *regulation* belongs to the Energetický regulační úřad, one of the central authorities of
+        § 2, and mining supervision to the Český báňský úřad; neither is a ministry.
+      es: >-
+        La cartera más amplia del gobierno checo. El § 13 le atribuye la política industrial,
+        comercial y económica exterior, la política de materias primas y el aprovechamiento de la
+        riqueza mineral, la energía, la calefacción urbana y el gas, la extracción y el
+        procesamiento de petróleo, gas natural, combustibles sólidos, materias primas radiactivas,
+        minerales metálicos y no metálicos —de ahí energy y mining—, todo el arco manufacturero
+        desde la metalurgia y la ingeniería hasta el textil y los materiales de construcción, el
+        comercio interior y la protección del consumidor, el comercio exterior y el fomento de la
+        exportación, el examen de la inversión extranjera, las pymes y los oficios, la
+        normalización técnica y la metrología, la investigación industrial y el desarrollo
+        tecnológico, y las «elektronické komunikace a poštovní služby» salvo lo reservado al Český
+        telekomunikační úřad, de ahí telecommunications. Se etiqueta innovation por la
+        investigación industrial y el desarrollo tecnológico, distintos de la política científica
+        del ministerio de educación. La *regulación* energética es del Energetický regulační úřad,
+        uno de los órganos centrales del § 2, y la supervisión minera del Český báňský úřad;
+        ninguno de los dos es un ministerio.
+
+  - id: CZ-2025-ministerstvo-pro-mistni-rozvoj
+    order: 11
+    name_original: Ministerstvo pro místní rozvoj
+    abbreviation_original: null
+    name_en: Ministry of Regional Development
+    name_es: Ministerio de Desarrollo Regional
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: ministr/ministryně pro místní rozvoj
+    head_title_en: Minister of Regional Development
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [regional_development, housing, spatial_planning, tourism]
+    counts_as_ministry: true
+    valid_from: null
+    valid_to: null
+    url: https://www.mmr.gov.cz
+    sources: [sb-2-1969, vlada-clenove-vlady, vlada-en-ministerstva, zakonyprolidi-2-1969]
+    note:
+      en: >-
+        § 14 makes it the central authority for regional policy, housing policy and the
+        development of the housing stock, the tenancy of flats and non-residential premises,
+        spatial planning and the building code, expropriation, investment policy, tourism and
+        funeral services; it administers the funds for housing and regional policy and
+        coordinates the involvement of self-governing territorial units in European regional
+        structures, which is why regional_development — the taxonomy's cohesion-funds area —
+        leads its tags. Funeral services have no id in this project's taxonomy. The ministry's
+        methodological assistance to regions and municipalities is oversight-adjacent rather
+        than a local-government portfolio, so territorial_administration is tagged on the
+        interior ministry instead.
+      es: >-
+        El § 14 lo hace órgano central para la política regional, la política de vivienda y el
+        desarrollo del parque residencial, el arrendamiento de viviendas y locales, la ordenación
+        del territorio y la normativa de edificación, la expropiación, la política de inversión,
+        el turismo y los servicios funerarios; administra los fondos de vivienda y de política
+        regional y coordina la incorporación de las entidades territoriales a las estructuras
+        regionales europeas, razón por la que regional_development —el área de fondos de cohesión
+        de la taxonomía— encabeza sus etiquetas. Los servicios funerarios no tienen id en la
+        taxonomía del proyecto. La asistencia metodológica del ministerio a regiones y municipios
+        se parece más a una tutela que a una cartera de administración local, de modo que
+        territorial_administration se etiqueta en el ministerio del Interior.
+
+  - id: CZ-2025-ministerstvo-zemedelstvi
+    order: 12
+    name_original: Ministerstvo zemědělství
+    abbreviation_original: MZe
+    name_en: Ministry of Agriculture
+    name_es: Ministerio de Agricultura
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: ministr/ministryně zemědělství
+    head_title_en: Minister of Agriculture
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [agriculture, food_safety, forestry, water, fisheries, animal_welfare]
+    counts_as_ministry: true
+    valid_from: null
+    valid_to: null
+    url: https://mze.gov.cz
+    sources: [sb-2-1969, vlada-clenove-vlady, vlada-en-ministerstva, zakonyprolidi-2-1969]
+    note:
+      en: >-
+        § 15 gives it agriculture except the protection of the agricultural land fund, water
+        management except the protection of natural water accumulation, water sources and the
+        quality of surface and groundwater, and the food industry; it is also the central
+        authority for forests, hunting and fisheries outside national parks, and for veterinary
+        and phytosanitary care, food, the protection of animals against cruelty and rights in new
+        plant varieties and animal breeds. water and forestry are therefore tagged here with the
+        exceptions the section itself carves out and hands to the environment ministry, and both
+        entities record the split. rural_development is deliberately not tagged: the ministry
+        manages the rural development programme in practice, but § 15 does not name it, and this
+        dataset tags statutory portfolios rather than programme management. The Státní zemědělská
+        a potravinářská inspekce and the Státní veterinární správa are subordinate to it.
+      es: >-
+        El § 15 le atribuye la agricultura salvo la protección del fondo de suelo agrícola, la
+        gestión del agua salvo la protección de la acumulación natural de aguas, de las fuentes y
+        de la calidad de las aguas superficiales y subterráneas, y la industria alimentaria; es
+        además órgano central para los bosques, la caza y la pesca fuera de los parques
+        nacionales, y para la sanidad veterinaria y vegetal, los alimentos, la protección de los
+        animales contra el maltrato y los derechos sobre nuevas variedades vegetales y razas
+        animales. water y forestry se etiquetan por tanto aquí con las excepciones que el propio
+        precepto reserva al ministerio de Medio Ambiente, y ambas entidades registran el reparto.
+        rural_development no se etiqueta deliberadamente: el ministerio gestiona en la práctica el
+        programa de desarrollo rural, pero el § 15 no lo menciona, y este dataset etiqueta
+        carteras legales y no gestión de programas. La Státní zemědělská a potravinářská inspekce
+        y la Státní veterinární správa le están subordinadas.
+
+  - id: CZ-2025-ministerstvo-obrany
+    order: 13
+    name_original: Ministerstvo obrany
+    abbreviation_original: null
+    name_en: Ministry of Defence
+    name_es: Ministerio de Defensa
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: ministr/ministryně obrany
+    head_title_en: Minister of Defence
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [defence]
+    counts_as_ministry: true
+    valid_from: null
+    valid_to: null
+    url: https://www.mo.gov.cz
+    sources: [sb-2-1969, vlada-clenove-vlady, vlada-en-ministerstva, zakonyprolidi-2-1969]
+    note:
+      en: >-
+        § 16 makes it the central authority for securing the defence of the Republic, for
+        commanding the Armed Forces and for administering the military training areas; it directs
+        Vojenské zpravodajství, guarantees the inviolability of Czech airspace, organises
+        mobilisation and conscription records, and exercises state supervision of radiation
+        protection on military premises. Tagged defence only. Veterans' affairs are handled inside
+        this ministry rather than by a body of their own, and are not tagged because the section
+        does not name them as a portfolio.
+      es: >-
+        El § 16 lo hace órgano central para garantizar la defensa de la República, para el mando
+        de las Fuerzas Armadas y para la administración de los campos de instrucción militar;
+        dirige el Vojenské zpravodajství, garantiza la inviolabilidad del espacio aéreo checo,
+        organiza la movilización y los registros del servicio militar y ejerce la supervisión
+        estatal de la protección radiológica en instalaciones militares. Se etiqueta sólo defence.
+        Los asuntos de veteranos se gestionan dentro de este ministerio y no por un órgano propio,
+        y no se etiquetan porque el precepto no los nombra como cartera.
+
+  - id: CZ-2025-ministerstvo-dopravy
+    order: 14
+    name_original: Ministerstvo dopravy
+    abbreviation_original: null
+    name_en: Ministry of Transport
+    name_es: Ministerio de Transporte
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: ministr/ministryně dopravy
+    head_title_en: Minister of Transport
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [transport, infrastructure]
+    counts_as_ministry: true
+    valid_from: null
+    valid_to: null
+    url: https://md.gov.cz
+    sources: [sb-2-1969, vlada-clenove-vlady, vlada-en-ministerstva, zakonyprolidi-2-1969]
+    note:
+      en: >-
+        The shortest competence in the Act: § 17 is a single sentence making the ministry the
+        central authority "ve věcech dopravy" and responsible for forming and implementing state
+        transport policy. That one word covers road, rail, air and inland-waterway transport
+        alike, and with them the transport infrastructure the state builds and maintains, which
+        is why infrastructure is tagged alongside transport. Nothing narrower can be read out of
+        the section, so no modal tags are assigned; shipping is not tagged, because the Act gives
+        this ministry no maritime portfolio distinct from transport in general.
+      es: >-
+        La competencia más breve de la ley: el § 17 es una sola frase que hace al ministerio
+        órgano central «ve věcech dopravy» y responsable de formular y ejecutar la política
+        estatal de transporte. Esa única palabra cubre por igual el transporte por carretera,
+        ferrocarril, aire y vías navegables interiores, y con ellos la infraestructura de
+        transporte que el Estado construye y mantiene, razón por la que se etiqueta infrastructure
+        junto a transport. Del precepto no cabe leer nada más específico, así que no se asignan
+        etiquetas por modos; no se etiqueta shipping, porque la ley no da a este ministerio una
+        cartera marítima distinta del transporte en general.
+
+  - id: CZ-2025-ministerstvo-zivotniho-prostredi
+    order: 15
+    name_original: Ministerstvo životního prostředí
+    abbreviation_original: MŽP
+    name_en: Ministry of the Environment
+    name_es: Ministerio de Medio Ambiente
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: ministr/ministryně životního prostředí
+    head_title_en: Minister of the Environment
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [environment, water, climate, mining]
+    counts_as_ministry: true
+    valid_from: null
+    valid_to: null
+    url: https://mzp.gov.cz
+    sources: [sb-2-1969, vlada-clenove-vlady, vlada-en-ministerstva, zakonyprolidi-2-1969]
+    note:
+      en: >-
+        § 19 makes it the organ of supreme state supervision in environmental matters and the
+        central authority for the protection of natural water accumulation, water sources and the
+        quality of surface and groundwater — the water remit carved out of the agriculture
+        ministry's § 15 — for air protection, for the protection of nature and the landscape, for
+        zoos, for the protection of the agricultural land fund, for the state geological service
+        and the protection of the rock environment including mineral resources and groundwater,
+        for geological work and ecological supervision of mining, for waste management, for
+        environmental impact assessment including transboundary effects, for hunting, fisheries
+        and forestry inside national parks, for state ecological policy, for eco-labelling and for
+        EMAS. mining is tagged for the state geological service and the ecological supervision of
+        extraction, which is a different thing from the industry ministry's raw-materials policy
+        and from the Český báňský úřad's mining supervision; both entities record the split.
+        climate is tagged on the strength of "ochrana ovzduší" and "státní ekologická politika":
+        Czechia has no climate ministry and no other department could hold the area, but the
+        reader should know the Act itself does not use the word. Waste has no id in this project's
+        taxonomy and is recorded here in prose. This is the ministry that had no minister of its
+        own between 15 December 2025 and 23 February 2026; see the methodology notes.
+      es: >-
+        El § 19 lo hace órgano de supervisión estatal suprema en materia ambiental y órgano
+        central para la protección de la acumulación natural de aguas, de las fuentes y de la
+        calidad de las aguas superficiales y subterráneas —la parte del agua excluida del § 15 del
+        ministerio de Agricultura—, para la protección del aire, para la protección de la
+        naturaleza y el paisaje, para los zoológicos, para la protección del fondo de suelo
+        agrícola, para el servicio geológico estatal y la protección del medio rocoso incluidos
+        los recursos minerales y las aguas subterráneas, para los trabajos geológicos y la
+        supervisión ecológica de la minería, para la gestión de residuos, para la evaluación de
+        impacto ambiental incluida la transfronteriza, para la caza, la pesca y la silvicultura
+        dentro de los parques nacionales, para la política ecológica estatal, para el etiquetado
+        ecológico y para el EMAS. Se etiqueta mining por el servicio geológico estatal y la
+        supervisión ecológica de la extracción, cosa distinta de la política de materias primas
+        del ministerio de Industria y de la supervisión minera del Český báňský úřad; ambas
+        entidades registran el reparto. climate se etiqueta sobre la base de «ochrana ovzduší» y
+        «státní ekologická politika»: Chequia no tiene ministerio del clima y ningún otro
+        departamento podría llevar el área, pero el lector debe saber que la ley misma no usa la
+        palabra. Los residuos no tienen id en la taxonomía del proyecto y aquí sólo constan en
+        prosa. Este es el ministerio que no tuvo ministro propio entre el 15 de diciembre de 2025
+        y el 23 de febrero de 2026; véanse las notas metodológicas.
+
+  # --- recorded, not counted ---------------------------------------------------------------
+  - id: CZ-2025-ministr-pro-sport-prevenci-a-zdravi
+    order: 16
+    name_original: Ministr pro sport, prevenci a zdraví
+    abbreviation_original: null
+    name_en: Minister of Sport, Prevention and Health
+    name_es: Ministro de Deporte, Prevención y Salud
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: ministr/ministryně pro sport, prevenci a zdraví
+    head_title_en: Minister of Sport, Prevention and Health
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    valid_from: null
+    valid_to: null
+    url: https://vlada.gov.cz/cz/vlada/clenove-vlady/boris-stastny-224136/
+    sources: [ustava-1-1993, sb-2-1969, vlada-clenove-vlady, vlada-uvedeni-do-funkci-2025-12-15]
+    note:
+      en: >-
+        A post this government created, and the reason the cabinet has sixteen members and the
+        government fourteen departments. § 1 of the kompetenční zákon was not amended to add a
+        ministry for it, and the government's own press release on the day the cabinet took
+        office says the holder "bude sídlit na Úřadu vlády" — which is precisely the situation
+        § 28 odst. 3 of the same Act contemplates for "členů vlády, kteří nejsou pověřeni řízením
+        ministerstva nebo jiného úřadu", and which článek 68 odst. 2 of the Constitution permits.
+        He therefore holds ministerial rank and a cabinet seat without an administrative
+        department, and is recorded here uncounted. No policy area is tagged: the areas his title
+        names belong statutorily to the Ministerstvo školství, mládeže a tělovýchovy (§ 7 odst. 1,
+        physical education), to the Ministerstvo zdravotnictví (§ 10, public-health protection) and
+        to the Národní sportovní agentura, which is one of the central authorities of § 2 and not
+        a ministry. Press coverage that calls this a "ministerstvo sportu" is describing a
+        political arrangement, not a department created by law. The English title is the
+        government's own, from the English edition of its list of members.
+      es: >-
+        Un puesto creado por este gobierno, y la razón de que el gabinete tenga dieciséis miembros
+        y el gobierno catorce departamentos. El § 1 de la kompetenční zákon no se modificó para
+        añadirle un ministerio, y la propia nota de prensa del gobierno del día en que el gabinete
+        tomó posesión dice que su titular «bude sídlit na Úřadu vlády», que es exactamente la
+        situación que contempla el § 28 apartado 3 de la misma ley para los «členů vlády, kteří
+        nejsou pověřeni řízením ministerstva nebo jiného úřadu» y que permite el artículo 68
+        apartado 2 de la Constitución. Tiene por tanto rango ministerial y asiento en el gabinete
+        sin departamento administrativo, y aquí se registra sin contarse. No se etiqueta ninguna
+        área de política: las que su título menciona pertenecen legalmente al Ministerstvo
+        školství, mládeže a tělovýchovy (§ 7 apartado 1, educación física), al Ministerstvo
+        zdravotnictví (§ 10, protección de la salud pública) y a la Národní sportovní agentura, que
+        es uno de los órganos centrales del § 2 y no un ministerio. La cobertura de prensa que
+        habla de un «ministerstvo sportu» describe un arreglo político, no un departamento creado
+        por ley. El título en inglés es el del propio gobierno, de la edición inglesa de su lista
+        de miembros.

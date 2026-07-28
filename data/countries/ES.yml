@@ -1,0 +1,42 @@
+# Spain — country metadata.
+#
+# Reference file for the project. Copy its shape, not its contents.
+# See docs/DATA-CONTRACT.md before adding a country.
+
+iso2: ES
+iso3: ESP
+
+name_en: Spain
+name_es: España
+name_original: España
+official_name_original: Reino de España
+
+continent: europe
+region: southern_europe
+eu_member_since: 1986-01-01
+government_system: parliamentary_monarchy
+official_languages: [es]
+
+# Population carries its own citation because the per-capita views publish it as a
+# figure in its own right, not as a convenience constant.
+population:
+  value: 49570725
+  year: 2026
+  source:
+    id: ine-ecp-2026
+    tier: 3
+    type: statistical_office
+    publisher: Instituto Nacional de Estadística
+    title: Estadística Continua de Población (ECP). 1 de enero de 2026. Datos provisionales.
+    url: https://www.ine.es/dyngs/Prensa/ECP4T25.htm
+    archive_url: https://web.archive.org/web/20260720195930/https://www.ine.es/dyngs/Prensa/ECP4T25.htm
+    lang: es
+    published: 2026-02-12
+    accessed: 2026-07-27
+    quote: >-
+      La población de España aumentó en 81.520 personas durante el cuarto trimestre de
+      2025 y se situó en 49.570.725 habitantes a 1 de enero de 2026.
+    note: >-
+      Provisional figure from the continuous population statistic, which is the most
+      recent official count available. Spain has no single "official" resident total
+      between census years, so this is tier 3 rather than tier 1.

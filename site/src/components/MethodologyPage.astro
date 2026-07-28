@@ -1,0 +1,121 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { translator, type Locale } from '../i18n/index.ts';
+
+interface Props {
+  locale: Locale;
+}
+
+// A summary, deliberately. The full, versioned methodology lives in docs/METHODOLOGY.md and
+// is the document that governs the data; this page must never say something it does not.
+// Owned by the site track from M1 onward, which will expand it into MDX.
+const { locale } = Astro.props;
+const t = translator(locale);
+const es = locale === 'es';
+---
+
+<BaseLayout locale={locale} title={t('nav.methodology')}>
+  <div class="prose">
+    <h1>{t('nav.methodology')}</h1>
+
+    <p class="lede">
+      {
+        es
+          ? '«¿Cuántos ministerios tiene este país?» parece una pregunta con un hecho por respuesta. No lo es.'
+          : '"How many ministries does this country have?" sounds like a question with a fact for an answer. It is not.'
+      }
+    </p>
+
+    <p>
+      {
+        es
+          ? 'Alemania tiene 15 ministerios federales, o 16 si se cuenta la Cancillería. España tiene 22 departamentos ministeriales y 23 miembros del Consejo de Ministros. Ninguna cifra es errónea: responden a preguntas distintas. La cifra que publicamos es, por tanto, la consecuencia de una definición.'
+          : 'Germany has 15 federal ministries, or 16 if you count the Chancellery. Spain has 22 ministerial departments and 23 members of its Council of Ministers. Neither figure is wrong: they answer different questions. The number we publish is therefore the consequence of a definition.'
+      }
+    </p>
+
+    <h2>{es ? 'Qué cuenta como ministerio' : 'What counts as a ministry'}</h2>
+    <ol>
+      <li>
+        {
+          es
+            ? 'Es un departamento del gobierno central. Los gobiernos regionales quedan fuera.'
+            : 'It is a department of central government. Regional governments are out of scope.'
+        }
+      </li>
+      <li>
+        {
+          es
+            ? 'Su titular tiene rango de ministro, o el equivalente nacional.'
+            : 'Its head holds ministerial rank, or the national equivalent.'
+        }
+      </li>
+      <li>
+        {
+          es
+            ? 'Aparece nombrado como departamento en un instrumento jurídico o una publicación oficial.'
+            : 'It is named as a department in a legal instrument or an official publication.'
+        }
+      </li>
+    </ol>
+
+    <h2>{es ? 'Lo que no cuenta, lo registramos igual' : 'What does not count is recorded anyway'}</h2>
+    <p>
+      {
+        es
+          ? 'Las oficinas de jefe de gobierno, los ministros sin cartera, los secretarios de Estado y las agencias se registran con el motivo por el que no se cuentan. Una cifra sin resto visible no admite discusión; una cifra que muestra sus exclusiones se puede comprobar y rebatir.'
+          : 'Heads-of-government offices, ministers without portfolio, state secretaries and agencies are all recorded, each with the reason it is not counted. A number with no visible remainder cannot be argued with; a number that shows its exclusions can be checked and disputed.'
+      }
+    </p>
+
+    <h2>{es ? 'Dos cifras que nunca se suman' : 'Two figures that are never added together'}</h2>
+    <p>
+      {
+        es
+          ? 'Los ministerios contados son departamentos. Los asientos del gabinete son personas. Un jefe de gobierno ocupa asiento sin departamento; un ministro con dos carteras es un asiento y dos ministerios. Cada gráfico dice qué cifra usa.'
+          : 'Counted ministries are departments. Cabinet seats are people. A head of government holds a seat without a department; a minister with two portfolios is one seat and two ministries. Every chart states which figure it uses.'
+      }
+    </p>
+
+    <h2>{es ? 'Fuentes' : 'Sources'}</h2>
+    <p>
+      {
+        es
+          ? 'Toda afirmación lleva URL, copia archivada, fecha de consulta y cita textual. La cita textual es obligatoria: una URL desnuda se degrada y una referencia sin cita no se puede comprobar sin releer el documento entero. Un ministerio contado nunca puede sostenerse solo en una fuente secundaria.'
+          : 'Every claim carries a URL, an archived copy, an access date and a verbatim quote. The quote is mandatory: a bare URL rots, and an unquoted citation cannot be checked without re-reading the whole document. A counted ministry may never rest on a secondary source alone.'
+      }
+    </p>
+
+    <h2>{es ? 'Limitaciones' : 'Limitations'}</h2>
+    <ul>
+      <li>
+        {
+          es
+            ? 'Contar premia la fragmentación: 25 ministerios pequeños puntúan más que 12 grandes. La cifra mide estructura, no capacidad ni gasto.'
+            : 'Counting rewards fragmentation: 25 small ministries score higher than 12 large ones. The figure measures structure, not capacity or spending.'
+        }
+      </li>
+      <li>
+        {
+          es
+            ? 'El etiquetado por áreas de política es interpretativo.'
+            : 'Tagging by policy area is interpretive.'
+        }
+      </li>
+      <li>
+        {
+          es
+            ? 'Con un gabinete por país, los datos aún no muestran tendencias.'
+            : 'With one cabinet per country, the data cannot yet show trends.'
+        }
+      </li>
+    </ul>
+
+    <style>
+      .lede {
+        font-size: var(--text-lg);
+        color: var(--text-secondary);
+      }
+    </style>
+  </div>
+</BaseLayout>

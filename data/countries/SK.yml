@@ -1,0 +1,59 @@
+# Slovakia — country metadata.
+#
+# See docs/DATA-CONTRACT.md. The cabinet, its entities and its citations live in
+# data/cabinets/SK-2023-10-25.yml; this file carries only country-level metadata.
+#
+# Perimeter: this record describes the central government of the Slovak Republic. The eight
+# self-governing regions (samosprávne kraje) and the ~2,900 municipalities are subnational and
+# out of scope; they appear in the cabinet file only as the subject matter of a ministry. The
+# population figure below covers the whole country.
+
+iso2: SK
+iso3: SVK
+
+name_en: Slovakia
+name_es: Eslovaquia
+name_original: Slovensko
+official_name_original: Slovenská republika
+
+continent: europe
+region: central_europe
+eu_member_since: 2004-05-01
+government_system: parliamentary_republic
+official_languages: [sk]
+
+# Population carries its own citation because the country page publishes it as a figure in its
+# own right, not as a convenience constant. Nothing divides by it.
+population:
+  value: 5409407
+  year: 2025
+  source:
+    id: susr-demograficky-vyvoj-2025
+    tier: 3
+    type: statistical_office
+    publisher: Štatistický úrad Slovenskej republiky
+    title: Demografický vývoj v roku 2025 (informatívna správa)
+    url: https://slovak.statistics.sk/wps/portal/ext/products/informationmessages/inf_sprava_detail/973bd7ac-eb08-42ef-b5d9-b227e47c01f1/
+    archive_url: https://web.archive.org/web/20260721184755/https://slovak.statistics.sk/wps/portal/ext/products/informationmessages/inf_sprava_detail/973bd7ac-eb08-42ef-b5d9-b227e47c01f1/!ut/p/z0/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziA809LZycDB0NDJx8jA08vbyD_Tyc3YzcQ031vfSj8CsAmmBU5Ovsm64fVZBYkqGbmZeWrx9haW6clGKemKybmmRgoWtilJqmm2SaYqmbZGRknmpinmxgmGaoX5AdFQkAMpV5BQ!!/
+    lang: sk
+    published: 2026-03-31
+    accessed: 2026-07-28
+    quote: >-
+      Na konci roka 2025 žilo v Slovenskej republike celkovo 5 409 407 obyvateľov, ich počet
+      medziročne klesol o viac ako 10-tisíc.
+    note: >-
+      Resident population of the Slovak Republic at 31 December 2025, which is the newest
+      definitive figure the statistical office publishes: under its own methodological note the
+      count at 31 December of a year equals the count at 1 January of the next, except in census
+      years, so the same 5 409 407 is Slovakia's population at 1 January 2026. `year` records
+      2025 because that is the reference date the source states. The same value is the 2025
+      end-of-period figure of indicator IN010115 (Stav trvale bývajúceho obyvateľstva na konci
+      obdobia) for SK0 in DATAcube table om7102rr, retrieved from
+      https://data.statistics.sk/api/v2/dataset/om7102rr/SK0/all/all/all on the access date and
+      last updated by ŠÚ SR on 31 March 2026; the API and the press release agree exactly.
+      Tier 3 rather than tier 1: this is a demographic balance, not a legal instrument, and it
+      is an estimate carried forward from the 2021 census (SODB 2021) by registered births,
+      deaths and changes of permanent residence. The archived snapshot is of 21 July 2026 and
+      is stored under the long WebSphere portal URL — the portal appends a session-state path
+      segment to every page — while `url` gives the stable canonical form; both render the same
+      document and the quoted sentence appears in the snapshot.

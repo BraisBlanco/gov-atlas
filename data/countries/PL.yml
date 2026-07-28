@@ -1,0 +1,49 @@
+# Poland — country metadata.
+#
+# See docs/DATA-CONTRACT.md before editing. The cabinet itself, its entities and its
+# sources live in data/cabinets/PL-2023-12-13.yml.
+
+iso2: PL
+iso3: POL
+
+name_en: Poland
+name_es: Polonia
+name_original: Polska
+official_name_original: Rzeczpospolita Polska
+
+continent: europe
+region: central_europe
+eu_member_since: 2004-05-01
+government_system: parliamentary_republic
+official_languages: [pl]
+
+# Population carries its own citation because the country page publishes it as a figure in
+# its own right. Nothing divides by it — see docs/METHODOLOGY.md.
+population:
+  value: 37332510
+  year: 2025
+  source:
+    id: gus-ludnosc-2025-12-31
+    tier: 3
+    type: statistical_office
+    publisher: Główny Urząd Statystyczny
+    title: >-
+      Ludność. Stan i struktura oraz ruch naturalny w przekroju terytorialnym w 2025 r.
+      Stan w dniu 31 grudnia
+    url: https://stat.gov.pl/download/gfx/portalinformacyjny/pl/defaultaktualnosci/5468/6/40/1/ludnosc_stan_i_struktura_oraz_ruch_naturalny_w_przekroju_terytorialnym_na_31-12-2025.pdf
+    archive_url: https://web.archive.org/web/20260717022532/https://stat.gov.pl/download/gfx/portalinformacyjny/pl/defaultaktualnosci/5468/6/40/1/ludnosc_stan_i_struktura_oraz_ruch_naturalny_w_przekroju_terytorialnym_na_31-12-2025.pdf
+    lang: pl
+    published: 2026-04-29
+    accessed: 2026-07-28
+    quote: >-
+      W końcu 2025 r. liczba ludności Polski wyniosła 37333 tys., tj. o ponad 156 tys.
+      mniej niż w końcu 2024 r.
+    note: >-
+      Poland has no annual census, so the resident population between censuses is a GUS
+      estimate; that is why this is tier 3 rather than tier 1, following the Spanish
+      precedent. The commentary PDF quoted here rounds to thousands (37 333 thousand).
+      The exact figure recorded above, 37 332 510, is the "P O L S K A / P O L A N D"
+      total of "TABL. 1. LUDNOŚĆ WEDŁUG PŁCI I WIEKU W 2025 R. — Stan w dniu 31 XII"
+      in the spreadsheet tables (tabela01.xls, inside
+      ludnosc.stan_i_struktura_31.12.2025.zip) released as part of the same publication
+      on the same page. The two agree; only the precision differs.

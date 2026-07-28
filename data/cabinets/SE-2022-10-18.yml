@@ -1,0 +1,839 @@
+# Sweden — government structure of regeringen Kristersson.
+#
+# See docs/DATA-CONTRACT.md. Three things worth knowing before reading the list:
+#
+#   1. Sweden is the country where ministries and ministers come apart hardest. The
+#      government office (Regeringskansliet) is a single authority divided into
+#      departments, and § 2 of its instruction — förordning (1996:1515) — enumerates them.
+#      There are ten departments plus the Prime Minister's Office (Statsrådsberedningen)
+#      and an administrative division that is not a department in the ordinary sense. There
+#      are 24 ministers. Sweden therefore publishes 10 ministries and 24 cabinet seats.
+#   2. Several ministers sit in one department. That is not a Swedish curiosity but the
+#      normal arrangement: the Socialdepartementet has four ministers, the
+#      Finansdepartementet three. Each department's `head_count` is the number of ministers
+#      serving in it, which is what makes the seat count come out at 24.
+#   3. This cabinet took office on 18 October 2022 with a different department structure.
+#      On 1 January 2023 the Miljö-, Närings- and Infrastrukturdepartementet were replaced
+#      by the Klimat- och näringslivsdepartementet and the Landsbygds- och
+#      infrastrukturdepartementet. The old three are recorded below with `valid_to`, the new
+#      two with `valid_from`.
+
+country: SE
+cabinet_id: SE-2022-10-18
+
+cabinet_name_original: Regeringen Kristersson
+cabinet_name_en: Kristersson government
+cabinet_name_es: Gobierno Kristersson
+
+head_of_government_title_original: Statsminister
+head_of_government_title_en: Prime Minister
+
+took_office: 2022-10-18
+left_office: null
+
+methodology_notes:
+  - en: >-
+      10 ministries and 24 cabinet seats — the widest gap in this dataset so far, and it is
+      structural rather than accidental. Sweden has no ministries in the sense other
+      countries use the word: the Regeringskansliet is one authority, and what other states
+      call a ministry is here a departement within it, listed in § 2 of förordning
+      (1996:1515). Ten of those departments are headed by a minister and are counted. The
+      other two entries in § 2 are not: Statsrådsberedningen is the Prime Minister's Office,
+      excluded as the office of the head of government, and Regeringskansliets
+      förvaltningsavdelning is a shared services division headed by an official, not a
+      minister. The 24 seats are the statsråd — the Prime Minister and 23 other ministers —
+      distributed across the departments; several departments have two, three or four of
+      them. Counting Statsrådsberedningen as a ministry would give 11.
+    es: >-
+      10 ministerios y 24 asientos en el gabinete: la mayor diferencia del dataset hasta
+      ahora, y es estructural, no accidental. Suecia no tiene ministerios en el sentido en
+      que otros países usan la palabra: el Regeringskansliet es una sola autoridad y lo que
+      en otros Estados es un ministerio aquí es un departement dentro de ella, enumerado en
+      el § 2 del förordning (1996:1515). Diez de esos departamentos están dirigidos por un
+      ministro y se cuentan. Las otras dos entradas del § 2 no: la Statsrådsberedningen es la
+      oficina del primer ministro, excluida como oficina del jefe de gobierno, y la
+      Regeringskansliets förvaltningsavdelning es una división de servicios comunes dirigida
+      por un funcionario y no por un ministro. Los 24 asientos son los statsråd —el primer
+      ministro y otros 23 ministros— repartidos entre los departamentos; varios tienen dos,
+      tres o cuatro. Contar la Statsrådsberedningen como ministerio daría 11.
+  - en: >-
+      How the seats are counted. Each department carries a `head_count` equal to the number
+      of ministers serving in it, taken from the government's own list of its members:
+      Socialdepartementet 4, Finansdepartementet 3, Statsrådsberedningen 2 (the Prime
+      Minister and the Minister for EU Affairs), Justitie-, Utrikes-, Försvars-, Utbildnings-,
+      Klimat- och näringslivs-, Arbetsmarknads- and Landsbygds- och infrastrukturdepartementet
+      2 each, Kulturdepartementet 1. That is 24 people, and 24 is the figure Swedish sources
+      give for the size of the government. Sweden does not use the device of a minister
+      without portfolio: every statsråd belongs to a department, so no separate entities are
+      recorded for the ministers who are not their department's head. The consequence for
+      readers is that a Swedish minister's title says almost nothing about how many
+      ministries Sweden has — there is a Minister for Gender Equality but no equality
+      department, a Minister for Migration but no migration department.
+    es: >-
+      Cómo se cuentan los asientos. Cada departamento lleva un `head_count` igual al número de
+      ministros que sirven en él, tomado de la propia lista de miembros del gobierno:
+      Socialdepartementet 4, Finansdepartementet 3, Statsrådsberedningen 2 (el primer ministro
+      y la ministra de Asuntos Europeos), Justitie-, Utrikes-, Försvars-, Utbildnings-,
+      Klimat- och näringslivs-, Arbetsmarknads- y Landsbygds- och infrastrukturdepartementet 2
+      cada uno, y Kulturdepartementet 1. Son 24 personas, y 24 es la cifra que dan las fuentes
+      suecas para el tamaño del gobierno. Suecia no emplea la figura del ministro sin cartera:
+      todo statsråd pertenece a un departamento, por lo que no se registran entidades aparte
+      para los ministros que no dirigen su departamento. La consecuencia para el lector es que
+      el título de un ministro sueco dice muy poco sobre cuántos ministerios tiene Suecia: hay
+      ministra de Igualdad pero no departamento de igualdad, y ministro de Migración pero no
+      departamento de migración.
+  - en: >-
+      The department structure changed 75 days into this cabinet's term. When the government
+      took office on 18 October 2022 the Regeringskansliet still contained Miljödepartementet,
+      Näringsdepartementet and Infrastrukturdepartementet; on 1 January 2023 those three were
+      replaced by two, Klimat- och näringslivsdepartementet and Landsbygds- och
+      infrastrukturdepartementet, and § 2 of the instruction was amended accordingly by
+      förordning (2022:1873). Sweden's count under this cabinet was therefore 11 until 31
+      December 2022 and has been 10 since. The three abolished departments are recorded below
+      with `valid_to: 2022-12-31` so the change is visible rather than inferred, but this file
+      does not attempt to reconstruct which minister sat in which of them, so they carry no
+      cabinet seat: a replay of any date before 1 January 2023 would understate the seats.
+      Everything else in this file describes the structure in force from 1 January 2023 to the
+      access date.
+    es: >-
+      La estructura departamental cambió a los 75 días de legislatura. Cuando el gobierno tomó
+      posesión el 18 de octubre de 2022, el Regeringskansliet aún contenía el
+      Miljödepartementet, el Näringsdepartementet y el Infrastrukturdepartementet; el 1 de
+      enero de 2023 esos tres fueron sustituidos por dos, el Klimat- och
+      näringslivsdepartementet y el Landsbygds- och infrastrukturdepartementet, y el § 2 de la
+      instrucción se modificó en consecuencia mediante el förordning (2022:1873). La cifra
+      sueca bajo este gobierno fue por tanto 11 hasta el 31 de diciembre de 2022 y es 10 desde
+      entonces. Los tres departamentos suprimidos se registran abajo con `valid_to:
+      2022-12-31` para que el cambio sea visible y no deducido, pero este fichero no intenta
+      reconstruir qué ministro estaba en cada uno de ellos, así que no llevan asiento: una
+      reconstrucción de cualquier fecha anterior al 1 de enero de 2023 subestimaría los
+      asientos. Todo lo demás describe la estructura vigente desde el 1 de enero de 2023 hasta
+      la fecha de consulta.
+  - en: >-
+      Sweden has no European affairs ministry in this dataset, and that is a real finding
+      rather than a gap. EU coordination belongs to the Minister for EU Affairs, who sits in
+      Statsrådsberedningen — the one entry excluded as the office of the head of government —
+      so the european_affairs area is tagged on no counted Swedish department. Read the
+      comparison views accordingly: Sweden's EU minister exists, but not in a department that
+      this methodology counts.
+    es: >-
+      En este dataset Suecia no tiene ministerio de Asuntos Europeos, y eso es un hallazgo
+      real y no una laguna. La coordinación de la UE corresponde a la ministra de Asuntos
+      Europeos, que se sitúa en la Statsrådsberedningen —la única entrada excluida como
+      oficina del jefe de gobierno—, de modo que el área european_affairs no se etiqueta en
+      ningún departamento sueco contado. Conviene leer así las vistas comparativas: la
+      ministra de la UE existe, pero no en un departamento que esta metodología cuente.
+  - en: >-
+      Which department owns what is taken from the government's own attributions, not from
+      the department names, in the three cases where the name would mislead: sport and civil
+      society belong to Socialdepartementet, digitalisation policy to Finansdepartementet
+      (under the Minister for Public Administration), and housing and spatial planning to
+      Landsbygds- och infrastrukturdepartementet. Each of those three claims is cited on the
+      entity concerned. The head_title_original of each department is the title of the
+      minister regeringen.se lists first for it, which by Swedish convention is the
+      departementschef.
+    es: >-
+      La atribución de materias a departamentos se toma de las propias adscripciones del
+      gobierno y no de los nombres de los departamentos en los tres casos en que el nombre
+      induciría a error: el deporte y la sociedad civil corresponden al Socialdepartementet,
+      la política de digitalización al Finansdepartementet (bajo el ministro de Administración
+      Pública) y la vivienda y la ordenación del territorio al Landsbygds- och
+      infrastrukturdepartementet. Cada una de esas tres afirmaciones se cita en la entidad
+      correspondiente. El head_title_original de cada departamento es el título del ministro
+      que regeringen.se enumera primero, que por convención sueca es el departementschef.
+  - en: >-
+      English department names are the Swedish government's own, taken verbatim from
+      government.se, the English-language edition of regeringen.se, and marked
+      name_en_provenance: official. The one exception is Regeringskansliets
+      förvaltningsavdelning, for which government.se publishes no English name; that
+      rendering and all Spanish names are this project's own and are marked translated.
+    es: >-
+      Los nombres ingleses de los departamentos son los del propio gobierno sueco, tomados
+      literalmente de government.se, la edición en inglés de regeringen.se, y llevan
+      name_en_provenance: official. La única excepción es la Regeringskansliets
+      förvaltningsavdelning, para la que government.se no publica nombre inglés; esa
+      traducción y todos los nombres en español son de este proyecto y llevan la marca
+      translated.
+
+sources:
+  - id: sfs-1996-1515
+    tier: 1
+    type: statute
+    publisher: Svensk författningssamling (Sveriges riksdag)
+    title: >-
+      Förordning (1996:1515) med instruktion för Regeringskansliet, i lydelse t.o.m. SFS
+      2026:894 (konsoliderad text)
+    url: >-
+      https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-19961515-med-instruktion-for_sfs-1996-1515/
+    archive_url: >-
+      https://web.archive.org/web/20260727234110/https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-19961515-med-instruktion-for_sfs-1996-1515/
+    lang: sv
+    published: 1996-12-17
+    accessed: 2026-07-28
+    quote: |-
+      1 § Regeringskansliet har till uppgift att bereda regeringsärenden och att i övrigt biträda regeringen och statsråden i deras verksamhet.
+      2 § I Regeringskansliet ingår
+      Statsrådsberedningen (SB),
+      Justitiedepartementet (Ju),
+      Utrikesdepartementet (UD),
+      Försvarsdepartementet (Fö),
+      Socialdepartementet (S),
+      Finansdepartementet (Fi),
+      Utbildningsdepartementet (U),
+      Klimat- och näringslivsdepartementet (KN),
+      Kulturdepartementet (Ku),
+      Arbetsmarknadsdepartementet (A),
+      Landsbygds- och infrastrukturdepartementet (LI), och
+      Regeringskansliets förvaltningsavdelning (FA).
+      Vad som sägs i denna förordning om departement gäller också Statsrådsberedningen och förvaltningsavdelningen, om något annat inte framgår av sammanhanget. Förordning (2022:1873).
+    note: >-
+      The enumerating instrument, and the source of the listing order below. It is the
+      instruction for the Regeringskansliet, the single authority that is the Swedish
+      government office; § 2 lists its parts, which is as close as Swedish law comes to a
+      list of ministries. Two of the twelve entries are not counted here: Statsrådsberedningen
+      (the office of the head of government) and the förvaltningsavdelning (headed by an
+      official). The annotation at the end of § 2, "Förordning (2022:1873)", is the amendment
+      that produced the current list with effect from 1 January 2023 — it is why the two
+      newest departments below carry valid_from 2023-01-01. The consolidated text is
+      published by the Riksdag and was, at the access date, amended up to SFS 2026:894.
+
+  - id: regeringen-sveriges-regering
+    tier: 2
+    type: government_website
+    publisher: Regeringskansliet (regeringen.se)
+    title: Sveriges regering — statsråden departement för departement
+    url: https://www.regeringen.se/sveriges-regering/
+    archive_url: https://web.archive.org/web/20260727234948/https://www.regeringen.se/sveriges-regering/
+    lang: sv
+    published: null
+    accessed: 2026-07-28
+    quote: |-
+      Statsrådsberedningen
+      Ulf Kristersson, Statsminister
+      Jessica Rosencrantz, EU-minister
+      Arbetsmarknadsdepartementet
+      Johan Britz, Arbetsmarknadsminister
+      Nina Larsson, Jämställdhetsminister
+      Finansdepartementet
+      Elisabeth Svantesson, Finansminister
+      Erik Slottner, Civilminister
+      Niklas Wykman, Finansmarknadsminister
+      Försvarsdepartementet
+      Pål Jonson, Försvarsminister
+      Carl-Oskar Bohlin, Minister för civilt försvar
+      Justitiedepartementet
+      Gunnar Strömmer, Justitieminister
+      Johan Forssell, Migrationsminister
+      Klimat- och näringslivsdepartementet
+      Ebba Busch, Energi- och näringsminister samt vice statsminister
+      Romina Pourmokhtari, Klimat- och miljöminister
+      Kulturdepartementet
+      Parisa Liljestrand, Kulturminister
+      Landsbygds- och infrastrukturdepartementet
+      Peter Kullgren, Landsbygdsminister
+      Andreas Carlson, Infrastruktur- och bostadsminister
+      Socialdepartementet
+      Jakob Forssmed, Socialminister
+      Anna Tenje, Äldre- och socialförsäkringsminister
+      Camilla Waltersson Grönvall, Socialtjänstminister
+      Elisabet Lann, Sjukvårdsminister
+      Utbildningsdepartementet
+      Simona Mohamsson, Utbildnings- och integrationsminister
+      Lotta Edholm, Gymnasie-, högskole- och forskningsminister
+      Utrikesdepartementet
+      Maria Malmer Stenergard, Utrikesminister
+      Benjamin Dousa, Bistånds- och utrikeshandelsminister
+    note: >-
+      The government's own roster, grouped by department, and the source of every
+      `head_count` and `head_title_original` below. Twenty-four statsråd in eleven groups
+      (the förvaltningsavdelning has none). Departments appear here in alphabetical order,
+      not in the order of § 2 of the instruction, which is why the two orders differ. The
+      site sets minister titles with soft hyphens ("Stats­minister"); those zero-width
+      characters are removed from the quotation, which is otherwise verbatim.
+
+  - id: government-se-government-of-sweden
+    tier: 2
+    type: government_website
+    publisher: Government Offices of Sweden (government.se)
+    title: The Government of Sweden — ministries and ministers
+    url: https://www.government.se/government-of-sweden/
+    archive_url: https://web.archive.org/web/20260714103946/https://www.government.se/government-of-sweden/
+    lang: en
+    published: null
+    accessed: 2026-07-28
+    quote: |-
+      Prime Minister's Office
+      Ministry of Climate and Enterprise
+      Ministry of Culture
+      Ministry of Defence
+      Ministry of Education and Research
+      Ministry of Employment
+      Ministry of Finance
+      Ministry for Foreign Affairs
+      Ministry of Health and Social Affairs
+      Ministry of Justice
+      Ministry of Rural Affairs and Infrastructure
+    note: >-
+      government.se is the English-language edition of regeringen.se, published by the Swedish
+      government itself, which is what makes name_en_provenance "official" for the ten counted
+      departments and for Statsrådsberedningen. Every English name in this file is copied from
+      this page character for character. Note that the English edition calls a departement a
+      "Ministry", and that it lists no English name for Regeringskansliets
+      förvaltningsavdelning, whose English name here is therefore the project's own. The page
+      lists each department's ministers underneath its heading; the quotation above keeps the
+      eleven headings, in the page's own alphabetical order, and omits the ministers between
+      them.
+
+  - id: regeringen-tva-nya-departement-2022
+    tier: 2
+    type: government_website
+    publisher: Regeringskansliet (regeringen.se)
+    title: Två nya departement bildas 1 januari 2023 — pressmeddelande
+    url: https://www.regeringen.se/pressmeddelanden/2022/10/tva-nya-departement-bildas-1-januari-2023/
+    archive_url: https://web.archive.org/web/20260727234201/https://www.regeringen.se/pressmeddelanden/2022/10/tva-nya-departement-bildas-1-januari-2023/
+    lang: sv
+    published: 2022-10-23
+    accessed: 2026-07-28
+    quote: |-
+      (Ny version) Vid årsskiftet kommer ansvaret för klimat- och näringslivsfrågor respektive landsbygds- och infrastrukturfrågor att samlas i två nya departement. Fram till dess finns berörda departement kvar i sin nuvarande form.
+      Ombildningen sker för att sätta ljus på klimat- och energifrågan. Det nya Klimat- och näringslivsdepartementet kommer att samla kompetensen och erfarenheten inom energi-, klimat, miljö- och näringsfrågorna.
+      Det nya Landsbygds- och infrastrukturdepartementet kommer att samla kompetensen och erfarenheten inom landsbygds-, skogs-, transport- och bostadsfrågorna.
+    note: >-
+      Cited for the mid-term change: the date the two new departments were formed, the areas
+      each was to gather, and the fact that the departments they replaced remained in their
+      existing form until the turn of the year ("Fram till dess finns berörda departement kvar
+      i sin nuvarande form"). Together with the amendment annotation in § 2 of the instruction
+      this is the basis for valid_from 2023-01-01 on the two new departments and valid_to
+      2022-12-31 on the three they replaced. The three quoted paragraphs are the release's
+      first, second and fourth; the third and fifth are quotations from two ministers and are
+      omitted.
+
+  - id: regeringen-civila-samhallet-och-idrott
+    tier: 2
+    type: government_website
+    publisher: Regeringskansliet (regeringen.se)
+    title: Civila samhället och idrott — ansvarigt statsråd och departement
+    url: https://www.regeringen.se/regeringens-politik/civila-samhallet-och-idrott/
+    archive_url: https://web.archive.org/web/20260727235245/https://www.regeringen.se/regeringens-politik/civila-samhallet-och-idrott/
+    lang: sv
+    published: null
+    accessed: 2026-07-28
+    quote: |-
+      Ansvariga för civila samhället och idrott
+      Ansvarigt statsråd
+      Jakob Forssmed
+      Socialminister
+      Ansvarigt departement
+      Socialdepartementet
+    note: >-
+      Cited for one tagging decision a reader could reasonably dispute: sport is tagged on
+      Socialdepartementet and not on Kulturdepartementet, where several other countries put
+      it. The government's own policy-area page names the socialminister and the
+      Socialdepartementet as responsible.
+
+  - id: regeringen-digitaliseringspolitik
+    tier: 2
+    type: government_website
+    publisher: Regeringskansliet (regeringen.se)
+    title: Digitaliseringspolitik — ansvarigt statsråd och departement
+    url: https://www.regeringen.se/regeringens-politik/digitaliseringspolitik/
+    archive_url: https://web.archive.org/web/20260727235644/https://www.regeringen.se/regeringens-politik/digitaliseringspolitik/
+    lang: sv
+    published: null
+    accessed: 2026-07-28
+    quote: |-
+      Ansvariga för digitaliseringspolitik
+      Ansvarigt statsråd
+      Erik Slottner
+      Civilminister
+      Ansvarigt departement
+      Finansdepartementet
+    note: >-
+      Cited for the digital tag on Finansdepartementet. Nothing in that department's name
+      suggests digitalisation policy, and no Swedish department is named after it, so without
+      this attribution Sweden would appear to have no home for the area at all.
+
+  - id: regeringen-bostader-och-samhallsplanering
+    tier: 2
+    type: government_website
+    publisher: Regeringskansliet (regeringen.se)
+    title: Bostäder och samhällsplanering — ansvarigt statsråd och departement
+    url: https://www.regeringen.se/regeringens-politik/bostader-och-samhallsplanering/
+    archive_url: https://web.archive.org/web/20260727235715/https://www.regeringen.se/regeringens-politik/bostader-och-samhallsplanering/
+    lang: sv
+    published: null
+    accessed: 2026-07-28
+    quote: |-
+      Ansvariga för bostäder och samhällsplanering
+      Ansvarigt statsråd
+      Andreas Carlson
+      Infrastruktur- och bostadsminister
+      Ansvarigt departement
+      Landsbygds- och infrastrukturdepartementet
+    note: >-
+      Cited for the housing and spatial_planning tags on Landsbygds- och
+      infrastrukturdepartementet, which its name does not disclose.
+
+entities:
+  # --- Statsrådsberedningen: recorded, not counted -------------------------------------
+  - id: SE-2022-statsradsberedningen
+    order: 1
+    name_original: Statsrådsberedningen
+    abbreviation_original: SB
+    name_en: Prime Minister's Office
+    name_es: Oficina del Primer Ministro
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Statsminister
+    head_title_en: Prime Minister
+    has_cabinet_seat: true
+    head_count: 2
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: head_of_government_office
+    url: https://www.regeringen.se/sveriges-regering/statsradsberedningen/
+    sources: [sfs-1996-1515, regeringen-sveriges-regering, government-se-government-of-sweden]
+    note:
+      en: >-
+        Excluded as the office of the head of government. § 2 of the instruction lists it
+        alongside the departments and adds that what the instruction says about a departement
+        applies to Statsrådsberedningen too, but it is the Prime Minister's own staff and the
+        apex of the government rather than a portfolio department, and no Swedish statute
+        constitutes it as a ministry. Counting it would give Sweden 11 ministries instead of
+        10. Two seats, not one: the Prime Minister and the Minister for EU Affairs both sit
+        here, which is why Sweden's EU portfolio appears in no counted department.
+      es: >-
+        Excluida como oficina del jefe de gobierno. El § 2 de la instrucción la enumera junto a
+        los departamentos y añade que lo que la instrucción dice de un departement se aplica
+        también a la Statsrådsberedningen, pero es el gabinete propio del primer ministro y la
+        cúspide del gobierno, no un departamento con cartera, y ninguna ley sueca la
+        constituye como ministerio. Contarla daría 11 ministerios en lugar de 10. Dos asientos
+        y no uno: aquí se sitúan el primer ministro y la ministra de Asuntos Europeos, razón
+        por la que la cartera europea sueca no aparece en ningún departamento contado.
+
+  # --- the ten counted departments, in the order of § 2 of the instruction --------------
+  - id: SE-2022-justitiedepartementet
+    order: 2
+    name_original: Justitiedepartementet
+    abbreviation_original: Ju
+    name_en: Ministry of Justice
+    name_es: Ministerio de Justicia
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Justitieminister
+    head_title_en: Minister for Justice
+    has_cabinet_seat: true
+    head_count: 2
+    policy_areas: [justice, interior, migration]
+    counts_as_ministry: true
+    url: https://www.regeringen.se/sveriges-regering/justitiedepartementet/
+    sources: [sfs-1996-1515, regeringen-sveriges-regering, government-se-government-of-sweden]
+    note:
+      en: >-
+        Tagged interior as well as justice because the police, Säpo and crime prevention
+        belong here: Sweden has no separate interior ministry. Migration is tagged because the
+        second of the department's two ministers is the Minister for Migration; there is no
+        migration department.
+      es: >-
+        Se etiqueta interior además de justice porque la policía, el Säpo y la prevención del
+        delito corresponden aquí: Suecia no tiene un ministerio del interior propio. Se
+        etiqueta migration porque el segundo de los dos ministros del departamento es el
+        ministro de Migración; no existe un departamento de migración.
+
+  - id: SE-2022-utrikesdepartementet
+    order: 3
+    name_original: Utrikesdepartementet
+    abbreviation_original: UD
+    name_en: Ministry for Foreign Affairs
+    name_es: Ministerio de Asuntos Exteriores
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Utrikesminister
+    head_title_en: Minister for Foreign Affairs
+    has_cabinet_seat: true
+    head_count: 2
+    policy_areas: [foreign_affairs, development_cooperation, trade]
+    counts_as_ministry: true
+    url: https://www.regeringen.se/sveriges-regering/utrikesdepartementet/
+    sources: [sfs-1996-1515, regeringen-sveriges-regering, government-se-government-of-sweden]
+    note:
+      en: >-
+        Two ministers: the Minister for Foreign Affairs and the Minister for International
+        Development Cooperation and Foreign Trade, which is where the development_cooperation
+        and trade tags come from. Not tagged european_affairs — that portfolio sits in
+        Statsrådsberedningen. § 3 of the instruction adds that the foreign service consists of
+        this department and Sweden's missions abroad, which are not separate entities.
+      es: >-
+        Dos ministros: la de Asuntos Exteriores y el de Cooperación al Desarrollo y Comercio
+        Exterior, de donde vienen las etiquetas development_cooperation y trade. No se
+        etiqueta european_affairs: esa cartera está en la Statsrådsberedningen. El § 3 de la
+        instrucción añade que el servicio exterior está formado por este departamento y las
+        representaciones suecas en el extranjero, que no son entidades aparte.
+
+  - id: SE-2022-forsvarsdepartementet
+    order: 4
+    name_original: Försvarsdepartementet
+    abbreviation_original: Fö
+    name_en: Ministry of Defence
+    name_es: Ministerio de Defensa
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Försvarsminister
+    head_title_en: Minister for Defence
+    has_cabinet_seat: true
+    head_count: 2
+    policy_areas: [defence, civil_protection]
+    counts_as_ministry: true
+    url: https://www.regeringen.se/sveriges-regering/forsvarsdepartementet/
+    sources: [sfs-1996-1515, regeringen-sveriges-regering, government-se-government-of-sweden]
+    note:
+      en: >-
+        Tagged civil_protection because the department's second minister is the Minister for
+        Civil Defence, a post created for Sweden's total-defence build-up; civil emergency
+        preparedness is therefore in the defence department rather than in a separate ministry
+        as in Denmark.
+      es: >-
+        Se etiqueta civil_protection porque el segundo ministro del departamento es el ministro
+        de Defensa Civil, puesto creado para el desarrollo de la defensa total sueca; la
+        protección civil está por tanto en el departamento de defensa y no en un ministerio
+        aparte como en Dinamarca.
+
+  - id: SE-2022-socialdepartementet
+    order: 5
+    name_original: Socialdepartementet
+    abbreviation_original: S
+    name_en: Ministry of Health and Social Affairs
+    name_es: Ministerio de Sanidad y Asuntos Sociales
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Socialminister
+    head_title_en: Minister for Social Affairs and Public Health
+    has_cabinet_seat: true
+    head_count: 4
+    policy_areas: [social_affairs, health, social_security, elderly, sport]
+    counts_as_ministry: true
+    url: https://www.regeringen.se/sveriges-regering/socialdepartementet/
+    sources: [sfs-1996-1515, regeringen-sveriges-regering, government-se-government-of-sweden, regeringen-civila-samhallet-och-idrott]
+    note:
+      en: >-
+        The largest department by ministers: four of the twenty-four statsråd serve here — for
+        social affairs and public health, for older people and social insurance, for social
+        services and for health care. It is one department and one ministry all the same.
+        Sport and civil society are tagged here rather than on Kulturdepartementet on the
+        government's own attribution.
+      es: >-
+        El departamento con más ministros: cuatro de los veinticuatro statsråd sirven aquí —de
+        Asuntos Sociales y Salud Pública, de Mayores y Seguros Sociales, de Servicios Sociales
+        y de Sanidad—. Sigue siendo un departamento y un ministerio. El deporte y la sociedad
+        civil se etiquetan aquí y no en el Kulturdepartementet según la adscripción del propio
+        gobierno.
+
+  - id: SE-2022-finansdepartementet
+    order: 6
+    name_original: Finansdepartementet
+    abbreviation_original: Fi
+    name_en: Ministry of Finance
+    name_es: Ministerio de Finanzas
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Finansminister
+    head_title_en: Minister for Finance
+    has_cabinet_seat: true
+    head_count: 3
+    policy_areas: [finance, budget, public_administration, digital, territorial_administration]
+    counts_as_ministry: true
+    url: https://www.regeringen.se/sveriges-regering/finansdepartementet/
+    sources: [sfs-1996-1515, regeringen-sveriges-regering, government-se-government-of-sweden, regeringen-digitaliseringspolitik]
+    note:
+      en: >-
+        Three ministers: for finance, for public administration (civilminister) and for
+        financial markets. The civilminister's remit is why this department carries the
+        public_administration, digital and territorial_administration tags — central
+        government administration, digitalisation policy and the relationship with
+        municipalities and regions all sit here, none of them visible in the department's
+        name. Taxation is also this department's, which is the opposite of the Danish
+        arrangement.
+      es: >-
+        Tres ministros: de Finanzas, de Administración Pública (civilminister) y de Mercados
+        Financieros. El ámbito del civilminister explica las etiquetas public_administration,
+        digital y territorial_administration: la administración del Estado, la política de
+        digitalización y la relación con municipios y regiones están aquí, y ninguna se
+        aprecia en el nombre del departamento. La fiscalidad también corresponde a este
+        departamento, al contrario que en Dinamarca.
+
+  - id: SE-2022-utbildningsdepartementet
+    order: 7
+    name_original: Utbildningsdepartementet
+    abbreviation_original: U
+    name_en: Ministry of Education and Research
+    name_es: Ministerio de Educación e Investigación
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Utbildnings- och integrationsminister
+    head_title_en: Minister for Education and Integration
+    has_cabinet_seat: true
+    head_count: 2
+    policy_areas: [education, higher_education, research]
+    counts_as_ministry: true
+    url: https://www.regeringen.se/sveriges-regering/utbildningsdepartementet/
+    sources: [sfs-1996-1515, regeringen-sveriges-regering, government-se-government-of-sweden]
+    note:
+      en: >-
+        Two ministers: for education and integration, and for upper-secondary school, higher
+        education and research. Integration policy therefore sits in the education department,
+        an arrangement no other country in this dataset shares; there is no integration area
+        in the taxonomy, which is recorded in the hand-off notes.
+      es: >-
+        Dos ministros: de Educación e Integración, y de Bachillerato, Universidades e
+        Investigación. La política de integración se sitúa por tanto en el departamento de
+        educación, algo que no comparte ningún otro país de este dataset; la taxonomía no
+        tiene un área de integración, lo que queda anotado en las notas de entrega.
+
+  - id: SE-2022-klimat-och-naringslivsdepartementet
+    order: 8
+    name_original: Klimat- och näringslivsdepartementet
+    abbreviation_original: KN
+    name_en: Ministry of Climate and Enterprise
+    name_es: Ministerio de Clima y Empresa
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Energi- och näringsminister
+    head_title_en: Minister for Energy, Business and Industry
+    has_cabinet_seat: true
+    head_count: 2
+    policy_areas: [climate, economy, energy, environment, industry]
+    counts_as_ministry: true
+    valid_from: 2023-01-01
+    url: https://www.regeringen.se/sveriges-regering/klimat--och-naringslivsdepartementet/
+    sources: [sfs-1996-1515, regeringen-sveriges-regering, government-se-government-of-sweden, regeringen-tva-nya-departement-2022]
+    note:
+      en: >-
+        Created on 1 January 2023, which is why valid_from is set: it gathered energy,
+        climate, environment and business affairs from the abolished Miljödepartementet,
+        Näringsdepartementet and Infrastrukturdepartementet. Its head is the Minister for
+        Energy, Business and Industry, who is also Deputy Prime Minister — a personal rank
+        that adds neither a ministry nor a seat — and its second minister is the Minister for
+        Climate and the Environment. Sweden thus has climate and environment in the same
+        department as industrial policy, which is the arrangement the reorganisation was
+        announced to create.
+      es: >-
+        Creado el 1 de enero de 2023, y por eso lleva valid_from: reunió los asuntos de
+        energía, clima, medio ambiente y empresa procedentes de los suprimidos
+        Miljödepartementet, Näringsdepartementet e Infrastrukturdepartementet. Su titular es la
+        ministra de Energía y Empresa, que es además vicepresidenta del gobierno —rango
+        personal que no añade ni ministerio ni asiento—, y su segunda ministra es la de Clima y
+        Medio Ambiente. Suecia tiene así el clima y el medio ambiente en el mismo departamento
+        que la política industrial, que es precisamente el arreglo que se anunció con la
+        reorganización.
+
+  - id: SE-2022-kulturdepartementet
+    order: 9
+    name_original: Kulturdepartementet
+    abbreviation_original: Ku
+    name_en: Ministry of Culture
+    name_es: Ministerio de Cultura
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Kulturminister
+    head_title_en: Minister for Culture
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [culture, media]
+    counts_as_ministry: true
+    url: https://www.regeringen.se/sveriges-regering/kulturdepartementet/
+    sources: [sfs-1996-1515, regeringen-sveriges-regering, government-se-government-of-sweden, regeringen-civila-samhallet-och-idrott]
+    note:
+      en: >-
+        The only department with a single minister. Not tagged sport: responsibility for sport
+        and civil society lies with the socialminister, per the government's own policy-area
+        page, unlike in most of the countries in this dataset.
+      es: >-
+        El único departamento con un solo ministro. No se etiqueta sport: la responsabilidad
+        del deporte y la sociedad civil corresponde al socialminister, según la propia página
+        de área del gobierno, a diferencia de la mayoría de los países de este dataset.
+
+  - id: SE-2022-arbetsmarknadsdepartementet
+    order: 10
+    name_original: Arbetsmarknadsdepartementet
+    abbreviation_original: A
+    name_en: Ministry of Employment
+    name_es: Ministerio de Empleo
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Arbetsmarknadsminister
+    head_title_en: Minister for Employment
+    has_cabinet_seat: true
+    head_count: 2
+    policy_areas: [labour, equality]
+    counts_as_ministry: true
+    url: https://www.regeringen.se/sveriges-regering/arbetsmarknadsdepartementet/
+    sources: [sfs-1996-1515, regeringen-sveriges-regering, government-se-government-of-sweden]
+    note:
+      en: >-
+        Tagged equality because the department's second minister is the Minister for Gender
+        Equality; Sweden has no equality department. Note that unemployment insurance and
+        pensions are not here but in Socialdepartementet, so social_security is tagged there.
+      es: >-
+        Se etiqueta equality porque la segunda ministra del departamento es la de Igualdad;
+        Suecia no tiene un departamento de igualdad. Nótese que el seguro de desempleo y las
+        pensiones no están aquí sino en el Socialdepartementet, por lo que social_security se
+        etiqueta allí.
+
+  - id: SE-2022-landsbygds-och-infrastrukturdepartementet
+    order: 11
+    name_original: Landsbygds- och infrastrukturdepartementet
+    abbreviation_original: LI
+    name_en: Ministry of Rural Affairs and Infrastructure
+    name_es: Ministerio de Territorio Rural e Infraestructuras
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Landsbygdsminister
+    head_title_en: Minister for Rural Affairs
+    has_cabinet_seat: true
+    head_count: 2
+    policy_areas: [rural_development, agriculture, forestry, fisheries, transport, infrastructure, housing, spatial_planning]
+    counts_as_ministry: true
+    valid_from: 2023-01-01
+    url: https://www.regeringen.se/sveriges-regering/landsbygds--och-infrastrukturdepartementet/
+    sources: [sfs-1996-1515, regeringen-sveriges-regering, government-se-government-of-sweden, regeringen-tva-nya-departement-2022, regeringen-bostader-och-samhallsplanering]
+    note:
+      en: >-
+        Created on 1 January 2023 to gather rural affairs, forestry, transport and housing,
+        which is why valid_from is set and why the tag list is the longest in this file.
+        Sweden has no agriculture ministry and no transport ministry as such: both portfolios
+        are here, together with fisheries, housing and spatial planning. Two ministers: for
+        rural affairs, and for infrastructure and housing.
+      es: >-
+        Creado el 1 de enero de 2023 para reunir el mundo rural, los bosques, el transporte y
+        la vivienda; de ahí el valid_from y la lista de etiquetas más larga del fichero. Suecia
+        no tiene ministerio de agricultura ni de transporte como tales: ambas carteras están
+        aquí, junto con la pesca, la vivienda y la ordenación del territorio. Dos ministros: de
+        Mundo Rural, y de Infraestructuras y Vivienda.
+
+  # --- recorded, not counted: the administrative division ------------------------------
+  - id: SE-2022-forvaltningsavdelningen
+    order: 12
+    name_original: Regeringskansliets förvaltningsavdelning
+    abbreviation_original: FA
+    name_en: Office for Administrative Affairs of the Government Offices
+    name_es: División Administrativa de la Oficina de Gobierno
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Förvaltningschef
+    head_title_en: Director of Administrative Affairs
+    has_cabinet_seat: false
+    head_count: 0
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: not_headed_by_minister
+    url: https://www.regeringen.se/regeringskansliet/
+    sources: [sfs-1996-1515, regeringen-sveriges-regering]
+    note:
+      en: >-
+        The twelfth entry in § 2 of the instruction, and the reason the instruction adds that
+        what it says about a departement applies to the förvaltningsavdelning too. It provides
+        shared services — premises, IT, HR, archives — to the whole Regeringskansliet, is
+        headed by a civil servant and has no minister, so it is recorded and not counted. It
+        appears in no list of Swedish ministers, which is why it carries no seat.
+      es: >-
+        La duodécima entrada del § 2 de la instrucción, y la razón de que la instrucción añada
+        que lo que dice de un departement se aplica también a la förvaltningsavdelning. Presta
+        servicios comunes —inmuebles, informática, personal, archivos— a todo el
+        Regeringskansliet, está dirigida por un funcionario y no tiene ministro, por lo que se
+        registra y no se cuenta. No aparece en ninguna lista de ministros suecos, y por eso no
+        lleva asiento.
+
+  # --- recorded, not counted: the three departments abolished on 31 December 2022 -------
+  # They were part of this cabinet for its first 75 days. This file records that they
+  # existed and when they ceased, but not their ministers — see the third methodology note.
+  - id: SE-2022-miljodepartementet
+    order: 13
+    name_original: Miljödepartementet
+    abbreviation_original: M
+    name_en: Ministry of the Environment
+    name_es: Ministerio de Medio Ambiente
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Statsråd
+    head_title_en: Minister
+    has_cabinet_seat: false
+    head_count: 0
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: superseded_within_cabinet
+    valid_to: 2022-12-31
+    url: null
+    sources: [regeringen-tva-nya-departement-2022, sfs-1996-1515]
+    note:
+      en: >-
+        A department of this cabinet until 31 December 2022, when its climate and environment
+        responsibilities were gathered into the new Klimat- och näringslivsdepartementet. It
+        no longer appears in § 2 of the instruction, which was amended with effect from 1
+        January 2023. Recorded for the historical record, with no seat because this file does
+        not reconstruct the pre-2023 allocation of ministers.
+      es: >-
+        Departamento de este gobierno hasta el 31 de diciembre de 2022, cuando sus
+        competencias de clima y medio ambiente se reunieron en el nuevo Klimat- och
+        näringslivsdepartementet. Ya no figura en el § 2 de la instrucción, modificado con
+        efecto desde el 1 de enero de 2023. Se registra para el histórico, sin asiento porque
+        este fichero no reconstruye el reparto de ministros anterior a 2023.
+
+  - id: SE-2022-naringsdepartementet
+    order: 14
+    name_original: Näringsdepartementet
+    abbreviation_original: 'N'
+    name_en: Ministry of Enterprise and Innovation
+    name_es: Ministerio de Empresa e Innovación
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Statsråd
+    head_title_en: Minister
+    has_cabinet_seat: false
+    head_count: 0
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: superseded_within_cabinet
+    valid_to: 2022-12-31
+    url: null
+    sources: [regeringen-tva-nya-departement-2022, sfs-1996-1515]
+    note:
+      en: >-
+        A department of this cabinet until 31 December 2022. Its business was split between
+        the new Klimat- och näringslivsdepartementet (business and industry) and the new
+        Landsbygds- och infrastrukturdepartementet (rural affairs and forestry). Recorded for
+        the historical record, with no seat — see the note on Miljödepartementet.
+      es: >-
+        Departamento de este gobierno hasta el 31 de diciembre de 2022. Sus asuntos se
+        repartieron entre el nuevo Klimat- och näringslivsdepartementet (empresa e industria) y
+        el nuevo Landsbygds- och infrastrukturdepartementet (mundo rural y bosques). Se
+        registra para el histórico, sin asiento —véase la nota del Miljödepartementet—.
+
+  - id: SE-2022-infrastrukturdepartementet
+    order: 15
+    name_original: Infrastrukturdepartementet
+    abbreviation_original: I
+    name_en: Ministry of Infrastructure
+    name_es: Ministerio de Infraestructuras
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Statsråd
+    head_title_en: Minister
+    has_cabinet_seat: false
+    head_count: 0
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: superseded_within_cabinet
+    valid_to: 2022-12-31
+    url: null
+    sources: [regeringen-tva-nya-departement-2022, sfs-1996-1515]
+    note:
+      en: >-
+        A department of this cabinet until 31 December 2022. Transport and housing went to the
+        new Landsbygds- och infrastrukturdepartementet and energy to the new Klimat- och
+        näringslivsdepartementet. Recorded for the historical record, with no seat — see the
+        note on Miljödepartementet.
+      es: >-
+        Departamento de este gobierno hasta el 31 de diciembre de 2022. El transporte y la
+        vivienda pasaron al nuevo Landsbygds- och infrastrukturdepartementet y la energía al
+        nuevo Klimat- och näringslivsdepartementet. Se registra para el histórico, sin asiento
+        —véase la nota del Miljödepartementet—.

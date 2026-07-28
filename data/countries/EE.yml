@@ -1,0 +1,46 @@
+# Estonia — country metadata.
+#
+# See docs/DATA-CONTRACT.md. The cabinet lives in data/cabinets/EE-2024-07-23.yml.
+
+iso2: EE
+iso3: EST
+
+name_en: Estonia
+name_es: Estonia
+name_original: Eesti
+official_name_original: Eesti Vabariik
+
+continent: europe
+region: northern_europe
+eu_member_since: 2004-05-01
+government_system: parliamentary_republic
+official_languages: [et]
+
+# Published on the country page as context for reading the size of a cabinet, never as a
+# denominator. It carries its own citation like every other figure in this dataset.
+population:
+  value: 1360745
+  year: 2026
+  source:
+    id: stat-ee-rahvaarv-2026-01-01
+    tier: 3
+    type: statistical_office
+    publisher: Statistikaamet
+    title: 1 360 745 inimest — rahvaarv langes teist aastat järjest
+    url: https://www.stat.ee/et/uudised/1-360-745-inimest-rahvaarv-langes-teist-aastat-jarjest
+    archive_url: null
+    lang: et
+    published: 2026-04-21
+    accessed: 2026-07-28
+    quote: >-
+      Statistikaameti andmetel elab Eestis 2026. aasta 1. jaanuari seisuga 1 360 745
+      inimest, mida on 9250 võrra vähem kui aasta varem. Rahvaarv langes teist aastat
+      järjest.
+    note: >-
+      The revised (täpsustatud) resident population as of 1 January 2026, published by
+      Statistics Estonia on 21 April 2026. It supersedes the preliminary figure of
+      1,362,954 that the same office released on 14 January 2026, which is the number
+      still quoted by several secondary sources; the revised figure is used here. Tier 3
+      with no archive_url, which the source-tier rules permit for a statistical office —
+      the identical figure is published in the English edition of the same release at
+      stat.ee/en/news/1360745-people-estonias-population-declined-second-year-row.

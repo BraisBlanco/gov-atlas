@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: "Gov Atlas: a sourced atlas of government structures"
+message: >-
+  If you use this dataset, please cite it, and cite the underlying official source
+  recorded with each figure.
+type: dataset
+abstract: >-
+  How many ministries each country has and what they are called, with a verbatim-quoted,
+  archived citation for every figure. Counts are derived from curated per-ministry records
+  rather than entered by hand, and bodies that do not meet the counting definition are
+  recorded with the reason they were excluded.
+authors:
+  - name: Gov Atlas contributors
+license: CC-BY-4.0
+keywords:
+  - government
+  - public administration
+  - ministries
+  - cabinets
+  - comparative politics
+  - open data

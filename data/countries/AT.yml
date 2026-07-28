@@ -1,0 +1,54 @@
+# Austria — country metadata.
+#
+# See docs/DATA-CONTRACT.md. The government structure lives in
+# data/cabinets/AT-2025-03-03.yml; this file carries only country-level facts.
+
+iso2: AT
+iso3: AUT
+
+name_en: Austria
+name_es: Austria
+name_original: Österreich
+official_name_original: Republik Österreich
+
+continent: europe
+region: western_europe
+eu_member_since: 1995-01-01
+government_system: parliamentary_republic
+official_languages: [de]
+
+# Population carries its own citation because the per-capita views publish it as a
+# figure in its own right, not as a convenience constant.
+population:
+  value: 9215956
+  year: 2026
+  source:
+    id: statistik-austria-bevoelkerung-2026
+    tier: 3
+    type: statistical_office
+    publisher: Statistik Austria
+    title: >-
+      Pressemitteilung 14 212-131/26: Österreich 2025 mit niedrigstem
+      Bevölkerungswachstum seit 2009
+    url: https://www.statistik.at/fileadmin/announcement/2026/06/20260629Demographie.pdf
+    archive_url: https://web.archive.org/web/20260728100659/https://www.statistik.at/fileadmin/announcement/2026/06/20260629Demographie.pdf
+    lang: de
+    published: 2026-06-29
+    accessed: 2026-07-28
+    quote: >-
+      Wien, 2026-06-29 – Zu Jahresbeginn 2026 lebten endgültigen Ergebnissen von
+      Statistik Austria zufolge 9 215 956 Menschen in Österreich. Das sind um 18 743 oder
+      0,2 % mehr als ein Jahr zuvor.
+    note: >-
+      Final ("endgültige") resident population of Austria on 1 January 2026: 9,215,956.
+      Statistik Austria had published a provisional figure of 9,219,113 for the same date
+      on 9 February 2026; this release supersedes it, and the final figure is the one used
+      here. The quote reproduces the dateline and the opening sentences of the release;
+      Statistik Austria writes thousands separators as spaces and those are transcribed as
+      ordinary spaces. Tier 3 rather than tier 1: Austria's resident total between
+      censuses is a statistical result of the Bevölkerungsfortschreibung, not a figure
+      fixed by a legal instrument. Region is recorded as western_europe rather than
+      central_europe for consistency with the rest of this dataset, which follows the UN
+      M49 geoscheme (that scheme places Austria in Western Europe alongside Germany, which
+      DE.yml also records as western_europe); the schema's central_europe value is
+      therefore unused across every country rather than used for Austria alone.

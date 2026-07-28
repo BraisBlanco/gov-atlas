@@ -1,0 +1,277 @@
+/*
+ * Mark specs live here, not in the component: bars capped at 22px (under the 24px ceiling,
+ * leaving the band's remainder as air), a 4px rounded data-end that stays square where it
+ * meets the baseline, hairline solid gridlines one step off the surface, and the row gap
+ * doing the separating so no bar ever needs a stroke around it.
+ */
+
+.rb {
+  font-family: var(--font-sans);
+  /*
+   * One variable drives the label column and both overlay offsets, so the gridlines and the
+   * axis line up with the bars by construction. Two independent width expressions drift the
+   * moment either changes, and a gridline one pixel off its bar is a lie about the value.
+   */
+  --rb-label-col: 12rem;
+  --rb-plot-inset: calc(var(--rb-label-col) + var(--space-3));
+}
+
+@media (max-width: 56rem) {
+  .rb {
+    --rb-label-col: 8rem;
+  }
+}
+
+.rb-plot {
+  position: relative;
+}
+
+.rb-rows {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  /* The gap is the surface doing the separating between adjacent bars. */
+  row-gap: 6px;
+}
+
+.rb-row {
+  display: grid;
+  grid-template-columns: var(--rb-label-col) 1fr;
+  gap: var(--space-3);
+  align-items: center;
+  padding: 2px 0;
+  border-radius: var(--radius);
+}
+
+.rb-row:hover,
+.rb-row:focus-visible {
+  background: var(--wash);
+  outline: none;
+}
+
+.rb-row:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+.rb-label {
+  font-size: var(--text-sm);
+  color: var(--text-primary);
+  text-align: right;
+  overflow-wrap: anywhere;
+}
+
+/* An aid to scanning the ranking, never the label itself: it stays inline so a long country
+   name wraps around it in the narrow label column, and it carries its own margin so the flag
+   never touches the first letter of the name. */
+.rb-flag {
+  margin-inline-end: 0.45em;
+  line-height: 1;
+}
+
+.rb-track {
+  position: relative;
+  display: block;
+  height: 22px;
+}
+
+.rb-bar {
+  position: absolute;
+  inset-block: 0;
+  left: 0;
+  display: block;
+  background: var(--series-1);
+  /* Square at the baseline, rounded at the data-end. */
+  border-radius: 0 4px 4px 0;
+  min-width: 2px;
+}
+
+/* Values wear text tokens, never the series colour. */
+.rb-value {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 6px;
+  font-size: var(--text-sm);
+  font-variant-numeric: tabular-nums;
+  color: var(--text-primary);
+  white-space: nowrap;
+}
+
+/* Inside a long bar the label sits on the fill, so it takes the on-fill ink. */
+.rb-value.is-inside {
+  right: 6px;
+  margin-left: 0;
+  color: #ffffff;
+}
+
+.rb-gridlines {
+  position: absolute;
+  inset: 0;
+  left: var(--rb-plot-inset);
+  pointer-events: none;
+}
+
+.rb-gridline {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: var(--gridline);
+}
+
+.rb-axis {
+  position: relative;
+  height: 1.5rem;
+  margin-top: var(--space-2);
+  margin-left: var(--rb-plot-inset);
+  border-top: 1px solid var(--axis);
+}
+
+.rb-tick {
+  position: absolute;
+  top: var(--space-1);
+  transform: translateX(-50%);
+  font-size: var(--text-xs);
+  font-variant-numeric: tabular-nums;
+  color: var(--text-muted);
+}
+
+/* --- controls --------------------------------------------------------------- */
+
+.rb-metrics {
+  display: inline-flex;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.rb-metric {
+  appearance: none;
+  background: none;
+  border: 0;
+  border-right: 1px solid var(--border);
+  padding: var(--space-2) var(--space-3);
+  font: inherit;
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  cursor: pointer;
+}
+
+.rb-metric:last-child {
+  border-right: 0;
+}
+
+.rb-metric:hover {
+  background: var(--wash);
+}
+
+.rb-metric.is-active {
+  background: var(--wash);
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+/* --- tooltip ---------------------------------------------------------------- */
+
+.rb-tooltip {
+  position: fixed;
+  z-index: 20;
+  transform: translate(12px, -50%);
+  min-width: 12rem;
+  max-width: 18rem;
+  padding: var(--space-3);
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 4px 16px rgb(0 0 0 / 12%);
+  pointer-events: none;
+  font-size: var(--text-sm);
+}
+
+.rb-tip-title {
+  margin: 0 0 var(--space-2);
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.rb-tip-list {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 2px var(--space-3);
+  margin: 0;
+}
+
+.rb-tip-list dt {
+  color: var(--text-secondary);
+}
+
+.rb-tip-list dd {
+  margin: 0;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-primary);
+}
+
+/* --- table view ------------------------------------------------------------- */
+
+.rb-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--text-sm);
+}
+
+.rb-table th,
+.rb-table td {
+  padding: var(--space-2) var(--space-3);
+  border-bottom: 1px solid var(--gridline);
+  text-align: left;
+}
+
+.rb-table thead th {
+  color: var(--text-secondary);
+  font-weight: 600;
+  border-bottom: 1px solid var(--axis);
+  vertical-align: bottom;
+}
+
+.rb-table tbody th {
+  font-weight: 400;
+  color: var(--text-primary);
+}
+
+.rb-table tbody th a {
+  color: var(--link);
+}
+
+.rb-num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.rb-grade-note {
+  color: var(--text-muted);
+  font-size: var(--text-xs);
+}
+
+@media (max-width: 34rem) {
+  .rb {
+    --rb-plot-inset: 0px;
+  }
+
+  .rb-row {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+
+  .rb-label {
+    text-align: left;
+  }
+
+  .rb-gridlines,
+  .rb-axis {
+    left: 0;
+    margin-left: 0;
+  }
+}

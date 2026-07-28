@@ -1,0 +1,378 @@
+/*
+ * Choropleth marks.
+ *
+ * The five fills are the documented sequential ramp from tokens.css, chosen per mode and
+ * validated with the dataviz palette validator in ordinal mode against each mode's own
+ * surface:
+ *
+ *   light, surface #fcfcfb — seq 300,400,500,600,700 ..... all checks pass
+ *   dark,  surface #1a1a19 — seq 100,250,400,500,600 ..... all checks pass
+ *
+ * Both modes run in the same direction: pale for the fewest ministries, deep blue for the
+ * most. An earlier revision inverted the dark ramp on the theory that "more" should mean
+ * "further from the surface", so the darkest country on a near-black page was the one with
+ * the fewest departments. Readers read it as a bug, and they were right — a legend a
+ * reader has to re-learn per theme is not a legend. Consistency wins; the dark set is the
+ * paler half of the ramp precisely so its deep end stays visible on near-black.
+ *
+ * Each mode uses different *steps*, and that is still deliberate. Starting the light ramp
+ * at seq-300 rather than seq-100 is a validator result, not taste — the two palest steps
+ * sit at 1.3:1 and 1.7:1 against the light surface, under the 2:1 floor a class needs to
+ * be visible at all. The dark ramp stops at seq-600 (2.15:1 on #1a1a19) for the same
+ * reason at the other end: seq-700 falls to 1.48:1 and disappears into the sea.
+ *
+ * Do not re-step these by eye. Re-run:
+ *   node scripts/validate_palette.js "<hex,…>" --ordinal --mode light --surface "#fcfcfb"
+ */
+
+.ce {
+  position: relative;
+  --ce-bin-1: var(--seq-300);
+  --ce-bin-2: var(--seq-400);
+  --ce-bin-3: var(--seq-500);
+  --ce-bin-4: var(--seq-600);
+  --ce-bin-5: var(--seq-700);
+}
+
+/* Declared twice, like tokens.css: the media query follows the OS, the data-theme scope
+   follows the viewer's toggle, and the toggle has to win in both directions. */
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme='light'])) .ce {
+    --ce-bin-1: var(--seq-100);
+    --ce-bin-2: var(--seq-250);
+    --ce-bin-3: var(--seq-400);
+    --ce-bin-4: var(--seq-500);
+    --ce-bin-5: var(--seq-600);
+  }
+}
+
+:root[data-theme='dark'] .ce {
+  --ce-bin-1: var(--seq-100);
+  --ce-bin-2: var(--seq-250);
+  --ce-bin-3: var(--seq-400);
+  --ce-bin-4: var(--seq-500);
+  --ce-bin-5: var(--seq-600);
+}
+
+.ce-map {
+  display: block;
+  /* Capped rather than full-bleed: past this the continent stops being a figure you can
+     take in at a glance, and the countries we have no data for get the most ink. */
+  width: 100%;
+  max-width: 40rem;
+  height: auto;
+  margin-inline: auto;
+  /* A map is not a rectangle: the sea should read as page, not as a panel. */
+  background: none;
+  /* The frame is the crop. Russia and Turkey run under it by design. */
+  overflow: hidden;
+}
+
+.ce-shape {
+  /* The stroke is the surface showing through, which is what separates two shaded
+     neighbours without either one wearing an outline. */
+  stroke: var(--surface-1);
+  stroke-width: 0.8;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+}
+
+/* Present enough that Europe is recognisable, flat enough that it never reads as a value.
+   Grey against a blue ramp: the reader never has to wonder if this is a low class. */
+.ce-shape.is-context {
+  fill: var(--gridline);
+  stroke: var(--surface-1);
+}
+
+.ce-shape.is-empty {
+  stroke: var(--gridline);
+  stroke-width: 0.6;
+}
+
+/* ~10% coverage: unmistakably a texture, quiet enough that the shaded countries stay
+   the loudest thing on the map. An unfinished dataset should not shout. */
+.ce-hatch-line {
+  stroke: var(--axis);
+  stroke-width: 0.8;
+}
+
+/* Fill comes from the bound <g style="fill: var(--ce-bin-n)">, so one declaration in the
+   component controls both the shape and its lifted copy. */
+.ce-shape.is-data {
+  fill: inherit;
+}
+
+/* The whole country is one hit target, and the tiny states carry an extra invisible
+   circle so a 4px dot is not a pinpoint nobody can hit. */
+.ce-hit {
+  fill: transparent;
+  stroke: none;
+}
+
+.ce-country {
+  cursor: pointer;
+}
+
+.ce-country:focus {
+  outline: none;
+}
+
+/* The focus ring is drawn on the shape itself, so it follows the coastline rather than
+   boxing it. The default outline would trace the link's bounding rectangle. */
+.ce-link {
+  outline: none;
+}
+
+.ce-shape.is-lifted {
+  fill: inherit;
+  stroke: var(--text-primary);
+  stroke-width: 1.8;
+  paint-order: stroke;
+}
+
+.ce-country:focus-visible .ce-shape.is-data,
+.ce-link:focus-visible .ce-shape.is-data {
+  stroke: var(--text-primary);
+  stroke-width: 1.8;
+}
+
+/* --- legend ------------------------------------------------------------------ */
+
+.ce-legend {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-2) var(--space-5);
+  margin-top: var(--space-3);
+  font-size: var(--text-xs);
+  color: var(--text-secondary);
+}
+
+.ce-legend-title {
+  margin: 0;
+  font-size: var(--text-sm);
+  color: var(--text-primary);
+}
+
+.ce-ramp,
+.ce-keys {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-1) var(--space-4);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ce-ramp {
+  /* Contiguous steps read as one scale; the 2px gap keeps the classes countable. */
+  gap: var(--space-1) 2px;
+}
+
+.ce-ramp-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: center;
+}
+
+.ce-keys li {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.ce-swatch {
+  display: block;
+  width: 2.75rem;
+  height: 0.75rem;
+  border-radius: 2px;
+}
+
+.ce-keys .ce-swatch {
+  width: 1.25rem;
+}
+
+.ce-swatch.is-empty-key {
+  background: repeating-linear-gradient(
+    45deg,
+    var(--axis) 0,
+    var(--axis) 1px,
+    transparent 1px,
+    transparent 4px
+  );
+  border: 1px solid var(--axis);
+}
+
+.ce-swatch.is-context-key {
+  background: var(--gridline);
+  border: 1px solid var(--border);
+}
+
+/* Ramp labels wear text tokens, never the fill colour they sit under. */
+.ce-ramp-label {
+  font-variant-numeric: tabular-nums;
+  color: var(--text-secondary);
+}
+
+/* --- controls ----------------------------------------------------------------- */
+
+.ce-metrics {
+  display: inline-flex;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.ce-metric {
+  appearance: none;
+  background: none;
+  border: 0;
+  border-right: 1px solid var(--border);
+  padding: var(--space-2) var(--space-3);
+  font: inherit;
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  cursor: pointer;
+}
+
+.ce-metric:last-child {
+  border-right: 0;
+}
+
+.ce-metric:hover {
+  background: var(--wash);
+}
+
+.ce-metric.is-active {
+  background: var(--wash);
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+/* --- tooltip ------------------------------------------------------------------ */
+
+.ce-tooltip {
+  position: fixed;
+  z-index: 20;
+  transform: translate(14px, -50%);
+  min-width: 11rem;
+  max-width: 18rem;
+  padding: var(--space-3);
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 4px 16px rgb(0 0 0 / 12%);
+  pointer-events: none;
+  font-size: var(--text-sm);
+}
+
+/* The value leads: the reader already knows which country they are pointing at. */
+.ce-tip-value {
+  margin: 0;
+  line-height: 1.1;
+  color: var(--text-primary);
+}
+
+.ce-tip-value strong {
+  font-size: var(--text-xl);
+  font-variant-numeric: tabular-nums;
+}
+
+.ce-tip-unit {
+  font-size: var(--text-xs);
+  color: var(--text-secondary);
+}
+
+.ce-tip-title {
+  margin: var(--space-1) 0 var(--space-2);
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.ce-flag {
+  margin-inline-end: 0.45em;
+  line-height: 1;
+}
+
+.ce-tip-empty {
+  margin: 0;
+  color: var(--text-secondary);
+}
+
+/* Says the shape is clickable. Muted, because it is an instruction and not a value. */
+.ce-tip-hint {
+  margin: var(--space-2) 0 0;
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+}
+
+.ce-tip-list {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 2px var(--space-3);
+  margin: 0;
+  padding-top: var(--space-2);
+  border-top: 1px solid var(--gridline);
+}
+
+.ce-tip-list dt {
+  color: var(--text-secondary);
+}
+
+.ce-tip-list dd {
+  margin: 0;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-primary);
+}
+
+/* --- table view --------------------------------------------------------------- */
+
+.ce-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--text-sm);
+}
+
+.ce-table th,
+.ce-table td {
+  padding: var(--space-2) var(--space-3);
+  border-bottom: 1px solid var(--gridline);
+  text-align: left;
+}
+
+.ce-table thead th {
+  color: var(--text-secondary);
+  font-weight: 600;
+  border-bottom: 1px solid var(--axis);
+  vertical-align: bottom;
+}
+
+.ce-table tbody th {
+  font-weight: 400;
+  color: var(--text-primary);
+}
+
+.ce-table tbody th a {
+  color: var(--link);
+}
+
+.ce-num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Forced colours: keep the shapes distinguishable when the fills are overridden. */
+@media (forced-colors: active) {
+  .ce-shape {
+    stroke: CanvasText;
+    stroke-width: 0.6;
+  }
+
+  .ce-shape.is-lifted {
+    stroke: Highlight;
+    stroke-width: 2;
+  }
+}

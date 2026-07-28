@@ -1,0 +1,834 @@
+# Ireland — government structure of the 35th Government.
+#
+# Read docs/DATA-CONTRACT.md alongside this file. Four Ireland-specific things to know:
+#
+#   1. Departments outnumber ministers, by constitutional design. Article 28.1 caps the
+#      Government at fifteen members; there are eighteen Departments of State, so three
+#      ministers hold two departments each. Those pairs are recorded with shared_head_with,
+#      which is what keeps ministries_count at 18 and cabinet_seats_count at 15.
+#   2. There is no Irish instrument that enumerates the departments. The Ministers and
+#      Secretaries Act 1924 created eleven under their 1924 names and every change since has
+#      been made one department at a time, most recently by nine Alteration of Name of
+#      Department and Title of Minister Orders in 2025. Those nine are cited as tier 1 for
+#      the departments they renamed; the other nine departments rest on the government's own
+#      list of departments, which is tier 2. Ireland is therefore graded B, not A.
+#   3. The Department of the Taoiseach is counted. See the methodology note for the figure a
+#      reader gets by excluding it.
+#   4. Ministers of State — including the four who attend Cabinet — are not members of the
+#      Government and are not recorded here. Neither is the Attorney General.
+
+country: IE
+cabinet_id: IE-2025-01-23
+
+cabinet_name_original: 35th Government of Ireland
+cabinet_name_en: 35th Government of Ireland
+cabinet_name_es: 35.º Gobierno de Irlanda
+
+head_of_government_title_original: Taoiseach
+head_of_government_title_en: Prime Minister (Taoiseach)
+
+took_office: 2025-01-23
+left_office: null
+
+methodology_notes:
+  - en: >-
+      Ireland has 18 departments but 15 members of the Government. The cap is constitutional:
+      article 28.1 of Bunreacht na hÉireann provides that the Government "shall consist of
+      not less than seven and not more than fifteen members". With eighteen Departments of
+      State to fill, three ministers hold two departments each — Foreign Affairs and Trade
+      with Defence, Climate, Energy and the Environment with Transport, and Social Protection
+      with Rural and Community Development and the Gaeltacht. Each pair is one person, one
+      seat and two ministries. 18 and 15 answer different questions and are never added.
+    es: >-
+      Irlanda tiene 18 departamentos pero 15 miembros del Gobierno. El tope es
+      constitucional: el artículo 28.1 de la Bunreacht na hÉireann dispone que el Gobierno
+      «estará compuesto por no menos de siete y no más de quince miembros». Con dieciocho
+      departamentos de Estado que cubrir, tres ministros ostentan dos departamentos cada uno
+      —Asuntos Exteriores y Comercio con Defensa, Clima, Energía y Medio Ambiente con
+      Transporte, y Protección Social con Desarrollo Rural y Comunitario y Gaeltacht—. Cada
+      pareja es una persona, un asiento y dos ministerios. 18 y 15 responden a preguntas
+      distintas y nunca se suman.
+  - en: >-
+      The Department of the Taoiseach is counted here, giving 18. Excluding it as the office
+      of the head of government, the way this project excludes Spain's Presidencia del
+      Gobierno, would give 17. It is counted because Irish law does not treat it as an office
+      attached to the Taoiseach but as one of the Departments of State: it is the first
+      department listed in section 1 of the Ministers and Secretaries Act 1924 (as the
+      Department of the President of the Executive Council, the office the 1937 Constitution
+      renamed Taoiseach), it appears in the government's own list of eighteen departments
+      alongside the rest, it has its own Vote in the annual estimates and its own Secretary
+      General, and Ministers of State are assigned to it as they are to any department. Both
+      figures are published here so a reader can choose: 18 including the Department of the
+      Taoiseach, 17 excluding it.
+    es: >-
+      El Departamento del Taoiseach se cuenta aquí, lo que da 18. Excluirlo como oficina del
+      jefe de gobierno, tal como este proyecto excluye la Presidencia del Gobierno española,
+      daría 17. Se cuenta porque el derecho irlandés no lo trata como un cargo adscrito al
+      Taoiseach sino como uno más de los departamentos de Estado: es el primero de la lista
+      del artículo 1 de la Ministers and Secretaries Act 1924 (como Department of the
+      President of the Executive Council, cargo que la Constitución de 1937 renombró
+      Taoiseach), figura en la lista oficial de dieciocho departamentos junto a los demás,
+      tiene su propia partida en los presupuestos y su propio secretario general, y se le
+      asignan ministros de Estado como a cualquier departamento. Aquí se publican ambas
+      cifras para que el lector elija: 18 contando el Departamento del Taoiseach, 17 sin él.
+  - en: >-
+      Ministers of State are not counted and not recorded. There are around twenty of them,
+      they are appointed to work inside a department under its minister, and they are not
+      members of the Government within the meaning of article 28. Four of them attend Cabinet
+      meetings — the arrangement Irish politics calls "super junior" ministers, upheld by the
+      Supreme Court in 2025 — but attendance is not membership: they do not vote and they are
+      not appointed under article 28.1, so they add no seat here. The Attorney General also
+      attends without being a member, and is likewise absent from this file. A source that
+      answers "how big is the Irish government?" with a number in the thirties is counting
+      Ministers of State; it is answering a different question.
+    es: >-
+      Los ministros de Estado no se cuentan ni se registran. Son una veintena, se nombran
+      para trabajar dentro de un departamento bajo su ministro y no son miembros del Gobierno
+      en el sentido del artículo 28. Cuatro de ellos asisten al Consejo de Ministros —lo que
+      la política irlandesa llama ministros «super junior», figura avalada por el Tribunal
+      Supremo en 2025—, pero asistir no es ser miembro: no votan ni se nombran conforme al
+      artículo 28.1, de modo que no suman asiento aquí. El fiscal general (Attorney General)
+      también asiste sin ser miembro y tampoco figura en este fichero. Una fuente que
+      responde «¿de qué tamaño es el Gobierno irlandés?» con una cifra de treinta y tantos
+      está contando a los ministros de Estado: responde a otra pregunta.
+  - en: >-
+      Where the government's own two pages disagree, this file follows the department name.
+      The list of departments and the Department of Agriculture, Food and the Marine's own
+      pages both give that name, and no Alteration of Name of Department and Title of
+      Minister Order has been made for it — there were nine such orders in 2025 and none in
+      2026 up to the access date. The page listing the members of the Government nonetheless
+      styles its minister "Minister for Agriculture, Food, Fisheries and the Marine". Until
+      an order is made, the department's name is the one recorded here, and the fuller
+      ministerial style is noted rather than silently adopted.
+    es: >-
+      Cuando las dos páginas del propio Gobierno discrepan, este fichero sigue el nombre del
+      departamento. La lista de departamentos y las páginas del propio Department of
+      Agriculture, Food and the Marine dan ese nombre, y no se ha dictado ninguna Alteration
+      of Name of Department and Title of Minister Order para él: hubo nueve en 2025 y ninguna
+      en 2026 hasta la fecha de consulta. Aun así, la página con los miembros del Gobierno
+      titula a su ministro «Minister for Agriculture, Food, Fisheries and the Marine». Hasta
+      que se dicte una orden, el nombre del departamento es el aquí registrado, y el título
+      ministerial más extenso se anota en lugar de adoptarse en silencio.
+  - en: >-
+      Both languages are official, and name_original gives the English. Every Department of
+      State has an equally official Irish name — the nine 2025 orders cited here alter both in
+      the same instrument, so that the Department of Justice became, in Irish, an Roinn Dlí
+      agus Cirt, Gnóthaí Baile agus Imirce and, in English, the Department of Justice, Home
+      Affairs and Migration. English is recorded as name_original because it is the form given
+      for all eighteen departments in every source cited here, and name_en is therefore marked
+      official rather than translated. No Irish name has been supplied for a department whose
+      Irish name this file did not read in an official instrument.
+    es: >-
+      Ambas lenguas son oficiales, y name_original recoge la inglesa. Todo departamento de
+      Estado tiene un nombre irlandés igualmente oficial: las nueve órdenes de 2025 aquí
+      citadas modifican los dos en el mismo instrumento, de modo que el Department of Justice
+      pasó a ser, en irlandés, an Roinn Dlí agus Cirt, Gnóthaí Baile agus Imirce y, en
+      inglés, the Department of Justice, Home Affairs and Migration. Se registra el inglés
+      como name_original porque es la forma que dan para los dieciocho departamentos todas
+      las fuentes citadas, y por eso name_en se marca como oficial y no como traducción. No
+      se atribuye nombre irlandés a ningún departamento cuyo nombre irlandés no se haya leído
+      en un instrumento oficial.
+  - en: >-
+      Why Ireland is graded B. Nine departments cite the 2025 order that gave them their
+      current name, which is a legal instrument and therefore tier 1. The other nine —
+      Agriculture, Food and the Marine; Defence; Finance; Further and Higher Education,
+      Research, Innovation and Science; Health; Housing, Local Government and Heritage;
+      Social Protection; the Taoiseach; and Transport — were last renamed or created by
+      instruments this file did not trace, some of them a century old, so they rest on the
+      government's list of departments, which is tier 2. The grade reflects a gap in the
+      research, not a doubt about the departments: all eighteen appear on the same official
+      list, and all eighteen have a serving minister named on the government's own page.
+    es: >-
+      Por qué Irlanda tiene grado B. Nueve departamentos citan la orden de 2025 que les dio su
+      nombre actual, que es un instrumento jurídico y por tanto nivel 1. Los otros nueve
+      —Agricultura, Alimentación y Marina; Defensa; Hacienda; Educación Superior,
+      Investigación, Innovación y Ciencia; Sanidad; Vivienda, Gobierno Local y Patrimonio;
+      Protección Social; el Taoiseach; y Transporte— fueron renombrados o creados por
+      instrumentos que este fichero no rastreó, algunos de hace un siglo, por lo que se
+      apoyan en la lista oficial de departamentos, que es nivel 2. El grado refleja una
+      laguna de la investigación, no una duda sobre los departamentos: los dieciocho constan
+      en la misma lista oficial y los dieciocho tienen ministro en ejercicio en la página del
+      propio Gobierno.
+
+sources:
+  - id: gov-ie-departments
+    tier: 2
+    type: government_website
+    publisher: Government of Ireland
+    title: Departments — gov.ie
+    url: https://www.gov.ie/en/departments/
+    archive_url: https://web.archive.org/web/20260720091711/https://www.gov.ie/en/departments/
+    lang: en
+    published: 2018-11-12
+    accessed: 2026-07-27
+    quote: |-
+      18 Departments
+      Department of Agriculture, Food and the Marine
+      Department of Children, Disability and Equality
+      Department of Climate, Energy and the Environment
+      Department of Culture, Communications and Sport
+      Department of Defence
+      Department of Education and Youth
+      Department of Enterprise, Tourism and Employment
+      Department of Finance
+      Department of Foreign Affairs and Trade
+      Department of Further and Higher Education, Research, Innovation and Science
+      Department of Health
+      Department of Housing, Local Government and Heritage
+      Department of Justice, Home Affairs and Migration
+      Department of Public Expenditure, Infrastructure, Public Service Reform and Digitalisation
+      Department of Rural and Community Development and the Gaeltacht
+      Department of Social Protection
+      Department of the Taoiseach
+      Department of Transport
+    note: >-
+      The government's own list, and the enumerating source for this file: it is the only
+      single official text that states all eighteen departments under their current names.
+      The list is alphabetical; the order used below is instead the precedence order of the
+      members-of-the-Government page. The page's "last updated" stamp reads 11 April 2025 but
+      its contents are current — it already carries the names given by the alteration orders
+      of May and June 2025 — and the archived capture used here is of 20 July 2026.
+
+  - id: gov-ie-government-ministers
+    tier: 2
+    type: government_website
+    publisher: Department of the Taoiseach
+    title: Government Ministers — gov.ie
+    url: https://www.gov.ie/en/department-of-the-taoiseach/organisation-information/government-ministers/
+    archive_url: https://web.archive.org/web/20260727221712/https://www.gov.ie/en/department-of-the-taoiseach/organisation-information/government-ministers/
+    lang: en
+    published: 2018-12-18
+    accessed: 2026-07-27
+    quote: |-
+      The members of the 35th Government of Ireland are listed below.
+      Taoiseach: Micheál Martin
+      Tánaiste and Minister for Finance: Simon Harris
+      Minister for Public Expenditure, Infrastructure, Public Service Reform and Digitalisation: Jack Chambers
+      Minister for Foreign Affairs and Trade; and Minister for Defence: Helen McEntee
+      Minister for Climate, Energy and the Environment; and Minister for Transport: Darragh O'Brien
+      Minister for Children, Disability and Equality: Norma Foley
+      Minister for Enterprise, Tourism and Employment: Peter Burke
+      Minister for Social Protection; and Minister for Rural and Community Development and the Gaeltacht: Dara Calleary
+      Minister for Culture, Communications and Sport: Patrick O'Donovan
+      Minister for Health: Jennifer Carroll MacNeill
+      Minister for Housing, Local Government and Heritage: James Browne
+      Minister for Justice, Home Affairs and Migration: Jim O'Callaghan
+      Minister for Agriculture, Food, Fisheries and the Marine: Martin Heydon
+      Minister for Further and Higher Education, Research, Innovation and Science: James Lawless
+      Minister for Education and Youth: Hildegarde Naughton
+    note: >-
+      The source for which departments share a minister, and therefore for the seat count:
+      three lines name two departments each. Last updated 2 June 2026 and archived on the
+      access date, so it reflects the changes of officeholder since January 2025 — Finance
+      and Foreign Affairs both changed hands during the term without a new Government being
+      appointed. The typographic apostrophes in the page are transcribed here as straight
+      ones; nothing else in the quote is altered. The page's Ministers of State section,
+      about twenty entries, is not quoted: none of them is a member of the Government.
+
+  - id: isb-bunreacht-art28
+    tier: 1
+    type: statute
+    publisher: Office of the Attorney General — electronic Irish Statute Book
+    title: Bunreacht na hÉireann (Constitution of Ireland), Article 28
+    url: https://www.irishstatutebook.ie/eli/cons/en/html
+    archive_url: https://web.archive.org/web/20260721114629/https://www.irishstatutebook.ie/eli/cons/en/html
+    lang: en
+    published: null
+    accessed: 2026-07-27
+    quote: >-
+      The Government shall consist of not less than seven and not more than fifteen members
+      who shall be appointed by the President in accordance with the provisions of this
+      Constitution.
+    note: >-
+      Article 28.1. This is why Ireland's ministry count exceeds its cabinet-seat count
+      rather than the other way round: the number of departments is set by ordinary law and
+      administrative practice, the number of ministers by the Constitution. The validator
+      reports this source as uncited by any entity, and that is deliberate: it supports the
+      methodology note on cabinet size, not the existence of any one department. Attaching it
+      to the Department of the Taoiseach would raise that department's best source tier to 1
+      and imply that a legal instrument names it, which article 28 does not.
+
+  - id: isb-si-106-2025-foreign-affairs
+    tier: 1
+    type: statute
+    publisher: Office of the Attorney General — electronic Irish Statute Book
+    title: >-
+      S.I. No. 106/2025 — Foreign Affairs (Alteration of Name of Department and Title of
+      Minister) Order 2025
+    url: https://www.irishstatutebook.ie/eli/2025/si/106/made/en/print
+    archive_url: https://web.archive.org/web/20260727221827/https://www.irishstatutebook.ie/eli/2025/si/106/made/en/print
+    lang: en
+    published: 2025-03-25
+    accessed: 2026-07-27
+    quote: >-
+      The name of the Department of State, the present name of which is, in the Irish
+      language, an Roinn Gnóthaí Eachtracha and, in the English language, the Department of
+      Foreign Affairs, is altered, in the Irish language, to that of an Roinn Gnóthaí
+      Eachtracha agus Trádála and, in the English language, to that of the Department of
+      Foreign Affairs and Trade.
+    note: Made under section 6 of the Ministers and Secretaries (Amendment) Act 1939.
+
+  - id: isb-si-172-2025-enterprise
+    tier: 1
+    type: statute
+    publisher: Office of the Attorney General — electronic Irish Statute Book
+    title: >-
+      S.I. No. 172/2025 — Enterprise, Trade and Employment (Alteration of Name of Department
+      and Title of Minister) Order 2025
+    url: https://www.irishstatutebook.ie/eli/2025/si/172/made/en/print
+    archive_url: https://web.archive.org/web/20260101221626/https://www.irishstatutebook.ie/eli/2025/si/172/made/en/print
+    lang: en
+    published: 2025-05-06
+    accessed: 2026-07-27
+    quote: >-
+      The name of the Department of State, the present name of which is, in the Irish
+      language, an Roinn Fiontar, Trádála agus Fostaíochta and, in the English language, the
+      Department of Enterprise, Trade and Employment, is altered, in the Irish language, to
+      that of an Roinn Fiontar, Turasóireachta agus Fostaíochta and, in the English language,
+      to that of the Department of Enterprise, Tourism and Employment.
+    note: >-
+      The order that moved tourism out of the culture department and into the enterprise
+      department; the corresponding change at the other end is S.I. No. 236 of 2025.
+
+  - id: isb-si-173-2025-rural
+    tier: 1
+    type: statute
+    publisher: Office of the Attorney General — electronic Irish Statute Book
+    title: >-
+      S.I. No. 173/2025 — Rural and Community Development (Alteration of Name of Department
+      and Title of Minister) Order 2025
+    url: https://www.irishstatutebook.ie/eli/2025/si/173/made/en/print
+    archive_url: https://web.archive.org/web/20260101154630/https://www.irishstatutebook.ie/eli/2025/si/173/made/en/print
+    lang: en
+    published: 2025-05-06
+    accessed: 2026-07-27
+    quote: >-
+      The name of the Department of State, the present name of which is, in the Irish
+      language, An Roinn Forbartha Tuaithe agus Pobail and, in the English language, the
+      Department of Rural and Community Development, is altered, in the Irish language, to
+      that of an Roinn Forbartha Tuaithe agus Pobail agus Gaeltachta and, in the English
+      language, to that of the Department of Rural and Community Development and the
+      Gaeltacht.
+    note: >-
+      The order that moved responsibility for the Gaeltacht — the Irish-speaking districts —
+      out of the culture department and into this one.
+
+  - id: isb-si-179-2025-education
+    tier: 1
+    type: statute
+    publisher: Office of the Attorney General — electronic Irish Statute Book
+    title: >-
+      S.I. No. 179/2025 — Education (Alteration of Name of Department and Title of Minister)
+      Order 2025
+    url: https://www.irishstatutebook.ie/eli/2025/si/179/made/en/print
+    archive_url: https://web.archive.org/web/20260727221931/https://www.irishstatutebook.ie/eli/2025/si/179/made/en/print
+    lang: en
+    published: 2025-04-29
+    accessed: 2026-07-27
+    quote: >-
+      The name of the Department of State, the present name of which is, in the Irish
+      language, an Roinn Oideachais and, in the English language, the Department of
+      Education, is altered, in the Irish language, to that of an Roinn Oideachais agus Óige
+      and, in the English language, to that of the Department of Education and Youth.
+    note: null
+
+  - id: isb-si-180-2025-children
+    tier: 1
+    type: statute
+    publisher: Office of the Attorney General — electronic Irish Statute Book
+    title: >-
+      S.I. No. 180/2025 — Children, Equality, Disability, Integration and Youth (Alteration
+      of Name of Department and Title of Minister) Order 2025
+    url: https://www.irishstatutebook.ie/eli/2025/si/180/made/en/print
+    archive_url: https://web.archive.org/web/20260101114244/https://www.irishstatutebook.ie/eli/2025/si/180/made/en/print
+    lang: en
+    published: 2025-04-29
+    accessed: 2026-07-27
+    quote: >-
+      The name of the Department of State, the present name of which is, in the Irish
+      language, an Roinn Leanaí, Comhionannais, Míchumais, Lánpháirtíochta agus Óige and, in
+      the English language, the Department of Children, Equality, Disability, Integration and
+      Youth, is altered, in the Irish language, to that of an Roinn Leanaí, Míchumais agus
+      Comhionannais and, in the English language, to that of the Department of Children,
+      Disability and Equality.
+    note: >-
+      Youth moved to the education department by S.I. No. 179 of 2025 and integration to the
+      justice department, which is why the renamed department is shorter than its predecessor.
+
+  - id: isb-si-235-2025-climate
+    tier: 1
+    type: statute
+    publisher: Office of the Attorney General — electronic Irish Statute Book
+    title: >-
+      S.I. No. 235/2025 — Environment, Climate and Communications (Alteration of Name of
+      Department and Title of Minister) Order 2025
+    url: https://www.irishstatutebook.ie/eli/2025/si/235/made/en/print
+    archive_url: https://web.archive.org/web/20251206185842/https://www.irishstatutebook.ie/eli/2025/si/235/made/en/print
+    lang: en
+    published: 2025-05-27
+    accessed: 2026-07-27
+    quote: >-
+      The name of the Department of State, the present name of which is, in the Irish
+      language, an Roinn Comhshaoil, Aeráide agus Cumarsáide and, in the English language,
+      the Department of the Environment, Climate and Communications, is altered, in the Irish
+      language, to that of an Roinn Aeráide, Fuinnimh agus Comhshaoil, and, in the English
+      language, to that of the Department of Climate, Energy and the Environment.
+    note: >-
+      Communications left this department in the same round of orders and is now part of the
+      Department of Culture, Communications and Sport.
+
+  - id: isb-si-236-2025-culture
+    tier: 1
+    type: statute
+    publisher: Office of the Attorney General — electronic Irish Statute Book
+    title: >-
+      S.I. No. 236/2025 — Tourism, Culture, Arts, Gaeltacht, Sport and Media (Alteration of
+      Name of Department and Title of Minister) Order 2025
+    url: https://www.irishstatutebook.ie/eli/2025/si/236/made/en/print
+    archive_url: https://web.archive.org/web/20260101082626/https://www.irishstatutebook.ie/eli/2025/si/236/made/en/print
+    lang: en
+    published: 2025-05-27
+    accessed: 2026-07-27
+    quote: >-
+      The name of the Department of State, the present name of which is, in the Irish
+      language, An Roinn Turasóireachta, Cultúir, Ealaíon, Gaeltachta, Spóirt agus Meán and,
+      in the English language, the Department of Tourism, Culture, Arts, Gaeltacht, Sport and
+      Media, is altered, in the Irish language, to that of an Roinn Cultúir, Cumarsáide agus
+      Spóirt and, in the English language, to that of the Department of Culture,
+      Communications and Sport.
+    note: >-
+      The most heavily rearranged department of the 2025 round: it lost tourism to enterprise
+      and the Gaeltacht to rural and community development, and gained communications from
+      the environment department.
+
+  - id: isb-si-242-2025-justice
+    tier: 1
+    type: statute
+    publisher: Office of the Attorney General — electronic Irish Statute Book
+    title: >-
+      S.I. No. 242/2025 — Justice (Alteration of Name of Department and Title of Minister)
+      Order 2025
+    url: https://www.irishstatutebook.ie/eli/2025/si/242/made/en/print
+    archive_url: https://web.archive.org/web/20251206205921/https://www.irishstatutebook.ie/eli/2025/si/242/made/en/print
+    lang: en
+    published: 2025-06-04
+    accessed: 2026-07-27
+    quote: >-
+      The name of the Department of State, the present name of which is, in the Irish
+      language, an Roinn Dlí agus Cirt and, in the English language, the Department of
+      Justice, is altered, in the Irish language, to that of an Roinn Dlí agus Cirt, Gnóthaí
+      Baile agus Imirce and, in the English language, to that of the Department of Justice,
+      Home Affairs and Migration.
+    note: >-
+      Migration and integration moved here in 2025; Ireland has no separate migration
+      department, which is why the migration policy area is tagged to justice.
+
+  - id: isb-si-243-2025-public-expenditure
+    tier: 1
+    type: statute
+    publisher: Office of the Attorney General — electronic Irish Statute Book
+    title: >-
+      S.I. No. 243/2025 — Public Expenditure, National Development Plan Delivery and Reform
+      (Alteration of Name of Department and Title of Minister) Order 2025
+    url: https://www.irishstatutebook.ie/eli/2025/si/243/made/en/print
+    archive_url: https://web.archive.org/web/20260727221953/https://www.irishstatutebook.ie/eli/2025/si/243/made/en/print
+    lang: en
+    published: 2025-06-04
+    accessed: 2026-07-27
+    quote: >-
+      The name of the Department of State, the present name of which is, in the Irish
+      language, an Roinn Caiteachais Phoiblí, Seachadta ar an bPlean Forbartha Náisiúnta,
+      agus Athchóirithe and, in the English language, the Department of Public Expenditure,
+      National Development Plan Delivery and Reform, is altered, in the Irish language, to
+      that of an Roinn Caiteachais Phoiblí, Bonneagair, Athchóiriúcháin Seirbhíse Poiblí agus
+      Digitiúcháin and, in the English language, to that of the Department of Public
+      Expenditure, Infrastructure, Public Service Reform and Digitalisation.
+    note: >-
+      Ireland splits the treasury function in two: this department controls spending, public
+      service reform and digitalisation, while the Department of Finance handles taxation and
+      economic policy.
+
+entities:
+  - id: IE-2025-taoiseach
+    order: 1
+    name_original: Department of the Taoiseach
+    abbreviation_original: null
+    name_en: Department of the Taoiseach
+    name_es: Departamento del Taoiseach
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Taoiseach
+    head_title_en: Taoiseach (Prime Minister)
+    has_cabinet_seat: true
+    policy_areas: [government_coordination]
+    counts_as_ministry: true
+    url: https://www.gov.ie/en/department-of-the-taoiseach/
+    sources: [gov-ie-departments, gov-ie-government-ministers]
+    note:
+      en: >-
+        Counted, unlike the equivalent office in Spain, because Irish law constitutes it as
+        one of the Departments of State rather than as the head of government's private
+        office. The methodology note gives the figure a reader gets by excluding it.
+      es: >-
+        Se cuenta, a diferencia del órgano equivalente en España, porque el derecho irlandés
+        lo constituye como uno de los departamentos de Estado y no como la oficina privada
+        del jefe de gobierno. La nota metodológica da la cifra que obtiene quien lo excluye.
+
+  - id: IE-2025-finance
+    order: 2
+    name_original: Department of Finance
+    abbreviation_original: null
+    name_en: Department of Finance
+    name_es: Departamento de Hacienda
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [finance, economy]
+    counts_as_ministry: true
+    url: https://www.gov.ie/en/department-of-finance/
+    sources: [gov-ie-departments, gov-ie-government-ministers]
+    note:
+      en: >-
+        Taxation, banking and economic policy. Public spending is a separate department, so a
+        comparison that expects one finance ministry per country will find two halves here.
+        Its minister is also Tánaiste, the deputy head of government; that is a personal
+        office attached to a minister, not a department, so it adds neither ministry nor seat.
+      es: >-
+        Fiscalidad, banca y política económica. El gasto público es un departamento aparte,
+        de modo que una comparación que espere un solo ministerio de hacienda por país
+        encontrará aquí dos mitades. Su ministro es además Tánaiste, vicejefe del gobierno;
+        ese es un cargo personal adscrito a un ministro, no un departamento, y no añade ni
+        ministerio ni asiento.
+
+  - id: IE-2025-public-expenditure
+    order: 3
+    name_original: Department of Public Expenditure, Infrastructure, Public Service Reform and Digitalisation
+    abbreviation_original: null
+    name_en: Department of Public Expenditure, Infrastructure, Public Service Reform and Digitalisation
+    name_es: Departamento de Gasto Público, Infraestructuras, Reforma de la Función Pública y Digitalización
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [budget, infrastructure, public_administration, digital]
+    counts_as_ministry: true
+    url: https://www.gov.ie/en/department-of-public-expenditure-infrastructure-public-service-reform-and-digitalisation/
+    sources: [isb-si-243-2025-public-expenditure, gov-ie-departments, gov-ie-government-ministers]
+
+  - id: IE-2025-foreign-affairs
+    order: 4
+    name_original: Department of Foreign Affairs and Trade
+    abbreviation_original: null
+    name_en: Department of Foreign Affairs and Trade
+    name_es: Departamento de Asuntos Exteriores y Comercio
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    shared_head_with: [IE-2025-defence]
+    policy_areas: [foreign_affairs, trade, development_cooperation, diaspora]
+    counts_as_ministry: true
+    url: https://www.gov.ie/en/department-of-foreign-affairs-and-trade/
+    sources: [isb-si-106-2025-foreign-affairs, gov-ie-departments, gov-ie-government-ministers]
+
+  - id: IE-2025-defence
+    order: 5
+    name_original: Department of Defence
+    abbreviation_original: null
+    name_en: Department of Defence
+    name_es: Departamento de Defensa
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    shared_head_with: [IE-2025-foreign-affairs]
+    policy_areas: [defence]
+    counts_as_ministry: true
+    url: https://www.gov.ie/en/department-of-defence/
+    sources: [gov-ie-departments, gov-ie-government-ministers]
+    note:
+      en: >-
+        A department in its own right, with its own Vote and Secretary General, but by long
+        convention held by a minister who also holds another department — here Foreign
+        Affairs and Trade. Two ministries, one seat.
+      es: >-
+        Departamento con entidad propia, con su propia partida presupuestaria y su secretario
+        general, pero por larga convención lo ostenta un ministro que además tiene otro
+        departamento, aquí Asuntos Exteriores y Comercio. Dos ministerios, un asiento.
+
+  - id: IE-2025-climate-energy
+    order: 6
+    name_original: Department of Climate, Energy and the Environment
+    abbreviation_original: null
+    name_en: Department of Climate, Energy and the Environment
+    name_es: Departamento de Clima, Energía y Medio Ambiente
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    shared_head_with: [IE-2025-transport]
+    policy_areas: [climate, energy, environment]
+    counts_as_ministry: true
+    url: https://www.gov.ie/en/department-of-climate-energy-and-the-environment/
+    sources: [isb-si-235-2025-climate, gov-ie-departments, gov-ie-government-ministers]
+
+  - id: IE-2025-transport
+    order: 7
+    name_original: Department of Transport
+    abbreviation_original: null
+    name_en: Department of Transport
+    name_es: Departamento de Transporte
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    shared_head_with: [IE-2025-climate-energy]
+    policy_areas: [transport]
+    counts_as_ministry: true
+    url: https://www.gov.ie/en/department-of-transport/
+    sources: [gov-ie-departments, gov-ie-government-ministers]
+
+  - id: IE-2025-children-disability-equality
+    order: 8
+    name_original: Department of Children, Disability and Equality
+    abbreviation_original: null
+    name_en: Department of Children, Disability and Equality
+    name_es: Departamento de Infancia, Discapacidad e Igualdad
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [family, disability, equality]
+    counts_as_ministry: true
+    url: https://www.gov.ie/en/department-of-children-disability-and-equality/
+    sources: [isb-si-180-2025-children, gov-ie-departments, gov-ie-government-ministers]
+
+  - id: IE-2025-enterprise-tourism
+    order: 9
+    name_original: Department of Enterprise, Tourism and Employment
+    abbreviation_original: null
+    name_en: Department of Enterprise, Tourism and Employment
+    name_es: Departamento de Empresa, Turismo y Empleo
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [industry, tourism, labour, small_business]
+    counts_as_ministry: true
+    url: https://enterprise.gov.ie
+    sources: [isb-si-172-2025-enterprise, gov-ie-departments, gov-ie-government-ministers]
+    note:
+      en: >-
+        Employment law and workplace regulation sit here, while social insurance and
+        jobseeker payments sit in Social Protection. Ireland has no single labour ministry,
+        so the labour policy area is tagged to this department and social_security to that one.
+      es: >-
+        El derecho laboral y la regulación del trabajo están aquí, mientras que la seguridad
+        social y las prestaciones por desempleo están en Protección Social. Irlanda no tiene
+        un ministerio de trabajo único, así que el área «trabajo» se etiqueta en este
+        departamento y «seguridad social» en aquel.
+
+  - id: IE-2025-social-protection
+    order: 10
+    name_original: Department of Social Protection
+    abbreviation_original: null
+    name_en: Department of Social Protection
+    name_es: Departamento de Protección Social
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    shared_head_with: [IE-2025-rural-gaeltacht]
+    policy_areas: [social_security, social_affairs]
+    counts_as_ministry: true
+    url: https://www.gov.ie/en/department-of-social-protection/
+    sources: [gov-ie-departments, gov-ie-government-ministers]
+
+  - id: IE-2025-rural-gaeltacht
+    order: 11
+    name_original: Department of Rural and Community Development and the Gaeltacht
+    abbreviation_original: null
+    name_en: Department of Rural and Community Development and the Gaeltacht
+    name_es: Departamento de Desarrollo Rural y Comunitario y de la Gaeltacht
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    shared_head_with: [IE-2025-social-protection]
+    policy_areas: [rural_development, language_policy]
+    counts_as_ministry: true
+    url: https://www.gov.ie/en/department-of-rural-and-community-development-and-the-gaeltacht/
+    sources: [isb-si-173-2025-rural, gov-ie-departments, gov-ie-government-ministers]
+    note:
+      en: >-
+        The Gaeltacht is the set of districts where Irish is the community language, and
+        supporting the language there is a departmental responsibility. That is why this
+        department, and not an education or culture one, carries the language_policy area.
+      es: >-
+        La Gaeltacht es el conjunto de distritos donde el irlandés es la lengua de la
+        comunidad, y sostenerla allí es una competencia departamental. Por eso este
+        departamento, y no uno de educación o cultura, lleva el área «política lingüística».
+
+  - id: IE-2025-culture-communications-sport
+    order: 12
+    name_original: Department of Culture, Communications and Sport
+    abbreviation_original: null
+    name_en: Department of Culture, Communications and Sport
+    name_es: Departamento de Cultura, Comunicaciones y Deporte
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [culture, telecommunications, sport, media]
+    counts_as_ministry: true
+    url: https://www.gov.ie/en/department-of-culture-communications-and-sport/
+    sources: [isb-si-236-2025-culture, gov-ie-departments, gov-ie-government-ministers]
+
+  - id: IE-2025-health
+    order: 13
+    name_original: Department of Health
+    abbreviation_original: null
+    name_en: Department of Health
+    name_es: Departamento de Sanidad
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [health]
+    counts_as_ministry: true
+    url: https://www.gov.ie/en/department-of-health/
+    sources: [gov-ie-departments, gov-ie-government-ministers]
+
+  - id: IE-2025-housing
+    order: 14
+    name_original: Department of Housing, Local Government and Heritage
+    abbreviation_original: null
+    name_en: Department of Housing, Local Government and Heritage
+    name_es: Departamento de Vivienda, Gobierno Local y Patrimonio
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [housing, territorial_administration, spatial_planning, culture]
+    counts_as_ministry: true
+    url: https://www.gov.ie/en/department-of-housing-local-government-and-heritage/
+    sources: [gov-ie-departments, gov-ie-government-ministers]
+    note:
+      en: >-
+        Heritage here means built and natural heritage, national parks and the protection of
+        monuments, which is why this department is tagged with culture as well as the culture
+        department. Two departments holding one area is exactly what the policy-area matrix is
+        for.
+      es: >-
+        Patrimonio significa aquí patrimonio construido y natural, parques nacionales y
+        protección de monumentos, y por eso este departamento lleva también el área
+        «cultura», igual que el departamento de Cultura. Que dos departamentos compartan un
+        área es precisamente lo que la matriz de áreas de política sirve para mostrar.
+
+  - id: IE-2025-justice
+    order: 15
+    name_original: Department of Justice, Home Affairs and Migration
+    abbreviation_original: null
+    name_en: Department of Justice, Home Affairs and Migration
+    name_es: Departamento de Justicia, Interior y Migración
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [justice, interior, migration]
+    counts_as_ministry: true
+    url: https://www.gov.ie/en/department-of-justice-home-affairs-and-migration/
+    sources: [isb-si-242-2025-justice, gov-ie-departments, gov-ie-government-ministers]
+    note:
+      en: >-
+        Ireland has no separate interior or migration department: policing, immigration and
+        asylum all sit here alongside justice, which is why this one entity carries three
+        policy areas that are usually spread across two or three departments elsewhere.
+      es: >-
+        Irlanda no tiene departamento separado de interior ni de migración: policía,
+        inmigración y asilo conviven aquí con justicia, y por eso esta sola entidad lleva tres
+        áreas de política que en otros países suelen repartirse entre dos o tres departamentos.
+
+  - id: IE-2025-agriculture
+    order: 16
+    name_original: Department of Agriculture, Food and the Marine
+    abbreviation_original: null
+    name_en: Department of Agriculture, Food and the Marine
+    name_es: Departamento de Agricultura, Alimentación y Marina
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [agriculture, food_safety, fisheries]
+    counts_as_ministry: true
+    url: https://www.gov.ie/en/department-of-agriculture-food-and-the-marine/
+    sources: [gov-ie-departments, gov-ie-government-ministers]
+    note:
+      en: >-
+        The government's list of departments and this department's own pages give this name;
+        the members-of-the-Government page styles its minister "Minister for Agriculture,
+        Food, Fisheries and the Marine". No alteration order has been made, so the department
+        name recorded here is the shorter one. See the methodology note.
+      es: >-
+        La lista oficial de departamentos y las páginas del propio departamento dan este
+        nombre; la página de miembros del Gobierno titula a su ministro «Minister for
+        Agriculture, Food, Fisheries and the Marine». No se ha dictado ninguna orden de
+        cambio de nombre, así que aquí se registra el nombre corto. Véase la nota
+        metodológica.
+
+  - id: IE-2025-further-higher-education
+    order: 17
+    name_original: Department of Further and Higher Education, Research, Innovation and Science
+    abbreviation_original: null
+    name_en: Department of Further and Higher Education, Research, Innovation and Science
+    name_es: Departamento de Educación Superior y Continua, Investigación, Innovación y Ciencia
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [higher_education, vocational_training, research, innovation]
+    counts_as_ministry: true
+    url: https://www.gov.ie/en/department-of-further-and-higher-education-research-innovation-and-science/
+    sources: [gov-ie-departments, gov-ie-government-ministers]
+
+  - id: IE-2025-education-youth
+    order: 18
+    name_original: Department of Education and Youth
+    abbreviation_original: null
+    name_en: Department of Education and Youth
+    name_es: Departamento de Educación y Juventud
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [education, youth]
+    counts_as_ministry: true
+    url: https://www.gov.ie/en/department-of-education-and-youth/
+    sources: [isb-si-179-2025-education, gov-ie-departments, gov-ie-government-ministers]
+    note:
+      en: >-
+        Schools only. Ireland splits education in two: this department runs primary and
+        post-primary schooling, while universities, further education and research are a
+        separate department. Both are counted.
+      es: >-
+        Solo enseñanza escolar. Irlanda divide la educación en dos: este departamento
+        gestiona la primaria y la secundaria, mientras que las universidades, la formación
+        continua y la investigación son un departamento aparte. Ambos se cuentan.

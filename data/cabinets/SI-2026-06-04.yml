@@ -1,0 +1,1759 @@
+# Slovenia — government structure of the 16th Government of the Republic of Slovenia.
+#
+# See docs/DATA-CONTRACT.md. Five things worth knowing before reading the list:
+#
+#   1. Slovenia enumerates its ministers by statute. Article 8(1) of the Zakon o Vladi
+#      Republike Slovenije (ZVRS) says "V vladi so ministrice ali ministri ... za:" and
+#      lists fourteen portfolios; article 9 adds that the number of ministries, their
+#      competences and their organisation are fixed by statute. The count is therefore a
+#      legal fact and cannot move without an act of the Državni zbor.
+#   2. That article was rewritten seven weeks before this cabinet took office. The Zakon o
+#      spremembah Zakona o Vladi Republike Slovenije (ZVRS-K), Uradni list RS št. 555/2026
+#      of 7 May 2026, replaced the whole of article 8(1) and cut the list from twenty
+#      portfolios to fourteen. The Zakon o državni upravi (ZDU-1) was then harmonised by
+#      ZDU-1P, Uradni list RS št. 979/26 of 17 June 2026, which is where the fourteen
+#      ministries get their formal names and their fields of activity.
+#   3. Fourteen ministries, sixteen cabinet seats. The Prime Minister heads no ministry, and
+#      one of the fifteen ministers is a minister without portfolio whose post article 8(2)
+#      of the ZVRS makes mandatory.
+#   4. Nobody holds two portfolios. Two ministers are also deputy prime ministers, which
+#      under article 8(5) of the ZVRS is a function conferred on a serving minister and adds
+#      neither a ministry nor a seat.
+#   5. This cabinet followed a general election, and the election is the reason to check
+#      rather than assume. Slovenia voted on 22 March 2026; Robert Golob's government lost
+#      its majority; the Državni zbor elected Janez Janša Prime Minister on 22 May 2026 and
+#      appointed his fifteen ministers on 4 June 2026, when they were sworn in and took
+#      over. The previous cabinet is not the sitting one.
+
+country: SI
+cabinet_id: SI-2026-06-04
+
+cabinet_name_original: 16. Vlada Republike Slovenije
+cabinet_name_en: 16th Government of the Republic of Slovenia
+cabinet_name_es: XVI Gobierno de la República de Eslovenia
+
+head_of_government_title_original: Predsednik vlade
+head_of_government_title_en: Prime Minister
+
+took_office: 2026-06-04
+left_office: null
+
+methodology_notes:
+  - en: >-
+      14 ministries and 16 cabinet seats. The fourteen are exactly the portfolios listed in
+      article 8(1) of the Zakon o Vladi Republike Slovenije as replaced by ZVRS-K, recorded
+      here in the statute's own order, and each of the fourteen has a named article and a
+      field of activity in the Zakon o državni upravi. The two seats that are not ministries
+      are the Prime Minister, who heads no department, and the minister without portfolio for
+      relations with Slovenians in neighbouring countries and around the world, whose post
+      article 8(2) of the ZVRS makes obligatory. Slovenia's own arithmetic is published
+      differently and both figures are correct: gov.si says "V 16. Vladi Republike
+      Slovenije, ki jo vodi Janez Janša, je 15 ministrov" — fifteen ministers, which is the
+      seat count minus the Prime Minister, and never a count of departments. This file
+      publishes the two figures separately and never adds them.
+    es: >-
+      14 ministerios y 16 asientos en el gabinete. Los catorce son exactamente las carteras
+      enumeradas en el artículo 8(1) de la Zakon o Vladi Republike Slovenije en su redacción
+      dada por la ZVRS-K, recogidas aquí en el orden de la propia ley, y cada uno de los
+      catorce tiene un artículo propio y un ámbito de actividad en la Zakon o državni upravi.
+      Los dos asientos que no son ministerios son el del presidente del Gobierno, que no
+      encabeza ningún departamento, y el de la ministra sin cartera para las relaciones con
+      los eslovenos de los países vecinos y del resto del mundo, un cargo que el artículo
+      8(2) de la ZVRS hace obligatorio. La aritmética que publica Eslovenia es distinta y
+      ambas cifras son correctas: gov.si dice «V 16. Vladi Republike Slovenije, ki jo vodi
+      Janez Janša, je 15 ministrov» —quince ministros—, que es el número de asientos menos el
+      presidente del Gobierno, y nunca un recuento de departamentos. Este fichero publica las
+      dos cifras por separado y nunca las suma.
+  - en: >-
+      Which cabinet is sitting, and why the question had to be asked. Slovenia held a
+      National Assembly election on 22 March 2026 — the Državna volilna komisija records
+      "Volitve v Državni zbor Republike Slovenije so bile v nedeljo, 22. marca 2026" — and
+      the government that emerged is not the one that governed before it. Gibanje Svoboda
+      finished first on votes (28,66 % against the SDS's 27,88 %) but the outgoing coalition
+      lost its majority, and the cabinet recorded here is a right-of-centre coalition of SDS,
+      Demokrati and the joint NSi–SLS–Fokus list, supported by Resni.ca and the two national
+      community deputies. The sequence is documented act by act in the official gazette: the
+      Državni zbor elected Janez Janša Prime Minister at its session of 22 May 2026 (Sklep o
+      izvolitvi predsednika Vlade Republike Slovenije, Uradni list RS št. 715/2026) and
+      appointed the fifteen ministers at its session of 4 June 2026 (Sklep o imenovanju
+      ministric in ministrov, Uradni list RS št. 872/2026). 4 June 2026 is therefore the date
+      this cabinet took office: article 11(3) of the ZVRS provides that a government is
+      deemed to have entered office once more than two thirds of the ministers are appointed,
+      excluding ministers without portfolio, and all fourteen portfolio ministers were
+      appointed in that single vote, took the oath before the National Assembly the same day
+      and took over from the outgoing government immediately afterwards. gov.si states the
+      same date in as many words. The alternative reading — 22 May, when the Prime Minister
+      alone was elected — is rejected because on that date the government had no ministers
+      and the previous cabinet was still conducting current business.
+    es: >-
+      Qué gabinete está en funciones y por qué había que preguntarlo. Eslovenia celebró
+      elecciones a la Asamblea Nacional el 22 de marzo de 2026 —la Državna volilna komisija
+      recoge «Volitve v Državni zbor Republike Slovenije so bile v nedeljo, 22. marca
+      2026»— y el gobierno resultante no es el que gobernaba antes. Gibanje Svoboda fue la
+      lista más votada (28,66 % frente al 27,88 % del SDS), pero la coalición saliente perdió
+      la mayoría, y el gabinete que aquí se recoge es una coalición de centro-derecha de SDS,
+      Demokrati y la lista conjunta NSi–SLS–Fokus, con el apoyo de Resni.ca y los dos
+      diputados de las comunidades nacionales. La secuencia está documentada acto por acto en
+      el boletín oficial: la Asamblea Nacional eligió a Janez Janša presidente del Gobierno en
+      su sesión del 22 de mayo de 2026 (Sklep o izvolitvi predsednika Vlade Republike
+      Slovenije, Uradni list RS n.º 715/2026) y nombró a los quince ministros en su sesión del
+      4 de junio de 2026 (Sklep o imenovanju ministric in ministrov, Uradni list RS n.º
+      872/2026). El 4 de junio de 2026 es por tanto la fecha en que este gabinete tomó
+      posesión: el artículo 11(3) de la ZVRS establece que se considera que el gobierno ha
+      entrado en funciones cuando están nombrados más de dos tercios de los ministros, sin
+      contar a los ministros sin cartera, y los catorce ministros con cartera fueron nombrados
+      en esa única votación, juraron ante la Asamblea Nacional ese mismo día y recibieron los
+      poderes del gobierno saliente inmediatamente después. gov.si da la misma fecha con todas
+      las letras. Se descarta la lectura alternativa —el 22 de mayo, cuando se eligió sólo al
+      presidente del Gobierno— porque en esa fecha el gobierno no tenía ministros y el
+      gabinete anterior seguía despachando los asuntos corrientes.
+  - en: >-
+      Article 8(1) of the ZVRS lists ministers, not ministries, and that distinction does
+      real work here. The statute reads "V vladi so ministrice ali ministri ... za: finance,
+      gospodarstvo, delo in šport, ..." — fourteen portfolios, each naming a minister rather
+      than a department. Article 9 sends the ministries themselves to another statute, the
+      Zakon o državni upravi, whose section 4 gives each ministry an article of its own with
+      its name in the heading and its fields of activity in the text. The `name_original`
+      fields here are the ministry names from that statute, which are also the names the
+      government publishes on gov.si; the ministerial portfolios are reproduced verbatim in
+      the ZVRS quotation, so a reader can check that the two lists are the same fourteen in
+      the same order. This is not a formality: between 4 June and 17 June 2026 the ministers
+      were in office under the new article 8 while the ZDU-1 still carried the old
+      twenty-ministry structure, and the ministries operated under the transitional provision
+      of ZVRS-K, which named each renamed or merged body explicitly. ZDU-1P closed that gap
+      on 17 June 2026, seven weeks before this file's access date, so no entity here needs a
+      `valid_from` of its own.
+    es: >-
+      El artículo 8(1) de la ZVRS enumera ministros, no ministerios, y esa distinción hace
+      aquí un trabajo real. La ley dice «V vladi so ministrice ali ministri ... za: finance,
+      gospodarstvo, delo in šport, ...» —catorce carteras, cada una nombrando a un ministro y
+      no a un departamento—. El artículo 9 remite los ministerios mismos a otra ley, la Zakon
+      o državni upravi, cuya sección 4 da a cada ministerio un artículo propio con su nombre
+      en el epígrafe y sus ámbitos de actividad en el texto. Los campos `name_original` de
+      este fichero son los nombres de ministerio de esa ley, que son también los que el
+      gobierno publica en gov.si; las carteras ministeriales se reproducen textualmente en la
+      cita de la ZVRS, de modo que el lector puede comprobar que las dos listas son los mismos
+      catorce en el mismo orden. No es una formalidad: entre el 4 y el 17 de junio de 2026 los
+      ministros estuvieron en el cargo bajo el nuevo artículo 8 mientras la ZDU-1 conservaba
+      todavía la estructura de veinte ministerios, y los ministerios funcionaron al amparo de
+      la disposición transitoria de la ZVRS-K, que nombraba expresamente cada órgano
+      renombrado o fusionado. La ZDU-1P cerró ese desfase el 17 de junio de 2026, siete
+      semanas antes de la fecha de consulta de este fichero, así que ninguna entidad necesita
+      aquí un `valid_from` propio.
+  - en: >-
+      What the reorganisation did, because it is the largest single change in this dataset and
+      it moves policy areas rather than just names. ZVRS-K cut the government from twenty
+      portfolios to fourteen, and the transitional provision of its article 2 sets out
+      exactly which body continued as which. The Ministrstvo za notranje zadeve absorbed the
+      whole of the abolished Ministrstvo za digitalno preobrazbo and the Ministrstvo za javno
+      upravo (except local self-government) and became the Ministrstvo za notranje zadeve in
+      javno upravo. The Ministrstvo za okolje, podnebje in energijo lost energy and sustainable
+      mobility, absorbed the Ministrstvo za naravne vire in prostor and the housing side of the
+      abolished Ministrstvo za solidarno prihodnost, and became the Ministrstvo za okolje in
+      prostor. The Ministrstvo za infrastrukturo took energy and became the Ministrstvo za
+      infrastrukturo in energetiko. The Ministrstvo za vzgojo in izobraževanje absorbed the
+      Ministrstvo za visoko šolstvo, znanost in inovacije and became the Ministrstvo za
+      izobraževanje, znanost in mladino. The Ministrstvo za gospodarstvo, turizem in šport took
+      labour relations, employment and vocational training from the labour ministry and became
+      the Ministrstvo za gospodarstvo, delo in šport. The Ministrstvo za delo, družino,
+      socialne zadeve in enake možnosti lost exactly those areas, gained demography and the
+      rest of the Ministrstvo za solidarno prihodnost, and became the Ministrstvo za
+      demografijo, družino in socialne zadeve. The Ministrstvo za kohezijo in regionalni razvoj
+      took local self-government and became the Ministrstvo za lokalno samoupravo, kohezijo in
+      regionalni razvoj. The Ministrstvo za kmetijstvo, gozdarstvo in prehrano was renamed
+      Ministrstvo za kmetijstvo with its field of activity unchanged. Six ministries — finance,
+      health, justice, culture, defence, and foreign and European affairs — were untouched.
+      Because this dataset publishes one cabinet per country and the previous cabinet is not
+      in it, all of that is recorded here as background rather than as closed entities.
+    es: >-
+      Qué hizo la reorganización, porque es el mayor cambio individual de este conjunto de
+      datos y mueve áreas de política y no sólo nombres. La ZVRS-K redujo el gobierno de
+      veinte carteras a catorce, y la disposición transitoria de su artículo 2 establece
+      exactamente qué órgano continuó como cuál. El Ministrstvo za notranje zadeve absorbió
+      íntegramente el suprimido Ministrstvo za digitalno preobrazbo y el Ministrstvo za javno
+      upravo (salvo el autogobierno local) y pasó a ser el Ministrstvo za notranje zadeve in
+      javno upravo. El Ministrstvo za okolje, podnebje in energijo perdió la energía y la
+      movilidad sostenible, absorbió el Ministrstvo za naravne vire in prostor y la parte de
+      vivienda del suprimido Ministrstvo za solidarno prihodnost, y pasó a ser el Ministrstvo
+      za okolje in prostor. El Ministrstvo za infrastrukturo se quedó con la energía y pasó a
+      ser el Ministrstvo za infrastrukturo in energetiko. El Ministrstvo za vzgojo in
+      izobraževanje absorbió el Ministrstvo za visoko šolstvo, znanost in inovacije y pasó a
+      ser el Ministrstvo za izobraževanje, znanost in mladino. El Ministrstvo za gospodarstvo,
+      turizem in šport tomó del ministerio de trabajo las relaciones laborales, el empleo y la
+      formación profesional y pasó a ser el Ministrstvo za gospodarstvo, delo in šport. El
+      Ministrstvo za delo, družino, socialne zadeve in enake možnosti perdió exactamente esas
+      áreas, ganó la demografía y el resto del Ministrstvo za solidarno prihodnost, y pasó a
+      ser el Ministrstvo za demografijo, družino in socialne zadeve. El Ministrstvo za kohezijo
+      in regionalni razvoj tomó el autogobierno local y pasó a ser el Ministrstvo za lokalno
+      samoupravo, kohezijo in regionalni razvoj. El Ministrstvo za kmetijstvo, gozdarstvo in
+      prehrano se renombró Ministrstvo za kmetijstvo sin cambiar su ámbito de actividad. Seis
+      ministerios —finanzas, sanidad, justicia, cultura, defensa y asuntos exteriores y
+      europeos— quedaron intactos. Como este conjunto de datos publica un gabinete por país y
+      el anterior no figura en él, todo lo anterior se recoge aquí como contexto y no como
+      entidades cerradas.
+  - en: >-
+      Four bodies are recorded and not counted, for three different reasons. The Predsednik
+      vlade is the office of the head of government: article 14 of the ZVRS gives the Prime
+      Minister the direction of the government's work and no portfolio, and article 8(1) does
+      not list one, so the post carries a cabinet seat and no ministry. The Urad Vlade
+      Republike Slovenije za Slovence v zamejstvu in po svetu is headed by a minister without
+      portfolio, which is why it carries a seat, but it is a vladna služba under article 25
+      of the ZVRS and not a ministry: article 8(1) does not name it and the Zakon o državni
+      upravi gives it no article. The Kabinet predsednika Vlade Republike Slovenije and the
+      Generalni sekretariat Vlade Republike Slovenije are the two vladne službe that article
+      25 of the ZVRS constitutes by name; both are headed by officials — a direktor appointed
+      by the Prime Minister, and the generalni sekretar appointed by the government — who are
+      not ministers and do not sit in the cabinet, so each is excluded as
+      not_headed_by_minister and carries no seat. The remaining eleven vladne službe listed on
+      gov.si (among them the Statistical Office, the intelligence agency, the Office for
+      Legislation and the Office for National Minorities) are directorates of the same kind,
+      are equally headed by directors, and are outside the perimeter of this file, which is
+      the statutory list of ministers plus the bodies that carry a cabinet seat or that the
+      ZVRS names as an organ of the government. Slovenia's državni sekretarji — up to two per
+      ministry, three or four in the six largest under article 17 of the ZDU-1 — are junior
+      appointees inside a counted ministry, hold no seat and are not recorded individually.
+    es: >-
+      Se registran cuatro órganos que no se cuentan, por tres motivos distintos. El Predsednik
+      vlade es la oficina del jefe de gobierno: el artículo 14 de la ZVRS le atribuye la
+      dirección del trabajo del gobierno y ninguna cartera, y el artículo 8(1) no enumera
+      ninguna, así que el cargo lleva asiento en el gabinete y ningún ministerio. El Urad
+      Vlade Republike Slovenije za Slovence v zamejstvu in po svetu lo dirige una ministra sin
+      cartera, y de ahí que lleve asiento, pero es una vladna služba del artículo 25 de la
+      ZVRS y no un ministerio: el artículo 8(1) no lo nombra y la Zakon o državni upravi no le
+      dedica ningún artículo. El Kabinet predsednika Vlade Republike Slovenije y el Generalni
+      sekretariat Vlade Republike Slovenije son las dos vladne službe que el artículo 25 de la
+      ZVRS constituye por su nombre; a ambos los dirigen funcionarios —un direktor nombrado
+      por el presidente del Gobierno y el generalni sekretar nombrado por el gobierno— que no
+      son ministros y no tienen asiento en el gabinete, de modo que cada uno se excluye por
+      not_headed_by_minister y no lleva asiento. Las once vladne službe restantes que enumera
+      gov.si (entre ellas la oficina de estadística, la agencia de inteligencia, el servicio de
+      legislación y la oficina para las nacionalidades) son direcciones de la misma naturaleza,
+      están igualmente dirigidas por directores y quedan fuera del perímetro de este fichero,
+      que es la lista legal de ministros más los órganos que llevan asiento en el gabinete o
+      que la ZVRS nombra como órgano del gobierno. Los državni sekretarji eslovenos —hasta dos
+      por ministerio, tres o cuatro en los seis mayores según el artículo 17 de la ZDU-1— son
+      cargos subordinados dentro de un ministerio contado, no tienen asiento y no se registran
+      uno a uno.
+  - en: >-
+      Names, and what "official" means here. The English name of every ministry, of the Prime
+      Minister and of the three government bodies below is the Slovenian government's own,
+      taken from the English edition of gov.si, and is marked name_en_provenance: official. One
+      liberty is taken and disclosed: gov.si's English ministry index writes "Ministry of the
+      Economy, Labour and Sport", "Ministry of the Environment and Spatial Planning" and
+      "Ministry of the Interior and Public Administration" with a definite article that the
+      other eleven do not carry, and those forms are reproduced exactly as published rather
+      than regularised. The Slovene names are the statutory ones from section 4 of the Zakon o
+      državni upravi, which gov.si also uses; note that the statute prints the ministry name in
+      lower case inside a bracketed article heading — "(ministrstvo za finance)" — and that
+      name_original follows the capitalisation the government and the ministries themselves
+      use. No abbreviation is recorded for any Slovenian ministry: the reorganisation of May
+      2026 renamed eight of the fourteen, neither the gazette nor gov.si publishes an official
+      short form for the new names, and inventing one would be a fabrication of exactly the
+      kind this dataset exists to avoid. Spanish names throughout are this project's renderings
+      and are marked translated.
+    es: >-
+      Los nombres, y qué significa aquí «oficial». El nombre inglés de cada ministerio, del
+      presidente del Gobierno y de los tres órganos gubernamentales que siguen es el del propio
+      gobierno esloveno, tomado de la edición inglesa de gov.si, y lleva la marca
+      name_en_provenance: official. Se toma y se declara una licencia: el índice inglés de
+      ministerios de gov.si escribe «Ministry of the Economy, Labour and Sport», «Ministry of
+      the Environment and Spatial Planning» y «Ministry of the Interior and Public
+      Administration» con un artículo determinado que los otros once no llevan, y esas formas
+      se reproducen tal como se publican y no se regularizan. Los nombres eslovenos son los
+      legales de la sección 4 de la Zakon o državni upravi, que gov.si también usa; nótese que
+      la ley imprime el nombre del ministerio en minúscula dentro de un epígrafe de artículo
+      entre paréntesis —«(ministrstvo za finance)»— y que name_original sigue la mayúscula que
+      usan el gobierno y los propios ministerios. No se registra abreviatura para ningún
+      ministerio esloveno: la reorganización de mayo de 2026 renombró ocho de los catorce, ni
+      el boletín oficial ni gov.si publican una forma corta oficial para los nuevos nombres, e
+      inventarla sería exactamente la clase de fabricación que este conjunto de datos existe
+      para evitar. Todos los nombres en español son traducciones de este proyecto y llevan la
+      marca translated.
+  - en: >-
+      Ministerial titles are recorded in the generic masculine, which is a limitation of a
+      structural dataset and not a statement about the officeholders. Slovene inflects the
+      title for gender and the statute itself carries both forms — article 8(1) opens "V vladi
+      so ministrice ali ministri (v nadaljnjem besedilu: ministri)", naming the feminine first
+      and then adopting the masculine as the working term — and the gazette's appointment
+      decision writes "za ministrico" for the six women in this cabinet. head_title_original
+      follows the statute's own drafting convention and gives the masculine form of each
+      portfolio title; the feminine "ministrica za ..." is equally correct and is the form
+      Slovenian usage applies to the six women who currently hold these offices. This file
+      records departments, not people.
+    es: >-
+      Los títulos ministeriales se recogen en masculino genérico, lo que es una limitación de un
+      conjunto de datos estructural y no una afirmación sobre quienes ocupan los cargos. El
+      esloveno flexiona el título por género y la propia ley recoge ambas formas —el artículo
+      8(1) empieza «V vladi so ministrice ali ministri (v nadaljnjem besedilu: ministri)»,
+      nombrando primero el femenino y adoptando después el masculino como término de trabajo— y
+      el acuerdo de nombramiento publicado en el boletín escribe «za ministrico» para las seis
+      mujeres de este gabinete. head_title_original sigue la convención de redacción de la propia
+      ley y da la forma masculina de cada título de cartera; el femenino «ministrica za ...» es
+      igualmente correcto y es la forma que el uso esloveno aplica a las seis mujeres que hoy
+      ocupan estos cargos. Este fichero registra departamentos, no personas.
+  - en: >-
+      Three policy-area tags sit where a reader would not look for them, and all three are
+      consequences of the May 2026 reorganisation. Digital government and telecommunications
+      are tagged on the Ministry of the Interior and Public Administration: Slovenia abolished
+      its Ministrstvo za digitalno preobrazbo and article 34 of the ZDU-1 now gives the
+      interior ministry "informacijske družbe, elektronskih komunikacij, informatizacije
+      državne uprave" and the state e-government portal. Labour is tagged on the Ministry of
+      the Economy, Labour and Sport, not on the Ministry of Demography, Family and Social
+      Affairs, because ZVRS-K moved employment relations, rights at work, employment and
+      vocational training out of the social ministry by name. Civil protection is tagged on the
+      Ministry of Defence, whose statutory field of activity includes the "sistema varstva
+      pred naravnimi in drugimi nesrečami", and not on the interior ministry where most of this
+      dataset's countries keep it. Housing and mining are on the Ministry of the Environment
+      and Spatial Planning; energy is on the Ministry of Infrastructure and Energy and not on
+      the environment ministry, which held it until May 2026.
+    es: >-
+      Tres etiquetas de área de política están donde un lector no las buscaría, y las tres son
+      consecuencia de la reorganización de mayo de 2026. La digitalización y las
+      telecomunicaciones se etiquetan en el Ministerio del Interior y Administración Pública:
+      Eslovenia suprimió su Ministrstvo za digitalno preobrazbo y el artículo 34 de la ZDU-1
+      atribuye ahora al ministerio del Interior «informacijske družbe, elektronskih komunikacij,
+      informatizacije državne uprave» y el portal estatal de administración electrónica. El
+      trabajo se etiqueta en el Ministerio de Economía, Trabajo y Deporte y no en el de
+      Demografía, Familia y Asuntos Sociales, porque la ZVRS-K sacó del ministerio social, por
+      su nombre, las relaciones laborales, los derechos derivados del trabajo, el empleo y la
+      formación profesional. La protección civil se etiqueta en el Ministerio de Defensa, cuyo
+      ámbito legal de actividad incluye el «sistema varstva pred naravnimi in drugimi
+      nesrečami», y no en el ministerio del Interior, donde la sitúan la mayoría de los países
+      de este conjunto de datos. La vivienda y la minería están en el Ministerio de Medio
+      Ambiente y Ordenación del Territorio; la energía está en el Ministerio de Infraestructuras
+      y Energía y no en el de medio ambiente, que la tuvo hasta mayo de 2026.
+  - en: >-
+      One contested tag, disclosed rather than smoothed over. social_security is tagged on the
+      Ministry of Demography, Family and Social Affairs even though neither article 8(1) of the
+      ZVRS nor article 28 of the ZDU-1 mentions pensions, and the point was raised in the
+      National Assembly during the confirmation debate: the leader of the Social Democrats'
+      group said it was still unclear "v čigavi pristojnosti bodo pokojninski sistem in položaj
+      invalidov". The tag rests on the transitional provision of ZVRS-K, which transfers to
+      this ministry the whole field of activity of the former Ministrstvo za delo, družino,
+      socialne zadeve in enake možnosti "razen delovnega področja delovnih razmerij, pravic iz
+      dela, zaposlovanja in poklicnega usposabljanja" — everything except labour relations,
+      rights at work, employment and vocational training. Pension and invalidity insurance sat
+      with that ministry and are not among the excepted areas, so they follow the rest of the
+      portfolio here. A curator reading article 28 alone could defensibly leave the tag off.
+    es: >-
+      Una etiqueta discutida, declarada en lugar de disimulada. social_security se etiqueta en
+      el Ministerio de Demografía, Familia y Asuntos Sociales aunque ni el artículo 8(1) de la
+      ZVRS ni el artículo 28 de la ZDU-1 mencionan las pensiones, y la cuestión se planteó en
+      la Asamblea Nacional durante el debate de confirmación: la portavoz del grupo
+      socialdemócrata dijo que seguía sin estar claro «v čigavi pristojnosti bodo pokojninski
+      sistem in položaj invalidov». La etiqueta se apoya en la disposición transitoria de la
+      ZVRS-K, que transfiere a este ministerio todo el ámbito de actividad del antiguo
+      Ministrstvo za delo, družino, socialne zadeve in enake možnosti «razen delovnega področja
+      delovnih razmerij, pravic iz dela, zaposlovanja in poklicnega usposabljanja» —todo salvo
+      las relaciones laborales, los derechos derivados del trabajo, el empleo y la formación
+      profesional—. El seguro de pensiones y de invalidez correspondía a ese ministerio y no
+      figura entre las áreas exceptuadas, así que sigue aquí al resto de la cartera. Un curador
+      que leyera sólo el artículo 28 podría dejar la etiqueta fuera con buenos argumentos.
+  - en: >-
+      Perimeter and evidence. This file describes the central government of the Republic of
+      Slovenia, a unitary state with no federated or devolved tier: its municipalities are local
+      self-government and out of scope, and the interior ministry's and cohesion ministry's
+      responsibilities for public
+      administration and local self-government are recorded as portfolios rather than as a tier
+      of government. Every counted ministry rests on two statutes and a gazette publication, so
+      the country grades A. The weakest link in the file is not the list but the addresses. The
+      Pravno-informacijski sistem was rebuilt as a single-page application guarded by a
+      proof-of-work challenge, so its consolidated-text pages archive as empty shells; the two
+      consolidated statutes are therefore cited at the register's own PDF export of the same
+      consolidated edition, whose filenames (ZAKO242_NPB19.pdf and ZAKO3225_NPB25.pdf) identify
+      them, with the human-readable register page named in each source note. Slovenia also
+      changed how it publishes its gazette on 1 March 2026: each publication now gets its own
+      issue number and its own PDF, which is why the citations below read "Uradni list RS, št.
+      555/2026" and "št. 872/2026" rather than the familiar year-based numbering, and why the
+      consolidated ZVRS lists its latest amendment as "555/26".
+    es: >-
+      Perímetro y evidencia. Este fichero describe el gobierno central de la República de
+      Eslovenia, un Estado unitario sin nivel federado ni autonómico: sus municipios son
+      autogobierno local y quedan fuera
+      de alcance, y las competencias del ministerio del Interior y del de cohesión sobre la
+      administración pública y el autogobierno local se registran como carteras y no como un
+      nivel de gobierno. Todos los ministerios contados se apoyan en dos leyes y en una
+      publicación del boletín oficial, por lo que el país obtiene el grado A. El eslabón más
+      débil del fichero no es la lista sino las direcciones. El Pravno-informacijski sistem se
+      reconstruyó como una aplicación de página única protegida por un desafío de prueba de
+      trabajo, de modo que sus páginas de texto consolidado se archivan como cáscaras vacías;
+      las dos leyes consolidadas se citan por ello en la propia exportación en PDF del registro
+      de la misma edición consolidada, cuyos nombres de archivo (ZAKO242_NPB19.pdf y
+      ZAKO3225_NPB25.pdf) las identifican, indicando en la nota de cada fuente la página
+      legible del registro. Eslovenia cambió además el 1 de marzo de 2026 la forma de publicar
+      su boletín: cada publicación recibe ahora su propio número de edición y su propio PDF, y
+      de ahí que las citas siguientes digan «Uradni list RS, št. 555/2026» y «št. 872/2026» en
+      lugar de la numeración anual habitual, y que la ZVRS consolidada indique su última
+      modificación como «555/26».
+
+sources:
+  - id: ul-555-2026-zvrs-k
+    tier: 1
+    type: official_gazette
+    publisher: >-
+      Uradni list Republike Slovenije (izdajatelj: Služba Vlade Republike Slovenije za
+      zakonodajo)
+    title: >-
+      Zakon o spremembah Zakona o Vladi Republike Slovenije (ZVRS-K), Uradni list RS, št.
+      555/2026 z dne 7. 5. 2026
+    url: https://pisrs.si/api/uradni-list/objava/u20260555.pdf
+    archive_url: https://web.archive.org/web/20260728102031/https://pisrs.si/api/uradni-list/objava/u20260555.pdf
+    lang: sl
+    published: 2026-05-07
+    accessed: 2026-07-28
+    quote: |-
+      Zakon o spremembah Zakona o Vladi Republike Slovenije (ZVRS-K)
+      1. člen
+      V Zakonu o Vladi Republike Slovenije (Uradni list RS, št. 24/05 – uradno prečiščeno besedilo, 109/08, 38/10 – ZUKN, 8/12, 21/13, 47/13 – ZDU-1G, 65/14, 55/17, 163/22 in 57/25 – ZF) se v 8. členu prvi odstavek spremeni tako, da se glasi:
+      »V vladi so ministrice ali ministri (v nadaljnjem besedilu: ministri) za:
+      − finance,
+      − gospodarstvo, delo in šport,
+      − notranje zadeve in javno upravo,
+      − infrastrukturo in energetiko,
+      − izobraževanje, znanost in mladino,
+      − zdravje,
+      − okolje in prostor,
+      − demografijo, družino in socialne zadeve,
+      − pravosodje,
+      − kmetijstvo,
+      − kulturo,
+      − lokalno samoupravo, kohezijo in regionalni razvoj,
+      − obrambo,
+      − zunanje in evropske zadeve.«.
+      PREHODNI IN KONČNA DOLOČBA
+      2. člen
+      Zakon o državni upravi (Uradni list RS, št. 113/05 – uradno prečiščeno besedilo, 89/07 – odl. US, 126/07 – ZUP-E, 48/09, 8/10 – ZUP-G, 8/12 – ZVRS-F, 21/12, 47/13, 12/14, 90/14, 51/16, 36/21, 82/21, 189/21, 153/22, 18/23 in 83/25 – ZOUL; v nadaljnjem besedilu: Zakon o državni upravi) se uskladi z določbami tega zakona najkasneje v dveh mesecih od dne, ko prisežejo ministri, imenovani po tem zakonu.
+      Z dnem, ko prisežejo pristojni ministri, pa do dne uveljavitve Zakona o državni upravi iz prejšnjega odstavka nadaljujejo z delom kot isti proračunski uporabnik:
+      − Ministrstvo za notranje zadeve kot Ministrstvo za notranje zadeve in javno upravo z delovnim področjem Ministrstva za notranje zadeve, kot ga določa 34. člen Zakona o državni upravi, delovnim področjem Ministrstva za digitalno preobrazbo, kot ga določa 28.a člen Zakona o državni upravi in delovnim področjem Ministrstva za javno upravo, kot ga določa 34.a člen Zakona o državni upravi, razen delovnega področja lokalne samouprave,
+      − Ministrstvo za okolje, podnebje in energijo kot Ministrstvo za okolje in prostor z delovnim področjem Ministrstva za okolje, podnebje in energijo, kot ga določa 38.b člen Zakona o državni upravi, razen delovnega področja energetike, oskrbe z naftnimi derivati in infrastrukture za alternativna goriva v prometu ter trajnostne mobilnosti, celostnega prometnega načrtovanja in javnega potniškega prometa v notranjem in čezmejnem prometu, delovnim področjem Ministrstva za naravne vire in prostor, kot ga določa 38.a člen Zakona o državni upravi in delom delovnega področja Ministrstva za solidarno prihodnost, ki se nanaša na stanovanjsko politiko,
+      − Ministrstvo za infrastrukturo kot Ministrstvo za infrastrukturo in energetiko z delovnim področjem Ministrstva za infrastrukturo, kot ga določa iz 38. člen Zakona o državni upravi in delom delovnega področja Ministrstva za okolje, podnebje in energijo, ki se nanaša na energetiko, oskrbo z naftnimi derivati in infrastrukturo za alternativna goriva v prometu, trajnostno mobilnost, celostno prometno načrtovanje in javni potniški promet v notranjem in čezmejnem prometu,
+      − Ministrstvo za vzgojo in izobraževanje kot Ministrstvo za izobraževanje, znanost in mladino z delovnim področjem Ministrstva za vzgojo in izobraževanje, kot ga določa 39. člen Zakona o državni upravi in delovnim področjem Ministrstva za visoko šolstvo znanost in inovacije, kot ga določa 38.č člen Zakona o državni upravi,
+      − Ministrstvo za gospodarstvo, turizem in šport kot Ministrstvo za gospodarstvo, delo in šport z delovnim področjem Ministrstva za gospodarstvo, turizem in šport, kot ga določa 30. člen Zakona o državni upravi in delom delovnega področja Ministrstva za delo, družino, socialne zadeve in enake možnosti, ki se nanaša na delovna razmerja in pravice iz dela, zaposlovanje in poklicno usposabljanje,
+      − Ministrstvo za kmetijstvo, gozdarstvo in prehrano kot Ministrstvo za kmetijstvo z delovnim področjem Ministrstva za kmetijstvo, gozdarstvo in prehrano, kot ga določa 32. člen Zakona o državni upravi,
+      − Ministrstvo za delo, družino, socialne zadeve in enake možnosti kot Ministrstvo za demografijo, družino in socialne zadeve z delovnim področjem demografije, delovnim področjem Ministrstva za delo, družno, socialne zadeve in enake možnosti, kot ga določa 28. člen Zakona o državni upravi, razen delovnega področja delovnih razmerij, pravic iz dela, zaposlovanja in poklicnega usposabljanja, in delovnim področjem Ministrstva za solidarno prihodnost iz 38.c člena Zakona o državni upravi, razen delovnega področja stanovanjske politike,
+      − Ministrstvo za kohezijo in regionalni razvoj kot Ministrstvo za lokalno samoupravo, kohezijo in regionalni razvoj z delovnim področjem Ministrstva za kohezijo in regionalni razvoj, kot ga določa 32.b člen Zakona o državni upravi in delom delovnega področja Ministrstva za javno upravo, ki se nanaša na lokalno samoupravo.
+      4. člen
+      Ta zakon začne veljati naslednji dan po objavi v Uradnem listu Republike Slovenije.
+    note: >-
+      The enumerating instrument. Article 1 replaces the whole of the first paragraph of
+      article 8 of the ZVRS, which is where Slovenia lists the members of its government by
+      portfolio, and the fourteen dashes in that paragraph are the fourteen ministries counted
+      in this file. The act was passed by the Državni zbor on 29 April 2026, promulgated by
+      President Nataša Pirc Musar on 7 May 2026, published the same day and, under its article
+      4, entered into force on 8 May 2026 — four weeks before this cabinet was appointed, which
+      is what makes the new structure the one the incoming ministers were confirmed into. The
+      quotation also reproduces the whole of the transitional provision in article 2, because it
+      is the only instrument that says which former ministry continued as which new one, and it
+      is the evidence behind the reorganisation and the labour and pensions notes above. Two
+      flaws in the official text are reproduced as printed rather than silently corrected: "kot
+      ga določa iz 38. člen" in the infrastructure dash, and "Ministrstva za delo, družno,
+      socialne zadeve" for "družino" in the demography dash. Article 3 of the act, on budget
+      appropriations, is omitted from the quotation as immaterial to the count. Slovenia
+      switched to per-publication gazette numbering on 1 March 2026, so this act's reference is
+      issue 555/2026 rather than a conventional year issue; its item identifier is 2026-01-1215
+      and its EPA number 33-X.
+
+  - id: pisrs-zvrs-npb19
+    tier: 1
+    type: statute
+    publisher: >-
+      Republika Slovenija — Pravno-informacijski sistem (PISRS), Služba Vlade Republike
+      Slovenije za zakonodajo
+    title: >-
+      Zakon o Vladi Republike Slovenije (ZVRS), neuradno prečiščeno besedilo št. 19
+    url: https://pisrs.si/api/datoteke/integracije/556825123
+    archive_url: https://web.archive.org/web/20260728102429/https://pisrs.si/api/datoteke/integracije/556825123
+    lang: sl
+    published: 2026-05-08
+    accessed: 2026-07-28
+    quote: |-
+      8. člen
+      V vladi so ministrice ali ministri (v nadaljnjem besedilu: ministri) za:
+      - finance,
+      - gospodarstvo, delo in šport,
+      - notranje zadeve in javno upravo,
+      - infrastrukturo in energetiko,
+      - izobraževanje, znanost in mladino,
+      - zdravje,
+      - okolje in prostor,
+      - demografijo, družino in socialne zadeve,
+      - pravosodje,
+      - kmetijstvo,
+      - kulturo,
+      - lokalno samoupravo, kohezijo in regionalni razvoj,
+      - obrambo,
+      - zunanje in evropske zadeve.
+      Vlada ima v skladu s prvim odstavkom 14. člena Zakona o odnosih Republike Slovenije s Slovenci zunaj njenih meja (Uradni list RS, št. 43/06 in 76/10) ministra brez resorja za področje odnosov med Republiko Slovenijo in avtohtono slovensko narodno skupnostjo v sosednjih državah ter med Republiko Slovenijo in Slovenci po svetu.
+      Poleg ministra brez resorja iz prejšnjega odstavka ima lahko vlada največ dva ministra brez resorja, ki pomagata predsedniku vlade pri usklajevanju dela in opravljanju njegove funkcije v okviru danih pooblastil.
+      Funkcijo podpredsednika vlade opravlja eden ali več ministrov, ki jih na predlog predsednika vlade imenuje vlada.
+      9. člen
+      Število ministrstev, njihove pristojnosti in organizacijo ministrstev ter drugih upravnih organov določa zakon.
+      11. člen
+      Šteje se, da je vlada nastopila funkcijo, če je imenovanih več kot dve tretjini ministrov, pri čemer se ne vštevajo ministri brez resorja.
+      14. člen
+      Predsednik vlade vodi in usmerja delo vlade, skrbi za enotnost politične in upravne usmeritve vlade, usklajuje delo ministrov, predstavlja vlado ter sklicuje in vodi njene seje.
+      18. člen
+      Minister v skladu s sprejeto politiko vodi in predstavlja ministrstvo, daje politične usmeritve za delo ministrstva in organov v njegovi sestavi, nadzoruje njihovo delo, izdaja predpise in druge akte iz pristojnosti ministrstva in organov v njegovi sestavi ter opravlja druge naloge, ki jih določa zakon ali drug predpis.
+      25. člen
+      Za organizacijsko, strokovno in drugo pomoč pri delovanju vlade in usklajevanju dela ministrstev lahko vlada ustanavlja vladne službe.
+      Vladno službo vodi minister brez resorja, državni sekretar ali direktorica oziroma direktor (v nadaljevanju: direktor). Direktor vladne službe je odgovoren predsedniku vlade, ministru ali generalni sekretarki oziroma generalnemu sekretarju (v nadaljevanju: generalni sekretar) vlade.
+      Kot vladna služba deluje tudi generalni sekretariat vlade. Generalni sekretariat vlade vodi generalni sekretar, ki ga imenuje in razreši vlada na predlog predsednika vlade.
+      Kot vladna služba deluje tudi kabinet predsednika vlade. Če je predstojnik kabineta predsednika vlade direktor, ga imenuje in razreši predsednik vlade.
+    note: >-
+      The consolidated text of the Law on the Government, and the reason Slovenia's ministry
+      count is a legal fact rather than a reading of a reorganisation decree: article 8(1)
+      lists the portfolios and article 9 reserves the number of ministries, their competences
+      and their organisation to statute. This is neuradno prečiščeno besedilo št. 19, the
+      edition that incorporates ZVRS-K, and the register lists the act's amendments as
+      "Uradni list RS, št. 24/05 – uradno prečiščeno besedilo, 109/08, 38/10 – ZUKN, 8/12,
+      21/13, 47/13 – ZDU-1G, 65/14, 55/17, 163/22, 57/25 – ZF in 555/26"; 555/26 is ZVRS-K and
+      is the most recent amendment as at the access date. The quotation takes, in the Act's
+      own order, the whole of article 8 except its fourth paragraph on delegated coordination,
+      article 9, the operative sentence of article 11(3) that fixes when a government enters
+      office, article 14 on the Prime Minister's functions, article 18 on a minister's
+      relation to a ministry, and the four paragraphs of article 25 that constitute the
+      vladne službe and name the generalni sekretariat and the kabinet predsednika vlade.
+      Two notes on the address. First, "neuradno prečiščeno besedilo" is styled unofficial and
+      the register disclaims liability for it, but each of its constituent acts is a gazette
+      publication and article 8(1) is quoted here identically from ZVRS-K itself, so nothing
+      in this file rests on the consolidation alone. Second, the register serves this text
+      through an Angular application guarded by a proof-of-work challenge, and its page
+      https://pisrs.si/pregledPredpisa?id=ZAKO242 archives as an empty shell; the address
+      cited is the "PDF" download offered on that page, which the register serves as
+      ZAKO242_NPB19.pdf and which does archive with its text intact. The gazette's dashes are
+      typeset with a minus sign and the register's with a hyphen; each is reproduced as its
+      own source spells it.
+
+  - id: pisrs-zdu-1-npb25
+    tier: 1
+    type: statute
+    publisher: >-
+      Republika Slovenija — Pravno-informacijski sistem (PISRS), Služba Vlade Republike
+      Slovenije za zakonodajo
+    title: >-
+      Zakon o državni upravi (ZDU-1), neuradno prečiščeno besedilo št. 25
+    url: https://pisrs.si/api/datoteke/integracije/586965188
+    archive_url: https://web.archive.org/web/20260728102542/https://pisrs.si/api/datoteke/integracije/586965188
+    lang: sl
+    published: 2026-06-18
+    accessed: 2026-07-28
+    quote: |-
+      4. MINISTRSTVA IN NJIHOVA DELOVNA PODROČJA
+      28. člen
+      (ministrstvo za demografijo, družino in socialne zadeve)
+      28.a člen
+      (črtan)
+      29. člen
+      (ministrstvo za finance)
+      30. člen
+      (ministrstvo za gospodarstvo, delo in šport)
+      31. člen
+      (črtan)
+      32. člen
+      (ministrstvo za kmetijstvo)
+      32.a člen
+      (ministrstvo za kulturo)
+      32.b člen
+      (ministrstvo za lokalno samoupravo, kohezijo in regionalni razvoj)
+      33. člen
+      (črtan)
+      34. člen
+      (ministrstvo za notranje zadeve in javno upravo)
+      34.a člen
+      (črtan)
+      35. člen
+      (ministrstvo za obrambo)
+      36. člen
+      (črtan)
+      37. člen
+      (ministrstvo za pravosodje)
+      38. člen
+      (ministrstvo za infrastrukturo in energetiko)
+      38.a člen
+      (ministrstvo za okolje in prostor)
+      38.b člen
+      (črtan)
+      38.c člen
+      (črtan)
+      38.č člen
+      (črtan)
+      39. člen
+      (ministrstvo za izobraževanje, znanost in mladino)
+      39.a člen
+      (črtan)
+      40. člen
+      (ministrstvo za zdravje)
+      41. člen
+      (ministrstvo za zunanje in evropske zadeve)
+    note: >-
+      The statute that names the ministries and defines what each one does — article 9 of the
+      ZVRS sends the question here. Section 4 gives each ministry an article of its own whose
+      heading is the ministry's name, and the quotation reproduces that section's headings
+      complete, deleted articles included, so that a reader can count fourteen live ministries
+      and see the nine articles the reorganisation struck out. This is neuradno prečiščeno
+      besedilo št. 25, the edition incorporating the Zakon o spremembah in dopolnitvah Zakona
+      o državni upravi (ZDU-1P), Uradni list RS št. 979/26 of 17 June 2026, which harmonised
+      the ZDU-1 with ZVRS-K inside the two-month deadline that article 2 of ZVRS-K set. The
+      full text of each article is not quoted here for length, but the fields of activity it
+      sets out are what the policy-area tags below follow, and each ministry's note names the
+      article it relies on. The same address caveat applies as for the ZVRS: pisrs.si serves
+      the consolidated text through a single-page application whose page
+      https://pisrs.si/pregledPredpisa?id=ZAKO3225 archives as an empty shell, so the address
+      cited is the register's own PDF export of this edition, served as ZAKO3225_NPB25.pdf.
+
+  - id: ul-872-2026-imenovanje-ministrov
+    tier: 1
+    type: official_gazette
+    publisher: >-
+      Uradni list Republike Slovenije (izdajatelj: Služba Vlade Republike Slovenije za
+      zakonodajo)
+    title: >-
+      Sklep o imenovanju ministric in ministrov, Uradni list RS, št. 872/2026 z dne 8. 6. 2026
+    url: https://pisrs.si/api/uradni-list/objava/u20260872.pdf
+    archive_url: https://web.archive.org/web/20260728102313/https://pisrs.si/api/uradni-list/objava/u20260872.pdf
+    lang: sl
+    published: 2026-06-08
+    accessed: 2026-07-28
+    quote: |-
+      Na podlagi 112. člena Ustave Republike Slovenije (Uradni list RS, št. 33/91-I, 42/97, 66/00, 24/03, 69/04, 68/06, 47/13, 75/16, 92/21 in 98/25) ter 112. in 232. člena Poslovnika državnega zbora (Uradni list RS, št. 92/07 – uradno prečiščeno besedilo, 105/10, 80/13, 38/17, 46/20, 105/21 – odl. US, 111/21, 58/23 in 35/24) je Državni zbor na seji 4. junija 2026 sprejel
+      Sklep o imenovanju ministric in ministrov
+      Za ministrice in ministre se imenujejo:
+      – Janez Cigler Kralj za ministra za kmetijstvo,
+      – dr. Ignacija Fridl Jarc za ministrico za kulturo,
+      – mag. Valentin Hajdinjak za ministra za obrambo,
+      – Tone Kajzer za ministra za zunanje in evropske zadeve,
+      – dr. Monika Kirbiš Rojs za ministrico za lokalno samoupravo, kohezijo in regionalni razvoj,
+      – Suzana Lep Šimenko za ministrico brez resorja za področje odnosov med Republiko Slovenijo in avtohtono slovensko narodno skupnostjo v sosednjih državah ter med Republiko Slovenijo in Slovenci po svetu,
+      – dr. Anže Logar za ministra za gospodarstvo, delo in šport,
+      – Franci Matoz za ministra za notranje zadeve in javno upravo,
+      – dr. Tadej Ostrc za ministra za zdravje,
+      – Mateja Ribič za ministrico za demografijo, družino in socialne zadeve,
+      – mag. Polona Rifelj za ministrico za okolje in prostor,
+      – dr. Borut Rončević za ministra za izobraževanje, znanost in mladino,
+      – mag. Andrej Šircelj za ministra za finance,
+      – Jernej Vrtovec za ministra za infrastrukturo in energetiko ter
+      – Mihael Zupančič za ministra za pravosodje.
+      Ljubljana, dne 4. junija 2026
+    note: >-
+      The Državni zbor's own decision appointing the government, under Article 112 of the
+      Constitution, and the source for this cabinet's start date and for the closure of its
+      roster. It appoints exactly fifteen people: fourteen portfolio ministers, one per
+      portfolio in article 8(1) of the ZVRS, and one minister without portfolio. Nobody is
+      appointed to two portfolios and no portfolio is left vacant, which is what makes the
+      seat count checkable — sixteen people including the Prime Minister, who was elected
+      separately on 22 May. Two details worth reading. First, the decision lists appointees in
+      Slovene alphabetical order of surname, not in the statutory order of portfolios, so the
+      order of entities in this file follows the ZVRS rather than this decision. Second, it
+      gives the minister without portfolio her full statutory designation, "ministrico brez
+      resorja za področje odnosov med Republiko Slovenijo in avtohtono slovensko narodno
+      skupnostjo v sosednjih državah ter med Republiko Slovenijo in Slovenci po svetu", which
+      is the form followed here; Slovenian press usage shortens this to "ministrica brez
+      listnice za Slovence v zamejstvu in po svetu", and "brez listnice" is a colloquialism
+      that no instrument uses. The item identifier is 2026-01-1532 and the EPA number 94-X.
+
+  - id: ul-715-2026-izvolitev-predsednika-vlade
+    tier: 1
+    type: official_gazette
+    publisher: >-
+      Uradni list Republike Slovenije (izdajatelj: Služba Vlade Republike Slovenije za
+      zakonodajo)
+    title: >-
+      Sklep o izvolitvi predsednika Vlade Republike Slovenije, Uradni list RS, št. 715/2026 z
+      dne 22. 5. 2026
+    url: https://pisrs.si/api/uradni-list/objava/u20260715.pdf
+    archive_url: https://web.archive.org/web/20260728102425/https://pisrs.si/api/uradni-list/objava/u20260715.pdf
+    lang: sl
+    published: 2026-05-22
+    accessed: 2026-07-28
+    quote: |-
+      Na podlagi drugega in tretjega odstavka 111. člena Ustave Republike Slovenije (Uradni list RS, št. 33/91-I, 42/97, 66/00, 24/03, 69/04, 68/06, 47/13, 75/16, 92/21 in 98/25) ter 112. in 227. člena Poslovnika državnega zbora (Uradni list RS, št. 92/07 – uradno prečiščeno besedilo, 105/10, 80/13, 38/17, 46/20, 105/21 – odl. US, 111/21, 58/23 in 35/24) je Državni zbor na seji 22. maja 2026 sprejel
+      Sklep o izvolitvi predsednika Vlade Republike Slovenije
+      Za predsednika Vlade Republike Slovenije se izvoli Janez (Ivan) Janša.
+      Ljubljana, dne 22. maja 2026
+    note: >-
+      The election of the Prime Minister, thirteen days before the ministers were appointed.
+      Cited for two things: that the head of government holds his office by a decision of the
+      Državni zbor and not by presidential appointment, which is why this dataset files
+      Slovenia as a parliamentary rather than a semi-presidential republic; and that 22 May
+      2026 is not this cabinet's start date, because on that date the government had no
+      ministers. The decision rests on the second and third paragraphs of Article 111 of the
+      Constitution, which is the route used when a Prime Minister is elected by an absolute
+      majority after the President's first candidate fails or, as here, on a later ballot. The
+      item identifier is 2026-01-1375 and the EPA number 76-X.
+
+  - id: gov-si-o-vladi
+    tier: 2
+    type: government_website
+    publisher: Vlada Republike Slovenije (GOV.SI)
+    title: O vladi — Vlada Republike Slovenije
+    url: https://www.gov.si/drzavni-organi/vlada/o-vladi/
+    archive_url: https://web.archive.org/web/20260728102616/https://www.gov.si/drzavni-organi/vlada/o-vladi/
+    lang: sl
+    published: null
+    accessed: 2026-07-28
+    quote: |-
+      Vlado sestavljajo predsednik vlade in ministri.
+      Člani vlade so predstavniki tistih političnih strank, ki so sklenile koalicijo. V 16. Vladi Republike Slovenije, ki jo vodi Janez Janša, je 15 ministrov. Državni zbor jo je imenoval 4. junija 2026.
+      16. Vlado Republike Slovenije pod vodstvom Janeza Janše je Državni zbor imenoval 4. junija 2026.
+      Janez Janša predsednik vlade
+      Anže Logar podpredsednik vlade in minister za gospodarstvo, delo in šport
+      Jernej Vrtovec podpredsednik vlade in minister za infrastrukturo in energetiko
+      Suzana Lep Šimenko ministrica brez resorja za področje odnosov med Republiko Slovenijo in avtohtono slovensko narodno skupnostjo v sosednjih državah ter med Republiko Slovenijo in Slovenci po svetu
+      16. Vlado Republike Slovenije sestavlja koalicija naslednjih strank: Slovenska demokratska stranka (SDS), Demokrati. Anžeta Logarja (Demokrati), Nova Slovenija (NSi), FOKUS Marka Lotriča (Fokus) in Slovenska ljudska stranka (SLS).
+    note: >-
+      The government's own page, and the source for this cabinet's ordinal number, its start
+      date, its coalition and its published headcount. Three claims in this file rest on it.
+      First, that the cabinet is the sixteenth Government of the Republic of Slovenia and was
+      appointed on 4 June 2026, which agrees with the gazette. Second, that Slovenia publishes
+      its own arithmetic as "15 ministrov" — fifteen ministers, i.e. sixteen seats less the
+      Prime Minister, and not a count of departments. Third, that exactly two of those
+      ministers, Anže Logar and Jernej Vrtovec, also hold the function of deputy prime
+      minister, which under article 8(5) of the ZVRS is conferred on a serving minister by the
+      government and therefore adds neither a ministry nor a seat. The quotation reproduces
+      only those lines of the member list that carry a second office; the full roster of
+      fifteen is in the gazette decision cited above and agrees with this page name for name.
+      The page carries no publication date, hence published: null.
+
+  - id: gov-si-about-the-government-en
+    tier: 2
+    type: government_website
+    publisher: Government of the Republic of Slovenia (GOV.SI, English edition)
+    title: About the Government — Government of the Republic of Slovenia
+    url: https://www.gov.si/en/state-authorities/government/about-the-government/
+    archive_url: https://web.archive.org/web/20260728102744/https://www.gov.si/en/state-authorities/government/about-the-government/
+    lang: en
+    published: null
+    accessed: 2026-07-28
+    quote: |-
+      It is composed of the Prime Minister and other ministers.
+      The 16th Government of the Republic of Slovenia, led by Janez Janša, was appointed by the National Assembly on 4th June 2026.
+      Janez Janša Prime Minister
+      Anže Logar Deputy Prime Minister and Minister of the Economy, Labour and Sport
+      Jernej Vrtovec Deputy Prime Minister and Minister of Infrastructure and Energy
+      Tone Kajzer Minister of Foreign and European Affairs
+      Valentin Hajdinjak Minister of Defence
+      Franci Matoz Minister of the Interior and Public Administration
+      Andrej Šircelj Minister of Finance
+      Janez Cigler Kralj Minister of Agriculture
+      Ignacija Fridl Jarc Minister of Culture
+      Monika Kirbiš Rojs Minister of Local Self-Government, Cohesion and Regional Development
+      Tadej Ostrc Minister of Health
+      Mateja Ribič Minister of Demography, Family and Social Affairs
+      Polona Rifelj Minister of the Environment and Spatial Planning
+      Borut Rončević Minister of Education, Science and Youth
+      Mihael Zupančič Minister of Justice
+      Suzana Lep Šimenko Minister for Relations between the Republic of Slovenia and the Autochthonous Slovenian National Community in Neighbouring Countries, and between the Republic of Slovenia and Slovenians Abroad
+    note: >-
+      The English edition of the government's own page, published by the Government of the
+      Republic of Slovenia, which is what makes head_title_en "official" for every minister in
+      this file, including the English rendering of the minister without portfolio's very long
+      statutory designation. It also gives the government's own English name for the cabinet,
+      "16th Government of the Republic of Slovenia", which is the value of cabinet_name_en. Two
+      inconsistencies of the government's own are recorded as published rather than tidied: the
+      English text says the Government "is composed of the Prime Minister and other ministers"
+      where the Slovene says simply "predsednik vlade in ministri", and the ministerial titles
+      here use "of the Economy", "of the Interior" and "of the Environment" while the ministry
+      index uses the same definite articles but a different word order in places. Nothing in
+      the counts depends on either. One typographic note for anyone searching the archived
+      snapshot: the page sets the "th" of "16th" and of "4th June 2026" in a superscript
+      element, so a literal string search of the HTML will not match those two phrases. The
+      quotation above reproduces the text as rendered and read.
+
+  - id: gov-si-ministrstva
+    tier: 2
+    type: government_website
+    publisher: Vlada Republike Slovenije (GOV.SI)
+    title: Ministrstva — Državni organi, GOV.SI
+    url: https://www.gov.si/drzavni-organi/ministrstva/
+    archive_url: https://web.archive.org/web/20260720102931/https://www.gov.si/drzavni-organi/ministrstva/
+    lang: sl
+    published: null
+    accessed: 2026-07-28
+    quote: |-
+      Ministrstvo za demografijo, družino in socialne zadeve
+      Ministrstvo za finance
+      Ministrstvo za gospodarstvo, delo in šport
+      Ministrstvo za infrastrukturo in energetiko
+      Ministrstvo za izobraževanje, znanost in mladino
+      Ministrstvo za kmetijstvo
+      Ministrstvo za kulturo
+      Ministrstvo za lokalno samoupravo, kohezijo in regionalni razvoj
+      Ministrstvo za notranje zadeve in javno upravo
+      Ministrstvo za obrambo
+      Ministrstvo za okolje in prostor
+      Ministrstvo za pravosodje
+      Ministrstvo za zdravje
+      Ministrstvo za zunanje in evropske zadeve
+    note: >-
+      The government's own index of ministries, which lists fourteen and no more, in Slovene
+      alphabetical order rather than the statutory order used below. Cited as an independent
+      check that the fourteen departments actually operating are the same fourteen the statute
+      names, and as the source for each ministry's official website, and for the capitalisation
+      of name_original — the Zakon o državni upravi prints the names in lower case inside
+      bracketed article headings, while the government and the ministries themselves capitalise
+      "Ministrstvo". The archived snapshot is of 20 July 2026, six weeks after this cabinet took
+      office and a month after ZDU-1P, and shows the fourteen names quoted here. This page is
+      also where the absence of a published abbreviation for any ministry can be verified.
+
+  - id: gov-si-ministries-en
+    tier: 2
+    type: government_website
+    publisher: Government of the Republic of Slovenia (GOV.SI, English edition)
+    title: Ministries — State Authorities, GOV.SI
+    url: https://www.gov.si/en/state-authorities/ministries/
+    archive_url: https://web.archive.org/web/20260728104739/https://www.gov.si/en/state-authorities/ministries/
+    lang: en
+    published: null
+    accessed: 2026-07-28
+    quote: |-
+      Ministry of Agriculture
+      Ministry of Culture
+      Ministry of Defence
+      Ministry of Demography, Family and Social Affairs
+      Ministry of Education, Science and Youth
+      Ministry of Finance
+      Ministry of Foreign and European Affairs
+      Ministry of Health
+      Ministry of Infrastructure and Energy
+      Ministry of Justice
+      Ministry of Local Self-Government, Cohesion and Regional Development
+      Ministry of the Economy, Labour and Sport
+      Ministry of the Environment and Spatial Planning
+      Ministry of the Interior and Public Administration
+    note: >-
+      The English-language ministry index published by the Slovenian government itself, which
+      is what makes name_en_provenance "official" for all fourteen ministries. The list is in
+      English alphabetical order, which puts the three names carrying a definite article at the
+      end; those three are reproduced with the article exactly as published, because it is the
+      government's own form and not a slip this project should regularise. Fourteen entries and
+      no more, which corroborates the statutory count in a second language.
+
+  - id: gov-si-vladne-sluzbe
+    tier: 2
+    type: government_website
+    publisher: Vlada Republike Slovenije (GOV.SI)
+    title: Vladne službe — Državni organi, GOV.SI
+    url: https://www.gov.si/drzavni-organi/vladne-sluzbe/
+    archive_url: https://web.archive.org/web/20260708123953/https://www.gov.si/drzavni-organi/vladne-sluzbe/
+    lang: sl
+    published: null
+    accessed: 2026-07-28
+    quote: |-
+      Generalni sekretariat Vlade Republike Slovenije
+      Kabinet predsednika Vlade Republike Slovenije
+      Protokol Republike Slovenije
+      Slovenska obveščevalno-varnostna agencija
+      Služba Vlade Republike Slovenije za zakonodajo
+      Statistični urad Republike Slovenije
+      Urad Republike Slovenije za makroekonomske analize in razvoj
+      Urad Vlade Republike Slovenije za informacijsko varnost
+      Urad Vlade Republike Slovenije za komuniciranje
+      Urad Vlade Republike Slovenije za narodnosti
+      Urad Vlade Republike Slovenije za oskrbo in integracijo migrantov
+      Urad Vlade Republike Slovenije za Slovence v zamejstvu in po svetu
+      Urad Vlade Republike Slovenije za varovanje tajnih podatkov
+    note: >-
+      The government's own index of vladne službe, the bodies article 25 of the ZVRS lets the
+      government establish to assist it. Cited for the exact Slovene names of the three
+      recorded and not counted below — the Generalni sekretariat, the Kabinet predsednika Vlade
+      and the Urad Vlade RS za Slovence v zamejstvu in po svetu — and to make the perimeter of
+      this file visible: the thirteen bodies listed here are separate from the fourteen
+      ministries, none of them appears in article 8(1) of the ZVRS or in section 4 of the Zakon
+      o državni upravi, and only one of them, the office for Slovenians abroad, is headed by a
+      minister and carries a cabinet seat. The other ten, from the Statistical Office to the
+      intelligence agency, are directorates headed by directors and are outside this file's
+      perimeter rather than recorded exclusions.
+
+  - id: gov-si-government-offices-en
+    tier: 2
+    type: government_website
+    publisher: Government of the Republic of Slovenia (GOV.SI, English edition)
+    title: Government Offices — State Authorities, GOV.SI
+    url: https://www.gov.si/en/state-authorities/government-offices/
+    archive_url: https://web.archive.org/web/20260728104839/https://www.gov.si/en/state-authorities/government-offices/
+    lang: en
+    published: null
+    accessed: 2026-07-28
+    quote: |-
+      Government Office for Slovenians Abroad
+      Office of the Prime Minister
+      Secretariat-General of the Government of the Republic of Slovenia
+    note: >-
+      The government's own English names for the three bodies recorded and not counted below,
+      which is what makes their name_en_provenance "official". Note that gov.si's English
+      edition renders the Kabinet predsednika Vlade as "Office of the Prime Minister" — a
+      looser translation than the Slovene "cabinet of the President of the Government", and one
+      that invites confusion with the Prime Minister's own office as a constitutional post;
+      this file records the government's wording and separates the two entities explicitly.
+      The quotation reproduces only the three entries used here, out of the thirteen on the
+      page.
+
+  - id: dvk-volitve-dz-2026
+    tier: 2
+    type: government_website
+    publisher: Državna volilna komisija Republike Slovenije (DVK)
+    title: Volitve v Državni zbor 2026 — Državna volilna komisija
+    url: >-
+      https://www.dvk-rs.si/volitve-in-referendumi/drzavni-zbor-rs/volitve-drzavnega-zbora-rs/volitve-v-drzavni-zbor/
+    archive_url: >-
+      https://web.archive.org/web/20260728104354/https://www.dvk-rs.si/volitve-in-referendumi/drzavni-zbor-rs/volitve-drzavnega-zbora-rs/volitve-v-drzavni-zbor/
+    lang: sl
+    published: null
+    accessed: 2026-07-28
+    quote: |-
+      VOLITVE V DRŽAVNI ZBOR 2026
+      Volitve v Državni zbor Republike Slovenije so bile v nedeljo, 22. marca 2026.
+      Na podlagi splošne volilne pravice je glasovalo skupaj 1.190.932 volivcev ali 70,25% od vseh volivcev, ki so imeli pravico voliti.
+      Za izvolitev 88 poslancev Državnega zbora je bilo oddanih 1.190.819 glasovnic. Ker so bile prazne oziroma volja volivca na glasovnici ni bila jasno izražena, je bilo neveljavnih 11.050 glasovnic. Veljavnih je bilo 1.179.769 glasovnic.
+      Izid glasovanja je naslednji:
+      Gibanje Svoboda 28,66%
+      Slovenska demokratska stranka - SDS 27,88%
+    note: >-
+      The State Election Commission's own record of the general election that produced this
+      cabinet, cited for the single fact this file needs from it: that Slovenia went to the
+      polls on 22 March 2026, so the government sitting on this file's access date is not the
+      one that governed before. It is also the check on a trap for the unwary — Gibanje
+      Svoboda won the most votes and did not form the government, so a curator who inferred the
+      cabinet from the election result rather than from the gazette would have recorded the
+      wrong one. No counted ministry rests on this source.
+
+  - id: rtvslo-izvolitev-vlade
+    tier: 3
+    type: press
+    publisher: RTV Slovenija (RTVSLO.si)
+    title: Državni zbor je izvolil četrto vlado Janeza Janše
+    url: https://www.rtvslo.si/slovenija/drzavni-zbor-je-izvolil-cetrto-vlado-janeza-janse/784264
+    archive_url: >-
+      https://web.archive.org/web/20260725100525/https://www.rtvslo.si/slovenija/drzavni-zbor-je-izvolil-cetrto-vlado-janeza-janse/784264
+    lang: sl
+    published: 2026-06-04
+    accessed: 2026-07-28
+    quote: |-
+      Državni zbor je z 49 glasovi za in 30 proti potrdil listo 15 ministrov, s čimer je bila izvoljena nova vlada Janeza Janše. Prisotnih je bilo 79 poslancev.
+      Po izvolitvi so pred državnim zborom prisegli novi ministri. Sledila je predaja poslov med novim predsednikom vlade Janšo in nekdanjim premierjem Robertom Golobom. Nato se je začela prva seja nove vlade.
+      Poslanec Martin Mikolič (NSi, SLS in Fokus) je zadovoljen, da bo Slovenija z novo vlado dobila "optimalno" število ministrstev.
+      Meira Hot je bila še posebej kritična do združitve resorja za gospodarstvo in delo. Po njenih besedah še vedno ni jasno, kdo bo odgovoren za socialne in delavske pravice, pa tudi v čigavi pristojnosti bodo pokojninski sistem in položaj invalidov.
+    note: >-
+      The public broadcaster's report of the National Assembly sitting of 4 June 2026, cited
+      for three things the gazette does not record: the vote (49 for, 30 against, 79 deputies
+      present), that the ministers took the oath before the National Assembly and took over
+      from the outgoing government on the same day as their appointment — which is what closes
+      the question of this cabinet's start date — and the parliamentary objection that the
+      reorganisation left it unclear who is now responsible for the pension system, which is
+      the disclosed weakness behind the social_security tag on the Ministry of Demography,
+      Family and Social Affairs. Tier 3, and no counted ministry rests on it: it corroborates
+      a date and records a dispute that the two statutes and the gazette decision already
+      settle in outline. Note that this report calls the minister without portfolio "ministrica
+      brez listnice", a colloquialism; the gazette's "brez resorja" is the form used here.
+
+entities:
+  # --- the fourteen ministries, in the statutory order of ZVRS article 8(1) ---------------
+  - id: SI-2026-finance
+    order: 1
+    name_original: Ministrstvo za finance
+    abbreviation_original: null
+    name_en: Ministry of Finance
+    name_es: Ministerio de Finanzas
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister za finance
+    head_title_en: Minister of Finance
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [finance, budget]
+    counts_as_ministry: true
+    url: https://www.gov.si/drzavni-organi/ministrstva/ministrstvo-za-finance/
+    sources: [ul-555-2026-zvrs-k, pisrs-zvrs-npb19, pisrs-zdu-1-npb25, ul-872-2026-imenovanje-ministrov, gov-si-ministrstva, gov-si-ministries-en]
+    note:
+      en: >-
+        One of the six ministries the May 2026 reorganisation left completely untouched.
+        Article 29 of the Zakon o državni upravi gives it macroeconomic policy and the
+        coordination of structural reforms as well as the treasury, public accounting, the
+        programme budget, the tax and customs system, public debt and state aid; only finance
+        and budget are tagged, because Slovenia's economic-development portfolio sits with the
+        Ministry of the Economy, Labour and Sport, and tagging economy here as well would make
+        the comparison view report two economy ministries where there is one.
+      es: >-
+        Uno de los seis ministerios que la reorganización de mayo de 2026 dejó intactos por
+        completo. El artículo 29 de la Zakon o državni upravi le atribuye la política
+        macroeconómica y la coordinación de las reformas estructurales, además del tesoro, la
+        contabilidad pública, el presupuesto por programas, el sistema fiscal y aduanero, la
+        deuda pública y las ayudas de Estado; sólo se etiquetan finanzas y presupuesto, porque
+        la cartera de desarrollo económico corresponde en Eslovenia al Ministerio de Economía,
+        Trabajo y Deporte, y etiquetar también economy aquí haría que la vista comparativa
+        informase de dos ministerios de economía donde hay uno.
+
+  - id: SI-2026-gospodarstvo-delo-sport
+    order: 2
+    name_original: Ministrstvo za gospodarstvo, delo in šport
+    abbreviation_original: null
+    name_en: Ministry of the Economy, Labour and Sport
+    name_es: Ministerio de Economía, Trabajo y Deporte
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister za gospodarstvo, delo in šport
+    head_title_en: Minister of the Economy, Labour and Sport
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [economy, labour, sport, industry, trade, tourism, small_business, consumer_protection, vocational_training, space]
+    counts_as_ministry: true
+    url: https://www.gov.si/drzavni-organi/ministrstva/ministrstvo-za-gospodarstvo-delo-in-sport/
+    sources: [ul-555-2026-zvrs-k, pisrs-zvrs-npb19, pisrs-zdu-1-npb25, ul-872-2026-imenovanje-ministrov, gov-si-ministrstva, gov-si-ministries-en]
+    note:
+      en: >-
+        The widest remit in the Slovenian cabinet, and the entity most likely to be tagged
+        differently by another curator. It was the Ministrstvo za gospodarstvo, turizem in
+        šport until May 2026, when ZVRS-K moved employment relations, rights at work,
+        employment and vocational training into it from the labour ministry — which is why
+        labour and vocational_training are tagged here and not on the Ministry of Demography,
+        Family and Social Affairs, and why the opposition attacked the merger of the economy
+        and labour portfolios during the confirmation debate. Article 30 of the Zakon o državni
+        upravi also gives it tourism (Slovenia has no tourism ministry), competition and
+        consumer protection, trade policy, small business and crafts, company law, intellectual
+        property, metrology, postal services, state commodity reserves, and space — the only
+        home in this cabinet for space policy, which is why an eleventh-hour reader may find
+        that tag surprising. Sport is here rather than with education, except for the physical
+        education of children and young people delivered inside school programmes, which the
+        statute expressly carves out for the education ministry.
+      es: >-
+        La cartera más amplia del gabinete esloveno y la entidad que otro curador etiquetaría
+        con mayor probabilidad de forma distinta. Fue el Ministrstvo za gospodarstvo, turizem in
+        šport hasta mayo de 2026, cuando la ZVRS-K le trasladó desde el ministerio de trabajo
+        las relaciones laborales, los derechos derivados del trabajo, el empleo y la formación
+        profesional —por eso labour y vocational_training se etiquetan aquí y no en el
+        Ministerio de Demografía, Familia y Asuntos Sociales, y por eso la oposición atacó la
+        fusión de las carteras de economía y trabajo en el debate de confirmación—. El artículo
+        30 de la Zakon o državni upravi le atribuye además el turismo (Eslovenia no tiene
+        ministerio de turismo), la competencia y la protección de los consumidores, la política
+        comercial, las pymes y la artesanía, el derecho de sociedades, la propiedad intelectual,
+        la metrología, los servicios postales, las reservas estatales de mercancías y el espacio
+        —el único hogar de la política espacial en este gabinete, de ahí que esa etiqueta pueda
+        sorprender—. El deporte está aquí y no en educación, salvo la educación física de niños
+        y jóvenes impartida en los programas escolares, que la ley reserva expresamente al
+        ministerio de educación.
+
+  - id: SI-2026-notranje-zadeve-javna-uprava
+    order: 3
+    name_original: Ministrstvo za notranje zadeve in javno upravo
+    abbreviation_original: null
+    name_en: Ministry of the Interior and Public Administration
+    name_es: Ministerio del Interior y Administración Pública
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister za notranje zadeve in javno upravo
+    head_title_en: Minister of the Interior and Public Administration
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [interior, public_administration, migration, digital, telecommunications, state_assets]
+    counts_as_ministry: true
+    url: https://www.gov.si/drzavni-organi/ministrstva/ministrstvo-za-notranje-zadeve-in-javno-upravo/
+    sources: [ul-555-2026-zvrs-k, pisrs-zvrs-npb19, pisrs-zdu-1-npb25, ul-872-2026-imenovanje-ministrov, gov-si-ministrstva, gov-si-ministries-en]
+    note:
+      en: >-
+        This is where Slovenia now keeps digital policy, which is the tag most likely to be
+        looked for on the wrong ministry. The Golob government's Ministrstvo za digitalno
+        preobrazbo was abolished outright in May 2026 and its whole field of activity, along
+        with that of the Ministrstvo za javno upravo except local self-government, was folded
+        into the interior ministry; article 34 of the Zakon o državni upravi accordingly gives
+        it the information society, electronic communications, the informatisation of the
+        state administration, the eUprava portal, secure mailboxes and the central electronic
+        signature service. state_assets is tagged because the same article gives it the
+        centralised management of the state's physical property. Two areas a reader might
+        expect here are elsewhere: civil protection is the defence ministry's, and local
+        self-government went to the Ministry of Local Self-Government, Cohesion and Regional
+        Development. Migration is here in the administrative sense — residence, asylum
+        procedure and the migration directorate; the reception and integration of migrants is a
+        separate government office outside this file's perimeter.
+      es: >-
+        Aquí es donde Eslovenia guarda ahora la política digital, la etiqueta que más
+        probablemente se busque en el ministerio equivocado. El Ministrstvo za digitalno
+        preobrazbo del gobierno de Golob se suprimió por completo en mayo de 2026 y todo su
+        ámbito de actividad, junto con el del Ministrstvo za javno upravo salvo el autogobierno
+        local, se integró en el ministerio del Interior; el artículo 34 de la Zakon o državni
+        upravi le atribuye en consecuencia la sociedad de la información, las comunicaciones
+        electrónicas, la informatización de la administración estatal, el portal eUprava, los
+        buzones seguros y el servicio central de firma electrónica. Se etiqueta state_assets
+        porque ese mismo artículo le atribuye la gestión centralizada del patrimonio físico del
+        Estado. Dos áreas que un lector esperaría aquí están en otra parte: la protección civil
+        es del ministerio de Defensa y el autogobierno local pasó al Ministerio de Autogobierno
+        Local, Cohesión y Desarrollo Regional. La migración está aquí en su sentido
+        administrativo —residencia, procedimiento de asilo y la dirección de migraciones—; la
+        acogida e integración de migrantes corresponde a una oficina gubernamental aparte,
+        fuera del perímetro de este fichero.
+
+  - id: SI-2026-infrastruktura-energetika
+    order: 4
+    name_original: Ministrstvo za infrastrukturo in energetiko
+    abbreviation_original: null
+    name_en: Ministry of Infrastructure and Energy
+    name_es: Ministerio de Infraestructuras y Energía
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister za infrastrukturo in energetiko
+    head_title_en: Minister of Infrastructure and Energy
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [transport, infrastructure, energy, shipping]
+    counts_as_ministry: true
+    url: https://www.gov.si/drzavni-organi/ministrstva/ministrstvo-za-infrastrukturo-in-energetiko/
+    sources: [ul-555-2026-zvrs-k, pisrs-zvrs-npb19, pisrs-zdu-1-npb25, ul-872-2026-imenovanje-ministrov, gov-si-ministrstva, gov-si-ministries-en]
+    note:
+      en: >-
+        Energy moved here in May 2026 and that is the single most consequential tag change in
+        this file: until then it belonged to the Ministrstvo za okolje, podnebje in energijo,
+        so a comparison against Slovenia's previous cabinet will show energy under environment
+        and here under infrastructure. ZVRS-K transferred energy, the supply of petroleum
+        products, alternative-fuel infrastructure in transport, sustainable mobility, integrated
+        transport planning and domestic and cross-border public passenger transport into this
+        ministry by name. Article 38 of the Zakon o državni upravi adds road, rail, cableway,
+        air and maritime transport and inland navigation, which is why shipping is tagged here
+        and not on any fisheries or maritime ministry; Slovenia has neither. Climate is not
+        tagged here: it stayed with the environment ministry.
+      es: >-
+        La energía se trasladó aquí en mayo de 2026 y ése es el cambio de etiqueta más
+        consecuente de este fichero: hasta entonces pertenecía al Ministrstvo za okolje,
+        podnebje in energijo, de modo que una comparación con el gabinete esloveno anterior
+        mostrará la energía bajo medio ambiente y aquí bajo infraestructuras. La ZVRS-K le
+        transfirió por su nombre la energía, el abastecimiento de derivados del petróleo, la
+        infraestructura de combustibles alternativos en el transporte, la movilidad sostenible,
+        la planificación integrada del transporte y el transporte público de pasajeros interno y
+        transfronterizo. El artículo 38 de la Zakon o državni upravi añade el transporte por
+        carretera, ferroviario, por cable, aéreo y marítimo y la navegación interior, y por eso
+        shipping se etiqueta aquí y no en un ministerio de pesca o de asuntos marítimos:
+        Eslovenia no tiene ninguno. El clima no se etiqueta aquí: se quedó en el ministerio de
+        medio ambiente.
+
+  - id: SI-2026-izobrazevanje-znanost-mladina
+    order: 5
+    name_original: Ministrstvo za izobraževanje, znanost in mladino
+    abbreviation_original: null
+    name_en: Ministry of Education, Science and Youth
+    name_es: Ministerio de Educación, Ciencia y Juventud
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister za izobraževanje, znanost in mladino
+    head_title_en: Minister of Education, Science and Youth
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [education, research, youth, higher_education, innovation]
+    counts_as_ministry: true
+    url: https://www.gov.si/drzavni-organi/ministrstva/ministrstvo-za-izobrazevanje-znanost-in-mladino/
+    sources: [ul-555-2026-zvrs-k, pisrs-zvrs-npb19, pisrs-zdu-1-npb25, ul-872-2026-imenovanje-ministrov, gov-si-ministrstva, gov-si-ministries-en]
+    note:
+      en: >-
+        The reunification of a portfolio Slovenia had split. The Golob government ran a
+        Ministrstvo za vzgojo in izobraževanje and a separate Ministrstvo za visoko šolstvo,
+        znanost in inovacije; ZVRS-K merged the second into the first and added youth to the
+        name. Article 39 of the Zakon o državni upravi therefore covers pre-school education,
+        primary, secondary and short-cycle higher vocational schooling, adult education, youth,
+        higher education, scientific research and innovation, and technological development —
+        which is why research, higher_education and innovation are all tagged here even though
+        the name mentions only science. vocational_training is deliberately not tagged here:
+        ZVRS-K moved poklicno usposabljanje, vocational training in the labour-market sense, to
+        the Ministry of the Economy, Labour and Sport, and the statute leaves this ministry only
+        the school-based part. The physical education of children and young people inside school
+        programmes is expressly this ministry's, but sport as a policy area is the economy
+        ministry's and is tagged there.
+      es: >-
+        La reunificación de una cartera que Eslovenia había dividido. El gobierno de Golob tenía
+        un Ministrstvo za vzgojo in izobraževanje y un Ministrstvo za visoko šolstvo, znanost in
+        inovacije aparte; la ZVRS-K fusionó el segundo en el primero y añadió la juventud al
+        nombre. El artículo 39 de la Zakon o državni upravi abarca por tanto la educación
+        preescolar, la enseñanza primaria, secundaria y superior de ciclo corto, la educación de
+        adultos, la juventud, la enseñanza superior, la investigación científica y la innovación
+        y el desarrollo tecnológico —de ahí que research, higher_education e innovation se
+        etiqueten aquí aunque el nombre sólo mencione la ciencia—. vocational_training no se
+        etiqueta aquí a propósito: la ZVRS-K trasladó el poklicno usposabljanje, la formación
+        profesional en su sentido de mercado laboral, al Ministerio de Economía, Trabajo y
+        Deporte, y la ley deja a este ministerio sólo la parte escolar. La educación física de
+        niños y jóvenes dentro de los programas escolares es expresamente de este ministerio,
+        pero el deporte como área de política es del ministerio de economía y allí se etiqueta.
+
+  - id: SI-2026-zdravje
+    order: 6
+    name_original: Ministrstvo za zdravje
+    abbreviation_original: null
+    name_en: Ministry of Health
+    name_es: Ministerio de Sanidad
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister za zdravje
+    head_title_en: Minister of Health
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [health]
+    counts_as_ministry: true
+    url: https://www.gov.si/drzavni-organi/ministrstva/ministrstvo-za-zdravje/
+    sources: [ul-555-2026-zvrs-k, pisrs-zvrs-npb19, pisrs-zdu-1-npb25, ul-872-2026-imenovanje-ministrov, gov-si-ministrstva, gov-si-ministries-en]
+    note:
+      en: >-
+        Health alone. Untouched by the May 2026 reorganisation, and tagged with the single area
+        its statutory field of activity covers: public health, health protection, health
+        insurance, health services, medicines and medical devices, chemical safety and radiation
+        protection. Article 40 of the Zakon o državni upravi splits food safety with the
+        agriculture ministry along an unusually explicit line — this ministry holds food and
+        catering only "z vidika preprečevanja in obvladovanja nalezljivih bolezni", from the
+        point of view of preventing and controlling communicable disease — so food_safety is
+        tagged on agriculture and not here. Long-term care is not this ministry's either; it
+        went to the Ministry of Demography, Family and Social Affairs.
+      es: >-
+        Sólo sanidad. Intacto en la reorganización de mayo de 2026, y etiquetado con la única
+        área que cubre su ámbito legal de actividad: salud pública, protección de la salud,
+        seguro de enfermedad, servicios sanitarios, medicamentos y productos sanitarios,
+        seguridad química y protección radiológica. El artículo 40 de la Zakon o državni upravi
+        reparte la seguridad alimentaria con el ministerio de agricultura por una línea
+        inusualmente explícita —este ministerio tiene los alimentos y la restauración sólo «z
+        vidika preprečevanja in obvladovanja nalezljivih bolezni», desde el punto de vista de la
+        prevención y control de las enfermedades transmisibles—, así que food_safety se etiqueta
+        en agricultura y no aquí. Los cuidados de larga duración tampoco son de este ministerio:
+        pasaron al Ministerio de Demografía, Familia y Asuntos Sociales.
+
+  - id: SI-2026-okolje-prostor
+    order: 7
+    name_original: Ministrstvo za okolje in prostor
+    abbreviation_original: null
+    name_en: Ministry of the Environment and Spatial Planning
+    name_es: Ministerio de Medio Ambiente y Ordenación del Territorio
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister za okolje in prostor
+    head_title_en: Minister of the Environment and Spatial Planning
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [environment, spatial_planning, climate, water, housing, mining]
+    counts_as_ministry: true
+    url: https://www.gov.si/drzavni-organi/ministrstva/ministrstvo-za-okolje-in-prostor/
+    sources: [ul-555-2026-zvrs-k, pisrs-zvrs-npb19, pisrs-zdu-1-npb25, ul-872-2026-imenovanje-ministrov, gov-si-ministrstva, gov-si-ministries-en]
+    note:
+      en: >-
+        The most heavily rearranged of the fourteen. ZVRS-K stripped energy and sustainable
+        mobility out of the former Ministrstvo za okolje, podnebje in energijo, merged in the
+        whole of the Ministrstvo za naravne vire in prostor, and added the housing policy of the
+        abolished Ministrstvo za solidarno prihodnost. Article 38.a of the Zakon o državni
+        upravi therefore gives it environmental protection, environmental assessment, climate
+        change and waste, nature conservation, water management and water infrastructure,
+        nuclear safety and radiation protection, the remediation of natural disasters, mining,
+        spatial planning and construction, surveying, and housing policy. Slovenia has no
+        housing ministry and no climate ministry, so housing and climate are tagged here; mining
+        is tagged because rudarstvo is named in the article and has no other home. Nuclear
+        safety is regulatory and is not tagged energy — energy is the infrastructure ministry's.
+        The remediation of natural disasters is here, but the civil-protection system itself is
+        the defence ministry's, and civil_protection is tagged there.
+      es: >-
+        El más reorganizado de los catorce. La ZVRS-K le quitó al antiguo Ministrstvo za okolje,
+        podnebje in energijo la energía y la movilidad sostenible, le fusionó íntegramente el
+        Ministrstvo za naravne vire in prostor y le añadió la política de vivienda del suprimido
+        Ministrstvo za solidarno prihodnost. El artículo 38.a de la Zakon o državni upravi le
+        atribuye por tanto la protección del medio ambiente, las evaluaciones ambientales, el
+        cambio climático y los residuos, la conservación de la naturaleza, la gestión del agua y
+        la infraestructura hídrica, la seguridad nuclear y la protección radiológica, la
+        reparación de los daños por catástrofes naturales, la minería, la ordenación del
+        territorio y la edificación, la actividad geodésica y la política de vivienda. Eslovenia
+        no tiene ministerio de vivienda ni de clima, así que housing y climate se etiquetan
+        aquí; mining se etiqueta porque rudarstvo figura nombrado en el artículo y no tiene otro
+        hogar. La seguridad nuclear es regulatoria y no lleva la etiqueta energy: la energía es
+        del ministerio de infraestructuras. La reparación de los daños por catástrofes naturales
+        está aquí, pero el sistema de protección civil en sí es del ministerio de Defensa, y
+        civil_protection se etiqueta allí.
+
+  - id: SI-2026-demografija-druzina-socialne-zadeve
+    order: 8
+    name_original: Ministrstvo za demografijo, družino in socialne zadeve
+    abbreviation_original: null
+    name_en: Ministry of Demography, Family and Social Affairs
+    name_es: Ministerio de Demografía, Familia y Asuntos Sociales
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister za demografijo, družino in socialne zadeve
+    head_title_en: Minister of Demography, Family and Social Affairs
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [social_affairs, family, social_security, disability, elderly, equality]
+    counts_as_ministry: true
+    url: https://www.gov.si/drzavni-organi/ministrstva/ministrstvo-za-demografijo-druzino-in-socialne-zadeve/
+    sources: [ul-555-2026-zvrs-k, pisrs-zvrs-npb19, pisrs-zdu-1-npb25, ul-872-2026-imenovanje-ministrov, gov-si-ministrstva, gov-si-ministries-en, rtvslo-izvolitev-vlade]
+    note:
+      en: >-
+        The successor to the Ministrstvo za delo, družino, socialne zadeve in enake možnosti,
+        minus labour and plus demography and long-term care. It is the only ministry in this
+        cabinet whose name announces a policy objective — demografija — rather than a sector,
+        and article 28 of the Zakon o državni upravi lists demography first, then family,
+        social affairs, disability protection, equal opportunities, long-term care,
+        deinstitutionalisation, the long-lived society, and the institutional part of social
+        care. equality is tagged on the strength of "enakih možnosti": Slovenia has no ministry
+        of equality, and the equal-opportunities portfolio came here with the rest of the old
+        social ministry. elderly is tagged for long-term care and the dolgoživa družba
+        programme. labour is emphatically not tagged: ZVRS-K moved employment relations, rights
+        at work, employment and vocational training to the Ministry of the Economy, Labour and
+        Sport. social_security is tagged and is the one genuinely contested tag in this file —
+        neither the ZVRS nor article 28 names the pension system, the point was raised in the
+        National Assembly, and the tag rests on ZVRS-K's transfer of the old ministry's whole
+        field of activity except the four labour areas it lists. See the methodology note.
+      es: >-
+        El sucesor del Ministrstvo za delo, družino, socialne zadeve in enake možnosti, menos el
+        trabajo y más la demografía y los cuidados de larga duración. Es el único ministerio de
+        este gabinete cuyo nombre anuncia un objetivo de política —demografija— y no un sector,
+        y el artículo 28 de la Zakon o državni upravi enumera primero la demografía, después la
+        familia, los asuntos sociales, la protección de la discapacidad, la igualdad de
+        oportunidades, los cuidados de larga duración, la desinstitucionalización, la sociedad
+        longeva y la parte institucional de la atención social. equality se etiqueta por «enakih
+        možnosti»: Eslovenia no tiene ministerio de igualdad, y la cartera de igualdad de
+        oportunidades llegó aquí con el resto del antiguo ministerio social. elderly se etiqueta
+        por los cuidados de larga duración y el programa de la dolgoživa družba. labour no se
+        etiqueta en absoluto: la ZVRS-K trasladó las relaciones laborales, los derechos
+        derivados del trabajo, el empleo y la formación profesional al Ministerio de Economía,
+        Trabajo y Deporte. social_security sí se etiqueta y es la única etiqueta realmente
+        discutida de este fichero: ni la ZVRS ni el artículo 28 nombran el sistema de pensiones,
+        la cuestión se planteó en la Asamblea Nacional, y la etiqueta se apoya en la
+        transferencia que hace la ZVRS-K de todo el ámbito de actividad del antiguo ministerio
+        salvo las cuatro áreas laborales que enumera. Véase la nota metodológica.
+
+  - id: SI-2026-pravosodje
+    order: 9
+    name_original: Ministrstvo za pravosodje
+    abbreviation_original: null
+    name_en: Ministry of Justice
+    name_es: Ministerio de Justicia
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister za pravosodje
+    head_title_en: Minister of Justice
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [justice]
+    counts_as_ministry: true
+    url: https://www.gov.si/drzavni-organi/ministrstva/ministrstvo-za-pravosodje/
+    sources: [ul-555-2026-zvrs-k, pisrs-zvrs-npb19, pisrs-zdu-1-npb25, ul-872-2026-imenovanje-ministrov, gov-si-ministrstva, gov-si-ministries-en]
+    note:
+      en: >-
+        Untouched by the reorganisation, and tagged with justice alone. Article 37 of the Zakon
+        o državni upravi gives it the organisation and status of the courts, the state
+        prosecutor's office, the state attorney's office, the Constitutional Court and the
+        Human Rights Ombudsman, civil and criminal law, court procedure, the prison service,
+        legal professions, data protection, e-justice and the systemic regulation of
+        anti-corruption. The courts, the Državno tožilstvo and the Ustavno sodišče are
+        constitutionally outside the executive and are not recorded in this file even as
+        exclusions, because they are not government departments; this ministry administers
+        their organisation, not their work. The police belong to the interior ministry.
+      es: >-
+        Intacto en la reorganización, y etiquetado sólo con justicia. El artículo 37 de la Zakon
+        o državni upravi le atribuye la organización y el estatuto de los tribunales, la
+        fiscalía del Estado, la abogacía del Estado, el Tribunal Constitucional y el Defensor de
+        los Derechos Humanos, el derecho civil y penal, el procedimiento judicial, el sistema
+        penitenciario, las profesiones jurídicas, la protección de datos, la e-justicia y la
+        regulación sistémica de la lucha contra la corrupción. Los tribunales, el Državno
+        tožilstvo y el Ustavno sodišče están constitucionalmente fuera del ejecutivo y no se
+        registran en este fichero ni siquiera como exclusiones, porque no son departamentos de
+        gobierno; este ministerio administra su organización, no su trabajo. La policía
+        pertenece al ministerio del Interior.
+
+  - id: SI-2026-kmetijstvo
+    order: 10
+    name_original: Ministrstvo za kmetijstvo
+    abbreviation_original: null
+    name_en: Ministry of Agriculture
+    name_es: Ministerio de Agricultura
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister za kmetijstvo
+    head_title_en: Minister of Agriculture
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [agriculture, rural_development, food_safety, forestry, fisheries, animal_welfare]
+    counts_as_ministry: true
+    url: https://www.gov.si/drzavni-organi/ministrstva/ministrstvo-za-kmetijstvo/
+    sources: [ul-555-2026-zvrs-k, pisrs-zvrs-npb19, pisrs-zdu-1-npb25, ul-872-2026-imenovanje-ministrov, gov-si-ministrstva, gov-si-ministries-en]
+    note:
+      en: >-
+        A rename with no change of substance, and a warning against reading a cabinet by its
+        labels. It was the Ministrstvo za kmetijstvo, gozdarstvo in prehrano until May 2026,
+        when ZVRS-K shortened the name to Ministrstvo za kmetijstvo while transferring "delovnim
+        področjem Ministrstva za kmetijstvo, gozdarstvo in prehrano" — its field of activity —
+        unchanged. Forestry, food and food safety are therefore still this ministry's even
+        though the name no longer says so, and article 32 of the Zakon o državni upravi confirms
+        it: agriculture, rural development, nutrition, plant protection, veterinary services and
+        animal breeding, forestry, hunting, fisheries, and the safety and quality of feed and
+        food. animal_welfare is tagged for veterinarstvo and zootehnika, which is the closest
+        the taxonomy comes to a veterinary-administration portfolio. Unlike Lithuania, Slovenia
+        puts forests with agriculture rather than with the environment.
+      es: >-
+        Un cambio de nombre sin cambio de fondo, y una advertencia contra leer un gabinete por
+        sus etiquetas. Fue el Ministrstvo za kmetijstvo, gozdarstvo in prehrano hasta mayo de
+        2026, cuando la ZVRS-K abrevió el nombre a Ministrstvo za kmetijstvo transfiriéndole sin
+        cambios «delovnim področjem Ministrstva za kmetijstvo, gozdarstvo in prehrano», su
+        ámbito de actividad. La silvicultura, la alimentación y la seguridad alimentaria siguen
+        por tanto siendo de este ministerio aunque el nombre ya no lo diga, y el artículo 32 de
+        la Zakon o državni upravi lo confirma: agricultura, desarrollo rural, nutrición,
+        protección vegetal, veterinaria y zootecnia, silvicultura, caza, pesca y seguridad y
+        calidad de los piensos y los alimentos. animal_welfare se etiqueta por veterinarstvo y
+        zootehnika, que es lo más cercano que ofrece el vocabulario a una cartera de
+        administración veterinaria. A diferencia de Lituania, Eslovenia sitúa los bosques en
+        agricultura y no en medio ambiente.
+
+  - id: SI-2026-kultura
+    order: 11
+    name_original: Ministrstvo za kulturo
+    abbreviation_original: null
+    name_en: Ministry of Culture
+    name_es: Ministerio de Cultura
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister za kulturo
+    head_title_en: Minister of Culture
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [culture, media, language_policy, religion]
+    counts_as_ministry: true
+    url: https://www.gov.si/drzavni-organi/ministrstva/ministrstvo-za-kulturo/
+    sources: [ul-555-2026-zvrs-k, pisrs-zvrs-npb19, pisrs-zdu-1-npb25, ul-872-2026-imenovanje-ministrov, gov-si-ministrstva, gov-si-ministries-en]
+    note:
+      en: >-
+        Untouched by the reorganisation, and one of the few ministries in this dataset whose
+        statutory field of activity is short enough to quote whole: article 32.a of the Zakon o
+        državni upravi gives it "umetnosti, kulture, kulturne dediščine, filma, medijev,
+        slovenskega jezika in verske svobode" — the arts, culture, cultural heritage, film,
+        media, the Slovene language and religious freedom. All four tags come straight from
+        that sentence, which is why this is one of the few entities where language_policy and
+        religion appear without interpretation. Sport is not here; it is the economy ministry's.
+      es: >-
+        Intacto en la reorganización, y uno de los pocos ministerios de este conjunto de datos
+        cuyo ámbito legal de actividad es lo bastante breve para citarlo entero: el artículo
+        32.a de la Zakon o državni upravi le atribuye «umetnosti, kulture, kulturne dediščine,
+        filma, medijev, slovenskega jezika in verske svobode» —las artes, la cultura, el
+        patrimonio cultural, el cine, los medios, la lengua eslovena y la libertad religiosa—.
+        Las cuatro etiquetas salen directamente de esa frase, y por eso es una de las pocas
+        entidades donde language_policy y religion aparecen sin interpretación. El deporte no
+        está aquí: es del ministerio de economía.
+
+  - id: SI-2026-lokalna-samouprava-kohezija-regionalni-razvoj
+    order: 12
+    name_original: Ministrstvo za lokalno samoupravo, kohezijo in regionalni razvoj
+    abbreviation_original: null
+    name_en: Ministry of Local Self-Government, Cohesion and Regional Development
+    name_es: Ministerio de Autogobierno Local, Cohesión y Desarrollo Regional
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister za lokalno samoupravo, kohezijo in regionalni razvoj
+    head_title_en: Minister of Local Self-Government, Cohesion and Regional Development
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [territorial_administration, regional_development]
+    counts_as_ministry: true
+    url: https://www.gov.si/drzavni-organi/ministrstva/ministrstvo-za-lokalno-samoupravo-kohezijo-in-regionalni-razvoj/
+    sources: [ul-555-2026-zvrs-k, pisrs-zvrs-npb19, pisrs-zdu-1-npb25, ul-872-2026-imenovanje-ministrov, gov-si-ministrstva, gov-si-ministries-en]
+    note:
+      en: >-
+        The former Ministrstvo za kohezijo in regionalni razvoj, which took local
+        self-government from the abolished Ministrstvo za javno upravo in May 2026 and put it
+        first in its new name. Article 32.b of the Zakon o državni upravi gives it local
+        self-government, European cohesion policy and the programming and management of its
+        funds, other sources of non-repayable funds for reducing economic and social
+        disparities, and regional development. In most of this dataset's countries these two
+        areas are split between an interior ministry and a finance ministry; Slovenia gives them
+        a department of their own, and this is where the coalition's stated commitment to
+        decentralisation and to the creation of pokrajine — a regional tier Slovenia does not
+        yet have — would be administered. The municipalities themselves are subnational
+        government and out of scope; local self-government appears here as a portfolio.
+      es: >-
+        El antiguo Ministrstvo za kohezijo in regionalni razvoj, que tomó el autogobierno local
+        del suprimido Ministrstvo za javno upravo en mayo de 2026 y lo puso en primer lugar en
+        su nuevo nombre. El artículo 32.b de la Zakon o državni upravi le atribuye el
+        autogobierno local, la política europea de cohesión y la programación y gestión de sus
+        fondos, otras fuentes de fondos no reembolsables para reducir las diferencias económicas
+        y sociales, y el desarrollo regional. En la mayoría de los países de este conjunto de
+        datos esas dos áreas se reparten entre un ministerio del interior y uno de hacienda;
+        Eslovenia les da un departamento propio, y aquí es donde se administraría el compromiso
+        declarado de la coalición con la descentralización y con la creación de pokrajine, un
+        nivel regional que Eslovenia todavía no tiene. Los municipios mismos son gobierno
+        subnacional y quedan fuera de alcance; el autogobierno local figura aquí como cartera.
+
+  - id: SI-2026-obramba
+    order: 13
+    name_original: Ministrstvo za obrambo
+    abbreviation_original: null
+    name_en: Ministry of Defence
+    name_es: Ministerio de Defensa
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister za obrambo
+    head_title_en: Minister of Defence
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [defence, civil_protection, veterans]
+    counts_as_ministry: true
+    url: https://www.gov.si/drzavni-organi/ministrstva/ministrstvo-za-obrambo/
+    sources: [ul-555-2026-zvrs-k, pisrs-zvrs-npb19, pisrs-zdu-1-npb25, ul-872-2026-imenovanje-ministrov, gov-si-ministrstva, gov-si-ministries-en]
+    note:
+      en: >-
+        Untouched by the reorganisation, and the reason civil_protection is not on the interior
+        ministry where most of this dataset's countries keep it. Article 35 of the Zakon o
+        državni upravi gives this ministry the defence system, the "sistem varstva pred
+        naravnimi in drugimi nesrečami" — the system of protection against natural and other
+        disasters, which is Slovenia's civil-protection and rescue service — and war invalids,
+        war veterans, victims of war violence and war graves, which is what veterans is tagged
+        for. Slovenia has no separate ministry for veterans or for emergencies, so both areas
+        land here.
+      es: >-
+        Intacto en la reorganización, y la razón de que civil_protection no esté en el
+        ministerio del Interior, donde la sitúan la mayoría de los países de este conjunto de
+        datos. El artículo 35 de la Zakon o državni upravi atribuye a este ministerio el sistema
+        de defensa, el «sistem varstva pred naravnimi in drugimi nesrečami» —el sistema de
+        protección frente a catástrofes naturales y de otro tipo, que es el servicio esloveno de
+        protección civil y rescate— y los inválidos de guerra, los veteranos de guerra, las
+        víctimas de la violencia de guerra y las tumbas de guerra, que es lo que motiva la
+        etiqueta veterans. Eslovenia no tiene un ministerio propio de veteranos ni de
+        emergencias, así que las dos áreas caen aquí.
+
+  - id: SI-2026-zunanje-evropske-zadeve
+    order: 14
+    name_original: Ministrstvo za zunanje in evropske zadeve
+    abbreviation_original: null
+    name_en: Ministry of Foreign and European Affairs
+    name_es: Ministerio de Asuntos Exteriores y Europeos
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister za zunanje in evropske zadeve
+    head_title_en: Minister of Foreign and European Affairs
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [foreign_affairs, european_affairs, development_cooperation]
+    counts_as_ministry: true
+    url: https://www.gov.si/drzavni-organi/ministrstva/ministrstvo-za-zunanje-in-evropske-zadeve/
+    sources: [ul-555-2026-zvrs-k, pisrs-zvrs-npb19, pisrs-zdu-1-npb25, ul-872-2026-imenovanje-ministrov, gov-si-ministrstva, gov-si-ministries-en]
+    note:
+      en: >-
+        Untouched by the reorganisation. Slovenia has neither a European affairs minister nor a
+        development minister: article 41 of the Zakon o državni upravi gives this ministry
+        foreign affairs, economic diplomacy including the protection of Slovenian economic
+        interests abroad, consular protection, international law and treaty-making,
+        international development cooperation and humanitarian aid, European affairs, and
+        relations with the OECD. european_affairs is on the ministry's own name and needs no
+        interpretation, which is unusual in this dataset. trade is not tagged here even though
+        economic diplomacy is: trade policy proper is named in article 30 as the economy
+        ministry's, and this ministry's role is the diplomatic representation of it. Relations
+        with Slovenians abroad are not this ministry's either — they belong to the minister
+        without portfolio recorded below, which is the arrangement most likely to surprise a
+        reader used to a diaspora directorate inside a foreign ministry.
+      es: >-
+        Intacto en la reorganización. Eslovenia no tiene ministro de Asuntos Europeos ni de
+        Desarrollo: el artículo 41 de la Zakon o državni upravi atribuye a este ministerio los
+        asuntos exteriores, la diplomacia económica —incluida la protección de los intereses
+        económicos eslovenos en el exterior—, la protección consular, el derecho internacional y
+        la celebración de tratados, la cooperación internacional al desarrollo y la ayuda
+        humanitaria, los asuntos europeos y las relaciones con la OCDE. european_affairs figura
+        en el propio nombre del ministerio y no requiere interpretación, algo poco frecuente en
+        este conjunto de datos. trade no se etiqueta aquí aunque sí exista diplomacia económica:
+        la política comercial propiamente dicha figura en el artículo 30 como del ministerio de
+        economía, y el papel de esta casa es su representación diplomática. Las relaciones con
+        los eslovenos del exterior tampoco son de este ministerio: corresponden a la ministra
+        sin cartera que se registra más abajo, el arreglo que con mayor probabilidad sorprenderá
+        a un lector acostumbrado a una dirección de diáspora dentro de un ministerio de
+        exteriores.
+
+  # --- recorded, not counted --------------------------------------------------------------
+  - id: SI-2026-predsednik-vlade
+    order: 15
+    name_original: Predsednik vlade
+    abbreviation_original: null
+    name_en: Prime Minister
+    name_es: Presidente del Gobierno
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Predsednik vlade
+    head_title_en: Prime Minister
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: head_of_government_office
+    url: https://www.gov.si/drzavni-organi/vlada/
+    sources: [pisrs-zvrs-npb19, ul-715-2026-izvolitev-predsednika-vlade, gov-si-o-vladi, gov-si-about-the-government-en, dvk-volitve-dz-2026, rtvslo-izvolitev-vlade]
+    note:
+      en: >-
+        Not a ministry and not a department: article 8(1) of the ZVRS does not list one, and
+        article 14 gives the Prime Minister the direction and coordination of the government's
+        work, the representation of the government and the chairing of its sessions — no
+        portfolio. It is recorded because gov.si states that "Vlado sestavljajo predsednik vlade
+        in ministri", which is what makes the cabinet sixteen people against fourteen
+        departments. The holder is Janez Janša, elected by the Državni zbor on 22 May 2026 under
+        the second and third paragraphs of Article 111 of the Constitution; this is his fourth
+        government. Do not confuse this entry with the Kabinet predsednika Vlade Republike
+        Slovenije below: this is the constitutional office of the head of government, that is
+        the vladna služba which serves it, and each is excluded for a different reason. Slovenia
+        has no separate deputy-prime-minister entity either: under article 8(5) of the ZVRS the
+        function is conferred by the government on one or more serving ministers, and in this
+        cabinet on the ministers of the economy and of infrastructure, so it adds neither a
+        ministry nor a seat.
+      es: >-
+        No es un ministerio ni un departamento: el artículo 8(1) de la ZVRS no enumera ninguno,
+        y el artículo 14 atribuye al presidente del Gobierno la dirección y coordinación del
+        trabajo del gobierno, su representación y la presidencia de sus sesiones —ninguna
+        cartera—. Se registra porque gov.si afirma que «Vlado sestavljajo predsednik vlade in
+        ministri», que es lo que hace que el gabinete sean dieciséis personas frente a catorce
+        departamentos. El titular es Janez Janša, elegido por la Asamblea Nacional el 22 de mayo
+        de 2026 conforme a los apartados segundo y tercero del artículo 111 de la Constitución;
+        es su cuarto gobierno. No confundir esta entrada con el Kabinet predsednika Vlade
+        Republike Slovenije de más abajo: ésta es la oficina constitucional del jefe de
+        gobierno, aquél la vladna služba que la sirve, y cada uno se excluye por un motivo
+        distinto. Eslovenia tampoco tiene una entidad separada de viceprimer ministro: según el
+        artículo 8(5) de la ZVRS la función se confiere por el gobierno a uno o varios ministros
+        en ejercicio, y en este gabinete a los de economía e infraestructuras, de modo que no
+        añade ni ministerio ni asiento.
+
+  - id: SI-2026-urad-za-slovence-v-zamejstvu-in-po-svetu
+    order: 16
+    name_original: Urad Vlade Republike Slovenije za Slovence v zamejstvu in po svetu
+    abbreviation_original: null
+    name_en: Government Office for Slovenians Abroad
+    name_es: Oficina del Gobierno para los Eslovenos en el Exterior
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister brez resorja
+    head_title_en: Minister without Portfolio
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    url: https://www.gov.si/drzavni-organi/vladne-sluzbe/urad-vlade-za-slovence-v-zamejstvu-in-po-svetu/
+    sources: [pisrs-zvrs-npb19, ul-872-2026-imenovanje-ministrov, gov-si-vladne-sluzbe, gov-si-government-offices-en, gov-si-about-the-government-en, rtvslo-izvolitev-vlade]
+    note:
+      en: >-
+        A cabinet seat and no ministry, and the reason the seat count is sixteen rather than
+        fifteen. Slovenia is unusual in making a minister without portfolio compulsory: the
+        second paragraph of article 8 of the ZVRS provides that the government "ima ... ministra
+        brez resorja za področje odnosov med Republiko Slovenijo in avtohtono slovensko narodno
+        skupnostjo v sosednjih državah ter med Republiko Slovenijo in Slovenci po svetu", giving
+        effect to article 14(1) of the Zakon o odnosih Republike Slovenije s Slovenci zunaj
+        njenih meja. The post is not optional and not at the Prime Minister's discretion, unlike
+        the up to two further ministers without portfolio the third paragraph permits, of which
+        this cabinet has none. The entity is recorded under the name of the government office
+        the minister heads, because that office is the administrative body and is what gov.si
+        publishes; it is a vladna služba under article 25 of the ZVRS, which expressly allows a
+        vladna služba to be headed by a minister without portfolio. It is not counted as a
+        ministry because article 8(1) does not list the portfolio and section 4 of the Zakon o
+        državni upravi gives the office no article — counting it would make fifteen ministries.
+        The holder is Suzana Lep Šimenko, appointed on 4 June 2026 with the full designation the
+        gazette gives; the government's own English rendering of that designation is "Minister
+        for Relations between the Republic of Slovenia and the Autochthonous Slovenian National
+        Community in Neighbouring Countries, and between the Republic of Slovenia and Slovenians
+        Abroad". No policy area is tagged, because policy areas are only recorded for counted
+        ministries; a reader looking for where diaspora policy sits in Slovenia will find it
+        here rather than in the foreign ministry.
+      es: >-
+        Un asiento en el gabinete y ningún ministerio, y la razón de que los asientos sean
+        dieciséis y no quince. Eslovenia es inusual porque hace obligatorio un ministro sin
+        cartera: el apartado segundo del artículo 8 de la ZVRS establece que el gobierno «ima
+        ... ministra brez resorja za področje odnosov med Republiko Slovenijo in avtohtono
+        slovensko narodno skupnostjo v sosednjih državah ter med Republiko Slovenijo in Slovenci
+        po svetu», dando efecto al artículo 14(1) de la Zakon o odnosih Republike Slovenije s
+        Slovenci zunaj njenih meja. El cargo no es opcional ni queda a discreción del presidente
+        del Gobierno, a diferencia de los hasta dos ministros sin cartera adicionales que
+        permite el apartado tercero, de los que este gabinete no tiene ninguno. La entidad se
+        registra con el nombre de la oficina gubernamental que la ministra dirige, porque esa
+        oficina es el órgano administrativo y es lo que publica gov.si; es una vladna služba del
+        artículo 25 de la ZVRS, que permite expresamente que una vladna služba esté dirigida por
+        un ministro sin cartera. No se cuenta como ministerio porque el artículo 8(1) no enumera
+        la cartera y la sección 4 de la Zakon o državni upravi no dedica ningún artículo a la
+        oficina: contarla daría quince ministerios. La titular es Suzana Lep Šimenko, nombrada
+        el 4 de junio de 2026 con la designación completa que da el boletín oficial; la versión
+        inglesa del propio gobierno de esa designación es «Minister for Relations between the
+        Republic of Slovenia and the Autochthonous Slovenian National Community in Neighbouring
+        Countries, and between the Republic of Slovenia and Slovenians Abroad». No se etiqueta
+        ninguna área de política, porque las áreas sólo se registran para los ministerios
+        contados; quien busque dónde se sitúa la política de diáspora en Eslovenia la
+        encontrará aquí y no en el ministerio de exteriores.
+
+  - id: SI-2026-kabinet-predsednika-vlade
+    order: 17
+    name_original: Kabinet predsednika Vlade Republike Slovenije
+    abbreviation_original: null
+    name_en: Office of the Prime Minister
+    name_es: Gabinete del Presidente del Gobierno
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Direktor
+    head_title_en: Director
+    has_cabinet_seat: false
+    head_count: 1
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: not_headed_by_minister
+    url: https://www.gov.si/drzavni-organi/vladne-sluzbe/kabinet-predsednika-vlade/
+    sources: [pisrs-zvrs-npb19, gov-si-vladne-sluzbe, gov-si-government-offices-en]
+    note:
+      en: >-
+        Recorded so that the perimeter is visible, and excluded on the narrowest available
+        ground. The fifth paragraph of article 25 of the ZVRS constitutes it as a vladna služba
+        — "Kot vladna služba deluje tudi kabinet predsednika vlade" — and provides that where
+        its head is a direktor, the Prime Minister appoints and dismisses him outside the civil
+        service selection procedure. It is therefore not headed by a minister, holds no cabinet
+        seat and is not a ministry: article 8(1) of the ZVRS does not list it and the Zakon o
+        državni upravi gives it no article. Two cautions. First, gov.si's English edition calls
+        it the "Office of the Prime Minister", which reads like the constitutional office of the
+        head of government recorded separately above; the two are different things and are kept
+        apart here. Second, article 24(2) of the ZVRS provides that a state secretary
+        responsible for dialogue with civil society is appointed in the Prime Minister's
+        cabinet — a junior appointment inside this body, not a cabinet seat, and not recorded
+        as an entity of its own.
+      es: >-
+        Se registra para que el perímetro sea visible, y se excluye por el motivo más estricto
+        disponible. El apartado quinto del artículo 25 de la ZVRS lo constituye como vladna
+        služba —«Kot vladna služba deluje tudi kabinet predsednika vlade»— y establece que
+        cuando su titular es un direktor, el presidente del Gobierno lo nombra y lo cesa al
+        margen del procedimiento de selección de la función pública. No está por tanto dirigido
+        por un ministro, no lleva asiento en el gabinete y no es un ministerio: el artículo 8(1)
+        de la ZVRS no lo enumera y la Zakon o državni upravi no le dedica ningún artículo. Dos
+        advertencias. Primera: la edición inglesa de gov.si lo llama «Office of the Prime
+        Minister», que se lee como la oficina constitucional del jefe de gobierno registrada por
+        separado más arriba; son cosas distintas y aquí se mantienen separadas. Segunda: el
+        artículo 24(2) de la ZVRS prevé que en el gabinete del presidente del Gobierno se nombre
+        un secretario de Estado responsable del diálogo con la sociedad civil —un cargo
+        subordinado dentro de este órgano, no un asiento en el gabinete, y no registrado como
+        entidad propia—.
+
+  - id: SI-2026-generalni-sekretariat-vlade
+    order: 18
+    name_original: Generalni sekretariat Vlade Republike Slovenije
+    abbreviation_original: null
+    name_en: Secretariat-General of the Government of the Republic of Slovenia
+    name_es: Secretaría General del Gobierno de la República de Eslovenia
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Generalni sekretar vlade
+    head_title_en: Secretary-General of the Government
+    has_cabinet_seat: false
+    head_count: 1
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: not_headed_by_minister
+    url: https://www.gov.si/drzavni-organi/vladne-sluzbe/generalni-sekretariat-vlade/
+    sources: [pisrs-zvrs-npb19, gov-si-vladne-sluzbe, gov-si-government-offices-en]
+    note:
+      en: >-
+        The administrative apparatus of the government, and the closest Slovenian equivalent of
+        Lithuania's Vyriausybės kanceliarija or the Spanish Ministerio de la Presidencia's
+        secretariat function — but a service and not a department. The third paragraph of
+        article 25 of the ZVRS constitutes it as a vladna služba headed by the generalni
+        sekretar, whom the government appoints and dismisses on the Prime Minister's proposal
+        and who prepares the government's sessions and sees its decisions carried out on the
+        Prime Minister's instructions. The generalni sekretar is not a minister, is not a member
+        of the government and does not sit in the cabinet, so this entity is excluded as
+        not_headed_by_minister and carries no seat; counting it would give fifteen ministries
+        and giving its secretary-general a seat would give seventeen seats, and neither is done
+        here. Compare Finland, where the equivalent body appears in the statutory list of
+        ministries and is counted, and Lithuania, where it is excluded on exactly this ground.
+      es: >-
+        El aparato administrativo del gobierno, y el equivalente esloveno más cercano a la
+        Vyriausybės kanceliarija lituana o a la función de secretaría del Ministerio de la
+        Presidencia español —pero un servicio y no un departamento—. El apartado tercero del
+        artículo 25 de la ZVRS lo constituye como vladna služba dirigida por el generalni
+        sekretar, a quien el gobierno nombra y cesa a propuesta del presidente del Gobierno y
+        que prepara las sesiones del gobierno y vela por la ejecución de sus decisiones según
+        las instrucciones del presidente. El generalni sekretar no es ministro, no es miembro
+        del gobierno y no tiene asiento en el gabinete, de modo que esta entidad se excluye por
+        not_headed_by_minister y no lleva asiento; contarla daría quince ministerios y dar
+        asiento a su secretario general daría diecisiete asientos, y aquí no se hace ni lo uno
+        ni lo otro. Compárese con Finlandia, donde el órgano equivalente figura en la lista
+        legal de ministerios y sí se cuenta, y con Lituania, donde se excluye exactamente por
+        este motivo.

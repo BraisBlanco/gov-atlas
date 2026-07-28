@@ -1,0 +1,2515 @@
+# Croatia — the 16th Government of the Republic of Croatia (third Plenković cabinet).
+#
+# See docs/DATA-CONTRACT.md. Five things worth knowing before reading the list:
+#
+#   1. Croatia enumerates its ministries by statute, in a single numbered list. Article 3 of
+#      the Zakon o ustrojstvu i djelokrugu tijela državne uprave says "Ministarstva jesu:"
+#      and names eighteen. Creating, merging or renaming a Croatian ministry means amending
+#      that article, which is why the count here is a legal fact and not a reading of an
+#      organisation chart.
+#   2. Article 2 of the same Act splits the state administration in two — "Tijela državne
+#      uprave su ministarstva i državne upravne organizacije" — and article 4 names nine
+#      bodies of the second kind. All nine are recorded here and none is counted. That
+#      perimeter decision is the main judgement call in this file and is set out in the
+#      methodology notes.
+#   3. Eighteen ministries, nineteen cabinet seats. The Prime Minister heads no ministry.
+#      Nobody holds two portfolios and there is no minister without portfolio.
+#   4. Seven of the eighteen ministers are also Deputy Prime Ministers. Under the Zakon o
+#      Vladi that is a function attached to a serving minister, not a department, and it adds
+#      neither a ministry nor a seat.
+#   5. The cabinet took office on 17 May 2024, the day the Hrvatski sabor voted it its
+#      confidence and the same day the amended Act creating the eighteen-ministry structure
+#      entered into force. Several individual ministers have been replaced since; under
+#      Croatian law that does not end the Government's mandate, so this is still the sitting
+#      cabinet.
+
+country: HR
+cabinet_id: HR-2024-05-17
+
+cabinet_name_original: 16. Vlada Republike Hrvatske
+cabinet_name_en: 16th Government of the Republic of Croatia
+cabinet_name_es: XVI Gobierno de la República de Croacia
+
+head_of_government_title_original: Predsjednik Vlade Republike Hrvatske
+head_of_government_title_en: Prime Minister
+
+took_office: 2024-05-17
+left_office: null
+
+methodology_notes:
+  - en: >-
+      18 ministries and 19 cabinet seats. The eighteen are exactly the bodies listed in
+      article 3 of the Zakon o ustrojstvu i djelokrugu tijela državne uprave as replaced by
+      the amending Act of 16 May 2024, recorded here in the statute's own order, and each of
+      the eighteen has an article of its own in the same Act setting out its field of
+      activity. The nineteenth seat is the Prime Minister, who heads no department: article 2
+      of the Zakon o Vladi Republike Hrvatske provides that "Vladu čine predsjednik, jedan
+      ili više potpredsjednika i ministri", so the members of the Government are the Prime
+      Minister plus the eighteen ministers, and the Sabor's decision of 17 May 2024 names
+      exactly those nineteen people. The gap between the two figures is therefore one, and it
+      is entirely the Prime Minister. Nobody in this cabinet holds two portfolios and there
+      is no minister without portfolio, so no other adjustment is needed.
+    es: >-
+      18 ministerios y 19 asientos en el gabinete. Los dieciocho son exactamente los órganos
+      enumerados en el artículo 3 de la Zakon o ustrojstvu i djelokrugu tijela državne uprave
+      en la redacción que le dio la ley de modificación de 16 de mayo de 2024, recogidos aquí
+      en el orden de la propia ley, y cada uno de los dieciocho tiene un artículo propio en
+      la misma ley que fija su ámbito de actividad. El asiento decimonoveno es el del
+      presidente del Gobierno, que no encabeza ningún departamento: el artículo 2 de la Zakon
+      o Vladi Republike Hrvatske establece que «Vladu čine predsjednik, jedan ili više
+      potpredsjednika i ministri», de modo que los miembros del Gobierno son el presidente
+      más los dieciocho ministros, y la decisión del Sabor de 17 de mayo de 2024 nombra
+      exactamente a esas diecinueve personas. La diferencia entre las dos cifras es por tanto
+      de uno, y es íntegramente el presidente del Gobierno. Nadie en este gabinete acumula
+      dos carteras y no hay ningún ministro sin cartera, así que no hace falta ningún otro
+      ajuste.
+  - en: >-
+      Where the perimeter is drawn, and why. Article 2 of the enumerating Act divides the
+      state administration into two species: "Tijela državne uprave su ministarstva i državne
+      upravne organizacije." Article 3 lists eighteen bodies of the first kind and article 4
+      nine of the second — two central state offices, the Croatian Firefighting Association,
+      the State Inspectorate, the State Geodetic Administration, the Meteorological and
+      Hydrological Service, the Intellectual Property Office, the Metrology Office and the
+      Bureau of Statistics. All nine are recorded here as entities and none is counted,
+      because they fail the second limb of this project's definition rather than the first:
+      they are unquestionably central-government bodies named in a legal instrument, but
+      article 59 of the Zakon o sustavu državne uprave provides that their heads are a
+      "državni tajnik središnjeg državnog ureda", a "glavni ravnatelj" or a "glavni državni
+      inspektor", whereas article 56 of the same Act says "Čelnik ministarstva je ministar."
+      None of the nine holds ministerial rank, none sits in the Government, and none appears
+      in the Sabor's confidence decision. Recording them rather than omitting them is
+      deliberate: a reader who counts "state administration bodies" in Croatian law will
+      arrive at twenty-seven, and this file shows exactly which nine of those twenty-seven it
+      leaves out and on what statutory ground. The line is drawn at ministerial rank, not at
+      importance: the Central State Office for Croats outside the Republic of Croatia runs
+      what in several other countries in this dataset is a ministry or a minister without
+      portfolio, and it is still not counted here.
+    es: >-
+      Dónde se traza el perímetro y por qué. El artículo 2 de la ley enumeradora divide la
+      administración del Estado en dos especies: «Tijela državne uprave su ministarstva i
+      državne upravne organizacije.» El artículo 3 enumera dieciocho órganos de la primera
+      clase y el artículo 4 nueve de la segunda —dos oficinas centrales del Estado, la
+      Asociación Croata de Bomberos, el Inspectorado del Estado, la Administración Geodésica
+      del Estado, el Servicio Meteorológico e Hidrológico, la Oficina de Propiedad
+      Intelectual, la Oficina de Metrología y la Oficina de Estadística—. Los nueve se
+      registran aquí como entidades y ninguno se cuenta, porque incumplen el segundo requisito
+      de la definición de este proyecto y no el primero: son sin duda órganos del gobierno
+      central nombrados en un instrumento jurídico, pero el artículo 59 de la Zakon o sustavu
+      državne uprave establece que sus titulares son un «državni tajnik središnjeg državnog
+      ureda», un «glavni ravnatelj» o un «glavni državni inspektor», mientras que el artículo
+      56 de la misma ley dice «Čelnik ministarstva je ministar.» Ninguno de los nueve tiene
+      rango ministerial, ninguno se sienta en el Gobierno y ninguno aparece en la decisión de
+      confianza del Sabor. Registrarlos en lugar de omitirlos es deliberado: quien cuente los
+      «órganos de la administración del Estado» en el derecho croata llegará a veintisiete, y
+      este fichero muestra exactamente cuáles nueve de esos veintisiete deja fuera y con qué
+      fundamento legal. La línea se traza en el rango ministerial, no en la importancia: la
+      Oficina Central del Estado para los Croatas fuera de la República de Croacia gestiona lo
+      que en varios otros países de este conjunto de datos es un ministerio o un ministro sin
+      cartera, y aun así no se cuenta aquí.
+  - en: >-
+      Which cabinet is sitting, and why individual replacements do not change the answer.
+      Croatia held a parliamentary election on 17 April 2024; the Hrvatski sabor voted
+      confidence in this Government at its session of 17 May 2024 by the Odluka o iskazivanju
+      povjerenja Vladi Republike Hrvatske, and article 4 of the Zakon o Vladi provides that
+      "Predsjednik i članovi Vlade stupaju na dužnost kad im povjerenje iskaže većina svih
+      zastupnika u Hrvatskom saboru" — so 17 May 2024 is the date this cabinet took office,
+      and it is also the date on which the amended Act creating the present eighteen-ministry
+      structure entered into force. Several of the nineteen people named in that decision
+      have since been replaced: Marko Primorac was succeeded as Minister of Finance by
+      Tomislav Ćorić, Josip Dabro by David Vlajčić at agriculture, Šime Erlić by Nataša Mikuš
+      Žigman at regional development, Marin Piletić by Alen Ružić at labour and Vili Beroš by
+      Irena Hrstić at health. Under article 7 of the Zakon o Vladi the Prime Minister accepts
+      an individual minister's resignation and presents the replacement to the Sabor for a
+      confidence vote on that member alone; the Government's mandate is unaffected and no new
+      cabinet is formed. This file records departments and not people, so the reshuffles
+      change nothing in it — but they are the reason a reader comparing it against a news
+      report of the May 2024 swearing-in will find different names against the same eighteen
+      portfolios.
+    es: >-
+      Qué gabinete está en funciones y por qué las sustituciones individuales no alteran la
+      respuesta. Croacia celebró elecciones parlamentarias el 17 de abril de 2024; el Hrvatski
+      sabor otorgó su confianza a este Gobierno en la sesión del 17 de mayo de 2024 mediante la
+      Odluka o iskazivanju povjerenja Vladi Republike Hrvatske, y el artículo 4 de la Zakon o
+      Vladi establece que «Predsjednik i članovi Vlade stupaju na dužnost kad im povjerenje
+      iskaže većina svih zastupnika u Hrvatskom saboru» —de modo que el 17 de mayo de 2024 es
+      la fecha en que este gabinete tomó posesión, y es también la fecha en que entró en vigor
+      la ley modificada que crea la actual estructura de dieciocho ministerios—. Varias de las
+      diecinueve personas nombradas en aquella decisión han sido sustituidas después: a Marko
+      Primorac le sucedió Tomislav Ćorić en Finanzas, a Josip Dabro David Vlajčić en
+      Agricultura, a Šime Erlić Nataša Mikuš Žigman en Desarrollo Regional, a Marin Piletić
+      Alen Ružić en Trabajo y a Vili Beroš Irena Hrstić en Sanidad. Según el artículo 7 de la
+      Zakon o Vladi, el presidente del Gobierno acepta la renuncia de un ministro individual y
+      presenta al sustituto ante el Sabor para una votación de confianza sobre ese solo
+      miembro; el mandato del Gobierno no se ve afectado y no se forma un nuevo gabinete. Este
+      fichero registra departamentos y no personas, así que las remodelaciones no cambian nada
+      en él —pero son la razón por la que quien lo compare con una crónica de la toma de
+      posesión de mayo de 2024 encontrará nombres distintos frente a las mismas dieciocho
+      carteras—.
+  - en: >-
+      Two of the eighteen ministries did not exist before May 2024, and two central state offices
+      were abolished to make them possible. This is worth knowing because it explains where several
+      policy areas now sit. The amending Act of 16 May 2024 split the Ministarstvo gospodarstva i
+      održivog razvoja into a Ministarstvo gospodarstva and a new Ministarstvo zaštite okoliša i
+      zelene tranzicije, and created a wholly new Ministarstvo demografije i useljeništva; it also
+      renamed the science ministry to add youth and the agriculture ministry to add forestry and
+      fisheries. Its article 14 abolished the Središnji državni ured za razvoj digitalnog društva and
+      the Središnji državni ured za demografiju i mlade, whose enabling provisions — articles 22 and
+      21 of the Act respectively — now read simply "Brisan.", deleted. The digital office's work went
+      to the Ministry of Justice, Administration and Digital Transformation, which is why digital is
+      tagged there, and the demography office's to the new demography ministry. This is also why
+      article 4 now lists nine state administrative organisations where the Act as enacted in 2020
+      listed twelve: the two offices just named were struck out in 2024, and a third, the Središnji
+      državni ured za obnovu i stambeno zbrinjavanje of article 24, had already been removed by the
+      2023 amendment, its post-earthquake reconstruction and housing work passing to the Ministry of
+      Spatial Planning, Construction and State Property. Because this dataset
+      publishes one cabinet per country and the previous cabinet is not in it, all of that is
+      recorded here as background rather than as closed entities with valid_to dates.
+    es: >-
+      Dos de los dieciocho ministerios no existían antes de mayo de 2024, y se suprimieron dos
+      oficinas centrales del Estado para hacerlos posibles. Conviene saberlo porque explica dónde se
+      sitúan ahora varias áreas de política. La ley de modificación de 16 de mayo de 2024 escindió el
+      Ministarstvo gospodarstva i održivog razvoja en un Ministarstvo gospodarstva y un nuevo
+      Ministarstvo zaštite okoliša i zelene tranzicije, y creó un Ministarstvo demografije i
+      useljeništva completamente nuevo; además renombró el ministerio de ciencia para añadir la
+      juventud y el de agricultura para añadir la silvicultura y la pesca. Su artículo 14 suprimió la
+      Središnji državni ured za razvoj digitalnog društva y la Središnji državni ured za demografiju i
+      mlade, cuyas disposiciones habilitantes —los artículos 22 y 21 de la ley, respectivamente—
+      dicen ahora simplemente «Brisan.», suprimido. El trabajo de la oficina digital pasó al
+      Ministerio de Justicia, Administración y Transformación Digital, y de ahí que digital se
+      etiquete allí, y el de la oficina de demografía al nuevo ministerio de demografía. Es también la
+      razón por la que el artículo 4 enumera hoy nueve organizaciones administrativas del Estado donde
+      la ley de 2020 enumeraba doce: las dos oficinas recién citadas se suprimieron en 2024, y una
+      tercera, la Središnji državni ured za obnovu i stambeno zbrinjavanje del artículo 24, había sido
+      ya retirada por la modificación de 2023, pasando su labor de reconstrucción tras los terremotos
+      y de realojo al Ministerio de Ordenación del Territorio, Construcción y Patrimonio del Estado.
+      Como este conjunto
+      de datos publica un gabinete por país y el anterior no figura en él, todo lo anterior se recoge
+      aquí como contexto y no como entidades cerradas con fecha valid_to.
+  - en: >-
+      What rests on the gazette and what rests on a commercial consolidator, stated plainly because
+      the distinction is the difference between a sourced count and a plausible one. Neither figure
+      this dataset publishes depends on any consolidation: the list of eighteen ministries and the
+      list of nine state administrative organisations are quoted verbatim from the gazette (Narodne
+      novine 57/2024, document 982) and the cabinet's size comes from the Sabor's own decision
+      (Narodne novine 60/2024, document 1006). The Act as originally enacted (Narodne novine 85/2020,
+      document 1593) is cited in addition for the ministries whose fields of activity the 2024
+      amendment did not touch. What does rest on the zakon.hr consolidated text alone is a subset of
+      the fields of activity behind the policy-area tags — those of the interior, defence, finance,
+      science, culture, regional development, agriculture, spatial planning and health ministries and
+      of the central state office for Croats abroad — and that is disclosed in the note on that
+      source together with what a future curator would quote to remove the dependency. No count
+      depends on it.
+    es: >-
+      Qué se apoya en el boletín oficial y qué en un consolidador comercial, dicho sin rodeos porque
+      la distinción es la diferencia entre un recuento con fuentes y un recuento verosímil. Ninguna de
+      las dos cifras que publica este conjunto de datos depende de ninguna consolidación: la lista de
+      dieciocho ministerios y la de nueve organizaciones administrativas del Estado se citan
+      textualmente del boletín (Narodne novine 57/2024, documento 982) y el tamaño del gabinete sale
+      de la propia decisión del Sabor (Narodne novine 60/2024, documento 1006). El texto original de
+      la ley (Narodne novine 85/2020, documento 1593) se cita además para los ministerios cuyo ámbito
+      de actividad la modificación de 2024 no tocó. Lo que sí se apoya únicamente en el texto
+      consolidado de zakon.hr es una parte de los ámbitos de actividad que sostienen las etiquetas de
+      área de política —los de los ministerios de Interior, Defensa, Finanzas, Ciencia, Cultura,
+      Desarrollo Regional, Agricultura, Ordenación del Territorio y Sanidad, y el de la oficina
+      central para los croatas en el exterior— y así se declara en la nota de esa fuente, junto con lo
+      que un curador futuro tendría que citar para eliminar esa dependencia. Ningún recuento depende
+      de ello.
+  - en: >-
+      Names, and what "official" means here. Every Croatian name in this file is the statutory
+      one from articles 3 and 4 of the Zakon o ustrojstvu i djelokrugu tijela državne uprave,
+      with the diacritics as the gazette prints them. No English ministry name is marked
+      official, and that is a deliberate restraint rather than an oversight. The Croatian
+      government does publish an English edition of vlada.gov.hr, and its Government Members
+      page gives an official English form of every minister's title — "Minister of Croatian
+      Veterans", "Minister of Economic Affairs", "Minister of Demography and Migration", and so
+      on. What it does not publish anywhere is an English list of the ministries themselves, so
+      the English names here are this project's renderings of the government's own ministerial
+      titles and are marked translated; head_title_en reproduces the government's English title
+      exactly, minus the words "Deputy Prime Minister and" where they appear, because the
+      deputy-premiership is not part of the department's head's office. Two artefacts of the
+      government's own English are preserved in head_title_en and not regularised: it writes
+      serial commas in "Spatial Planning, Construction, and State Property", "Agriculture,
+      Forestry, and Fisheries", "Justice, Administration, and Digital Transformation",
+      "Science, Education, and Youth" and "Labour, Pension System, Family, and Social Policy"
+      but not in "the Sea, Transport and Infrastructure", and it renders "gospodarstvo" as
+      "Economic Affairs" and "useljeništvo" as "Migration". Spanish names throughout are this
+      project's renderings and are marked translated. No abbreviation is recorded for any
+      Croatian ministry: the government does not publish official short forms in the gazette,
+      and the internal-organisation decrees use ad-hoc acronyms that changed with the 2024
+      reorganisation, so inventing one would be a fabrication of exactly the kind this dataset
+      exists to avoid.
+    es: >-
+      Los nombres, y qué significa aquí «oficial». Todos los nombres croatas de este fichero son
+      los legales de los artículos 3 y 4 de la Zakon o ustrojstvu i djelokrugu tijela državne
+      uprave, con los diacríticos tal como los imprime el boletín oficial. Ningún nombre inglés
+      de ministerio lleva la marca official, y es una contención deliberada y no un descuido. El
+      gobierno croata sí publica una edición inglesa de vlada.gov.hr, y su página Government
+      Members da una forma inglesa oficial del título de cada ministro —«Minister of Croatian
+      Veterans», «Minister of Economic Affairs», «Minister of Demography and Migration», etc.—.
+      Lo que no publica en ninguna parte es una lista inglesa de los ministerios mismos, así que
+      los nombres ingleses de aquí son versiones de este proyecto a partir de los títulos
+      ministeriales del propio gobierno y llevan la marca translated; head_title_en reproduce
+      exactamente el título inglés del gobierno, menos las palabras «Deputy Prime Minister and»
+      donde aparecen, porque la vicepresidencia no forma parte del cargo del titular del
+      departamento. Se conservan sin regularizar dos peculiaridades del inglés del propio
+      gobierno: escribe coma serial en «Spatial Planning, Construction, and State Property»,
+      «Agriculture, Forestry, and Fisheries», «Justice, Administration, and Digital
+      Transformation», «Science, Education, and Youth» y «Labour, Pension System, Family, and
+      Social Policy» pero no en «the Sea, Transport and Infrastructure», y traduce
+      «gospodarstvo» por «Economic Affairs» y «useljeništvo» por «Migration». Todos los nombres
+      en español son traducciones de este proyecto y llevan la marca translated. No se registra
+      abreviatura para ningún ministerio croata: el gobierno no publica formas cortas oficiales
+      en el boletín, y los decretos de organización interna usan siglas ad hoc que cambiaron con
+      la reorganización de 2024, de modo que inventar una sería exactamente la clase de
+      fabricación que este conjunto de datos existe para evitar.
+  - en: >-
+      One discrepancy between two versions of the same statutory list, disclosed rather than
+      quietly resolved. The consolidated text published by zakon.hr prints the eighth item of
+      article 3 as "Ministarstvo znanosti i obrazovanja i mladih", with "i" where the gazette
+      has a comma. The gazette itself — the amending Act at Narodne novine 57/2024, item 982 —
+      prints "8. Ministarstvo znanosti, obrazovanja i mladih", and so does article 11 of the
+      same consolidated text, which opens "Ministarstvo znanosti, obrazovanja i mladih obavlja
+      upravne i druge poslove...", and so does the Sabor's confidence decision, which appoints
+      a "ministar znanosti, obrazovanja i mladih". Following the higher-tier source, this file
+      uses the gazette's form and treats the zakon.hr reading as a transcription slip in the
+      consolidator. Both quotations are reproduced in the sources below exactly as each source
+      spells them, so a reader can see the disagreement instead of taking our word for it.
+    es: >-
+      Una discrepancia entre dos versiones de la misma lista legal, declarada y no resuelta en
+      silencio. El texto consolidado que publica zakon.hr imprime el octavo apartado del
+      artículo 3 como «Ministarstvo znanosti i obrazovanja i mladih», con «i» donde el boletín
+      pone una coma. El boletín mismo —la ley de modificación en Narodne novine 57/2024,
+      documento 982— imprime «8. Ministarstvo znanosti, obrazovanja i mladih», y lo mismo hace
+      el artículo 11 de ese mismo texto consolidado, que empieza «Ministarstvo znanosti,
+      obrazovanja i mladih obavlja upravne i druge poslove...», y lo mismo la decisión de
+      confianza del Sabor, que nombra a un «ministar znanosti, obrazovanja i mladih». Siguiendo
+      la fuente de nivel superior, este fichero usa la forma del boletín y trata la lectura de
+      zakon.hr como un error de transcripción del consolidador. Ambas citas se reproducen en las
+      fuentes de más abajo exactamente como las escribe cada fuente, para que el lector vea la
+      discrepancia en lugar de fiarse de nuestra palabra.
+  - en: >-
+      Four policy-area tags sit where a reader would not look for them. Telecommunications is
+      tagged on the Ministry of the Sea, Transport and Infrastructure, not on the ministry whose
+      name contains "digital transformation": article 17 of the Act gives the transport ministry
+      electronic communications, the information society and postal services, and it has held
+      them since 2020. Digital government is tagged on the Ministry of Justice, Administration
+      and Digital Transformation, which since May 2024 manages the digitalisation of the whole
+      state and public administration and the state information infrastructure. Energy and
+      mining are tagged on the Ministry of Economic Affairs, whose statutory remit includes the
+      whole energy sector — electricity, heat, oil, gas, nuclear energy, renewables, hydrocarbon
+      exploration and energy efficiency — and not on the environment ministry, whose name might
+      suggest otherwise; water, by contrast, is on the environment ministry, which holds water
+      management, flood protection, irrigation and public water supply. Religious affairs is
+      tagged on the justice ministry, which holds the legal status and register of religious
+      communities along with political parties, associations and foundations.
+    es: >-
+      Cuatro etiquetas de área de política están donde un lector no las buscaría. Las
+      telecomunicaciones se etiquetan en el Ministerio del Mar, Transporte e Infraestructuras y
+      no en el ministerio cuyo nombre contiene «transformación digital»: el artículo 17 de la ley
+      atribuye al ministerio de transporte las comunicaciones electrónicas, la sociedad de la
+      información y los servicios postales, y las tiene desde 2020. La administración digital se
+      etiqueta en el Ministerio de Justicia, Administración y Transformación Digital, que desde
+      mayo de 2024 gestiona la digitalización de toda la administración estatal y pública y la
+      infraestructura estatal de información. La energía y la minería se etiquetan en el
+      Ministerio de Economía, cuyo ámbito legal incluye todo el sector energético —electricidad,
+      calor, petróleo, gas, energía nuclear, renovables, exploración de hidrocarburos y
+      eficiencia energética— y no en el ministerio de medio ambiente, cuyo nombre podría sugerir
+      lo contrario; el agua, en cambio, está en el ministerio de medio ambiente, que tiene la
+      gestión de las aguas, la protección frente a inundaciones, el riego y el abastecimiento
+      público. Los asuntos religiosos se etiquetan en el ministerio de justicia, que tiene el
+      estatuto jurídico y el registro de las comunidades religiosas junto con los partidos
+      políticos, las asociaciones y las fundaciones.
+  - en: >-
+      Three policy areas are deliberately tagged on two ministries each, and equality is tagged
+      nowhere. The three duplicates are trade, on the Ministry of Foreign and European Affairs for
+      commercial policy and the common commercial policy of the European Union and on the Ministry of
+      Economic Affairs for the internal market and domestic trade; infrastructure, on the Ministry of
+      the Sea, Transport and Infrastructure for transport infrastructure and on the Ministry of
+      Spatial Planning, Construction and State Property as the state's construction and public-works
+      authority; and family, for the reason set out next. In each case the two departments hold
+      different halves of a genuinely split competence under different articles of the enumerating
+      Act, so a comparison view that reports two Croatian ministries for those areas is reporting the
+      structure correctly rather than double-counting. Croatia split
+      family and demographic policy across two ministries in May 2024: the Ministry of Labour,
+      Pension System, Family and Social Policy keeps family law, child protection, protection
+      from domestic violence and the social-care system, while the new Ministry of Demography and
+      Migration was given natality measures, support for parenthood, the reconciliation of work
+      and family life, child allowance and maternity and parental benefits. Both therefore carry
+      the family tag. Equality has no tag on any Croatian
+      ministry because it has no ministry: gender equality sits in the Ured za ravnopravnost
+      spolova, one of the six expert offices article 27 of the Zakon o Vladi requires the
+      Government to establish, and human and minority rights in the Ured za ljudska prava i prava
+      nacionalnih manjina, with a residual competence for minority rights in the justice
+      ministry. Those offices are outside this file's perimeter, which is the two statutory lists
+      of state administration bodies plus the bodies the Zakon o Vladi constitutes inside the
+      Government itself.
+    es: >-
+      Tres áreas de política se etiquetan deliberadamente en dos ministerios cada una, y la igualdad
+      no se etiqueta en ninguno. Los tres duplicados son trade, en el Ministerio de Asuntos
+      Exteriores y Europeos por la política comercial y la política comercial común de la Unión
+      Europea y en el Ministerio de Economía por el mercado interior y el comercio interno;
+      infrastructure, en el Ministerio del Mar, Transporte e Infraestructuras por la infraestructura
+      de transporte y en el Ministerio de Ordenación del Territorio, Construcción y Patrimonio del
+      Estado como autoridad estatal de construcción y obra pública; y family, por la razón que se
+      expone a continuación. En los tres casos los dos departamentos tienen mitades distintas de una
+      competencia realmente repartida al amparo de artículos distintos de la ley enumeradora, de modo
+      que una vista comparativa que informe de dos ministerios croatas en esas áreas está describiendo
+      bien la estructura y no contando dos veces. Croacia repartió la política familiar y demográfica
+      entre dos ministerios en
+      mayo de 2024: el Ministerio de Trabajo, Sistema de Pensiones, Familia y Política Social
+      conserva el derecho de familia, la protección de la infancia, la protección frente a la
+      violencia doméstica y el sistema de servicios sociales, mientras que al nuevo Ministerio de
+      Demografía e Inmigración se le atribuyeron las medidas de natalidad, el apoyo a la
+      parentalidad, la conciliación de la vida laboral y familiar, la prestación por hijo y las
+      prestaciones de maternidad y parentalidad. Ambos llevan por tanto la etiqueta family. La
+      igualdad no se etiqueta en ningún ministerio
+      croata porque no tiene ministerio: la igualdad de género reside en la Ured za ravnopravnost
+      spolova, una de las seis oficinas especializadas que el artículo 27 de la Zakon o Vladi
+      obliga al Gobierno a crear, y los derechos humanos y de las minorías en la Ured za ljudska
+      prava i prava nacionalnih manjina, con una competencia residual sobre derechos de las
+      minorías en el ministerio de justicia. Esas oficinas quedan fuera del perímetro de este
+      fichero, que es el de las dos listas legales de órganos de la administración del Estado más
+      los órganos que la Zakon o Vladi constituye dentro del Gobierno mismo.
+  - en: >-
+      What a future curator should re-check, in order of likelihood. First, whether article 3 has
+      been amended: Croatia amends this Act often — 85/2020, 21/2023, 57/2024 in four years — and
+      a single amending act can change the count overnight. As at 28 July 2026 the consolidated
+      text still reflected only those three publications, and the consolidator's database was
+      current to Narodne novine 53/2026, so no fourth amendment existed. Second, whether the
+      Government is still the same one: the next regular parliamentary election is due in 2028,
+      but article 6 of the Zakon o Vladi makes the whole Government resign with its Prime
+      Minister, so a resignation would end this cabinet and require a new file. Third, the
+      ministry web addresses, which were reassigned wholesale after the 2024 split of the
+      economy and environment portfolios and are the least durable field here. Fourth, the
+      English names, which would become official rather than translated the day vlada.gov.hr
+      publishes an English index of ministries rather than only of ministers.
+    es: >-
+      Qué debería volver a comprobar un curador futuro, por orden de probabilidad. Primero, si el
+      artículo 3 ha sido modificado: Croacia modifica esta ley con frecuencia —85/2020, 21/2023,
+      57/2024 en cuatro años— y una sola ley de modificación puede cambiar el recuento de un día
+      para otro. A 28 de julio de 2026 el texto consolidado seguía reflejando sólo esas tres
+      publicaciones, y la base del consolidador estaba actualizada hasta Narodne novine 53/2026,
+      así que no existía una cuarta modificación. Segundo, si el Gobierno sigue siendo el mismo:
+      las próximas elecciones parlamentarias ordinarias corresponden a 2028, pero el artículo 6
+      de la Zakon o Vladi hace que todo el Gobierno dimita con su presidente, de modo que una
+      renuncia pondría fin a este gabinete y exigiría un fichero nuevo. Tercero, las direcciones
+      web de los ministerios, reasignadas en bloque tras la escisión de 2024 de las carteras de
+      economía y medio ambiente, y el campo menos duradero de este fichero. Cuarto, los nombres
+      ingleses, que pasarían de translated a official el día en que vlada.gov.hr publique un
+      índice inglés de ministerios y no sólo de ministros.
+
+sources:
+  - id: nn-57-2024-982
+    tier: 1
+    type: official_gazette
+    publisher: Narodne novine — službeni list Republike Hrvatske
+    title: >-
+      Zakon o izmjenama i dopunama Zakona o ustrojstvu i djelokrugu tijela državne uprave,
+      Narodne novine br. 57/2024 od 16. svibnja 2024., dokument 982
+    url: https://narodne-novine.nn.hr/clanci/sluzbeni/2024_05_57_982.html
+    archive_url: https://web.archive.org/web/20260209184834/https://narodne-novine.nn.hr/clanci/sluzbeni/2024_05_57_982.html
+    lang: hr
+    published: 2024-05-16
+    accessed: 2026-07-28
+    quote: |-
+      ZAKON
+      O IZMJENAMA I DOPUNAMA ZAKONA O USTROJSTVU I DJELOKRUGU TIJELA DRŽAVNE UPRAVE
+      Članak 1.
+      U Zakonu o ustrojstvu i djelokrugu tijela državne uprave (»Narodne novine«, br. 85/20. i 21/23.) članak 3. mijenja se i glasi:
+      »Ministarstva jesu:
+      1. Ministarstvo vanjskih i europskih poslova
+      2. Ministarstvo unutarnjih poslova
+      3. Ministarstvo obrane
+      4. Ministarstvo financija
+      5. Ministarstvo gospodarstva
+      6. Ministarstvo zaštite okoliša i zelene tranzicije
+      7. Ministarstvo pravosuđa, uprave i digitalne transformacije
+      8. Ministarstvo znanosti, obrazovanja i mladih
+      9. Ministarstvo demografije i useljeništva
+      10. Ministarstvo kulture i medija
+      11. Ministarstvo turizma i sporta
+      12. Ministarstvo regionalnoga razvoja i fondova Europske unije
+      13. Ministarstvo rada, mirovinskoga sustava, obitelji i socijalne politike
+      14. Ministarstvo poljoprivrede, šumarstva i ribarstva
+      15. Ministarstvo mora, prometa i infrastrukture
+      16. Ministarstvo prostornoga uređenja, graditeljstva i državne imovine
+      17. Ministarstvo hrvatskih branitelja
+      18. Ministarstvo zdravstva.«.
+      Članak 2.
+      Članak 4. mijenja se i glasi:
+      »Državne upravne organizacije jesu:
+      1. Središnji državni ured za središnju javnu nabavu
+      2. Središnji državni ured za Hrvate izvan Republike Hrvatske
+      3. Hrvatska vatrogasna zajednica
+      4. Državni inspektorat
+      5. Državna geodetska uprava
+      6. Državni hidrometeorološki zavod
+      7. Državni zavod za intelektualno vlasništvo
+      8. Državni zavod za mjeriteljstvo
+      9. Državni zavod za statistiku.«.
+      Članak 3.
+      Članak 9. mijenja se i glasi:
+      »Ministarstvo gospodarstva obavlja upravne i druge poslove koji se odnose na: razvoj i unapređenje konkurentnosti hrvatskoga gospodarstva s posebnim naglaskom na poticanje investicija, instrumente i mjere gospodarske politike, industrijsku politiku, politiku primjene inovacija i novih tehnologija, obavlja poslove koji se odnose na rudarstvo, sudjeluje u politikama razvoja iz područja prerađivačke, drvoprerađivačke i prehrambene industrije, upravlja jamstvenim fondom za unapređenje industrije, obavlja poslove vezane uz poticanje stvaralaštva u industriji i trgovini u svrhu razvoja konkurentnosti hrvatskoga gospodarstva, strategiju olakšavanja i poticanja ulaganja i izvoza, utvrđivanje i razradu metodologije za mjerenje i ciljano smanjenje administrativnog opterećenja gospodarstva (Standard Cost Model) te je središnje koordinacijsko tijelo za primjenu pravila postupanja i kontrolu kvalitete primjene ove metodologije, promiče gospodarski rast i konkurentnost kroz bilateralnu gospodarsku suradnju, u tijelima Europske unije i na drugim međunarodnim forumima na temelju međunarodnih obveza Republike Hrvatske, programa i strategija Vlade te prioriteta Ministarstva.
+      Ministarstvo obavlja upravne, stručne i druge poslove koji se odnose na djelatnost trgovine na unutarnjem tržištu Europske unije, opskrbu i cijene, nacionalnu koordinaciju aktivnosti djelovanja na unutarnjem tržištu Europske unije, uključujući tehničko zakonodavstvo i infrastrukturu kvalitete, koordinaciju i razvoj nacionalne politike u području normizacije, akreditacije, ocjene sukladnosti, mjeriteljstva i tržišnog natjecanja, stanje i pojave na tržištu, zaštitu potrošača, strateške robne zalihe.
+      […]
+      Ministarstvo obavlja upravne i druge poslove iz područja energetike i istraživanja i eksploatacije ugljikovodika i geotermalnih voda za energetske svrhe, izrađuje prijedloge zakona i propisa iz područja energetike (električne energije, toplinske energije, nafte, naftnih derivata, prirodnog plina, nuklearne energetike, obnovljivih izvora energije, istraživanja i eksploatacije ugljikovodika, energetske učinkovitosti), planira i predlaže strategiju energetskog razvitka te programe i mjere za njezinu provedbu, radi na stvaranju uvjeta za provedbu energetske politike Republike Hrvatske odnosno strategije energetskog razvoja Republike Hrvatske, prati i analizira ostvarivanje ciljeva energetske politike i strategije, predlaže mjere za usklađivanje razvoja energetskog sektora s razvojnim planovima Republike Hrvatske, koordinira poslove u vezi s gospodarenjem energijom, analizira i ocjenjuje planove razvoja elektroenergetskog, plinskog i naftnog sektora te sektora toplinarstva, prati tržište i potiče razvoj tržišta energije u Republici Hrvatskoj, potiče konkurentnost energetskog sektora, promovira ulaganja u energetski sektor, sudjeluje u izradi energetskih bilanci, prati i analizira potrošnju primarnih energenata u Republici Hrvatskoj i svijetu radi predviđanja potrošnje primarnih energenata, izrađuje energetsko-gospodarske analize i s tim u vezi dugoročne i godišnje energetske bilance, prati proizvodnju, potrošnju, promet, uvoz i izvoz energenata, prati planiranje i izgradnju energetskih objekata te njihov utjecaj na okoliš, prati obavljanje tehničko-sigurnosnih analiza i prosudbi, predlaže pokretanje nacionalnih energetskih programa za osiguravanje dugoročnih razvojnih ciljeva, izrađuje programe za učinkovitije korištenje energije i njihovu provedbu, odobrava planove razvoja plinskog i elektroenergetskog sustava, sudjeluje u izradi tarifnog pravilnika te vodi i sudjeluje u programima i projektima međunarodne suradnje, provodi upravni nadzor u područjima elektroenergetskog, plinskog, naftnog i sektora toplinarstva te istraživanja i eksploatacije ugljikovodika i geotermalnih voda za energetske svrhe, koordinira, prati, usklađuje i surađuje u provedbi mjera energetske politike u okviru sektorskih politika (zaštita okoliša i prirode, industrija, promet, šumarstvo, vodno gospodarstvo, graditeljstvo i dr.), izdaje energetska odobrenja za izgradnju postrojenja za proizvodnju energije, surađuje s drugim tijelima o pitanju zaštite potrošača i zaštite socijalno ugroženih skupina u energetskom sektoru.
+      […]
+      Članak 4.
+      Iza članka 9. dodaje se članak 9.a koji glasi:
+      »Članak 9.a
+      Ministarstvo zaštite okoliša i zelene tranzicije obavlja upravne i stručne poslove koji se odnose na: opću i sektorsku politiku zaštite okoliša u ostvarivanju uvjeta za održivi razvitak, gospodarenje otpadom, zaštitu zraka, tla, voda, mora, biljnog i životinjskog svijeta u ukupnosti uzajamnog djelovanja, osiguravanje praćenja stanja onečišćenja zraka, tla, voda i morskog okoliša te osiguravanje provedbe mjera radi sprečavanja onečišćavanja zraka, tla, voda i morskog okoliša, osiguravanje praćenja stanja te osiguravanje provedbe mjera radi sprečavanja svjetlosnog onečišćenja okoliša; prati stanje u vezi s uzrocima promjene klime i oštećenja ozonskog sloja, skrbi o provedbi mjera ublažavanja i prilagodbe klimatskim promjenama te provodi mjere za smanjivanje tvari koje oštećuju ozonski sloj i fluoriranih stakleničkih plinova, promiče zelenu javnu nabavu, izrađuje prijedloge zakona i propisa iz područja zaštite okoliša (zaštite zraka, tla, mora, zaštite klime i ozonskog sloja i zaštite od svjetlosnog onečišćenja okoliša); planira i predlaže strategiju niskougljičnog razvoja, strategiju prilagodbe klimatskim promjenama, strategiju održivog razvoja, strategiju upravljanja morskim okolišem i obalnim područjem te planove, programe i mjere za njihovu provedbu te provedbu mjera zaštite; obavlja poslove koji se odnose na izradu prijedloga mjera za unapređenje stanja u području zaštite okoliša, provedbu ciljeva zaštite okoliša utvrđenih planskim i strateškim dokumentima zaštite okoliša, predlaganje, promicanje i praćenje mjera za unapređivanje zaštite okoliša, provedbu procjene utjecaja na okoliš, osiguravanje provedbe Registra onečišćavanja okoliša, sustavno praćenje stanja okoliša (monitoring), nadzor i usmjeravanje razvoja informacijskog sustava zaštite okoliša, utvrđivanje mjera, uvjeta i suglasnosti zaštite okoliša, skrb, usklađivanje i vođenje nadzora nad financiranjem programa zaštite okoliša, gospodarenje otpadom, izradu i provedbu planskih dokumenata u gospodarenju otpadom, pripremu prijedloga standarda zaštite okoliša, ocjenjivanje uvjeta za rad pravnih i fizičkih osoba iz područja zaštite okoliša, ostvarivanje međunarodne suradnje u zaštiti okoliša, određivanje strateških odrednica održivog razvitka po konceptu zelenog gospodarstva radi poticanja stvaranja dodane vrijednosti u sektoru energetike, transporta i turizma, utvrđivanje politike djelovanja i obavljanje upravnoga nadzora i nadzora nad stručnim radom Fonda za zaštitu okoliša i energetsku učinkovitost te obavlja druge upravne poslove iz područja zaštite okoliša.
+      […]
+      Ministarstvo obavlja upravne i druge poslove koji se odnose na: upravljanje vodama, praćenje i prilagođavanje vodnogospodarskog razvitka s potrebama ukupnog gospodarskog razvitka Republike Hrvatske, zaštitu od štetnog djelovanja voda i leda, zaštitu od erozije i bujica, upravljanje vodnim dobrom i njegovo korištenje, navodnjavanje i melioracijsku odvodnju, provedbu zaštite voda i vodnog okoliša od onečišćenja, provedbu zaštite mora od onečišćenja s kopna, korištenje voda za različite namjene, djelatnosti javne vodoopskrbe i javne odvodnje i pročišćavanje otpadnih voda, planiranje i usklađivanje razvoja vodnih građevina, provođenje upravnog nadzora iz područja upravljanja vodama, međunarodnu suradnju.
+      […]
+      Članak 5.
+      Članak 10. mijenja se i glasi:
+      […]
+      Ministarstvo upravlja procesom digitalizacije u svim tijelima državne i javne uprave; usuglašava politike i ciljeve procesa digitalizacije s nadležnim tijelima, obavlja nadzor provedbe strateški važnih ciljeva procesa digitalizacije.
+      […]
+      Članak 7.
+      Iza članka 11. dodaje se članak 11. a koji glasi:
+      »Članak 11. a
+      Ministarstvo demografije i useljeništva obavlja stručne i druge poslove koji se odnose na praćenje i analizu demografskih trendova i kretanja u Republici Hrvatskoj, posebice promjene u broju stanovnika, prirodnom kretanju stanovništva migracijama i strukturi stanovništva; predlaže mjere usmjerene na porast nataliteta, uravnoteženje dobne strukture, održanje prostorne ravnoteže stanovništva; predlaže mjere za poticanje ostanka u Hrvatskoj, mjere podrške roditeljstvu te mjere usmjerene na usklađivanje obiteljskog i profesionalnog života; nadzor i praćenje primjene propisa o doplatku za djecu, rodiljnim i roditeljskim dopustima i naknadama, pomoći za opremu novorođenog djeteta; usklađuje rad državnih i ostalih tijela pri ostvarivanju aktivnosti demografskog razvitka i populacijske politike; predlaže Vladi Republike Hrvatske promjene zakona i drugih propisa iz područja demografske politike; obavlja poslove usmjerene na podizanje svijesti i edukaciju građana o važnosti demografskih pitanja i revitalizacije stanovništva; pruža potporu lokalnoj i regionalnoj (područnoj) samoupravi te organizacijama civilnoga društva u razradbi vlastitih programa usmjerenih na demografski razvitak.
+      Ministarstvo u suradnji s drugim nadležnim tijelima obavlja poslove koji se odnose na stvaranje uvjeta za povratak i useljavanje pripadnika hrvatskog iseljeništva (dijaspore) u Republiku Hrvatsku i njihovo uključivanje u gospodarski i društveni život u Republici Hrvatskoj; predlaže politiku poticanja i pomoći povratka i useljavanja pripadnika hrvatskog iseljeništva; provodi mjere i programe za integraciju povratnika i useljenika iz hrvatskog iseljeništva.
+      […]
+      Članak 8.
+      U članku 16. stavku 1. iza riječi: »Ministarstvo poljoprivrede«, stavlja se zarez i dodaju riječi: »šumarstva i ribarstva«.
+      Članak 9.
+      Članak 21. briše se.
+      Članak 10.
+      Članak 22. briše se.
+      Članak 14.
+      Danom stupanja na snagu ovoga Zakona prestaju s radom Središnji državni ured za razvoj digitalnog društva i Središnji državni ured za demografiju i mlade.
+      Članak 17.
+      Vlada Republike Hrvatske će u roku od 30 dana od dana stupanja na snagu ovoga Zakona uredbama urediti unutarnje ustrojstvo Ministarstva gospodarstva, Ministarstva pravosuđa, uprave i digitalne transformacije, Ministarstva znanosti, obrazovanja i mladih, Ministarstva poljoprivrede, šumarstva i ribarstva, Ministarstva zaštite okoliša i zelene tranzicije, Ministarstva demografije i useljeništva i Središnjeg državnog ureda za Hrvate izvan Republike Hrvatske.
+      Članak 20.
+      Ovaj Zakon stupa na snagu prvoga dana od dana objave u »Narodnim novinama«.
+    note: >-
+      The enumerating instrument, and the reason Croatia's ministry count is a legal fact.
+      Article 1 replaces the whole of article 3 of the Zakon o ustrojstvu i djelokrugu tijela
+      državne uprave, which is where Croatia lists its ministries, and the eighteen numbered
+      items in that article are the eighteen ministries counted in this file; article 2 does
+      the same for article 4 and the nine državne upravne organizacije recorded here and not
+      counted. The Act was passed by the Hrvatski sabor on 16 May 2024, promulgated by
+      President Zoran Milanović the same day, published in Narodne novine 57/2024 dated 16 May
+      2024 and, under its article 20, entered into force on the first day after publication —
+      17 May 2024, the very day the Sabor voted confidence in this Government, which is what
+      makes the eighteen-ministry structure the one the incoming ministers were confirmed into.
+      Beyond those two lists the quotation reproduces the passages that carry the contested
+      policy-area tags, each under the amending Act's own article number so that a reader can see
+      which provision of the old Act it rewrites: article 3 replaces article 9 and is the
+      authority for tagging energy and mining on the Ministry of Economic Affairs; article 4
+      inserts article 9.a and is the authority for environment, climate and water on the Ministry
+      of Environment and Green Transition; article 5 replaces article 10 and is the authority for
+      digital on the justice ministry; article 7 inserts article 11.a and is the authority for
+      family and diaspora on the new Ministry of Demography and Migration. Article 8 is the
+      one-line rename of the agriculture ministry, articles 9 and 10 delete articles 21 and 22,
+      and article 14 abolishes the two central state offices whose work was absorbed. Article 17
+      names the six bodies whose internal organisation had to be re-decreed and is the shortest
+      evidence of what actually changed. Omissions inside a quoted article are marked […] and no
+      sentence is cut short; paragraphs on public procurement, nature protection, EU-fund
+      programmes, staff and budget transfers and the rewritten article 25 are left out for length.
+      Where an omission falls at the end of a quoted article the closing guillemet of the amended
+      text falls inside it, which is why articles 3, 4, 5 and 7 end on […] rather than on «.«. The
+      gazette's HTML
+      inserts soft hyphens at the print edition's line breaks ("digitalne trans­formacije");
+      they are stripped here and nothing else is altered. ELI identifier
+      /eli/sluzbeni/2024/57/982.
+
+  - id: nn-85-2020-1593
+    tier: 1
+    type: official_gazette
+    publisher: Narodne novine — službeni list Republike Hrvatske
+    title: >-
+      Zakon o ustrojstvu i djelokrugu tijela državne uprave, Narodne novine br. 85/2020 od
+      22. srpnja 2020., dokument 1593
+    url: https://narodne-novine.nn.hr/clanci/sluzbeni/2020_07_85_1593.html
+    archive_url: https://web.archive.org/web/20251117185722/https://narodne-novine.nn.hr/clanci/sluzbeni/2020_07_85_1593.html
+    lang: hr
+    published: 2020-07-22
+    accessed: 2026-07-28
+    quote: |-
+      ZAKON
+      O USTROJSTVU I DJELOKRUGU TIJELA DRŽAVNE UPRAVE
+      Članak 1.
+      Ovim Zakonom ustrojavaju se tijela državne uprave te se utvrđuje njihov djelokrug.
+      Članak 2.
+      Tijela državne uprave su ministarstva i državne upravne organizacije.
+      Članak 5.
+      […]
+      Ministarstvo obavlja upravne i stručne poslove koji se odnose na trgovinsku politiku, posebice na sudjelovanje i zastupanje hrvatskih interesa u tijelima Europske unije u procesu usvajanja zajedničke trgovinske politike i trgovinskih mjera u području trgovine robom i uslugama; usklađivanje aktivnosti u vezi s članstvom Republike Hrvatske u Svjetskoj trgovinskoj organizaciji i sudjelovanje u multilateralnim trgovinskim pregovorima u okviru ove organizacije; provođenje mjera trgovinske politike; vođenje pregovora o ugovorima o poticanju i zaštiti ulaganja i bilateralnih sporazuma o gospodarskoj suradnji.
+      […]
+      Članak 13.
+      […]
+      Ministarstvo obavlja upravne i stručne poslove koji se odnose na razvoj sporta, bavljenje sportom i tjelesnom kulturom, unapređenje rekreativnog, zdravstvenog, školskog, sveučilišnog, amaterskog, profesionalnog, natjecateljskog i promotivnog značaja sporta i sportaša, predlaganje i provođenje propisa o organizaciji i djelovanju sporta, sportskih klubova, udruga i saveza, financiranje sportskih programa i programa razvoja sporta, stručne poslove u pitanjima unapređenja sportskih djelatnosti, kategorizaciji sportova i sportaša, predlaganje i provođenje propisa o zdravstvenim, obrazovnim, radnim, mirovinskim i drugim oblicima potpore i priznanja vrhunskim sportašima, predlaganje nacionalnog programa razvoja sporta i ukupan upravni i inspekcijski nadzor sportskih djelatnosti; sudjeluje u pripremi programa i projekata te provedbi projekata iz programa Europske unije i ostalih oblika međunarodne pomoći.
+      […]
+      Članak 15.
+      Ministarstvo rada, mirovinskoga sustava, obitelji i socijalne politike obavlja upravne i druge poslove koji se odnose na: politiku zapošljavanja, uređivanje radnih odnosa; tržište rada i aktivnu politiku zapošljavanja; programe radnih prekvalifikacija i povećanja zapošljivosti; sustav i politiku mirovinskoga osiguranja, evidenciju nezaposlenosti i pomoć pri zapošljavanju; socijalno partnerstvo i odnose sa sindikatima i udrugama poslodavaca u području radnopravnih odnosa, tržišta rada i zapošljavanja; radnopravni status hrvatskih državljana zaposlenih u inozemstvu i poslove vezane uz njihov povratak i zapošljavanje u zemlji; radnopravni status stranih državljana zaposlenih u Republici Hrvatskoj; unapređenje sustava zaštite na radu; međunarodnu suradnju na području rada i zapošljavanja.
+      […]
+      Ministarstvo obavlja upravne i stručne poslove koji se odnose na: brak i bračne odnose te posebnu zaštitu obitelji u kojima su narušeni međusobni odnosi; zaštitu od nasilja u obitelji; međusobne odnose roditelja i djece; zaštitu djece čiji roditelji žive odvojeno, zaštitu djece bez odgovarajuće roditeljske skrbi, poticanje odgovornog roditeljstva, uzdržavanja i skrbi o članovima obitelji; poticanje razvoja programa rada u zajednici, razvoja i afirmacije volonterstva i rada udruga građana koje su potpora roditeljima, obitelji, djeci, djeci s teškoćama u razvoju i starijim osobama te svim socijalno osjetljivim skupinama stanovništva; poticanje i osnivanje savjetovališta za djecu, roditelje, djecu s teškoćama u razvoju, starije osobe i žrtve obiteljskog nasilja te obavljanje stručnog i inspekcijskog nadzora nad njihovim radom; proučavanje i istraživanje suvremenih problema obitelji, djece, djece s teškoćama u razvoju i starijih osoba te pružanje preventivno-terapijske pomoći.
+      […]
+      Članak 17.
+      Ministarstvo mora, prometa i infrastrukture obavlja upravne i druge poslove koji se odnose na: unutarnji i međunarodni pomorski, nautički, cestovni, željeznički, kombinirani i zračni promet; žičare te promet na unutarnjim vodama s infrastrukturom tih vidova prometa; planiranje, izradu i provedbu strateških dokumenata i projekata prometne infrastrukture, predlaže strategiju razvoja svih vidova prometa; zaštitu mora od onečišćenja s brodova; morske luke, pomorsko dobro i utvrđivanje granica pomorskog dobra, pomorsko osiguranje i pomorske agencije; luke na unutarnjim plovnim putovima; kopnene robno-transportne centre; zračne luke; prijevozna sredstva, osim onih poslova koji ulaze u djelokrug rada drugih ministarstava i pravnih osoba s javnim ovlastima, elektroničke komunikacije (telekomunikacije i radijske komunikacije) i poštanske usluge; inspekcijske poslove: sigurnosti plovidbe na moru, unutarnjeg i međunarodnog cestovnog prometa i cesta, osim poslova iz djelokruga Ministarstva unutarnjih poslova, sigurnosti željezničkog prometa, sigurnosti žičara, sigurnosti plovidbe na unutarnjim vodama.
+      […]
+      Ministarstvo obavlja upravne, stručne i druge poslove koji se odnose na: elektroničke komunikacije, informacijsko društvo, osim poslova iz tih područja koji su u nadležnosti drugih tijela državne uprave i poštanske usluge, pripremanje nacrta prijedloga zakona i drugih propisa iz područja elektroničkih komunikacija i poštanskih usluga, radijske opreme i elektromagnetske kompatibilnosti, predlaganje strategija, strateških planova, studija, smjernica i programa razvoja elektroničkih komunikacija i poštanskih usluga u Republici Hrvatskoj te planova za njihovu provedbu, izradu analiza i izvješća te prijedloga mjera i planova za razvoj i poboljšanje stanja u području elektroničkih komunikacija i poštanskih usluga, predstavljanje Republike Hrvatske u europskim i međunarodnim organizacijama i institucijama u području elektroničkih komunikacija, informacijskog društva i poštanskih usluga te sudjelovanje u radu njihovih upravnih i radnih tijela i stručnih skupina, sudjelovanje na međudržavnim sastancima i pregovorima iz područja elektroničkih komunikacija, informacijskog društva i poštanskih usluga te provedbu međunarodnih ugovora, sporazuma i konvencija iz ovih područja.
+      […]
+      Članak 19.
+      Ministarstvo hrvatskih branitelja obavlja upravne i druge poslove koji se odnose na pravni položaj, rješavanje pravnog položaja, statusa i drugih pitanja hrvatskih branitelja iz Domovinskog rata, hrvatskih ratnih vojnih invalida iz Domovinskog rata, hrvatskih branitelja iz Domovinskog rata i članova njihovih obitelji, statusa člana obitelji smrtno stradalog i nestalog hrvatskog branitelja iz Domovinskog rata, osim poslova koji ulaze u djelokrug drugih ministarstava, kao i upravne i druge poslove koji se odnose na zaštitu civilnih žrtava iz Domovinskog rata, zaštitu sudionika Drugog svjetskog rata, zaštitu vojnih i civilnih invalida Drugog svjetskog rata, zaštitu osoba stradalih u obavljanju obvezne vojne službe od 15. svibnja 1945. nadalje i članova njihovih obitelji, ratnih vojnih invalida stradalih pri obavljanju vojnih i redarstvenih dužnosti u stranoj zemlji u okviru mirovnih snaga i mirovnih misija ako ih je na tu dužnost uputilo nadležno tijelo u okviru međunarodnih obveza nakon 15. svibnja 1945. i članova njihovih obitelji.
+      […]
+    note: >-
+      The Act as originally enacted and published in the gazette, cited for the fields of
+      activity of the ministries that the 2024 amendment left untouched. Most of the substantive
+      articles were never amended, so for those ministries this is the gazette text still in force
+      and the policy-area tags do not have to rely on a commercial consolidation. The quotation
+      takes articles 1 and 2 — which establish the two-species division of the state administration
+      that this file's perimeter follows — and then the paragraphs behind four tag decisions: the
+      trade-policy paragraph of article 5, which is why trade is tagged on the foreign ministry;
+      the sport paragraph of article 13; the first and third paragraphs of article 15, which are
+      why labour, social_security, social_affairs, family, disability and elderly are all tagged on
+      one department; and the first and third paragraphs of article 17, which are why
+      telecommunications is tagged on the Ministry of the Sea, Transport and Infrastructure — the
+      first names "elektroničke komunikacije (telekomunikacije i radijske komunikacije) i poštanske
+      usluge" among that ministry's subjects and the third gives it the whole
+      electronic-communications and postal legislative and international remit. Article 19 is
+      quoted for the veterans ministry. Omissions are marked […] and no sentence is cut short.
+      Articles 3 and 4 of this original text are deliberately not quoted, because both were
+      replaced in 2024 and quoting the superseded lists here would invite a reader to count the
+      wrong ministries; the lists in force are in the amending Act above. ELI identifier
+      /eli/sluzbeni/2020/85/1593.
+
+  - id: zakon-hr-zudtdu-procisceni
+    tier: 1
+    type: statute
+    publisher: >-
+      Zakon.hr — pravni portal (neslužbeni pročišćeni tekst); izvorni tekstovi objavljeni u
+      Narodnim novinama
+    title: >-
+      Zakon o ustrojstvu i djelokrugu tijela državne uprave, pročišćeni tekst (NN 85/20,
+      21/23, 57/24)
+    url: https://www.zakon.hr/z/2653/zakon-o-ustrojstvu-i-djelokrugu-tijela-drzavne-uprave
+    archive_url: https://web.archive.org/web/20260515231716/https://www.zakon.hr/z/2653/zakon-o-ustrojstvu-i-djelokrugu-tijela-drzavne-uprave
+    lang: hr
+    published: 2024-05-17
+    accessed: 2026-07-28
+    quote: |-
+      Zakon o ustrojstvu i djelokrugu tijela državne uprave
+      NN 85/20, 21/23, 57/24
+      na snazi od 17.05.2024.
+      Članak 1.
+      Ovim Zakonom ustrojavaju se tijela državne uprave te se utvrđuje njihov djelokrug.
+      Članak 2.
+      Tijela državne uprave su ministarstva i državne upravne organizacije.
+      Članak 3. (NN 85/20, 57/24)
+      Ministarstva jesu:
+      1. Ministarstvo vanjskih i europskih poslova
+      2. Ministarstvo unutarnjih poslova
+      3. Ministarstvo obrane
+      4. Ministarstvo financija
+      5. Ministarstvo gospodarstva
+      6. Ministarstvo zaštite okoliša i zelene tranzicije
+      7. Ministarstvo pravosuđa, uprave i digitalne transformacije
+      8. Ministarstvo znanosti i obrazovanja i mladih
+      9. Ministarstvo demografije i useljeništva
+      10. Ministarstvo kulture i medija
+      11. Ministarstvo turizma i sporta
+      12. Ministarstvo regionalnoga razvoja i fondova Europske unije
+      13. Ministarstvo rada, mirovinskoga sustava, obitelji i socijalne politike
+      14. Ministarstvo poljoprivrede, šumarstva i ribarstva
+      15. Ministarstvo mora, prometa i infrastrukture
+      16. Ministarstvo prostornoga uređenja, graditeljstva i državne imovine
+      17. Ministarstvo hrvatskih branitelja
+      18. Ministarstvo zdravstva.
+      Članak 4. (NN 85/20, 21/23, 57/24)
+      Državne upravne organizacije jesu:
+      1. Središnji državni ured za središnju javnu nabavu
+      2. Središnji državni ured za Hrvate izvan Republike Hrvatske
+      3. Hrvatska vatrogasna zajednica
+      4. Državni inspektorat
+      5. Državna geodetska uprava
+      6. Državni hidrometeorološki zavod
+      7. Državni zavod za intelektualno vlasništvo
+      8. Državni zavod za mjeriteljstvo
+      9. Državni zavod za statistiku
+      Članak 10. (NN 85/20, 57/24)
+      Ministarstvo vrši nadzor nad obavljanjem poslova uprave u tijelima sudbene vlasti, državnom odvjetništvu te u kaznenim tijelima.
+      Ministarstvo upravlja procesom digitalizacije u svim tijelima državne i javne uprave; usuglašava politike i ciljeve procesa digitalizacije s nadležnim tijelima, obavlja nadzor provedbe strateški važnih ciljeva procesa digitalizacije.
+      Ministarstvo definira smjernice i metodologiju za praćenje napretka i procjenu učinka politika za razvoj digitalnog društva, Strategiju digitalnog razvoja Republike Hrvatske; koordinira rad Nacionalnog vijeća za digitalnu transformaciju.
+      Članak 11. (NN 85/20, 57/24)
+      Ministarstvo znanosti, obrazovanja i mladih obavlja upravne i druge poslove koji se odnose na sustav predškolskog odgoja, osnovnoškolskog i srednjoškolskog odgoja i obrazovanja u zemlji i inozemstvu; nacionalni kurikulum; udžbenike, normative i standarde te druge uvjete za odgojno-obrazovni rad; razvitak školstva; učenički standard; inspekcijski nadzor; osnivanje i nadzor nad zakonitošću rada ustanova te osiguravanje financijskih i materijalnih uvjeta za rad u odgoju i obrazovanju; osposobljavanje djece, mladih i odraslih za stjecanje tehničkih znanja i vještina te djelatnost udruga u ovom području.
+      Članak 11. a (NN 85/20, 57/24)
+      Ministarstvo u suradnji s drugim nadležnim tijelima obavlja poslove koji se odnose na stvaranje uvjeta za povratak i useljavanje pripadnika hrvatskog iseljeništva (dijaspore) u Republiku Hrvatsku i njihovo uključivanje u gospodarski i društveni život u Republici Hrvatskoj; predlaže politiku poticanja i pomoći povratka i useljavanja pripadnika hrvatskog iseljeništva; provodi mjere i programe za integraciju povratnika i useljenika iz hrvatskog iseljeništva.
+      Članak 16. (NN 85/20, 57/24)
+      Ministarstvo poljoprivrede, šumarstva i ribarstva obavlja upravne i druge poslove u području poljoprivrede, ribarstva, šumarstva, ruralnog razvoja, gospodarenja i raspolaganja poljoprivrednim zemljištem u vlasništvu države, poljoprivredne politike, organizacije tržišta poljoprivrednih proizvoda, tržišnih i strukturnih potpora u poljoprivredi, prehrambene i duhanske industrije i veterinarstva.
+      Članak 19.
+      Ministarstvo obavlja stručne i druge poslove koji se odnose na traženje zatočenih i nestalih, organizaciju ekshumacija masovnih i pojedinačnih grobnica na teritoriju Republike Hrvatske, prikuplja i obrađuje podatke o ekshumiranim žrtvama u cilju identifikacije te organizira identifikaciju posmrtnih ostataka žrtava.
+      Članak 21. (NN 85/20, 57/24)
+      Brisan.
+      Članak 22. (NN 85/20, 57/24)
+      Brisan.
+      Članak 26.
+      Hrvatska vatrogasna zajednica obavlja upravne i stručne poslove koji se odnose na vatrogastvo; provodi osposobljavanje pripadnika vatrogasnih postrojbi; pruža tehničku pomoć u nezgodama i opasnim situacijama; obavlja inspekcijske poslove u području vatrogastva te obavlja i druge poslove u svezi s vatrogastvom.
+      Članak 32.
+      Državni zavod za statistiku obavlja stručne poslove koji se odnose na proizvodnju i diseminaciju službenih statističkih podataka i razvoj sustava službene statistike Republike Hrvatske, u skladu s temeljnim načelima službene statistike.
+    note: >-
+      The consolidated text of the enumerating Act, cited for the fields of activity that the
+      policy-area tags below follow. Articles 5 to 20 give each of the eighteen ministries an
+      article of its own and articles 23 to 32 do the same for the nine state administrative
+      organisations; the quotation takes articles 1 to 4 complete and then the individual
+      paragraphs that carry the tag decisions a reader is most likely to dispute, because
+      quoting all twenty-eight substantive articles would run to tens of thousands of words.
+      Each ministry's own note names the article it relies on. Three caveats on the address.
+      First, this is an unofficial consolidation by a commercial legal portal, not a
+      state-published consolidated text — Croatia does not publish one for this Act. Every one of
+      its three constituent publications is a Narodne novine act, and the two things this dataset
+      actually counts do not depend on the consolidation at all: the list of eighteen ministries
+      and the list of nine state administrative organisations are quoted identically from the
+      gazette in the two sources above, and the cabinet's size comes from the Sabor's own decision.
+      What does rest on this consolidation alone is a subset of the fields of activity behind the
+      policy-area tags — those of the interior, defence, finance, science, culture, regional
+      development, agriculture, spatial planning and health ministries, and of the central state
+      office for Croats abroad, whose articles are not quoted from a gazette anywhere in this file.
+      Eighteen articles carry no amendment marker in this text — 5, 6, 7, 12, 13, 14, 15, 17, 19 and
+      20 for ten of the ministries, and 23 and 26 to 32 for eight of the nine state administrative
+      organisations — and for those the gazette text still in force is the original Act at Narodne
+      novine 85/2020, which is cited above and from which articles 5, 13, 15, 17 and 19 are quoted
+      directly. The eight ministries and one central state office whose articles were amended
+      (articles 3, 4, 8, 9, 9.a, 10, 11, 11.a, 16, 18 and 25, plus the deleted 21, 22 and 24) take
+      their current wording from Narodne novine 21/2023 or 57/2024; the 2024 rewrites quoted above
+      come from the gazette, and only the 2023 rewrites of articles 8, 18 and 24 are taken from this
+      consolidation without a gazette quotation anywhere in this file. A future curator wanting to
+      remove the dependency entirely would quote the remaining articles from Narodne novine 85/2020
+      and 21/2023 in the same way. Second, the consolidator's own database
+      banner read "Baza je ažurirana 17.07.2026. zaključno sa NN 53/26" on the access date
+      while this Act's header still read "NN 85/20, 21/23, 57/24 — na snazi od 17.05.2024.",
+      which is the evidence that no fourth amendment existed as at 28 July 2026. Third, item 8
+      of article 3 is reproduced here exactly as the consolidator prints it, "Ministarstvo
+      znanosti i obrazovanja i mladih", which disagrees with the gazette and with article 11 of
+      this same text; see the methodology note on that discrepancy. Whitespace inside the
+      numbered lists has been normalised — the page renders each item on its own line — and
+      nothing else is altered. The published date recorded here is the date the current
+      consolidated version entered into force, not a date of publication by the consolidator.
+
+  - id: nn-60-2024-1006
+    tier: 1
+    type: official_gazette
+    publisher: Narodne novine — službeni list Republike Hrvatske
+    title: >-
+      Odluka o iskazivanju povjerenja Vladi Republike Hrvatske, Narodne novine br. 60/2024 od
+      20. svibnja 2024., dokument 1006
+    url: https://narodne-novine.nn.hr/clanci/sluzbeni/2024_05_60_1006.html
+    archive_url: https://web.archive.org/web/20260728115443/https://narodne-novine.nn.hr/clanci/sluzbeni/2024_05_60_1006.html
+    lang: hr
+    published: 2024-05-20
+    accessed: 2026-07-28
+    quote: |-
+      Na temelju članka 110. Ustava Republike Hrvatske i članka 119. Poslovnika Hrvatskoga sabora, Hrvatski sabor na sjednici 17. svibnja 2024. donio je
+      ODLUKU
+      O ISKAZIVANJU POVJERENJA VLADI REPUBLIKE HRVATSKE
+      Hrvatski sabor iskazuje povjerenje Vladi Republike Hrvatske u sastavu:
+      – mr. sc. Andrej Plenković, predsjednik Vlade Republike Hrvatske
+      – Tomo Medved, potpredsjednik Vlade Republike Hrvatske i ministar hrvatskih branitelja
+      – dr. sc. Davor Božinović, potpredsjednik Vlade Republike Hrvatske i ministar unutarnjih poslova
+      – Oleg Butković, potpredsjednik Vlade Republike Hrvatske i ministar mora, prometa i infrastrukture
+      – Ivan Anušić, potpredsjednik Vlade Republike Hrvatske i ministar obrane
+      – Branko Bačić, potpredsjednik Vlade Republike Hrvatske i ministar prostornoga uređenja, graditeljstva i državne imovine
+      – dr. sc. Marko Primorac, potpredsjednik Vlade Republike Hrvatske i ministar financija
+      – Josip Dabro, potpredsjednik Vlade Republike Hrvatske i ministar poljoprivrede, šumarstva i ribarstva
+      – dr. sc. Gordan Grlić Radman, ministar vanjskih i europskih poslova
+      – Ante Šušnjar, ministar gospodarstva
+      – mr. sc. Marija Vučković, ministrica zaštite okoliša i zelene tranzicije
+      – Damir Habijan, ministar pravosuđa, uprave i digitalne transformacije
+      – dr. sc. Radovan Fuchs, ministar znanosti, obrazovanja i mladih
+      – Ivan Šipić, ministar demografije i useljeništva
+      – dr. sc. Nina Obuljen Koržinek, ministrica kulture i medija
+      – Tonči Glavina, ministar turizma i sporta
+      – Šime Erlić, ministar regionalnoga razvoja i fondova Europske unije
+      – Marin Piletić, ministar rada, mirovinskoga sustava, obitelji i socijalne politike
+      – dr. sc. Vili Beroš, dr. med., ministar zdravstva.
+      Klasa: 021-03/24-08/2
+      Zagreb, 17. svibnja 2024.
+      HRVATSKI SABOR
+    note: >-
+      The instrument that puts this cabinet in office and fixes its size. Nineteen people are
+      named — the Prime Minister and eighteen ministers, one for each of the eighteen
+      ministries in article 3 of the enumerating Act, in a different order from that article —
+      and there is no twentieth member, no minister without portfolio and no deputy prime
+      minister without a department. Read with article 4 of the Zakon o Vladi, which provides
+      that the Government takes office when the Sabor votes it confidence, the decision's date
+      of 17 May 2024 is this cabinet's took_office. The individual Rješenja appointing each
+      minister follow in the same gazette issue as documents 1011 and 1028 to 1045. Five of the
+      nineteen named here have since been replaced without any new cabinet being formed; see
+      the methodology note on reshuffles. Published 20 May 2024, three days after the session
+      it records. The gazette's HTML inserts soft hyphens at the print edition's line breaks
+      ("digitalne trans­formacije"); they are stripped here and nothing else is altered. ELI
+      identifier /eli/sluzbeni/2024/60/1006.
+
+  - id: zakon-hr-zakon-o-vladi
+    tier: 1
+    type: statute
+    publisher: >-
+      Zakon.hr — pravni portal (neslužbeni pročišćeni tekst); izvorni tekstovi objavljeni u
+      Narodnim novinama
+    title: >-
+      Zakon o Vladi Republike Hrvatske, pročišćeni tekst zakona (NN 150/11, 119/14, 93/16,
+      116/18, 80/22, 78/24)
+    url: https://www.zakon.hr/z/170/zakon-o-vladi-republike-hrvatske
+    archive_url: https://web.archive.org/web/20260720124229/https://www.zakon.hr/z/170/zakon-o-vladi-republike-hrvatske
+    lang: hr
+    published: 2024-07-02
+    accessed: 2026-07-28
+    quote: |-
+      Zakon o Vladi Republike Hrvatske
+      pročišćeni tekst zakona
+      NN 150/11, 119/14, 93/16, 116/18, 80/22, 78/24
+      na snazi od 02.07.2024.
+      Članak 2.
+      Vladu čine predsjednik, jedan ili više potpredsjednika i ministri (u daljnjem tekstu: članovi Vlade).
+      Ukoliko Vlada ima više potpredsjednika, predsjednik Vlade može odrediti prvog potpredsjednika.
+      Članak 4.
+      Predsjednik i članovi Vlade stupaju na dužnost kad im povjerenje iskaže većina svih zastupnika u Hrvatskom saboru.
+      Na temelju odluke Hrvatskoga sabora o iskazivanju povjerenja Vladi, rješenje o imenovanju predsjednika Vlade donosi Predsjednik Republike Hrvatske uz supotpis predsjednika Hrvatskoga sabora, a rješenje o imenovanju članova Vlade donosi predsjednik Vlade uz supotpis predsjednika Hrvatskoga sabora.
+      Članak 6.
+      Predsjednik Vlade i članovi Vlade mogu podnijeti ostavku.
+      Predsjednik Vlade podnosi ostavku Hrvatskom saboru.
+      Kad predsjednik Vlade podnese ostavku, smatra se da su ostavku podnijeli svi članovi Vlade.
+      Član Vlade podnosi ostavku predsjedniku Vlade.
+      Članak 7.
+      Ako Hrvatski sabor prihvati ostavku predsjednika Vlade, Vlada će obavljati tehničke poslove do imenovanja nove Vlade.
+      Ako predsjednik Vlade prihvati ostavku pojedinog člana Vlade, rješenje o razrješenju toga člana Vlade donosi predsjednik Vlade i o tome izvješćuje Hrvatski sabor.
+      Predsjednik Vlade će novog člana Vlade predstaviti na prvoj idućoj sjednici Hrvatskoga sabora i zatražiti glasovanje o povjerenju tom članu.
+      Članak 10.
+      Predsjednik Vlade predstavlja Vladu, saziva sjednice i predsjedava im, upravlja radom Vlade i potpisuje akte koje ona donosi.
+      Ako predsjednik Vlade odredi prvog potpredsjednika Vlade, on zamjenjuje predsjednika Vlade u slučaju njegove spriječenosti ili odsutnosti. Zamjenjivanje predsjednika Vlade nije moguće u pitanjima i postupcima odlučivanja o povjerenju Vladi, imenovanju i razrješenju člana Vlade.
+      Potpredsjednici Vlade usklađuju rad ministarstava i brinu o provedbi programa Vlade u područjima za koja su zaduženi.
+      Članak 16.
+      Uži kabinet Vlade čine predsjednik i potpredsjednici Vlade.
+      Članak 18. (NN 93/16)
+      U Vladi se ustrojava Ured predsjednika Vlade.
+      Ured predsjednika Vlade obavlja stručne i administrativne poslove za potrebe predsjednika Vlade po njegovom nalogu.
+      Radom Ureda predsjednika Vlade upravlja predstojnik Ureda, kojeg imenuje Vlada na prijedlog predsjednika Vlade, a koji za svoj rad odgovara predsjedniku Vlade.
+      Predstojnik Ureda predsjednika Vlade ima položaj državnog tajnika i državni je dužnosnik.
+      Ured predsjednika Vlade usklađuje rad ureda Vlade iz članka 27. ovog Zakona te savjeta predsjednika Vlade iz članka 23. ovoga Zakona.
+      Članak 20. (NN 93/16, 80/22)
+      U Vladi se ustrojava Glavno tajništvo.
+      Glavno tajništvo obavlja stručne, analitičke, upravno-pravne, administrativne, opće, tehničke, pomoćne i informatičke poslove za potrebe Vlade, te potpredsjednika i članova Vlade. Za Ured predsjednika Vlade, Glavno tajništvo obavlja opće, tehničke, pomoćne i informatičke poslove.
+      Glavnim tajništvom upravlja glavni tajnik, kojeg imenuje Vlada na prijedlog predsjednika Vlade, a koji za svoj rad odgovara predsjedniku Vlade i Vladi.
+      Glavni tajnik Vlade ima položaj državnog tajnika i državni je dužnosnik.
+      Članak 22. (NN 78/24)
+      Za potpredsjednika Vlade koji nije čelnik ministarstva ustrojava se Ured potpredsjednika Vlade.
+      Članak 27. (NN 116/18)
+      Za obavljanje stručnih poslova, Vlada osniva:
+      – Ured za zakonodavstvo,
+      – Ured za ljudska prava i prava nacionalnih manjina,
+      – Ured za ravnopravnost spolova,
+      – Ured za udruge,
+      – Ured za opće poslove Hrvatskoga sabora i Vlade Republike Hrvatske,
+      – Ured za protokol.
+      Vlada može za pojedine poslove osnovati i druge urede.
+    note: >-
+      The Act on the Government, cited for four separate claims. Article 2 is what makes the
+      seat count a matter of statute rather than of our interpretation: the members of the
+      Government are the Prime Minister, one or more deputy prime ministers and the ministers,
+      which with eighteen ministers and no minister without portfolio gives nineteen seats
+      against eighteen ministries. Article 4 fixes when a government takes office and is why
+      took_office is 17 May 2024. Articles 6 and 7 are the reason a change of individual
+      minister does not create a new cabinet while a resignation by the Prime Minister would.
+      Article 10(3) shows that a deputy premiership is a coordinating function conferred on a
+      serving minister — article 22 makes separate provision for a deputy prime minister who is
+      not the head of a ministry, and this cabinet has none — so it adds neither a ministry nor
+      a seat. Articles 18 and 20 constitute the Ured predsjednika Vlade and the Glavno
+      tajništvo inside the Government and give each a head with the rank of state secretary,
+      not of minister, which is the ground on which both are recorded here and excluded.
+      Article 27 lists the six expert offices of the Government that this file's perimeter
+      excludes, and is why equality is tagged on no Croatian ministry. Same caveat as for the
+      other consolidated text: this is a commercial portal's unofficial consolidation of six
+      Narodne novine acts, and the published date recorded here is the date the current version
+      entered into force. Whitespace in the numbered list has been normalised.
+
+  - id: zakon-hr-zsdu
+    tier: 1
+    type: statute
+    publisher: >-
+      Zakon.hr — pravni portal (neslužbeni pročišćeni tekst); izvorni tekstovi objavljeni u
+      Narodnim novinama
+    title: >-
+      Zakon o sustavu državne uprave, pročišćeni tekst zakona (NN 66/19, 155/23)
+    url: https://www.zakon.hr/z/221/zakon-o-sustavu-drzavne-uprave
+    archive_url: https://web.archive.org/web/20260608214323/https://www.zakon.hr/z/221/zakon-o-sustavu-drzavne-uprave
+    lang: hr
+    published: 2019-07-18
+    accessed: 2026-07-28
+    quote: |-
+      Zakon o sustavu državne uprave
+      NN 66/19, 155/23
+      Članak 55.
+      (1) Ministarstva se ustrojavaju za obavljanje poslova državne uprave u pravilu u više upravnih područja.
+      (2) U sastavu ministarstva ustrojavaju se najmanje dvije upravne organizacije.
+      Članak 56.
+      (1) Čelnik ministarstva je ministar.
+      (2) Ministarstvo može imati jednog ili više državnih tajnika koji provode utvrđenu politiku Vlade u jednom ili više upravnih područja, sukladno ovlaštenju i nalozima ministra.
+      (3) Ministar odlukom određuje državnog tajnika koji ga zamjenjuje u slučaju odsutnosti ili spriječenosti.
+      (4) Državni tajnik za svoj rad odgovara ministru i Vladi.
+      Članak 57.
+      (1) Upravnom organizacijom u sastavu ministarstva rukovodi:
+      – ravnatelj, za uprave, zavode, ravnateljstva i urede
+      – glavni inspektor, za inspektorate.
+      (2) Rukovodeći državni službenik iz stavka 1. ovoga članka za svoj rad odgovara nadležnom državnom tajniku, ministru i Vladi.
+      III. DRŽAVNE UPRAVNE ORGANIZACIJE
+      Članak 58.
+      (1) Državne upravne organizacije ustrojavaju se za obavljanje poslova državne uprave i drugih poslova čije obavljanje zahtijeva osobitu samostalnost u radu ili primjenu posebnih uvjeta i načina rada ili je nužno za provedbu pravno obvezujućih akata Europske unije.
+      (2) Državne upravne organizacije ustrojavaju se u pravilu kao:
+      – središnji državni uredi, za jedno ili više upravnih područja u kojima se obavljaju poslovi državne uprave od posebnog značenja za učinkovitiji rad Vlade
+      – državne uprave, za jedno ili više upravnih područja u kojima se pretežito obavljaju poslovi neposredne provedbe zakona
+      – državni zavodi, za jedno ili više upravnih područja u kojima se pretežito obavljaju stručno-analitički poslovi koje je nužno obavljati u okviru državne uprave.
+      (3) Posebnim zakonom mogu se ustrojiti državni inspektorati, za inspekcijski nadzor u više upravnih područja, te državna ravnateljstva, za jedno ili više upravnih područja u kojima se pretežito obavljaju poslovi zaštite pravnog poretka, života i opće sigurnosti i drugi poslovi od osobitog interesa za Republiku Hrvatsku, kao i druge državne upravne organizacije s posebnim nazivima, ustrojstvom i načinom rada.
+      Članak 59.
+      (1) Čelnik državne upravne organizacije je:
+      – državni tajnik središnjeg državnog ureda, za središnje državne urede
+      – glavni ravnatelj, za državne uprave, državne zavode i državna ravnateljstva
+      – glavni državni inspektor, za državne inspektorate.
+      (2) Čelnik državne upravne organizacije za svoj rad odgovara Vladi.
+    note: >-
+      The Act on the state administration system, and the statutory basis for the perimeter
+      decision in this file. Article 56(1) — "Čelnik ministarstva je ministar." — is the whole
+      of the reason the eighteen bodies in article 3 of the enumerating Act satisfy this
+      project's requirement that a counted department be headed by a minister. Article 59 is the
+      reason the nine bodies in article 4 do not: their heads are a state secretary of a central
+      state office, a director-general or a chief state inspector, and article 59(2) makes each
+      answerable to the Government rather than a member of it. Article 57 is quoted to show the
+      contrast with the administrative organisations inside a ministry, whose heads are career
+      civil servants; those are not recorded as entities at all. Article 55 gives the shape of a
+      ministry. Croatian državni tajnici — state secretaries inside a counted ministry under
+      article 56(2) — are junior appointees, hold no cabinet seat and are not recorded
+      individually. Same consolidation caveat as the other zakon.hr sources; the header shows
+      amendments NN 66/19 and 155/23 and none of the quoted articles carries an amendment
+      marker, so all of them stand as originally enacted in NN 66/2019.
+
+  - id: vlada-clanovi-vlade
+    tier: 2
+    type: government_website
+    publisher: Vlada Republike Hrvatske
+    title: Članovi Vlade — Vlada Republike Hrvatske
+    url: https://vlada.gov.hr/clanovi-vlade/128
+    archive_url: https://web.archive.org/web/20260704144441/https://vlada.gov.hr/clanovi-vlade/128
+    lang: hr
+    published: 2025-12-31
+    accessed: 2026-07-28
+    quote: |-
+      Andrej Plenković
+      Predsjednik Vlade Republike Hrvatske
+      Tomo Medved
+      Potpredsjednik Vlade i ministar hrvatskih branitelja
+      Davor Božinović
+      Potpredsjednik Vlade i ministar unutarnjih poslova
+      Oleg Butković
+      Potpredsjednik Vlade i ministar mora, prometa i infrastrukture
+      Ivan Anušić
+      Potpredsjednik Vlade i ministar obrane
+      Branko Bačić
+      Potpredsjednik Vlade i ministar prostornoga uređenja, graditeljstva i državne imovine
+      David Vlajčić
+      Potpredsjednik Vlade i ministar poljoprivrede, šumarstva i ribarstva
+      Tomislav Ćorić
+      Potpredsjednik Vlade i ministar financija
+      Gordan Grlić Radman
+      Ministar vanjskih i europskih poslova
+      Ante Šušnjar
+      Ministar gospodarstva
+      Marija Vučković
+      Ministrica zaštite okoliša i zelene tranzicije
+      Damir Habijan
+      Ministar pravosuđa, uprave i digitalne transformacije
+      Radovan Fuchs
+      Ministar znanosti, obrazovanja i mladih
+      Ivan Šipić
+      Ministar demografije i useljeništva
+      Nina Obuljen Koržinek
+      Ministrica kulture i medija
+      Tonči Glavina
+      Ministar turizma i sporta
+      Nataša Mikuš Žigman
+      Ministrica regionalnoga razvoja i fondova Europske unije
+      Alen Ružić
+      Ministar rada, mirovinskoga sustava, obitelji i socijalne politike
+      Irena Hrstić
+      Ministar zdravstva
+    note: >-
+      The government's own current list of the members of the Government, cited because it
+      corroborates that the Sabor's 2024 composition still maps one-to-one onto the eighteen
+      ministries of article 3 after the reshuffles, and that seven of the eighteen ministers
+      also hold deputy premierships while none of the seven heads anything but a ministry. The
+      page carries no member outside those nineteen. Two cautions. The page's own date stamp
+      reads 31.12.2025., so it is a maintained index rather than a dated record, and the
+      minister of health's line is styled "Ministar zdravstva" against a woman's name where the
+      Croatian feminine "Ministrica zdravstva" would be expected; both are reproduced as
+      published. Whitespace and the site's trailing spaces after some names have been
+      normalised. This file records departments, not officeholders, so the names are context.
+
+  - id: vlada-government-members-en
+    tier: 2
+    type: government_website
+    publisher: Government of the Republic of Croatia
+    title: Government Members — Government of the Republic of Croatia (English edition)
+    url: https://vlada.gov.hr/government-members/15051
+    archive_url: https://web.archive.org/web/20260721152859/https://vlada.gov.hr/government-members/15051
+    lang: en
+    published: 2014-02-04
+    accessed: 2026-07-28
+    quote: |-
+      Andrej Plenković
+      Prime Minister of the Republic of Croatia
+      Tomo Medved
+      Deputy Prime Minister and Minister of Croatian Veterans
+      Davor Božinović
+      Deputy Prime Minister and Minister of the Interior
+      Oleg Butković
+      Deputy Prime Minister and Minister of the Sea, Transport and Infrastructure
+      Ivan Anušić
+      Deputy Prime Minister and Minister of Defence
+      Branko Bačić
+      Deputy Prime Minister and Minister of Spatial Planning, Construction, and State Property
+      David Vlajčić
+      Deputy Prime Minister and Minister of Agriculture, Forestry, and Fisheries
+      Tomislav Ćorić
+      Deputy Prime Minister and Minister of Finance
+      Gordan Grlić Radman
+      Minister of Foreign and European Affairs
+      Ante Šušnjar
+      Minister of Economic Affairs
+      Marija Vučković
+      Minister of Environment and Green Transition
+      Damir Habijan
+      Minister of Justice, Administration, and Digital Transformation
+      Radovan Fuchs
+      Minister of Science, Education, and Youth
+      Ivan Šipić
+      Minister of Demography and Migration
+      Nina Obuljen Koržinek
+      Minister of Culture and Media
+      Tonči Glavina
+      Minister of Tourism and Sports
+      Nataša Mikuš Žigman
+      Minister of Regional Development and European Union Funds
+      Alen Ružić
+      Minister of Labour, Pension System, Family, and Social Policy
+      Irena Hrstić
+      Minister of Health
+    note: >-
+      The English edition of the government portal, and the only official English source for
+      any of the names in this file. It publishes an English form of each minister's title,
+      which head_title_en reproduces exactly, minus the words "Deputy Prime Minister and" for
+      the seven ministers who also hold that function. It publishes no English list of the
+      ministries themselves, which is why every name_en here is marked translated rather than
+      official; a "Ministry of" name formed from a "Minister of" title is our inference, not the
+      government's nomenclature. The page's date stamp of 04.02.2014. is the creation date of
+      the portal node, not of the content, which matched the Croatian index on the access date.
+      The English navigation links to this page through several aliases that all resolve to the
+      same node.
+
+  - id: vlada-ured-predsjednika-vlade-en
+    tier: 2
+    type: government_website
+    publisher: Government of the Republic of Croatia
+    title: >-
+      The Prime Minister's Office — Government of the Republic of Croatia (English edition)
+    url: https://vlada.gov.hr/the-prime-minister-s-office/15019
+    archive_url: https://web.archive.org/web/20260728115507/https://vlada.gov.hr/the-prime-minister-s-office/15019
+    lang: en
+    published: 2014-01-28
+    accessed: 2026-07-28
+    quote: |-
+      The Prime Minister's Office
+      Prime Minister's Office performs advisory, analytical, expert and administrative tasks for the needs of the Prime Minister, and especially:
+      systematic monitoring and analysis of individual public policies, in order to draw up expert opinions and studies;
+      preparation of strategic development plans and analyses;
+      preparation of proposals for individual projects from the Government's programme and alignment of their implementation;
+      expert processing and preparation of materials needed by the Prime Minister for participation in the work of the Inner Cabinet of the Government, the Government and the Croatian Parliament;
+      drawing up the appropriate preparations and proposals of positions of the Republic of Croatia for the Prime Minister to participate in meetings of the European Council;
+      coordination between the Government and the Croatian Parliament for the needs of the Prime Minister;
+      implementation of the Act on the Right of Access to Information in the Government, and coordination of the work related to the implementation of that Act in Government offices and services;
+      informing the public about the policies and activities of the Government;
+      coordinating communication activities of the ministries and state offices;
+      other work upon the orders of the Prime Minister.
+      Categories
+      The Head of the Prime Minister's Office
+    note: >-
+      Cited for the government's own English name of the Ured predsjednika Vlade — "The Prime
+      Minister's Office" — and for what the office does, which is advisory and administrative
+      support to the Prime Minister and no portfolio of its own. Read with article 18 of the
+      Zakon o Vladi, which gives its head the rank of state secretary, it is the basis for
+      recording the office and not counting it. The date stamp is the portal node's creation
+      date. Two items in the government's list of tasks are omitted from the quotation for
+      length; nothing in the omitted text bears on the classification.
+
+  - id: vlada-glavno-tajnistvo-en
+    tier: 2
+    type: government_website
+    publisher: Government of the Republic of Croatia
+    title: >-
+      The Government General Secretariat — Government of the Republic of Croatia (English
+      edition)
+    url: https://vlada.gov.hr/the-government-general-secretariat/15020
+    archive_url: https://web.archive.org/web/20260728115539/https://vlada.gov.hr/the-government-general-secretariat/15020
+    lang: en
+    published: 2014-04-09
+    accessed: 2026-07-28
+    quote: |-
+      The Government General Secretariat
+      The General Secretariat performs tasks in line with the Act on the Government of the Republic of Croatia and the Book of Rules of the Government of the Republic of Croatia, and also in line with the conclusions and other acts of the Government of the Republic of Croatia, and according to the instructions of the Prime Minister, deputy prime ministers and the Government Secretary General.
+      The Government General Secretariat performs the following tasks:
+      expert, analytical, administrative and legal, administrative and IT tasks;
+      expert and administrative and technical preparation of material for debate and decision-making at sessions of expert working groups and Government working bodies, the Inner Cabinet of the Government and Government sessions;
+      convening and holding sessions of expert working groups and Government working bodies and Government sessions;
+      drawing up and dispatching acts adopted by the Government;
+      taking care of the publication of Government acts;
+      drawing up minutes of Government sessions;
+      taking care of the implementation of the Government's obligations towards the Croatian Parliament, and other tasks.
+      Further, the General Secretariat performs general, technical, auxiliary and IT tasks for the Prime Minister's Office and performs expert and administrative tasks for the needs of the deputy prime ministers, and other tasks upon their orders.
+      The Office of Deputy Prime Ministers who are not Heads of Ministries
+    note: >-
+      Cited for the government's own English name of the Glavno tajništvo Vlade — "The
+      Government General Secretariat" — and for its function, which is the administrative
+      apparatus of the Government and not a portfolio. Read with article 20 of the Zakon o
+      Vladi, which gives the glavni tajnik the rank of state secretary, it is the basis for
+      recording the body and not counting it. The last line quoted is a heading in the page's
+      own list of sub-units and is the government's English name for the office article 22 of
+      the Zakon o Vladi provides for a deputy prime minister who heads no ministry; it is quoted
+      because it shows that such a case is contemplated, while this cabinet has none. The live
+      address https://vlada.gov.hr/the-general-secretariat/14981 redirects to the address cited
+      here. The date stamp is the portal node's creation date.
+
+entities:
+  # --- the eighteen ministries, in the order of article 3 of the enumerating Act -----------
+  - id: HR-2024-vanjski-i-europski-poslovi
+    order: 1
+    name_original: Ministarstvo vanjskih i europskih poslova
+    abbreviation_original: null
+    name_en: Ministry of Foreign and European Affairs
+    name_es: Ministerio de Asuntos Exteriores y Europeos
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministar vanjskih i europskih poslova
+    head_title_en: Minister of Foreign and European Affairs
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [foreign_affairs, european_affairs, development_cooperation, trade]
+    counts_as_ministry: true
+    url: https://mvep.gov.hr
+    sources: [nn-57-2024-982, nn-85-2020-1593, zakon-hr-zudtdu-procisceni, nn-60-2024-1006, vlada-clanovi-vlade, vlada-government-members-en]
+    note:
+      en: >-
+        Article 5 of the enumerating Act gives this ministry Croatia's representation abroad,
+        relations with states and international organisations, the coordination of Croatian
+        positions in the institutions of the European Union and the alignment of Croatian law
+        with EU law, the representation of Croatia before the Court of Justice, NATO
+        coordination, international humanitarian aid, and international development aid and
+        cooperation. Trade is tagged because the same article gives it trade policy — the
+        representation of Croatian interests in the adoption of the common commercial policy,
+        the World Trade Organization, and the negotiation of investment-protection and economic
+        cooperation agreements — which most countries in this dataset keep in an economy
+        ministry; Croatia's Ministry of Economic Affairs holds the domestic and internal-market
+        side, and both are tagged trade. European affairs is here and not in a ministry of its
+        own: Croatia has no separate European affairs portfolio.
+      es: >-
+        El artículo 5 de la ley enumeradora atribuye a este ministerio la representación de
+        Croacia en el exterior, las relaciones con Estados y organizaciones internacionales, la
+        coordinación de las posiciones croatas en las instituciones de la Unión Europea y la
+        adaptación del derecho croata al de la Unión, la representación de Croacia ante el
+        Tribunal de Justicia, la coordinación con la OTAN, la ayuda humanitaria internacional y
+        la ayuda y cooperación internacional al desarrollo. Se etiqueta el comercio porque el
+        mismo artículo le atribuye la política comercial —la representación de los intereses
+        croatas en la adopción de la política comercial común, la Organización Mundial del
+        Comercio y la negociación de acuerdos de protección de inversiones y de cooperación
+        económica—, que la mayoría de los países de este conjunto de datos sitúa en un
+        ministerio de economía; el Ministerio de Economía croata tiene la vertiente interna y de
+        mercado interior, y ambos llevan la etiqueta trade. Los asuntos europeos están aquí y no
+        en un ministerio propio: Croacia no tiene una cartera separada de asuntos europeos.
+
+  - id: HR-2024-unutarnji-poslovi
+    order: 2
+    name_original: Ministarstvo unutarnjih poslova
+    abbreviation_original: null
+    name_en: Ministry of the Interior
+    name_es: Ministerio del Interior
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministar unutarnjih poslova
+    head_title_en: Minister of the Interior
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [interior, civil_protection, migration]
+    counts_as_ministry: true
+    url: https://mup.gov.hr
+    sources: [nn-57-2024-982, zakon-hr-zudtdu-procisceni, nn-60-2024-1006, vlada-clanovi-vlade, vlada-government-members-en]
+    note:
+      en: >-
+        Article 6 gives this ministry the police and criminal police, public order, border
+        control, the movement and residence of foreigners and their reception, travel documents,
+        citizenship, identity cards and residence registration, driving licences and vehicle
+        registration, weapons, private security, and fire protection. Civil protection is tagged
+        because the same article gives it the civil protection system, rescue in major accidents
+        and disasters, the warning and alerting system, and inspection in civil protection, fire
+        protection, explosives, radiological and nuclear safety and demining — an unusually wide
+        emergency remit that also covers nuclear licensing and radiation protection, which in
+        most countries in this dataset sit with an energy or health ministry. Migration is tagged
+        for the administrative side — residence, asylum procedure and the reception of
+        foreigners; the return and settlement of Croatian emigrants is the Ministry of Demography
+        and Migration's, and the two are deliberately kept apart.
+      es: >-
+        El artículo 6 atribuye a este ministerio la policía y la policía criminal, el orden
+        público, el control de fronteras, la circulación y residencia de extranjeros y su
+        acogida, los documentos de viaje, la nacionalidad, los documentos de identidad y el
+        registro de residencia, los permisos de conducir y la matriculación de vehículos, las
+        armas, la seguridad privada y la protección contra incendios. Se etiqueta la protección
+        civil porque el mismo artículo le atribuye el sistema de protección civil, el rescate en
+        grandes accidentes y catástrofes, el sistema de alerta y aviso, y la inspección en
+        protección civil, protección contra incendios, explosivos, seguridad radiológica y
+        nuclear y desminado —un ámbito de emergencias inusualmente amplio que incluye además la
+        autorización nuclear y la protección radiológica, que en la mayoría de los países de este
+        conjunto de datos corresponden a un ministerio de energía o de sanidad—. La migración se
+        etiqueta por su vertiente administrativa —residencia, procedimiento de asilo y acogida de
+        extranjeros—; el retorno y el asentamiento de los emigrantes croatas corresponden al
+        Ministerio de Demografía e Inmigración, y ambas cosas se mantienen deliberadamente
+        separadas.
+
+  - id: HR-2024-obrana
+    order: 3
+    name_original: Ministarstvo obrane
+    abbreviation_original: null
+    name_en: Ministry of Defence
+    name_es: Ministerio de Defensa
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministar obrane
+    head_title_en: Minister of Defence
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [defence]
+    counts_as_ministry: true
+    url: https://www.morh.hr
+    sources: [nn-57-2024-982, zakon-hr-zudtdu-procisceni, nn-60-2024-1006, vlada-clanovi-vlade, vlada-government-members-en]
+    note:
+      en: >-
+        Article 7 gives this ministry the defence system, defence policy, the Defence Strategy,
+        international military cooperation, military and civil defence planning, conscription and
+        mobilisation, the organisation, equipment, armament, development and use of the Armed
+        Forces, and their participation in operations abroad. Only defence is tagged: unlike
+        several countries in this dataset, Croatia does not give its defence ministry civil
+        protection, which article 6 places with the interior ministry, and it has no veterans
+        remit either, which article 19 gives a ministry of its own.
+      es: >-
+        El artículo 7 atribuye a este ministerio el sistema de defensa, la política de defensa,
+        la Estrategia de Defensa, la cooperación militar internacional, la planificación de la
+        defensa militar y civil, el reclutamiento y la movilización, la organización, el
+        equipamiento, el armamento, el desarrollo y el empleo de las Fuerzas Armadas y su
+        participación en operaciones en el exterior. Sólo se etiqueta la defensa: a diferencia de
+        varios países de este conjunto de datos, Croacia no atribuye a su ministerio de defensa
+        la protección civil, que el artículo 6 sitúa en el ministerio del Interior, ni tiene
+        competencias sobre veteranos, a los que el artículo 19 dedica un ministerio propio.
+
+  - id: HR-2024-financije
+    order: 4
+    name_original: Ministarstvo financija
+    abbreviation_original: null
+    name_en: Ministry of Finance
+    name_es: Ministerio de Finanzas
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministar financija
+    head_title_en: Minister of Finance
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [finance, budget]
+    counts_as_ministry: true
+    url: https://mfin.gov.hr
+    sources: [nn-57-2024-982, zakon-hr-zudtdu-procisceni, nn-60-2024-1006, vlada-clanovi-vlade, vlada-government-members-en]
+    note:
+      en: >-
+        Article 8 gives this ministry the analysis and forecasting of macroeconomic developments
+        as the basis for economic and fiscal policy, the state budget and its execution, the
+        consolidation of public accounts, the state treasury's general ledger, budget
+        supervision, the tax and customs system, public debt, internal financial control in the
+        public sector, the financial management of European Union funds and Croatia's
+        contribution to the EU budget. Only finance and budget are tagged. Two omissions are
+        deliberate: economy is not tagged even though the ministry does macroeconomic analysis,
+        because Croatia's economic-development portfolio is the Ministry of Economic Affairs'
+        and tagging both would report two Croatian economy ministries where there is one; and
+        state_assets is not tagged even though the same article gives the ministry the exercise
+        of ownership rights in legal persons of special interest to the Republic, because the
+        management of state property as such belongs to the Ministry of Spatial Planning,
+        Construction and State Property, which is where that tag sits.
+      es: >-
+        El artículo 8 atribuye a este ministerio el análisis y la previsión de la evolución
+        macroeconómica como base de la política económica y fiscal, el presupuesto del Estado y
+        su ejecución, la consolidación de las cuentas públicas, el libro mayor del tesoro
+        público, el control presupuestario, el sistema fiscal y aduanero, la deuda pública, el
+        control financiero interno en el sector público, la gestión financiera de los fondos de
+        la Unión Europea y la contribución de Croacia al presupuesto de la UE. Sólo se etiquetan
+        finanzas y presupuesto. Dos omisiones son deliberadas: no se etiqueta economy aunque el
+        ministerio haga análisis macroeconómico, porque la cartera de desarrollo económico
+        corresponde al Ministerio de Economía y etiquetar ambos informaría de dos ministerios
+        croatas de economía donde hay uno; y no se etiqueta state_assets aunque el mismo artículo
+        le atribuya el ejercicio de los derechos de propiedad en las personas jurídicas de
+        especial interés para la República, porque la gestión del patrimonio del Estado como tal
+        corresponde al Ministerio de Ordenación del Territorio, Construcción y Patrimonio del
+        Estado, donde se sitúa esa etiqueta.
+
+  - id: HR-2024-gospodarstvo
+    order: 5
+    name_original: Ministarstvo gospodarstva
+    abbreviation_original: null
+    name_en: Ministry of Economic Affairs
+    name_es: Ministerio de Economía
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministar gospodarstva
+    head_title_en: Minister of Economic Affairs
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [economy, energy, industry, trade, small_business, mining, consumer_protection]
+    counts_as_ministry: true
+    url: https://mingo.gov.hr
+    sources: [nn-57-2024-982, zakon-hr-zudtdu-procisceni, nn-60-2024-1006, vlada-clanovi-vlade, vlada-government-members-en]
+    note:
+      en: >-
+        The widest remit in the Croatian cabinet, and the entity most likely to be tagged
+        differently by another curator. It was created in May 2024 when the Ministarstvo
+        gospodarstva i održivog razvoja was split in two, the environmental half becoming the
+        Ministry of Environment and Green Transition. Article 9 as replaced by the 2024 amending
+        Act gives it competitiveness and investment promotion, industrial policy, the application
+        of innovation and new technologies, mining, trade on the European Union's internal market,
+        supply and prices, standardisation, accreditation, conformity assessment, metrology and
+        competition policy, consumer protection, strategic commodity reserves, the public
+        procurement and concessions systems, public-private partnership, small and medium
+        enterprises, crafts and cooperatives, export and foreign investment promotion, and the
+        whole of the energy sector — electricity, heat, oil and oil derivatives, natural gas,
+        nuclear energy, renewables, hydrocarbon and geothermal exploration and energy efficiency.
+        Energy is the tag most likely to be looked for on the wrong ministry: it is here and not
+        with the environment ministry, whose name suggests a green-transition remit but whose
+        statutory field of activity does not include energy. Mining is tagged because "rudarstvo"
+        is named in the article. Innovation is not tagged here even though the article mentions
+        the application of innovation, because the innovation system itself is the Ministry of
+        Science, Education and Youth's; tourism is not tagged because Croatia has a tourism
+        ministry of its own.
+      es: >-
+        La cartera más amplia del gabinete croata y la entidad que otro curador etiquetaría con
+        mayor probabilidad de forma distinta. Se creó en mayo de 2024 al escindirse en dos el
+        Ministarstvo gospodarstva i održivog razvoja, cuya mitad ambiental pasó a ser el
+        Ministerio de Protección del Medio Ambiente y Transición Verde. El artículo 9, en la
+        redacción que le dio la ley de modificación de 2024, le atribuye la competitividad y el
+        fomento de la inversión, la política industrial, la aplicación de la innovación y de las
+        nuevas tecnologías, la minería, el comercio en el mercado interior de la Unión Europea, el
+        abastecimiento y los precios, la normalización, la acreditación, la evaluación de la
+        conformidad, la metrología y la política de competencia, la protección de los
+        consumidores, las reservas estratégicas de mercancías, los sistemas de contratación
+        pública y de concesiones, la colaboración público-privada, las pymes, la artesanía y el
+        cooperativismo, el fomento de la exportación y de la inversión extranjera, y todo el
+        sector energético —electricidad, calor, petróleo y derivados, gas natural, energía
+        nuclear, renovables, exploración de hidrocarburos y de aguas geotérmicas y eficiencia
+        energética—. La energía es la etiqueta que más probablemente se buscaría en el ministerio
+        equivocado: está aquí y no en el de medio ambiente, cuyo nombre sugiere una cartera de
+        transición verde pero cuyo ámbito legal de actividad no incluye la energía. Se etiqueta la
+        minería porque «rudarstvo» figura nombrado en el artículo. No se etiqueta la innovación
+        aunque el artículo mencione su aplicación, porque el sistema de innovación corresponde al
+        Ministerio de Ciencia, Educación y Juventud; no se etiqueta el turismo porque Croacia
+        tiene un ministerio de turismo propio.
+
+  - id: HR-2024-zastita-okolisa-i-zelena-tranzicija
+    order: 6
+    name_original: Ministarstvo zaštite okoliša i zelene tranzicije
+    abbreviation_original: null
+    name_en: Ministry of Environment and Green Transition
+    name_es: Ministerio de Protección del Medio Ambiente y Transición Verde
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministar zaštite okoliša i zelene tranzicije
+    head_title_en: Minister of Environment and Green Transition
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [environment, climate, water]
+    counts_as_ministry: true
+    url: https://mzozt.gov.hr
+    sources: [nn-57-2024-982, zakon-hr-zudtdu-procisceni, nn-60-2024-1006, vlada-clanovi-vlade, vlada-government-members-en]
+    note:
+      en: >-
+        Created in May 2024 out of the environmental half of the former Ministarstvo gospodarstva
+        i održivog razvoja. Article 9.a gives it general and sectoral environmental policy, waste
+        management, the protection of air, soil, water, the sea and the plant and animal world,
+        the monitoring of pollution including light pollution, the causes of climate change and
+        ozone depletion, climate mitigation and adaptation, the reduction of ozone-depleting
+        substances and fluorinated greenhouse gases, green public procurement, biodiversity and
+        geodiversity, protected areas and the ecological network, the trade in wild species,
+        genetically modified organisms in transboundary movement, and the whole of water
+        management — flood and ice protection, erosion and torrent control, the water estate,
+        irrigation and drainage, public water supply and waste-water treatment. Water is tagged
+        for that reason and is a fuller remit than the ministry's name suggests. Energy is
+        emphatically not tagged: despite "green transition" in its title, the energy sector went
+        to the Ministry of Economic Affairs in the same 2024 split, and this is the single most
+        likely misreading of the Croatian structure. The state's environmental analytics, the
+        greenhouse-gas emissions trading system and nature-protection expertise are also here,
+        Croatia having folded its former environment agency into the ministry.
+      es: >-
+        Creado en mayo de 2024 a partir de la mitad ambiental del antiguo Ministarstvo
+        gospodarstva i održivog razvoja. El artículo 9.a le atribuye la política ambiental general
+        y sectorial, la gestión de residuos, la protección del aire, el suelo, las aguas, el mar y
+        el mundo vegetal y animal, el seguimiento de la contaminación incluida la luminosa, las
+        causas del cambio climático y del deterioro de la capa de ozono, la mitigación y la
+        adaptación climáticas, la reducción de las sustancias que agotan el ozono y de los gases
+        fluorados de efecto invernadero, la contratación pública verde, la biodiversidad y la
+        geodiversidad, los espacios protegidos y la red ecológica, el comercio de especies
+        silvestres, los organismos modificados genéticamente en su movimiento transfronterizo y
+        toda la gestión de las aguas —protección frente a inundaciones y hielos, control de la
+        erosión y de los torrentes, el dominio público hidráulico, el riego y el drenaje, el
+        abastecimiento público y el tratamiento de aguas residuales—. Por eso se etiqueta el agua,
+        una competencia más amplia de lo que sugiere el nombre del ministerio. La energía
+        rotundamente no se etiqueta: pese a la «transición verde» de su título, el sector
+        energético pasó al Ministerio de Economía en la misma escisión de 2024, y ésta es la
+        lectura errónea más probable de la estructura croata. La analítica ambiental del Estado, el
+        sistema de comercio de emisiones y la experticia en protección de la naturaleza están
+        también aquí, después de que Croacia integrara su antigua agencia de medio ambiente en el
+        ministerio.
+
+  - id: HR-2024-pravosude-uprava-i-digitalna-transformacija
+    order: 7
+    name_original: Ministarstvo pravosuđa, uprave i digitalne transformacije
+    abbreviation_original: null
+    name_en: Ministry of Justice, Administration and Digital Transformation
+    name_es: Ministerio de Justicia, Administración y Transformación Digital
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministar pravosuđa, uprave i digitalne transformacije
+    head_title_en: Minister of Justice, Administration, and Digital Transformation
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [justice, public_administration, digital, territorial_administration, religion]
+    counts_as_ministry: true
+    url: https://mpudt.gov.hr
+    sources: [nn-57-2024-982, zakon-hr-zudtdu-procisceni, nn-60-2024-1006, vlada-clanovi-vlade, vlada-government-members-en]
+    note:
+      en: >-
+        Three portfolios in one department, and the entity that carries the most surprising tags.
+        Article 10 gives it civil, criminal, misdemeanour and commercial law and administrative
+        adjudication, the prison and probation system, notaries and the bar, international legal
+        assistance, pardons, property rights, expropriation, the restitution of property seized
+        under communist rule, the succession to the assets of the former Yugoslavia, cooperation
+        with international criminal courts, human and national-minority rights not assigned
+        elsewhere, and anti-corruption coordination. Under the "uprava" head it holds the
+        political system, the system and organisation of the state administration, the
+        organisation and competences of local and regional self-government, electoral law and the
+        voter register, civil status registers, the general legal framework for institutions,
+        political parties, religious communities, associations and foundations, the general
+        administrative procedure, administrative inspection and employment in the state
+        administration — which is why both public_administration and territorial_administration
+        are tagged. religion is the softest tag in this file and is disclosed as such: it is
+        tagged here because the legal status and the register of religious communities are this
+        ministry's, but Croatia has no religious-affairs ministry and the political relationship
+        with the religious communities runs through a Government commission with an office of its
+        own, the Ured komisije za odnose s vjerskim zajednicama, which is outside this file's
+        perimeter. A curator applying the "primary responsibility" test strictly would drop the
+        tag; it is kept because the register and the legal framework are a real statutory
+        competence and because dropping it would leave a reader unable to find where religious
+        affairs sit in Croatia at all. Note also that the same paragraph gives this ministry the
+        registers of political parties, associations and foundations, for which the taxonomy has
+        no id and none is proposed. Digital is tagged because the 2024 amendment moved the whole
+        digital-transformation
+        portfolio here from the abolished Središnji državni ured za razvoj digitalnog društva: the
+        ministry now manages the digitalisation of every state and public administration body, the
+        state information infrastructure, interoperability and public registers, the digital
+        economy, trust services and innovative technologies including artificial intelligence.
+        Telecommunications is not tagged: electronic communications and postal services stayed
+        with the Ministry of the Sea, Transport and Infrastructure. A caution on the web address:
+        the domain mpudt.gov.hr matches the ministry's full name, but the title of its own site
+        still read "Ministarstvo pravosuđa i uprave Republike Hrvatske" on the access date, without
+        the digital transformation, so the site had not caught up with the 2024 renaming.
+      es: >-
+        Tres carteras en un solo departamento, y la entidad con las etiquetas más sorprendentes. El
+        artículo 10 le atribuye el derecho civil, penal, de faltas y mercantil y la jurisdicción
+        administrativa, el sistema penitenciario y de probación, el notariado y la abogacía, la
+        asistencia jurídica internacional, los indultos, el derecho de propiedad, la expropiación,
+        la restitución de bienes confiscados bajo el régimen comunista, la sucesión en el
+        patrimonio de la antigua Yugoslavia, la cooperación con los tribunales penales
+        internacionales, los derechos humanos y de las minorías nacionales no atribuidos a otro
+        órgano y la coordinación anticorrupción. Bajo el epígrafe «uprava» tiene el sistema
+        político, el sistema y la organización de la administración del Estado, la organización y
+        las competencias de la autonomía local y regional, el derecho electoral y el censo, los
+        registros civiles, el marco legal general de las instituciones, los partidos políticos, las
+        comunidades religiosas, las asociaciones y las fundaciones, el procedimiento administrativo
+        general, la inspección administrativa y el empleo en la administración del Estado —de ahí
+        que se etiqueten public_administration y territorial_administration—. religion es la
+        etiqueta más discutible de este fichero y así se declara: se etiqueta aquí porque el
+        estatuto jurídico y el registro de las comunidades religiosas corresponden a este
+        ministerio, pero Croacia no tiene un ministerio de asuntos religiosos y la relación
+        política con las comunidades religiosas discurre a través de una comisión del Gobierno con
+        oficina propia, la Ured komisije za odnose s vjerskim zajednicama, que queda fuera del
+        perímetro de este fichero. Un curador que aplicara con rigor el criterio de
+        «responsabilidad principal» eliminaría la etiqueta; se mantiene porque el registro y el
+        marco legal son una competencia legal real y porque suprimirla dejaría al lector sin poder
+        localizar en absoluto dónde residen los asuntos religiosos en Croacia. Nótese además que el
+        mismo párrafo atribuye a este ministerio los registros de partidos políticos, asociaciones
+        y fundaciones, para los que la taxonomía no tiene identificador y no se propone ninguno. Se
+        etiqueta digital
+        porque la modificación de 2024 trasladó aquí toda la cartera de transformación digital desde
+        la suprimida Središnji državni ured za razvoj digitalnog društva: el ministerio gestiona
+        ahora la digitalización de todos los órganos de la administración estatal y pública, la
+        infraestructura estatal de información, la interoperabilidad y los registros públicos, la
+        economía digital, los servicios de confianza y las tecnologías innovadoras incluida la
+        inteligencia artificial. No se etiquetan las telecomunicaciones: las comunicaciones
+        electrónicas y los servicios postales siguen en el Ministerio del Mar, Transporte e
+        Infraestructuras. Una advertencia sobre la dirección web: el dominio mpudt.gov.hr responde
+        al nombre completo del ministerio, pero el título de su propio sitio seguía siendo
+        «Ministarstvo pravosuđa i uprave Republike Hrvatske» en la fecha de consulta, sin la
+        transformación digital, de modo que el sitio no se había puesto al día con el cambio de
+        nombre de 2024.
+
+  - id: HR-2024-znanost-obrazovanje-i-mladi
+    order: 8
+    name_original: Ministarstvo znanosti, obrazovanja i mladih
+    abbreviation_original: null
+    name_en: Ministry of Science, Education and Youth
+    name_es: Ministerio de Ciencia, Educación y Juventud
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministar znanosti, obrazovanja i mladih
+    head_title_en: Minister of Science, Education, and Youth
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [education, higher_education, research, innovation, youth, vocational_training]
+    counts_as_ministry: true
+    url: https://mzom.gov.hr
+    sources: [nn-57-2024-982, zakon-hr-zudtdu-procisceni, nn-60-2024-1006, vlada-clanovi-vlade, vlada-government-members-en]
+    note:
+      en: >-
+        The whole of Croatian education, science and youth policy in one department. Article 11
+        gives it preschool, primary and secondary education at home and abroad, the national
+        curriculum, textbooks and educational standards, pupil welfare and educational inspection;
+        higher education, the accreditation and funding of higher-education institutions, student
+        welfare, the Croatian Qualifications Framework and lifelong learning; scientific,
+        technological and innovation activity, the funding of research programmes and projects,
+        technology transfer and intellectual-property policy in that context; and youth policy,
+        including non-formal education, youth participation in decision-making, volunteering and
+        support to the organised youth sector. vocational_training is tagged because the same
+        article gives it the training of children, young people and adults in technical knowledge
+        and skills, and because Croatia's initial vocational education is part of the secondary
+        school system it runs; labour-market retraining is separately the Ministry of Labour's and
+        is not tagged here. The ministry gained youth in the May 2024 reorganisation, which is what
+        the "i mladih" in its name records. Its name is the one point where the commercial
+        consolidated text and the gazette disagree; see the methodology note.
+      es: >-
+        Toda la política croata de educación, ciencia y juventud en un solo departamento. El
+        artículo 11 le atribuye la educación preescolar, primaria y secundaria en el país y en el
+        exterior, el currículo nacional, los libros de texto y los estándares educativos, el
+        bienestar del alumnado y la inspección educativa; la educación superior, la acreditación y
+        la financiación de las instituciones de educación superior, el bienestar estudiantil, el
+        Marco Croata de Cualificaciones y el aprendizaje a lo largo de la vida; la actividad
+        científica, tecnológica y de innovación, la financiación de programas y proyectos de
+        investigación, la transferencia de tecnología y la política de propiedad intelectual en ese
+        contexto; y la política de juventud, incluida la educación no formal, la participación
+        juvenil en la toma de decisiones, el voluntariado y el apoyo al sector juvenil organizado.
+        Se etiqueta vocational_training porque el mismo artículo le atribuye la capacitación de
+        niños, jóvenes y adultos en conocimientos y destrezas técnicas, y porque la formación
+        profesional inicial croata forma parte del sistema de educación secundaria que gestiona; la
+        recualificación para el mercado de trabajo corresponde por separado al Ministerio de
+        Trabajo y no se etiqueta aquí. El ministerio ganó la juventud en la reorganización de mayo
+        de 2024, que es lo que registra el «i mladih» de su nombre. Su nombre es el único punto en
+        que el texto consolidado comercial y el boletín oficial discrepan; véase la nota
+        metodológica.
+
+  - id: HR-2024-demografija-i-useljenistvo
+    order: 9
+    name_original: Ministarstvo demografije i useljeništva
+    abbreviation_original: null
+    name_en: Ministry of Demography and Migration
+    name_es: Ministerio de Demografía e Inmigración
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministar demografije i useljeništva
+    head_title_en: Minister of Demography and Migration
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [family, diaspora]
+    counts_as_ministry: true
+    url: https://mdu.gov.hr
+    sources: [nn-57-2024-982, zakon-hr-zudtdu-procisceni, nn-60-2024-1006, vlada-clanovi-vlade, vlada-government-members-en]
+    note:
+      en: >-
+        A wholly new ministry created by the May 2024 reorganisation, and the reason article 11.a
+        was inserted into the Act. It monitors and analyses demographic trends, proposes measures
+        to raise the birth rate, balance the age structure and maintain the spatial distribution of
+        the population, proposes measures to encourage people to stay in Croatia, support for
+        parenthood and the reconciliation of family and working life, and supervises the
+        application of the rules on child allowance, maternity and parental leave and benefits and
+        newborn-equipment aid. Its second field of activity is the return and settlement of members
+        of the Croatian emigrant community and their integration into Croatian economic and social
+        life. family and diaspora are therefore the tags, and neither is obvious from the name.
+        Migration is deliberately not tagged despite "useljeništvo" in the title and "Migration" in
+        the government's own English rendering: what the statute gives this ministry is
+        return-migration of ethnic Croats, whereas immigration and asylum as a matter of
+        administration are the interior ministry's. Family is tagged here and also on the Ministry
+        of Labour, Pension System, Family and Social Policy; Croatia split family policy between
+        the two in 2024 and this dataset reports both rather than choosing.
+      es: >-
+        Un ministerio enteramente nuevo creado por la reorganización de mayo de 2024, y la razón por
+        la que se insertó el artículo 11.a en la ley. Sigue y analiza las tendencias demográficas,
+        propone medidas para elevar la natalidad, equilibrar la estructura de edades y mantener el
+        reparto territorial de la población, propone medidas para incentivar la permanencia en
+        Croacia, el apoyo a la parentalidad y la conciliación de la vida familiar y laboral, y
+        supervisa la aplicación de la normativa sobre la prestación por hijo, los permisos y
+        prestaciones de maternidad y parentalidad y la ayuda para el equipamiento del recién nacido.
+        Su segundo ámbito de actividad es el retorno y el asentamiento de los miembros de la
+        emigración croata y su integración en la vida económica y social del país. Las etiquetas son
+        por tanto family y diaspora, y ninguna de las dos resulta obvia a partir del nombre. La
+        migración no se etiqueta deliberadamente, pese al «useljeništvo» del título y al «Migration»
+        de la propia versión inglesa del gobierno: lo que la ley atribuye a este ministerio es la
+        migración de retorno de croatas étnicos, mientras que la inmigración y el asilo como materia
+        administrativa corresponden al ministerio del Interior. La familia se etiqueta aquí y también
+        en el Ministerio de Trabajo, Sistema de Pensiones, Familia y Política Social; Croacia repartió
+        la política familiar entre los dos en 2024 y este conjunto de datos informa de ambos en lugar
+        de elegir.
+
+  - id: HR-2024-kultura-i-mediji
+    order: 10
+    name_original: Ministarstvo kulture i medija
+    abbreviation_original: null
+    name_en: Ministry of Culture and Media
+    name_es: Ministerio de Cultura y Medios de Comunicación
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministar kulture i medija
+    head_title_en: Minister of Culture and Media
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [culture, media]
+    counts_as_ministry: true
+    url: https://min-kulture.gov.hr
+    sources: [nn-57-2024-982, zakon-hr-zudtdu-procisceni, nn-60-2024-1006, vlada-clanovi-vlade, vlada-government-members-en]
+    note:
+      en: >-
+        Article 12 gives this ministry cultural and artistic creation, cultural institutions,
+        cultural relations abroad, the cultural and creative industries, the museum, gallery,
+        library, archive and theatre sectors, the research, documentation and protection of
+        cultural heritage, the designation of protected cultural property, conservation and
+        restoration, the Croatian Commission for UNESCO, and support for the cultural needs of
+        Croats in other countries. Media is tagged because the same article gives it the normative
+        and administrative work in the media field and copyright and related rights policy;
+        Croatia has no separate media or information ministry.
+      es: >-
+        El artículo 12 atribuye a este ministerio la creación cultural y artística, las instituciones
+        culturales, las relaciones culturales con el exterior, las industrias culturales y creativas,
+        los sectores museístico, de galerías, bibliotecario, archivístico y teatral, la investigación,
+        documentación y protección del patrimonio cultural, la declaración de bienes culturales
+        protegidos, la conservación y la restauración, la Comisión Croata para la UNESCO y el apoyo a
+        las necesidades culturales de los croatas en otros países. Se etiquetan los medios porque el
+        mismo artículo le atribuye el trabajo normativo y administrativo en el ámbito de los medios y
+        la política de derechos de autor y derechos conexos; Croacia no tiene un ministerio separado
+        de medios o de información.
+
+  - id: HR-2024-turizam-i-sport
+    order: 11
+    name_original: Ministarstvo turizma i sporta
+    abbreviation_original: null
+    name_en: Ministry of Tourism and Sports
+    name_es: Ministerio de Turismo y Deporte
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministar turizma i sporta
+    head_title_en: Minister of Tourism and Sports
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [tourism, sport]
+    counts_as_ministry: true
+    url: https://mints.gov.hr
+    sources: [nn-57-2024-982, nn-85-2020-1593, zakon-hr-zudtdu-procisceni, nn-60-2024-1006, vlada-clanovi-vlade, vlada-government-members-en]
+    note:
+      en: >-
+        Two unrelated portfolios in one department, which is common in this dataset but worth
+        stating. Article 13 gives it tourism policy and the tourism development strategy,
+        investment in tourism, health, inland, nautical, congress, adventure, cultural and youth
+        tourism, small and medium enterprise in tourism and hospitality, accommodation quality,
+        the restructuring of hotel companies, digital tourism and tourism infrastructure; and,
+        separately, the development of sport and physical culture, recreational, school,
+        university, amateur and professional sport, the financing of sport programmes, the
+        categorisation of sports and athletes, and support and recognition for elite athletes.
+        Tourism is a very large portfolio in Croatian terms and the ministry is not a junior one.
+        Physical education inside the school curriculum belongs to the education ministry.
+      es: >-
+        Dos carteras sin relación entre sí en un solo departamento, algo frecuente en este conjunto de
+        datos pero que conviene decir. El artículo 13 le atribuye la política turística y la
+        estrategia de desarrollo del turismo, la inversión en turismo, el turismo de salud, de
+        interior, náutico, de congresos, de aventura, cultural y juvenil, las pymes del turismo y la
+        hostelería, la calidad del alojamiento, la reestructuración de las empresas hoteleras, el
+        turismo digital y la infraestructura turística; y, por separado, el desarrollo del deporte y
+        de la cultura física, el deporte recreativo, escolar, universitario, amateur y profesional, la
+        financiación de programas deportivos, la categorización de deportes y deportistas y el apoyo y
+        el reconocimiento a los deportistas de élite. El turismo es una cartera muy grande en términos
+        croatas y el ministerio no es menor. La educación física dentro del currículo escolar
+        corresponde al ministerio de educación.
+
+  - id: HR-2024-regionalni-razvoj-i-fondovi-eu
+    order: 12
+    name_original: Ministarstvo regionalnoga razvoja i fondova Europske unije
+    abbreviation_original: null
+    name_en: Ministry of Regional Development and European Union Funds
+    name_es: Ministerio de Desarrollo Regional y Fondos de la Unión Europea
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministar regionalnoga razvoja i fondova Europske unije
+    head_title_en: Minister of Regional Development and European Union Funds
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [regional_development]
+    counts_as_ministry: true
+    url: https://razvoj.gov.hr
+    sources: [nn-57-2024-982, zakon-hr-zudtdu-procisceni, nn-60-2024-1006, vlada-clanovi-vlade, vlada-government-members-en]
+    note:
+      en: >-
+        Article 14 gives this ministry the establishment and management of the whole system of
+        strategic planning and development management, the national development strategy, regional
+        development policy and the system for planning, programming, managing and financing regional
+        development, and the coordination, programming and strategic monitoring of Cohesion policy
+        and of the programmes financed from European Union funds in Croatia, including the number and
+        scope of operational programmes and the Partnership Agreement. Only regional_development is
+        tagged, and the taxonomy's own gloss for that id — "Regional development and cohesion funds"
+        — covers both halves of the ministry's name, so european_affairs is not added: this is a
+        managing authority for funds, not a department for relations with the European Union, which
+        is the foreign ministry's. reconstruction is not tagged: post-earthquake reconstruction is the
+        Ministry of Spatial Planning, Construction and State Property's.
+      es: >-
+        El artículo 14 atribuye a este ministerio la creación y gestión de todo el sistema de
+        planificación estratégica y de gestión del desarrollo, la estrategia nacional de desarrollo, la
+        política de desarrollo regional y el sistema de planificación, programación, gestión y
+        financiación del desarrollo regional, y la coordinación, programación y seguimiento estratégico
+        de la política de cohesión y de los programas financiados con fondos de la Unión Europea en
+        Croacia, incluidos el número y el alcance de los programas operativos y el Acuerdo de
+        Asociación. Sólo se etiqueta regional_development, y la propia glosa de ese identificador en la
+        taxonomía —«Desarrollo regional y fondos de cohesión»— cubre las dos mitades del nombre del
+        ministerio, así que no se añade european_affairs: se trata de una autoridad de gestión de
+        fondos y no de un departamento de relaciones con la Unión Europea, que corresponden al
+        ministerio de exteriores. No se etiqueta reconstruction: la reconstrucción posterior a los
+        terremotos corresponde al Ministerio de Ordenación del Territorio, Construcción y Patrimonio
+        del Estado.
+
+  - id: HR-2024-rad-mirovine-obitelj-i-socijalna-politika
+    order: 13
+    name_original: Ministarstvo rada, mirovinskoga sustava, obitelji i socijalne politike
+    abbreviation_original: null
+    name_en: Ministry of Labour, Pension System, Family and Social Policy
+    name_es: Ministerio de Trabajo, Sistema de Pensiones, Familia y Política Social
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministar rada, mirovinskoga sustava, obitelji i socijalne politike
+    head_title_en: Minister of Labour, Pension System, Family, and Social Policy
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [labour, social_security, social_affairs, family, disability, elderly]
+    counts_as_ministry: true
+    url: https://mrosp.gov.hr
+    sources: [nn-57-2024-982, nn-85-2020-1593, zakon-hr-zudtdu-procisceni, nn-60-2024-1006, vlada-clanovi-vlade, vlada-government-members-en]
+    note:
+      en: >-
+        Croatia's whole welfare state in one department, and the second-widest remit in this
+        cabinet. Article 15 gives it employment policy and the regulation of labour relations, the
+        labour market and active labour-market policy, retraining and employability programmes, the
+        pension insurance system, unemployment records and employment assistance, social
+        partnership and relations with trade unions and employers' associations, the employment
+        status of Croatian nationals abroad and of foreign nationals in Croatia, and occupational
+        safety; the care of persons and families without sufficient means, the network of social
+        care institutions and inspection over them; and marriage and family relations, protection
+        from domestic violence, parent-child relations, the protection of children without adequate
+        parental care, responsible parenthood, maintenance obligations, and support programmes for
+        families, children with developmental difficulties, older persons and socially vulnerable
+        groups. disability and elderly are tagged for those last two, which the ministry's name does
+        not disclose. family is tagged here and also on the Ministry of Demography and Migration.
+        equality is not tagged: Croatia has no equality ministry and gender equality sits in a
+        government office.
+      es: >-
+        Todo el estado del bienestar croata en un solo departamento, y la segunda cartera más amplia de
+        este gabinete. El artículo 15 le atribuye la política de empleo y la regulación de las
+        relaciones laborales, el mercado de trabajo y la política activa de empleo, los programas de
+        recualificación y de empleabilidad, el sistema de seguro de pensiones, el registro del
+        desempleo y la asistencia al empleo, el diálogo social y las relaciones con los sindicatos y
+        las asociaciones empresariales, la situación laboral de los nacionales croatas en el exterior y
+        de los extranjeros en Croacia, y la seguridad en el trabajo; la atención a las personas y
+        familias sin medios suficientes, la red de instituciones de servicios sociales y su inspección;
+        y el matrimonio y las relaciones familiares, la protección frente a la violencia doméstica, las
+        relaciones entre padres e hijos, la protección de los menores sin cuidado parental adecuado, la
+        parentalidad responsable, las obligaciones de alimentos y los programas de apoyo a las familias,
+        a los niños con dificultades en el desarrollo, a las personas mayores y a los grupos
+        socialmente vulnerables. Se etiquetan disability y elderly por esos dos últimos, que el nombre
+        del ministerio no revela. La familia se etiqueta aquí y también en el Ministerio de Demografía e
+        Inmigración. No se etiqueta equality: Croacia no tiene ministerio de igualdad y la igualdad de
+        género reside en una oficina del Gobierno.
+
+  - id: HR-2024-poljoprivreda-sumarstvo-i-ribarstvo
+    order: 14
+    name_original: Ministarstvo poljoprivrede, šumarstva i ribarstva
+    abbreviation_original: null
+    name_en: Ministry of Agriculture, Forestry and Fisheries
+    name_es: Ministerio de Agricultura, Silvicultura y Pesca
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministar poljoprivrede, šumarstva i ribarstva
+    head_title_en: Minister of Agriculture, Forestry, and Fisheries
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [agriculture, forestry, fisheries, rural_development, food_safety, animal_welfare]
+    counts_as_ministry: true
+    url: https://poljoprivreda.gov.hr
+    sources: [nn-57-2024-982, zakon-hr-zudtdu-procisceni, nn-60-2024-1006, vlada-clanovi-vlade, vlada-government-members-en]
+    note:
+      en: >-
+        Renamed in May 2024 from Ministarstvo poljoprivrede to spell out the forestry and fisheries
+        it already held. Article 16 gives it agriculture, fisheries, forestry, rural development,
+        the management and disposal of state-owned agricultural land, agricultural policy, the
+        organisation of agricultural markets, market and structural support, the food and tobacco
+        industries and veterinary affairs; plant production and agroecology, plant health, plant
+        protection products and pesticide residues, and the production and marketing of grapes and
+        wine; the management of the biological wealth of the sea and fresh waters, fishing effort,
+        aquaculture and the fisheries information system; forestry, wood processing and furniture
+        production, hunting, forest protection and forest genetic resources; and the safety,
+        hygiene, quality and labelling of food and animal feed, food waste prevention and official
+        controls. food_safety is tagged for that last group, which Croatia divides with the health
+        ministry and the State Inspectorate. animal_welfare is tagged because the article gives the
+        ministry the protection of animals alongside animal-disease control and veterinary public
+        health. water is not tagged: water management is the environment ministry's, and this
+        ministry's water competence is confined to irrigation and drainage on agricultural land.
+      es: >-
+        Renombrado en mayo de 2024 desde Ministarstvo poljoprivrede para explicitar la silvicultura y
+        la pesca que ya tenía. El artículo 16 le atribuye la agricultura, la pesca, la silvicultura, el
+        desarrollo rural, la gestión y disposición de las tierras agrícolas de titularidad estatal, la
+        política agraria, la organización de los mercados agrarios, las ayudas de mercado y
+        estructurales, las industrias alimentaria y del tabaco y los asuntos veterinarios; la producción
+        vegetal y la agroecología, la sanidad vegetal, los productos fitosanitarios y los residuos de
+        plaguicidas, y la producción y comercialización de uva y vino; la gestión de la riqueza
+        biológica del mar y de las aguas dulces, el esfuerzo pesquero, la acuicultura y el sistema de
+        información de la pesca; la silvicultura, la transformación de la madera y la producción de
+        muebles, la caza, la protección de los bosques y los recursos genéticos forestales; y la
+        seguridad, la higiene, la calidad y el etiquetado de los alimentos y de los piensos, la
+        prevención del desperdicio alimentario y los controles oficiales. Se etiqueta food_safety por
+        este último grupo, que Croacia reparte con el ministerio de sanidad y el Inspectorado del
+        Estado. Se etiqueta animal_welfare porque el artículo le atribuye la protección de los animales
+        junto con el control de las enfermedades animales y la salud pública veterinaria. No se etiqueta
+        el agua: la gestión de las aguas corresponde al ministerio de medio ambiente, y la competencia
+        hídrica de este ministerio se limita al riego y al drenaje de las tierras agrícolas.
+
+  - id: HR-2024-more-promet-i-infrastruktura
+    order: 15
+    name_original: Ministarstvo mora, prometa i infrastrukture
+    abbreviation_original: null
+    name_en: Ministry of the Sea, Transport and Infrastructure
+    name_es: Ministerio del Mar, Transporte e Infraestructuras
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministar mora, prometa i infrastrukture
+    head_title_en: Minister of the Sea, Transport and Infrastructure
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [shipping, transport, infrastructure, telecommunications]
+    counts_as_ministry: true
+    url: https://mmpi.gov.hr
+    sources: [nn-57-2024-982, nn-85-2020-1593, zakon-hr-zudtdu-procisceni, nn-60-2024-1006, vlada-clanovi-vlade, vlada-government-members-en]
+    note:
+      en: >-
+        Article 17 gives this ministry domestic and international maritime, nautical, road, rail,
+        combined and air transport, cable cars and inland-waterway transport together with the
+        infrastructure of each, the planning and delivery of transport-infrastructure projects and
+        the transport development strategy, the protection of the sea from ship-source pollution,
+        sea ports, the maritime domain and the delimitation of its boundaries, maritime insurance
+        and shipping agencies, inland ports, freight-transport centres and airports. shipping is
+        tagged first because "mora" comes first in the ministry's name and Croatia's maritime remit
+        is genuinely the leading one. telecommunications is the tag most likely to be looked for on
+        another ministry: the same article gives this department electronic communications, the
+        information society except where another body is competent, postal services, radio equipment
+        and electromagnetic compatibility, and it has held them since 2020 — the ministry with
+        "digital transformation" in its name holds the digitalisation of the administration, not the
+        communications sector.
+      es: >-
+        El artículo 17 atribuye a este ministerio el transporte marítimo, náutico, por carretera,
+        ferroviario, combinado y aéreo, nacional e internacional, los teleféricos y el transporte por
+        vías navegables interiores junto con la infraestructura de cada uno, la planificación y
+        ejecución de los proyectos de infraestructura de transporte y la estrategia de desarrollo del
+        transporte, la protección del mar frente a la contaminación procedente de buques, los puertos
+        marítimos, el dominio público marítimo y la delimitación de sus límites, el seguro marítimo y
+        las agencias marítimas, los puertos interiores, los centros de transporte de mercancías y los
+        aeropuertos. Se etiqueta shipping en primer lugar porque «mora» encabeza el nombre del
+        ministerio y la competencia marítima croata es realmente la principal. Las telecomunicaciones
+        son la etiqueta que más probablemente se buscaría en otro ministerio: el mismo artículo
+        atribuye a este departamento las comunicaciones electrónicas, la sociedad de la información
+        salvo cuando otro órgano sea competente, los servicios postales, los equipos radioeléctricos y
+        la compatibilidad electromagnética, y las tiene desde 2020 —el ministerio que lleva
+        «transformación digital» en el nombre tiene la digitalización de la administración, no el
+        sector de las comunicaciones—.
+
+  - id: HR-2024-prostorno-uredenje-graditeljstvo-i-drzavna-imovina
+    order: 16
+    name_original: Ministarstvo prostornoga uređenja, graditeljstva i državne imovine
+    abbreviation_original: null
+    name_en: Ministry of Spatial Planning, Construction and State Property
+    name_es: Ministerio de Ordenación del Territorio, Construcción y Patrimonio del Estado
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministar prostornoga uređenja, graditeljstva i državne imovine
+    head_title_en: Minister of Spatial Planning, Construction, and State Property
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [spatial_planning, housing, state_assets, infrastructure]
+    counts_as_ministry: true
+    url: https://mpgi.gov.hr
+    sources: [nn-57-2024-982, zakon-hr-zudtdu-procisceni, nn-60-2024-1006, vlada-clanovi-vlade, vlada-government-members-en]
+    note:
+      en: >-
+        Article 18 gives this ministry spatial planning, construction and housing, the coordination
+        of spatial development, the use and protection of space, the spatial planning information
+        system, the monitoring of the state of the territory and the implementation of the spatial
+        plans of the Republic, location permits, the Spatial Development Strategy, the valuation of
+        real estate, the conditions for the design and construction of buildings, energy efficiency
+        in buildings, building and occupancy permits, the use, maintenance and removal of buildings,
+        and the professional chambers of architects and engineers. housing is tagged because
+        "stanovanje" is named in the first paragraph of the article; state_assets because state
+        property is in the ministry's name and article 8 refers to it as "ministarstvo nadležno za
+        upravljanje državnom imovinom", the ministry competent for the management of state property,
+        with which every other ministry must cooperate over shares in state-owned companies;
+        infrastructure because the ministry is the construction authority for public building works.
+        This is also the department that carries Croatia's post-earthquake reconstruction programme,
+        and a curator who wanted a reconstruction tag would put it here rather than on the regional
+        development ministry.
+      es: >-
+        El artículo 18 atribuye a este ministerio la ordenación del territorio, la construcción y la
+        vivienda, la coordinación del desarrollo territorial, el uso y la protección del espacio, el
+        sistema de información de la ordenación del territorio, el seguimiento del estado del
+        territorio y la ejecución de los planes territoriales de la República, las licencias de
+        emplazamiento, la Estrategia de Desarrollo Territorial, la valoración de inmuebles, las
+        condiciones para el diseño y la construcción de edificios, la eficiencia energética en la
+        edificación, las licencias de obra y de primera ocupación, el uso, la conservación y la
+        demolición de edificios, y los colegios profesionales de arquitectos e ingenieros. Se etiqueta
+        housing porque «stanovanje» figura nombrado en el primer párrafo del artículo; state_assets
+        porque el patrimonio del Estado está en el nombre del ministerio y el artículo 8 se refiere a
+        él como «ministarstvo nadležno za upravljanje državnom imovinom», el ministerio competente para
+        la gestión del patrimonio del Estado, con el que todos los demás ministerios deben cooperar en
+        lo relativo a las acciones de las sociedades de titularidad estatal; infrastructure porque el
+        ministerio es la autoridad constructiva de la obra pública edificatoria. Es también el
+        departamento que lleva el programa croata de reconstrucción posterior a los terremotos, y un
+        curador que quisiera una etiqueta de reconstrucción la pondría aquí y no en el ministerio de
+        desarrollo regional.
+
+  - id: HR-2024-hrvatski-branitelji
+    order: 17
+    name_original: Ministarstvo hrvatskih branitelja
+    abbreviation_original: null
+    name_en: Ministry of Croatian Veterans
+    name_es: Ministerio de Veteranos Croatas
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministar hrvatskih branitelja
+    head_title_en: Minister of Croatian Veterans
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [veterans]
+    counts_as_ministry: true
+    url: https://branitelji.gov.hr
+    sources: [nn-57-2024-982, nn-85-2020-1593, zakon-hr-zudtdu-procisceni, nn-60-2024-1006, vlada-clanovi-vlade, vlada-government-members-en]
+    note:
+      en: >-
+        A dedicated veterans ministry, which few countries in this dataset have and which follows
+        from the Homeland War of 1991-1995. Article 19 gives it the legal position and status of
+        Croatian defenders of the Homeland War, war invalids and the families of the fallen and
+        missing, the protection of civilian victims of that war, of participants in the Second World
+        War and of military and civilian invalids of it, and the search for the detained and
+        missing, the organisation of exhumations of mass and individual graves on Croatian
+        territory, and the identification of the remains of victims. Only veterans is tagged. The
+        exhumation and identification work is the reason a reader might expect a historical-memory
+        tag; it is not added, because the taxonomy's historical_memory id covers democratic-memory
+        policy of the Spanish or Central European kind rather than the forensic identification of
+        war dead, and adding it would make the comparison view treat two different things as one.
+      es: >-
+        Un ministerio de veteranos propio, que pocos países de este conjunto de datos tienen y que se
+        explica por la Guerra de la Patria de 1991-1995. El artículo 19 le atribuye la situación y el
+        estatuto jurídico de los defensores croatas de la Guerra de la Patria, de los inválidos de
+        guerra y de las familias de los caídos y desaparecidos, la protección de las víctimas civiles
+        de esa guerra, de los participantes en la Segunda Guerra Mundial y de los inválidos militares y
+        civiles de ésta, y la búsqueda de detenidos y desaparecidos, la organización de exhumaciones de
+        fosas comunes e individuales en territorio croata y la identificación de los restos de las
+        víctimas. Sólo se etiqueta veterans. El trabajo de exhumación e identificación es la razón por
+        la que un lector podría esperar una etiqueta de memoria histórica; no se añade, porque el
+        identificador historical_memory de la taxonomía cubre políticas de memoria democrática del tipo
+        español o centroeuropeo y no la identificación forense de los muertos de guerra, y añadirlo
+        haría que la vista comparativa tratara como una misma cosa dos cosas distintas.
+
+  - id: HR-2024-zdravstvo
+    order: 18
+    name_original: Ministarstvo zdravstva
+    abbreviation_original: null
+    name_en: Ministry of Health
+    name_es: Ministerio de Sanidad
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministar zdravstva
+    head_title_en: Minister of Health
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [health]
+    counts_as_ministry: true
+    url: https://zdravlje.gov.hr
+    sources: [nn-57-2024-982, zakon-hr-zudtdu-procisceni, nn-60-2024-1006, vlada-clanovi-vlade, vlada-government-members-en]
+    note:
+      en: >-
+        Article 20 gives this ministry the health care and health insurance systems, the monitoring
+        and improvement of the population's health, protection against communicable and
+        non-communicable diseases and non-ionising radiation, noise protection, food hygiene and
+        safety under the food legislation, articles of general use, the restriction of tobacco use,
+        chemicals, biocidal products, drinking water, genetically modified organisms, the production
+        and traffic in narcotic drugs and psychotropic substances, and the approval of clinical
+        trials of medicines and medical devices. Only health is tagged: social security and social
+        care are the Ministry of Labour's, and food safety is tagged on the agriculture ministry,
+        which holds the general food-safety system, with this ministry's food competence confined to
+        hygiene and health suitability. Croatia's health insurance fund, the Hrvatski zavod za
+        zdravstveno osiguranje, is a public body outside this file's perimeter.
+      es: >-
+        El artículo 20 atribuye a este ministerio los sistemas de asistencia sanitaria y de seguro de
+        enfermedad, el seguimiento y la mejora del estado de salud de la población, la protección
+        frente a las enfermedades transmisibles y no transmisibles y frente a las radiaciones no
+        ionizantes, la protección contra el ruido, la higiene y la seguridad alimentaria conforme a la
+        legislación alimentaria, los artículos de uso general, la limitación del consumo de tabaco, los
+        productos químicos, los biocidas, el agua de consumo humano, los organismos modificados
+        genéticamente, la producción y el tráfico de drogas y sustancias psicotrópicas y la
+        autorización de los ensayos clínicos de medicamentos y productos sanitarios. Sólo se etiqueta
+        health: la seguridad social y los servicios sociales corresponden al Ministerio de Trabajo, y
+        food_safety se etiqueta en el ministerio de agricultura, que tiene el sistema general de
+        seguridad alimentaria, mientras que la competencia alimentaria de este ministerio se limita a
+        la higiene y la aptitud sanitaria. El fondo croata de seguro de enfermedad, el Hrvatski zavod
+        za zdravstveno osiguranje, es un organismo público fuera del perímetro de este fichero.
+
+  # --- recorded, not counted: the Government's own organs ----------------------------------
+  - id: HR-2024-predsjednik-vlade
+    order: 19
+    name_original: Predsjednik Vlade Republike Hrvatske
+    abbreviation_original: null
+    name_en: Prime Minister of the Republic of Croatia
+    name_es: Presidente del Gobierno de la República de Croacia
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Predsjednik Vlade Republike Hrvatske
+    head_title_en: Prime Minister of the Republic of Croatia
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: head_of_government_office
+    url: https://vlada.gov.hr/predsjednik-vlade-65/65
+    sources: [zakon-hr-zakon-o-vladi, nn-60-2024-1006, vlada-clanovi-vlade, vlada-government-members-en]
+    note:
+      en: >-
+        Not a ministry and not a department: article 3 of the enumerating Act does not list one, and
+        article 10 of the Zakon o Vladi gives the Prime Minister the representation of the
+        Government, the convening and chairing of its sessions, the direction of its work and the
+        signature of its acts — no portfolio. It is recorded because article 2 of the same Act makes
+        the Prime Minister a member of the Government and the Sabor's confidence decision names him
+        first among nineteen, which is what makes the cabinet nineteen people against eighteen
+        departments. The holder is Andrej Plenković, appointed by the President of the Republic with
+        effect from 17 May 2024; this is his third government and the sixteenth of the Republic. Do
+        not confuse this entry with the Ured predsjednika Vlade below: this is the constitutional
+        office of the head of government, that is the body that serves it, and each is excluded for a
+        different reason. Croatia has no deputy-prime-minister entity either: all seven deputy prime
+        ministers in this cabinet are serving ministers, and article 10(3) makes the deputy
+        premiership a coordinating function rather than a department, so it adds neither a ministry
+        nor a seat. The name_en is marked official because the government's own English edition uses
+        exactly this form.
+      es: >-
+        No es un ministerio ni un departamento: el artículo 3 de la ley enumeradora no enumera
+        ninguno, y el artículo 10 de la Zakon o Vladi atribuye al presidente del Gobierno la
+        representación del Gobierno, la convocatoria y la presidencia de sus sesiones, la dirección de
+        su trabajo y la firma de sus actos —ninguna cartera—. Se registra porque el artículo 2 de la
+        misma ley hace del presidente un miembro del Gobierno y la decisión de confianza del Sabor lo
+        nombra primero entre diecinueve, que es lo que hace que el gabinete sean diecinueve personas
+        frente a dieciocho departamentos. El titular es Andrej Plenković, nombrado por el Presidente de
+        la República con efecto desde el 17 de mayo de 2024; es su tercer gobierno y el decimosexto de
+        la República. No confundir esta entrada con la Ured predsjednika Vlade de más abajo: ésta es la
+        oficina constitucional del jefe de gobierno, aquélla el órgano que la sirve, y cada una se
+        excluye por un motivo distinto. Croacia tampoco tiene una entidad de viceprimer ministro: los
+        siete vicepresidentes de este gabinete son ministros en ejercicio, y el artículo 10(3) hace de
+        la vicepresidencia una función de coordinación y no un departamento, de modo que no añade ni
+        ministerio ni asiento. El name_en lleva la marca official porque la propia edición inglesa del
+        gobierno usa exactamente esta forma.
+
+  - id: HR-2024-ured-predsjednika-vlade
+    order: 20
+    name_original: Ured predsjednika Vlade Republike Hrvatske
+    abbreviation_original: null
+    name_en: The Prime Minister's Office
+    name_es: Oficina del Presidente del Gobierno de la República de Croacia
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Predstojnik Ureda predsjednika Vlade
+    head_title_en: The Head of the Prime Minister's Office
+    has_cabinet_seat: false
+    head_count: 1
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: not_headed_by_minister
+    url: https://vlada.gov.hr/ured-predsjednika-vlade-45931/45931
+    sources: [zakon-hr-zakon-o-vladi, vlada-ured-predsjednika-vlade-en]
+    note:
+      en: >-
+        Recorded so that the perimeter is visible, and excluded on the narrowest available ground.
+        Article 18 of the Zakon o Vladi constitutes it inside the Government — "U Vladi se ustrojava
+        Ured predsjednika Vlade" — to do expert and administrative work for the Prime Minister on his
+        instructions, and to coordinate the Government's expert offices and the Prime Minister's
+        advisory boards. Its head is a predstojnik appointed by the Government on the Prime
+        Minister's proposal who has the rank of a state secretary, not of a minister; he is therefore
+        not a member of the Government, holds no cabinet seat, and the body is not a ministry, since
+        article 3 of the enumerating Act does not list it and it is not a državna upravna
+        organizacija under article 4 either. Two cautions. First, the government's English edition
+        calls it "The Prime Minister's Office", which reads like the constitutional office of the head
+        of government recorded separately above; the two are different things and are kept apart
+        here. Second, this is where the Government's public-relations and public-policy services sit,
+        so a reader looking for a Croatian government-communication department will find it here and
+        not as a ministry.
+      es: >-
+        Se registra para que el perímetro sea visible, y se excluye por el motivo más estricto
+        disponible. El artículo 18 de la Zakon o Vladi la constituye dentro del Gobierno —«U Vladi se
+        ustrojava Ured predsjednika Vlade»— para realizar el trabajo técnico y administrativo del
+        presidente del Gobierno según sus instrucciones y para coordinar las oficinas especializadas
+        del Gobierno y los consejos asesores del presidente. Su titular es un predstojnik nombrado por
+        el Gobierno a propuesta del presidente que tiene rango de secretario de Estado y no de
+        ministro; no es por tanto miembro del Gobierno, no tiene asiento en el gabinete, y el órgano no
+        es un ministerio, ya que el artículo 3 de la ley enumeradora no lo enumera y tampoco es una
+        državna upravna organizacija del artículo 4. Dos advertencias. Primera: la edición inglesa del
+        gobierno lo llama «The Prime Minister's Office», que se lee como la oficina constitucional del
+        jefe de gobierno registrada por separado más arriba; son cosas distintas y aquí se mantienen
+        separadas. Segunda: aquí residen los servicios de comunicación y de políticas públicas del
+        Gobierno, de modo que quien busque un departamento croata de comunicación gubernamental lo
+        encontrará aquí y no como ministerio.
+
+  - id: HR-2024-glavno-tajnistvo-vlade
+    order: 21
+    name_original: Glavno tajništvo Vlade Republike Hrvatske
+    abbreviation_original: null
+    name_en: The Government General Secretariat
+    name_es: Secretaría General del Gobierno de la República de Croacia
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Glavni tajnik Vlade
+    head_title_en: Government Secretary General
+    has_cabinet_seat: false
+    head_count: 1
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: not_headed_by_minister
+    url: https://vlada.gov.hr/glavno-tajnistvo-vlade-45904/45904
+    sources: [zakon-hr-zakon-o-vladi, vlada-glavno-tajnistvo-en]
+    note:
+      en: >-
+        The administrative apparatus of the Government, and a service rather than a department.
+        Article 20 of the Zakon o Vladi constitutes it inside the Government — "U Vladi se ustrojava
+        Glavno tajništvo" — to do expert, analytical, administrative-legal, general, technical and IT
+        work for the Government and for the deputy prime ministers and members of the Government, and
+        general and technical work for the Prime Minister's Office. It prepares and holds the
+        Government's sessions, dispatches the acts the Government adopts, sees to their publication
+        and keeps the minutes. Its head, the glavni tajnik, is appointed by the Government on the
+        Prime Minister's proposal and has the rank of a state secretary, not of a minister, so the
+        body is excluded as not_headed_by_minister and carries no seat: counting it would give
+        nineteen ministries and giving its secretary-general a seat would give twenty seats, and
+        neither is done here. Compare Finland, where the equivalent body appears in the statutory list
+        of ministries and is counted, and Slovenia and Lithuania, where it is excluded on exactly this
+        ground.
+      es: >-
+        El aparato administrativo del Gobierno, y un servicio y no un departamento. El artículo 20 de
+        la Zakon o Vladi lo constituye dentro del Gobierno —«U Vladi se ustrojava Glavno tajništvo»—
+        para realizar el trabajo técnico, analítico, administrativo-jurídico, general, técnico e
+        informático del Gobierno y de los vicepresidentes y miembros del Gobierno, y el trabajo general
+        y técnico de la Oficina del Presidente del Gobierno. Prepara y celebra las sesiones del
+        Gobierno, expide los actos que el Gobierno adopta, vela por su publicación y levanta las actas.
+        Su titular, el glavni tajnik, es nombrado por el Gobierno a propuesta del presidente y tiene
+        rango de secretario de Estado y no de ministro, de modo que el órgano se excluye por
+        not_headed_by_minister y no lleva asiento: contarlo daría diecinueve ministerios y dar asiento
+        a su secretario general daría veinte asientos, y aquí no se hace ni lo uno ni lo otro.
+        Compárese con Finlandia, donde el órgano equivalente figura en la lista legal de ministerios y
+        sí se cuenta, y con Eslovenia y Lituania, donde se excluye exactamente por este motivo.
+
+  # --- recorded, not counted: the nine državne upravne organizacije of article 4 ------------
+  - id: HR-2024-sdu-sredisnja-javna-nabava
+    order: 22
+    name_original: Središnji državni ured za središnju javnu nabavu
+    abbreviation_original: null
+    name_en: Central State Office for Central Public Procurement
+    name_es: Oficina Central del Estado para la Contratación Pública Centralizada
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Državni tajnik središnjeg državnog ureda
+    head_title_en: State Secretary of the Central State Office
+    has_cabinet_seat: false
+    head_count: 1
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: not_headed_by_minister
+    url: https://sredisnjanabava.gov.hr
+    sources: [nn-57-2024-982, zakon-hr-zudtdu-procisceni, zakon-hr-zsdu]
+    note:
+      en: >-
+        First of the nine bodies in article 4 of the enumerating Act, and the reason that article is
+        quoted in full above. Article 23 gives it central public procurement for the state
+        administration, the Government, the offices and expert services of the Government, the
+        Hrvatski sabor and the Office of the President of the Republic. It is a state administration
+        body of the same statutory family as the ministries and is listed in the same Act, but under
+        article 59 of the Zakon o sustavu državne uprave a central state office is headed by a
+        "državni tajnik središnjeg državnog ureda" — a state secretary, not a minister — who answers
+        to the Government without being a member of it, so it is not counted and holds no cabinet
+        seat.
+      es: >-
+        La primera de las nueve entidades del artículo 4 de la ley enumeradora, y la razón por la que
+        ese artículo se cita íntegro más arriba. El artículo 23 le atribuye la contratación pública
+        centralizada para la administración del Estado, el Gobierno, las oficinas y servicios
+        especializados del Gobierno, el Hrvatski sabor y la Oficina del Presidente de la República. Es
+        un órgano de la administración del Estado de la misma familia legal que los ministerios y
+        figura en la misma ley, pero según el artículo 59 de la Zakon o sustavu državne uprave una
+        oficina central del Estado está dirigida por un «državni tajnik središnjeg državnog ureda» —un
+        secretario de Estado y no un ministro— que responde ante el Gobierno sin ser miembro de él, de
+        modo que no se cuenta y no lleva asiento en el gabinete.
+
+  - id: HR-2024-sdu-hrvati-izvan-rh
+    order: 23
+    name_original: Središnji državni ured za Hrvate izvan Republike Hrvatske
+    abbreviation_original: null
+    name_en: Central State Office for Croats Abroad
+    name_es: Oficina Central del Estado para los Croatas fuera de la República de Croacia
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Državni tajnik središnjeg državnog ureda
+    head_title_en: State Secretary of the Central State Office
+    has_cabinet_seat: false
+    head_count: 1
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: not_headed_by_minister
+    url: https://hrvatiizvanrh.gov.hr
+    sources: [nn-57-2024-982, zakon-hr-zudtdu-procisceni, zakon-hr-zsdu]
+    note:
+      en: >-
+        The most consequential of the nine exclusions, and the one a reader is most likely to
+        challenge. Article 25 gives this office relations between the Republic of Croatia and Croats
+        outside it, the coordination and supervision of the activity of the state administration and
+        of other bodies in that cooperation, the protection of the rights and interests and the
+        preservation of the identity of Croats abroad, the registers of Croats abroad and the funding
+        of programmes for them. In Slovenia the equivalent function is held by a minister without
+        portfolio and therefore carries a cabinet seat; in Croatia it is a central state office headed
+        by a state secretary under article 59 of the Zakon o sustavu državne uprave, so it carries
+        neither a ministry nor a seat. That is why diaspora is tagged on no counted Croatian ministry
+        except in the narrow return-migration sense given to the Ministry of Demography and
+        Migration: Croatia's diaspora department exists, is named in the same Act as its ministries,
+        and is still not a ministry. The 2024 amending Act required the Government to re-issue this
+        office's internal-organisation decree, so its remit was revisited at the same time as the
+        ministries were.
+      es: >-
+        La más consecuente de las nueve exclusiones, y la que un lector cuestionará con mayor
+        probabilidad. El artículo 25 atribuye a esta oficina las relaciones entre la República de
+        Croacia y los croatas fuera de ella, la coordinación y supervisión de la actividad de la
+        administración del Estado y de otros órganos en esa cooperación, la protección de los derechos
+        e intereses y la preservación de la identidad de los croatas en el exterior, los registros de
+        croatas en el exterior y la financiación de programas para ellos. En Eslovenia la función
+        equivalente la ejerce una ministra sin cartera y por tanto lleva asiento en el gabinete; en
+        Croacia es una oficina central del Estado dirigida por un secretario de Estado conforme al
+        artículo 59 de la Zakon o sustavu državne uprave, de modo que no lleva ni ministerio ni
+        asiento. Por eso diaspora no se etiqueta en ningún ministerio croata contado salvo en el
+        sentido estricto de migración de retorno atribuido al Ministerio de Demografía e Inmigración:
+        el departamento croata de diáspora existe, está nombrado en la misma ley que sus ministerios y
+        sigue sin ser un ministerio. La ley de modificación de 2024 obligó al Gobierno a volver a
+        dictar el decreto de organización interna de esta oficina, así que su ámbito se revisó al mismo
+        tiempo que el de los ministerios.
+
+  - id: HR-2024-hrvatska-vatrogasna-zajednica
+    order: 24
+    name_original: Hrvatska vatrogasna zajednica
+    abbreviation_original: HVZ
+    name_en: Croatian Firefighting Association
+    name_es: Asociación Croata de Bomberos
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Glavni vatrogasni zapovjednik
+    head_title_en: Chief Fire Commander
+    has_cabinet_seat: false
+    head_count: 1
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: not_headed_by_minister
+    url: https://hvz.gov.hr
+    sources: [nn-57-2024-982, zakon-hr-zudtdu-procisceni, zakon-hr-zsdu]
+    note:
+      en: >-
+        The oddest name in article 4: a body called an "association" that is in law a state
+        administration body, listed in the same statute as Croatia's ministries. Article 26 gives it
+        firefighting, the training of members of fire brigades, technical assistance in accidents and
+        dangerous situations and inspection in the field of firefighting. Article 58(3) of the Zakon o
+        sustavu državne uprave permits state administrative organisations with special names,
+        organisation and manner of work, which is what this is; its head is the glavni vatrogasni
+        zapovjednik, who answers to the Government and is not a minister, so it is not counted and
+        holds no seat. Fire protection as a regulatory matter, together with civil protection and
+        rescue, remains with the Ministry of the Interior under article 6, which is where the
+        civil_protection tag sits. The abbreviation HVZ is the body's own and is used in the gazette
+        and on its website; it is the only abbreviation recorded anywhere in this file.
+      es: >-
+        El nombre más extraño del artículo 4: un órgano llamado «asociación» que en derecho es un
+        órgano de la administración del Estado, enumerado en la misma ley que los ministerios croatas.
+        El artículo 26 le atribuye el servicio de bomberos, la formación de los miembros de las
+        dotaciones, la asistencia técnica en accidentes y situaciones peligrosas y la inspección en el
+        ámbito de la extinción de incendios. El artículo 58(3) de la Zakon o sustavu državne uprave
+        permite organizaciones administrativas del Estado con nombre, organización y forma de trabajo
+        especiales, que es lo que ésta es; su titular es el glavni vatrogasni zapovjednik, que responde
+        ante el Gobierno y no es ministro, de modo que no se cuenta y no lleva asiento. La protección
+        contra incendios como materia regulatoria, junto con la protección civil y el rescate, sigue
+        correspondiendo al Ministerio del Interior conforme al artículo 6, y ahí se sitúa la etiqueta
+        civil_protection. La sigla HVZ es del propio órgano y se usa en el boletín oficial y en su
+        sitio web; es la única abreviatura registrada en todo este fichero.
+
+  - id: HR-2024-drzavni-inspektorat
+    order: 25
+    name_original: Državni inspektorat
+    abbreviation_original: null
+    name_en: State Inspectorate
+    name_es: Inspectorado del Estado
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Glavni državni inspektor
+    head_title_en: Chief State Inspector
+    has_cabinet_seat: false
+    head_count: 1
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: not_headed_by_minister
+    url: https://dirh.gov.hr
+    sources: [nn-57-2024-982, zakon-hr-zudtdu-procisceni, zakon-hr-zsdu]
+    note:
+      en: >-
+        Croatia's consolidated inspection body, and a large one: article 27 gives it inspection in
+        trade, services, unregistered activity, the safety of non-food products, consumer protection,
+        articles of general use, biocidal products, noise and non-ionising radiation, tobacco
+        products, hazardous chemicals, food including genetically modified and novel food,
+        genetically modified organisms, the prevention of communicable diseases, veterinary affairs
+        and food safety, and agriculture. It therefore enforces rules made by at least four counted
+        ministries. Under articles 58(3) and 59 of the Zakon o sustavu državne uprave a state
+        inspectorate is headed by a glavni državni inspektor who answers to the Government and is not
+        a minister, so it is not counted and holds no seat. It is recorded rather than omitted
+        because a reader looking for where Croatian consumer and food enforcement sits would
+        otherwise find no answer in this file.
+      es: >-
+        El órgano de inspección consolidado de Croacia, y de gran tamaño: el artículo 27 le atribuye la
+        inspección en el comercio, los servicios, la actividad no registrada, la seguridad de los
+        productos no alimentarios, la protección de los consumidores, los artículos de uso general, los
+        biocidas, el ruido y las radiaciones no ionizantes, los productos del tabaco, los productos
+        químicos peligrosos, los alimentos incluidos los modificados genéticamente y los nuevos
+        alimentos, los organismos modificados genéticamente, la prevención de las enfermedades
+        transmisibles, los asuntos veterinarios y la seguridad alimentaria, y la agricultura. Aplica por
+        tanto normas dictadas por al menos cuatro ministerios contados. Conforme a los artículos 58(3) y
+        59 de la Zakon o sustavu državne uprave, un inspectorado del Estado está dirigido por un glavni
+        državni inspektor que responde ante el Gobierno y no es ministro, de modo que no se cuenta y no
+        lleva asiento. Se registra en lugar de omitirse porque, de lo contrario, quien buscara dónde
+        reside la vigilancia croata del consumo y de los alimentos no encontraría respuesta en este
+        fichero.
+
+  - id: HR-2024-drzavna-geodetska-uprava
+    order: 26
+    name_original: Državna geodetska uprava
+    abbreviation_original: null
+    name_en: State Geodetic Administration
+    name_es: Administración Geodésica del Estado
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Glavni ravnatelj
+    head_title_en: Director-General
+    has_cabinet_seat: false
+    head_count: 1
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: not_headed_by_minister
+    url: https://dgu.gov.hr
+    sources: [nn-57-2024-982, zakon-hr-zudtdu-procisceni, zakon-hr-zsdu]
+    note:
+      en: >-
+        Article 28 gives it geodetic and cadastral work, in particular the production, renewal and
+        maintenance of the survey and the real-estate cadastre, the informatisation of the cadastre
+        and of the geospatial system, topographic and hydrographic cartography, the cadastral work
+        for the state border, and the application of survey technology. It is a "državna uprava"
+        within the meaning of article 58(2) of the Zakon o sustavu državne uprave and is therefore
+        headed by a glavni ravnatelj answerable to the Government, not by a minister, so it is not
+        counted and holds no seat. Land registration proper is a judicial function of the courts and
+        the justice ministry; this body holds the cadastre, and the two are separate in Croatian law.
+      es: >-
+        El artículo 28 le atribuye los trabajos geodésicos y catastrales, en particular la producción,
+        renovación y mantenimiento de la medición y del catastro inmobiliario, la informatización del
+        catastro y del sistema geoespacial, la cartografía topográfica e hidrográfica, los trabajos
+        catastrales de la frontera del Estado y la aplicación de la tecnología de medición. Es una
+        «državna uprava» en el sentido del artículo 58(2) de la Zakon o sustavu državne uprave y está
+        por tanto dirigida por un glavni ravnatelj que responde ante el Gobierno y no por un ministro,
+        de modo que no se cuenta y no lleva asiento. El registro de la propiedad propiamente dicho es
+        una función judicial de los tribunales y del ministerio de justicia; este órgano tiene el
+        catastro, y ambas cosas están separadas en el derecho croata.
+
+  - id: HR-2024-drzavni-hidrometeoroloski-zavod
+    order: 27
+    name_original: Državni hidrometeorološki zavod
+    abbreviation_original: null
+    name_en: Meteorological and Hydrological Service
+    name_es: Servicio Meteorológico e Hidrológico del Estado
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Glavni ravnatelj
+    head_title_en: Director-General
+    has_cabinet_seat: false
+    head_count: 1
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: not_headed_by_minister
+    url: https://meteo.hr
+    sources: [nn-57-2024-982, zakon-hr-zudtdu-procisceni, zakon-hr-zsdu]
+    note:
+      en: >-
+        Article 29 gives it the monitoring of hydrological and meteorological processes, the
+        collection, processing and publication of hydrometeorological data, research on the
+        atmosphere and water resources, and applied meteorology and hydrology in climatology, marine
+        meteorology, agrometeorology, weather modification, aeronautical meteorology and spatial
+        planning. It is a "državni zavod" under article 58(2) of the Zakon o sustavu državne uprave,
+        headed by a glavni ravnatelj and not by a minister, so it is not counted and holds no seat. It
+        is the Croatian counterpart of bodies that in some countries in this dataset sit inside an
+        environment or transport ministry; here it is a separate state administration body listed
+        beside the ministries.
+      es: >-
+        El artículo 29 le atribuye el seguimiento de los procesos hidrológicos y meteorológicos, la
+        recogida, tratamiento y publicación de los datos hidrometeorológicos, la investigación de la
+        atmósfera y de los recursos hídricos, y la meteorología e hidrología aplicadas a la
+        climatología, la meteorología marina, la agrometeorología, la modificación artificial del
+        tiempo, la meteorología aeronáutica y la ordenación del territorio. Es un «državni zavod» del
+        artículo 58(2) de la Zakon o sustavu državne uprave, dirigido por un glavni ravnatelj y no por
+        un ministro, de modo que no se cuenta y no lleva asiento. Es el equivalente croata de órganos
+        que en algunos países de este conjunto de datos se sitúan dentro de un ministerio de medio
+        ambiente o de transporte; aquí es un órgano separado de la administración del Estado enumerado
+        junto a los ministerios.
+
+  - id: HR-2024-drzavni-zavod-za-intelektualno-vlasnistvo
+    order: 28
+    name_original: Državni zavod za intelektualno vlasništvo
+    abbreviation_original: null
+    name_en: State Intellectual Property Office
+    name_es: Oficina Estatal de Propiedad Intelectual
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Glavni ravnatelj
+    head_title_en: Director-General
+    has_cabinet_seat: false
+    head_count: 1
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: not_headed_by_minister
+    url: https://dziv.hr
+    sources: [nn-57-2024-982, zakon-hr-zudtdu-procisceni, zakon-hr-zsdu]
+    note:
+      en: >-
+        Article 30 gives it the proposal of public policy on the intellectual property system, the
+        preparation of intellectual property legislation, the grant of industrial property rights —
+        patents, trade marks, industrial designs, semiconductor topographies and geographical
+        indications not governed by special statutes — supplementary protection certificates for
+        medicines and plant protection products, participation in international registration
+        procedures, and Croatia's representation before the World Intellectual Property Organization,
+        the European Patent Organisation and the European Union Intellectual Property Office. Headed
+        by a glavni ravnatelj under article 59 of the Zakon o sustavu državne uprave and not by a
+        minister, so it is not counted and holds no seat. Intellectual property policy proper is
+        divided between this office, the Ministry of Science, Education and Youth for technology
+        transfer, the Ministry of Culture and Media for copyright, and the Ministry of Finance for
+        border enforcement.
+      es: >-
+        El artículo 30 le atribuye la propuesta de políticas públicas sobre el sistema de propiedad
+        intelectual, la preparación de la legislación en la materia, la concesión de derechos de
+        propiedad industrial —patentes, marcas, diseños industriales, topografías de productos
+        semiconductores e indicaciones geográficas no reguladas por leyes especiales—, los certificados
+        complementarios de protección para medicamentos y productos fitosanitarios, la participación en
+        los procedimientos internacionales de registro y la representación de Croacia ante la
+        Organización Mundial de la Propiedad Intelectual, la Organización Europea de Patentes y la
+        Oficina de Propiedad Intelectual de la Unión Europea. Dirigida por un glavni ravnatelj conforme
+        al artículo 59 de la Zakon o sustavu državne uprave y no por un ministro, de modo que no se
+        cuenta y no lleva asiento. La política de propiedad intelectual propiamente dicha se reparte
+        entre esta oficina, el Ministerio de Ciencia, Educación y Juventud para la transferencia de
+        tecnología, el Ministerio de Cultura y Medios para el derecho de autor y el Ministerio de
+        Finanzas para la vigilancia en frontera.
+
+  - id: HR-2024-drzavni-zavod-za-mjeriteljstvo
+    order: 29
+    name_original: Državni zavod za mjeriteljstvo
+    abbreviation_original: null
+    name_en: State Office for Metrology
+    name_es: Oficina Estatal de Metrología
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Glavni ravnatelj
+    head_title_en: Director-General
+    has_cabinet_seat: false
+    head_count: 1
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: not_headed_by_minister
+    url: https://dzm.gov.hr
+    sources: [nn-57-2024-982, zakon-hr-zudtdu-procisceni, zakon-hr-zsdu]
+    note:
+      en: >-
+        Article 31 gives it the preparation of metrology legislation and decisions in metrological
+        administrative matters, the authorisation of bodies to verify legal measuring instruments,
+        the technical and metrological requirements for conformity assessment in legal metrology, the
+        testing of prepackages and of bottles used as measuring containers, official measurements,
+        the supervision of authorised bodies, the supervision of articles of precious metals, the
+        type-approval of road vehicles and agricultural and forestry tractors, and the national
+        measurement standards and calibration laboratories. Headed by a glavni ravnatelj and not by a
+        minister, so it is not counted and holds no seat. Vehicle type-approval sitting here rather
+        than with the transport ministry is the kind of Croatian particularity this list makes
+        visible.
+      es: >-
+        El artículo 31 le atribuye la preparación de la legislación metrológica y la resolución de los
+        asuntos administrativos en materia de metrología, la habilitación de organismos para verificar
+        los instrumentos de medida reglamentados, los requisitos técnicos y metrológicos de la
+        evaluación de la conformidad en metrología legal, el ensayo de los preenvasados y de las
+        botellas empleadas como recipientes de medida, las mediciones oficiales, la supervisión de los
+        organismos habilitados, el control de los artículos de metales preciosos, la homologación de
+        vehículos de carretera y de tractores agrícolas y forestales, y los patrones nacionales de
+        medida y los laboratorios de calibración. Dirigida por un glavni ravnatelj y no por un
+        ministro, de modo que no se cuenta y no lleva asiento. Que la homologación de vehículos resida
+        aquí y no en el ministerio de transporte es la clase de particularidad croata que esta lista
+        hace visible.
+
+  - id: HR-2024-drzavni-zavod-za-statistiku
+    order: 30
+    name_original: Državni zavod za statistiku
+    abbreviation_original: DZS
+    name_en: Croatian Bureau of Statistics
+    name_es: Oficina Estatal de Estadística
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Glavni ravnatelj
+    head_title_en: Director-General
+    has_cabinet_seat: false
+    head_count: 1
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: not_headed_by_minister
+    url: https://dzs.gov.hr
+    sources: [nn-57-2024-982, zakon-hr-zudtdu-procisceni, zakon-hr-zsdu]
+    note:
+      en: >-
+        Last of the nine, and the one this dataset relies on: the population figure on Croatia's
+        country page comes from this body. Article 32 gives it the production and dissemination of
+        official statistics and the development of the Croatian official statistics system in
+        accordance with the fundamental principles of official statistics, the role of principal
+        producer, disseminator and coordinator of that system, the strategic and programme documents
+        of official statistics, compliance with the European Statistics Code of Practice, the
+        professional independence of the system, statistical methods, classifications and standards,
+        the statistical registers, and international statistical cooperation. It is a "državni zavod"
+        headed by a glavni ravnatelj under article 59 of the Zakon o sustavu državne uprave and not by
+        a minister, so it is not counted and holds no seat; its statutory professional independence
+        would be a further reason not to count it even if its head held ministerial rank.
+      es: >-
+        La última de las nueve, y la que este conjunto de datos utiliza: la cifra de población de la
+        ficha de país de Croacia viene de este órgano. El artículo 32 le atribuye la producción y
+        difusión de las estadísticas oficiales y el desarrollo del sistema croata de estadística oficial
+        conforme a los principios fundamentales de la estadística oficial, el papel de principal
+        productor, difusor y coordinador de ese sistema, los documentos estratégicos y programáticos de
+        la estadística oficial, el cumplimiento del Código de buenas prácticas de las estadísticas
+        europeas, la independencia profesional del sistema, los métodos, clasificaciones y estándares
+        estadísticos, los registros estadísticos y la cooperación estadística internacional. Es un
+        «državni zavod» dirigido por un glavni ravnatelj conforme al artículo 59 de la Zakon o sustavu
+        državne uprave y no por un ministro, de modo que no se cuenta y no lleva asiento; su
+        independencia profesional legal sería una razón adicional para no contarlo incluso si su titular
+        tuviera rango ministerial.

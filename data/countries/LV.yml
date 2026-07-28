@@ -1,0 +1,59 @@
+# Latvia — country metadata.
+#
+# See docs/DATA-CONTRACT.md. The cabinet, its entities and its citations live in
+# data/cabinets/LV-2026-05-28.yml; this file carries only country-level metadata.
+#
+# Perimeter: this record describes the central government of the Republic of Latvia. The 42
+# local governments (pašvaldības) and the five planning regions are subnational and out of
+# scope; local government is a portfolio of the Ministry of Smart Administration and Regional
+# Development. The population figure below covers the whole country.
+
+iso2: LV
+iso3: LVA
+
+name_en: Latvia
+name_es: Letonia
+name_original: Latvija
+official_name_original: Latvijas Republika
+
+continent: europe
+region: northern_europe
+eu_member_since: 2004-05-01
+government_system: parliamentary_republic
+official_languages: [lv]
+
+# Population carries its own citation because the country page publishes it as a figure in
+# its own right, not as a convenience constant. Nothing divides by it.
+population:
+  value: 1845096
+  year: 2026
+  source:
+    id: csp-iedzivotaju-skaits-2026
+    tier: 3
+    type: statistical_office
+    publisher: Centrālā statistikas pārvalde — Oficiālās statistikas portāls
+    title: Latvijā dzīvo 1,845 miljoni iedzīvotāju (preses relīze par iedzīvotāju skaita izmaiņām)
+    url: https://stat.gov.lv/lv/statistikas-temas/iedzivotaji/iedzivotaju-skaits/preses-relizes/27583-iedzivotaju-skaita-izmainas
+    archive_url: null
+    lang: lv
+    published: null
+    accessed: 2026-07-28
+    quote: >-
+      2026. gada sākumā Latvijā dzīvoja 1 milj. 845 tūkst. iedzīvotāju, liecina Centrālās
+      statistikas pārvaldes (CSP) dati.
+    note: >-
+      Latvia's resident population at the start of 2026. The press release rounds to
+      1,845 thousand; the exact figure recorded here, 1 845 096, is the value of indicator
+      POP_SY (Iedzīvotāju skaits gada sākumā) for 2026 in the Official Statistics Portal's
+      own database table IRS010, retrieved from
+      https://data.stat.gov.lv/api/v1/lv/OSP_PUB/START/POP/IR/IRS/IRS010 on the access date
+      and last updated by CSP on 2 June 2026. The same press release's regional breakdown
+      (Rīgas reģions 847 841, Kurzeme 271 669, Vidzeme 271 223, Latgale 235 172, Zemgale
+      219 191) sums to the same number. Tier 3 rather than tier 1: this is a statistical
+      estimate, not a legal instrument, and the estimate is model-based — since 2025 CSP has
+      used a SoL-logit model over administrative registers rather than the logistic-regression
+      model trained on the 2011 census, and it restated the 2023 and 2024 figures when it
+      changed method, so this figure is not directly comparable with pre-2025 publications.
+      The portal's tables are rendered client-side, which is why the citation points at the
+      press release rather than at the table, and why no archived snapshot is given: the
+      snapshot would capture the page shell, and tier 3 does not require one.

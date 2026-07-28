@@ -1,0 +1,1008 @@
+# Bulgaria — government structure of the Rumen Radev government.
+#
+# Read docs/DATA-CONTRACT.md alongside this file. Four Bulgaria-specific things to know:
+#
+#   1. The enumerating instrument is a decision of the National Assembly, not a decree of
+#      the government. Article 84(7) of the Constitution gives parliament, not the cabinet,
+#      the power to "create, transform and close ministries", so the list of ministries is
+#      adopted by a Решение за приемане на структура на Министерския съвет, published in
+#      Държавен вестник. Point 2 of that decision is the whole list, and it is quoted in
+#      full below. The listing order here is its order.
+#   2. The Constitution, not our judgement, decides who sits in the cabinet. Article 108(1)
+#      puts the Prime Minister, the deputy prime ministers and the ministers in the
+#      Министерски съвет, which is why two deputy prime ministers without a department are
+#      recorded here and no junior post is.
+#   3. This is a new government, not a reshuffle. It replaced a caretaker (служебно)
+#      government appointed by presidential decree on 19 February 2026, whose powers the
+#      election decision expressly terminated.
+#   4. Bulgaria commonly appoints deputy prime ministers who also hold a ministry. Two of
+#      the four do. Following the data contract they are recorded once, through the
+#      ministry; the deputy-PM title adds neither a department nor a seat.
+
+country: BG
+cabinet_id: BG-2026-05-08
+
+cabinet_name_original: Правителство на Румен Радев
+cabinet_name_en: Government of Rumen Radev
+cabinet_name_es: Gobierno de Rumen Radev
+
+head_of_government_title_original: Министър-председател
+head_of_government_title_en: Prime Minister
+
+took_office: 2026-05-08
+left_office: null
+
+methodology_notes:
+  - en: >-
+      Bulgaria has 18 ministries but 21 seats in the Council of Ministers. The gap is not
+      interpretive. Point 1 of the National Assembly's structure decision of 8 May 2026
+      states that the Council of Ministers "consists of a Prime Minister, four deputy prime
+      ministers and 18 ministers" and that "the ministers head separate ministries"; the
+      companion decision electing the government names twenty people, of whom two hold both
+      a deputy premiership and a ministry. Counting from those two texts gives 18 departments
+      and 21 distinct people: the 18 ministers, the Prime Minister, and the two deputy prime
+      ministers who head no department. The 18 and the 21 answer different questions and are
+      never added together.
+    es: >-
+      Bulgaria tiene 18 ministerios pero 21 asientos en el Consejo de Ministros. La
+      diferencia no es interpretativa. El punto 1 de la decisión de estructura de la
+      Asamblea Nacional del 8 de mayo de 2026 dice que el Consejo de Ministros «se compone
+      de un primer ministro, cuatro viceprimeros ministros y 18 ministros» y que «los
+      ministros dirigen ministerios separados»; la decisión gemela que elige al gobierno
+      nombra a veinte personas, dos de las cuales ostentan a la vez una vicepresidencia y un
+      ministerio. Contando desde esos dos textos salen 18 departamentos y 21 personas
+      distintas: los 18 ministros, el primer ministro y los dos viceprimeros ministros que
+      no encabezan departamento. El 18 y el 21 responden a preguntas distintas y nunca se
+      suman.
+  - en: >-
+      A count of 18 is one lower than the figure most sources will have carried for Bulgaria
+      until May 2026, and the decision itself explains why: point 3 transformed the Ministry
+      of Economy and Industry into the Ministry of Economy, Investments and Industry, and
+      merged the Ministry of Electronic Governance into the Ministry of Innovation and
+      Growth, renaming the result the Ministry of Innovation and Digital Transformation. One
+      department therefore disappeared. A source describing Bulgaria as having 19 or 20
+      ministries is either describing the pre-May-2026 structure or counting the two
+      portfolio-less deputy premierships as departments.
+    es: >-
+      La cifra de 18 es una menos que la que la mayoría de las fuentes habrán manejado para
+      Bulgaria hasta mayo de 2026, y la propia decisión explica por qué: su punto 3
+      transformó el Ministerio de Economía e Industria en Ministerio de Economía, Inversiones
+      e Industria, y fusionó el Ministerio de la Gobernanza Electrónica dentro del Ministerio
+      de Innovación y Crecimiento, rebautizando el resultado como Ministerio de Innovación y
+      Transformación Digital. Un departamento desapareció, por tanto. Una fuente que atribuya
+      a Bulgaria 19 o 20 ministerios describe la estructura anterior a mayo de 2026 o cuenta
+      como departamentos las dos vicepresidencias sin cartera.
+  - en: >-
+      Two deputy prime ministers hold no department and are recorded with the exclusion
+      reason deputy_head_without_portfolio. They are full members of the Council of Ministers
+      under article 108(1) of the Constitution, so each adds a seat, and two seats are what
+      makes the difference between 18 and 21 (the third being the Prime Minister). The other
+      two deputy premierships are held by the Minister of Finance and by the Minister of
+      Economy, Investments and Industry; following the data contract those are recorded once,
+      as the ministry, because the title is a personal precedence rank rather than a
+      department.
+    es: >-
+      Dos viceprimeros ministros no encabezan departamento y se registran con el motivo de
+      exclusión deputy_head_without_portfolio. Son miembros de pleno derecho del Consejo de
+      Ministros conforme al artículo 108.1 de la Constitución, de modo que cada uno suma un
+      asiento, y esos dos asientos son los que explican la diferencia entre 18 y 21 (el
+      tercero es el primer ministro). Las otras dos vicepresidencias las ostentan el ministro
+      de Hacienda y el ministro de Economía, Inversiones e Industria; conforme al contrato de
+      datos se registran una sola vez, como el ministerio, porque el título es un rango
+      personal de precedencia y no un departamento.
+  - en: >-
+      There are no ministers without portfolio in this cabinet, and that is a sourced fact
+      rather than an absence of evidence: point 1 of the structure decision provides that
+      "the ministers head separate ministries", and the decision electing the government
+      names each of the eighteen against a named ministry. Bulgaria's most recent cabinets
+      have not used the post.
+    es: >-
+      En este gabinete no hay ministros sin cartera, y eso es un hecho documentado y no una
+      falta de pruebas: el punto 1 de la decisión de estructura dispone que «los ministros
+      dirigen ministerios separados», y la decisión que elige al gobierno nombra a cada uno
+      de los dieciocho frente a un ministerio concreto. Los gabinetes búlgaros recientes no
+      han usado esa figura.
+  - en: >-
+      The perimeter. Only the bodies that move one of the two figures are recorded: the
+      eighteen ministries, the Prime Minister and the two portfolio-less deputy prime
+      ministers. The administration of the Council of Ministers (администрация на
+      Министерския съвет) is deliberately absent — it is not one of the eighteen ministries
+      named in the structure decision and it is not among the office-holders article 108(1)
+      puts in the Council of Ministers, so it adds neither a department nor a seat. Deputy
+      ministers (заместник-министри), who under article 108(2) are appointed and dismissed by
+      the Prime Minister rather than elected by parliament, are likewise absent, as are the
+      state agencies reporting directly to the Council of Ministers.
+    es: >-
+      El perímetro. Solo se registran los órganos que mueven una de las dos cifras: los
+      dieciocho ministerios, el primer ministro y los dos viceprimeros ministros sin cartera.
+      La administración del Consejo de Ministros (администрация на Министерския съвет) está
+      deliberadamente ausente: no es uno de los dieciocho ministerios nombrados en la
+      decisión de estructura ni figura entre los cargos que el artículo 108.1 sitúa en el
+      Consejo de Ministros, por lo que no suma ni departamento ni asiento. Los
+      viceministros (заместник-министри), que conforme al artículo 108.2 son nombrados y
+      cesados por el primer ministro y no elegidos por el parlamento, están igualmente
+      ausentes, como lo están las agencias estatales que dependen directamente del Consejo
+      de Ministros.
+  - en: >-
+      Where the English names come from. The Bulgarian names are the official ones, spelled
+      as the State Gazette spells them. The English names are the Bulgarian government's own
+      wording, taken from the English edition of the Council of Ministers' portal, which
+      publishes each post as "Minister of ..."; this file renders that same wording in the
+      department form "Ministry of ...". That is why name_en_provenance is official rather
+      than translated, and it is also why the English names keep the portal's American
+      spelling in "Ministry of Defense" and "Ministry of Labor and Social Policy" instead of
+      being silently normalised. One English name is newer than the department's own website:
+      the Ministry of Innovation and Digital Transformation was still trading as "Ministry of
+      Innovation and Growth" on mig.government.bg on the access date, months after the merger
+      that renamed it. The Spanish names are this project's translations throughout.
+    es: >-
+      De dónde vienen los nombres en inglés. Los nombres búlgaros son los oficiales, escritos
+      como los escribe el Държавен вестник. Los nombres en inglés son la redacción del propio
+      gobierno búlgaro, tomada de la edición inglesa del portal del Consejo de Ministros, que
+      publica cada cargo como «Minister of ...»; este fichero traslada esa misma redacción a
+      la forma departamental «Ministry of ...». Por eso name_en_provenance es official y no
+      translated, y por eso también los nombres en inglés conservan la ortografía
+      estadounidense del portal en «Ministry of Defense» y «Ministry of Labor and Social
+      Policy» en lugar de normalizarse en silencio. Un nombre inglés va por delante del sitio
+      web del propio departamento: el Ministerio de Innovación y Transformación Digital
+      seguía presentándose como «Ministry of Innovation and Growth» en mig.government.bg en
+      la fecha de consulta, meses después de la fusión que lo rebautizó. Los nombres en
+      español son traducciones de este proyecto en todos los casos.
+  - en: >-
+      Tagging choices worth flagging, because two of them cut against the ministry's name.
+      Roads and water-supply services belong to the Ministry of Regional Development and
+      Public Works, not to Transport or to Environment, so infrastructure is tagged there.
+      Oil, gas and mineral licensing belongs to the Ministry of Energy, so mining is tagged
+      there and not to any environment or industry portfolio. Climate policy has no
+      department of its own and sits inside the Ministry of Environment and Water. And
+      Bulgaria has no migration ministry: residence and migration enforcement is a
+      directorate of the Ministry of Interior, which is where the migration area is tagged,
+      while asylum determination sits with a state agency outside every ministry and
+      therefore outside this file.
+    es: >-
+      Decisiones de etiquetado que conviene señalar, porque dos de ellas van contra el nombre
+      del ministerio. Las carreteras y los servicios de abastecimiento de agua corresponden
+      al Ministerio de Desarrollo Regional y Obras Públicas, no a Transporte ni a Medio
+      Ambiente, así que «infraestructuras» se etiqueta allí. La concesión de permisos de
+      petróleo, gas y minerales corresponde al Ministerio de Energía, así que «minería» se
+      etiqueta allí y no en ninguna cartera de medio ambiente o industria. La política
+      climática no tiene departamento propio y reside en el Ministerio de Medio Ambiente y
+      Aguas. Y Bulgaria no tiene ministerio de migración: la gestión de la residencia y la
+      migración es una dirección del Ministerio del Interior, donde se etiqueta el área
+      «migración», mientras que la determinación del asilo corresponde a una agencia estatal
+      ajena a todo ministerio y por tanto ajena a este fichero.
+  - en: >-
+      No acronyms are recorded. Bulgarian ministries are universally referred to by initialisms
+      in practice, but neither the structure decision nor the election decision states one, so
+      abbreviation_original is null throughout rather than carrying an unsourced value.
+    es: >-
+      No se registran siglas. En la práctica los ministerios búlgaros se citan siempre por sus
+      iniciales, pero ni la decisión de estructura ni la de elección del gobierno enuncia
+      ninguna, de modo que abbreviation_original es null en todo el fichero en lugar de
+      llevar un valor sin fuente.
+  - en: >-
+      Sixteen of the eighteen departments carry a url, each confirmed on the access date by
+      opening the site and checking that it identifies itself by the ministry's official
+      Bulgarian name. Two are null: the Ministry of Education and Science and the Ministry of
+      Economy, Investments and Industry both sit behind bot-protection interstitials that
+      could not be got past, so their websites are unconfirmed rather than non-existent. The
+      site of the Ministry of Innovation and Digital Transformation is recorded even though it
+      still identified itself under the department's pre-merger name on the access date.
+    es: >-
+      Dieciséis de los dieciocho departamentos llevan url, cada una confirmada en la fecha de
+      consulta abriendo el sitio y comprobando que se identifica con el nombre búlgaro oficial
+      del ministerio. Dos son null: el Ministerio de Educación y Ciencia y el Ministerio de
+      Economía, Inversiones e Industria están detrás de pantallas de protección antibots que
+      no se pudieron franquear, así que sus sitios quedan sin confirmar, no inexistentes. El
+      sitio del Ministerio de Innovación y Transformación Digital se registra aunque en la
+      fecha de consulta seguía identificándose con el nombre previo a la fusión.
+  - en: >-
+      A sourcing caveat future curators of Bulgaria should know about. The National Assembly
+      publishes the Constitution only as a client-rendered page, so no web archive can capture
+      it: a snapshot of parliament.bg/bg/const preserves an application shell and thirteen
+      characters of text, and the endpoint the page then calls returns the articles as JSON
+      with every Cyrillic character escaped. An archived citation of the parliamentary edition
+      would therefore look valid while showing a reader nothing. The Constitution is cited here
+      from the Constitutional Court's static consolidated text instead, which archives cleanly.
+      Nothing in this file depends on that citation alone in any case: the two gazette decisions
+      recite article 84(6), article 84(7) and article 108 in their own preambles, and point 1 of
+      the structure decision states this cabinet's composition in concrete numbers.
+    es: >-
+      Una advertencia sobre las fuentes que conviene que conozcan los futuros curadores de
+      Bulgaria. La Asamblea Nacional publica la Constitución únicamente como página renderizada
+      en el cliente, de modo que ningún archivo web puede capturarla: una copia de
+      parliament.bg/bg/const conserva un armazón de aplicación y trece caracteres de texto, y el
+      endpoint que la página invoca después devuelve los artículos como JSON con todos los
+      caracteres cirílicos escapados. Una cita archivada de la edición parlamentaria parecería
+      válida sin mostrar nada al lector. Por eso la Constitución se cita aquí desde el texto
+      consolidado estático del Tribunal Constitucional, que se archiva sin problemas. En
+      cualquier caso nada de este fichero depende solo de esa cita: las dos decisiones del
+      boletín recitan el artículo 84.6, el artículo 84.7 y el artículo 108 en sus propios
+      preámbulos, y el punto 1 de la decisión de estructura enuncia en cifras concretas la
+      composición de este gabinete.
+
+sources:
+  - id: dv-43-2026-struktura
+    tier: 1
+    type: official_gazette
+    publisher: Държавен вестник
+    title: >-
+      Решение за приемане на структура на Министерския съвет на Република България
+      (ДВ, бр. 43 от 12.05.2026 г., стр. 3, обн. № 2543)
+    url: https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=243333
+    archive_url: https://web.archive.org/web/20260728133609/https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=243333
+    lang: bg
+    published: 2026-05-12
+    accessed: 2026-07-28
+    quote: |-
+      РЕШЕНИЕ
+      за приемане на структура на Министерския съвет на Република България
+
+      Народното събрание на основание чл. 84, т. 7 и чл. 108 от Конституцията на Република България
+
+      РЕШИ:
+
+      1. Министерският съвет на Република България се състои от: министър-председател, четирима заместник министър-председатели и 18 министри. Министрите ръководят отделни министерства.
+
+      2. Министерствата са:
+      Министерство на финансите,
+      Министерство на вътрешните работи,
+      Министерство на отбраната,
+      Министерство на външните работи,
+      Министерство на правосъдието,
+      Министерство на труда и социалната политика,
+      Министерство на образованието и науката,
+      Министерство на здравеопазването,
+      Министерство на икономиката, инвестициите и индустрията,
+      Министерство на иновациите и дигиталната трансформация,
+      Министерство на регионалното развитие и благоустройството,
+      Министерство на енергетиката,
+      Министерство на транспорта и съобщенията,
+      Министерство на земеделието и храните,
+      Министерство на околната среда и водите,
+      Министерство на културата,
+      Министерство на туризма,
+      Министерство на младежта и спорта.
+
+      3. Преобразуват се:
+
+      Министерството на икономиката и индустрията в Министерство на икономиката, инвестициите и индустрията.
+      Министерството на иновациите и растежа чрез вливане на Министерството на електронното управление в Министерство на иновациите и дигиталната трансформация.
+
+      4. Възлага на Министерския съвет в едномесечен срок да уреди всички правоотношения във връзка с преобразуването и закриването на министерства, включително преразпределение на функциите им.
+
+      Решението е прието от 52-рото Народно събрание на 8 май 2026 г. и е подпечатано с официалния печат на Народното събрание.
+    note: >-
+      The instrument that enumerates the ministries, adopted by the 52nd National Assembly on
+      8 May 2026 under article 84(7) of the Constitution and published four days later. The
+      quote is the whole decision except the closing signature block. The listing order of
+      the entities below follows point 2. No later decision adopting a structure of the
+      Council of Ministers had been published as of the access date; the State Gazette's own
+      issue-level search over 13 May to 28 July 2026 returns no National Assembly decision on
+      the structure, and the government's composition page consulted on the access date shows
+      the same eighteen departments.
+
+  - id: dv-43-2026-izbiran-ms
+    tier: 1
+    type: official_gazette
+    publisher: Държавен вестник
+    title: >-
+      Решение за избиране на Министерски съвет на Република България
+      (ДВ, бр. 43 от 12.05.2026 г., стр. 4, обн. № 2544)
+    url: https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=243334
+    archive_url: https://web.archive.org/web/20260728133627/https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=243334
+    lang: bg
+    published: 2026-05-12
+    accessed: 2026-07-28
+    quote: |-
+      1. Избира:
+
+      Гълъб Спасов Донев за заместник министър-председател и министър на финансите;
+      Александър Георгиев Пулев за заместник министър-председател и министър на икономиката, инвестициите и индустрията;
+      Иво Христов Петков за заместник министър-председател;
+      Атанас Ангелов Пеканов за заместник министър-председател;
+      Иван Петев Демерджиев за министър на вътрешните работи;
+      Димитър Желязков Стоянов за министър на отбраната;
+      Велислава Николаева Петрова-Чамова за министър на външните работи;
+      Николай Найденов Найденов за министър на правосъдието;
+      Наталия Димитрова Ефремова за министър на труда и социалната политика;
+      Георги Александров Вълчев за министър на образованието и науката;
+      Катя Георгиева Ивкова за министър на здравеопазването;
+      Иван Руменов Василев за министър на иновациите и дигиталната трансформация;
+      Иван Димитров Шишков за министър на регионалното развитие и благоустройството;
+      Ива Венциславова Петрова за министър на енергетиката;
+      Георги Генчев Пеев за министър на транспорта и съобщенията;
+      Пламен Николаев Абровски за министър на земеделието и храните;
+      Росица Атанасова Карамфилова-Благова за министър на околната среда и водите;
+      Евтим Петров Милошев за министър на културата;
+      Илин Павлинов Димитров за министър на туризма;
+      Енчо Ангелов Керязов за министър на младежта и спорта.
+
+      2. Правомощията на служебното правителство, назначено с Указ № 57 на Президента на Република България от 19 февруари 2026 г. (ДВ, бр. 19 от 2026 г.), са прекратени.
+    note: >-
+      The decision that elected this government, and the source of the twenty ministerial
+      posts and of which of them are held by a deputy prime minister. Point 2 is why this is
+      a new cabinet rather than a continuation: it terminated the powers of the caretaker
+      government appointed by presidential decree on 19 February 2026. The quote omits the
+      preamble ("Народното събрание на основание чл. 84, т. 6 и чл. 108 от Конституцията на
+      Република България РЕШИ:") and the closing signature block. This dataset records
+      structure rather than office-holders; the names are quoted because they are what proves
+      that eighteen ministries have eighteen distinct heads and that only two of the four
+      deputy premierships carry a department.
+
+  - id: dv-43-2026-izbiran-mp
+    tier: 1
+    type: official_gazette
+    publisher: Държавен вестник
+    title: >-
+      Решение за избиране на министър-председател на Република България
+      (ДВ, бр. 43 от 12.05.2026 г., стр. 3, обн. № 2542)
+    url: https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=243332
+    archive_url: https://web.archive.org/web/20260728133647/https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=243332
+    lang: bg
+    published: 2026-05-12
+    accessed: 2026-07-28
+    quote: |-
+      Народното събрание на основание чл. 84, т. 6 и чл. 108 от Конституцията на Република България и във връзка с Указ № 152 на Президента на Република България от 7 май 2026 г.
+
+      РЕШИ:
+
+      Избира Румен Георгиев Радев за министър-председател на Република България.
+
+      Решението е прието от 52-рото Народно събрание на 8 май 2026 г. и е подпечатано с официалния печат на Народното събрание.
+    note: >-
+      The separate decision electing the head of government, taken the same day and printed
+      on the same page as the structure decision. It is the source of took_office: the
+      Bulgarian Prime Minister is elected by the National Assembly, not appointed by decree,
+      and 8 May 2026 is the date the Assembly voted. The presidential decree of 7 May 2026
+      referred to in the preamble is the mandate to form a government, not an appointment.
+
+  - id: konstitutsia-rb
+    tier: 1
+    type: statute
+    publisher: Конституционен съд на Република България
+    title: Конституция на Република България (консолидиран текст)
+    url: https://www.constcourt.bg/bg/legal-info-92
+    archive_url: https://web.archive.org/web/20260728135619/https://www.constcourt.bg/bg/legal-info-92
+    lang: bg
+    published: 1991-07-13
+    accessed: 2026-07-28
+    quote: |-
+      Чл. 84. Народното събрание:
+      6. избира и освобождава министър-председателя и по негово предложение - Министерския съвет; извършва промени в правителството по предложение на министър-председателя;
+      7. създава, преобразува и закрива министерства по предложение на министър-председателя;
+      Чл. 108. (1) Министерският съвет се състои от министър-председател, заместник министър-председатели и министри.
+      (2) Министър-председателят ръководи и координира общата политика на правителството и носи отговорност за нея. Той назначава и освобождава от длъжност заместник-министрите.
+      (3) Министрите ръководят отделни министерства освен ако Народното събрание реши друго. Те носят отговорност за своите действия.
+    note: >-
+      Consolidated text as published by the Constitutional Court, which is the deliberate
+      choice of publisher rather than the obvious one. The National Assembly's own edition, at
+      parliament.bg/bg/const, is a client-rendered Vue page: a web-archive capture of it
+      contains an application shell and thirteen characters of body text, and the article text
+      is fetched afterwards from /api/v1/nav/bg/const, which returns the whole Constitution
+      but as a JSON document with every Cyrillic character \u-escaped. Neither form is a
+      snapshot in which a reader can see the quoted articles. The Constitutional Court serves
+      the same consolidated text as static HTML, so the archived snapshot cited here does show
+      every quoted fragment. Cited for three things this file turns on: article 84(7), which is
+      why the enumerating instrument is a parliamentary decision rather than a government
+      decree; article 108(1), which makes cabinet_seats_count a matter of constitutional law
+      rather than of our interpretation and is the reason two portfolio-less deputy prime
+      ministers are recorded here; and article 108(2), which places deputy ministers in the
+      Prime Minister's gift and outside the Council of Ministers, and is why none is recorded.
+      The quote runs together article 84 points 6 and 7 and the three paragraphs of
+      article 108, omitting the intervening text of article 84 and articles 85 to 107.
+
+  - id: gov-bg-sastav
+    tier: 2
+    type: government_website
+    publisher: Министерски съвет на Република България
+    title: Състав на правителството — Биографии
+    url: https://www.gov.bg/bg/pravitelstvo/sastav-na-pravitelstvoto/biografii
+    archive_url: https://web.archive.org/web/20260728133708/https://www.gov.bg/bg/pravitelstvo/sastav-na-pravitelstvoto/biografii
+    lang: bg
+    published: null
+    accessed: 2026-07-28
+    quote: |-
+      Гълъб Донев - заместник министър-председател и министър на финансите
+      Александър Пулев - заместник министър-председател и министър на икономиката, инвестициите и индустрията
+      Иво Христов - заместник министър-председател
+      Атанас Пеканов - заместник министър-председател
+      Иван Демерджиев - министър на вътрешните работи
+      [...]
+      Енчо Керязов - министър на младежта и спорта
+    note: >-
+      The government's own composition page, and the evidence that the structure recorded
+      here is still the sitting one: consulted on 28 July 2026, eleven weeks after the
+      investiture, it lists exactly the same twenty office-holders against exactly the same
+      eighteen departments as the State Gazette decision of 8 May 2026, with no addition,
+      removal or renaming. It is also the page that shows the two portfolio-less deputy
+      premierships as bare titles. The quote gives the four deputy prime ministers, the first
+      ordinary minister and the last, eliding the intervening fifteen at "[...]".
+      https://www.gov.bg/bg/pravitelstvo/sastav-na-pravitelstvoto redirects here.
+
+  - id: gov-bg-cabinet-members-en
+    tier: 2
+    type: government_website
+    publisher: Council of Ministers of the Republic of Bulgaria
+    title: Cabinet members
+    url: https://www.gov.bg/en/Cabinet/CABINET-MEMBERS
+    archive_url: https://web.archive.org/web/20260728133738/https://www.gov.bg/en/Cabinet/CABINET-MEMBERS
+    lang: en
+    published: null
+    accessed: 2026-07-28
+    quote: |-
+      Galab Donev - Deputy Prime Minister and Minister of Finance
+      Alexander Poulev - Deputy Prime Minister and Minister of Economy, Investments and Industry
+      Ivo Hristov - Deputy Prime Minister
+      Atanas Pekanov - Deputy Prime Minister
+      Ivan Demerdzhiev - Minister of Interior
+      Dimitar Stoyanov - Minister of Defense
+      Velislava Petrova-Chamova - Minister of Foreign Affairs
+      Nikolay Naydenov - Minister of Justice
+      Nataliya Efremova - Minister of Labor and Social Policy
+      Georgi Valchev - Minister of Education and Science
+      Katya Ivkova - Minister of Health
+      Ivan Vasilev - Minister of Innovation and Digital Transformation
+      Ivan Shishkov - Minister of Regional Development and Public Works
+      Georgi Peev - Minister of Transport and Communications
+      Iva Petrova - Minister of Energy
+      Plamen Abrovsky - Minister of Agriculture and Food
+      Rositsa Karamfilova-Blagova - Minister of Environment and Water
+      Evtim Miloshev - Minister of Culture
+      Ilin Dimitrov - Minister of Tourism
+      Encho Keryazov - Minister of Youth and Sports
+    note: >-
+      The English edition of the Council of Ministers' portal, and the source of every English
+      name in this file. The whole list is quoted because it is the evidence for eighteen
+      separate English names at once. Two things to notice. It names the posts ("Minister of
+      Environment and Water") rather than the departments, so the "Ministry of ..." form used
+      below is one mechanical step from the page's own wording. And it does not name the Prime
+      Minister at all, which is why that entity alone carries name_en_provenance: translated.
+      The page uses American spelling in "Defense" and "Labor"; those spellings are kept, not
+      normalised.
+
+entities:
+  - id: BG-2026-finansi
+    order: 1
+    name_original: Министерство на финансите
+    abbreviation_original: null
+    name_en: Ministry of Finance
+    name_es: Ministerio de Hacienda
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Министър
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [finance, budget]
+    counts_as_ministry: true
+    url: https://www.minfin.bg
+    sources: [dv-43-2026-struktura, dv-43-2026-izbiran-ms, gov-bg-cabinet-members-en]
+    note:
+      en: >-
+        Its minister is also one of the four deputy prime ministers. Following the data
+        contract the deputy premiership is not recorded as a separate entity: it is a
+        personal precedence rank, not a department, and it adds neither a ministry nor a
+        seat.
+      es: >-
+        Su ministro es además uno de los cuatro viceprimeros ministros. Conforme al contrato
+        de datos la vicepresidencia no se registra como entidad aparte: es un rango personal
+        de precedencia, no un departamento, y no añade ni ministerio ni asiento.
+
+  - id: BG-2026-vatreshni-raboti
+    order: 2
+    name_original: Министерство на вътрешните работи
+    abbreviation_original: null
+    name_en: Ministry of Interior
+    name_es: Ministerio del Interior
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Министър
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [interior, civil_protection, migration]
+    counts_as_ministry: true
+    url: https://mvr.bg
+    sources: [dv-43-2026-struktura, dv-43-2026-izbiran-ms, gov-bg-cabinet-members-en]
+    note:
+      en: >-
+        Broader than policing. The Bulgarian interior ministry also runs fire safety and
+        population protection, which is why civil_protection is tagged here rather than to a
+        separate emergencies department — Bulgaria has none. Migration is tagged here too:
+        residence and migration enforcement is a directorate of this ministry, and there is
+        no migration ministry. Asylum determination, by contrast, belongs to a state agency
+        outside every ministry and so appears nowhere in this file.
+      es: >-
+        Más amplio que la policía. El ministerio del Interior búlgaro gestiona también la
+        seguridad contra incendios y la protección de la población, y por eso
+        civil_protection se etiqueta aquí y no en un departamento de emergencias aparte:
+        Bulgaria no tiene ninguno. También se etiqueta «migración»: la gestión de la
+        residencia y la migración es una dirección de este ministerio y no existe un
+        ministerio de migración. La determinación del asilo, en cambio, corresponde a una
+        agencia estatal ajena a todo ministerio y no aparece en este fichero.
+
+  - id: BG-2026-otbrana
+    order: 3
+    name_original: Министерство на отбраната
+    abbreviation_original: null
+    name_en: Ministry of Defense
+    name_es: Ministerio de Defensa
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Министър
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [defence]
+    counts_as_ministry: true
+    url: https://mod.bg
+    sources: [dv-43-2026-struktura, dv-43-2026-izbiran-ms, gov-bg-cabinet-members-en]
+    note:
+      en: >-
+        The English name keeps the American spelling used by the government's own English
+        edition, which titles the post "Minister of Defense". It has not been normalised to
+        "Defence" here, because the point of marking a name official is that a reader finds
+        it, character for character, in the cited source.
+      es: >-
+        El nombre en inglés conserva la ortografía estadounidense de la propia edición
+        inglesa del gobierno, que titula el cargo «Minister of Defense». No se ha
+        normalizado a «Defence» porque el sentido de marcar un nombre como oficial es que el
+        lector lo encuentre, carácter por carácter, en la fuente citada.
+
+  - id: BG-2026-vanshni-raboti
+    order: 4
+    name_original: Министерство на външните работи
+    abbreviation_original: null
+    name_en: Ministry of Foreign Affairs
+    name_es: Ministerio de Asuntos Exteriores
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Министър
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [foreign_affairs, european_affairs, diaspora]
+    counts_as_ministry: true
+    url: https://mfa.bg
+    sources: [dv-43-2026-struktura, dv-43-2026-izbiran-ms, gov-bg-cabinet-members-en]
+    note:
+      en: >-
+        Bulgaria has no European affairs ministry and no diaspora ministry; both portfolios
+        are directorates of the foreign ministry, which is why they are tagged here.
+      es: >-
+        Bulgaria no tiene ministerio de asuntos europeos ni de la diáspora; ambas carteras
+        son direcciones del ministerio de Exteriores, y por eso se etiquetan aquí.
+
+  - id: BG-2026-pravosadie
+    order: 5
+    name_original: Министерство на правосъдието
+    abbreviation_original: null
+    name_en: Ministry of Justice
+    name_es: Ministerio de Justicia
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Министър
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [justice]
+    counts_as_ministry: true
+    url: https://justice.government.bg
+    sources: [dv-43-2026-struktura, dv-43-2026-izbiran-ms, gov-bg-cabinet-members-en]
+
+  - id: BG-2026-trud-i-sotsialna-politika
+    order: 6
+    name_original: Министерство на труда и социалната политика
+    abbreviation_original: null
+    name_en: Ministry of Labor and Social Policy
+    name_es: Ministerio de Trabajo y Política Social
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Министър
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [labour, social_affairs, social_security, family, disability]
+    counts_as_ministry: true
+    url: https://mlsp.government.bg
+    sources: [dv-43-2026-struktura, dv-43-2026-izbiran-ms, gov-bg-cabinet-members-en]
+    note:
+      en: >-
+        The single welfare department. Bulgaria has no ministry for families, children,
+        disability, the elderly or equality; social insurance, social assistance, demographic
+        policy and disability policy are all this ministry's, which is why five areas are
+        tagged to one name that mentions only two. As with Defense, the English name keeps the
+        government's own American spelling, "Labor".
+      es: >-
+        El único departamento de bienestar. Bulgaria no tiene ministerio de familia, infancia,
+        discapacidad, mayores o igualdad; la seguridad social, la asistencia social, la
+        política demográfica y la política de discapacidad son de este ministerio, y por eso
+        se etiquetan cinco áreas en un nombre que solo menciona dos. Como en Defensa, el
+        nombre en inglés conserva la ortografía estadounidense del propio gobierno, «Labor».
+
+  - id: BG-2026-obrazovanie-i-nauka
+    order: 7
+    name_original: Министерство на образованието и науката
+    abbreviation_original: null
+    name_en: Ministry of Education and Science
+    name_es: Ministerio de Educación y Ciencia
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Министър
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [education, higher_education, research, vocational_training]
+    counts_as_ministry: true
+    url: null
+    sources: [dv-43-2026-struktura, dv-43-2026-izbiran-ms, gov-bg-cabinet-members-en]
+    note:
+      en: >-
+        Schools, universities, vocational training and public science funding in one
+        department. Research is tagged here and not to the innovation ministry, which owns
+        business innovation and competitiveness funding rather than the science base.
+      es: >-
+        Colegios, universidades, formación profesional y financiación pública de la ciencia
+        en un solo departamento. «Investigación» se etiqueta aquí y no en el ministerio de
+        Innovación, que se ocupa de la innovación empresarial y de los fondos de
+        competitividad, no del sistema científico.
+
+  - id: BG-2026-zdraveopazvane
+    order: 8
+    name_original: Министерство на здравеопазването
+    abbreviation_original: null
+    name_en: Ministry of Health
+    name_es: Ministerio de Sanidad
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Министър
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [health]
+    counts_as_ministry: true
+    url: https://mh.government.bg
+    sources: [dv-43-2026-struktura, dv-43-2026-izbiran-ms, gov-bg-cabinet-members-en]
+
+  - id: BG-2026-ikonomika-investitsii-industriya
+    order: 9
+    name_original: Министерство на икономиката, инвестициите и индустрията
+    abbreviation_original: null
+    name_en: Ministry of Economy, Investments and Industry
+    name_es: Ministerio de Economía, Inversiones e Industria
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Министър
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [economy, industry, trade, small_business, consumer_protection]
+    counts_as_ministry: true
+    url: null
+    sources: [dv-43-2026-struktura, dv-43-2026-izbiran-ms, gov-bg-cabinet-members-en]
+    note:
+      en: >-
+        Renamed by point 3 of the structure decision, which transformed the former Ministry
+        of Economy and Industry into this department by adding investments to its name. Its
+        minister is also one of the four deputy prime ministers; as with Finance, the deputy
+        premiership is not a separate entity. Consumer protection is tagged here because the
+        consumer protection commission answers to this minister, and Bulgaria has no consumer
+        affairs department.
+      es: >-
+        Rebautizado por el punto 3 de la decisión de estructura, que transformó el antiguo
+        Ministerio de Economía e Industria en este departamento añadiendo las inversiones a
+        su nombre. Su ministro es además uno de los cuatro viceprimeros ministros; como en
+        Hacienda, la vicepresidencia no es una entidad aparte. «Consumo» se etiqueta aquí
+        porque la comisión de protección del consumidor depende de este ministro y Bulgaria
+        no tiene departamento de consumo.
+
+  - id: BG-2026-inovatsii-i-digitalna-transformatsiya
+    order: 10
+    name_original: Министерство на иновациите и дигиталната трансформация
+    abbreviation_original: null
+    name_en: Ministry of Innovation and Digital Transformation
+    name_es: Ministerio de Innovación y Transformación Digital
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Министър
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [innovation, digital]
+    counts_as_ministry: true
+    url: https://mig.government.bg
+    sources: [dv-43-2026-struktura, dv-43-2026-izbiran-ms, gov-bg-cabinet-members-en]
+    note:
+      en: >-
+        The department that makes Bulgaria's count 18 rather than 19. Point 3 of the structure
+        decision merged the Ministry of Electronic Governance into the Ministry of Innovation
+        and Growth and renamed the result, so two departments became one. On the access date
+        the merged body's website was still branded "Ministry of Innovation and Growth"; the
+        English name used here is the government portal's current one.
+      es: >-
+        El departamento que hace que la cifra búlgara sea 18 y no 19. El punto 3 de la
+        decisión de estructura fusionó el Ministerio de la Gobernanza Electrónica dentro del
+        Ministerio de Innovación y Crecimiento y rebautizó el resultado, de modo que dos
+        departamentos se convirtieron en uno. En la fecha de consulta el sitio web del órgano
+        fusionado seguía luciendo la marca «Ministry of Innovation and Growth»; el nombre en
+        inglés que se usa aquí es el actual del portal del gobierno.
+
+  - id: BG-2026-regionalno-razvitie-i-blagoustroystvo
+    order: 11
+    name_original: Министерство на регионалното развитие и благоустройството
+    abbreviation_original: null
+    name_en: Ministry of Regional Development and Public Works
+    name_es: Ministerio de Desarrollo Regional y Obras Públicas
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Министър
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [regional_development, spatial_planning, infrastructure, housing]
+    counts_as_ministry: true
+    url: https://mrrb.bg
+    sources: [dv-43-2026-struktura, dv-43-2026-izbiran-ms, gov-bg-cabinet-members-en]
+    note:
+      en: >-
+        The tag that does not follow the name. Bulgaria's road network and its water-supply
+        and sewerage services belong to this ministry, not to Transport or to Environment, so
+        infrastructure is tagged here. It also owns spatial planning, the cadastre and housing
+        renovation policy. A comparison that reads "regional development" as a cohesion-funds
+        portfolio will understate this department considerably.
+      es: >-
+        La etiqueta que no sigue al nombre. La red de carreteras búlgara y los servicios de
+        abastecimiento de agua y saneamiento pertenecen a este ministerio, no a Transporte ni
+        a Medio Ambiente, así que «infraestructuras» se etiqueta aquí. También le corresponden
+        la ordenación del territorio, el catastro y la política de rehabilitación de
+        viviendas. Una comparación que lea «desarrollo regional» como una cartera de fondos de
+        cohesión subestimará bastante este departamento.
+
+  - id: BG-2026-energetika
+    order: 12
+    name_original: Министерство на енергетиката
+    abbreviation_original: null
+    name_en: Ministry of Energy
+    name_es: Ministerio de Energía
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Министър
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [energy, mining]
+    counts_as_ministry: true
+    url: https://me.government.bg
+    sources: [dv-43-2026-struktura, dv-43-2026-izbiran-ms, gov-bg-cabinet-members-en]
+    note:
+      en: >-
+        Mining is tagged here rather than to an industry or environment portfolio: licensing
+        for the prospecting and extraction of oil, natural gas and mineral resources under
+        the Underground Resources Act runs through this ministry.
+      es: >-
+        «Minería» se etiqueta aquí y no en una cartera de industria o medio ambiente: los
+        permisos de búsqueda y extracción de petróleo, gas natural y recursos minerales
+        conforme a la Ley de los recursos del subsuelo pasan por este ministerio.
+
+  - id: BG-2026-transport-i-saobshteniya
+    order: 13
+    name_original: Министерство на транспорта и съобщенията
+    abbreviation_original: null
+    name_en: Ministry of Transport and Communications
+    name_es: Ministerio de Transporte y Comunicaciones
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Министър
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [transport, telecommunications, shipping]
+    counts_as_ministry: true
+    url: https://mtc.government.bg
+    sources: [dv-43-2026-struktura, dv-43-2026-izbiran-ms, gov-bg-cabinet-members-en]
+    note:
+      en: >-
+        Rail, aviation, maritime administration, ports and postal and electronic
+        communications. Roads are not here: they belong to the Ministry of Regional
+        Development and Public Works, which is the one structural fact most likely to trip up
+        a comparison of Bulgarian transport policy.
+      es: >-
+        Ferrocarril, aviación, administración marítima, puertos y comunicaciones postales y
+        electrónicas. Las carreteras no están aquí: pertenecen al Ministerio de Desarrollo
+        Regional y Obras Públicas, que es el dato estructural con más probabilidades de hacer
+        tropezar una comparación de la política búlgara de transporte.
+
+  - id: BG-2026-zemedelie-i-hrani
+    order: 14
+    name_original: Министерство на земеделието и храните
+    abbreviation_original: null
+    name_en: Ministry of Agriculture and Food
+    name_es: Ministerio de Agricultura y Alimentación
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Министър
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [agriculture, food_safety, forestry, fisheries, rural_development]
+    counts_as_ministry: true
+    url: https://mzh.government.bg
+    sources: [dv-43-2026-struktura, dv-43-2026-izbiran-ms, gov-bg-cabinet-members-en]
+    note:
+      en: >-
+        Forestry, fisheries and food safety are all executive agencies of this ministry
+        rather than departments of their own, which is why five areas are tagged to a name
+        that mentions two.
+      es: >-
+        Los bosques, la pesca y la seguridad alimentaria son agencias ejecutivas de este
+        ministerio y no departamentos propios, y por eso se etiquetan cinco áreas en un
+        nombre que menciona dos.
+
+  - id: BG-2026-okolna-sreda-i-vodi
+    order: 15
+    name_original: Министерство на околната среда и водите
+    abbreviation_original: null
+    name_en: Ministry of Environment and Water
+    name_es: Ministerio de Medio Ambiente y Aguas
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Министър
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [environment, water, climate]
+    counts_as_ministry: true
+    url: https://moew.government.bg
+    sources: [dv-43-2026-struktura, dv-43-2026-izbiran-ms, gov-bg-cabinet-members-en]
+    note:
+      en: >-
+        Bulgaria gives climate no department of its own; climate change policy is a
+        directorate of this ministry, which is why the climate area is tagged here. Note that
+        "water" here means water resources and river-basin management: water-supply and
+        sewerage services belong to the Ministry of Regional Development and Public Works.
+      es: >-
+        Bulgaria no da al clima departamento propio; la política de cambio climático es una
+        dirección de este ministerio, y por eso se etiqueta aquí el área «clima». Nótese que
+        «agua» significa aquí recursos hídricos y gestión de cuencas: los servicios de
+        abastecimiento y saneamiento corresponden al Ministerio de Desarrollo Regional y
+        Obras Públicas.
+
+  - id: BG-2026-kultura
+    order: 16
+    name_original: Министерство на културата
+    abbreviation_original: null
+    name_en: Ministry of Culture
+    name_es: Ministerio de Cultura
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Министър
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [culture]
+    counts_as_ministry: true
+    url: https://mc.government.bg
+    sources: [dv-43-2026-struktura, dv-43-2026-izbiran-ms, gov-bg-cabinet-members-en]
+    note:
+      en: >-
+        Culture, heritage and cinema, but not broadcasting: Bulgarian media regulation belongs
+        to an independent council and electronic communications to the transport ministry, so
+        the media area is tagged nowhere in this file.
+      es: >-
+        Cultura, patrimonio y cine, pero no radiodifusión: la regulación búlgara de los medios
+        corresponde a un consejo independiente y las comunicaciones electrónicas al ministerio
+        de Transporte, de modo que el área «medios» no se etiqueta en ningún punto de este
+        fichero.
+
+  - id: BG-2026-turizam
+    order: 17
+    name_original: Министерство на туризма
+    abbreviation_original: null
+    name_en: Ministry of Tourism
+    name_es: Ministerio de Turismo
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Министър
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [tourism]
+    counts_as_ministry: true
+    url: https://tourism.government.bg
+    sources: [dv-43-2026-struktura, dv-43-2026-izbiran-ms, gov-bg-cabinet-members-en]
+
+  - id: BG-2026-mladezh-i-sport
+    order: 18
+    name_original: Министерство на младежта и спорта
+    abbreviation_original: null
+    name_en: Ministry of Youth and Sports
+    name_es: Ministerio de Juventud y Deportes
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Министър
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [youth, sport]
+    counts_as_ministry: true
+    url: https://mpes.government.bg
+    sources: [dv-43-2026-struktura, dv-43-2026-izbiran-ms, gov-bg-cabinet-members-en]
+
+  # --- recorded, not counted ---------------------------------------------------
+  - id: BG-2026-ministar-predsedatel
+    order: 19
+    name_original: Министър-председател
+    abbreviation_original: null
+    name_en: Prime Minister
+    name_es: Primer ministro
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Министър-председател
+    head_title_en: Prime Minister
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: head_of_government_office
+    url: null
+    sources: [konstitutsia-rb, dv-43-2026-izbiran-mp, gov-bg-sastav]
+    note:
+      en: >-
+        The head of government holds a seat under article 108(1) of the Constitution without
+        heading a ministry, and is the first of the three seats that separate 18 from 21. He
+        is elected by the National Assembly rather than appointed by the head of state, which
+        is why took_office is the date of the parliamentary vote and not of the presidential
+        decree that preceded it. His services are the administration of the Council of
+        Ministers, which the structure decision does not name as a ministry and which is
+        therefore not recorded at all. This is the one entity whose English name is marked
+        translated: the government's English cabinet-members page lists the twenty elected
+        ministers but not the Prime Minister, so "Prime Minister" here is this project's
+        rendering of Министър-председател rather than a name quoted from the portal.
+      es: >-
+        El jefe de gobierno ocupa asiento conforme al artículo 108.1 de la Constitución sin
+        encabezar ningún ministerio, y es el primero de los tres asientos que separan el 18
+        del 21. Lo elige la Asamblea Nacional en lugar de nombrarlo el jefe del Estado, y por
+        eso took_office es la fecha de la votación parlamentaria y no del decreto presidencial
+        que la precedió. Sus servicios son la administración del Consejo de Ministros, que la
+        decisión de estructura no nombra como ministerio y que por tanto no se registra en
+        absoluto. Es la única entidad cuyo nombre en inglés se marca como translated: la
+        página inglesa de miembros del gabinete enumera a los veinte ministros elegidos pero
+        no al primer ministro, así que «Prime Minister» es aquí la versión de este proyecto de
+        Министър-председател y no un nombre citado del portal.
+
+  - id: BG-2026-zamestnik-mp-bez-portfeyl-1
+    order: 20
+    name_original: Заместник министър-председател
+    abbreviation_original: null
+    name_en: Deputy Prime Minister
+    name_es: Viceprimer ministro
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Заместник министър-председател
+    head_title_en: Deputy Prime Minister
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: deputy_head_without_portfolio
+    url: null
+    sources: [konstitutsia-rb, dv-43-2026-izbiran-ms, gov-bg-cabinet-members-en, gov-bg-sastav]
+    note:
+      en: >-
+        The first of two deputy premierships carrying no department. The structure decision
+        provides for four deputy prime ministers and the election decision shows two of them
+        against a ministry and two against nothing else; the two bare posts are recorded here
+        as separate entities because they are held by two different people and therefore
+        contribute two seats. Neither decision assigns them a remit, so none is stated here.
+      es: >-
+        La primera de las dos vicepresidencias sin departamento. La decisión de estructura
+        prevé cuatro viceprimeros ministros y la decisión de elección muestra a dos de ellos
+        frente a un ministerio y a dos frente a nada más; los dos cargos desnudos se registran
+        aquí como entidades separadas porque los ocupan dos personas distintas y aportan por
+        tanto dos asientos. Ninguna de las dos decisiones les asigna un ámbito, así que aquí
+        no se enuncia ninguno.
+
+  - id: BG-2026-zamestnik-mp-bez-portfeyl-2
+    order: 21
+    name_original: Заместник министър-председател
+    abbreviation_original: null
+    name_en: Deputy Prime Minister
+    name_es: Viceprimer ministro
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Заместник министър-председател
+    head_title_en: Deputy Prime Minister
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: deputy_head_without_portfolio
+    url: null
+    sources: [konstitutsia-rb, dv-43-2026-izbiran-ms, gov-bg-cabinet-members-en, gov-bg-sastav]
+    note:
+      en: >-
+        The second of the two portfolio-less deputy premierships. See the note on the first;
+        the two are recorded identically because the sources describe them identically.
+      es: >-
+        La segunda de las dos vicepresidencias sin cartera. Véase la nota de la primera; las
+        dos se registran igual porque las fuentes las describen igual.

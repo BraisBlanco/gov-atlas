@@ -1,0 +1,49 @@
+# Greece — country metadata.
+#
+# See docs/DATA-CONTRACT.md. The cabinet lives in data/cabinets/GR-2023-06-27.yml.
+
+iso2: GR
+iso3: GRC
+
+name_en: Greece
+name_es: Grecia
+name_original: Ελλάδα
+official_name_original: Ελληνική Δημοκρατία
+
+continent: europe
+region: southern_europe
+eu_member_since: 1981-01-01
+government_system: parliamentary_republic
+official_languages: [el]
+
+# Population carries its own citation because the country page publishes it as a figure in
+# its own right, not as a convenience constant.
+population:
+  value: 10372335
+  year: 2025
+  source:
+    id: elstat-ektimomenos-plithysmos-2025
+    tier: 3
+    type: statistical_office
+    publisher: Ελληνική Στατιστική Αρχή (ΕΛ.ΣΤΑΤ.)
+    title: >-
+      Στοιχεία Εκτιμώμενου Πληθυσμού (1.1.2025) - Μεταναστευτικών Ροών της Χώρας (2024) και
+      Αναθεωρημένα Στοιχεία Εκτιμώμενου Πληθυσμού και Μεταναστευτικών Ροών για τη χρονική
+      περίοδο 2011 - 2024
+    url: https://www.statistics.gr/documents/20181/3cdc6530-6451-1ed1-d866-bbfb5eeb3e1f
+    archive_url: null
+    lang: el
+    published: 2025-12-18
+    accessed: 2026-07-27
+    quote: >-
+      Σύμφωνα με τα παραπάνω, ο μόνιμος πληθυσμός της Χώρας κατά την 1η Ιανουαρίου 2025
+      εκτιμάται σε 10.372.335 άτομα (5.094.094 άνδρες και 5.278.241 γυναίκες), μειωμένος
+      κατά 0,03% σε σχέση με τον πληθυσμό την 1η Ιανουαρίου 2024 που έχει αναθεωρηθεί σε
+      10.375.764 άτομα.
+    note: >-
+      The estimated resident population, which is the most recent official figure Greece
+      publishes between censuses; the 1 January 2026 estimate was not yet released when this
+      file was written. Tier 3 for the same reason as Spain's INE figure: it is an estimate
+      produced by the statistical office, not a legal instrument. archive_url is null because
+      every Wayback capture of this PDF returns the portal's error page rather than the
+      document; the live URL served the quoted text on the access date.

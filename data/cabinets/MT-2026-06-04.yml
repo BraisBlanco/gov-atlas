@@ -1,0 +1,1184 @@
+# Malta — government structure of the cabinet appointed on 4 June 2026, after the general
+# election of 30 May 2026 (Robert Abela's third cabinet).
+#
+# Read docs/DATA-CONTRACT.md alongside this file. Seven Malta-specific things to know:
+#
+#   1. Malta does have an enumerating legal instrument, and it is not an act or a legal notice.
+#      It is a Government Notice made under section 82 of the Constitution — "Assignment to
+#      Ministers of Responsibility for the Business of the Government of Malta" — published in
+#      a special issue of the Malta Government Gazette. It names every ministry and lists the
+#      subjects assigned to it, in both official languages. Everything counted here rests on it.
+#   2. That notice is not on the Department of Information's web pages for the gazette, which
+#      skip the special issues; it exists only in the gazette PDF. Finding it is the difference
+#      between grading Malta A and grading it B.
+#   3. Both Maltese and English are official (Constitution, article 5) and the instrument itself
+#      is printed in parallel columns in both. name_original is the Maltese column and name_en
+#      is the English column of the same instrument, so name_en is `official`, not `translated`.
+#   4. Policy-area tags follow the subjects the instrument assigns, not ministry titles. That is
+#      how this file knows defence sits in the home affairs ministry and space in the justice one.
+#   5. The Ministry for Gozo is central government, not a subnational one, and is counted.
+#   6. Parliamentary secretaries are appointed under a different section of the Constitution, are
+#      not members of the Cabinet, move neither figure, and are not recorded. There are two.
+#   7. The Office of the Deputy Prime Minister is not a separate entity: the deputy prime
+#      minister heads the health ministry and the instrument gives the two as one heading.
+
+country: MT
+cabinet_id: MT-2026-06-04
+
+cabinet_name_original: Il-Kabinett ta' Robert Abela (2026)
+cabinet_name_en: Cabinet of Robert Abela (2026)
+cabinet_name_es: Gabinete de Robert Abela (2026)
+
+head_of_government_title_original: Prim Ministru
+head_of_government_title_en: Prime Minister
+
+took_office: 2026-06-04
+left_office: null
+
+methodology_notes:
+  - en: >-
+      Malta has 21 ministries and 22 cabinet seats. The gap is the Prime Minister, who holds a
+      seat and heads the Office of the Prime Minister rather than a portfolio department. The
+      instrument that assigns the business of government lists 22 headings — the Prime Minister
+      and 21 ministries — and the notice appointing the ministers names 21 people, each holding
+      one of them, so no portfolio is shared and there is no `shared_head_with` link anywhere in
+      this file. 21 ministers plus the Prime Minister is 22 seats. The two figures answer
+      different questions and are never added.
+    es: >-
+      Malta tiene 21 ministerios y 22 asientos en el gabinete. La diferencia es el primer
+      ministro, que ocupa asiento y encabeza la Oficina del Primer Ministro y no un departamento
+      con cartera. El instrumento que reparte los asuntos del gobierno enumera 22 encabezamientos
+      —el primer ministro y 21 ministerios— y el aviso que nombra a los ministros designa a 21
+      personas, cada una al frente de uno de ellos, de modo que no hay carteras compartidas ni
+      ningún enlace `shared_head_with` en este fichero. 21 ministros más el primer ministro son
+      22 asientos. Las dos cifras responden a preguntas distintas y nunca se suman.
+  - en: >-
+      Where Malta's enumeration lives, and why it is easy to miss. There is no Maltese act or
+      legal notice that lists the ministries: the Public Administration Act (Cap. 595) carries no
+      such schedule, and nothing answering to a "Ministries and Departments (Allocation of
+      Responsibilities)" order exists on legislation.mt. The enumeration is a Government Notice
+      made under section 82 of the Constitution, by which the President, on the Prime Minister's
+      advice, assigns to ministers "responsibility for the business of the Government of Malta,
+      including the administration of Departments of Government". For this cabinet that is
+      Government Notice 844, published with the appointments themselves (Government Notices 842
+      and 843) in Government Gazette No. 21,661 of 5 June 2026 — a special issue the Department of
+      Information titles "Government Gazette Ministers" and does not reproduce in the
+      per-issue web pages it publishes for ordinary gazettes. A curator who looks only at those
+      web pages finds an unexplained gap in the notice numbering between 2 and 5 June and concludes
+      that Malta publishes no enumeration; the notice is in the gazette PDF for that special issue
+      and nowhere else on gov.mt. Because it is a legal instrument, Malta grades A: all 21 counted
+      ministries, their names in both official languages, and the subjects assigned to each rest
+      on it.
+    es: >-
+      Dónde está la enumeración maltesa, y por qué es fácil no verla. No hay ley ni aviso legal
+      maltés que enumere los ministerios: la Public Administration Act (Cap. 595) no lleva anexo
+      de ese tipo, y en legislation.mt no existe nada equivalente a una orden de «Ministries and
+      Departments (Allocation of Responsibilities)». La enumeración es un Government Notice dictado
+      conforme al artículo 82 de la Constitución, por el que el presidente de la República, con el
+      consejo del primer ministro, asigna a los ministros «responsibility for the business of the
+      Government of Malta, including the administration of Departments of Government». Para este
+      gabinete es el Government Notice 844, publicado junto con los propios nombramientos
+      (Government Notices 842 y 843) en la Gazzetta tal-Gvern n.º 21.661 del 5 de junio de 2026:
+      un número especial que el Departamento de Información titula «Government Gazette Ministers»
+      y que no reproduce en las páginas web que publica para cada número ordinario. Quien mire solo
+      esas páginas web encuentra un hueco inexplicado en la numeración de los avisos entre el 2 y
+      el 5 de junio y concluye que Malta no publica enumeración alguna; el aviso está en el PDF de
+      ese número especial y en ningún otro sitio de gov.mt. Al ser instrumento jurídico, Malta
+      tiene grado A: los 21 ministerios contados, sus nombres en las dos lenguas oficiales y las
+      materias asignadas a cada uno se apoyan en él.
+  - en: >-
+      Both Maltese and English are official, and name_en is `official` rather than `translated`
+      for the strongest possible reason: the same instrument prints both. Article 5 of the
+      Constitution makes Maltese the national language and provides that Maltese and English shall
+      be the official languages of Malta, and Government Notice 844 is set in parallel columns,
+      Maltese on the left and English on the right, so "Ministeru għall-Enerġija, l-Ambjent u
+      r-Riġenerazzjoni tal-Port il-Kbir" and "Ministry for Energy, the Environment and the
+      Regeneration of the Grand Harbour" are two official names of one department rather than a
+      name and a rendering of it. name_original carries the Maltese, because Maltese is the
+      national language. Only the Spanish names are this project's own translations, and only they
+      are marked `translated`.
+    es: >-
+      El maltés y el inglés son ambos oficiales, y name_en se marca `official` y no `translated`
+      por la razón más fuerte posible: el mismo instrumento imprime los dos. El artículo 5 de la
+      Constitución hace del maltés la lengua nacional y dispone que el maltés y el inglés serán las
+      lenguas oficiales de Malta, y el Government Notice 844 se compone en columnas paralelas,
+      maltés a la izquierda e inglés a la derecha, de modo que «Ministeru għall-Enerġija,
+      l-Ambjent u r-Riġenerazzjoni tal-Port il-Kbir» y «Ministry for Energy, the Environment and
+      the Regeneration of the Grand Harbour» son dos nombres oficiales de un mismo departamento y
+      no un nombre y su versión. name_original recoge el maltés, porque el maltés es la lengua
+      nacional. Solo los nombres españoles son traducciones de este proyecto, y solo ellos se
+      marcan `translated`.
+  - en: >-
+      Where the instrument and the government's own portal disagree, this file follows the
+      instrument. gov.mt publishes a list of ministries and a portfolio page for each — the pages
+      recorded as each entity's `url`, and the pages a reader will actually find first — but it
+      sets every name in full capitals and differs from Government Notice 844 in three places.
+      The portal has "MINISTRY FOR EDUCATION AND SPORT" where the instrument has "Ministry for
+      Education and Sports"; "MINISTRY FOR ECONOMY…" where the instrument has "Ministry for the
+      Economy…"; and, in Maltese, "l-Implementazzjoni" where the instrument has
+      "l-Implimentazzjoni". In each case the instrument's form is recorded here. A fourth
+      difference runs the other way and is not adopted: the ministry's own portfolio page styles
+      itself "Ministry for Arts, Culture and the National Heritage", while both the instrument and
+      the portal's list drop the article, so "Ministry for Arts, Culture and National Heritage" is
+      what this file records. None of these is a difference of substance; they are recorded rather
+      than resolved silently because a reader comparing this file with gov.mt will see them.
+    es: >-
+      Cuando el instrumento y el propio portal del gobierno discrepan, este fichero sigue al
+      instrumento. gov.mt publica una lista de ministerios y una página de portafolio para cada
+      uno —las páginas registradas como `url` de cada entidad, y las que un lector encontrará
+      antes—, pero escribe todos los nombres en mayúsculas y difiere del Government Notice 844 en
+      tres puntos. El portal pone «MINISTRY FOR EDUCATION AND SPORT» donde el instrumento pone
+      «Ministry for Education and Sports»; «MINISTRY FOR ECONOMY…» donde el instrumento pone
+      «Ministry for the Economy…»; y, en maltés, «l-Implementazzjoni» donde el instrumento pone
+      «l-Implimentazzjoni». En cada caso se registra la forma del instrumento. Una cuarta
+      diferencia va en sentido contrario y no se adopta: la página del propio ministerio se titula
+      «Ministry for Arts, Culture and the National Heritage», mientras que tanto el instrumento
+      como la lista del portal suprimen el artículo, así que aquí se registra «Ministry for Arts,
+      Culture and National Heritage». Ninguna es diferencia de fondo; se hacen constar en lugar de
+      resolverse en silencio porque el lector que compare este fichero con gov.mt las verá.
+  - en: >-
+      Policy-area tags follow the subjects the instrument assigns, not the ministry titles.
+      Government Notice 844 prints, under each ministry's name, the list of subjects that ministry
+      is responsible for, and those lists are what is tagged here. Doing it that way rather than
+      reading the titles changes several of Malta's rows, which is the argument for it: Malta has
+      no defence ministry, but "Defence" and "Armed Forces" head the subjects assigned to the
+      Ministry for Home Affairs and Security, so Malta does appear in the defence column; "Space
+      Strategy" is assigned to the justice ministry, not to a research or transport one;
+      "Climate Change Policy" and "Water Policy" are assigned to an energy and environment
+      ministry that names neither in its title; and migration is split, with "Legal Migration and
+      Expatriate Affairs" assigned to the infrastructure and employment ministry and "Irregular
+      Migration" to home affairs, so two ministries carry `migration`. A comparison built from
+      ministry names alone would have got all of these wrong.
+    es: >-
+      Las áreas de política siguen las materias que asigna el instrumento, no los títulos
+      ministeriales. El Government Notice 844 imprime, bajo el nombre de cada ministerio, la lista
+      de materias de las que es responsable, y esas listas son lo que aquí se etiqueta. Hacerlo así
+      en lugar de leer los títulos cambia varias filas de Malta, que es el argumento a favor: Malta
+      no tiene ministerio de defensa, pero «Defence» y «Armed Forces» encabezan las materias
+      asignadas al Ministerio del Interior y Seguridad, de modo que Malta sí aparece en la columna
+      de defensa; «Space Strategy» se asigna al ministerio de justicia y no a uno de investigación
+      o transporte; «Climate Change Policy» y «Water Policy» se asignan a un ministerio de energía
+      y medio ambiente que no nombra ninguna de las dos en su título; y la migración se divide, con
+      «Legal Migration and Expatriate Affairs» en el ministerio de infraestructuras y empleo e
+      «Irregular Migration» en interior, así que dos ministerios llevan `migration`. Una
+      comparación construida solo con los nombres se habría equivocado en todo esto.
+  - en: >-
+      Parliamentary secretaries move neither figure and are not recorded here. They are the Maltese
+      equivalent of junior ministers or state secretaries, and the constitutional distinction is
+      visible in the gazette itself: the ministers were appointed under section 80 of the
+      Constitution by Government Notice 842, the parliamentary secretaries under section 88 by
+      Government Notice 843, and each of the latter is appointed to serve "within" a named ministry
+      rather than over a department of their own. They are not members of the Cabinet, so they add
+      no seat, and they head nothing, so they add no ministry. This legislature has exactly two —
+      Deo Debattista within the Office of the Deputy Prime Minister and Ministry for Health, with
+      responsibility for active ageing, and Alicia Bugeja Said within the Ministry for Energy, the
+      Environment and the Regeneration of the Grand Harbour, with responsibility for animal
+      welfare. Because Government Notice 844 assigns the elderly and animal-welfare subjects to
+      those two ministries and not to the secretariats, the two remits are tagged as policy areas
+      of the parent ministries — `elderly` on the health ministry and `animal_welfare` on the
+      energy and environment ministry — which is why Malta appears in those columns without a
+      department of its own for either. A source that answers "how big is the Maltese government?"
+      with a number in the thirties is counting parliamentary secretaries alongside ministers, and
+      is answering a different question.
+    es: >-
+      Los secretarios parlamentarios no mueven ninguna de las dos cifras y no se registran aquí.
+      Son el equivalente maltés de los ministros junior o secretarios de Estado, y la distinción
+      constitucional se ve en la propia Gazzetta: los ministros se nombraron conforme al artículo
+      80 de la Constitución por el Government Notice 842, y los secretarios parlamentarios conforme
+      al artículo 88 por el Government Notice 843, y cada uno de estos últimos se nombra para
+      servir «dentro» («within») de un ministerio determinado y no al frente de un departamento
+      propio. No son miembros del Gabinete, así que no añaden asiento, y no encabezan nada, así que
+      no añaden ministerio. Esta legislatura tiene exactamente dos: Deo Debattista en la Oficina
+      del Viceprimer Ministro y Ministerio de Sanidad, responsable del envejecimiento activo, y
+      Alicia Bugeja Said en el Ministerio de Energía, Medio Ambiente y Regeneración del Gran
+      Puerto, responsable del bienestar animal. Como el Government Notice 844 asigna las materias
+      de mayores y de bienestar animal a esos dos ministerios y no a las secretarías, los dos
+      cometidos se etiquetan como áreas de los ministerios matrices —`elderly` en el de sanidad y
+      `animal_welfare` en el de energía y medio ambiente—, y por eso Malta aparece en esas columnas
+      sin departamento propio para ninguna. Una fuente que responde «¿de qué tamaño es el Gobierno
+      maltés?» con una cifra de treinta y tantos está contando secretarios parlamentarios junto a
+      los ministros: responde a otra pregunta.
+  - en: >-
+      The Ministry for Gozo is counted, and is not a subnational government. Gozo is Malta's second
+      inhabited island; it has no legislature, no government and no devolved powers of its own. The
+      Ministry for Gozo is a department of the national executive, headed by a member of the
+      national Cabinet, appointed by the same instrument as every other minister and listed in
+      Government Notice 844 between the inclusion ministry and the education ministry like any
+      other. What that notice assigns to it is "Gozo Affairs (excluding health services and
+      education but including all infrastructural works related to the education sector)" — a
+      carve-up of central government business by territory, with two subjects explicitly carved
+      back out, which is the opposite of devolution. Excluding it as `subnational_government` would
+      misread a central ministry with a territorial remit as a regional administration, and would
+      put Malta's count at 20 for the wrong reason.
+    es: >-
+      El Ministerio de Gozo se cuenta y no es un gobierno subnacional. Gozo es la segunda isla
+      habitada de Malta; no tiene legislatura, ni gobierno, ni competencias transferidas propias.
+      El Ministerio de Gozo es un departamento del ejecutivo nacional, encabezado por un miembro
+      del Gabinete nacional, nombrado por el mismo instrumento que todos los demás ministros y
+      listado en el Government Notice 844 entre el de inclusión y el de educación como cualquier
+      otro. Lo que ese aviso le asigna es «Gozo Affairs (excluding health services and education
+      but including all infrastructural works related to the education sector)»: un reparto
+      territorial de los asuntos del gobierno central, con dos materias expresamente excluidas, que
+      es lo contrario de la descentralización. Excluirlo como `subnational_government` sería leer un
+      ministerio central con ámbito territorial como una administración regional, y dejaría el
+      recuento de Malta en 20 por el motivo equivocado.
+  - en: >-
+      The perimeter. Counted: the 21 ministries listed in Government Notice 844, each headed by a
+      minister appointed by Government Notice 842 and each a department of the national executive.
+      Recorded but not counted: the Office of the Prime Minister. Government Notice 844 heads its
+      first block simply "Prime Minister" and assigns to it the machinery of government — the
+      public administration, the Cabinet Office, the Electoral Office, people and standards,
+      internal audit and investigations, information, the Government Printing Press and the Office
+      of the Public Service Commission — rather than a sector of policy, so this project excludes
+      it as it excludes Spain's Presidencia del Gobierno. Counting it would give 22 ministries
+      instead of 21. Not recorded at all: parliamentary secretaries (see above); the President of
+      Malta, who is head of state and outside the executive this dataset counts; the Attorney
+      General and the State Advocate, which Government Notice 844 lists as offices assigned to the
+      justice ministry rather than as ministries; and the several hundred authorities, agencies,
+      foundations, councils and boards that sit under the ministries.
+    es: >-
+      El perímetro. Se cuentan: los 21 ministerios listados en el Government Notice 844, cada uno
+      encabezado por un ministro nombrado por el Government Notice 842 y cada uno departamento del
+      ejecutivo nacional. Se registra sin contar: la Oficina del Primer Ministro. El Government
+      Notice 844 encabeza su primer bloque simplemente «Prime Minister» y le asigna la maquinaria
+      del gobierno —la administración pública, la Oficina del Gabinete, la Oficina Electoral,
+      personal y estándares, la auditoría interna e investigaciones, la información, la Imprenta del
+      Gobierno y la Oficina de la Comisión del Servicio Público— y no un sector de política, así que
+      este proyecto la excluye igual que excluye la Presidencia del Gobierno española. Contarla
+      daría 22 ministerios en lugar de 21. No se registran: los secretarios parlamentarios (véase
+      más arriba); el presidente de Malta, jefe del Estado y ajeno al ejecutivo que cuenta este
+      dataset; el fiscal general y el abogado del Estado, que el Government Notice 844 enumera como
+      oficinas asignadas al ministerio de justicia y no como ministerios; y los centenares de
+      autoridades, agencias, fundaciones, consejos y comités situados bajo los ministerios.
+  - en: >-
+      Three dates, and why this file uses 4 June 2026. The general election was held on Saturday
+      30 May 2026; the Electoral Commission's return of the members elected, in the Government
+      Gazette of 1 June 2026, recites that date. The President appointed Robert Abela Prime Minister
+      on 1 June 2026 (Government Notice 821). The ministers were appointed on 4 June 2026
+      (Government Notice 842), and the assignment of responsibilities bears the same date
+      (Government Notice 844), although both were printed in the gazette of 5 June. This file dates
+      the cabinet from the ministers' appointment, as the project's other files do — Spain's cabinet
+      is dated 21 November 2023, when its ministers were sworn in, not from the prime minister's own
+      investiture four days earlier — because what the file describes is the composition of the
+      cabinet, not the identity of its head. All three dates come from legal instruments; no datum
+      in this file rests on a press report.
+    es: >-
+      Tres fechas, y por qué este fichero usa el 4 de junio de 2026. Las elecciones generales se
+      celebraron el sábado 30 de mayo de 2026; el aviso de la Comisión Electoral con los diputados
+      electos, en la Gazzetta del 1 de junio de 2026, recoge esa fecha. El presidente de la
+      República nombró primer ministro a Robert Abela el 1 de junio de 2026 (Government Notice 821).
+      Los ministros fueron nombrados el 4 de junio de 2026 (Government Notice 842), y el reparto de
+      responsabilidades lleva la misma fecha (Government Notice 844), aunque los dos se imprimieron
+      en la Gazzetta del 5 de junio. Este fichero fecha el gabinete en el nombramiento de los
+      ministros, como hacen los demás ficheros del proyecto —el gabinete español se fecha el 21 de
+      noviembre de 2023, cuando juraron sus ministros, y no en la investidura del presidente cuatro
+      días antes—, porque lo que el fichero describe es la composición del gabinete y no la
+      identidad de su titular. Las tres fechas provienen de instrumentos jurídicos; ningún dato de
+      este fichero se apoya en una noticia de prensa.
+
+sources:
+  - id: gazzetta-21661-gn844-assignment
+    tier: 1
+    type: official_gazette
+    publisher: Department of Information — Gazzetta tal-Gvern ta' Malta / The Malta Government Gazette
+    title: >-
+      Government Notice No. 844, Assignment to Ministers of Responsibility for the Business of the
+      Government of Malta, Government Gazette No. 21,661 of 5th June 2026, pp. 12,385–12,397
+    url: https://www.gov.mt/en/Government/DOI/Government%20Gazette/Documents/2026/06/Government%20Gazette%20-%205th%20June%20Ministers.pdf
+    archive_url: null
+    lang: en
+    published: 2026-06-05
+    accessed: 2026-07-28
+    quote: |-
+      No. 844
+      ASSIGNMENT TO MINISTERS OF RESPONSIBILITY FOR THE BUSINESS OF THE GOVERNMENT OF MALTA
+      IN exercise of the powers conferred by Section 82 of the Malta Constitution, the President of Malta, acting in accordance with the advice of the Prime Minister, has assigned to Ministers responsibility for the business of the Government of Malta, including the administration of Departments of Government, as follows:
+      Prime Minister
+      Office of the Deputy Prime Minister and Ministry for Health
+      Ministry for Accommodation and Lands
+      Ministry for Social Policy and the Family
+      Ministry for Agriculture, Fisheries and Food Supply
+      Ministry for the Economy, Technology and Strategic Projects
+      Ministry for Inclusion and the Voluntary Sector
+      Ministry for Gozo
+      Ministry for Education and Sports
+      Ministry for Energy, the Environment and the Regeneration of the Grand Harbour
+      Ministry for Finance
+      Ministry for Justice, Research and Innovation
+      Ministry for Infrastructure, Planning and Employment
+      Ministry for Tourism
+      Ministry for Sustainable Mobility
+      Ministry for Foreign and European Affairs
+      Ministry for Local Government and Public Works
+      Ministry for European Funds, Social Dialogue and Consumer Protection
+      Ministry for Home Affairs and Security
+      Ministry for Arts, Culture and National Heritage
+      Ministry for Youth, Wellbeing and the Implementation of the Electoral Programme
+      Ministry for Equality and Civil Rights
+      4th June, 2026
+    note: >-
+      The enumerating instrument, and the tier-1 source on which every counted ministry in this
+      file rests. Made under section 82 of the Constitution and dated 4 June 2026, printed in a
+      special issue of the gazette that the Department of Information titles "Government Gazette
+      Ministers" and that does not appear among the per-issue notice pages published on gov.mt.
+      Two things about the quote. First, the notice is set in parallel columns, Maltese on the
+      left and English on the right; the English column is quoted here and the Maltese heading of
+      each ministry is what appears in name_original below. Second, the notice prints under each
+      of these 22 headings the list of subjects assigned to that ministry — nine lines under
+      "Prime Minister", six under the health ministry, and so on to "Foreign Communities" under
+      the equality ministry — and those lists are omitted from the quote for length. They are the
+      basis of the policy-area tags and are described in the entity notes; gov.mt reproduces them
+      on each ministry's portfolio page, which is that entity's `url`. Nothing else is altered:
+      the headings are verbatim and in the notice's own order, with the line breaks of the printed
+      column joined up. Page numbering 12,385 to 12,397 is the gazette's own continuous pagination
+      for the year. ARCHIVE OUTSTANDING: archive_url is null and the file therefore fails
+      `source-archive-required`. This is not a judgement that the source cannot be archived — it is
+      a PDF on a path from which the Wayback Machine has captured other gazette issues, most
+      recently the issue of 13 January 2026 on 26 July 2026. No snapshot could be created while
+      this file was curated because Save Page Now returned "Job failed" to every request over more
+      than an hour, including control captures of unrelated URLs, and archive.today accepted
+      capture jobs but never completed them and gates its status pages behind a CAPTCHA. The next
+      curator to touch this file should retry Save Page Now on this URL, open the resulting
+      snapshot, confirm that Government Notice 844 is legible in it, and only then paste the
+      timestamp here.
+
+  - id: gazzetta-21661-gn842-ministers
+    tier: 1
+    type: official_gazette
+    publisher: Department of Information — Gazzetta tal-Gvern ta' Malta / The Malta Government Gazette
+    title: >-
+      Government Notice No. 842, Appointment of Ministers, Government Gazette No. 21,661 of
+      5th June 2026
+    url: https://www.gov.mt/en/Government/DOI/Government%20Gazette/Documents/2026/06/Government%20Gazette%20-%205th%20June%20Ministers.pdf
+    archive_url: null
+    lang: en
+    published: 2026-06-05
+    accessed: 2026-07-28
+    quote: |-
+      No. 842
+      APPOINTMENT OF MINISTERS
+      IN exercise of the powers conferred by Section 80 of the Constitution of Malta, the President of Malta, acting in accordance with the advice of the Prime Minister, has, on the 4th June 2026, appointed Dr Ian Borg LLB, Dip Not Pub, LLD, MP, Dr Owen Bonnici BA, LLD, MP, Dr Michael Falzon LLD, ACIB, MP, Dr Anton Refalo LLD, MP, Mr Silvio Schembri BCom(Hons), MA(Econ), MP, Ms Julia Farrugia MP, Perit Clint Camilleri BE&A(Hons), MP, Dr Byron Camilleri LLB, Dip Not Pub, LLD, MP, Dr Miriam Dalli BA (Hons), MA (Eur), MBA (Exec), LLD, MP, Mr Clyde Caruana BCom (Hons), MA (Econ), MP, Dr Clifton Grima LLB, LLD, MP, Dr Jonathan Attard B.Comm, LLB, Dip NP, LLD, MP, Mr Jo Etienne Abela MD, MPhil, MRCS, FRCS, FEBS, MP, Dr Chris Bonett BA LLM, LLD, MP, Mr Chris Fearne MD, FRCS(Ed), MP, Ms Alison Zerafa Civelli M.Ed, B.Ed, MP, Mr Keith Azzopardi Tanti B.Com(Hons)Mgt, FCCA, CPA, MIA, MP, Dr Glenn Bedingfield LLB, M Adv Melit, MP, Dr Malcolm Paul Agius Galea MD, MSc, MRCGP, MMCFD, MP, Mr Omar Farrugia MP, Ms Rosianne Cutajar BA (Hon), PGCE, MP to be Ministers as follows:
+      Dr Ian Borg, LLB, Dip Not Pub, LLD, MP — Deputy Prime Minister and Minister for Health
+      Dr Owen Bonnici, BA, LLD, MP — Minister for Accommodation and Lands
+      Dr Michael Falzon, LLD, ACIB, MP — Minister for Social Policy and the Family
+      Dr Anton Refalo, LLD, MP — Minister for Agriculture, Fisheries and Food Supply
+      Mr Silvio Schembri, BCom(Hons), MA(Econ), MP — Minister for the Economy, Technology and Strategic Projects
+      Ms Julia Farrugia, MP — Minister for Inclusion and the Voluntary Sector
+      Perit Clint Camilleri, BE&A(Hons), MP — Minister for Gozo
+      Dr Byron Camilleri, LLB, Dip Not Pub, LLD, MP — Minister for Education and Sports
+      Dr Miriam Dalli, BA (Hons), MA (Eur), MBA (Exec), LLD, MP — Minister for Energy, the Environment and the Regeneration of the Grand Harbour
+      Mr Clyde Caruana, BCom (Hons), MA (Econ), MP — Minister for Finance
+      Dr Clifton Grima, LLB, LLD, MP — Minister for Justice, Research and Innovation
+      Dr Jonathan Attard, B.Comm, LLB, Dip NP, LLD, MP — Minister for Infrastructure, Planning and Employment
+      Mr Jo Etienne Abela, MD, MPhil, MRCS, FRCS, FEBS, MP — Minister for Tourism
+      Dr Chris Bonett, BA LLM, LLD, MP — Minister for Sustainable Mobility
+      Mr Chris Fearne, MD, FRCS(Ed), MP — Minister for Foreign and European Affairs
+      Ms Alison Zerafa Civelli, M.Ed, B.Ed, MP — Minister for Local Government and Public Works
+      Mr Keith Azzopardi Tanti, B.Com(Hons)Mgt, FCCA, CPA, MIA, MP — Minister for European Funds, Social Dialogue and Consumer Protection
+      Dr Glenn Bedingfield, LLB, M Adv Melit, MP — Minister for Home Affairs and Security
+      Dr Malcolm Paul Agius Galea, MD, MSc, MRCGP, MMCFD, MP — Minister for Arts, Culture and National Heritage
+      Mr Omar Farrugia, MP — Ministry for Youth, Wellbeing and the Implementation of the Electoral Programme
+      Ms Rosianne Cutajar, BA (Hon), PGCE, MP — Ministry for Equality and Civil Rights
+      4th June 2026
+    note: >-
+      The appointment of the 21 ministers, and the source for took_office. Two transcription points.
+      The notice sets each appointee's name on one line and the office on the next; the em dashes in
+      this quote stand for that line break and are the only characters added. And the notice's last
+      two entries read "Ministry for Youth…" and "Ministry for Equality…" where the preceding
+      nineteen read "Minister for…"; that is the gazette's own slip, reproduced here rather than
+      corrected, and it does not affect the ministry names, which come from Government Notice 844.
+      Twenty-one named individuals, all different, is what fixes cabinet_seats_count at 22 once the
+      Prime Minister is added. The companion Government Notice 843 in the same issue appoints, under
+      section 88 of the Constitution, the two parliamentary secretaries, each "within" a named
+      ministry; it is described in the methodology notes and is not separately cited, because no
+      entity in this file depends on it. ARCHIVE OUTSTANDING: this notice is in the same PDF as
+      Government Notice 844, so it carries the same missing snapshot and the same explanation —
+      see the note on `gazzetta-21661-gn844-assignment`. One successful capture of that URL fixes
+      both citations.
+
+  - id: gazzetta-21656-gn821-pm
+    tier: 1
+    type: official_gazette
+    publisher: Department of Information — Malta Government Gazette
+    title: >-
+      Government Notice No. 821, Appointment of Prime Minister, Government Gazette No. 21,656 of
+      1st June 2026
+    url: https://www.gov.mt/en/Government/DOI/Government%20Gazette/Government%20Notices/Pages/2026/06/GovNotices0106.aspx
+    archive_url: https://web.archive.org/web/20260725125959/https://www.gov.mt/en/Government/DOI/Government%20Gazette/Government%20Notices/Pages/2026/06/GovNotices0106.aspx
+    lang: en
+    published: 2026-06-01
+    accessed: 2026-07-28
+    quote: >-
+      No. 821 APPOINTMENT OF PRIME MINISTER IN exercise of the powers conferred by Article 80 of
+      the Constitution of Malta, the President of Malta has, on the 1st June, 2026, appointed the
+      Hon. Robert Abela, KUOM, BA, LLD, Adv. Trib. Melit., MP, to be Prime Minister. 1st June,
+      2026
+    note: >-
+      The appointment of the head of government, three days before his ministers. The quote runs
+      the notice number, heading, body and date together on one line because the Department of
+      Information's web page for the issue sets them as adjacent blocks with no punctuation between
+      them; no words are omitted or altered. The same page carries Government Notice 822, the
+      Electoral Commission's return of the members elected "in the General Election held on
+      Saturday, 30th May, 2026", which is where the election date in the methodology notes comes
+      from. The archived snapshot used here was captured on 25 July 2026 and shows the quoted text.
+
+entities:
+  - id: MT-2026-opm
+    order: 1
+    name_original: Uffiċċju tal-Prim Ministru
+    abbreviation_original: OPM
+    name_en: Office of the Prime Minister
+    name_es: Oficina del Primer Ministro
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Prim Ministru
+    head_title_en: Prime Minister
+    has_cabinet_seat: true
+    counts_as_ministry: false
+    exclusion_reason: head_of_government_office
+    policy_areas: []
+    url: https://www.gov.mt/en/Government/Government%20of%20Malta/Ministries%20and%20Entities/Pages/Ministries%202026/OPM.aspx
+    sources: [gazzetta-21661-gn844-assignment, gazzetta-21656-gn821-pm]
+    note:
+      en: >-
+        First in the instrument that assigns the business of government, and excluded all the same.
+        What is assigned to it is the machinery of government — public administration, the Cabinet
+        Office, the Electoral Office, people and standards, internal audit and investigations,
+        information, the Government Printing Press and the Office of the Public Service Commission
+        — rather than a sector of policy, so it carries no policy area. Excluding it gives 21
+        ministries; counting it, as the Irish file counts the Department of the Taoiseach, would
+        give 22. It is excluded because, unlike Ireland's, no Maltese instrument constitutes it as
+        one of a defined set of departments: Government Notice 844 heads its block "Prime Minister",
+        the office of the head of government, where every other block is headed "Ministry for…" or,
+        in the health case, "Office of the Deputy Prime Minister and Ministry for…". The name
+        recorded here is the one the government uses for the department, Uffiċċju tal-Prim Ministru
+        / Office of the Prime Minister. Its head holds a cabinet seat, which is why Malta's seat
+        count is one higher than its ministry count.
+      es: >-
+        Primera en el instrumento que reparte los asuntos del gobierno, y excluida igualmente. Lo
+        que se le asigna es la maquinaria del gobierno —administración pública, Oficina del
+        Gabinete, Oficina Electoral, personal y estándares, auditoría interna e investigaciones,
+        información, Imprenta del Gobierno y Oficina de la Comisión del Servicio Público— y no un
+        sector de política, así que no lleva ninguna área. Excluirla da 21 ministerios; contarla,
+        como el fichero irlandés cuenta el Departamento del Taoiseach, daría 22. Se excluye porque,
+        a diferencia del irlandés, ningún instrumento maltés la constituye como uno de un conjunto
+        definido de departamentos: el Government Notice 844 encabeza su bloque «Prime Minister», el
+        cargo del jefe de gobierno, mientras todos los demás bloques se encabezan «Ministry for…»
+        o, en el caso de sanidad, «Office of the Deputy Prime Minister and Ministry for…». El
+        nombre aquí registrado es el que el gobierno usa para el departamento: Uffiċċju tal-Prim
+        Ministru / Office of the Prime Minister. Su titular ocupa asiento en el gabinete, y de ahí
+        que el recuento de asientos de Malta sea uno mayor que el de ministerios.
+
+  - id: MT-2026-health
+    order: 2
+    name_original: Uffiċċju tad-Deputat Prim Ministru u Ministeru għas-Saħħa
+    abbreviation_original: ODPM
+    name_en: Office of the Deputy Prime Minister and Ministry for Health
+    name_es: Oficina del Viceprimer Ministro y Ministerio de Sanidad
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Deputat Prim Ministru u Ministru
+    head_title_en: Deputy Prime Minister and Minister
+    has_cabinet_seat: true
+    counts_as_ministry: true
+    policy_areas: [health, elderly, parliamentary_relations]
+    url: https://www.gov.mt/en/Government/Government%20of%20Malta/Ministries%20and%20Entities/Pages/Ministries%202026/Health.aspx
+    sources: [gazzetta-21661-gn844-assignment, gazzetta-21661-gn842-ministers]
+    note:
+      en: >-
+        One entity, counted once, although its official name contains two offices. The deputy prime
+        ministership is a personal office attached to a minister, not a department: Government
+        Notice 844 gives the two as a single heading with a single list of subjects, and Government
+        Notice 842 appoints one person to both. The subjects assigned are health services
+        regulation and standards, health services, parliamentary affairs, the elderly, community
+        care and homes for the elderly — hence `parliamentary_relations`, which in most cabinets
+        sits in the prime minister's office, and `elderly`, exercised through the parliamentary
+        secretary for active ageing who serves within this ministry.
+      es: >-
+        Una sola entidad, contada una sola vez, aunque su nombre oficial contenga dos cargos. La
+        vicejefatura del gobierno es un cargo personal adscrito a un ministro, no un departamento:
+        el Government Notice 844 da los dos como un único encabezamiento con una única lista de
+        materias, y el Government Notice 842 nombra a una sola persona para ambos. Las materias
+        asignadas son la regulación y estándares de los servicios de salud, los servicios de salud,
+        los asuntos parlamentarios, los mayores, los cuidados comunitarios y las residencias de
+        mayores: de ahí `parliamentary_relations`, que en la mayoría de gabinetes está en la oficina
+        del primer ministro, y `elderly`, ejercida a través del secretario parlamentario de
+        envejecimiento activo que sirve dentro de este ministerio.
+
+  - id: MT-2026-accommodation-lands
+    order: 3
+    name_original: Ministeru għall-Akkomodazzjoni u l-Artijiet
+    abbreviation_original: MAL
+    name_en: Ministry for Accommodation and Lands
+    name_es: Ministerio de Vivienda y Tierras
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministru
+    head_title_en: Minister
+    has_cabinet_seat: true
+    counts_as_ministry: true
+    policy_areas: [housing, state_assets]
+    url: https://www.gov.mt/en/Government/Government%20of%20Malta/Ministries%20and%20Entities/Pages/Ministries%202026/Accommodation.aspx
+    sources: [gazzetta-21661-gn844-assignment, gazzetta-21661-gn842-ministers]
+    note:
+      en: >-
+        "Accommodation" is social housing, affordable housing and rent; "Lands" is the state's own
+        land and property, with the Lands Registry, which is why this ministry carries
+        `state_assets` as well as `housing`. A reader looking for a "Ministry for Housing" will not
+        find that name in this legislature.
+      es: >-
+        «Accommodation» es la vivienda social, la asequible y el alquiler; «Lands» son los terrenos
+        y propiedades del Estado, con el Registro de la Propiedad, y por eso este ministerio lleva
+        `state_assets` además de `housing`. Quien busque un «Ministry for Housing» no encontrará ese
+        nombre en esta legislatura.
+
+  - id: MT-2026-social-policy-family
+    order: 4
+    name_original: Ministeru għall-Politika Soċjali u l-Familja
+    abbreviation_original: MSF
+    name_en: Ministry for Social Policy and the Family
+    name_es: Ministerio de Política Social y Familia
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministru
+    head_title_en: Minister
+    has_cabinet_seat: true
+    counts_as_ministry: true
+    policy_areas: [social_affairs, family, social_security]
+    url: https://www.gov.mt/en/Government/Government%20of%20Malta/Ministries%20and%20Entities/Pages/Ministries%202026/Family.aspx
+    sources: [gazzetta-21661-gn844-assignment, gazzetta-21661-gn842-ministers]
+    note:
+      en: >-
+        Malta's welfare ministry. The subjects assigned are social policy, family policy, child
+        policy, social security, pensions and solidarity services, so it carries `social_security`
+        as well as `social_affairs` — Malta has no separate pensions or social-insurance ministry —
+        and `family` on the strength of the assignment rather than the title alone.
+      es: >-
+        El ministerio de bienestar de Malta. Las materias asignadas son la política social, la
+        familiar, la de infancia, la seguridad social, las pensiones y los servicios de
+        solidaridad, así que lleva `social_security` además de `social_affairs` —Malta no tiene
+        ministerio separado de pensiones o seguridad social— y `family` por la asignación y no solo
+        por el título.
+
+  - id: MT-2026-agriculture-fisheries-food
+    order: 5
+    name_original: Ministeru għall-Agrikoltura, is-Sajd u l-Provvista tal-Ikel
+    abbreviation_original: MAFF
+    name_en: Ministry for Agriculture, Fisheries and Food Supply
+    name_es: Ministerio de Agricultura, Pesca y Abastecimiento Alimentario
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministru
+    head_title_en: Minister
+    has_cabinet_seat: true
+    counts_as_ministry: true
+    policy_areas: [agriculture, fisheries, food_safety, rural_development]
+    url: https://www.gov.mt/en/Government/Government%20of%20Malta/Ministries%20and%20Entities/Pages/Ministries%202026/Agriculture.aspx
+    sources: [gazzetta-21661-gn844-assignment, gazzetta-21661-gn842-ministers]
+    note:
+      en: >-
+        Rural development heads the list of subjects assigned, ahead of agriculture, horticulture,
+        plant protection, food, fisheries, aquaculture and veterinary services, which is why
+        `rural_development` is tagged although the title does not mention it. "Food Supply" in the
+        title is food security and the supply chain — the point of the portfolio for an island that
+        imports most of what it eats — and is tagged `food_safety`, the nearest area in the
+        project's fixed vocabulary and the one other countries' food portfolios use. Animal welfare
+        is not tagged here: the instrument assigns it to the energy and environment ministry,
+        although veterinary services are assigned to this one.
+      es: >-
+        El desarrollo rural encabeza la lista de materias asignadas, por delante de la agricultura,
+        la horticultura, la protección vegetal, la alimentación, la pesca, la acuicultura y los
+        servicios veterinarios, y por eso se etiqueta `rural_development` aunque el título no lo
+        mencione. «Food Supply» en el título es la seguridad del abastecimiento y la cadena de
+        suministro —la razón de ser de la cartera en una isla que importa casi todo lo que come— y
+        se etiqueta `food_safety`, el área más próxima del vocabulario fijo del proyecto y la que
+        usan las carteras alimentarias de otros países. El bienestar animal no se etiqueta aquí: el
+        instrumento lo asigna al ministerio de energía y medio ambiente, aunque los servicios
+        veterinarios sí correspondan a este.
+
+  - id: MT-2026-economy-technology
+    order: 6
+    name_original: Ministeru għall-Ekonomija, it-Teknoloġija u Proġetti Strateġiċi
+    abbreviation_original: METP
+    name_en: Ministry for the Economy, Technology and Strategic Projects
+    name_es: Ministerio de Economía, Tecnología y Proyectos Estratégicos
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministru
+    head_title_en: Minister
+    has_cabinet_seat: true
+    counts_as_ministry: true
+    policy_areas: [economy, digital, industry, small_business, state_assets]
+    url: https://www.gov.mt/en/Government/Government%20of%20Malta/Ministries%20and%20Entities/Pages/Ministries%202026/Economy.aspx
+    sources: [gazzetta-21661-gn844-assignment, gazzetta-21661-gn842-ministers]
+    note:
+      en: >-
+        Economic policy other than fiscal policy, which is assigned to the finance ministry. The
+        subjects assigned run from artificial intelligence and the digital economy through
+        industry, industrial parks and hubs, the Freeport, crafts and cooperatives to small
+        businesses, government investments and privatisation — hence `digital`, `industry`,
+        `small_business` and `state_assets` alongside `economy`. Research and innovation are not
+        tagged here: the instrument assigns them to the justice ministry. The government's list of
+        ministries drops the definite article from the English name; the instrument keeps it, as
+        the Maltese does, and the instrument is followed.
+      es: >-
+        La política económica distinta de la fiscal, que se asigna al ministerio de finanzas. Las
+        materias asignadas van de la inteligencia artificial y la economía digital a la industria,
+        los parques y polos industriales, el Freeport, la artesanía y las cooperativas, hasta las
+        pymes, las inversiones del Estado y las privatizaciones: de ahí `digital`, `industry`,
+        `small_business` y `state_assets` junto a `economy`. La investigación y la innovación no se
+        etiquetan aquí: el instrumento las asigna al ministerio de justicia. La lista oficial de
+        ministerios suprime el artículo en el nombre inglés; el instrumento lo mantiene, como el
+        maltés, y se sigue el instrumento.
+
+  - id: MT-2026-inclusion-voluntary
+    order: 7
+    name_original: Ministeru għall-Inklużjoni u l-Volontarjat
+    abbreviation_original: MIV
+    name_en: Ministry for Inclusion and the Voluntary Sector
+    name_es: Ministerio de Inclusión y Voluntariado
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministru
+    head_title_en: Minister
+    has_cabinet_seat: true
+    counts_as_ministry: true
+    policy_areas: [disability, social_affairs]
+    url: https://www.gov.mt/en/Government/Government%20of%20Malta/Ministries%20and%20Entities/Pages/Ministries%202026/Inclusion.aspx
+    sources: [gazzetta-21661-gn844-assignment, gazzetta-21661-gn842-ministers]
+    note:
+      en: >-
+        In Malta "inclusion" is principally disability policy: the subjects assigned are inclusion,
+        persons with disability, care for persons with disability, and non-governmental and
+        voluntary organisations. `disability` is therefore tagged first, ahead of `social_affairs`.
+        The voluntary and non-governmental sector, the second half of the title, has no id in the
+        project's vocabulary and is not tagged at all; `social_affairs` is the nearest home for it.
+      es: >-
+        En Malta «inclusión» es sobre todo política de discapacidad: las materias asignadas son la
+        inclusión, las personas con discapacidad, su atención, y las organizaciones no
+        gubernamentales y de voluntariado. Por eso se etiqueta `disability` primero, antes de
+        `social_affairs`. El sector voluntario y no gubernamental, la segunda mitad del título, no
+        tiene id en el vocabulario del proyecto y no se etiqueta; `social_affairs` es su hogar más
+        próximo.
+
+  - id: MT-2026-gozo
+    order: 8
+    name_original: Ministeru għal Għawdex
+    abbreviation_original: MFG
+    name_en: Ministry for Gozo
+    name_es: Ministerio de Gozo
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministru
+    head_title_en: Minister
+    has_cabinet_seat: true
+    counts_as_ministry: true
+    policy_areas: [regional_development, territorial_administration]
+    url: https://www.gov.mt/en/Government/Government%20of%20Malta/Ministries%20and%20Entities/Pages/Ministries%202026/Gozo.aspx
+    sources: [gazzetta-21661-gn844-assignment, gazzetta-21661-gn842-ministers]
+    note:
+      en: >-
+        A central-government ministry with a territorial remit, not a regional government, and
+        counted for that reason. The instrument assigns it "Gozo Affairs (excluding health services
+        and education but including all infrastructural works related to the education sector)" and
+        wild birds regulation — a carve-up of national government business by territory, with two
+        subjects carved back out, and not a transfer of power to an island that has no legislature
+        and no devolved competences. Excluding it as `subnational_government` would be a category
+        error; see the methodology note.
+      es: >-
+        Un ministerio del gobierno central con ámbito territorial, no un gobierno regional, y por
+        eso se cuenta. El instrumento le asigna «Gozo Affairs (excluding health services and
+        education but including all infrastructural works related to the education sector)» y la
+        regulación de las aves silvestres: un reparto territorial de los asuntos del gobierno
+        nacional, con dos materias excluidas, y no una transferencia de poder a una isla que no
+        tiene legislatura ni competencias propias. Excluirlo como `subnational_government` sería un
+        error de categoría; véase la nota metodológica.
+
+  - id: MT-2026-education-sports
+    order: 9
+    name_original: Ministeru għall-Edukazzjoni u l-Isport
+    abbreviation_original: MES
+    name_en: Ministry for Education and Sports
+    name_es: Ministerio de Educación y Deporte
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministru
+    head_title_en: Minister
+    has_cabinet_seat: true
+    counts_as_ministry: true
+    policy_areas: [education, higher_education, sport]
+    url: https://www.gov.mt/en/Government/Government%20of%20Malta/Ministries%20and%20Entities/Pages/Ministries%202026/Education.aspx
+    sources: [gazzetta-21661-gn844-assignment, gazzetta-21661-gn842-ministers]
+    note:
+      en: >-
+        One education ministry for all levels: the subjects assigned are childcare and early
+        education, compulsory education, higher education, life-long learning, examinations, sport
+        and sport complexes, so this entity carries both `education` and `higher_education` where
+        Ireland splits them between two departments. Research is not tagged here — the instrument
+        assigns it to justice. The ministry is also assigned citizenship, residence programmes and
+        the monitoring of their promotion; that is not tagged `migration`, because Malta's
+        investment-migration schemes are not the migration and asylum portfolio, which the
+        instrument splits between home affairs and the infrastructure and employment ministry. The
+        English name is the instrument's plural "Sports"; the government's portal writes "Sport".
+      es: >-
+        Un solo ministerio de educación para todos los niveles: las materias asignadas son el
+        cuidado infantil y la educación temprana, la educación obligatoria, la superior, el
+        aprendizaje permanente, los exámenes, y el deporte y sus instalaciones, de modo que esta
+        entidad lleva `education` y `higher_education` donde Irlanda los reparte entre dos
+        departamentos. La investigación no se etiqueta aquí: el instrumento la asigna a justicia. Al
+        ministerio se le asignan además la ciudadanía, los programas de residencia y la supervisión
+        de su promoción; eso no se etiqueta `migration`, porque los programas de migración por
+        inversión de Malta no son la cartera de migración y asilo, que el instrumento reparte entre
+        interior y el ministerio de infraestructuras y empleo. El nombre inglés es el plural
+        «Sports» del instrumento; el portal del gobierno escribe «Sport».
+
+  - id: MT-2026-energy-environment
+    order: 10
+    name_original: Ministeru għall-Enerġija, l-Ambjent u r-Riġenerazzjoni tal-Port il-Kbir
+    abbreviation_original: MEER
+    name_en: Ministry for Energy, the Environment and the Regeneration of the Grand Harbour
+    name_es: Ministerio de Energía, Medio Ambiente y Regeneración del Gran Puerto
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministru
+    head_title_en: Minister
+    has_cabinet_seat: true
+    counts_as_ministry: true
+    policy_areas: [energy, environment, climate, water, infrastructure, animal_welfare]
+    url: https://www.gov.mt/en/Government/Government%20of%20Malta/Ministries%20and%20Entities/Pages/Ministries%202026/Energy.aspx
+    sources: [gazzetta-21661-gn844-assignment, gazzetta-21661-gn842-ministers]
+    note:
+      en: >-
+        The widest assignment in the cabinet, and the clearest case for tagging from the instrument
+        rather than the title. Alongside energy policy, alternative energy and environmental and
+        resources policy, the subjects assigned include "Climate Change Policy" and "Water Policy",
+        neither of which appears in the ministry's name, so Malta does have a ministry carrying
+        `climate` and `water`. `infrastructure` is for the regeneration of the Grand Harbour, the
+        deep natural harbour around Valletta, together with urban embellishment and landscaping.
+        `animal_welfare` is tagged because the instrument assigns animal welfare here, exercised
+        through the parliamentary secretary who serves within this ministry.
+      es: >-
+        La asignación más amplia del gabinete, y el caso más claro a favor de etiquetar por el
+        instrumento y no por el título. Junto a la política energética, las energías alternativas y
+        la política ambiental y de recursos, las materias asignadas incluyen «Climate Change Policy»
+        y «Water Policy», ninguna de las cuales aparece en el nombre del ministerio, de modo que
+        Malta sí tiene un ministerio que lleva `climate` y `water`. `infrastructure` corresponde a
+        la regeneración del Gran Puerto, la rada natural profunda que rodea La Valeta, junto con el
+        embellecimiento y el paisajismo urbanos. Se etiqueta `animal_welfare` porque el instrumento
+        asigna aquí el bienestar animal, ejercido a través del secretario parlamentario que sirve
+        dentro de este ministerio.
+
+  - id: MT-2026-finance
+    order: 11
+    name_original: Ministeru għall-Finanzi
+    abbreviation_original: MFF
+    name_en: Ministry for Finance
+    name_es: Ministerio de Finanzas
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministru
+    head_title_en: Minister
+    has_cabinet_seat: true
+    counts_as_ministry: true
+    policy_areas: [finance, budget, economy]
+    url: https://www.gov.mt/en/Government/Government%20of%20Malta/Ministries%20and%20Entities/Pages/Ministries%202026/Finance.aspx
+    sources: [gazzetta-21661-gn844-assignment, gazzetta-21661-gn842-ministers]
+    note:
+      en: >-
+        Unlike Ireland, Malta does not split the treasury function: economic policy, fiscal policy,
+        the Budget Office, the Treasury, inland revenue, indirect taxation, customs and excise,
+        contracts, statistics, relations with the Central Bank of Malta, financial services and oil
+        exploration are all assigned here, so one entity carries `finance` and `budget`. `economy`
+        is tagged on both this ministry and the economy ministry, because economic policy is named
+        in this assignment and the wider economic brief in the other — a shared area the matrix is
+        meant to show rather than hide. The Central Bank of Malta appears in the assignment only as
+        a body the ministry has relations with; it is an independent monetary authority outside the
+        executive and is not recorded as an entity.
+      es: >-
+        A diferencia de Irlanda, Malta no divide la función de hacienda: la política económica, la
+        fiscal, la Oficina del Presupuesto, el Tesoro, la recaudación, la imposición indirecta,
+        aduanas e impuestos especiales, la contratación, la estadística, las relaciones con el Banco
+        Central de Malta, los servicios financieros y la exploración petrolífera se asignan todos
+        aquí, de modo que una sola entidad lleva `finance` y `budget`. `economy` se etiqueta en este
+        ministerio y en el de economía, porque la política económica figura en esta asignación y el
+        mandato económico más amplio en la otra: un área compartida que la matriz debe mostrar y no
+        ocultar. El Banco Central de Malta aparece en la asignación solo como organismo con el que
+        el ministerio mantiene relaciones; es autoridad monetaria independiente ajena al ejecutivo y
+        no se registra como entidad.
+
+  - id: MT-2026-justice-research
+    order: 12
+    name_original: Ministeru għall-Ġustizzja, ir-Riċerka u l-Innovazzjoni
+    abbreviation_original: MJRI
+    name_en: Ministry for Justice, Research and Innovation
+    name_es: Ministerio de Justicia, Investigación e Innovación
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministru
+    head_title_en: Minister
+    has_cabinet_seat: true
+    counts_as_ministry: true
+    policy_areas: [justice, research, innovation, space]
+    url: https://www.gov.mt/en/Government/Government%20of%20Malta/Ministries%20and%20Entities/Pages/Ministries%202026/Justice.aspx
+    sources: [gazzetta-21661-gn844-assignment, gazzetta-21661-gn842-ministers]
+    note:
+      en: >-
+        An unusual assignment, and a good argument for tagging by policy area rather than by name:
+        research and innovation, science and "Space Strategy" are assigned alongside the Courts of
+        Justice, the Office of the Attorney General, the Office of the State Advocate, the Notary to
+        Government, data protection and freedom of information. `space` rests on that named
+        subject. A cross-country comparison that looked for Malta's research or space portfolio
+        under an education, science or transport ministry would not find it. The Attorney General
+        and the State Advocate appear in the assignment as offices under this ministry; they are
+        legal officers, not ministers, and are not recorded as entities.
+      es: >-
+        Una asignación inusual, y un buen argumento para etiquetar por área y no por nombre: la
+        investigación y la innovación, la ciencia y la «Space Strategy» se asignan junto a los
+        Tribunales de Justicia, la Oficina del Fiscal General, la Oficina del Abogado del Estado, el
+        Notario del Gobierno, la protección de datos y el acceso a la información. `space` se apoya
+        en esa materia expresa. Una comparación internacional que buscara la cartera de
+        investigación o de espacio de Malta en un ministerio de educación, ciencia o transporte no
+        la encontraría. El fiscal general y el abogado del Estado aparecen en la asignación como
+        oficinas bajo este ministerio; son cargos jurídicos, no ministros, y no se registran como
+        entidades.
+
+  - id: MT-2026-infrastructure-planning-employment
+    order: 13
+    name_original: Ministeru għall-Infrastruttura, l-Ippjanar u x-Xogħol
+    abbreviation_original: MIPE
+    name_en: Ministry for Infrastructure, Planning and Employment
+    name_es: Ministerio de Infraestructuras, Planificación y Empleo
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministru
+    head_title_en: Minister
+    has_cabinet_seat: true
+    counts_as_ministry: true
+    policy_areas: [infrastructure, spatial_planning, labour, migration]
+    url: https://www.gov.mt/en/Government/Government%20of%20Malta/Ministries%20and%20Entities/Pages/Ministries%202026/PLANNING.aspx
+    sources: [gazzetta-21661-gn844-assignment, gazzetta-21661-gn842-ministers]
+    note:
+      en: >-
+        "Planning" here is development planning and the Planning Authority, not economic planning,
+        hence `spatial_planning`. The subjects assigned are development planning, infrastructural
+        projects, roads, employment and training, construction, occupational health and safety,
+        national identity management, and "Legal Migration and Expatriate Affairs". `migration` is
+        tagged for that last subject: Malta splits the migration brief, with legal migration and
+        identity documentation here and irregular migration in home affairs, so two ministries carry
+        the area. Employment law and workplace safety sit in the same ministry as roads and
+        development consent, which is a Maltese peculiarity — social dialogue is assigned to a
+        third ministry and benefits to a fourth.
+      es: >-
+        «Planning» aquí es la planificación del desarrollo y la Planning Authority, no la
+        planificación económica, de ahí `spatial_planning`. Las materias asignadas son la
+        planificación del desarrollo, los proyectos de infraestructura, las carreteras, el empleo y
+        la formación, la construcción, la salud y seguridad laboral, la gestión de la identidad
+        nacional y «Legal Migration and Expatriate Affairs». `migration` se etiqueta por esta última:
+        Malta divide la cartera migratoria, con la migración legal y la documentación de identidad
+        aquí y la irregular en interior, de modo que dos ministerios llevan el área. El derecho
+        laboral y la seguridad en el trabajo están en el mismo ministerio que las carreteras y las
+        licencias urbanísticas, peculiaridad maltesa: el diálogo social se asigna a un tercer
+        ministerio y las prestaciones a un cuarto.
+
+  - id: MT-2026-tourism
+    order: 14
+    name_original: Ministeru għat-Turiżmu
+    abbreviation_original: MFT
+    name_en: Ministry for Tourism
+    name_es: Ministerio de Turismo
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministru
+    head_title_en: Minister
+    has_cabinet_seat: true
+    counts_as_ministry: true
+    policy_areas: [tourism]
+    url: https://www.gov.mt/en/Government/Government%20of%20Malta/Ministries%20and%20Entities/Pages/Ministries%202026/Tourism.aspx
+    sources: [gazzetta-21661-gn844-assignment, gazzetta-21661-gn842-ministers]
+    note:
+      en: >-
+        The narrowest assignment in the cabinet: the instrument gives this ministry two subjects,
+        tourism and tourism studies, and nothing else. Malta is one of the smaller states that
+        nonetheless gives tourism a department of its own rather than attaching it to the economy or
+        to culture, which is precisely the kind of structural choice the policy-area matrix exists
+        to surface.
+      es: >-
+        La asignación más estrecha del gabinete: el instrumento da a este ministerio dos materias,
+        el turismo y los estudios turísticos, y nada más. Malta es uno de los estados pequeños que
+        aun así da al turismo departamento propio en lugar de adosarlo a la economía o a la cultura,
+        que es exactamente el tipo de decisión estructural que la matriz de áreas existe para hacer
+        visible.
+
+  - id: MT-2026-sustainable-mobility
+    order: 15
+    name_original: Ministeru għall-Mobbiltà Sostenibbli
+    abbreviation_original: MSM
+    name_en: Ministry for Sustainable Mobility
+    name_es: Ministerio de Movilidad Sostenible
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministru
+    head_title_en: Minister
+    has_cabinet_seat: true
+    counts_as_ministry: true
+    policy_areas: [transport, shipping]
+    url: https://www.gov.mt/en/Government/Government%20of%20Malta/Ministries%20and%20Entities/Pages/Ministries%202026/Sustainable_Mobility.aspx
+    sources: [gazzetta-21661-gn844-assignment, gazzetta-21661-gn842-ministers]
+    note:
+      en: >-
+        Malta's transport ministry, named for the policy goal rather than the sector. The instrument
+        assigns it exactly four subjects — ports, maritime affairs, aviation and internal transport —
+        so `shipping` is tagged alongside `transport`, as it must be for an island state. Roads are
+        assigned to the infrastructure ministry, so this is a ministry of movement rather than of
+        tarmac.
+      es: >-
+        El ministerio de transporte de Malta, nombrado por el objetivo político y no por el sector.
+        El instrumento le asigna exactamente cuatro materias —puertos, asuntos marítimos, aviación y
+        transporte interno—, así que se etiqueta `shipping` junto a `transport`, como debe ser en un
+        estado insular. Las carreteras se asignan al ministerio de infraestructuras, así que este es
+        un ministerio del movimiento y no del asfalto.
+
+  - id: MT-2026-foreign-european-affairs
+    order: 16
+    name_original: Ministeru għall-Affarijiet Barranin u Ewropej
+    abbreviation_original: MFEA
+    name_en: Ministry for Foreign and European Affairs
+    name_es: Ministerio de Asuntos Exteriores y Europeos
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministru
+    head_title_en: Minister
+    has_cabinet_seat: true
+    counts_as_ministry: true
+    policy_areas: [foreign_affairs, european_affairs, trade, diaspora]
+    url: https://www.gov.mt/en/Government/Government%20of%20Malta/Ministries%20and%20Entities/Pages/Ministries%202026/Foreign.aspx
+    sources: [gazzetta-21661-gn844-assignment, gazzetta-21661-gn842-ministers]
+    note:
+      en: >-
+        Relations with foreign countries, with the European Union and with international
+        organisations and institutions, plus EU internal coordination, commercial diplomacy,
+        international trade and cooperation, and trade promotion — hence `trade`, which in many
+        cabinets sits in an economy or enterprise ministry. `diaspora` is tagged for "Maltese
+        Communities Abroad": a small state with a large emigrant population gives that its own line.
+        Development cooperation is not tagged, because the assignment names trade and cooperation
+        together without a distinct development remit.
+      es: >-
+        Las relaciones con países extranjeros, con la Unión Europea y con las organizaciones e
+        instituciones internacionales, más la coordinación interna sobre la UE, la diplomacia
+        comercial, el comercio y la cooperación internacionales y la promoción comercial: de ahí
+        `trade`, que en muchos gabinetes está en un ministerio de economía o de empresa. `diaspora`
+        se etiqueta por «Maltese Communities Abroad»: un estado pequeño con gran población emigrada
+        le da línea propia. No se etiqueta la cooperación al desarrollo, porque la asignación nombra
+        comercio y cooperación juntos sin un mandato de desarrollo distinto.
+
+  - id: MT-2026-local-government-public-works
+    order: 17
+    name_original: Ministeru għall-Gvern Lokali u x-Xogħlijiet Pubbliċi
+    abbreviation_original: MLGP
+    name_en: Ministry for Local Government and Public Works
+    name_es: Ministerio de Gobierno Local y Obras Públicas
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministru
+    head_title_en: Minister
+    has_cabinet_seat: true
+    counts_as_ministry: true
+    policy_areas: [territorial_administration, infrastructure]
+    url: https://www.gov.mt/en/Government/Government%20of%20Malta/Ministries%20and%20Entities/Pages/Ministries%202026/Local_Government.aspx
+    sources: [gazzetta-21661-gn844-assignment, gazzetta-21661-gn842-ministers]
+    note:
+      en: >-
+        Malta's local councils are the only elected tier below the national government, and this is
+        the central ministry to which the instrument assigns them, together with public works,
+        manufacturing and services, and public cleansing and maintenance. It is tagged
+        `territorial_administration` for that reason and is not excluded as a subnational body: it is
+        itself central government, supervising local government rather than being part of it. It
+        shares `infrastructure` with two other ministries; three ministries holding one area is what
+        the matrix is for.
+      es: >-
+        Los consejos locales malteses son el único nivel electo por debajo del gobierno nacional, y
+        este es el ministerio central al que el instrumento se los asigna, junto con las obras
+        públicas, la manufactura y los servicios, y la limpieza y el mantenimiento públicos. Se
+        etiqueta `territorial_administration` por eso y no se excluye como órgano subnacional: él
+        mismo es gobierno central y supervisa al gobierno local en lugar de formar parte de él.
+        Comparte `infrastructure` con otros dos ministerios; que tres ministerios lleven una misma
+        área es para lo que sirve la matriz.
+
+  - id: MT-2026-european-funds
+    order: 18
+    name_original: Ministeru għall-Fondi Ewropej, id-Djalogu Soċjali u l-Protezzjoni tal-Konsumatur
+    abbreviation_original: MFDC
+    name_en: Ministry for European Funds, Social Dialogue and Consumer Protection
+    name_es: Ministerio de Fondos Europeos, Diálogo Social y Protección del Consumidor
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministru
+    head_title_en: Minister
+    has_cabinet_seat: true
+    counts_as_ministry: true
+    policy_areas: [regional_development, labour, consumer_protection]
+    url: https://www.gov.mt/en/Government/Government%20of%20Malta/Ministries%20and%20Entities/Pages/Ministries%202026/Eu_Funds.aspx
+    sources: [gazzetta-21661-gn844-assignment, gazzetta-21661-gn842-ministers]
+    note:
+      en: >-
+        Four subjects that go together in few other cabinets: European funds, social dialogue,
+        employment and industrial relations, and consumer rights. European cohesion and recovery
+        funds are tagged `regional_development`, the project's area for cohesion funds. Social
+        dialogue and industrial relations are tagged `labour`, which this ministry therefore shares
+        with the infrastructure and employment ministry. Consumer protection is its own area, and
+        Malta is one of the few countries that names it in a ministry title.
+      es: >-
+        Cuatro materias que van juntas en pocos gabinetes más: fondos europeos, diálogo social,
+        empleo y relaciones industriales, y derechos del consumidor. Los fondos europeos de cohesión
+        y recuperación se etiquetan `regional_development`, el área del proyecto para los fondos de
+        cohesión. El diálogo social y las relaciones industriales se etiquetan `labour`, que este
+        ministerio comparte por tanto con el de infraestructuras y empleo. La protección del
+        consumidor es área propia, y Malta es uno de los pocos países que la nombra en el título de
+        un ministerio.
+
+  - id: MT-2026-home-affairs-security
+    order: 19
+    name_original: Ministeru għall-Intern u s-Sigurtà
+    abbreviation_original: MHS
+    name_en: Ministry for Home Affairs and Security
+    name_es: Ministerio del Interior y Seguridad
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministru
+    head_title_en: Minister
+    has_cabinet_seat: true
+    counts_as_ministry: true
+    policy_areas: [interior, defence, migration, civil_protection]
+    url: https://www.gov.mt/en/Government/Government%20of%20Malta/Ministries%20and%20Entities/Pages/Ministries%202026/Home_Affairs.aspx
+    sources: [gazzetta-21661-gn844-assignment, gazzetta-21661-gn842-ministers]
+    note:
+      en: >-
+        Malta has no defence ministry, but it does have a defence portfolio, and the instrument puts
+        it here. The subjects assigned to this ministry begin "Defence, Armed Forces, Law
+        Enforcement, Police, Immigration, Aviation Security, Correctional Services, Detention
+        Services, Probation and Parole, Civil Protection, Protection of Critical Infrastructure,
+        Irregular Migration", so `defence` rests on a named assignment rather than on the title — a
+        reader who counted defence ministries by name would record Malta as having no defence
+        portfolio at all, which is wrong. `migration` covers immigration and irregular migration;
+        legal migration is assigned to the infrastructure and employment ministry, so the area
+        appears twice in Malta's row. `civil_protection` is likewise a named subject.
+      es: >-
+        Malta no tiene ministerio de defensa, pero sí tiene cartera de defensa, y el instrumento la
+        sitúa aquí. Las materias asignadas a este ministerio empiezan con «Defence, Armed Forces,
+        Law Enforcement, Police, Immigration, Aviation Security, Correctional Services, Detention
+        Services, Probation and Parole, Civil Protection, Protection of Critical Infrastructure,
+        Irregular Migration», así que `defence` se apoya en una asignación expresa y no en el
+        título: quien contara ministerios de defensa por el nombre registraría que Malta no tiene
+        ninguna cartera de defensa, lo cual es falso. `migration` cubre la inmigración y la
+        migración irregular; la migración legal se asigna al ministerio de infraestructuras y empleo,
+        así que el área aparece dos veces en la fila de Malta. `civil_protection` es igualmente
+        materia expresa.
+
+  - id: MT-2026-arts-culture-heritage
+    order: 20
+    name_original: Ministeru għall-Arti, il-Kultura u l-Wirt Nazzjonali
+    abbreviation_original: MACH
+    name_en: Ministry for Arts, Culture and National Heritage
+    name_es: Ministerio de Artes, Cultura y Patrimonio Nacional
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministru
+    head_title_en: Minister
+    has_cabinet_seat: true
+    counts_as_ministry: true
+    policy_areas: [culture, media, language_policy]
+    url: https://www.gov.mt/en/Government/Government%20of%20Malta/Ministries%20and%20Entities/Pages/Ministries%202026/Culture.aspx
+    sources: [gazzetta-21661-gn844-assignment, gazzetta-21661-gn842-ministers]
+    note:
+      en: >-
+        The subjects assigned are cultural heritage, restoration, the arts, theatres, the Maltese
+        language, the National Archives, the National Library, public broadcasting and the film
+        industry. `media` is tagged because public broadcasting and the film industry are named
+        subjects — Malta does not put broadcasting in a communications ministry. `language_policy` is
+        tagged for "The Maltese Language": the state's stewardship of the national language is
+        assigned to culture here, where Ireland assigns the Gaeltacht to a rural development
+        department. The ministry's own portfolio page styles it "…and the National Heritage"; the
+        instrument and the government's list of ministries both drop the article, and the instrument
+        is followed.
+      es: >-
+        Las materias asignadas son el patrimonio cultural, la restauración, las artes, los teatros,
+        la lengua maltesa, el Archivo Nacional, la Biblioteca Nacional, la radiodifusión pública y la
+        industria del cine. Se etiqueta `media` porque la radiodifusión pública y el cine son
+        materias expresas: Malta no sitúa la radiodifusión en un ministerio de comunicaciones. Se
+        etiqueta `language_policy` por «The Maltese Language»: la tutela estatal de la lengua
+        nacional se asigna aquí a cultura, donde Irlanda asigna la Gaeltacht a un departamento de
+        desarrollo rural. La página de portafolio del propio ministerio lo titula «…and the National
+        Heritage»; el instrumento y la lista oficial de ministerios suprimen el artículo, y se sigue
+        el instrumento.
+
+  - id: MT-2026-youth-wellbeing
+    order: 21
+    name_original: Ministeru għaż-Żgħażagħ, il-Benesseri u l-Implimentazzjoni tal-Programm Elettorali
+    abbreviation_original: MYWI
+    name_en: Ministry for Youth, Wellbeing and the Implementation of the Electoral Programme
+    name_es: Ministerio de Juventud, Bienestar y Ejecución del Programa Electoral
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministru
+    head_title_en: Minister
+    has_cabinet_seat: true
+    counts_as_ministry: true
+    policy_areas: [youth, government_coordination]
+    url: https://www.gov.mt/en/Government/Government%20of%20Malta/Ministries%20and%20Entities/Pages/Ministries%202026/Youths.aspx
+    sources: [gazzetta-21661-gn844-assignment, gazzetta-21661-gn842-ministers]
+    note:
+      en: >-
+        The instrument assigns this ministry two subjects: youth, and implementation of the electoral
+        programme. The second is not a sector but a function — a minister charged with driving
+        delivery of the governing party's manifesto across the whole of government — and is tagged
+        `government_coordination`, the project's area for centre-of-government steering. That is why
+        a ministry that sounds like a youth department also appears in the governance cluster. Malta
+        is unusual in giving manifesto delivery a named ministry rather than a unit inside the prime
+        minister's office. "Wellbeing" appears in the ministry's name but among its assigned subjects
+        it does not, and it is therefore not tagged. The Maltese name follows the instrument's
+        "l-Implimentazzjoni"; the government's portal writes "l-Implementazzjoni".
+      es: >-
+        El instrumento asigna a este ministerio dos materias: la juventud y la ejecución del programa
+        electoral. La segunda no es un sector sino una función —un ministro encargado de impulsar la
+        ejecución del programa del partido gobernante en todo el gobierno— y se etiqueta
+        `government_coordination`, el área del proyecto para la dirección desde el centro del
+        gobierno. Por eso un ministerio que suena a departamento de juventud aparece también en el
+        grupo de gobernanza. Malta es inusual al dar a la ejecución del programa un ministerio con
+        nombre propio en lugar de una unidad dentro de la oficina del primer ministro. «Wellbeing»
+        figura en el nombre del ministerio pero no entre sus materias asignadas, y por eso no se
+        etiqueta. El nombre maltés sigue el «l-Implimentazzjoni» del instrumento; el portal del
+        gobierno escribe «l-Implementazzjoni».
+
+  - id: MT-2026-equality-civil-rights
+    order: 22
+    name_original: Ministeru għall-Ugwaljanza u d-Drittijiet Ċivili
+    abbreviation_original: MER
+    name_en: Ministry for Equality and Civil Rights
+    name_es: Ministerio de Igualdad y Derechos Civiles
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministru
+    head_title_en: Minister
+    has_cabinet_seat: true
+    counts_as_ministry: true
+    policy_areas: [equality]
+    url: https://www.gov.mt/en/Government/Government%20of%20Malta/Ministries%20and%20Entities/Pages/Ministries%202026/Equality.aspx
+    sources: [gazzetta-21661-gn844-assignment, gazzetta-21661-gn842-ministers]
+    note:
+      en: >-
+        Malta is one of the countries where equality is a ministry rather than a directorate inside
+        one, which is exactly the sort of question the policy-area matrix is built to answer. The
+        subjects assigned are equality, civil liberties, minority rights, reforms and foreign
+        communities. Only `equality` is tagged: civil liberties and minority rights are the same
+        portfolio seen from the rights side rather than separate areas, "reforms" is not a sector,
+        and foreign communities here is a consultative and integration remit rather than the
+        migration and asylum portfolio, which the instrument assigns to two other ministries.
+      es: >-
+        Malta es uno de los países donde la igualdad es un ministerio y no una dirección general
+        dentro de otro, que es justo el tipo de pregunta que la matriz de áreas sirve para responder.
+        Las materias asignadas son la igualdad, las libertades civiles, los derechos de las
+        minorías, las reformas y las comunidades extranjeras. Solo se etiqueta `equality`: las
+        libertades civiles y los derechos de las minorías son la misma cartera vista desde el lado de
+        los derechos y no áreas distintas, «reformas» no es un sector, y las comunidades extranjeras
+        son aquí un cometido consultivo y de integración y no la cartera de migración y asilo, que el
+        instrumento asigna a otros dos ministerios.

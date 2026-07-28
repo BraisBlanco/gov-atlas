@@ -1,0 +1,48 @@
+# Italy — country metadata.
+#
+# See docs/DATA-CONTRACT.md. The cabinet lives in data/cabinets/IT-2022-10-22.yml.
+
+iso2: IT
+iso3: ITA
+
+name_en: Italy
+name_es: Italia
+name_original: Italia
+official_name_original: Repubblica Italiana
+
+continent: europe
+region: southern_europe
+eu_member_since: 1958-01-01
+government_system: parliamentary_republic
+official_languages: [it]
+
+# Population carries its own citation because the per-capita views publish it as a
+# figure in its own right, not as a convenience constant.
+population:
+  value: 58937927
+  year: 2026
+  source:
+    id: istat-bilancio-demografico-aprile-2026
+    tier: 3
+    type: statistical_office
+    publisher: Istituto nazionale di statistica (Istat)
+    title: Bilancio demografico mensile - aprile 2026
+    url: https://www.istat.it/sistema-informativo-6/bilancio-demografico-mensile-aprile-2026/
+    archive_url: https://web.archive.org/web/20260727183737/https://www.istat.it/sistema-informativo-6/bilancio-demografico-mensile-aprile-2026/
+    lang: it
+    published: 2026-07-07
+    accessed: 2026-07-27
+    quote: >-
+      Al 30 aprile 2026, secondo i primi dati provvisori, la popolazione residente in
+      Italia ammonta a 58.937.927 unità, in diminuzione di 5mila unità rispetto
+      all’inizio dell’anno (-0,1 per mille abitanti).
+    note: >-
+      Vintage: Istat's monthly demographic balance ("bilancio demografico mensile"),
+      released 7 July 2026, giving the provisional resident-population stock at
+      30 April 2026. This is the most recent official "popolazione residente" figure
+      published for Italy at the access date; no later month had been released. Istat's
+      annual reference stock at 1 January 2026 is reported only rounded to thousands
+      (58 million 943 thousand) in "Indicatori demografici - Anno 2025", so the monthly
+      balance is used here because it gives an exact figure. Provisional data from a
+      running administrative balance is a secondary statistical estimate rather than a
+      legal instrument, hence tier 3.

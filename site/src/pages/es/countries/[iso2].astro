@@ -1,0 +1,14 @@
+---
+import CountryPage from '../../../components/CountryPage.astro';
+import { coveredCountries } from '../../../lib/data.ts';
+
+// One route per curated country. A country in scope but not yet curated has no page —
+// it is reported as pending on the index instead of 404-ing with no explanation.
+export function getStaticPaths() {
+  return coveredCountries().map((iso2) => ({ params: { iso2 } }));
+}
+
+const { iso2 } = Astro.params;
+---
+
+<CountryPage locale="es" iso2={iso2 as string} />

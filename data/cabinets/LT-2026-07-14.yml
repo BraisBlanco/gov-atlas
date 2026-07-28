@@ -1,0 +1,952 @@
+# Lithuania — government structure of Mindaugo Sinkevičiaus Vyriausybė, the XXI Government.
+#
+# See docs/DATA-CONTRACT.md. Four things worth knowing before reading the list:
+#
+#   1. Like Finland, Lithuania enumerates its ministries in a statute. Article 29(2) of the
+#      Vyriausybės įstatymas (Law on the Government, No I-464) says "Lietuvos Respublikoje
+#      yra šios ministerijos" and lists fourteen, in Lithuanian alphabetical order. Article
+#      29(3) adds that ministries are created and abolished only by the Seimas, by statute,
+#      on the Government's proposal. The count is therefore a legal fact, not a reading of a
+#      reorganisation decree, and it cannot move without an act of parliament.
+#   2. Fourteen ministries, fifteen cabinet seats. Article 1 of the same Act says the
+#      Government consists of the Prime Minister and the ministers; article 29(4) says a
+#      ministry is headed by a minister. One minister per ministry, no minister without
+#      portfolio, no deputy prime minister and no minister holding two departments — so the
+#      only gap between the two published figures is the Prime Minister, who heads no
+#      ministry.
+#   3. This is Lithuania's third government in nineteen months, and the first two are not
+#      the ones a reader may be expecting. Gintautas Paluckas's cabinet took office in
+#      December 2024 after the October 2024 Seimas election; Inga Ruginienė's followed in
+#      2025; Ruginienė's government resigned on 23 June 2026 after a coalition breakdown,
+#      Mindaugas Sinkevičius was appointed Prime Minister with the Seimas' assent on 30 June
+#      2026, and the XXI Government took office on 14 July 2026. Ruginienė herself sits in
+#      it as minister of social security and labour.
+#   4. None of that changed the ministries. The three cabinets since the 2024 election have
+#      all had the same fourteen departments, because changing them would have required
+#      amending article 29.
+
+country: LT
+cabinet_id: LT-2026-07-14
+
+cabinet_name_original: Mindaugo Sinkevičiaus Vyriausybė (XXI Vyriausybė)
+cabinet_name_en: Sinkevičius government (21st Government)
+cabinet_name_es: Gobierno Sinkevičius (XXI Gobierno)
+
+head_of_government_title_original: Ministras Pirmininkas
+head_of_government_title_en: Prime Minister
+
+took_office: 2026-07-14
+left_office: null
+
+methodology_notes:
+  - en: >-
+      14 ministries and 15 cabinet seats. The fourteen are exactly the ministries listed in
+      article 29(2) of the Vyriausybės įstatymas, recorded here in the statute's own
+      alphabetical order. The one seat that is not a ministry is the Ministras Pirmininkas:
+      article 1 of the Act constitutes the Government as "Ministras Pirmininkas ir
+      ministrai", and article 29(4) gives every ministry a minister at its head, so the
+      Prime Minister sits in the cabinet without holding a department. Lithuania is
+      therefore one of the cleanest cases in this dataset — one minister per ministry, one
+      ministry per minister, no minister without portfolio, no deputy prime minister, no
+      shared portfolios. Note that Lithuanian usage counts the other way round: the press
+      and the government's own communiqués describe this as a cabinet of "Ministras
+      Pirmininkas ir 14 ministrų", which is the seat count minus nothing, i.e. 15 people,
+      and never a count of departments. The two figures are published separately here and
+      are never added.
+    es: >-
+      14 ministerios y 15 asientos en el gabinete. Los catorce son exactamente los
+      ministerios enumerados en el artículo 29(2) de la Vyriausybės įstatymas, recogidos
+      aquí en el orden alfabético de la propia ley. El único asiento que no es un ministerio
+      es el del Ministras Pirmininkas: el artículo 1 de la ley constituye el Gobierno como
+      «Ministras Pirmininkas ir ministrai», y el artículo 29(4) da a cada ministerio un
+      ministro al frente, de modo que el primer ministro tiene asiento en el gabinete sin
+      cartera propia. Lituania es por ello uno de los casos más limpios de este conjunto de
+      datos: un ministro por ministerio, un ministerio por ministro, sin ministros sin
+      cartera, sin viceprimer ministro y sin carteras compartidas. Conviene notar que el uso
+      lituano cuenta al revés: la prensa y los propios comunicados del Gobierno describen
+      este gabinete como «Ministras Pirmininkas ir 14 ministrų», es decir 15 personas, y
+      nunca como un recuento de departamentos. Aquí las dos cifras se publican por separado
+      y nunca se suman.
+  - en: >-
+      Why 14 July 2026 is the date this cabinet took office, and not one of the three other
+      dates that have a claim. Lithuanian government formation has four steps and they fall
+      on different days. The Seimas assented to Mindaugas Sinkevičius as Prime Minister on
+      30 June 2026 and the President appointed him; the appointed Prime Minister registered
+      the Government's programme with the Seimas on 3 July; President Gitanas Nausėda signed
+      the decree confirming the composition of the Government on 7 July; and on 14 July the
+      Seimas approved the programme, after which the Prime Minister and the fourteen
+      ministers took the oath and began their duties. Article 6(3) of the Vyriausybės
+      įstatymas is decisive: "Vyriausybė gauna įgaliojimus veikti, kai Seimas posėdyje
+      dalyvaujančių narių balsų dauguma pritaria jos programai" — a government acquires the
+      powers to act when the Seimas approves its programme. The DATA-CONTRACT asks for the
+      date the cabinet took office, so this file uses 14 July 2026: the earlier dates are
+      steps in appointing people, and the government could not act on any of them. The
+      swearing-in fell on the same day, which removes the only competing reading.
+    es: >-
+      Por qué el 14 de julio de 2026 es la fecha en que este gabinete tomó posesión, y no
+      alguna de las otras tres fechas que podrían reclamarla. La formación de gobierno en
+      Lituania tiene cuatro pasos y caen en días distintos. El Seimas dio su conformidad a
+      Mindaugas Sinkevičius como primer ministro el 30 de junio de 2026 y el presidente lo
+      nombró; el primer ministro designado registró el programa del Gobierno en el Seimas el
+      3 de julio; el presidente Gitanas Nausėda firmó el decreto que confirmaba la
+      composición del Gobierno el 7 de julio; y el 14 de julio el Seimas aprobó el programa,
+      tras lo cual el primer ministro y los catorce ministros juraron y comenzaron a ejercer.
+      El artículo 6(3) de la Vyriausybės įstatymas es decisivo: «Vyriausybė gauna įgaliojimus
+      veikti, kai Seimas posėdyje dalyvaujančių narių balsų dauguma pritaria jos programai»
+      —el Gobierno obtiene los poderes para actuar cuando el Seimas aprueba su programa—. El
+      DATA-CONTRACT pide la fecha en que el gabinete tomó posesión, así que este fichero usa
+      el 14 de julio de 2026: las fechas anteriores son pasos para nombrar personas y el
+      Gobierno no podía actuar en ninguna de ellas. El juramento cayó el mismo día, lo que
+      elimina la única lectura alternativa.
+  - en: >-
+      The legality of the 14 July vote is disputed, and the dispute is about the date, not
+      the count. The appointed Prime Minister lodged the programme with the Seimas on 3 July,
+      four days before the President's decree confirming the composition of the Government,
+      whereas article 6(2) of the Act — echoing the Constitution — requires the Prime
+      Minister to present to the Seimas the government he has formed "ir Respublikos
+      Prezidento patvirtintą", already confirmed by the President, and only then submit its
+      programme. Opposition members raised this in the chamber before the vote, the former
+      chairman of the Constitutional Court criticised the sequence publicly, and opposition
+      groups afterwards collected signatures for a referral to the Constitutional Court. If
+      that referral succeeds the Seimas resolution of 14 July could be annulled, which would
+      put the start date of this cabinet — though not the number of its ministries — back in
+      play. Nothing had been decided as at the access date of the sources below.
+    es: >-
+      La legalidad de la votación del 14 de julio está en disputa, y la disputa es sobre la
+      fecha, no sobre el recuento. El primer ministro designado presentó el programa en el
+      Seimas el 3 de julio, cuatro días antes del decreto presidencial que confirmaba la
+      composición del Gobierno, mientras que el artículo 6(2) de la ley —siguiendo a la
+      Constitución— exige que el primer ministro presente al Seimas el gobierno que ha
+      formado «ir Respublikos Prezidento patvirtintą», ya confirmado por el presidente, y
+      sólo entonces someta su programa. Diputados de la oposición lo plantearon en la sala
+      antes de la votación, el expresidente del Tribunal Constitucional criticó
+      públicamente la secuencia y después grupos de la oposición reunieron firmas para
+      acudir al Tribunal Constitucional. Si ese recurso prosperase, la resolución del Seimas
+      de 14 de julio podría anularse, lo que devolvería a discusión la fecha de inicio de
+      este gabinete —aunque no el número de sus ministerios—. Nada se había resuelto en la
+      fecha de consulta de las fuentes que siguen.
+  - en: >-
+      Two bodies are recorded and not counted, and they are different bodies. The Ministras
+      Pirmininkas is recorded as the office of the head of government: it holds a cabinet
+      seat and no portfolio, which is what makes the seat count 15 against 14 ministries,
+      and it is excluded under head_of_government_office exactly as Spain's Presidencia del
+      Gobierno is. The Vyriausybės kanceliarija is a separate thing: article 44-1(1) of the
+      Act constitutes it as "Vyriausybės įsteigta biudžetinė įstaiga, padedanti atlikti
+      Vyriausybės ir Ministro Pirmininko funkcijas", a budgetary institution established by
+      the Government to assist it and the Prime Minister, headed not by a minister but by
+      the Vyriausybės kancleris, a political-trust civil servant appointed and dismissed by
+      the Prime Minister. It is therefore excluded under not_headed_by_minister and carries
+      no cabinet seat — counting it would give 15 ministries, and giving its chancellor a
+      seat would give 16 seats. Neither is done here. This is the opposite of the Finnish
+      arrangement, where the valtioneuvoston kanslia appears in the statutory list of
+      ministries on the same footing as the other eleven and is counted.
+    es: >-
+      Se registran dos órganos que no se cuentan, y son órganos distintos. El Ministras
+      Pirmininkas se registra como la oficina del jefe de gobierno: tiene asiento en el
+      gabinete y ninguna cartera, que es lo que hace que los asientos sean 15 frente a 14
+      ministerios, y se excluye por head_of_government_office igual que la Presidencia del
+      Gobierno española. La Vyriausybės kanceliarija es otra cosa: el artículo 44-1(1) de la
+      ley la constituye como «Vyriausybės įsteigta biudžetinė įstaiga, padedanti atlikti
+      Vyriausybės ir Ministro Pirmininko funkcijas», una institución presupuestaria creada
+      por el Gobierno para asistirlo a él y al primer ministro, dirigida no por un ministro
+      sino por el Vyriausybės kancleris, un funcionario de confianza política que nombra y
+      cesa el primer ministro. Se excluye por tanto por not_headed_by_minister y no lleva
+      asiento en el gabinete: contarla daría 15 ministerios, y dar asiento a su canciller
+      daría 16 asientos. Aquí no se hace ni lo uno ni lo otro. Es lo contrario del caso
+      finlandés, donde la valtioneuvoston kanslia figura en la lista legal de ministerios en
+      pie de igualdad con los otros once y sí se cuenta.
+  - en: >-
+      Names, and what "official" means here. The English names of all fourteen ministries
+      and of the Office of the Government are the Lithuanian government's own, taken from
+      the ministry navigation of lrv.lt's English edition, and are marked
+      name_en_provenance: official. One liberty is taken and disclosed: lrv.lt appends the
+      state qualifier "of the Republic of Lithuania" to twelve of the fourteen — but not to
+      "Ministry of Transport and Communications" or "Ministry of Education, Science and
+      Sport" — and the qualifier is dropped uniformly here, because it identifies the state
+      and not the department. Its own page also prints "Ministry of Health of The Republic
+      of Lithuania" with a capitalised "The", which is why the trailing phrase is better cut
+      than reproduced. The Lithuanian names are treated symmetrically: article 29(2) of the
+      statute lists every ministry as "Lietuvos Respublikos aplinkos ministerija" and so on,
+      and name_original carries the short form the ministries and the government use in
+      daily practice. The full statutory strings are reproduced verbatim in the tier-1
+      source's quote, so nothing is hidden. Beware one inconsistency of the government's
+      own: its English edition calls the department the "Ministry of Environment" but its
+      head the "Minister of the Environment", and both are recorded as published. Spanish
+      names throughout are this project's renderings and are marked translated.
+    es: >-
+      Los nombres, y qué significa aquí «oficial». Los nombres ingleses de los catorce
+      ministerios y de la Oficina del Gobierno son los del propio gobierno lituano, tomados
+      de la navegación de ministerios de la edición inglesa de lrv.lt, y llevan
+      name_en_provenance: official. Se toma y se declara una licencia: lrv.lt añade el
+      calificativo estatal «of the Republic of Lithuania» a doce de los catorce —pero no a
+      «Ministry of Transport and Communications» ni a «Ministry of Education, Science and
+      Sport»—, y ese calificativo se suprime de manera uniforme aquí porque identifica al
+      Estado y no al departamento. Esa misma página imprime además «Ministry of Health of
+      The Republic of Lithuania», con «The» en mayúscula, lo que confirma que la coletilla
+      se corta mejor que se reproduce. Los nombres lituanos reciben el mismo trato: el
+      artículo 29(2) de la ley enumera cada ministerio como «Lietuvos Respublikos aplinkos
+      ministerija» y demás, y name_original recoge la forma breve que usan los ministerios y
+      el gobierno en la práctica diaria. Las cadenas legales completas se reproducen
+      textualmente en la cita de la fuente de nivel 1, de modo que nada queda oculto.
+      Atención a una incoherencia del propio gobierno: su edición inglesa llama al
+      departamento «Ministry of Environment» pero a su titular «Minister of the
+      Environment», y ambos se registran tal como se publican. Todos los nombres en español
+      son traducciones de este proyecto y llevan la marca translated.
+  - en: >-
+      Ministerial titles are recorded in the generic masculine, which is a limitation of a
+      structural dataset rather than a statement about the officeholders. Lithuanian inflects
+      the title for gender — aplinkos ministras, aplinkos ministrė — and four of the fourteen
+      current ministers are women, so Lithuanian reporting writes "švietimo, mokslo ir sporto
+      ministrė Raminta Popovienė" and "teisingumo ministrė Rita Tamašunienė". This file
+      records departments and not people, and article 29(4) of the Act states the rule in the
+      generic masculine ("Ministerijai vadovauja ministras"), so head_title_original follows
+      the statute's form. The compound titles themselves are attested: the LRT report cited
+      below names six of them verbatim.
+    es: >-
+      Los títulos ministeriales se recogen en masculino genérico, lo que es una limitación de
+      un conjunto de datos estructural y no una afirmación sobre quienes ocupan los cargos.
+      El lituano flexiona el título por género —aplinkos ministras, aplinkos ministrė— y
+      cuatro de los catorce ministros actuales son mujeres, de modo que la prensa lituana
+      escribe «švietimo, mokslo ir sporto ministrė Raminta Popovienė» y «teisingumo ministrė
+      Rita Tamašunienė». Este fichero registra departamentos y no personas, y el artículo
+      29(4) de la ley enuncia la regla en masculino genérico («Ministerijai vadovauja
+      ministras»), así que head_title_original sigue la forma de la ley. Los títulos
+      compuestos están atestiguados: el reportaje de LRT que se cita más abajo nombra seis de
+      ellos textualmente.
+  - en: >-
+      Two policy-area tags sit where a reader would not look for them, and both are
+      deliberate. Digital government and digitalisation are tagged on the Ministry of the
+      Economy and Innovation, not on the Ministry of Transport and Communications: Lithuania
+      moved information-society development, state information resources and public-service
+      digitalisation into the economy ministry, whose published fields of activity carry a
+      dedicated "skaitmeninė politika" section, and which has since also taken on electronic
+      identification and trust services. Housing, construction and spatial planning are
+      tagged on the Ministry of Environment, which is where Lithuania puts them; there is no
+      housing ministry. Neither is visible in the ministry's name, which is the general
+      hazard of comparing cabinets by their labels.
+    es: >-
+      Dos etiquetas de área de política están donde un lector no las buscaría, y las dos son
+      deliberadas. La digitalización y el gobierno digital se etiquetan en el Ministerio de
+      Economía e Innovación y no en el de Transporte y Comunicaciones: Lituania trasladó el
+      desarrollo de la sociedad de la información, los recursos de información del Estado y
+      la digitalización de los servicios públicos al ministerio de economía, cuyas áreas de
+      actividad publicadas incluyen una sección propia de «skaitmeninė politika», y que
+      después ha asumido también la identificación electrónica y los servicios de confianza.
+      La vivienda, la construcción y la ordenación del territorio se etiquetan en el
+      Ministerio de Medio Ambiente, que es donde Lituania las sitúa; no hay ministerio de
+      vivienda. Ninguna de las dos se aprecia en el nombre del ministerio, que es el riesgo
+      general de comparar gabinetes por sus etiquetas.
+  - en: >-
+      Perimeter and evidence. This file describes the central government of the Republic of
+      Lithuania, a unitary state: its sixty municipalities and its counties are local and
+      deconcentrated administration and are out of scope, and the interior ministry's
+      responsibility for local self-government is recorded as a portfolio of that ministry
+      rather than as a tier of government. Every counted ministry rests on the statute, so
+      the country grades A. The weakest link in the file is not the list but the calendar:
+      the Lithuanian legal-acts register and the presidency's own site both refuse automated
+      requests, so the President's decree of 7 July 2026 confirming the composition of the
+      Government and the Seimas resolution of 14 July 2026 approving its programme are cited
+      at second hand, through the government's own communiqué and an LRT report, rather than
+      by their gazette references.
+    es: >-
+      Perímetro y evidencia. Este fichero describe el gobierno central de la República de
+      Lituania, un Estado unitario: sus sesenta municipios y sus condados son administración
+      local y desconcentrada y quedan fuera de alcance, y la competencia del ministerio del
+      Interior sobre el autogobierno local se registra como una cartera de ese ministerio y
+      no como un nivel de gobierno. Todos los ministerios contados se apoyan en la ley, por
+      lo que el país obtiene el grado A. El eslabón más débil del fichero no es la lista sino
+      el calendario: el registro lituano de actos jurídicos y la web de la Presidencia
+      rechazan las peticiones automatizadas, de modo que el decreto presidencial de 7 de
+      julio de 2026 que confirma la composición del Gobierno y la resolución del Seimas de 14
+      de julio de 2026 que aprueba su programa se citan de segunda mano, a través del
+      comunicado del propio Gobierno y de un reportaje de LRT, y no por sus referencias en el
+      boletín oficial.
+
+sources:
+  - id: vyriausybes-istatymas-i-464
+    tier: 1
+    type: statute
+    publisher: Lietuvos Respublikos Seimas — Teisės aktų registras (e-seimas.lrs.lt)
+    title: >-
+      Lietuvos Respublikos Vyriausybės įstatymas Nr. I-464 (suvestinė redakcija nuo
+      2026-05-13)
+    url: https://e-seimas.lrs.lt/rs/actualedition/TAIS.5807/xBZDUtvqZh/
+    archive_url: https://web.archive.org/web/20260728092627/https://e-seimas.lrs.lt/rs/actualedition/TAIS.5807/xBZDUtvqZh/
+    lang: lt
+    published: 1994-05-19
+    accessed: 2026-07-28
+    quote: |-
+      1 straipsnis. Lietuvos Respublikos Vyriausybės sudėtis
+      Lietuvos Respublikos Vyriausybę (toliau - Vyriausybė) sudaro Ministras Pirmininkas ir ministrai.
+      6 straipsnis. Vyriausybės sudarymo tvarka ir Vyriausybės programa
+      2. Ministras Pirmininkas ne vėliau kaip per 15 dienų nuo jo paskyrimo pristato Seimui savo sudarytą ir Respublikos Prezidento patvirtintą Vyriausybę ir pateikia svarstyti jos programą.
+      3. Vyriausybė gauna įgaliojimus veikti, kai Seimas posėdyje dalyvaujančių narių balsų dauguma pritaria jos programai.
+      26 straipsnis. Ministrai
+      3. Ministras:
+      1) vadovauja ministerijai, sprendžia ministerijos kompetencijai priklausančius klausimus ir yra tiesiogiai atsakingas už Vyriausybės programos bei Vyriausybės programos nuostatų įgyvendinimo plano darbų jam pavestose valdymo srityse įgyvendinimą;
+      29 straipsnis. Ministerijos
+      1. Ministerija steigiama valstybės politikai formuoti, taip pat jos įgyvendinimui organizuoti, koordinuoti ir kontroliuoti ministrui pavestose valdymo srityse. Valstybės politikos įgyvendinimo funkcijos ministerijai gali būti pavestos tik įstatymų nustatytais atvejais.
+      2. Lietuvos Respublikoje yra šios ministerijos:
+      1) Lietuvos Respublikos aplinkos ministerija;
+      2) Lietuvos Respublikos ekonomikos ir inovacijų ministerija;
+      3) Lietuvos Respublikos energetikos ministerija;
+      4) Lietuvos Respublikos finansų ministerija;
+      5) Lietuvos Respublikos krašto apsaugos ministerija;
+      6) Lietuvos Respublikos kultūros ministerija;
+      7) Lietuvos Respublikos socialinės apsaugos ir darbo ministerija;
+      8) Lietuvos Respublikos susisiekimo ministerija;
+      9) Lietuvos Respublikos sveikatos apsaugos ministerija;
+      10) Lietuvos Respublikos švietimo, mokslo ir sporto ministerija;
+      11) Lietuvos Respublikos teisingumo ministerija;
+      12) Lietuvos Respublikos užsienio reikalų ministerija;
+      13) Lietuvos Respublikos vidaus reikalų ministerija;
+      14) Lietuvos Respublikos žemės ūkio ministerija.
+      3. Ministerijas Vyriausybės siūlymu steigia ir panaikina Seimas, priimdamas įstatymą.
+      4. Ministerijai vadovauja ministras.
+      441 straipsnis. Vyriausybės kanceliarija
+      1. Vyriausybės kanceliarija yra Vyriausybės įsteigta biudžetinė įstaiga, padedanti atlikti Vyriausybės ir Ministro Pirmininko funkcijas. Vyriausybės kanceliarijai vadovauja Vyriausybės kancleris.
+    note: >-
+      The enumerating instrument, and the reason Lithuania's ministry count is a legal fact:
+      the list of fourteen is article 29(2), and article 29(3) reserves the creation and
+      abolition of a ministry to the Seimas by statute, on the Government's proposal. The
+      consolidated text cited is the "suvestinė redakcija nuo 2026-05-13", the edition in
+      force on the access date; article 29 itself has been unchanged since amendment No
+      XIV-2244 of 16 November 2023, which is the amendment noted against the article in the
+      register. The quotation takes, in the Act's own order, article 1 (the composition of
+      the Government, which is what makes the seat count 15), the two operative paragraphs
+      of article 6 on how a government is presented and when it acquires the powers to act,
+      the first duty of a minister under article 26(3), the whole of article 29(1) to (4),
+      and article 44-1(1) on the Vyriausybės kanceliarija. Two notes on the address. First,
+      e-seimas serves the running text of each consolidated edition at its own
+      /rs/actualedition/ address and mints a new one per edition, while the document page at
+      /portal/legalAct/lt/TAD/TAIS.5807/asr renders that text through a script and archives
+      as an empty shell; the edition address is therefore cited, and the snapshot above was
+      made on the access date and does contain every quoted line. Second, the register
+      renders the article number 44-1 as "441" with a superscript one, which is reproduced
+      here as the source spells it.
+
+  - id: lrv-xxi-vyriausybe-prisieke
+    tier: 2
+    type: government_website
+    publisher: Government of the Republic of Lithuania (lrv.lt, English edition)
+    title: The 21st Government of the Republic of Lithuania was sworn in
+    url: https://lrv.lt/en/news/the-21st-government-of-the-republic-of-lithuania-was-sworn-in-wDGt/
+    archive_url: https://web.archive.org/web/20260714165310/https://lrv.lt/en/news/the-21st-government-of-the-republic-of-lithuania-was-sworn-in-wDGt/
+    lang: en
+    published: 2026-07-14
+    accessed: 2026-07-28
+    quote: |-
+      On July 14th, after the XXI Government of the Republic of Lithuania took the oath of office, Prime Minister Mindaugas Sinkevičius and the Cabinet of Ministers have begun their duties.
+      On Thursday, the Seimas also approved the programme of the new Government.
+      The composition of the XXI Government: Prime Minister Mindaugas Sinkevičius; Minister of the Environment Ieva Andriulaitytė; Minister of the Economy and Innovation Edvinas Grikšas; Minister of Energy Lukas Savickas; Minister of Finance Taurimas Valys; Minister of National Defence Robertas Kaunas; Minister of Culture Lukas Alsys; Minister of Social Security and Labour Inga Ruginienė; Minister of Transport and Communications Juras Taminskas; Minister of Health Linas Kukuraitis; Minister of Education, Science and Sport Raminta Popovienė; Minister of Justice Rita Tamašunienė; Minister of Foreign Affairs Kęstutis Budrys; Minister of the Interior Martynas Katelynas; and Minister of Agriculture Kęstutis Mažeika.
+      After the members of the new Government took the oath, the XX Government concluded its work.
+    note: >-
+      The Government's own announcement, and the source for the cabinet's start date, for
+      its roster of fifteen, and for the English form of every ministerial title used below.
+      It lists the Prime Minister and exactly fourteen ministers, one per ministry, in the
+      same order as article 29(2) of the statute, which is what closes the set and makes the
+      seat count checkable. One flaw is worth flagging rather than quietly correcting: the
+      page is date-stamped 14 July 2026 and its first sentence says the oath was taken on 14
+      July, but its second sentence says the Seimas approved the programme "On Thursday",
+      and 14 July 2026 was a Tuesday. The Seimas sitting, the vote and the oath were all on
+      Tuesday 14 July, as the LRT report cited below confirms in Lithuanian ("ar antradienį
+      apskritai galima balsuoti dėl Vyriausybės programos"); the stray weekday appears to be
+      an artefact of the English edition and does not affect the date used.
+
+  - id: lrv-ministerijos-en
+    tier: 2
+    type: government_website
+    publisher: Government of the Republic of Lithuania (lrv.lt, English edition)
+    title: Ministries — Government of the Republic of Lithuania
+    url: https://lrv.lt/en/ministries/
+    archive_url: https://web.archive.org/web/20260309112341/https://lrv.lt/en/ministries/
+    lang: en
+    published: null
+    accessed: 2026-07-28
+    quote: |-
+      Ministry of Environment of the Republic of Lithuania
+      Ministry of the Economy and Innovation of the Republic of Lithuania
+      Ministry of Energy of the Republic of Lithuania
+      Ministry of Finance of the Republic of Lithuania
+      Ministry of National Defence of the Republic of Lithuania
+      Ministry of Culture of the Republic of Lithuania
+      Ministry of Social Security and Labour of the Republic of Lithuania
+      Ministry of Transport and Communications
+      Ministry of Health of The Republic of Lithuania
+      Ministry of Education, Science and Sport
+      The Ministry of Justice of the Republic of Lithuania
+      Ministry of Foreign Affairs of the Republic of Lithuania
+      Ministry of the Interior of the Republic of Lithuania
+      Ministry of Agriculture of the Republic of Lithuania
+      The Office of the Government of the Republic of Lithuania
+    note: >-
+      The English-language edition of lrv.lt, published by the Lithuanian government itself,
+      which is what makes name_en_provenance "official" for all fourteen ministries and for
+      the Office of the Government. The list appears in the site's own ministry navigation
+      in exactly the statutory order of article 29(2), which is a useful independent check
+      that the fourteen are the same fourteen. The quotation reproduces the entries
+      verbatim, including the two that carry no state qualifier and the "of The Republic of
+      Lithuania" capitalisation on the health ministry; the qualifier is dropped in the
+      name_en fields, as the methodology notes explain. The archived snapshot is of 9 March
+      2026 and therefore predates this cabinet, which does not matter for the purpose it is
+      cited for: the ministries are fixed by statute and neither the list nor any name
+      changed when the government did. The live page refuses automated requests, so the
+      snapshot is also how it was read.
+
+  - id: lrt-seimas-pritare-programai
+    tier: 3
+    type: press
+    publisher: LRT (Lietuvos nacionalinis radijas ir televizija)
+    title: Seimas palaimino Mindaugo Sinkevičiaus Vyriausybę ir jos programą
+    url: >-
+      https://www.lrt.lt/naujienos/lietuvoje/2/2990074/seimas-palaimino-mindaugo-sinkeviciaus-vyriausybe-ir-jos-programa
+    archive_url: null
+    lang: lt
+    published: 2026-07-14
+    accessed: 2026-07-28
+    quote: |-
+      Seimas palaimino Mindaugo Sinkevičiaus Vyriausybę ir jos programą. Už Vyriausybės programos projektą balsavo 72 Seimo nariai, 29 buvo prieš, o dar keturi susilaikė.
+      Vyriausybės programos klausimas Seimo salėje prasidėjo nuo diskusijų, ar antradienį apskritai galima balsuoti dėl Vyriausybės programos.
+      Paskirtasis premjeras Mindaugas Sinkevičius 21-osios Vyriausybės programą Teisės aktų bazėje registravo liepos 3 dieną, o prezidentas Gitanas Nausėda dekretą dėl jo Vyriausybės sudėties pasirašė liepos 7 dieną.
+      Vyriausybės programos tvirtinimas planuojamas liepos 14 dieną. Patvirtinus Vyriausybės programą, prisieks ir pareigas pradės eiti M. Sinkevičiaus vadovaujamas ministrų kabinetas.
+      Jame tęsti darbą turėtų užsienio reikalų ministras Kęstutis Budrys, krašto apsaugos ministras Robertas Kaunas, susisiekimo ministras Juras Taminskas, švietimo, mokslo ir sporto ministrė Raminta Popovienė, teisingumo ministrė Rita Tamašunienė, ekonomikos ir inovacijų ministras Edvinas Grikšas.
+      Į finansų ministrus teikiamas Taurimas Valys, vidaus reikalų – Martynas Katelynas, aplinkos – Ieva Andriulaitytė, kultūros – Lukas Alsys, o buvusi premjerė Inga Ruginienė grįžta dirbti socialinės apsaugos ir darbo ministre.
+    note: >-
+      The Lithuanian public broadcaster's report of the Seimas sitting of 14 July 2026,
+      cited for three things the government's own English communiqué does not give: the
+      vote (72 for, 29 against, 4 abstentions), the dates of the two earlier steps — the
+      programme registered on 3 July, the President's decree confirming the composition of
+      the Government signed on 7 July — and the Lithuanian form of six ministerial titles,
+      including the feminine forms actually used for the women in this cabinet. It is also
+      the source for the constitutional objection recorded in the methodology notes. Tier 3,
+      and no counted ministry rests on it: it corroborates dates and wording that the
+      statute and the government's own page already carry. Note the discrepancy on the
+      decree: several agency reports date the President's confirmation of the cabinet to 6
+      July, which appears to be the day it was announced; LRT and later Lithuanian reporting
+      give 7 July as the date of signature, and 7 July is the date recorded here.
+
+entities:
+  # --- the fourteen ministries, in the statutory order of article 29(2) ------------------
+  - id: LT-2026-aplinkos-ministerija
+    order: 1
+    name_original: Aplinkos ministerija
+    abbreviation_original: AM
+    name_en: Ministry of Environment
+    name_es: Ministerio de Medio Ambiente
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Aplinkos ministras
+    head_title_en: Minister of the Environment
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [environment, climate, forestry, spatial_planning, housing]
+    counts_as_ministry: true
+    url: https://am.lrv.lt/
+    sources: [vyriausybes-istatymas-i-464, lrv-xxi-vyriausybe-prisieke, lrv-ministerijos-en, lrt-seimas-pritare-programai]
+    note:
+      en: >-
+        Tagged well beyond its one-word name, and deliberately. Lithuania puts construction,
+        housing and spatial planning in this ministry, along with forests and protected
+        areas and the coordination of climate policy; there is no housing ministry, no
+        forestry ministry and no climate ministry to tag instead. The government's own
+        English edition calls the department "Ministry of Environment" and its head the
+        "Minister of the Environment"; both are recorded as published.
+      es: >-
+        Se etiqueta mucho más allá de su nombre de una palabra, y a propósito. Lituania sitúa
+        en este ministerio la construcción, la vivienda y la ordenación del territorio, junto
+        con los bosques, los espacios protegidos y la coordinación de la política climática;
+        no hay ministerio de vivienda, ni de bosques, ni de clima al que etiquetar en su
+        lugar. La edición inglesa del propio gobierno llama al departamento «Ministry of
+        Environment» y a su titular «Minister of the Environment»; ambos se registran tal
+        como se publican.
+
+  - id: LT-2026-ekonomikos-ir-inovaciju-ministerija
+    order: 2
+    name_original: Ekonomikos ir inovacijų ministerija
+    abbreviation_original: EIMIN
+    name_en: Ministry of the Economy and Innovation
+    name_es: Ministerio de Economía e Innovación
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ekonomikos ir inovacijų ministras
+    head_title_en: Minister of the Economy and Innovation
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [economy, innovation, industry, digital, small_business, tourism]
+    counts_as_ministry: true
+    url: https://eimin.lrv.lt/
+    sources: [vyriausybes-istatymas-i-464, lrv-xxi-vyriausybe-prisieke, lrv-ministerijos-en, lrt-seimas-pritare-programai]
+    note:
+      en: >-
+        This is where Lithuania keeps digital policy, which is the tag most likely to be
+        looked for on the wrong ministry. Information-society development, state information
+        resources, the digitalisation of public services and, latterly, electronic
+        identification and trust services are this ministry's published fields of activity
+        under a heading of its own ("skaitmeninė politika"), not the transport and
+        communications ministry's. Tourism and business finance are also here; Lithuania has
+        no separate tourism ministry.
+      es: >-
+        Aquí es donde Lituania guarda la política digital, la etiqueta que más probablemente
+        se busque en el ministerio equivocado. El desarrollo de la sociedad de la
+        información, los recursos de información del Estado, la digitalización de los
+        servicios públicos y, últimamente, la identificación electrónica y los servicios de
+        confianza son áreas de actividad publicadas de este ministerio bajo un epígrafe
+        propio («skaitmeninė politika»), y no del ministerio de transporte y comunicaciones.
+        El turismo y la financiación empresarial también están aquí; Lituania no tiene
+        ministerio de turismo propio.
+
+  - id: LT-2026-energetikos-ministerija
+    order: 3
+    name_original: Energetikos ministerija
+    abbreviation_original: ENMIN
+    name_en: Ministry of Energy
+    name_es: Ministerio de Energía
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Energetikos ministras
+    head_title_en: Minister of Energy
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [energy]
+    counts_as_ministry: true
+    url: https://enmin.lrv.lt/
+    sources: [vyriausybes-istatymas-i-464, lrv-xxi-vyriausybe-prisieke, lrv-ministerijos-en]
+    note:
+      en: >-
+        A single-purpose energy ministry, which is unusual in this dataset: most cabinets
+        attach energy to economy, environment or climate. It survived the reorganisation
+        talk of 2025 unchanged, because abolishing or merging a Lithuanian ministry requires
+        the Seimas to amend article 29 of the Vyriausybės įstatymas and no such amendment
+        was made.
+      es: >-
+        Un ministerio de energía monotemático, algo poco frecuente en este conjunto de
+        datos: la mayoría de los gabinetes adosan la energía a economía, medio ambiente o
+        clima. Sobrevivió sin cambios a los rumores de reorganización de 2025, porque
+        suprimir o fusionar un ministerio lituano exige que el Seimas modifique el artículo
+        29 de la Vyriausybės įstatymas, y no se aprobó tal modificación.
+
+  - id: LT-2026-finansu-ministerija
+    order: 4
+    name_original: Finansų ministerija
+    abbreviation_original: FM
+    name_en: Ministry of Finance
+    name_es: Ministerio de Finanzas
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Finansų ministras
+    head_title_en: Minister of Finance
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [finance, budget, regional_development]
+    counts_as_ministry: true
+    url: https://finmin.lrv.lt/
+    sources: [vyriausybes-istatymas-i-464, lrv-xxi-vyriausybe-prisieke, lrv-ministerijos-en, lrt-seimas-pritare-programai]
+    note:
+      en: >-
+        Tagged regional_development because the coordination of European Union investment —
+        the cohesion and recovery funds — is this ministry's in Lithuania, not a separate
+        department's and not the interior ministry's, which holds regional policy in the
+        domestic sense.
+      es: >-
+        Se etiqueta regional_development porque la coordinación de la inversión de la Unión
+        Europea —los fondos de cohesión y de recuperación— corresponde en Lituania a este
+        ministerio, y no a un departamento aparte ni al ministerio del Interior, que tiene la
+        política regional en su sentido interno.
+
+  - id: LT-2026-krasto-apsaugos-ministerija
+    order: 5
+    name_original: Krašto apsaugos ministerija
+    abbreviation_original: KAM
+    name_en: Ministry of National Defence
+    name_es: Ministerio de Defensa Nacional
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Krašto apsaugos ministras
+    head_title_en: Minister of National Defence
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [defence]
+    counts_as_ministry: true
+    url: https://kam.lt/
+    sources: [vyriausybes-istatymas-i-464, lrv-xxi-vyriausybe-prisieke, lrv-ministerijos-en, lrt-seimas-pritare-programai]
+    note:
+      en: >-
+        The only ministry the Act singles out for structural exceptions: article 29(9)
+        provides that the laws governing the national defence system may lay down
+        particularities of this ministry's structure. That changes nothing for the count —
+        it is one ministry with one minister — but it is the sole place where the statute
+        treats a department differently from the rest.
+      es: >-
+        El único ministerio al que la ley reserva excepciones estructurales: el artículo
+        29(9) prevé que las leyes del sistema de defensa nacional puedan establecer
+        particularidades de la estructura de este ministerio. Eso no cambia nada para el
+        recuento —es un ministerio con un ministro—, pero es el único lugar donde la ley
+        trata a un departamento de forma distinta a los demás.
+
+  - id: LT-2026-kulturos-ministerija
+    order: 6
+    name_original: Kultūros ministerija
+    abbreviation_original: KM
+    name_en: Ministry of Culture
+    name_es: Ministerio de Cultura
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Kultūros ministras
+    head_title_en: Minister of Culture
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [culture, media]
+    counts_as_ministry: true
+    url: https://lrkm.lrv.lt/
+    sources: [vyriausybes-istatymas-i-464, lrv-xxi-vyriausybe-prisieke, lrv-ministerijos-en, lrt-seimas-pritare-programai]
+    note:
+      en: >-
+        Culture and sport are separate in Lithuania: sport belongs to the education ministry,
+        whose statutory name ends "ir sporto", so this ministry is not tagged sport. Media
+        is tagged here because public information policy and the cultural heritage of
+        broadcasting sit with it; language policy is not, because Lithuania's state language
+        commission reports to the Seimas rather than to a ministry.
+      es: >-
+        La cultura y el deporte están separados en Lituania: el deporte pertenece al
+        ministerio de educación, cuyo nombre legal termina en «ir sporto», así que este
+        ministerio no lleva la etiqueta sport. Sí lleva media, porque la política de
+        información pública y el patrimonio audiovisual le corresponden; no lleva
+        language_policy, porque la comisión de la lengua estatal lituana depende del Seimas y
+        no de un ministerio.
+
+  - id: LT-2026-socialines-apsaugos-ir-darbo-ministerija
+    order: 7
+    name_original: Socialinės apsaugos ir darbo ministerija
+    abbreviation_original: SADM
+    name_en: Ministry of Social Security and Labour
+    name_es: Ministerio de Seguridad Social y Trabajo
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Socialinės apsaugos ir darbo ministras
+    head_title_en: Minister of Social Security and Labour
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [social_security, labour, social_affairs, family, equality, youth]
+    counts_as_ministry: true
+    url: https://socmin.lrv.lt/
+    sources: [vyriausybes-istatymas-i-464, lrv-xxi-vyriausybe-prisieke, lrv-ministerijos-en, lrt-seimas-pritare-programai]
+    note:
+      en: >-
+        The widest remit in the Lithuanian cabinet, and the reason several tags a reader
+        might look for elsewhere are here: Lithuania has no ministry of equality, none of
+        the family and none of youth, and all three areas are departments of this ministry,
+        as are disability policy and social insurance. Tagged in the order the statutory
+        name gives, social security before labour. Its current holder, Inga Ruginienė, was
+        prime minister until this cabinet was formed, which changes nothing structurally.
+      es: >-
+        La cartera más amplia del gabinete lituano, y la razón de que aquí estén varias
+        etiquetas que un lector buscaría en otra parte: Lituania no tiene ministerio de
+        igualdad, ni de familia, ni de juventud, y las tres áreas son departamentos de este
+        ministerio, igual que la política de discapacidad y los seguros sociales. Se etiqueta
+        en el orden que da el nombre legal, seguridad social antes que trabajo. Su titular
+        actual, Inga Ruginienė, fue primera ministra hasta la formación de este gabinete, lo
+        que no cambia nada estructuralmente.
+
+  - id: LT-2026-susisiekimo-ministerija
+    order: 8
+    name_original: Susisiekimo ministerija
+    abbreviation_original: SM
+    name_en: Ministry of Transport and Communications
+    name_es: Ministerio de Transporte y Comunicaciones
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Susisiekimo ministras
+    head_title_en: Minister of Transport and Communications
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [transport, infrastructure, telecommunications, shipping]
+    counts_as_ministry: true
+    url: https://sumin.lrv.lt/
+    sources: [vyriausybes-istatymas-i-464, lrv-xxi-vyriausybe-prisieke, lrv-ministerijos-en, lrt-seimas-pritare-programai]
+    note:
+      en: >-
+        Not tagged digital, which is the judgement call on this entity. The English name
+        "Transport and Communications" invites the assumption that digital government lives
+        here, and in most of the 2010s it did; information-society development and state
+        information resources have since moved to the Ministry of the Economy and
+        Innovation, leaving this ministry with transport, roads, railways, aviation, the
+        port of Klaipėda, postal services and electronic communications networks. Shipping
+        is tagged because the seaport and maritime transport are its own, not a fisheries
+        ministry's.
+      es: >-
+        No lleva la etiqueta digital, y esa es la decisión discutible de esta entidad. El
+        nombre inglés «Transport and Communications» invita a suponer que el gobierno digital
+        vive aquí, y durante buena parte de la década de 2010 así fue; el desarrollo de la
+        sociedad de la información y los recursos de información del Estado pasaron después
+        al Ministerio de Economía e Innovación, dejando a este ministerio el transporte, las
+        carreteras, los ferrocarriles, la aviación, el puerto de Klaipėda, los servicios
+        postales y las redes de comunicaciones electrónicas. Lleva shipping porque el puerto
+        y el transporte marítimo son suyos, y no de un ministerio de pesca.
+
+  - id: LT-2026-sveikatos-apsaugos-ministerija
+    order: 9
+    name_original: Sveikatos apsaugos ministerija
+    abbreviation_original: SAM
+    name_en: Ministry of Health
+    name_es: Ministerio de Sanidad
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Sveikatos apsaugos ministras
+    head_title_en: Minister of Health
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [health]
+    counts_as_ministry: true
+    url: https://sam.lrv.lt/
+    sources: [vyriausybes-istatymas-i-464, lrv-xxi-vyriausybe-prisieke, lrv-ministerijos-en]
+    note:
+      en: >-
+        Health alone: social care and social insurance are the social security and labour
+        ministry's, so this ministry is not tagged social_affairs. Note that lrv.lt's English
+        edition prints its name as "Ministry of Health of The Republic of Lithuania", with a
+        capitalised "The"; the state qualifier is dropped here, as it is for the others.
+      es: >-
+        Sólo sanidad: la atención social y los seguros sociales son del ministerio de
+        seguridad social y trabajo, así que este ministerio no lleva la etiqueta
+        social_affairs. Nótese que la edición inglesa de lrv.lt imprime su nombre como
+        «Ministry of Health of The Republic of Lithuania», con «The» en mayúscula; aquí se
+        suprime el calificativo estatal, igual que en los demás.
+
+  - id: LT-2026-svietimo-mokslo-ir-sporto-ministerija
+    order: 10
+    name_original: Švietimo, mokslo ir sporto ministerija
+    abbreviation_original: ŠMSM
+    name_en: Ministry of Education, Science and Sport
+    name_es: Ministerio de Educación, Ciencia y Deporte
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Švietimo, mokslo ir sporto ministras
+    head_title_en: Minister of Education, Science and Sport
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [education, research, sport, higher_education, vocational_training]
+    counts_as_ministry: true
+    url: https://smsm.lrv.lt/
+    sources: [vyriausybes-istatymas-i-464, lrv-xxi-vyriausybe-prisieke, lrv-ministerijos-en, lrt-seimas-pritare-programai]
+    note:
+      en: >-
+        The ministry that absorbed sport: it was Švietimo ir mokslo ministerija until 2019,
+        when the Seimas amended article 29 to add "ir sporto" and the separate sport
+        authority was folded in. Tagged in the order of the statutory name — school
+        education, science, sport — with higher education and vocational training after
+        them, both of which are this ministry's and neither of which the name mentions.
+      es: >-
+        El ministerio que absorbió el deporte: fue Švietimo ir mokslo ministerija hasta 2019,
+        cuando el Seimas modificó el artículo 29 para añadir «ir sporto» y se integró en él
+        el organismo deportivo independiente. Se etiqueta en el orden del nombre legal
+        —educación escolar, ciencia, deporte— y después las universidades y la formación
+        profesional, que son de este ministerio y que el nombre no menciona.
+
+  - id: LT-2026-teisingumo-ministerija
+    order: 11
+    name_original: Teisingumo ministerija
+    abbreviation_original: TM
+    name_en: Ministry of Justice
+    name_es: Ministerio de Justicia
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Teisingumo ministras
+    head_title_en: Minister of Justice
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [justice]
+    counts_as_ministry: true
+    url: https://tm.lrv.lt/
+    sources: [vyriausybes-istatymas-i-464, lrv-xxi-vyriausybe-prisieke, lrv-ministerijos-en, lrt-seimas-pritare-programai]
+    note:
+      en: >-
+        Justice policy, prisons and the legal professions. The prosecution service
+        (Generalinė prokuratūra) and the courts are constitutionally outside the executive
+        and are not recorded here even as exclusions, because they are not government
+        departments at all; the interior ministry, not this one, holds the police.
+      es: >-
+        Política de justicia, prisiones y profesiones jurídicas. La fiscalía (Generalinė
+        prokuratūra) y los tribunales están constitucionalmente fuera del ejecutivo y aquí no
+        se registran ni siquiera como exclusiones, porque no son departamentos de gobierno;
+        la policía es del ministerio del Interior y no de éste.
+
+  - id: LT-2026-uzsienio-reikalu-ministerija
+    order: 12
+    name_original: Užsienio reikalų ministerija
+    abbreviation_original: URM
+    name_en: Ministry of Foreign Affairs
+    name_es: Ministerio de Asuntos Exteriores
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Užsienio reikalų ministras
+    head_title_en: Minister of Foreign Affairs
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [foreign_affairs, european_affairs, development_cooperation, trade, diaspora]
+    counts_as_ministry: true
+    url: https://urm.lt/
+    sources: [vyriausybes-istatymas-i-464, lrv-xxi-vyriausybe-prisieke, lrv-ministerijos-en, lrt-seimas-pritare-programai]
+    note:
+      en: >-
+        Lithuania has no European affairs minister and no development minister: EU
+        coordination, development cooperation, economic diplomacy and relations with the
+        Lithuanian diaspora are all departments of this ministry. Trade is tagged here as
+        well as on the economy ministry, which is a genuine overlap rather than a slip —
+        export promotion is run jointly, with the trade-policy and economic-diplomacy side
+        here.
+      es: >-
+        Lituania no tiene ministro de Asuntos Europeos ni de Desarrollo: la coordinación de
+        la UE, la cooperación al desarrollo, la diplomacia económica y las relaciones con la
+        diáspora lituana son departamentos de este ministerio. La etiqueta trade aparece aquí
+        y también en el ministerio de economía, lo que es un solapamiento real y no un
+        descuido: la promoción exportadora se lleva conjuntamente, con la política comercial
+        y la diplomacia económica en esta casa.
+
+  - id: LT-2026-vidaus-reikalu-ministerija
+    order: 13
+    name_original: Vidaus reikalų ministerija
+    abbreviation_original: VRM
+    name_en: Ministry of the Interior
+    name_es: Ministerio del Interior
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Vidaus reikalų ministras
+    head_title_en: Minister of the Interior
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [interior, civil_protection, migration, public_administration, territorial_administration]
+    counts_as_ministry: true
+    url: https://vrm.lrv.lt/
+    sources: [vyriausybes-istatymas-i-464, lrv-xxi-vyriausybe-prisieke, lrv-ministerijos-en, lrt-seimas-pritare-programai]
+    note:
+      en: >-
+        The Lithuanian interior ministry is wider than the name suggests and no other
+        department competes for these areas: police and public order, the fire and rescue
+        service, the migration department that handles residence and asylum, the civil
+        service and public administration, and local self-government and regional policy.
+        Lithuania has no migration ministry, no civil protection ministry and no ministry of
+        public administration, which is why five tags land on one entity. Local government
+        appears here as a portfolio; Lithuania's municipalities are themselves out of scope
+        as subnational government.
+      es: >-
+        El ministerio del Interior lituano es más amplio de lo que sugiere su nombre y ningún
+        otro departamento le disputa estas áreas: policía y orden público, servicio de
+        bomberos y rescate, el departamento de migración que tramita residencia y asilo, la
+        función pública y la administración pública, y el autogobierno local y la política
+        regional. Lituania no tiene ministerio de migración, ni de protección civil, ni de
+        administración pública, y por eso cinco etiquetas caen en una sola entidad. El
+        gobierno local figura aquí como cartera; los municipios lituanos quedan fuera de
+        alcance como gobierno subnacional.
+
+  - id: LT-2026-zemes-ukio-ministerija
+    order: 14
+    name_original: Žemės ūkio ministerija
+    abbreviation_original: ŽŪM
+    name_en: Ministry of Agriculture
+    name_es: Ministerio de Agricultura
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Žemės ūkio ministras
+    head_title_en: Minister of Agriculture
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [agriculture, rural_development, food_safety, fisheries]
+    counts_as_ministry: true
+    url: https://zum.lrv.lt/
+    sources: [vyriausybes-istatymas-i-464, lrv-xxi-vyriausybe-prisieke, lrv-ministerijos-en]
+    note:
+      en: >-
+        Agriculture, food and the common agricultural policy, plus rural development, land
+        administration and fisheries. Forestry is not tagged here: Lithuania puts forests
+        with the environment ministry, which is the opposite of the Finnish arrangement
+        where agriculture and forestry share one department.
+      es: >-
+        Agricultura, alimentación y política agraria común, además de desarrollo rural,
+        administración de la tierra y pesca. La silvicultura no se etiqueta aquí: Lituania
+        sitúa los bosques en el ministerio de Medio Ambiente, lo contrario del caso finlandés,
+        donde agricultura y silvicultura comparten un mismo departamento.
+
+  # --- recorded, not counted --------------------------------------------------------------
+  - id: LT-2026-ministras-pirmininkas
+    order: 15
+    name_original: Ministras Pirmininkas
+    abbreviation_original: null
+    name_en: Prime Minister
+    name_es: Primer Ministro
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministras Pirmininkas
+    head_title_en: Prime Minister
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: head_of_government_office
+    url: https://lrv.lt/
+    sources: [vyriausybes-istatymas-i-464, lrv-xxi-vyriausybe-prisieke, lrt-seimas-pritare-programai]
+    note:
+      en: >-
+        Not a ministry and not a department: article 29(2) of the Vyriausybės įstatymas does
+        not list one, and article 24 gives the Prime Minister no portfolio, only the
+        representation and direction of the Government's work. It is recorded because
+        article 1 makes the Prime Minister a member of the Government, which is what makes
+        the cabinet fifteen people and the government fourteen departments. Do not confuse
+        this entry with the Vyriausybės kanceliarija below: this is the office of the head of
+        government, that is the administrative apparatus which serves it, and each is
+        excluded for a different reason.
+      es: >-
+        No es un ministerio ni un departamento: el artículo 29(2) de la Vyriausybės įstatymas
+        no enumera ninguno y el artículo 24 no da al primer ministro cartera alguna, sólo la
+        representación y la dirección del trabajo del Gobierno. Se registra porque el
+        artículo 1 hace del primer ministro un miembro del Gobierno, y eso es lo que hace que
+        el gabinete sean quince personas y el gobierno catorce departamentos. No confundir
+        esta entrada con la Vyriausybės kanceliarija de más abajo: ésta es la oficina del jefe
+        de gobierno, aquélla el aparato administrativo que la sirve, y cada una se excluye por
+        un motivo distinto.
+
+  - id: LT-2026-vyriausybes-kanceliarija
+    order: 16
+    name_original: Vyriausybės kanceliarija
+    abbreviation_original: LRVK
+    name_en: Office of the Government
+    name_es: Cancillería del Gobierno
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Vyriausybės kancleris
+    head_title_en: Chancellor of the Government
+    has_cabinet_seat: false
+    head_count: 1
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: not_headed_by_minister
+    url: https://lrv.lt/
+    sources: [vyriausybes-istatymas-i-464, lrv-ministerijos-en]
+    note:
+      en: >-
+        Recorded so that the perimeter is visible, and excluded on the narrowest available
+        ground. Article 44-1(1) of the Act constitutes it as a budgetary institution
+        established by the Government to assist the Government and the Prime Minister, and
+        says in the same sentence that it is headed by the Vyriausybės kancleris — under
+        article 45(1) a political-trust civil servant subordinate to the Prime Minister, not
+        a minister and not a member of the Government. It is therefore excluded as
+        not_headed_by_minister rather than as head_of_government_office, which is reserved
+        here for the Prime Minister's own office above, and it carries no cabinet seat.
+        lrv.lt's English edition lists it in the ministry navigation immediately after the
+        fourteen, as "The Office of the Government of the Republic of Lithuania", which is a
+        listing convention and not a claim that it is a fifteenth ministry: article 29(2)
+        does not name it. Compare Finland, where the equivalent body is in the statutory list
+        of ministries and is counted.
+      es: >-
+        Se registra para que el perímetro sea visible, y se excluye por el motivo más
+        estricto disponible. El artículo 44-1(1) de la ley la constituye como una institución
+        presupuestaria creada por el Gobierno para asistir al Gobierno y al primer ministro, y
+        dice en la misma frase que la dirige el Vyriausybės kancleris —según el artículo 45(1)
+        un funcionario de confianza política subordinado al primer ministro, no un ministro ni
+        un miembro del Gobierno—. Se excluye por tanto como not_headed_by_minister y no como
+        head_of_government_office, motivo reservado aquí a la oficina del propio primer
+        ministro de más arriba, y no lleva asiento en el gabinete. La edición inglesa de
+        lrv.lt la enumera en la navegación de ministerios justo después de los catorce, como
+        «The Office of the Government of the Republic of Lithuania», lo que es una convención
+        de listado y no la afirmación de que sea un decimoquinto ministerio: el artículo 29(2)
+        no la nombra. Compárese con Finlandia, donde el órgano equivalente sí figura en la
+        lista legal de ministerios y sí se cuenta.

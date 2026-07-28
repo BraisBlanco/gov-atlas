@@ -1,0 +1,1197 @@
+# Germany — federal government structure of the 21st Bundestag (Merz cabinet).
+#
+# Read docs/DATA-CONTRACT.md alongside this file. Three things to notice:
+#
+#   1. Nowhere does this file state "16". The count is derived from the entities below.
+#   2. Germany has no statute that enumerates its ministries. The Chancellor's
+#      Organisationserlass *renames* and *reassigns* departments but never lists them all
+#      (it does not mention the Bundesministerium für Gesundheit at all), so the full
+#      enumeration is taken from a second tier-1 instrument: the Gesamtplan of the
+#      Haushaltsgesetz 2026, which names every Einzelplan.
+#   3. The Bundeskanzleramt is recorded and deliberately not counted. See the first
+#      methodology note: 16 as published, 17 if the Chancellery is treated as a ministry.
+
+country: DE
+cabinet_id: DE-2025-05-06
+
+cabinet_name_original: Bundesregierung Merz, 21. Wahlperiode des Deutschen Bundestages
+cabinet_name_en: Federal Government of Germany (Merz cabinet), 21st Bundestag
+cabinet_name_es: Gobierno Federal de Alemania (gabinete Merz), 21.ª legislatura del Bundestag
+
+head_of_government_title_original: Bundeskanzler
+head_of_government_title_en: Federal Chancellor
+
+took_office: 2025-05-06
+left_office: null
+
+methodology_notes:
+  - en: >-
+      The Federal Chancellery is the contested case in Germany, and it is the reason this
+      country is counted as 16 rather than 17. Germany is counted here as having 16
+      federal ministries; it has 17 if the Bundeskanzleramt is treated as a ministry.
+      Three pieces of evidence support excluding it. Article 62 of the Basic Law defines
+      the Federal Government as the Chancellor plus the federal ministers, and names no
+      chancellery. The Gesamtplan of the Haushaltsgesetz 2026 gives the Chancellery its
+      own budget section, Einzelplan 04, headed "Bundeskanzler und Bundeskanzleramt" —
+      pointedly not "Bundesministerium" — while all 16 departments carry that word. And
+      the Federal Government's own portal states that "16 Bundesministerien sind Teil der
+      Bundesregierung" and does not list the Chancellery among them. Against that: the
+      Chancellery is a supreme federal authority headed by a person of full ministerial
+      rank, and the Organisationserlass of 6 May 2025 moves competences into and out of
+      the "Geschäftsbereich des Bundeskanzleramtes" in exactly the same language it uses
+      for ministries. A reader who prefers that reading should add one to every figure
+      this site publishes for Germany.
+    es: >-
+      La Cancillería Federal es el caso discutido en Alemania, y es la razón por la que
+      este país se cuenta como 16 y no como 17. Aquí se cuentan 16 ministerios federales;
+      serían 17 si se considerase el Bundeskanzleramt como ministerio. Tres elementos
+      respaldan su exclusión. El artículo 62 de la Ley Fundamental define el Gobierno
+      Federal como el canciller más los ministros federales, y no menciona ninguna
+      cancillería. El Gesamtplan de la Ley de Presupuestos de 2026 asigna a la Cancillería
+      su propia sección presupuestaria, el Einzelplan 04, titulada «Bundeskanzler und
+      Bundeskanzleramt» —y no «Bundesministerium»—, mientras que los 16 departamentos sí
+      llevan esa palabra. Y el propio portal del Gobierno Federal afirma que «16
+      Bundesministerien sind Teil der Bundesregierung» sin incluir la Cancillería entre
+      ellos. En contra: la Cancillería es una autoridad federal suprema encabezada por
+      una persona con rango pleno de ministro, y el Organisationserlass del 6 de mayo de
+      2025 traslada competencias hacia y desde el «Geschäftsbereich des
+      Bundeskanzleramtes» con el mismo lenguaje que emplea para los ministerios. Quien
+      prefiera esa lectura debe sumar uno a todas las cifras que este sitio publica sobre
+      Alemania.
+  - en: >-
+      Germany produces three different numbers, and they are not interchangeable. There
+      are 16 federal ministries. There are 17 federal ministers, because the Head of the
+      Federal Chancellery also holds the office of Bundesminister für besondere Aufgaben —
+      a minister with cabinet rank and no portfolio department. And there are 18 members
+      of the cabinet, once the Chancellor is added; the Federal Government's own cabinet
+      page says the government "besteht aus Bundeskanzler Friedrich Merz sowie 17
+      Bundesministerinnen und -ministern". This dataset therefore publishes
+      ministries_count 16 and cabinet_seats_count 18. Neither figure is wrong and they are
+      never added together.
+    es: >-
+      Alemania arroja tres cifras distintas que no son intercambiables. Hay 16 ministerios
+      federales. Hay 17 ministros federales, porque el jefe de la Cancillería Federal
+      ostenta además el cargo de Bundesminister für besondere Aufgaben, un ministro con
+      rango de gabinete y sin departamento. Y hay 18 miembros del gabinete, sumando al
+      canciller; la propia página del gabinete del Gobierno Federal dice que el gobierno
+      «besteht aus Bundeskanzler Friedrich Merz sowie 17 Bundesministerinnen und
+      -ministern». Este conjunto de datos publica por tanto ministries_count 16 y
+      cabinet_seats_count 18. Ninguna de las dos cifras es incorrecta y nunca se suman.
+  - en: >-
+      Germany is a federal state and this file covers the Bundesregierung only. Each of
+      the 16 Länder has its own cabinet of Landesministerien, and those departments hold
+      primary competence for areas that in a centralised state such as Spain sit with a
+      national ministry — school education, policing, culture and broadcasting above all.
+      State ministries are out of scope for this dataset, so they are not listed at all
+      rather than listed and excluded. A reader comparing Germany's 16 with Spain's 22 is
+      therefore not comparing like with like in terms of governmental reach: the German
+      figure covers a narrower slice of public administration.
+    es: >-
+      Alemania es un Estado federal y este fichero cubre únicamente la Bundesregierung.
+      Cada uno de los 16 Länder tiene su propio gabinete de Landesministerien, y esos
+      departamentos ostentan la competencia principal en materias que en un Estado
+      centralizado como España corresponden a un ministerio nacional: sobre todo educación
+      escolar, policía, cultura y radiodifusión. Los ministerios de los Länder quedan
+      fuera del alcance de este conjunto de datos, por lo que no se listan en absoluto en
+      lugar de listarse y excluirse. Quien compare los 16 de Alemania con los 22 de España
+      no está comparando alcances de gobierno equivalentes: la cifra alemana cubre una
+      porción más estrecha de la administración pública.
+  - en: >-
+      No German statute enumerates the federal ministries. The Chancellor constitutes,
+      renames and dissolves them by Organisationserlass under Article 64 of the Basic Law,
+      and the decree of 6 May 2025 creates one ministry and renames eight, but it never
+      states the full list — it does not mention the Bundesministerium für Gesundheit at
+      all, because nothing about that department changed. The complete enumeration is
+      therefore taken from a second legal instrument, the Gesamtplan of the Haushaltsgesetz
+      2026, which names every Einzelplan of the federal budget and so names all 16
+      ministries. Both are tier-1 sources and they agree with each other and with the
+      Federal Government's portal on the figure 16.
+    es: >-
+      Ninguna ley alemana enumera los ministerios federales. El canciller los crea,
+      renombra y suprime mediante Organisationserlass al amparo del artículo 64 de la Ley
+      Fundamental, y el decreto del 6 de mayo de 2025 crea un ministerio y renombra ocho,
+      pero no enuncia la lista completa: no menciona en absoluto el Bundesministerium für
+      Gesundheit, porque nada cambió en ese departamento. La enumeración completa se toma
+      por ello de un segundo instrumento jurídico, el Gesamtplan de la Ley de Presupuestos
+      de 2026, que nombra todos los Einzelpläne del presupuesto federal y con ello los 16
+      ministerios. Ambas son fuentes de nivel 1 y coinciden entre sí y con el portal del
+      Gobierno Federal en la cifra de 16.
+  - en: >-
+      The Vice-Chancellorship is a personal office held by a serving minister — currently
+      by the Federal Minister of Finance — and adds neither a ministry nor a cabinet seat.
+      Which minister holds it changes with reshuffles; the department structure does not,
+      and only the latter is recorded here.
+    es: >-
+      La vicecancillería es un cargo personal que ostenta un ministro en ejercicio —
+      actualmente el ministro federal de Hacienda — y no añade ni ministerio ni asiento en
+      el gabinete. Quién la ostenta cambia con cada remodelación; la estructura
+      departamental no, y aquí sólo se registra esta última.
+  - en: >-
+      Parlamentarische Staatssekretäre and Staatssekretäre are subordinate to a minister
+      and work inside an existing department, so they are neither ministries nor cabinet
+      seats and are not listed individually. One Staatsminister is recorded, because
+      omitting it would hide a genuine structural fact: Germany has no culture ministry.
+      Federal culture and media policy is run by the Beauftragte der Bundesregierung für
+      Kultur und Medien, a Staatsminister attached directly to the Chancellor who heads a
+      supreme federal authority of some 430 staff. That office attends cabinet meetings but
+      its holder is not a Bundesminister, so under Article 62 of the Basic Law it is not a
+      member of the Federal Government and it is recorded with no cabinet seat. A curator
+      who counted meeting attendance as a seat would publish 19 seats rather than 18.
+    es: >-
+      Los Parlamentarische Staatssekretäre y los Staatssekretäre están subordinados a un
+      ministro y encuadrados en un departamento existente, por lo que no son ministerios ni
+      asientos de gabinete y no se listan individualmente. Sí se registra un Staatsminister,
+      porque omitirlo ocultaría un hecho estructural real: Alemania no tiene ministerio de
+      Cultura. La política federal de cultura y medios la dirige el Beauftragte der
+      Bundesregierung für Kultur und Medien, un Staatsminister adscrito directamente al
+      canciller que encabeza una autoridad federal suprema con unos 430 efectivos. Ese
+      cargo asiste a las reuniones del gabinete, pero su titular no es Bundesminister, de
+      modo que conforme al artículo 62 de la Ley Fundamental no es miembro del Gobierno
+      Federal y se registra sin asiento en el gabinete. Un curador que contase la
+      asistencia a las reuniones como asiento publicaría 19 asientos en lugar de 18.
+  - en: >-
+      The cabinet reshuffle announced on 24 July 2026 moved people, not departments: the
+      Health Minister became Head of the Federal Chancellery and Federal Minister for
+      Special Tasks, a member of the Bundestag took over the health portfolio, and a new
+      Staatsminister for federal-state relations was appointed in the Chancellery. No
+      ministry was created, renamed, merged or abolished, so no entity in this file carries
+      a valid_to or a new valid_from. This dataset records departmental structure, not
+      officeholders.
+    es: >-
+      La remodelación del gabinete anunciada el 24 de julio de 2026 cambió personas, no
+      departamentos: la ministra de Sanidad pasó a jefa de la Cancillería Federal y
+      ministra federal para Tareas Especiales, un diputado del Bundestag asumió la cartera
+      de Sanidad y se nombró un nuevo Staatsminister para las relaciones entre la
+      Federación y los Länder en la Cancillería. No se creó, renombró, fusionó ni suprimió
+      ningún ministerio, por lo que ninguna entidad de este fichero lleva valid_to ni un
+      valid_from nuevo. Este conjunto de datos registra la estructura departamental, no a
+      los titulares.
+  - en: >-
+      English and Spanish ministry names here are the project's renderings, marked
+      name_en_provenance and name_es_provenance accordingly, with three exceptions. The
+      German Federal Government publishes English titles for its ministers but no
+      consolidated English list of ministry names, and its ministries' own English sites
+      are not uniform. Where a ministry publishes its own English name on its own site and
+      that page could be archived and checked — Finance, Health, and Economic Cooperation
+      and Development — the English name is marked official and the ministry's English
+      page is cited. Everything else, including "Federal Foreign Office" for the
+      Auswärtiges Amt, is recorded as translated: that particular name is in fact the
+      office's own English usage, but no snapshot of the page could be obtained, and an
+      unverifiable claim of officialness is worse than an understated one.
+    es: >-
+      Los nombres de ministerios en inglés y español son aquí traducciones del proyecto,
+      señaladas como tales en name_en_provenance y name_es_provenance, con tres
+      excepciones. El Gobierno Federal alemán publica títulos en inglés de sus ministros
+      pero ninguna lista consolidada de nombres de ministerios en inglés, y las webs en
+      inglés de sus ministerios no son uniformes. Cuando un ministerio publica su propio
+      nombre en inglés en su web y esa página se ha podido archivar y comprobar — Hacienda,
+      Sanidad y Cooperación Económica y Desarrollo — el nombre inglés se marca como oficial
+      y se cita la página inglesa del ministerio. Todo lo demás, incluido «Federal Foreign
+      Office» para el Auswärtiges Amt, se registra como traducción: ese nombre es de hecho
+      el uso inglés propio de dicho organismo, pero no se pudo obtener ninguna copia
+      archivada de la página, y una afirmación de oficialidad no verificable es peor que
+      una subestimada.
+
+sources:
+  - id: bgbl-2025-i-131
+    tier: 1
+    type: official_gazette
+    publisher: Bundesgesetzblatt
+    title: Organisationserlass des Bundeskanzlers vom 6. Mai 2025 (BGBl. 2025 I Nr. 131)
+    url: https://www.recht.bund.de/bgbl/1/2025/131/regelungstext.pdf?__blob=publicationFile&v=2
+    archive_url: https://web.archive.org/web/20250607155000/https://www.recht.bund.de/bgbl/1/2025/131/regelungstext.pdf?__blob=publicationFile&v=2
+    lang: de
+    published: 2025-05-09
+    accessed: 2026-07-27
+    quote: |-
+      Gemäß § 9 der Geschäftsordnung der Bundesregierung ordne ich mit sofortiger Wirkung an:
+      I.
+      Es wird ein Bundesministerium für Digitales und Staatsmodernisierung gebildet.
+      II.
+      Es erhalten
+      1. das Bundesministerium für Wirtschaft und Klimaschutz die Bezeichnung Bundesministerium für Wirtschaft und Energie;
+      2. das Bundesministerium des Innern und für Heimat die Bezeichnung Bundesministerium des Innern;
+      3. das Bundesministerium der Justiz die Bezeichnung Bundesministerium der Justiz und für Verbraucherschutz;
+      4. das Bundesministerium für Ernährung und Landwirtschaft die Bezeichnung Bundesministerium für Landwirtschaft, Ernährung und Heimat;
+      5. das Bundesministerium für Familie, Senioren, Frauen und Jugend die Bezeichnung Bundesministerium für Bildung, Familie, Senioren, Frauen und Jugend;
+      6. das Bundesministerium für Digitales und Verkehr die Bezeichnung Bundesministerium für Verkehr;
+      7. das Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz die Bezeichnung Bundesministerium für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit;
+      8. das Bundesministerium für Bildung und Forschung die Bezeichnung Bundesministerium für Forschung, Technologie und Raumfahrt.
+      XVII.
+      Dem Geschäftsbereich des Bundeskanzleramtes werden übertragen
+      1. aus dem Geschäftsbereich des Bundesministeriums des Innern die Zuständigkeiten für Sportpolitik sowie für das Themenfeld Ehrenamt;
+      2. aus dem Geschäftsbereich des Bundesministeriums für Bildung, Familie, Senioren, Frauen und Jugend die Zuständigkeit für die Engagementpolitik.
+      Diese Zuständigkeiten werden von einer Staatsministerin beim Bundeskanzler wahrgenommen.
+      Berlin, den 6. Mai 2025
+      Der Bundeskanzler
+      Friedrich Merz
+    note: >-
+      The decree by which Chancellor Merz constituted the departments of his government
+      under Article 64 of the Basic Law, published in the Bundesgesetzblatt three days
+      after he took office. This is the instrument that creates the Bundesministerium für
+      Digitales und Staatsmodernisierung and fixes the current name of eight other
+      ministries, so it is the authority for how those nine are spelled today. It is not,
+      however, an enumeration: sections III to XVI and XVIII transfer individual
+      competences between named departments and are omitted from the quote, and no section
+      lists the ministries as a set — the Bundesministerium für Gesundheit is never
+      mentioned, because nothing about it changed. Section XVII is quoted in full because
+      it is load-bearing for the Federal Chancellery decision: the decree moves
+      competences into the "Geschäftsbereich des Bundeskanzleramtes" in the same language
+      it uses for ministerial Geschäftsbereiche. Line breaks that the gazette's typesetting
+      introduces mid-sentence are closed up; no words are altered. No later
+      Organisationserlass had been published as of 27 July 2026.
+
+  - id: bgbl-2025-i-343-haushaltsgesetz-2026
+    tier: 1
+    type: statute
+    publisher: Bundesgesetzblatt
+    title: >-
+      Gesetz über die Feststellung des Bundeshaushaltsplans für das Haushaltsjahr 2026
+      (Haushaltsgesetz 2026), Gesamtplan – Teil I: Haushaltsübersicht (BGBl. 2025 I Nr. 343)
+    url: https://www.recht.bund.de/bgbl/1/2025/343/regelungstext.pdf?__blob=publicationFile&v=3
+    archive_url: https://web.archive.org/web/20260109154036/https://www.recht.bund.de/bgbl/1/2025/343/regelungstext.pdf?__blob=publicationFile&v=3
+    lang: de
+    published: 2025-12-22
+    accessed: 2026-07-27
+    quote: |-
+      Gesamtplan – Teil I: Haushaltsübersicht
+      A. Einnahmen
+      Epl. Bezeichnung
+      01 Bundespräsident und Bundespräsidialamt
+      02 Deutscher Bundestag
+      03 Bundesrat
+      04 Bundeskanzler und Bundeskanzleramt
+      05 Auswärtiges Amt
+      06 Bundesministerium des Innern
+      07 Bundesministerium der Justiz und für Verbraucherschutz
+      08 Bundesministerium der Finanzen
+      09 Bundesministerium für Wirtschaft und Energie
+      10 Bundesministerium für Landwirtschaft, Ernährung und Heimat
+      11 Bundesministerium für Arbeit und Soziales
+      12 Bundesministerium für Verkehr
+      14 Bundesministerium der Verteidigung
+      15 Bundesministerium für Gesundheit
+      16 Bundesministerium für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit
+      17 Bundesministerium für Bildung, Familie, Senioren, Frauen und Jugend
+      19 Bundesverfassungsgericht
+      20 Bundesrechnungshof
+      21 Die Bundesbeauftragte für den Datenschutz und die Informationsfreiheit
+      22 Unabhängiger Kontrollrat
+      23 Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung
+      24 Bundesministerium für Digitales und Staatsmodernisierung
+      25 Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen
+      30 Bundesministerium für Forschung, Technologie und Raumfahrt
+      32 Bundesschuld
+      60 Allgemeine Finanzverwaltung
+    note: >-
+      The enumerating instrument. Because no German statute lists the ministries as such,
+      the budget act does the work: the Gesamtplan attached to it gives every supreme
+      federal body its own Einzelplan, and exactly 16 of them are designated
+      "Bundesministerium". Enacted on 19 December 2025 and published on 22 December 2025,
+      so it reflects the structure after the Organisationserlass of 6 May 2025 — including
+      the new Einzelplan 24 for the Bundesministerium für Digitales und
+      Staatsmodernisierung. The entity listing order in this file follows this table. Two
+      things in the quote are load-bearing beyond the ministry names. Einzelplan 04 is
+      headed "Bundeskanzler und Bundeskanzleramt", not "Bundesministerium", which is the
+      tier-1 basis for not counting the Chancellery. And Einzelpläne 01, 02, 03, 19, 20,
+      21, 22, 32 and 60 show what a non-ministerial supreme federal body looks like in the
+      same list. The quote transcribes column 1 (Epl.) and column 2 (Bezeichnung) of the
+      Haushaltsübersicht in the gazette's own order; the dot leaders and the three amount
+      columns are omitted, and typesetting line breaks inside a designation are closed up.
+      Wording is unaltered.
+
+  - id: gg-art-62
+    tier: 1
+    type: statute
+    publisher: Bundesministerium der Justiz und für Verbraucherschutz / Bundesamt für Justiz
+    title: Grundgesetz für die Bundesrepublik Deutschland, Artikel 62
+    url: https://www.gesetze-im-internet.de/gg/art_62.html
+    archive_url: https://web.archive.org/web/20251001164146/https://www.gesetze-im-internet.de/gg/art_62.html
+    lang: de
+    published: 1949-05-23
+    accessed: 2026-07-27
+    quote: >-
+      Die Bundesregierung besteht aus dem Bundeskanzler und aus den Bundesministern.
+    note: >-
+      One sentence of constitutional law that settles three questions in this file. It puts
+      the Chancellor in the cabinet without giving him a department, which is why
+      cabinet_seats_count exceeds ministries_count. It makes every Bundesminister a member
+      of the Federal Government whether or not he heads a ministry, which is why the
+      Bundesminister für besondere Aufgaben holds a seat. And by naming only the Chancellor
+      and the ministers it excludes both the Chancellery as an institution and the
+      Staatsminister, who are not Bundesminister, from membership of the Federal
+      Government — so the Staatsminister für Kultur und Medien attends cabinet meetings
+      without holding a seat in it.
+
+  - id: bundesregierung-bundesministerien
+    tier: 2
+    type: government_website
+    publisher: Bundesregierung — Presse- und Informationsamt der Bundesregierung
+    title: Die Bundesministerien im Überblick
+    url: https://www.bundesregierung.de/breg-de/bundesregierung/bundesministerien
+    archive_url: https://web.archive.org/web/20260722142122/https://www.bundesregierung.de/breg-de/bundesregierung/bundesministerien
+    lang: de
+    published: null
+    accessed: 2026-07-27
+    quote: >-
+      16 Bundesministerien sind Teil der Bundesregierung. Sie setzen die politischen Ziele
+      für ihren Fachbereich um und erarbeiten dafür beispielsweise Gesetze. Zudem
+      beaufsichtigen sie die ihnen nachgeordneten Behörden. Finden Sie hier alle
+      Ministerien im Überblick.
+    note: >-
+      The Federal Government's own directory of its ministries, and the reason the derived
+      figure of 16 in this file needs no defending against the publisher of the structure:
+      the portal states the number itself. The page lists the same 16 departments as the
+      Gesamtplan of the Haushaltsgesetz 2026, and it does not list the Bundeskanzleramt
+      among them — the Chancellery appears elsewhere on the site, under the Federal
+      Government rather than under the ministries. Snapshot of 22 July 2026, two days
+      before the reshuffle of 24 July 2026, which changed officeholders but no department.
+
+  - id: bundesregierung-bundeskabinett
+    tier: 2
+    type: government_website
+    publisher: Bundesregierung — Presse- und Informationsamt der Bundesregierung
+    title: Das Bundeskabinett im Überblick
+    url: https://www.bundesregierung.de/breg-de/bundesregierung/bundeskabinett
+    archive_url: https://web.archive.org/web/20260724091005/https://www.bundesregierung.de/breg-de/bundesregierung/bundeskabinett
+    lang: de
+    published: null
+    accessed: 2026-07-27
+    quote: >-
+      Die aktuelle Bundesregierung besteht aus Bundeskanzler Friedrich Merz sowie 17
+      Bundesministerinnen und -ministern. Gemeinsam bilden sie das Bundeskabinett.
+      [...] Bundesminister für besondere Aufgaben/Chef des Bundeskanzleramtes
+    note: >-
+      Cited for cabinet composition and for the exact German wording of the office title
+      "Bundesminister für besondere Aufgaben/Chef des Bundeskanzleramtes", which the page
+      spells with that slash. This source is what makes the gap between the two published
+      figures checkable: 17 federal ministers plus the Chancellor is 18 people in the
+      cabinet, while only 16 of those ministers head a ministry. The quote joins the page's
+      introductory sentences to the office title as it is listed further down; both are
+      verbatim.
+
+  - id: bundesregierung-kabinett-juli-2026
+    tier: 2
+    type: government_website
+    publisher: Bundesregierung — Presse- und Informationsamt der Bundesregierung
+    title: Kanzler Merz zu Veränderungen im Kabinett
+    url: https://www.bundesregierung.de/breg-de/aktuelles/merz-veraenderungen-im-kabinett--2448244
+    archive_url: https://web.archive.org/web/20260724142349/https://www.bundesregierung.de/breg-de/aktuelles/merz-veraenderungen-im-kabinett--2448244
+    lang: de
+    published: 2026-07-24
+    accessed: 2026-07-27
+    quote: >-
+      Bundeskanzler Merz stellte in einer Pressekonferenz die künftigen neuen Mitglieder
+      seines Kabinetts vor. So soll die bisherige Bundesgesundheitsministerin Nina Warken
+      als Bundesministerin für besondere Aufgaben in Zukunft das Kanzleramt leiten und
+      Carsten Linnemann wird das Amt des Bundesgesundheitsministers übernehmen. Außerdem
+      wird Philipp Amthor neuer Staatsminister für die Bund-Länder-Beziehungen
+    note: >-
+      Recorded because the reshuffle happened three days before this file's access date and
+      a reader checking the cabinet page today will see different names than the archived
+      snapshot shows. It is cited for a negative fact as much as a positive one: the offices
+      change hands, the office of Bundesminister für besondere Aufgaben continues to exist
+      and continues to be combined with the leadership of the Chancellery, and no ministry
+      is created, renamed or abolished. That is why no entity in this file carries a
+      valid_to. The quote is truncated at the end of the clause naming the new
+      Staatsminister; the sentence continues in the source.
+
+  - id: kulturstaatsminister-amt
+    tier: 2
+    type: government_website
+    publisher: Der Beauftragte der Bundesregierung für Kultur und Medien
+    title: Staatsminister und sein Amt
+    url: https://kulturstaatsminister.de/staatsminister-und-sein-amt
+    archive_url: https://web.archive.org/web/20260708181828/https://kulturstaatsminister.de/staatsminister-und-sein-amt
+    lang: de
+    published: null
+    accessed: 2026-07-27
+    quote: >-
+      Der Beauftragte der Bundesregierung für Kultur und Medien ist zuständig für die
+      Kultur- und Medienpolitik des Bundes. Seit Mai 2025 hat Wolfram Weimer dieses Amt
+      inne. Als Staatsminister ist er direkt dem Bundeskanzler zugeordnet und nimmt an den
+      Sitzungen des Bundeskabinetts teil. Zugleich ist er Leiter einer obersten
+      Bundesbehörde mit rund 430 Mitarbeiterinnen und Mitarbeitern in Berlin und Bonn.
+    note: >-
+      The official site of the body that runs federal culture and media policy in the
+      absence of a culture ministry. Every clause of this quote does work in the
+      classification. "Als Staatsminister" places the holder below ministerial rank, so
+      under Article 62 of the Basic Law he is not a member of the Federal Government;
+      "nimmt an den Sitzungen des Bundeskabinetts teil" is attendance, not membership, and
+      is why has_cabinet_seat is false rather than true; "direkt dem Bundeskanzler
+      zugeordnet" places the office inside the Chancellery rather than in a department of
+      its own; and "Leiter einer obersten Bundesbehörde mit rund 430 Mitarbeiterinnen und
+      Mitarbeitern" is why it is recorded at all instead of being dropped as a personal
+      title.
+
+  - id: bmf-english-site
+    tier: 2
+    type: ministry_website
+    publisher: Bundesministerium der Finanzen
+    title: Federal Ministry of Finance — Homepage (English site)
+    url: https://www.bundesfinanzministerium.de/Web/EN/Home/home.html
+    archive_url: https://web.archive.org/web/20260714013426/https://www.bundesfinanzministerium.de/Web/EN/Home/home.html
+    lang: en
+    published: null
+    accessed: 2026-07-27
+    quote: >-
+      Federal Ministry of Finance
+    note: >-
+      Cited solely to justify name_en_provenance "official" for this ministry: the
+      department publishes this English name of itself, on its own site, so the English
+      name on the site is the government's and not the project's.
+
+  - id: bmg-english-site
+    tier: 2
+    type: ministry_website
+    publisher: Bundesministerium für Gesundheit
+    title: Federal Ministry of Health (English site)
+    url: https://www.bundesgesundheitsministerium.de/en/
+    archive_url: https://web.archive.org/web/20260513072850/https://www.bundesgesundheitsministerium.de/en/
+    lang: en
+    published: null
+    accessed: 2026-07-27
+    quote: >-
+      Federal Ministry of Health
+    note: >-
+      Cited solely to justify name_en_provenance "official" for this ministry. It also
+      matters for a second reason: the Bundesministerium für Gesundheit is the only one of
+      the 16 departments that the Organisationserlass of 6 May 2025 never mentions in any
+      section, because no competence of it changed. Its existence rests entirely on the
+      budget act.
+
+  - id: bmz-english-site
+    tier: 2
+    type: ministry_website
+    publisher: Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung
+    title: Federal Ministry for Economic Cooperation and Development (English site)
+    url: https://www.bmz.de/en
+    archive_url: https://web.archive.org/web/20260719203534/https://www.bmz.de/en
+    lang: en
+    published: null
+    accessed: 2026-07-27
+    quote: >-
+      Federal Ministry for Economic Cooperation and Development
+    note: >-
+      Cited solely to justify name_en_provenance "official" for this ministry.
+
+# Listing order follows the Gesamtplan of the Haushaltsgesetz 2026, which is why
+# Einzelplan 04 — the Federal Chancellery, recorded but not counted — comes first.
+entities:
+  # --- Einzelplan 04: recorded, not counted -------------------------------------
+  - id: DE-2025-bundeskanzleramt
+    order: 1
+    name_original: Bundeskanzleramt
+    abbreviation_original: BKAmt
+    name_en: Federal Chancellery
+    name_es: Cancillería Federal
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Bundeskanzler/in
+    head_title_en: Federal Chancellor
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: head_of_government_office
+    url: https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt
+    sources: [bgbl-2025-i-131, bgbl-2025-i-343-haushaltsgesetz-2026, gg-art-62, bundesregierung-bundesministerien]
+    note:
+      en: >-
+        The single most consequential judgement in this file: excluded, which is why
+        Germany is published as 16 and not 17. The Gesamtplan of the Haushaltsgesetz 2026
+        gives it Einzelplan 04 under the heading "Bundeskanzler und Bundeskanzleramt" and
+        withholds the word "Bundesministerium" that all 16 counted departments carry;
+        Article 62 of the Basic Law composes the Federal Government of the Chancellor and
+        the ministers and names no chancellery; and the Federal Government's own directory
+        of "16 Bundesministerien" leaves it out. It is recorded rather than omitted because
+        the Chancellor sits in the cabinet, which is what makes the cabinet 18 people while
+        the government has 16 departments. The contrary argument is real and is stated in
+        the methodology notes: the Chancellery is a supreme federal authority whose head
+        holds full ministerial rank, and the Organisationserlass of 6 May 2025 transfers
+        competences to "dem Geschäftsbereich des Bundeskanzleramtes" in exactly the wording
+        it uses for ministries. Read that way, every German figure on this site rises by
+        one. Note that the person who administers this body is not the Chancellor but the
+        Head of the Chancellery, recorded separately below; the seat recorded here is the
+        Chancellor's own.
+      es: >-
+        El juicio de mayor consecuencia de este fichero: excluido, y por eso Alemania se
+        publica como 16 y no como 17. El Gesamtplan de la Ley de Presupuestos de 2026 le
+        asigna el Einzelplan 04 bajo el epígrafe «Bundeskanzler und Bundeskanzleramt» y le
+        niega la palabra «Bundesministerium» que sí llevan los 16 departamentos contados;
+        el artículo 62 de la Ley Fundamental compone el Gobierno Federal con el canciller y
+        los ministros y no menciona ninguna cancillería; y el propio directorio
+        gubernamental de «16 Bundesministerien» la deja fuera. Se registra en lugar de
+        omitirse porque el canciller ocupa asiento en el gabinete, y eso es lo que hace que
+        el gabinete sean 18 personas mientras el gobierno tiene 16 departamentos. El
+        argumento contrario es real y consta en las notas metodológicas: la Cancillería es
+        una autoridad federal suprema cuyo titular tiene rango pleno de ministro, y el
+        Organisationserlass del 6 de mayo de 2025 traslada competencias «dem
+        Geschäftsbereich des Bundeskanzleramtes» con la misma redacción que emplea para los
+        ministerios. Leído así, toda cifra alemana de este sitio sube en uno. Nótese que
+        quien administra este organismo no es el canciller sino el jefe de la Cancillería,
+        registrado aparte más abajo; el asiento que aquí se registra es el del propio
+        canciller.
+
+  # --- the 16 counted federal ministries, in Einzelplan order -------------------
+  - id: DE-2025-auswaertiges-amt
+    order: 2
+    name_original: Auswärtiges Amt
+    abbreviation_original: AA
+    name_en: Federal Foreign Office
+    name_es: Ministerio Federal de Asuntos Exteriores
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Bundesminister/in des Auswärtigen
+    head_title_en: Federal Foreign Minister
+    has_cabinet_seat: true
+    policy_areas: [foreign_affairs, european_affairs]
+    counts_as_ministry: true
+    url: https://www.auswaertiges-amt.de
+    sources: [bgbl-2025-i-343-haushaltsgesetz-2026, bundesregierung-bundesministerien]
+    note:
+      en: >-
+        The only counted department not called a "Bundesministerium": it keeps the older
+        title Auswärtiges Amt, and its head is styled Bundesminister des Auswärtigen rather
+        than Bundesminister für Auswärtiges. Einzelplan 05 of the budget act lists it among
+        the departments, and it is counted on the same footing as the other 15. Two
+        competences left it under the Organisationserlass of 6 May 2025 and are tagged to
+        the receiving ministries instead: international climate policy and climate
+        negotiations went to the environment ministry, and cultural and media relations
+        concerning German minorities went to the interior ministry. "Federal Foreign
+        Office" is the office's own English usage, but no archived snapshot of the page
+        publishing it could be obtained, so the provenance is recorded conservatively as
+        translated.
+      es: >-
+        El único departamento contado que no se denomina «Bundesministerium»: conserva el
+        título histórico de Auswärtiges Amt, y su titular se intitula Bundesminister des
+        Auswärtigen y no Bundesminister für Auswärtiges. El Einzelplan 05 de la ley de
+        presupuestos lo enumera entre los departamentos, y se cuenta en igualdad con los
+        otros 15. Dos competencias salieron de él con el Organisationserlass del 6 de mayo
+        de 2025 y se etiquetan en los ministerios receptores: la política climática
+        internacional y las negociaciones climáticas pasaron al ministerio de Medio
+        Ambiente, y las relaciones culturales y mediáticas relativas a las minorías
+        alemanas al ministerio del Interior. «Federal Foreign Office» es el uso inglés
+        propio del organismo, pero no se pudo obtener copia archivada de la página que lo
+        publica, por lo que la procedencia se registra de forma conservadora como
+        traducción.
+
+  - id: DE-2025-innern
+    order: 3
+    name_original: Bundesministerium des Innern
+    abbreviation_original: BMI
+    name_en: Federal Ministry of the Interior
+    name_es: Ministerio Federal del Interior
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Bundesminister/in des Innern
+    head_title_en: Federal Minister
+    has_cabinet_seat: true
+    policy_areas: [interior, migration, civil_protection, public_administration]
+    counts_as_ministry: true
+    url: https://www.bmi.bund.de
+    sources: [bgbl-2025-i-131, bgbl-2025-i-343-haushaltsgesetz-2026, bundesregierung-bundesministerien]
+    note:
+      en: >-
+        Renamed by section II.2 of the Organisationserlass of 6 May 2025, which dropped
+        "und für Heimat" from the previous Bundesministerium des Innern und für Heimat. The
+        rename was not cosmetic: the Heimat competences for equivalent living conditions and
+        regional culture went to the agriculture ministry, sport and voluntary-service
+        policy went to the Chancellery, and the bulk of digital administration and federal
+        IT went to the new digital ministry. It retains policing, security, migration and
+        asylum, civil protection and the law of the public service, which is why those four
+        areas are tagged here.
+      es: >-
+        Renombrado por la sección II.2 del Organisationserlass del 6 de mayo de 2025, que
+        suprimió «und für Heimat» del anterior Bundesministerium des Innern und für Heimat.
+        El cambio de nombre no fue cosmético: las competencias de Heimat sobre condiciones
+        de vida equivalentes y cultura regional pasaron al ministerio de Agricultura, la
+        política de deporte y voluntariado a la Cancillería, y el grueso de la
+        administración digital y la informática federal al nuevo ministerio de
+        Digitalización. Conserva policía, seguridad, migración y asilo, protección civil y
+        el derecho de la función pública, y de ahí las cuatro áreas etiquetadas.
+
+  - id: DE-2025-justiz-verbraucherschutz
+    order: 4
+    name_original: Bundesministerium der Justiz und für Verbraucherschutz
+    abbreviation_original: BMJV
+    name_en: Federal Ministry of Justice and Consumer Protection
+    name_es: Ministerio Federal de Justicia y Protección del Consumidor
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Bundesminister/in der Justiz und für Verbraucherschutz
+    head_title_en: Federal Minister
+    has_cabinet_seat: true
+    policy_areas: [justice, consumer_protection]
+    counts_as_ministry: true
+    url: https://www.bmjv.de
+    sources: [bgbl-2025-i-131, bgbl-2025-i-343-haushaltsgesetz-2026, bundesregierung-bundesministerien]
+    note:
+      en: >-
+        Renamed by section II.3 of the Organisationserlass of 6 May 2025, which added "und
+        für Verbraucherschutz" to the former Bundesministerium der Justiz. Section V of the
+        same decree moved consumer protection, consumer policy, enforcement of consumer
+        rights and the Verbraucherinformationsgesetz across from the environment ministry,
+        so the consumer_protection tag reflects a competence acquired on 6 May 2025 rather
+        than a long-standing one.
+      es: >-
+        Renombrado por la sección II.3 del Organisationserlass del 6 de mayo de 2025, que
+        añadió «und für Verbraucherschutz» al anterior Bundesministerium der Justiz. La
+        sección V del mismo decreto le trasladó desde el ministerio de Medio Ambiente la
+        protección del consumidor, la política de consumo, la ejecución de los derechos del
+        consumidor y la Verbraucherinformationsgesetz, de modo que la etiqueta
+        consumer_protection refleja una competencia adquirida el 6 de mayo de 2025 y no una
+        de larga data.
+
+  - id: DE-2025-finanzen
+    order: 5
+    name_original: Bundesministerium der Finanzen
+    abbreviation_original: BMF
+    name_en: Federal Ministry of Finance
+    name_es: Ministerio Federal de Hacienda
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Bundesminister/in der Finanzen
+    head_title_en: Federal Minister
+    has_cabinet_seat: true
+    policy_areas: [finance, budget]
+    counts_as_ministry: true
+    url: https://www.bundesfinanzministerium.de
+    sources: [bgbl-2025-i-343-haushaltsgesetz-2026, bundesregierung-bundesministerien, bmf-english-site]
+    note:
+      en: >-
+        Its minister also holds the Vice-Chancellorship in this cabinet. That is a personal
+        office attached to a serving minister, not a department: it adds neither a ministry
+        nor a cabinet seat, and it is not recorded as an entity. Who holds it changes with
+        reshuffles; the department does not.
+      es: >-
+        Su titular ostenta además la vicecancillería en este gabinete. Se trata de un cargo
+        personal adscrito a un ministro en ejercicio, no de un departamento: no añade ni
+        ministerio ni asiento en el gabinete, y no se registra como entidad. Quién lo
+        ostenta cambia con las remodelaciones; el departamento no.
+
+  - id: DE-2025-wirtschaft-energie
+    order: 6
+    name_original: Bundesministerium für Wirtschaft und Energie
+    abbreviation_original: BMWE
+    name_en: Federal Ministry for Economic Affairs and Energy
+    name_es: Ministerio Federal de Economía y Energía
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Bundesminister/in für Wirtschaft und Energie
+    head_title_en: Federal Minister
+    has_cabinet_seat: true
+    policy_areas: [economy, energy, industry, trade, small_business, tourism]
+    counts_as_ministry: true
+    url: https://www.bmwe.de
+    sources: [bgbl-2025-i-131, bgbl-2025-i-343-haushaltsgesetz-2026, bundesregierung-bundesministerien]
+    note:
+      en: >-
+        Renamed by section II.1 of the Organisationserlass of 6 May 2025 from
+        Bundesministerium für Wirtschaft und Klimaschutz, and the swap of "Klimaschutz" for
+        "Energie" in the title tracks a real transfer: section IX.1 moved climate protection
+        and the climate partnerships out to the environment ministry, so climate is
+        deliberately not tagged here even though the predecessor department held it. The
+        ministry also lost space, technology and innovation policy to the research ministry
+        and most of digital policy to the new digital ministry, but kept postal affairs,
+        which is why telecommunications is tagged to the digital ministry and not here.
+      es: >-
+        Renombrado por la sección II.1 del Organisationserlass del 6 de mayo de 2025 desde
+        Bundesministerium für Wirtschaft und Klimaschutz, y el cambio de «Klimaschutz» por
+        «Energie» en el título refleja un traslado real: la sección IX.1 llevó la protección
+        del clima y las asociaciones climáticas al ministerio de Medio Ambiente, por lo que
+        aquí no se etiqueta clima aunque el departamento predecesor lo tuviera. El
+        ministerio también perdió la política espacial, tecnológica y de innovación en favor
+        del ministerio de Investigación y la mayor parte de la política digital en favor del
+        nuevo ministerio de Digitalización, pero conservó el ramo postal, y por eso
+        telecommunications se etiqueta en el ministerio de Digitalización y no aquí.
+
+  - id: DE-2025-landwirtschaft-ernaehrung-heimat
+    order: 7
+    name_original: Bundesministerium für Landwirtschaft, Ernährung und Heimat
+    abbreviation_original: BMLEH
+    name_en: Federal Ministry of Agriculture, Food and Regional Identity
+    name_es: Ministerio Federal de Agricultura, Alimentación e Identidad Regional
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Bundesminister/in für Landwirtschaft, Ernährung und Heimat
+    head_title_en: Federal Minister
+    has_cabinet_seat: true
+    policy_areas: [agriculture, food_safety, regional_development, rural_development, forestry, fisheries, animal_welfare]
+    counts_as_ministry: true
+    url: https://www.bmleh.de
+    sources: [bgbl-2025-i-131, bgbl-2025-i-343-haushaltsgesetz-2026, bundesregierung-bundesministerien]
+    note:
+      en: >-
+        Renamed by section II.4 of the Organisationserlass of 6 May 2025 from
+        Bundesministerium für Ernährung und Landwirtschaft, with the word order reversed and
+        "Heimat" added; section VII then transferred the competences for equivalent living
+        conditions and regional culture across from the interior ministry. "Heimat" has no
+        equivalent in this project's policy-area vocabulary and no clean translation in
+        either site language — the Federal Government's own English usage is "Regional
+        Identity", which is what is used here. It is tagged regional_development as the
+        closest available id, and the gap is flagged in the curator's hand-off notes rather
+        than resolved by inventing a taxonomy id mid-fan-out.
+      es: >-
+        Renombrado por la sección II.4 del Organisationserlass del 6 de mayo de 2025 desde
+        Bundesministerium für Ernährung und Landwirtschaft, invirtiendo el orden de las
+        palabras y añadiendo «Heimat»; la sección VII le trasladó después desde el
+        ministerio del Interior las competencias sobre condiciones de vida equivalentes y
+        cultura regional. «Heimat» no tiene equivalente en el vocabulario de áreas de
+        política de este proyecto ni traducción limpia en ninguno de los dos idiomas del
+        sitio: el uso inglés propio del Gobierno Federal es «Regional Identity», que es el
+        empleado aquí. Se etiqueta como regional_development por ser el id más cercano
+        disponible, y la carencia se señala en las notas de entrega del curador en lugar de
+        resolverse inventando un id de taxonomía a mitad del reparto.
+
+  - id: DE-2025-arbeit-soziales
+    order: 8
+    name_original: Bundesministerium für Arbeit und Soziales
+    abbreviation_original: BMAS
+    name_en: Federal Ministry of Labour and Social Affairs
+    name_es: Ministerio Federal de Trabajo y Asuntos Sociales
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Bundesminister/in für Arbeit und Soziales
+    head_title_en: Federal Minister
+    has_cabinet_seat: true
+    policy_areas: [labour, social_affairs, social_security, disability, migration]
+    counts_as_ministry: true
+    url: https://www.bmas.de
+    sources: [bgbl-2025-i-343-haushaltsgesetz-2026, bundesregierung-bundesministerien]
+    note:
+      en: >-
+        Not renamed in 2025, but its remit grew: section VI of the Organisationserlass of
+        6 May 2025 moved the Federal Government Commissioner for Migration, Refugees and
+        Integration and the Commissioner against Racism out of the Chancellery into this
+        ministry, merged them, and put them in the hands of a Staatsministerin. The migration
+        tag here therefore covers integration policy, while asylum and migration law and the
+        federal migration office remain with the interior ministry — both ministries are
+        tagged migration, deliberately, because both hold primary competence over part of it.
+        The Staatsministerin herself is not recorded as an entity: she is subordinate to this
+        minister and inside this department.
+      es: >-
+        No fue renombrado en 2025, pero su ámbito creció: la sección VI del
+        Organisationserlass del 6 de mayo de 2025 trasladó a la comisionada del Gobierno
+        Federal para Migración, Refugiados e Integración y a la comisionada contra el racismo
+        desde la Cancillería a este ministerio, las fusionó y las puso en manos de una
+        Staatsministerin. La etiqueta migration cubre aquí por tanto la política de
+        integración, mientras que el derecho de asilo y migración y la oficina federal de
+        migración siguen en el ministerio del Interior: ambos ministerios llevan la etiqueta
+        migration, deliberadamente, porque ambos tienen competencia principal sobre una parte
+        de ella. La propia Staatsministerin no se registra como entidad: está subordinada a
+        este ministro y encuadrada en este departamento.
+
+  - id: DE-2025-verkehr
+    order: 9
+    name_original: Bundesministerium für Verkehr
+    abbreviation_original: BMV
+    name_en: Federal Ministry of Transport
+    name_es: Ministerio Federal de Transporte
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Bundesminister/in für Verkehr
+    head_title_en: Federal Minister
+    has_cabinet_seat: true
+    policy_areas: [transport, infrastructure, shipping]
+    counts_as_ministry: true
+    url: https://bmv.bund.de
+    sources: [bgbl-2025-i-131, bgbl-2025-i-343-haushaltsgesetz-2026, bundesregierung-bundesministerien]
+    note:
+      en: >-
+        Renamed by section II.6 of the Organisationserlass of 6 May 2025 from
+        Bundesministerium für Digitales und Verkehr: the digital half of the old department
+        was taken out and became the core of the new digital ministry, and section XII.3
+        moved digital and data policy and digital infrastructures there explicitly. Section
+        X.2 additionally moved earth observation, satellite navigation and communication and
+        advanced air mobility to the research ministry. What is left is a transport ministry
+        in the narrow sense, which is why neither digital nor space is tagged here.
+      es: >-
+        Renombrado por la sección II.6 del Organisationserlass del 6 de mayo de 2025 desde
+        Bundesministerium für Digitales und Verkehr: la mitad digital del antiguo departamento
+        se desgajó y pasó a ser el núcleo del nuevo ministerio de Digitalización, y la sección
+        XII.3 le trasladó allí expresamente la política digital y de datos y las
+        infraestructuras digitales. La sección X.2 llevó además la observación de la Tierra,
+        la navegación y comunicación por satélite y la movilidad aérea avanzada al ministerio
+        de Investigación. Lo que queda es un ministerio de transporte en sentido estricto, y
+        por eso aquí no se etiqueta ni digital ni espacio.
+
+  - id: DE-2025-verteidigung
+    order: 10
+    name_original: Bundesministerium der Verteidigung
+    abbreviation_original: BMVg
+    name_en: Federal Ministry of Defence
+    name_es: Ministerio Federal de Defensa
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Bundesminister/in der Verteidigung
+    head_title_en: Federal Minister
+    has_cabinet_seat: true
+    policy_areas: [defence]
+    counts_as_ministry: true
+    url: https://www.bmvg.de
+    sources: [bgbl-2025-i-343-haushaltsgesetz-2026, bundesregierung-bundesministerien]
+    note:
+      en: >-
+        Untouched by the Organisationserlass of 6 May 2025 except by way of exemption: it is
+        excluded from the transfer of official development assistance in section XI and from
+        the new digital ministry's veto over federal IT spending in section XIII. Its official
+        abbreviation is BMVg with a lower-case "g", which is the government's own spelling and
+        not a typing slip.
+      es: >-
+        No fue tocado por el Organisationserlass del 6 de mayo de 2025 salvo por vía de
+        excepción: queda excluido del traslado de la ayuda oficial al desarrollo de la sección
+        XI y del veto del nuevo ministerio de Digitalización sobre el gasto informático
+        federal de la sección XIII. Su abreviatura oficial es BMVg con «g» minúscula, que es
+        la grafía del propio gobierno y no un error de transcripción.
+
+  - id: DE-2025-gesundheit
+    order: 11
+    name_original: Bundesministerium für Gesundheit
+    abbreviation_original: BMG
+    name_en: Federal Ministry of Health
+    name_es: Ministerio Federal de Sanidad
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Bundesminister/in für Gesundheit
+    head_title_en: Federal Minister
+    has_cabinet_seat: true
+    policy_areas: [health]
+    counts_as_ministry: true
+    url: https://www.bundesgesundheitsministerium.de
+    sources: [bgbl-2025-i-343-haushaltsgesetz-2026, bundesregierung-bundesministerien, bmg-english-site]
+    note:
+      en: >-
+        The one department the Organisationserlass of 6 May 2025 does not mention anywhere:
+        it was neither created, renamed nor altered in competence, so the decree is silent
+        about it. That silence is precisely why this file needs a second tier-1 source. Its
+        entry here rests on Einzelplan 15 of the Haushaltsgesetz 2026, and it is the clearest
+        demonstration that a German Organisationserlass is a record of change rather than an
+        enumeration of the government.
+      es: >-
+        El único departamento que el Organisationserlass del 6 de mayo de 2025 no menciona en
+        ningún lugar: no fue creado, ni renombrado, ni alterado en competencias, de modo que
+        el decreto calla sobre él. Ese silencio es justamente la razón por la que este fichero
+        necesita una segunda fuente de nivel 1. Su entrada aquí se apoya en el Einzelplan 15
+        de la Ley de Presupuestos de 2026, y es la demostración más clara de que un
+        Organisationserlass alemán es un registro de cambios y no una enumeración del
+        gobierno.
+
+  - id: DE-2025-umwelt-klimaschutz
+    order: 12
+    name_original: Bundesministerium für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit
+    abbreviation_original: BMUKN
+    name_en: Federal Ministry for the Environment, Climate Action, Nature Conservation and Nuclear Safety
+    name_es: Ministerio Federal de Medio Ambiente, Protección del Clima, Conservación de la Naturaleza y Seguridad Nuclear
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Bundesminister/in für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit
+    head_title_en: Federal Minister
+    has_cabinet_seat: true
+    policy_areas: [environment, climate, water]
+    counts_as_ministry: true
+    url: https://www.bundesumweltministerium.de
+    sources: [bgbl-2025-i-131, bgbl-2025-i-343-haushaltsgesetz-2026, bundesregierung-bundesministerien]
+    note:
+      en: >-
+        Renamed by section II.7 of the Organisationserlass of 6 May 2025: "Verbraucherschutz"
+        was dropped and "Klimaschutz" gained, and both halves of that swap were real transfers
+        of competence, out to the justice ministry under section V and in from the economics
+        ministry and the Foreign Office under section IX. Germany therefore does have a
+        dedicated climate portfolio, and it moved department on 6 May 2025. Nuclear safety has
+        no id in this project's policy-area vocabulary; it is not tagged energy, because energy
+        policy sits with the economics ministry and nuclear safety here is regulatory
+        oversight. The missing id is flagged in the curator's hand-off notes.
+      es: >-
+        Renombrado por la sección II.7 del Organisationserlass del 6 de mayo de 2025: se
+        suprimió «Verbraucherschutz» y se ganó «Klimaschutz», y ambas mitades de ese
+        intercambio fueron traslados reales de competencia, hacia el ministerio de Justicia por
+        la sección V y desde el ministerio de Economía y el Auswärtiges Amt por la sección IX.
+        Alemania sí tiene por tanto una cartera climática propia, y cambió de departamento el
+        6 de mayo de 2025. La seguridad nuclear no tiene id en el vocabulario de áreas de
+        política de este proyecto; no se etiqueta como energía, porque la política energética
+        corresponde al ministerio de Economía y la seguridad nuclear es aquí supervisión
+        regulatoria. La carencia se señala en las notas de entrega del curador.
+
+  - id: DE-2025-bildung-familie-senioren-frauen-jugend
+    order: 13
+    name_original: Bundesministerium für Bildung, Familie, Senioren, Frauen und Jugend
+    abbreviation_original: BMBFSFJ
+    name_en: Federal Ministry of Education, Family Affairs, Senior Citizens, Women and Youth
+    name_es: Ministerio Federal de Educación, Familia, Mayores, Mujer y Juventud
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Bundesminister/in für Bildung, Familie, Senioren, Frauen und Jugend
+    head_title_en: Federal Minister
+    has_cabinet_seat: true
+    policy_areas: [education, family, elderly, equality, youth, vocational_training]
+    counts_as_ministry: true
+    url: https://www.bmbfsfj.bund.de
+    sources: [bgbl-2025-i-131, bgbl-2025-i-343-haushaltsgesetz-2026, bundesregierung-bundesministerien]
+    note:
+      en: >-
+        Renamed by section II.5 of the Organisationserlass of 6 May 2025, which prefixed
+        "Bildung" to the former Bundesministerium für Familie, Senioren, Frauen und Jugend;
+        section VIII then moved general, school and vocational education, lifelong learning and
+        the associated educational research and funding across from the research ministry. This
+        is the most consequential reshaping in the 2025 decree after the creation of the
+        digital ministry, and it is why education and vocational_training are tagged here
+        rather than to the research ministry, which kept science and higher education. Note the
+        federal limit: school education is substantively a competence of the Länder, and this
+        ministry holds the federal share of it only.
+      es: >-
+        Renombrado por la sección II.5 del Organisationserlass del 6 de mayo de 2025, que
+        antepuso «Bildung» al anterior Bundesministerium für Familie, Senioren, Frauen und
+        Jugend; la sección VIII le trasladó después desde el ministerio de Investigación la
+        educación general, escolar y profesional, el aprendizaje a lo largo de la vida y la
+        investigación y financiación educativas asociadas. Es la reconfiguración de mayor
+        alcance del decreto de 2025 después de la creación del ministerio de Digitalización, y
+        por eso education y vocational_training se etiquetan aquí y no en el ministerio de
+        Investigación, que conservó la ciencia y la enseñanza superior. Nótese el límite
+        federal: la educación escolar es sustancialmente competencia de los Länder, y este
+        ministerio ostenta únicamente la parte federal.
+
+  - id: DE-2025-wirtschaftliche-zusammenarbeit
+    order: 14
+    name_original: Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung
+    abbreviation_original: BMZ
+    name_en: Federal Ministry for Economic Cooperation and Development
+    name_es: Ministerio Federal de Cooperación Económica y Desarrollo
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Bundesminister/in für wirtschaftliche Zusammenarbeit und Entwicklung
+    head_title_en: Federal Minister
+    has_cabinet_seat: true
+    policy_areas: [development_cooperation]
+    counts_as_ministry: true
+    url: https://www.bmz.de
+    sources: [bgbl-2025-i-343-haushaltsgesetz-2026, bundesregierung-bundesministerien, bmz-english-site]
+    note:
+      en: >-
+        Section XI of the Organisationserlass of 6 May 2025 concentrated official development
+        assistance projects and programmes here from all other ministries, exempting the
+        Foreign Office, defence and research. The lower-case "w" in "wirtschaftliche" is the
+        government's own spelling of the department's name.
+      es: >-
+        La sección XI del Organisationserlass del 6 de mayo de 2025 concentró aquí los
+        proyectos y programas de ayuda oficial al desarrollo procedentes de todos los demás
+        ministerios, exceptuando el Auswärtiges Amt, Defensa e Investigación. La «w» minúscula
+        de «wirtschaftliche» es la grafía del propio gobierno para el nombre del departamento.
+
+  - id: DE-2025-digitales-staatsmodernisierung
+    order: 15
+    name_original: Bundesministerium für Digitales und Staatsmodernisierung
+    abbreviation_original: BMDS
+    name_en: Federal Ministry for Digital Transformation and Government Modernisation
+    name_es: Ministerio Federal de Digitalización y Modernización del Estado
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Bundesminister/in für Digitales und Staatsmodernisierung
+    head_title_en: Federal Minister
+    has_cabinet_seat: true
+    policy_areas: [digital, public_administration, telecommunications]
+    counts_as_ministry: true
+    url: https://www.bmds.bund.de
+    sources: [bgbl-2025-i-131, bgbl-2025-i-343-haushaltsgesetz-2026, bundesregierung-bundesministerien]
+    note:
+      en: >-
+        The only genuinely new department of this cabinet, created outright by section I of the
+        Organisationserlass of 6 May 2025 — "Es wird ein Bundesministerium für Digitales und
+        Staatsmodernisierung gebildet" — and assembled in section XII out of competences taken
+        from the Chancellery and five existing ministries: digital administration, federal IT
+        and its infrastructure, cybersecurity in the federal administration, the federal
+        networks, network infrastructures, digital and data policy, better regulation and the
+        reduction of bureaucracy, and the lead on implementing the EU AI Act. Section XIII gives
+        it a consent veto over all material IT spending of the direct federal administration,
+        with defence, police and intelligence and the tax administration carved out. Because it
+        did not exist before 6 May 2025 and this cabinet took office on that same date, no
+        valid_from is set: the entity is valid for the whole term. Its budget section, Einzelplan
+        24, appears in the Haushaltsgesetz 2026 with no comparative figure for 2025, which is
+        what a department created mid-year looks like in the gazette.
+      es: >-
+        El único departamento auténticamente nuevo de este gabinete, creado de raíz por la
+        sección I del Organisationserlass del 6 de mayo de 2025 — «Es wird ein
+        Bundesministerium für Digitales und Staatsmodernisierung gebildet» — y ensamblado en la
+        sección XII con competencias tomadas de la Cancillería y de cinco ministerios
+        existentes: administración digital, informática federal y su infraestructura,
+        ciberseguridad en la administración federal, las redes del Estado, infraestructuras de
+        red, política digital y de datos, mejora de la regulación y reducción de burocracia, y
+        la dirección de la aplicación del Reglamento europeo de IA. La sección XIII le otorga
+        un veto de conformidad sobre todo gasto informático relevante de la administración
+        federal directa, con excepción de defensa, policía e inteligencia y la administración
+        tributaria. Como no existía antes del 6 de mayo de 2025 y este gabinete tomó posesión
+        esa misma fecha, no se fija valid_from: la entidad es válida para toda la legislatura.
+        Su sección presupuestaria, el Einzelplan 24, figura en la Ley de Presupuestos de 2026
+        sin cifra comparativa para 2025, que es el aspecto que tiene en el boletín un
+        departamento creado a mitad de año.
+
+  - id: DE-2025-wohnen-stadtentwicklung-bauwesen
+    order: 16
+    name_original: Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen
+    abbreviation_original: BMWSB
+    name_en: Federal Ministry for Housing, Urban Development and Building
+    name_es: Ministerio Federal de Vivienda, Desarrollo Urbano y Construcción
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Bundesminister/in für Wohnen, Stadtentwicklung und Bauwesen
+    head_title_en: Federal Minister
+    has_cabinet_seat: true
+    policy_areas: [housing, spatial_planning, infrastructure]
+    counts_as_ministry: true
+    url: https://www.bmwsb.bund.de
+    sources: [bgbl-2025-i-343-haushaltsgesetz-2026, bundesregierung-bundesministerien]
+    note:
+      en: >-
+        Not renamed, but section XIV of the Organisationserlass of 6 May 2025 moved sustainable
+        urban development, structural change and the environmental aspects of spatial planning,
+        building law and land consumption across from the environment ministry, and section XV
+        abolished the office of the Federal Government Commissioner for the Berlin move and the
+        Bonn compensation and left its residual competences here.
+      es: >-
+        No fue renombrado, pero la sección XIV del Organisationserlass del 6 de mayo de 2025 le
+        trasladó desde el ministerio de Medio Ambiente el desarrollo urbano sostenible, el
+        cambio estructural y los aspectos ambientales de la ordenación del territorio, el
+        derecho urbanístico y el consumo de suelo, y la sección XV suprimió el cargo de
+        comisionado del Gobierno Federal para el traslado a Berlín y la compensación a Bonn,
+        dejando aquí sus competencias residuales.
+
+  - id: DE-2025-forschung-technologie-raumfahrt
+    order: 17
+    name_original: Bundesministerium für Forschung, Technologie und Raumfahrt
+    abbreviation_original: BMFTR
+    name_en: Federal Ministry of Research, Technology and Space
+    name_es: Ministerio Federal de Investigación, Tecnología y Espacio
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Bundesminister/in für Forschung, Technologie und Raumfahrt
+    head_title_en: Federal Minister
+    has_cabinet_seat: true
+    policy_areas: [research, innovation, space, higher_education]
+    counts_as_ministry: true
+    url: https://www.bmftr.bund.de
+    sources: [bgbl-2025-i-131, bgbl-2025-i-343-haushaltsgesetz-2026, bundesregierung-bundesministerien]
+    note:
+      en: >-
+        Renamed by section II.8 of the Organisationserlass of 6 May 2025 from the
+        Bundesministerium für Bildung und Forschung, and this is a case where a rename genuinely
+        changed the department. It lost general, school and vocational education to the education
+        and family ministry under section VIII, and gained space including the German Aerospace
+        Center, innovation and technology policy, digital-technology development, the high-tech
+        agenda, gigafactories, SPRIND and games from the economics ministry, plus earth
+        observation and satellite navigation from transport, under section X. Quantum
+        technologies and nuclear fusion were expressly confirmed as staying. Germany's federal
+        education portfolio and its research portfolio are therefore in different ministries
+        since 6 May 2025, which is unusual and is why education is not tagged here while
+        higher_education is.
+      es: >-
+        Renombrado por la sección II.8 del Organisationserlass del 6 de mayo de 2025 desde el
+        Bundesministerium für Bildung und Forschung, y es un caso en que el cambio de nombre sí
+        alteró el departamento. Perdió la educación general, escolar y profesional en favor del
+        ministerio de Educación y Familia por la sección VIII, y ganó el espacio incluido el
+        Centro Aeroespacial Alemán, la política de innovación y tecnología, el desarrollo de
+        tecnologías digitales, la agenda de alta tecnología, las gigafactorías, SPRIND y los
+        videojuegos desde el ministerio de Economía, más la observación de la Tierra y la
+        navegación por satélite desde Transporte, por la sección X. Las tecnologías cuánticas y
+        la fusión nuclear se confirmaron expresamente como permanentes. La cartera federal de
+        educación y la de investigación están por tanto en ministerios distintos desde el 6 de
+        mayo de 2025, lo que es inusual y explica que aquí no se etiquete education y sí
+        higher_education.
+
+  # --- recorded, not counted -----------------------------------------------------
+  - id: DE-2025-besondere-aufgaben
+    order: 18
+    name_original: Bundesminister/in für besondere Aufgaben (Chef/in des Bundeskanzleramtes)
+    abbreviation_original: null
+    name_en: Federal Minister for Special Tasks (Head of the Federal Chancellery)
+    name_es: Ministro/a Federal para Tareas Especiales (jefe/a de la Cancillería Federal)
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Bundesminister/in für besondere Aufgaben
+    head_title_en: Federal Minister for Special Tasks
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    url: https://www.bundesregierung.de/breg-de/bundesregierung/bundeskanzleramt
+    sources: [gg-art-62, bundesregierung-bundeskabinett, bundesregierung-kabinett-juli-2026]
+    note:
+      en: >-
+        A full member of the Federal Government with a cabinet seat and no ministry: this is
+        the second half of the German Chancellery problem, and it is what makes 16 ministries
+        coexist with 17 federal ministers. The Federal Government's cabinet page lists the
+        office as "Bundesminister für besondere Aufgaben/Chef des Bundeskanzleramtes", so one
+        person holds a ministerial appointment under Article 64 of the Basic Law and, by
+        Article 62, sits in the Federal Government, while administering the Chancellery rather
+        than a department. It is classified minister_without_portfolio rather than
+        head_of_government_office because the Chancellor's own seat is already recorded on the
+        Bundeskanzleramt entity above, and recording this office there as well would either
+        lose a real cabinet member or double-count the Chancellery. If a reader takes the view
+        that the Chancellery is a ministry, then this entity is its minister and Germany has
+        17 ministries — the two questions have the same answer and are stated together in the
+        first methodology note. No statutory basis for the title itself could be found: the
+        Bundesministergesetz regulates the status of members of the Federal Government without
+        naming ministers for special tasks, so this entity rests on Article 62 of the Basic
+        Law plus the Federal Government's own publications rather than on a provision that
+        creates the office.
+      es: >-
+        Miembro pleno del Gobierno Federal con asiento en el gabinete y sin ministerio: esta es
+        la segunda mitad del problema de la Cancillería alemana, y es lo que hace que 16
+        ministerios convivan con 17 ministros federales. La página del gabinete del Gobierno
+        Federal enumera el cargo como «Bundesminister für besondere Aufgaben/Chef des
+        Bundeskanzleramtes», de modo que una sola persona tiene un nombramiento ministerial al
+        amparo del artículo 64 de la Ley Fundamental y, por el artículo 62, forma parte del
+        Gobierno Federal, mientras administra la Cancillería y no un departamento. Se clasifica
+        como minister_without_portfolio y no como head_of_government_office porque el asiento
+        propio del canciller ya está registrado en la entidad Bundeskanzleramt anterior, y
+        registrar aquí también ese cargo perdería un miembro real del gabinete o contaría dos
+        veces la Cancillería. Si un lector sostiene que la Cancillería es un ministerio,
+        entonces esta entidad es su ministro y Alemania tiene 17 ministerios: las dos preguntas
+        tienen la misma respuesta y se exponen juntas en la primera nota metodológica. No se
+        halló base legal para el título mismo: la Bundesministergesetz regula el estatuto de
+        los miembros del Gobierno Federal sin nombrar a los ministros para tareas especiales,
+        por lo que esta entidad se apoya en el artículo 62 de la Ley Fundamental y en las
+        publicaciones del propio Gobierno Federal, y no en un precepto que cree el cargo.
+
+  - id: DE-2025-kultur-medien
+    order: 19
+    name_original: Der Beauftragte der Bundesregierung für Kultur und Medien
+    abbreviation_original: BKM
+    name_en: Federal Government Commissioner for Culture and the Media
+    name_es: Comisionado del Gobierno Federal para la Cultura y los Medios de Comunicación
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Staatsminister/in beim Bundeskanzler
+    head_title_en: Minister of State to the Federal Chancellor
+    has_cabinet_seat: false
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: junior_minister_or_state_secretary
+    url: https://kulturstaatsminister.de
+    sources: [gg-art-62, kulturstaatsminister-amt]
+    note:
+      en: >-
+        Recorded rather than omitted because it answers a question the ministry list otherwise
+        leaves hanging: Germany has no culture ministry, and this is where federal culture and
+        media policy lives. The office is a supreme federal authority with roughly 430 staff,
+        attached directly to the Chancellor and sitting inside Einzelplan 04. Its holder is a
+        Staatsminister, not a Bundesminister, so under Article 62 of the Basic Law he is not a
+        member of the Federal Government; he attends cabinet meetings without holding a seat in
+        it, which is why has_cabinet_seat is false. That is a judgement a careful curator could
+        make differently — counting attendance as a seat would publish 19 cabinet seats for
+        Germany instead of 18 — and it is stated in the methodology notes rather than settled
+        silently here. No policy area is tagged, because policy areas are only counted for
+        counted ministries; a reader looking for German federal culture policy in the
+        comparison views will correctly find no ministry holding it.
+      es: >-
+        Se registra en lugar de omitirse porque responde a una pregunta que la lista de
+        ministerios deja en el aire: Alemania no tiene ministerio de Cultura, y aquí es donde
+        reside la política federal de cultura y medios. El cargo encabeza una autoridad federal
+        suprema con unos 430 efectivos, adscrita directamente al canciller y situada dentro del
+        Einzelplan 04. Su titular es Staatsminister, no Bundesminister, de modo que conforme al
+        artículo 62 de la Ley Fundamental no es miembro del Gobierno Federal; asiste a las
+        reuniones del gabinete sin ocupar asiento en él, y por eso has_cabinet_seat es falso. Es
+        un juicio que otro curador cuidadoso podría resolver de otro modo — contar la asistencia
+        como asiento publicaría 19 asientos de gabinete para Alemania en vez de 18 — y consta en
+        las notas metodológicas en lugar de zanjarse aquí en silencio. No se etiqueta ninguna
+        área de política, porque las áreas sólo se cuentan para los ministerios contados; quien
+        busque la política cultural federal alemana en las vistas comparativas encontrará
+        correctamente que ningún ministerio la ostenta.

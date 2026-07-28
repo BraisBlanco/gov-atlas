@@ -1,0 +1,957 @@
+# Netherlands — government structure of the kabinet-Jetten.
+#
+# See docs/DATA-CONTRACT.md. Three things worth knowing before reading the list:
+#
+#   1. The Netherlands has no statute that enumerates its ministries. Article 44 of the
+#      Grondwet says ministries are established by koninklijk besluit, one at a time, so
+#      the "official list" only exists as the accumulated stock of those decrees. The
+#      enumerating instrument used here is article 2 of the Vervangingsregeling KB of
+#      23 February 2026, which names every minister of this cabinet in precedence order
+#      and — because it is built around "de staatssecretaris van hetzelfde ministerie" —
+#      separates the twelve ministers who lead a ministry (a to l) from the six who do
+#      not (m to r). The official list of twelve ministries on rijksoverheid.nl agrees.
+#   2. The 23 February 2026 reorganisation is why this cabinet has fewer ministries than
+#      its predecessor: three ministries were abolished and their portfolios continue as
+#      ministers zonder portefeuille inside surviving departments. Any description of the
+#      Dutch government written before that date counts three more ministries.
+#   3. The Ministerie van Algemene Zaken is counted. It is a ministry in Dutch law and in
+#      the government's own list, and it is also the Prime Minister's own department — see
+#      the first methodology note for the figure a reader gets by excluding it.
+
+country: NL
+cabinet_id: NL-2026-02-23
+
+cabinet_name_original: Kabinet-Jetten
+cabinet_name_en: Jetten cabinet
+cabinet_name_es: Gabinete Jetten
+
+head_of_government_title_original: Minister-President
+head_of_government_title_en: Prime Minister
+
+took_office: 2026-02-23
+left_office: null
+
+methodology_notes:
+  - en: >-
+      The Netherlands is counted here as having 12 ministries, and the Ministerie van
+      Algemene Zaken is one of them. Excluding it as the office of the head of government,
+      the way this project excludes Spain's Presidencia del Gobierno, would give 11. It is
+      counted because Dutch law does not treat it as an office attached to the Prime
+      Minister but as a ministry like any other: article 44 of the Grondwet provides that
+      ministries are established by royal decree and are headed by a minister, the Prime
+      Minister's full title is "Minister-President, Minister van Algemene Zaken", the
+      department appears in the government's own list of ministries at rijksoverheid.nl
+      and in the English list at government.nl, and it carries its own chapter in the
+      annual budget. This is the case the exclusion reason head_of_government_office
+      describes as contested, and both figures are published here so a reader can choose:
+      12 ministries including Algemene Zaken, 11 excluding it.
+    es: >-
+      Aquí se cuentan 12 ministerios para los Países Bajos, y el Ministerie van Algemene
+      Zaken es uno de ellos. Excluirlo como oficina del jefe de gobierno, tal como este
+      proyecto excluye la Presidencia del Gobierno española, daría 11. Se cuenta porque el
+      derecho neerlandés no lo trata como un cargo adscrito al primer ministro sino como
+      un ministerio más: el artículo 44 de la Grondwet establece que los ministerios se
+      crean por real decreto y están dirigidos por un ministro, el título completo del
+      primer ministro es «Minister-President, Minister van Algemene Zaken», el
+      departamento figura en la lista oficial de ministerios de rijksoverheid.nl y en la
+      lista inglesa de government.nl, y tiene su propio capítulo en el presupuesto anual.
+      Este es el supuesto que el motivo de exclusión head_of_government_office califica de
+      discutido, y aquí se publican ambas cifras para que el lector elija: 12 ministerios
+      contando Algemene Zaken, 11 sin contarlo.
+  - en: >-
+      12 ministries but 18 cabinet seats. Six of the eighteen ministers are ministers
+      zonder portefeuille: they hold full ministerial rank and a seat in the ministerraad
+      but lead no department of their own, working instead inside an existing ministry.
+      Article 44(2) of the Grondwet provides for exactly this ("Ook kunnen ministers worden
+      benoemd die niet belast zijn met de leiding van een ministerie"), and article 3 of
+      the appointment decree of 23 February 2026 appoints all six by name. They are the
+      ministers for Buitenlandse Handel en Ontwikkelingssamenwerking (inside Buitenlandse
+      Zaken), Asiel en Migratie (inside Justitie en Veiligheid), Volkshuisvesting en
+      Ruimtelijke Ordening (inside Binnenlandse Zaken en Koninkrijksrelaties), Klimaat en
+      Groene Groei (inside Economische Zaken en Klimaat), Werk en Participatie (inside
+      Sociale Zaken en Werkgelegenheid) and Langdurige Zorg, Jeugd en Sport (inside
+      Volksgezondheid, Welzijn en Sport). Each is recorded below, not counted as a
+      ministry, and each adds one cabinet seat. 12 + 6 = 18; the two numbers are never
+      added together.
+    es: >-
+      12 ministerios pero 18 asientos en el gabinete. Seis de los dieciocho ministros son
+      ministers zonder portefeuille (ministros sin cartera): tienen rango ministerial
+      pleno y asiento en el ministerraad, pero no dirigen ningún departamento propio y
+      trabajan dentro de un ministerio existente. El artículo 44.2 de la Grondwet prevé
+      precisamente esto («Ook kunnen ministers worden benoemd die niet belast zijn met de
+      leiding van een ministerie»), y el artículo 3 del real decreto de nombramiento de 23
+      de febrero de 2026 los nombra a los seis. Son los ministros de Buitenlandse Handel en
+      Ontwikkelingssamenwerking (dentro de Buitenlandse Zaken), Asiel en Migratie (dentro
+      de Justitie en Veiligheid), Volkshuisvesting en Ruimtelijke Ordening (dentro de
+      Binnenlandse Zaken en Koninkrijksrelaties), Klimaat en Groene Groei (dentro de
+      Economische Zaken en Klimaat), Werk en Participatie (dentro de Sociale Zaken en
+      Werkgelegenheid) y Langdurige Zorg, Jeugd en Sport (dentro de Volksgezondheid,
+      Welzijn en Sport). Cada uno se registra abajo, no se cuenta como ministerio y suma un
+      asiento. 12 + 6 = 18; las dos cifras nunca se suman.
+  - en: >-
+      The cabinet also has 10 staatssecretarissen, so sources reporting "28
+      bewindspersonen" are counting ministers plus state secretaries. They are not recorded
+      as entities here, and the reading taken is that a staatssecretaris holds no cabinet
+      seat. Article 45(1) of the Grondwet is explicit that it is the ministers who form
+      the ministerraad ("De ministers vormen te zamen de ministerraad"); article 46(2)
+      makes a staatssecretaris act in the minister's place only "in de gevallen waarin de
+      minister het nodig acht", and article 1 of the Vervangingsregeling of 23 February
+      2026 adds that in those cases the state secretary may attend the ministerraad only
+      with an advisory vote ("met raadgevende stem"). A staatssecretaris is therefore
+      neither a department nor a member of the cabinet, and would change neither published
+      figure. Readers who want the larger number should use 28 bewindspersonen: 12
+      departmental ministers, 6 ministers zonder portefeuille and 10 staatssecretarissen.
+    es: >-
+      El gabinete cuenta además con 10 staatssecretarissen, de modo que las fuentes que
+      hablan de «28 bewindspersonen» suman ministros y secretarios de Estado. Aquí no se
+      registran como entidades, y la lectura adoptada es que un staatssecretaris no ocupa
+      asiento en el gabinete. El artículo 45.1 de la Grondwet es explícito en que son los
+      ministros quienes forman el ministerraad («De ministers vormen te zamen de
+      ministerraad»); el artículo 46.2 hace que el staatssecretaris actúe en lugar del
+      ministro sólo «in de gevallen waarin de minister het nodig acht», y el artículo 1 de
+      la Vervangingsregeling de 23 de febrero de 2026 añade que en esos casos puede asistir
+      al ministerraad únicamente con voz consultiva («met raadgevende stem»). Un
+      staatssecretaris no es, por tanto, ni un departamento ni miembro del gabinete, y no
+      alteraría ninguna de las dos cifras publicadas. Quien busque la cifra mayor debe usar
+      28 bewindspersonen: 12 ministros departamentales, 6 ministros sin cartera y 10
+      secretarios de Estado.
+  - en: >-
+      Two ministers also hold the rank of Vice-Minister-President: the Minister van
+      Defensie and the minister zonder portefeuille for Asiel en Migratie, appointed as
+      such by article 4 of the decree of 23 February 2026. A vice-premiership is a personal
+      rank attached to a serving minister, not a department, so it adds neither a ministry
+      nor a cabinet seat. Note that one of the two vice-premiers heads no ministry at all;
+      he is recorded once, as a minister zonder portefeuille.
+    es: >-
+      Dos ministros ostentan además el rango de Vice-Minister-President: el ministro de
+      Defensie y el ministro sin cartera de Asiel en Migratie, nombrados como tales por el
+      artículo 4 del real decreto de 23 de febrero de 2026. La vicepresidencia es un rango
+      personal adscrito a un ministro en ejercicio, no un departamento, por lo que no añade
+      ni ministerio ni asiento en el gabinete. Nótese que uno de los dos vicepresidentes no
+      dirige ningún ministerio; se registra una sola vez, como ministro sin cartera.
+  - en: >-
+      Three of the twelve ministries carry titles that changed on 23 February 2026, and the
+      change is the reason the Dutch count fell. The decree of that date charged Justitie
+      en Veiligheid with everything belonging to the Ministerie van Asiel en Migratie,
+      Binnenlandse Zaken en Koninkrijksrelaties with everything belonging to the Ministerie
+      van Volkshuisvesting en Ruimtelijke Ordening, and Economische Zaken en Klimaat with
+      everything belonging to the Ministerie van Klimaat en Groene Groei, and then
+      abolished all three ministries. A separate decree of the same date renamed the
+      Ministerie van Economische Zaken to Ministerie van Economische Zaken en Klimaat, and
+      a third moved digital affairs from Binnenlandse Zaken en Koninkrijksrelaties to
+      Economische Zaken en Klimaat and circular-economy policy from Infrastructuur en
+      Waterstaat to the minister for Klimaat en Groene Groei. No ministry was created. Any
+      source describing the Dutch government before 23 February 2026 therefore lists three
+      more ministries than this file does, and does not use the name Economische Zaken en
+      Klimaat.
+    es: >-
+      Tres de los doce ministerios llevan denominaciones que cambiaron el 23 de febrero de
+      2026, y ese cambio es la razón de que la cifra neerlandesa haya bajado. El real
+      decreto de esa fecha encargó a Justitie en Veiligheid todos los asuntos del
+      Ministerie van Asiel en Migratie, a Binnenlandse Zaken en Koninkrijksrelaties todos
+      los del Ministerie van Volkshuisvesting en Ruimtelijke Ordening y a Economische Zaken
+      en Klimaat todos los del Ministerie van Klimaat en Groene Groei, y a continuación
+      suprimió los tres ministerios. Otro real decreto de la misma fecha renombró el
+      Ministerie van Economische Zaken como Ministerie van Economische Zaken en Klimaat, y
+      un tercero trasladó los asuntos digitales de Binnenlandse Zaken en Koninkrijksrelaties
+      a Economische Zaken en Klimaat y la política de economía circular de Infrastructuur en
+      Waterstaat al ministro de Klimaat en Groene Groei. No se creó ningún ministerio. Por
+      tanto, cualquier fuente que describa el gobierno neerlandés antes del 23 de febrero de
+      2026 enumera tres ministerios más que este fichero y no usa el nombre Economische
+      Zaken en Klimaat.
+  - en: >-
+      There is no Dutch legal instrument that lists the ministries in one place, so the
+      enumeration here is assembled rather than copied. Article 44(1) of the Grondwet
+      establishes ministries by individual royal decree, which means the current set is
+      the accumulated stock of decrees rather than a schedule to a statute. The instrument
+      used as the enumerating source is article 2 of the Vervangingsregeling in geval van
+      tijdelijke afwezigheid van een minister 2026: it names all eighteen ministers in
+      precedence order, and its own structure — a minister is first replaced by "de
+      staatssecretaris van hetzelfde ministerie" — distinguishes the twelve who lead a
+      ministry from the six who do not. The government's own list of ministries at
+      rijksoverheid.nl and its English counterpart at government.nl both contain exactly
+      the same twelve, so the derived count of 12 matches every official source consulted.
+      The annual budget laws are also an enumeration of departments in Dutch practice, but
+      the 2026 budget was enacted before the February 2026 reorganisation and still carries
+      separate chapters for the three abolished ministries; it was therefore not used.
+    es: >-
+      No existe un instrumento jurídico neerlandés que enumere los ministerios en un solo
+      lugar, de modo que la enumeración aquí se compone en lugar de copiarse. El artículo
+      44.1 de la Grondwet crea los ministerios mediante reales decretos individuales, con
+      lo que el conjunto vigente es el acumulado de esos decretos y no un anexo de una ley.
+      El instrumento usado como fuente enumeradora es el artículo 2 de la Vervangingsregeling
+      in geval van tijdelijke afwezigheid van een minister 2026: nombra a los dieciocho
+      ministros por orden de precedencia y su propia estructura —un ministro es sustituido
+      en primer lugar por «de staatssecretaris van hetzelfde ministerie»— distingue a los
+      doce que dirigen un ministerio de los seis que no. La lista oficial de ministerios de
+      rijksoverheid.nl y su equivalente inglesa de government.nl contienen exactamente los
+      mismos doce, por lo que el recuento derivado de 12 coincide con todas las fuentes
+      oficiales consultadas. Las leyes de presupuestos anuales también son una enumeración
+      de departamentos en la práctica neerlandesa, pero el presupuesto de 2026 se aprobó
+      antes de la reorganización de febrero de 2026 y todavía contiene capítulos separados
+      para los tres ministerios suprimidos; por eso no se ha utilizado.
+  - en: >-
+      Perimeter. This file describes the central government of the Netherlands, the country
+      whose government sits in The Hague. Aruba, Curaçao and Sint Maarten are separate
+      countries of the Kingdom of the Netherlands with their own governments and their own
+      ministers, and they are out of scope; their Gevolmachtigde Ministers, who appear in
+      the closing formula of every decree cited here, are not ministers of this cabinet and
+      are not recorded. Kingdom affairs are a portfolio of the Ministerie van Binnenlandse
+      Zaken en Koninkrijksrelaties. The population figure in data/countries/NL.yml is on the
+      same perimeter.
+    es: >-
+      Perímetro. Este fichero describe el gobierno central de los Países Bajos, el país
+      cuyo gobierno tiene su sede en La Haya. Aruba, Curazao y San Martín son países
+      distintos del Reino de los Países Bajos, con sus propios gobiernos y sus propios
+      ministros, y quedan fuera de alcance; sus Gevolmachtigde Ministers, que aparecen en
+      la fórmula final de todos los reales decretos aquí citados, no son ministros de este
+      gabinete y no se registran. Los asuntos del Reino son una cartera del Ministerie van
+      Binnenlandse Zaken en Koninkrijksrelaties. La cifra de población de
+      data/countries/NL.yml se refiere al mismo perímetro.
+  - en: >-
+      English ministry names are the Dutch government's own. All twelve are taken verbatim
+      from government.nl, the English-language edition of rijksoverheid.nl, and are marked
+      name_en_provenance: official. The English and Spanish titles of the six ministers
+      zonder portefeuille, and all Spanish names, are this project's renderings and are
+      marked translated.
+    es: >-
+      Los nombres ingleses de los ministerios son los del propio gobierno neerlandés. Los
+      doce se toman literalmente de government.nl, la edición en inglés de rijksoverheid.nl,
+      y llevan name_en_provenance: official. Los títulos en inglés y español de los seis
+      ministros sin cartera, y todos los nombres en español, son traducciones de este
+      proyecto y llevan la marca translated.
+
+sources:
+  - id: stcrt-2026-8194
+    tier: 1
+    type: official_gazette
+    publisher: Staatscourant van het Koninkrijk der Nederlanden
+    title: >-
+      Besluit van 23 februari 2026, nr. 2026000417, houdende wijziging van de
+      vervangingsregeling in geval van tijdelijke afwezigheid van een minister
+      (Vervangingsregeling in geval van tijdelijke afwezigheid van een minister 2026)
+    url: https://zoek.officielebekendmakingen.nl/stcrt-2026-8194.html
+    archive_url: https://web.archive.org/web/20260727183016/https://zoek.officielebekendmakingen.nl/stcrt-2026-8194.html
+    lang: nl
+    published: 2026-02-24
+    accessed: 2026-07-27
+    quote: |-
+      Artikel 2
+      Bij gelijktijdige afwezigheid van een minister en een staatssecretaris, alsmede bij afwezigheid van een minister in het geval er geen staatssecretaris van hetzelfde ministerie is, dan wel indien een minister door ziekte of om een andere reden tijdelijk niet in de gelegenheid is zijn taak uit te oefenen en aanwijzingen aan de staatssecretaris van hetzelfde ministerie te geven, wordt deze vervangen door een andere minister met dien verstande dat:
+      a. De Minister-President, Minister van Algemene Zaken wordt vervangen door D. Yeşilgöz-Zegerius, bij haar afwezigheid door G. van den Brink en bij zijn afwezigheid door de oudst aanwezige minister in jaren;
+      b. De Minister van Buitenlandse Zaken door D. Yeşilgöz-Zegerius;
+      c. De Minister van Justitie en Veiligheid door G. van den Brink;
+      d. De Minister van Binnenlandse Zaken en Koninkrijksrelaties door E. Boekholt-O’Sullivan;
+      e. De Minister van Onderwijs, Cultuur en Wetenschap door S.Th.M. Hermans;
+      f. De Minister van Financiën door H.G. Herbert;
+      g. De Minister van Defensie door T.B.W. Berendsen;
+      h. De Minister van Infrastructuur en Waterstaat door S. van Veldhoven-van der Meer;
+      i. De Minister van Economische Zaken en Klimaat door E. Heinen;
+      j. De Minister van Landbouw, Visserij, Voedselzekerheid en Natuur door E. Boekholt-O’Sullivan;
+      k. De Minister van Sociale Zaken en Werkgelegenheid door A.A. Aartsen;
+      l. De Minister van Volksgezondheid, Welzijn en Sport door W.R.C. Sterk;
+      m. De Minister van Buitenlandse Handel en Ontwikkelingssamenwerking door T.B.W. Berendsen;
+      n. De Minister van Asiel en Migratie door D.M. van Weel;
+      o. De Minister van Volkshuisvesting en Ruimtelijke Ordening door P.E. Heerma;
+      p. De Minister van Klimaat en Groene Groei door H.G. Herbert;
+      q. De Minister van Werk en Participatie door J.A. Vijlbrief;
+      r. De Minister van Langdurige Zorg, Jeugd en Sport door S.Th.M. Hermans.
+    note: >-
+      The enumerating instrument for this cabinet, and the source of the listing order
+      below. Because the Netherlands establishes each ministry by a separate royal decree
+      under article 44 of the Grondwet, no single instrument lists the ministries; this
+      one lists every minister in precedence order and, by resting on "de staatssecretaris
+      van hetzelfde ministerie", separates the twelve ministers who lead a ministry
+      (items a to l) from the six ministers zonder portefeuille (items m to r). Article 1,
+      not quoted in full here, also establishes that a state secretary who stands in for
+      an absent minister may take part in the ministerraad "met raadgevende stem" only.
+      This decree replaced the corresponding decree of 2 July 2024 (nr. 2024001723) and
+      took effect retroactively to 23 February 2026.
+
+  - id: stcrt-2026-8177
+    tier: 1
+    type: official_gazette
+    publisher: Staatscourant van het Koninkrijk der Nederlanden
+    title: >-
+      Besluit van 23 februari 2026, nr. 2026000404, houdende herindeling aangelegenheden
+      betreffende de Ministeries van Asiel en Migratie, van Volkshuisvesting en Ruimtelijke
+      Ordening en van Klimaat en Groene Groei en opheffing van deze ministeries
+    url: https://zoek.officielebekendmakingen.nl/stcrt-2026-8177.html
+    archive_url: https://web.archive.org/web/20260727182708/https://zoek.officielebekendmakingen.nl/stcrt-2026-8177.html
+    lang: nl
+    published: 2026-02-24
+    accessed: 2026-07-27
+    quote: |-
+      Artikel 1
+      1. Het Ministerie van Justitie en Veiligheid wordt belast met de behartiging van alle aangelegenheden die het Ministerie van Asiel en Migratie betreffen.
+      2. Het Ministerie van Binnenlandse Zaken en Koninkrijksrelaties wordt belast met de behartiging van alle aangelegenheden die het Ministerie van Volkshuisvesting en Ruimtelijke Ordening betreffen.
+      3. Het Ministerie van Economische Zaken en Klimaat wordt belast met de behartiging van alle aangelegenheden die het Ministerie van Klimaat en Groene Groei betreffen.
+      Artikel 2
+      Het Ministerie van Asiel en Migratie, het Ministerie van Volkshuisvesting en Ruimtelijke Ordening en het Ministerie van Klimaat en Groene Groei worden opgeheven.
+    note: >-
+      The instrument that reduced the number of Dutch ministries. It abolishes three
+      ministries and creates none, and it transfers their subject-matter to three surviving
+      departments; the three portfolios themselves continue as ministers zonder
+      portefeuille appointed the same day. Took effect on the second day after the
+      Staatscourant of publication, retroactive to 23 February 2026.
+
+  - id: stcrt-2026-8178
+    tier: 1
+    type: official_gazette
+    publisher: Staatscourant van het Koninkrijk der Nederlanden
+    title: >-
+      Besluit van 23 februari 2026, nr. 2026000405, houdende niet verlening van ontslag aan
+      vier ministers alsmede benoeming van dertien nieuwe ministers en twee
+      Vice-Minister-Presidenten
+    url: https://zoek.officielebekendmakingen.nl/stcrt-2026-8178.html
+    archive_url: https://web.archive.org/web/20260727182729/https://zoek.officielebekendmakingen.nl/stcrt-2026-8178.html
+    lang: nl
+    published: 2026-02-24
+    accessed: 2026-07-27
+    quote: |-
+      Artikel 3
+      Met ingang van heden te benoemen tot minister zonder portefeuille:
+      S.W. Sjoerdsma, en hem te belasten met de aangelegenheden betreffende Buitenlandse Handel en Ontwikkelingssamenwerking;
+      G. van den Brink, en hem te belasten met de aangelegenheden betreffende Asiel en Migratie;
+      E. Boekholt-O’Sullivan, en haar te belasten met de aangelegenheden betreffende Volkshuisvesting en Ruimtelijke Ordening;
+      S. van Veldhoven-van der Meer, en haar te belasten met de aangelegenheden betreffende Klimaat en Groene Groei;
+      A.A. Aartsen, en hem te belasten met de aangelegenheden betreffende Werk en Participatie;
+      W.R.C. Sterk, en haar te belasten met de aangelegenheden betreffende Langdurige Zorg, Jeugd en Sport.
+      Artikel 4
+      Met ingang van heden te benoemen tot Vice-Minister-President:
+      Onze Minister van Defensie, D. Yeşilgöz-Zegerius;
+      Onze Minister van Asiel en Migratie, G. van den Brink.
+    note: >-
+      Cited for the six ministers zonder portefeuille and for the two vice-premierships.
+      Article 2, not quoted here, appoints seven ministers and charges each with "de
+      leiding van het Ministerie van ..." — the wording that distinguishes a departmental
+      minister from a minister zonder portefeuille, who is instead charged with "de
+      aangelegenheden betreffende ...". Article 1 keeps four ministers of the outgoing
+      kabinet-Schoof in office and reassigns them to different departments. This dataset
+      records departments, not officeholders, so the names appear only in quotations.
+
+  - id: stcrt-2026-8176
+    tier: 1
+    type: official_gazette
+    publisher: Staatscourant van het Koninkrijk der Nederlanden
+    title: >-
+      Besluit van 23 februari 2026, nr. 2026000403, houdende naamswijziging van het
+      Ministerie van Economische Zaken
+    url: https://zoek.officielebekendmakingen.nl/stcrt-2026-8176.html
+    archive_url: https://web.archive.org/web/20260727182810/https://zoek.officielebekendmakingen.nl/stcrt-2026-8176.html
+    lang: nl
+    published: 2026-02-24
+    accessed: 2026-07-27
+    quote: >-
+      De naam van het Ministerie van Economische Zaken te wijzigen in: Ministerie van
+      Economische Zaken en Klimaat.
+    note: >-
+      A rename, not a new department: the Ministerie van Economische Zaken of the
+      kabinet-Schoof and the Ministerie van Economische Zaken en Klimaat of this cabinet
+      are the same body. Recorded as a single entity under the new name, per the
+      data contract's rule that a rename is a fact rather than a typo.
+
+  - id: stcrt-2026-8180
+    tier: 1
+    type: official_gazette
+    publisher: Staatscourant van het Koninkrijk der Nederlanden
+    title: >-
+      Besluit van 23 februari 2026, nr. 2026000406, houdende departementale herindelingen
+      met betrekking tot digitale zaken en circulaire economie
+    url: https://zoek.officielebekendmakingen.nl/stcrt-2026-8180.html
+    archive_url: https://web.archive.org/web/20260727182929/https://zoek.officielebekendmakingen.nl/stcrt-2026-8180.html
+    lang: nl
+    published: 2026-02-24
+    accessed: 2026-07-27
+    quote: |-
+      Artikel 1
+      Onze Minister van Economische Zaken en Klimaat wordt belast met de behartiging van de aangelegenheden op het terrein van digitale zaken voor zover deze voor 23 februari 2026 waren opgedragen aan Onze Minister van Binnenlandse Zaken en Koninkrijksrelaties.
+      Artikel 2
+      De taken van het Ministerie van Binnenlandse Zaken en Koninkrijksrelaties worden dienovereenkomstig gewijzigd.
+      Artikel 3
+      De organisatorische, personele en rechtspositionele aspecten van de in de artikelen 1 en 2 bedoelde herindeling van departementale taken worden uitgewerkt in overleg tussen Onze Minister van Economische Zaken en Klimaat en Onze Minister van Binnenlandse Zaken en Koninkrijksrelaties.
+      Artikel 4
+      Onze Minister van Klimaat en Groene Groei wordt belast met de behartiging van de aangelegenheden op het terrein van het beleid ten aanzien van circulaire economie voor zover deze voor 23 februari 2026 waren opgedragen aan Onze Minister van Infrastructuur en Waterstaat.
+      Artikel 5
+      De taken van het Ministerie van Infrastructuur en Waterstaat worden dienovereenkomstig gewijzigd.
+    note: >-
+      Cited for two portfolio transfers that change how the policy areas below are tagged:
+      digital affairs moved from Binnenlandse Zaken en Koninkrijksrelaties to Economische
+      Zaken en Klimaat, and circular-economy policy moved from Infrastructuur en Waterstaat
+      to the minister for Klimaat en Groene Groei, who works inside Economische Zaken en
+      Klimaat. No ministry was created or abolished by this decree.
+
+  - id: grondwet-2023-02-22
+    tier: 1
+    type: statute
+    publisher: Overheid.nl — Wettenbank (wetten.overheid.nl)
+    title: Grondwet voor het Koninkrijk der Nederlanden (geconsolideerde tekst)
+    url: https://wetten.overheid.nl/BWBR0001840/2023-02-22
+    archive_url: https://web.archive.org/web/20260721143124/https://wetten.overheid.nl/BWBR0001840/2023-02-22
+    lang: nl
+    published: 2023-02-22
+    accessed: 2026-07-27
+    quote: |-
+      Artikel 44
+      Bij koninklijk besluit worden ministeries ingesteld. Zij staan onder leiding van een minister.
+      Ook kunnen ministers worden benoemd die niet belast zijn met de leiding van een ministerie.
+      Artikel 45
+      De ministers vormen te zamen de ministerraad.
+      De minister-president is voorzitter van de ministerraad.
+      De ministerraad beraadslaagt en besluit over het algemeen regeringsbeleid en bevordert de eenheid van dat beleid.
+      Artikel 46
+      Bij koninklijk besluit kunnen staatssecretarissen worden benoemd en ontslagen.
+      Een staatssecretaris treedt in de gevallen waarin de minister het nodig acht en met inachtneming van diens aanwijzingen, in zijn plaats als minister op. De staatssecretaris is uit dien hoofde verantwoordelijk, onverminderd de verantwoordelijkheid van de minister.
+    note: >-
+      The constitutional basis for all three classification decisions in this file: article
+      44(1) makes a ministry a body established by royal decree and headed by a minister
+      (which is why Algemene Zaken is counted), article 44(2) provides for ministers who
+      lead no ministry (which is why the six ministers zonder portefeuille are recorded but
+      not counted), and article 45(1) makes the ministers, and only the ministers, the
+      members of the ministerraad (which is why cabinet_seats_count is 18 and why
+      staatssecretarissen hold no seat). Consolidated text as in force from 22 February
+      2023, the version current on the date of access. The quote reproduces each lid
+      (paragraph) of articles 44, 45 and 46 on its own line, in order, without adding lid
+      numbers: wetten.overheid.nl renders the numbers as separate labels, so writing "1."
+      inline would put a character in the quotation that is not in the source. Read them as
+      44(1), 44(2), 45(1), 45(2), 45(3), 46(1), 46(2).
+
+  - id: rijksoverheid-ministeries
+    tier: 2
+    type: government_website
+    publisher: Rijksoverheid
+    title: Ministeries — overzicht van de ministeries van de Rijksoverheid
+    url: https://www.rijksoverheid.nl/ministeries
+    archive_url: https://web.archive.org/web/20260725141841/https://www.rijksoverheid.nl/ministeries
+    lang: nl
+    published: null
+    accessed: 2026-07-27
+    quote: |-
+      Ministerie van Algemene Zaken
+      Ministerie van Binnenlandse Zaken en Koninkrijksrelaties
+      Ministerie van Buitenlandse Zaken
+      Ministerie van Defensie
+      Ministerie van Economische Zaken en Klimaat
+      Ministerie van Financiën
+      Ministerie van Infrastructuur en Waterstaat
+      Ministerie van Justitie en Veiligheid
+      Ministerie van Landbouw, Visserij, Voedselzekerheid en Natuur
+      Ministerie van Onderwijs, Cultuur en Wetenschap
+      Ministerie van Sociale Zaken en Werkgelegenheid
+      Ministerie van Volksgezondheid, Welzijn en Sport
+    note: >-
+      The government's own list of its ministries, and the corroboration that the derived
+      count of 12 is not an artefact of how the royal decrees were read: exactly these
+      twelve, listed alphabetically rather than in precedence order, and none of the three
+      ministries abolished in February 2026. The snapshot is from 25 July 2026, two days
+      before the access date. Cited as the source of each ministry's Dutch spelling.
+
+  - id: government-nl-ministries
+    tier: 2
+    type: government_website
+    publisher: Government of the Netherlands (government.nl)
+    title: Ministries — the twelve ministries of the Dutch central government
+    url: https://www.government.nl/ministries
+    archive_url: https://web.archive.org/web/20260726181618/https://www.government.nl/ministries
+    lang: en
+    published: null
+    accessed: 2026-07-27
+    quote: |-
+      Ministry of General Affairs
+      Ministry of Agriculture, Fisheries, Food Security and Nature
+      Ministry of Defence
+      Ministry of Economic Affairs and Climate
+      Ministry of Education, Culture and Science
+      Ministry of Finance
+      Ministry of Foreign Affairs
+      Ministry of Health, Welfare and Sport
+      Ministry of Infrastructure and Water Management
+      Ministry of the Interior and Kingdom Relations
+      Ministry of Justice and Security
+      Ministry of Social Affairs and Employment
+    note: >-
+      government.nl is the English-language edition of rijksoverheid.nl, published by the
+      Dutch government itself, which is what makes name_en_provenance "official" for all
+      twelve ministries rather than "translated". Every English ministry name in this file
+      is copied from this list character for character. The site publishes no English name
+      for a minister zonder portefeuille as a body, so those six English titles are this
+      project's own and are marked translated. Snapshot of 26 July 2026.
+
+  - id: rijksoverheid-bewindspersonen
+    tier: 2
+    type: government_website
+    publisher: Rijksoverheid
+    title: Bewindspersonen — alle ministers en staatssecretarissen van het kabinet-Jetten
+    url: https://www.rijksoverheid.nl/regering/bewindspersonen
+    archive_url: https://web.archive.org/web/20260725141849/https://www.rijksoverheid.nl/regering/bewindspersonen
+    lang: nl
+    published: null
+    accessed: 2026-07-27
+    quote: |-
+      Rob Jetten
+      Minister-president, Minister van Algemene Zaken
+      Dilan Yeşilgöz-Zegerius
+      Minister van Defensie, 1e viceminister-president
+      Bart van den Brink
+      Minister van Asiel en Migratie, 2e viceminister-president
+      Tom Berendsen
+      Minister van Buitenlandse Zaken
+      Sjoerd Sjoerdsma
+      Minister van Buitenlandse Handel en Ontwikkelingssamenwerking
+    note: >-
+      The official roster of the cabinet, cited for three things: that the Prime Minister's
+      published title is "Minister-president, Minister van Algemene Zaken"; that the two
+      vice-premierships are held by the Minister van Defensie and by the minister zonder
+      portefeuille for Asiel en Migratie, so neither adds a department; and that the roster
+      of 28 bewindspersonen consists of 18 ministers followed by 10 staatssecretarissen,
+      which is the figure other sources report as the size of the cabinet. Only the first
+      five entries are quoted; the snapshot holds all 28 in the same order.
+
+entities:
+  # --- the twelve ministries, in the precedence order of article 2 of stcrt-2026-8194 ---
+  - id: NL-2026-algemene-zaken
+    order: 1
+    name_original: Ministerie van Algemene Zaken
+    abbreviation_original: null
+    name_en: Ministry of General Affairs
+    name_es: Ministerio de Asuntos Generales
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister-President, Minister van Algemene Zaken
+    head_title_en: Prime Minister, Minister of General Affairs
+    has_cabinet_seat: true
+    policy_areas: [government_coordination]
+    counts_as_ministry: true
+    url: https://www.rijksoverheid.nl/ministeries/ministerie-van-algemene-zaken
+    sources: [stcrt-2026-8194, rijksoverheid-ministeries, government-nl-ministries, grondwet-2023-02-22, rijksoverheid-bewindspersonen]
+    note:
+      en: >-
+        The contested entity in this file, and counted. It is both the Prime Minister's own
+        department and a ministry in the ordinary sense: article 44(1) of the Grondwet makes
+        a ministry a body established by royal decree and led by a minister, the Prime
+        Minister's title is Minister van Algemene Zaken, and the department appears in the
+        government's own list of ministries. Excluding it under head_of_government_office
+        would give the Netherlands 11 ministries instead of 12; see the first methodology
+        note. Its seat is the head of government's, so no separate office of the Prime
+        Minister is recorded.
+      es: >-
+        La entidad discutida de este fichero, y contada. Es a la vez el departamento propio
+        del primer ministro y un ministerio en sentido ordinario: el artículo 44.1 de la
+        Grondwet define el ministerio como órgano creado por real decreto y dirigido por un
+        ministro, el título del primer ministro es Minister van Algemene Zaken y el
+        departamento figura en la lista oficial de ministerios. Excluirlo por
+        head_of_government_office daría 11 ministerios en lugar de 12; véase la primera
+        nota metodológica. Su asiento es el del jefe de gobierno, por lo que no se registra
+        aparte ninguna oficina del primer ministro.
+
+  - id: NL-2026-buitenlandse-zaken
+    order: 2
+    name_original: Ministerie van Buitenlandse Zaken
+    abbreviation_original: null
+    name_en: Ministry of Foreign Affairs
+    name_es: Ministerio de Asuntos Exteriores
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [foreign_affairs, european_affairs]
+    counts_as_ministry: true
+    url: https://www.rijksoverheid.nl/ministeries/ministerie-van-buitenlandse-zaken
+    sources: [stcrt-2026-8194, stcrt-2026-8178, rijksoverheid-ministeries, government-nl-ministries]
+
+  - id: NL-2026-justitie-en-veiligheid
+    order: 3
+    name_original: Ministerie van Justitie en Veiligheid
+    abbreviation_original: null
+    name_en: Ministry of Justice and Security
+    name_es: Ministerio de Justicia y Seguridad
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [justice, interior, migration]
+    counts_as_ministry: true
+    url: https://www.rijksoverheid.nl/ministeries/ministerie-van-justitie-en-veiligheid
+    sources: [stcrt-2026-8194, stcrt-2026-8177, rijksoverheid-ministeries, government-nl-ministries]
+    note:
+      en: >-
+        Tagged with migration because the decree of 23 February 2026 charged this ministry
+        with everything belonging to the abolished Ministerie van Asiel en Migratie. The
+        portfolio is exercised by a minister zonder portefeuille who works inside this
+        department and is recorded separately, uncounted.
+      es: >-
+        Se etiqueta con migration porque el real decreto de 23 de febrero de 2026 encargó a
+        este ministerio todos los asuntos del suprimido Ministerie van Asiel en Migratie.
+        La cartera la ejerce un ministro sin cartera que trabaja dentro de este
+        departamento y que se registra aparte, sin contarse.
+
+  - id: NL-2026-binnenlandse-zaken-koninkrijksrelaties
+    order: 4
+    name_original: Ministerie van Binnenlandse Zaken en Koninkrijksrelaties
+    abbreviation_original: null
+    name_en: Ministry of the Interior and Kingdom Relations
+    name_es: Ministerio del Interior y Relaciones del Reino
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [public_administration, territorial_administration, housing, spatial_planning]
+    counts_as_ministry: true
+    url: https://www.rijksoverheid.nl/ministeries/ministerie-van-binnenlandse-zaken-en-koninkrijksrelaties
+    sources: [stcrt-2026-8194, stcrt-2026-8177, stcrt-2026-8180, rijksoverheid-ministeries, government-nl-ministries]
+    note:
+      en: >-
+        Two changes of 23 February 2026 affect the tagging. Housing and spatial planning
+        arrive here because the Ministerie van Volkshuisvesting en Ruimtelijke Ordening was
+        abolished and its subject-matter assigned to this department, where a minister
+        zonder portefeuille now exercises it. Digital affairs left, transferred to
+        Economische Zaken en Klimaat, so this ministry is no longer tagged digital. Note
+        that "Binnenlandse Zaken" does not cover police or public security in the
+        Netherlands: those belong to Justitie en Veiligheid.
+      es: >-
+        Dos cambios del 23 de febrero de 2026 afectan al etiquetado. Vivienda y ordenación
+        del territorio llegan aquí porque se suprimió el Ministerie van Volkshuisvesting en
+        Ruimtelijke Ordening y su materia se asignó a este departamento, donde ahora la
+        ejerce un ministro sin cartera. Los asuntos digitales salieron, trasladados a
+        Economische Zaken en Klimaat, por lo que este ministerio ya no lleva la etiqueta
+        digital. Nótese que «Binnenlandse Zaken» no incluye policía ni seguridad pública en
+        los Países Bajos: eso corresponde a Justitie en Veiligheid.
+
+  - id: NL-2026-onderwijs-cultuur-wetenschap
+    order: 5
+    name_original: Ministerie van Onderwijs, Cultuur en Wetenschap
+    abbreviation_original: null
+    name_en: Ministry of Education, Culture and Science
+    name_es: Ministerio de Educación, Cultura y Ciencia
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [education, higher_education, culture, research, media]
+    counts_as_ministry: true
+    url: https://www.rijksoverheid.nl/ministeries/ministerie-van-onderwijs-cultuur-en-wetenschap
+    sources: [stcrt-2026-8194, stcrt-2026-8178, rijksoverheid-ministeries, government-nl-ministries]
+
+  - id: NL-2026-financien
+    order: 6
+    name_original: Ministerie van Financiën
+    abbreviation_original: null
+    name_en: Ministry of Finance
+    name_es: Ministerio de Hacienda
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [finance, budget]
+    counts_as_ministry: true
+    url: https://www.rijksoverheid.nl/ministeries/ministerie-van-financien
+    sources: [stcrt-2026-8194, rijksoverheid-ministeries, government-nl-ministries]
+
+  - id: NL-2026-defensie
+    order: 7
+    name_original: Ministerie van Defensie
+    abbreviation_original: null
+    name_en: Ministry of Defence
+    name_es: Ministerio de Defensa
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [defence]
+    counts_as_ministry: true
+    url: https://www.rijksoverheid.nl/ministeries/ministerie-van-defensie
+    sources: [stcrt-2026-8194, stcrt-2026-8178, rijksoverheid-ministeries, government-nl-ministries]
+    note:
+      en: >-
+        Its minister is also first Vice-Minister-President. A vice-premiership is a
+        personal rank, not a department, so it adds neither a ministry nor a seat.
+      es: >-
+        Su ministra es además primera Vice-Minister-President. La vicepresidencia es un
+        rango personal, no un departamento, por lo que no añade ni ministerio ni asiento.
+
+  - id: NL-2026-infrastructuur-waterstaat
+    order: 8
+    name_original: Ministerie van Infrastructuur en Waterstaat
+    abbreviation_original: null
+    name_en: Ministry of Infrastructure and Water Management
+    name_es: Ministerio de Infraestructuras y Gestión del Agua
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [transport, water, infrastructure]
+    counts_as_ministry: true
+    url: https://www.rijksoverheid.nl/ministeries/ministerie-van-infrastructuur-en-waterstaat
+    sources: [stcrt-2026-8194, stcrt-2026-8180, rijksoverheid-ministeries, government-nl-ministries]
+    note:
+      en: >-
+        Not tagged environment: circular-economy policy was moved out of this ministry on
+        23 February 2026 to the minister for Klimaat en Groene Groei.
+      es: >-
+        No se etiqueta environment: la política de economía circular salió de este
+        ministerio el 23 de febrero de 2026 hacia el ministro de Klimaat en Groene Groei.
+
+  - id: NL-2026-economische-zaken-klimaat
+    order: 9
+    name_original: Ministerie van Economische Zaken en Klimaat
+    abbreviation_original: null
+    name_en: Ministry of Economic Affairs and Climate
+    name_es: Ministerio de Asuntos Económicos y Clima
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [economy, climate, energy, industry, digital]
+    counts_as_ministry: true
+    url: https://www.rijksoverheid.nl/ministeries/ministerie-van-economische-zaken-en-klimaat
+    sources: [stcrt-2026-8194, stcrt-2026-8176, stcrt-2026-8177, stcrt-2026-8180, rijksoverheid-ministeries, government-nl-ministries]
+    note:
+      en: >-
+        The same body as the kabinet-Schoof's Ministerie van Economische Zaken, renamed by
+        royal decree on 23 February 2026. On the same day it absorbed the subject-matter of
+        the abolished Ministerie van Klimaat en Groene Groei, which is where the climate and
+        energy tags come from, and took over digital affairs from Binnenlandse Zaken en
+        Koninkrijksrelaties. Climate and green growth are exercised by a minister zonder
+        portefeuille working inside this department, recorded separately and uncounted.
+      es: >-
+        Es el mismo órgano que el Ministerie van Economische Zaken del gabinete Schoof,
+        renombrado por real decreto el 23 de febrero de 2026. Ese mismo día absorbió la
+        materia del suprimido Ministerie van Klimaat en Groene Groei, de donde vienen las
+        etiquetas de clima y energía, y asumió los asuntos digitales de Binnenlandse Zaken
+        en Koninkrijksrelaties. El clima y el crecimiento verde los ejerce un ministro sin
+        cartera que trabaja dentro de este departamento, registrado aparte y sin contarse.
+
+  - id: NL-2026-landbouw-visserij-voedselzekerheid-natuur
+    order: 10
+    name_original: Ministerie van Landbouw, Visserij, Voedselzekerheid en Natuur
+    abbreviation_original: null
+    name_en: Ministry of Agriculture, Fisheries, Food Security and Nature
+    name_es: Ministerio de Agricultura, Pesca, Seguridad Alimentaria y Naturaleza
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [agriculture, fisheries, food_safety, environment]
+    counts_as_ministry: true
+    url: https://www.rijksoverheid.nl/ministeries/ministerie-van-landbouw-visserij-voedselzekerheid-en-natuur
+    sources: [stcrt-2026-8194, stcrt-2026-8178, rijksoverheid-ministeries, government-nl-ministries]
+
+  - id: NL-2026-sociale-zaken-werkgelegenheid
+    order: 11
+    name_original: Ministerie van Sociale Zaken en Werkgelegenheid
+    abbreviation_original: null
+    name_en: Ministry of Social Affairs and Employment
+    name_es: Ministerio de Asuntos Sociales y Empleo
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [labour, social_affairs, social_security]
+    counts_as_ministry: true
+    url: https://www.rijksoverheid.nl/ministeries/ministerie-van-sociale-zaken-en-werkgelegenheid
+    sources: [stcrt-2026-8194, stcrt-2026-8178, rijksoverheid-ministeries, government-nl-ministries]
+
+  - id: NL-2026-volksgezondheid-welzijn-sport
+    order: 12
+    name_original: Ministerie van Volksgezondheid, Welzijn en Sport
+    abbreviation_original: null
+    name_en: Ministry of Health, Welfare and Sport
+    name_es: Ministerio de Sanidad, Bienestar y Deporte
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [health, social_affairs, sport]
+    counts_as_ministry: true
+    url: https://www.rijksoverheid.nl/ministeries/ministerie-van-volksgezondheid-welzijn-en-sport
+    sources: [stcrt-2026-8194, rijksoverheid-ministeries, government-nl-ministries]
+
+  # --- recorded, not counted: the six ministers zonder portefeuille -------------------
+  # Article 44(2) of the Grondwet allows ministers who lead no ministry. Each holds full
+  # ministerial rank and a seat in the ministerraad, so each adds a cabinet seat and no
+  # ministry. Order follows items m to r of article 2 of stcrt-2026-8194.
+  - id: NL-2026-mzp-buitenlandse-handel-ontwikkelingssamenwerking
+    order: 13
+    name_original: Minister van Buitenlandse Handel en Ontwikkelingssamenwerking
+    abbreviation_original: null
+    name_en: Minister for Foreign Trade and Development Cooperation
+    name_es: Ministro de Comercio Exterior y Cooperación al Desarrollo
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Minister zonder portefeuille
+    head_title_en: Minister without portfolio
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    url: null
+    sources: [stcrt-2026-8178, stcrt-2026-8194, grondwet-2023-02-22]
+    note:
+      en: >-
+        A minister zonder portefeuille working inside the Ministerie van Buitenlandse
+        Zaken; there is no Ministerie van Buitenlandse Handel en Ontwikkelingssamenwerking
+        and there has not been one under this cabinet or its predecessor. Recorded because
+        the holder sits in the ministerraad, which is part of why the cabinet is 18 people
+        and the government 12 departments.
+      es: >-
+        Ministro sin cartera que trabaja dentro del Ministerie van Buitenlandse Zaken; no
+        existe un Ministerie van Buitenlandse Handel en Ontwikkelingssamenwerking ni lo ha
+        habido en este gabinete ni en el anterior. Se registra porque su titular forma
+        parte del ministerraad, y eso es parte de por qué el gabinete son 18 personas y el
+        gobierno 12 departamentos.
+
+  - id: NL-2026-mzp-asiel-en-migratie
+    order: 14
+    name_original: Minister van Asiel en Migratie
+    abbreviation_original: null
+    name_en: Minister of Asylum and Migration
+    name_es: Ministro de Asilo y Migración
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Minister zonder portefeuille
+    head_title_en: Minister without portfolio
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    url: null
+    sources: [stcrt-2026-8178, stcrt-2026-8177, stcrt-2026-8194, grondwet-2023-02-22, rijksoverheid-bewindspersonen]
+    note:
+      en: >-
+        Under the kabinet-Schoof there was a Ministerie van Asiel en Migratie. It was
+        abolished on 23 February 2026 and its subject-matter given to Justitie en
+        Veiligheid, where this minister zonder portefeuille now exercises it. The holder is
+        also second Vice-Minister-President, which is a personal rank and adds nothing:
+        this cabinet therefore has a vice-premier who heads no ministry.
+      es: >-
+        Con el gabinete Schoof existía un Ministerie van Asiel en Migratie. Se suprimió el
+        23 de febrero de 2026 y su materia pasó a Justitie en Veiligheid, donde ahora la
+        ejerce este ministro sin cartera. Su titular es además segundo
+        Vice-Minister-President, rango personal que no añade nada: este gabinete tiene, por
+        tanto, un vicepresidente que no dirige ningún ministerio.
+
+  - id: NL-2026-mzp-volkshuisvesting-ruimtelijke-ordening
+    order: 15
+    name_original: Minister van Volkshuisvesting en Ruimtelijke Ordening
+    abbreviation_original: null
+    name_en: Minister of Housing and Spatial Planning
+    name_es: Ministro de Vivienda y Ordenación del Territorio
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Minister zonder portefeuille
+    head_title_en: Minister without portfolio
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    url: null
+    sources: [stcrt-2026-8178, stcrt-2026-8177, stcrt-2026-8194, grondwet-2023-02-22]
+    note:
+      en: >-
+        Under the kabinet-Schoof there was a Ministerie van Volkshuisvesting en Ruimtelijke
+        Ordening. It was abolished on 23 February 2026 and its subject-matter given to
+        Binnenlandse Zaken en Koninkrijksrelaties, where this minister zonder portefeuille
+        now exercises it. Housing and spatial planning are therefore tagged on that
+        ministry and not here.
+      es: >-
+        Con el gabinete Schoof existía un Ministerie van Volkshuisvesting en Ruimtelijke
+        Ordening. Se suprimió el 23 de febrero de 2026 y su materia pasó a Binnenlandse
+        Zaken en Koninkrijksrelaties, donde ahora la ejerce este ministro sin cartera. Por
+        eso vivienda y ordenación del territorio se etiquetan en ese ministerio y no aquí.
+
+  - id: NL-2026-mzp-klimaat-en-groene-groei
+    order: 16
+    name_original: Minister van Klimaat en Groene Groei
+    abbreviation_original: null
+    name_en: Minister of Climate and Green Growth
+    name_es: Ministro de Clima y Crecimiento Verde
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Minister zonder portefeuille
+    head_title_en: Minister without portfolio
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    url: null
+    sources: [stcrt-2026-8178, stcrt-2026-8177, stcrt-2026-8180, stcrt-2026-8194, grondwet-2023-02-22]
+    note:
+      en: >-
+        Under the kabinet-Schoof there was a Ministerie van Klimaat en Groene Groei. It was
+        abolished on 23 February 2026 and its subject-matter given to Economische Zaken en
+        Klimaat, where this minister zonder portefeuille now exercises it, having also
+        gained circular-economy policy from Infrastructuur en Waterstaat. The Netherlands
+        therefore no longer has a dedicated climate ministry: the climate tag sits on
+        Economische Zaken en Klimaat.
+      es: >-
+        Con el gabinete Schoof existía un Ministerie van Klimaat en Groene Groei. Se
+        suprimió el 23 de febrero de 2026 y su materia pasó a Economische Zaken en Klimaat,
+        donde ahora la ejerce este ministro sin cartera, que además asumió la política de
+        economía circular de Infrastructuur en Waterstaat. Los Países Bajos ya no tienen,
+        por tanto, un ministerio de clima propio: la etiqueta de clima está en Economische
+        Zaken en Klimaat.
+
+  - id: NL-2026-mzp-werk-en-participatie
+    order: 17
+    name_original: Minister van Werk en Participatie
+    abbreviation_original: null
+    name_en: Minister of Work and Participation
+    name_es: Ministro de Trabajo y Participación
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Minister zonder portefeuille
+    head_title_en: Minister without portfolio
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    url: null
+    sources: [stcrt-2026-8178, stcrt-2026-8194, grondwet-2023-02-22]
+    note:
+      en: >-
+        A minister zonder portefeuille working inside the Ministerie van Sociale Zaken en
+        Werkgelegenheid. No Ministerie van Werk en Participatie has ever existed; the title
+        is a portfolio, not a department.
+      es: >-
+        Ministro sin cartera que trabaja dentro del Ministerie van Sociale Zaken en
+        Werkgelegenheid. Nunca ha existido un Ministerie van Werk en Participatie; el
+        título designa una cartera, no un departamento.
+
+  - id: NL-2026-mzp-langdurige-zorg-jeugd-sport
+    order: 18
+    name_original: Minister van Langdurige Zorg, Jeugd en Sport
+    abbreviation_original: null
+    name_en: Minister of Long-term Care, Youth and Sport
+    name_es: Ministro de Cuidados de Larga Duración, Juventud y Deporte
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Minister zonder portefeuille
+    head_title_en: Minister without portfolio
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    url: null
+    sources: [stcrt-2026-8178, stcrt-2026-8194, grondwet-2023-02-22]
+    note:
+      en: >-
+        A minister zonder portefeuille working inside the Ministerie van Volksgezondheid,
+        Welzijn en Sport. No Ministerie van Langdurige Zorg, Jeugd en Sport has ever
+        existed; the title is a portfolio, not a department, which is why the Netherlands
+        is not recorded as having a youth or an elderly-care ministry.
+      es: >-
+        Ministro sin cartera que trabaja dentro del Ministerie van Volksgezondheid, Welzijn
+        en Sport. Nunca ha existido un Ministerie van Langdurige Zorg, Jeugd en Sport; el
+        título designa una cartera, no un departamento, y por eso no se registra que los
+        Países Bajos tengan un ministerio de juventud ni de cuidados de mayores.

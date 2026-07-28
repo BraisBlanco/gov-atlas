@@ -1,0 +1,90 @@
+# Source tiers — how authoritative a citation is.
+#
+# The tier drives two things:
+#   1. Whether an archived snapshot is mandatory (tiers 1 and 2: yes).
+#   2. The data-quality grade shown for each country on the site.
+#
+# A country is only graded "A" when every one of its counted ministries rests on
+# at least one tier-1 source.
+
+tiers:
+  - tier: 1
+    id: legal_instrument
+    label_en: Legal instrument
+    label_es: Instrumento jurídico
+    description_en: >-
+      An official gazette publication, decree, statute or equivalent legal act that
+      constitutes or enumerates the government departments. The strongest possible
+      evidence: the ministries exist because this document says so.
+    description_es: >-
+      Publicación en boletín oficial, decreto, ley o acto jurídico equivalente que
+      constituye o enumera los departamentos ministeriales. La evidencia más fuerte
+      posible: los ministerios existen porque este documento lo dice.
+    requires_archive_url: true
+
+  - tier: 2
+    id: official_publication
+    label_en: Official government publication
+    label_es: Publicación oficial de gobierno
+    description_en: >-
+      A page or document published by the government itself (government portal,
+      cabinet page, ministry directory) that lists the departments, but is not a
+      legal act. Authoritative but mutable, hence the archive requirement.
+    description_es: >-
+      Página o documento publicado por el propio gobierno (portal gubernamental,
+      página del gabinete, directorio de ministerios) que enumera los departamentos,
+      sin ser un acto jurídico. Autoritativa pero mutable, de ahí el archivado.
+    requires_archive_url: true
+
+  - tier: 3
+    id: secondary_source
+    label_en: Secondary source
+    label_es: Fuente secundaria
+    description_en: >-
+      A reputable third party: national statistical office, parliamentary research
+      service, academic dataset, quality press. Acceptable as corroboration or for
+      contextual fields, never as the sole basis for a counted ministry.
+    description_es: >-
+      Tercero de confianza: instituto nacional de estadística, servicio de estudios
+      parlamentario, dataset académico, prensa de calidad. Aceptable como corroboración
+      o para campos contextuales, nunca como base única de un ministerio contado.
+    requires_archive_url: false
+
+# Values allowed in a source's `type` field.
+source_types:
+  - id: official_gazette
+    tier_hint: 1
+    label_en: Official gazette
+    label_es: Boletín oficial
+  - id: statute
+    tier_hint: 1
+    label_en: Statute or constitution
+    label_es: Ley o constitución
+  - id: government_website
+    tier_hint: 2
+    label_en: Government portal
+    label_es: Portal gubernamental
+  - id: ministry_website
+    tier_hint: 2
+    label_en: Ministry website
+    label_es: Web ministerial
+  - id: parliament_document
+    tier_hint: 2
+    label_en: Parliamentary document
+    label_es: Documento parlamentario
+  - id: statistical_office
+    tier_hint: 3
+    label_en: Statistical office
+    label_es: Instituto de estadística
+  - id: academic
+    tier_hint: 3
+    label_en: Academic publication
+    label_es: Publicación académica
+  - id: press
+    tier_hint: 3
+    label_en: Press
+    label_es: Prensa
+  - id: other
+    tier_hint: 3
+    label_en: Other
+    label_es: Otra

@@ -1,0 +1,93 @@
+# Romania — country metadata.
+#
+# See docs/DATA-CONTRACT.md. The cabinet, its entities and its citations live in
+# data/cabinets/RO-2025-06-23.yml; this file carries only country-level metadata.
+#
+# Perimeter: Romania is a unitary state. Article 1 of the Constitution declares it "stat
+# naţional, suveran şi independent, unitar şi indivizibil", and it has no federated,
+# autonomous or devolved tier. Its 41 counties (județe) plus the municipality of Bucharest,
+# and its municipalities, towns and communes, are local self-government and are out of
+# scope; the eight development regions (regiuni de dezvoltare) are statistical and
+# programming units for EU cohesion policy and are not a tier of government. The prefects
+# who sit in each county are representatives of the central Government, not a subnational
+# executive, and head no department.
+#
+# `official_name_original` is simply "România". Unlike most states in this dataset Romania
+# has no long-form official name: the Constitution names the country "România" throughout
+# and never a "Republica România", so the short and full forms coincide. That is a fact
+# about Romanian constitutional nomenclature and not a missing value.
+#
+# `region: south_eastern_europe` follows the value this dataset already gives Bulgaria and
+# Croatia, Romania's neighbours in the same grouping. It is a judgement and not a
+# quotation: the UN M49 geoscheme files Romania under Eastern Europe, while EU and
+# Romanian official practice treat it as South-Eastern European. Nothing downstream
+# depends on it except the clustering of chart rows.
+#
+# `government_system: semi_presidential_republic`, and here Romania is the textbook case
+# rather than a borderline one. The President is directly elected, designates the candidate
+# for prime minister after consulting the parliamentary parties, and appoints the Government
+# by decree on the confidence vote of Parliament — article 18 of the Codul administrativ
+# says the members of the Government are "numiți de Președintele României pe baza votului
+# de încredere acordat de Parlament". The President may also dissolve Parliament after two
+# rejected designations. The executive is therefore genuinely shared, which is what
+# distinguishes Romania from the parliamentary republics in this dataset, and it is why the
+# cabinet file has to cite a parliamentary resolution and a presidential appointment as two
+# separate steps of one investiture.
+
+iso2: RO
+iso3: ROU
+
+name_en: Romania
+name_es: Rumanía
+name_original: România
+official_name_original: România
+
+continent: europe
+region: south_eastern_europe
+eu_member_since: 2007-01-01
+government_system: semi_presidential_republic
+official_languages: [ro]
+
+# Population carries its own citation because the country page publishes it as a figure in
+# its own right, not as a convenience constant. Nothing divides by it.
+population:
+  value: 19036031
+  year: 2025
+  source:
+    id: ins-poprez-1ian2025
+    tier: 3
+    type: statistical_office
+    publisher: Institutul Național de Statistică
+    title: >-
+      Populația rezidentă la 1 ianuarie 2025 în scădere, iar soldul migrației internaționale
+      pozitiv în anul 2024 (comunicat de presă nr. 215)
+    url: https://insse.ro/cms/sites/default/files/com_presa/com_pdf/poprez_ian2025r.pdf
+    archive_url: https://web.archive.org/web/20250829101214/https://insse.ro/cms/sites/default/files/com_presa/com_pdf/poprez_ian2025r.pdf
+    lang: ro
+    published: 2025-08-29
+    accessed: 2026-07-28
+    quote: >-
+      La 1 ianuarie 2025p, populația rezidentă a fost de 19036031 persoane, în scădere cu
+      31545 persoane față de 1 ianuarie 2024.
+    note: >-
+      The resident population of Romania at 1 January 2025, published by the National
+      Institute of Statistics on 29 August 2025. Tier 3 rather than tier 1: a statistical
+      estimate, not a legal instrument, which follows the precedent set by Spain's INE
+      figure. Three things a reader should know about this number. First, it is the most
+      recent one available: the INS publishes the resident population at 1 January each year
+      in late August, so on this file's access date of 28 July 2026 no figure for 1 January
+      2026 existed. Second, it is provisional — the release marks it "p" and its own footnote
+      explains that these are annual estimates under Regulation (EU) 1260/2013 which include
+      Ukrainian citizens under temporary protection and were due for revision by the end of
+      2025; secondary compilations circulate a revised 19,043,000 for the same date, which
+      does not reconcile with the figure recorded here, and the published release is
+      preferred over the revision because the release can be quoted and the revision could
+      not be traced to an INS publication. Third, and the trap worth naming: Romania's
+      statistical office publishes two population series, and they differ by more than two
+      and a half million people. This file records the "populație rezidentă", the people
+      actually resident in the country. The other series, "populația după domiciliu", counts
+      everyone holding a registered Romanian domicile including those living abroad, and
+      gives 21.6 million at 1 January 2026; it is a count of a legal register rather than of
+      residents, it is the figure most often quoted in the Romanian press, and it is not
+      comparable with the resident populations recorded for the other countries in this
+      dataset.

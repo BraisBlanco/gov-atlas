@@ -1,0 +1,933 @@
+# Finland — government structure of pääministeri Petteri Orpon hallitus.
+#
+# See docs/DATA-CONTRACT.md. Three things worth knowing before reading the list:
+#
+#   1. Finland is the one country in this dataset whose ministries are enumerated in a
+#      statute. Section 1 of the valtioneuvostolaki (laki valtioneuvostosta 175/2003) says
+#      "Valtioneuvostossa on seuraavat ministeriöt" and lists twelve. Creating or abolishing
+#      a Finnish ministry means amending that list, so the count is a legal fact rather than
+#      a reading of a reorganisation decree.
+#   2. Twelve ministries, nineteen ministers. Section 4 of the same Act provides that a
+#      minister either heads a ministry or handles matters within the remit of ministries,
+#      and the government's published division of duties names one head (päällikkö) per
+#      ministry and assigns the other seven ministers to subject areas inside one or more
+#      ministries. Those seven are recorded here, uncounted, which is what makes the seat
+#      count come out at 19.
+#   3. Finnish ministers cross ministries. The minister for local and regional government
+#      handles matters in three ministries; the minister of education handles Nordic
+#      cooperation inside the Ministry for Foreign Affairs; the minister of the environment
+#      and climate handles the energy department of the Ministry of Economic Affairs and
+#      Employment. A Finnish minister's title therefore says little about which ministry the
+#      minister sits in, and nothing about how many ministries there are.
+
+country: FI
+cabinet_id: FI-2023-06-20
+
+cabinet_name_original: Pääministeri Petteri Orpon hallitus
+cabinet_name_en: Orpo government
+cabinet_name_es: Gobierno Orpo
+
+head_of_government_title_original: Pääministeri
+head_of_government_title_en: Prime Minister
+
+took_office: 2023-06-20
+left_office: null
+
+methodology_notes:
+  - en: >-
+      12 ministries and 19 cabinet seats. The twelve are the ministries listed in section 1
+      of the valtioneuvostolaki, and the list includes the valtioneuvoston kanslia, the
+      Prime Minister's Office, which is counted here. That is the contested decision in this
+      file: excluding it as the office of the head of government, the way this project
+      excludes Spain's Presidencia del Gobierno, would give Finland 11. It is counted
+      because Finnish law does not treat it as an office attached to the Prime Minister but
+      as one of the ministries — it appears in the statutory list on the same footing as the
+      other eleven, it has its own chapter in the budget, it has a minister of its own
+      besides the Prime Minister (the minister for European affairs and ownership steering),
+      and the government's own division of duties says the Prime Minister "toimii
+      valtioneuvoston kanslian päällikkönä", acts as head of the ministry. Both figures are
+      published here so a reader can choose: 12 ministries including the Prime Minister's
+      Office, 11 excluding it.
+    es: >-
+      12 ministerios y 19 asientos en el gabinete. Los doce son los ministerios enumerados en
+      el artículo 1 de la valtioneuvostolaki, y la lista incluye la valtioneuvoston kanslia,
+      la Oficina del Primer Ministro, que aquí se cuenta. Esa es la decisión discutible de
+      este fichero: excluirla como oficina del jefe de gobierno, tal como este proyecto
+      excluye la Presidencia del Gobierno española, daría 11. Se cuenta porque el derecho
+      finlandés no la trata como un cargo adscrito al primer ministro sino como uno de los
+      ministerios: figura en la lista legal en pie de igualdad con los otros once, tiene su
+      propio capítulo presupuestario, tiene un ministro propio además del primer ministro (el
+      ministro de Asuntos Europeos y Gestión de la Propiedad Estatal) y el propio reparto de
+      funciones del gobierno dice que el primer ministro «toimii valtioneuvoston kanslian
+      päällikkönä», actúa como jefe del ministerio. Aquí se publican ambas cifras para que el
+      lector elija: 12 ministerios contando la Oficina del Primer Ministro, 11 sin contarla.
+  - en: >-
+      Why seven ministers are recorded but not counted. Section 4 of the valtioneuvostolaki
+      is explicit that a minister either heads a ministry or handles matters belonging to
+      the remit of ministries ("Ministeri toimii ministeriön päällikkönä tai käsittelee
+      ministeriöiden toimialaan kuuluvia asioita"), and that where several ministers are
+      appointed to the same ministry they are co-equal rather than subordinate to one
+      another. The government's division of duties of 16 June 2026 names the head of each of
+      the twelve ministries and sets out what the other seven ministers handle: the minister
+      for European affairs and ownership steering, the minister for foreign trade and
+      development, the minister of local government and regional affairs, the minister of
+      science and culture, the minister of sport, exercise and youth, the minister of
+      economic affairs, and the minister of social security. Each of the seven holds full
+      ministerial rank and a seat in the valtioneuvosto, so each adds a cabinet seat and no
+      ministry. 12 + 7 = 19; the two numbers are never added together.
+    es: >-
+      Por qué siete ministros se registran pero no se cuentan. El artículo 4 de la
+      valtioneuvostolaki es explícito en que un ministro dirige un ministerio o bien tramita
+      asuntos del ámbito de los ministerios («Ministeri toimii ministeriön päällikkönä tai
+      käsittelee ministeriöiden toimialaan kuuluvia asioita»), y en que cuando varios
+      ministros están nombrados en un mismo ministerio son equiparables entre sí y no
+      subordinados. El reparto de funciones del gobierno de 16 de junio de 2026 nombra al
+      jefe de cada uno de los doce ministerios y detalla qué tramitan los otros siete
+      ministros: el de Asuntos Europeos y Gestión de la Propiedad Estatal, el de Comercio
+      Exterior y Desarrollo, la de Administración Local y Regional, la de Ciencia y Cultura,
+      el de Deporte y Juventud, el de Economía y la de Seguridad Social. Cada uno de los
+      siete tiene rango ministerial pleno y asiento en el valtioneuvosto, por lo que cada uno
+      suma un asiento y ningún ministerio. 12 + 7 = 19; las dos cifras nunca se suman.
+  - en: >-
+      A Finnish minister can serve in more than one ministry, which is why this file records
+      ministries and not ministers' portfolios. The division of duties of 16 June 2026 gives
+      the minister of local government and regional affairs matters in three ministries —
+      Åland affairs in the Ministry of Justice, local and regional administration, public-
+      sector ICT, employer and personnel policy and statistics in the Ministry of Finance,
+      and urban development in the Ministry of Economic Affairs and Employment — and it
+      gives the minister of economic affairs matters in two. It also sends work in the other
+      direction: the minister of education handles Nordic cooperation inside the Ministry for
+      Foreign Affairs, the minister of the interior handles integration matters inside the
+      Ministry of Economic Affairs and Employment, and the minister of the environment and
+      climate handles that ministry's energy department. Policy areas below are tagged on the
+      ministry that holds the subject matter, not on the ministry whose minister happens to
+      handle it.
+    es: >-
+      Un ministro finlandés puede servir en más de un ministerio, y por eso este fichero
+      registra ministerios y no carteras de ministros. El reparto de funciones de 16 de junio
+      de 2026 asigna a la ministra de Administración Local y Regional asuntos en tres
+      ministerios —los relativos a Åland en el Ministerio de Justicia; la administración local
+      y regional, las TIC del sector público, la política de personal y las estadísticas en el
+      Ministerio de Finanzas; y el desarrollo urbano en el Ministerio de Economía y Empleo— y
+      al ministro de Economía asuntos en dos. También funciona en sentido contrario: el
+      ministro de Educación tramita la cooperación nórdica dentro del Ministerio de Asuntos
+      Exteriores, la ministra del Interior tramita los asuntos de integración dentro del
+      Ministerio de Economía y Empleo, y la ministra de Medio Ambiente y Clima tramita el
+      departamento de energía de ese mismo ministerio. Las áreas de política de abajo se
+      etiquetan en el ministerio que tiene la materia, no en el ministerio cuyo ministro la
+      tramita.
+  - en: >-
+      The number of ministries has not changed under this cabinet, and cannot change without
+      a statute. Section 1 of the valtioneuvostolaki has listed the same twelve ministries
+      since 1 December 2017, when the ulkoasiainministeriö became the ulkoministeriö by act
+      837/2017; the Act was amended again in 2026 (150/2026), but on the legislative
+      evaluation council and government records, not on the list of ministries. This is the
+      opposite of the Danish and Dutch arrangements, where a ministry is created or abolished
+      by decree and the count moves between elections.
+    es: >-
+      El número de ministerios no ha cambiado bajo este gobierno, y no puede cambiar sin una
+      ley. El artículo 1 de la valtioneuvostolaki enumera los mismos doce ministerios desde el
+      1 de diciembre de 2017, cuando el ulkoasiainministeriö pasó a llamarse ulkoministeriö
+      por la ley 837/2017; la ley se modificó de nuevo en 2026 (150/2026), pero en lo relativo
+      al consejo de evaluación legislativa y a los documentos del gobierno, no a la lista de
+      ministerios. Es lo contrario de los casos danés y neerlandés, donde un ministerio se
+      crea o suprime por decreto y la cifra se mueve entre elecciones.
+  - en: >-
+      Officeholders change without the structure changing, and this dataset records the
+      structure. Two of the nineteen ministers are not the same people as when the cabinet
+      took office in June 2023, and the most recent change was on 16 June 2026, when
+      Karoliina Partanen took over as minister of social security while Sanni Grahn-Laasonen
+      is on family leave. The ministerial titles, the twelve ministries and both published
+      figures are unaffected; the division of duties cited here is the version of 16 June
+      2026, which reflects that substitution.
+    es: >-
+      Los titulares cambian sin que cambie la estructura, y este dataset registra la
+      estructura. Dos de los diecinueve ministros no son las mismas personas que cuando el
+      gobierno tomó posesión en junio de 2023, y el cambio más reciente es del 16 de junio de
+      2026, cuando Karoliina Partanen asumió como ministra de Seguridad Social mientras Sanni
+      Grahn-Laasonen está de permiso familiar. Los títulos ministeriales, los doce ministerios
+      y las dos cifras publicadas no se ven afectados; el reparto de funciones aquí citado es
+      la versión de 16 de junio de 2026, que ya refleja esa sustitución.
+  - en: >-
+      Perimeter and language. This file describes the central government of the Republic of
+      Finland. Åland is an autonomous region with its own government and legislature and is
+      out of scope; Åland affairs are a portfolio inside the Ministry of Justice, which is how
+      they are recorded. Finland has two national languages, Finnish and Swedish, and every
+      ministry has an official Swedish name (statsrådets kansli, utrikesministeriet, and so
+      on) which section 1 of the valtioneuvostolaki lists in parallel; `name_original` carries
+      the Finnish name only, which is a limitation of the schema rather than a judgement about
+      the two languages.
+    es: >-
+      Perímetro e idioma. Este fichero describe el gobierno central de la República de
+      Finlandia. Åland es una región autónoma con su propio gobierno y parlamento y queda
+      fuera de alcance; los asuntos de Åland son una cartera dentro del Ministerio de
+      Justicia, y así se registran. Finlandia tiene dos lenguas nacionales, el finés y el
+      sueco, y todos los ministerios tienen nombre oficial en sueco (statsrådets kansli,
+      utrikesministeriet, etc.) que el artículo 1 de la valtioneuvostolaki enumera en
+      paralelo; `name_original` recoge sólo el nombre finés, lo que es una limitación del
+      esquema y no un juicio sobre las dos lenguas.
+  - en: >-
+      English ministry names are the Finnish government's own, taken from the English-language
+      edition of valtioneuvosto.fi, and marked name_en_provenance: official. The English and
+      Spanish titles of the seven ministers who head no ministry, and all Spanish names, are
+      this project's renderings and are marked translated.
+    es: >-
+      Los nombres ingleses de los ministerios son los del propio gobierno finlandés, tomados
+      de la edición inglesa de valtioneuvosto.fi, y llevan name_en_provenance: official. Los
+      títulos en inglés y español de los siete ministros que no dirigen ministerio, y todos los
+      nombres en español, son traducciones de este proyecto y llevan la marca translated.
+
+sources:
+  - id: laki-valtioneuvostosta-175-2003
+    tier: 1
+    type: statute
+    publisher: Finlex — Oikeusministeriö
+    title: Laki valtioneuvostosta 175/2003 (ajantasainen säädös)
+    url: https://www.finlex.fi/fi/laki/ajantasa/2003/20030175/
+    archive_url: https://web.archive.org/web/20241216193015/https://www.finlex.fi/fi/laki/ajantasa/2003/20030175/
+    lang: fi
+    published: 2003-02-28
+    accessed: 2026-07-28
+    quote: |-
+      Valtioneuvostossa on seuraavat ministeriöt:
+      1) valtioneuvoston kanslia;
+      2) ulkoministeriö;
+      3) oikeusministeriö;
+      4) sisäministeriö;
+      5) puolustusministeriö;
+      6) valtiovarainministeriö;
+      7) opetus- ja kulttuuriministeriö;
+      8) maa- ja metsätalousministeriö;
+      9) liikenne- ja viestintäministeriö;
+      10) työ- ja elinkeinoministeriö;
+      11) sosiaali- ja terveysministeriö;
+      12) ympäristöministeriö.
+      Valtioneuvoston yhteydessä on oikeuskanslerinvirasto, josta säädetään erikseen.
+      Ministeriöiden toimialasta ja asioiden jaosta niiden kesken säädetään lailla tai valtioneuvoston asetuksella.
+      Ministeri toimii ministeriön päällikkönä tai käsittelee ministeriöiden toimialaan kuuluvia asioita.
+      Työnjaosta ministereiden kesken ministeriössä päättää valtioneuvosto.
+      Jokaisella ministerillä on tehtävänsä mukainen nimike, joka vahvistetaan ministeriksi nimittämisen yhteydessä.
+    note: >-
+      The enumerating instrument, and the reason Finland's ministry count is a legal fact:
+      the list of twelve is section 1 of the Act (Valtioneuvoston organisaatio), and adding
+      or removing a ministry requires amending it. The quotation reproduces that list in
+      order, then the sentence about the office of the Chancellor of Justice that closes
+      section 1, then the first sentence of section 2 (which leaves each ministry's remit to
+      be set by act or government decree), and then, from section 4 (Ministerit), the three
+      sentences that govern how this file is built: a minister either heads a ministry or handles matters within ministries'
+      remits, the government decides the division of work between ministers in a ministry,
+      and each minister's title follows their duties rather than a department. Item 2 has
+      read "ulkoministeriö" since 1 December 2017 (837/2017). Consolidated text as published
+      by Finlex; the archived snapshot is from December 2024 and predates the 2026 amendment
+      150/2026, which did not touch either quoted section — the live page was read on the
+      access date and the quoted text is identical. Finlex's pages are rendered in the
+      browser, which is why an older snapshot that captured the text is preferred here to a
+      newer one that captured only the shell.
+
+  - id: vn-ministerien-tyonjako-2026-06-16
+    tier: 2
+    type: government_website
+    publisher: Valtioneuvoston kanslia
+    title: >-
+      Ministerien välinen työnjako valtioneuvostossa ja sen ministeriöissä 16.6.2026
+    url: >-
+      https://valtioneuvosto.fi/documents/194055633/200124139/Ministereiden_v%C3%A4linen_ty%C3%B6njako_16_6_2026.pdf/3691e2f4-8a6f-c6e1-851e-d35048653d08?t=1781520360189
+    archive_url: >-
+      https://web.archive.org/web/20260728084705/https://valtioneuvosto.fi/documents/194055633/200124139/Ministereiden_v%C3%A4linen_ty%C3%B6njako_16_6_2026.pdf/3691e2f4-8a6f-c6e1-851e-d35048653d08?t=1781520360189
+    lang: fi
+    published: 2026-06-16
+    accessed: 2026-07-28
+    quote: |-
+      Valtioneuvostolain 4 §:n mukaisesti ministeri toimii ministeriön päällikkönä tai käsittelee ministeriöiden toimialaan kuuluvia asioita.
+      Jos samaan ministeriöön on nimitettyinä useampia ministereitä, he ovat toistensa suhteen rinnasteisia eivätkä alisteisia.
+      Pääministeri Orpo toimii valtioneuvoston kanslian päällikkönä
+      Ulkoministeri Valtonen toimii ulkoministeriön päällikkönä ja käsittelee muut ulkoministeriön toimialaan kuuluvat asiat.
+      Oikeusministeri Meri toimii oikeusministeriön päällikkönä ja käsittelee muut oikeusministeriön toimialaan kuuluvat asiat.
+      Sisäministeri Rantanen toimii sisäministeriön päällikkönä ja käsittelee kaikki sisäministeriön toimialaan kuuluvat asiat.
+      Puolustusministeri Häkkänen toimii puolustusministeriön päällikkönä ja käsittelee kaikki puolustusministeriön toimialaan kuuluvat asiat.
+      Valtiovarainministeri Purra toimii valtiovarainministeriön päällikkönä
+      Opetusministeri Adlercreutz toimii opetusministeriön päällikkönä ja käsittelee muut opetus- ja kulttuuriministeriön toimialaan kuuluvat asiat mukaan lukien kirkollisasiat.
+      Maa- ja metsätalousministeri Essayah toimii maa- ja metsätalousministeriön päällikkönä ja käsittelee kaikki maa- ja metsätalousministeriön toimialaan kuuluvat asiat.
+      Liikenne- ja viestintäministeri Ranne toimii liikenne- ja viestintäministeriön päällikkönä ja käsittelee kaikki liikenne- ja viestintäministeriön toimialaan kuuluvat asiat.
+      Työministeri Marttinen toimii työ- ja elinkeinoministeriön päällikkönä
+      Sosiaali- ja terveysministeri Rydman toimii sosiaali- ja terveysministeriön päällikkönä ja käsittelee muut sosiaali- ja terveysministeriön toimialaan kuuluvat asiat.
+      Ympäristö- ja ilmastoministeri Multala toimii ympäristöministeriön päällikkönä ja käsittelee kaikki ympäristöministeriön toimialaan kuuluvat asiat.
+      Eurooppa- ja omistajaohjausministeri Strand käsittelee ne valtioneuvoston EU-sihteeristölle kuuluvat asiat, jotka eivät kuulu pääministerille, sekä valtion omistajaohjausasiat.
+      Ulkomaankauppa- ja kehitysministeri Tavio käsittelee kehitysyhteistyötä ja ulkomaankauppaa koskevat asiat.
+      Kunta- ja alueministeri Ikonen käsittelee kunta- ja aluehallinnon asiat, työnantaja- henkilöstö- ja hallintopolitiikan asiat, julkisen hallinnon ICT-toiminnot sekä valtiovarain controller -toiminnolle kuuluvat asiat sekä tilastointia koskevat asiat.
+      Tiede- ja kulttuuriministeri Talvitie käsittelee korkeakoulu- ja tiedepolitiikan osastolle sekä kulttuuri- ja taidepolitiikan osastolle kuuluvat asiat lukuun ottamatta kirkollisasioita.
+      Liikunta-, urheilu- ja nuorisoministeri Poutala käsittelee nuoriso- ja liikuntapolitiikan osastolle kuuluvat asiat ja opintotukiasiat.
+      Elinkeinoministeri Puisto käsittelee innovaatiot ja yritysrahoitus -osaston asiat, huoltovarmuuskysymykset sekä muut alueet ja kasvupalvelut -osaston asiat.
+      Sosiaaliturvaministeri Partanen käsittelee sosiaaliturva- ja vakuutusosastolle, työ- ja tasa-arvo -osastolle sekä turvallisuus ja terveys -osastolle kuuluvat asiat.
+    note: >-
+      The government's own division of duties, decided in the valtioneuvosto and published by
+      the Prime Minister's Office. It is the instrument that makes the Finnish arithmetic
+      checkable: it names the head (päällikkö) of each of the twelve ministries, which is why
+      each ministry below carries head_count 1, and it sets out what each of the other seven
+      ministers handles, which is why those seven are recorded as entities with a seat and no
+      ministry. The quotation takes, in the document's own order, the two general statements
+      of principle and then the operative sentence for each of the nineteen ministers,
+      abridged where a sentence continues into a list of departments; two head sentences
+      (Purra's and Marttinen's) and the Prime Minister's are cut at the päällikkö clause,
+      because the remainder enumerates subject areas. The version cited is that of 16 June
+      2026, the date of the most recent change of officeholder. Note the document's own
+      wording "opetusministeriön päällikkönä" for the head of the opetus- ja
+      kulttuuriministeriö.
+
+  - id: vn-orpon-hallitus
+    tier: 2
+    type: government_website
+    publisher: Valtioneuvosto
+    title: 77. Orpo — Suomen hallitukset ja ministerit
+    url: https://valtioneuvosto.fi/hallitukset-ja-ministerit/hallitukset/-/gov/orpo
+    archive_url: https://web.archive.org/web/20260311224302/https://valtioneuvosto.fi/hallitukset-ja-ministerit/hallitukset/-/gov/orpo
+    lang: fi
+    published: null
+    accessed: 2026-07-28
+    quote: |-
+      20.6.2023 -
+      Petteri Orpo
+      Pääministeri
+      Riikka Purra
+      Valtiovarainministeri
+      Joakim Strand
+      Eurooppa- ja omistajaohjausministeri
+      Elina Valtonen
+      Ulkoministeri
+      Ville Tavio
+      Ulkomaankauppa- ja kehitysministeri
+      Leena Meri
+      Oikeusministeri
+      Mari Rantanen
+      Sisäministeri
+      Lulu Ranne
+      Liikenne- ja viestintäministeri
+      Antti Häkkänen
+      Puolustusministeri
+      Anna-Kaisa Ikonen
+      Kunta- ja alueministeri
+      Anders Adlercreutz
+      Opetusministeri
+      Mari-Leena Talvitie
+      Tiede- ja kulttuuriministeri
+      Mika Poutala
+      Liikunta-, urheilu- ja nuorisoministeri
+      Sari Essayah
+      Maa- ja metsätalousministeri
+      Matias Marttinen
+      Työministeri
+      Sakari Puisto
+      Elinkeinoministeri
+      Wille Rydman
+      Sosiaali- ja terveysministeri
+      Sanni Grahn-Laasonen
+      Sosiaaliturvaministeri
+      Sari Multala
+      Ympäristö- ja ilmastoministeri
+      77. hallitus
+    note: >-
+      The official register of Finnish governments, cited for the date this cabinet took
+      office (20 June 2023), for its being Finland's 77th government, and for the roster of
+      nineteen ministers and their titles in the government's own order. The archived
+      snapshot is of 11 March 2026 and therefore still shows Sanni Grahn-Laasonen as minister
+      of social security; Karoliina Partanen took the post on 16 June 2026, as the division of
+      duties cited above records. No ministerial title, and neither published figure, changed.
+
+  - id: vn-en-ministries
+    tier: 2
+    type: government_website
+    publisher: Finnish Government (valtioneuvosto.fi/en)
+    title: Finnish Government — ministries (English-language edition)
+    url: https://valtioneuvosto.fi/en/frontpage
+    archive_url: https://web.archive.org/web/20260723220938/https://valtioneuvosto.fi/en/frontpage
+    lang: en
+    published: null
+    accessed: 2026-07-28
+    quote: |-
+      Prime Minister's Office
+      Ministry of Defence
+      Ministry of Transport and Communications
+      Ministry for Foreign Affairs
+      Ministry of Finance
+      Ministry of Economic Affairs and Employment
+      Ministry of Justice
+      Ministry of Education and Culture
+      Ministry of Social Affairs and Health
+      Ministry of the Interior
+      Ministry of Agriculture and Forestry
+      Ministry of the Environment
+    note: >-
+      The English-language edition of valtioneuvosto.fi, published by the Finnish government
+      itself, which is what makes name_en_provenance "official" for all twelve ministries.
+      Every English ministry name in this file is copied from this list, which appears in the
+      site's own ministry navigation in this order. The site publishes no English name for a
+      minister who heads no ministry as a body, so those seven English titles are this
+      project's own and are marked translated.
+
+entities:
+  # --- the twelve ministries, in the statutory order of section 1 of the valtioneuvostolaki
+  - id: FI-2023-valtioneuvoston-kanslia
+    order: 1
+    name_original: Valtioneuvoston kanslia
+    abbreviation_original: VNK
+    name_en: Prime Minister's Office
+    name_es: Oficina del Primer Ministro
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Pääministeri
+    head_title_en: Prime Minister
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [government_coordination, european_affairs, state_assets]
+    counts_as_ministry: true
+    url: https://vnk.fi/
+    sources: [laki-valtioneuvostosta-175-2003, vn-ministerien-tyonjako-2026-06-16, vn-orpon-hallitus, vn-en-ministries]
+    note:
+      en: >-
+        The contested entity in this file, and counted. It is both the Prime Minister's own
+        department and one of the twelve ministries listed in section 1 of the
+        valtioneuvostolaki, and the government's division of duties says the Prime Minister
+        acts as its päällikkö. Excluding it under head_of_government_office would give
+        Finland 11 ministries instead of 12; see the first methodology note. Tagged
+        european_affairs because the EU secretariat of the government sits here, and
+        state_assets because state ownership steering does — both handled by the minister for
+        European affairs and ownership steering, who is recorded separately and uncounted.
+        Its seat is the Prime Minister's, so no separate office of the Prime Minister is
+        recorded.
+      es: >-
+        La entidad discutida de este fichero, y contada. Es a la vez el departamento propio
+        del primer ministro y uno de los doce ministerios enumerados en el artículo 1 de la
+        valtioneuvostolaki, y el reparto de funciones del gobierno dice que el primer ministro
+        actúa como su päällikkö. Excluirla por head_of_government_office daría 11 ministerios
+        en lugar de 12; véase la primera nota metodológica. Se etiqueta european_affairs
+        porque aquí está el secretariado de la UE del gobierno, y state_assets porque aquí
+        está la gestión de la propiedad estatal —ambas las tramita el ministro de Asuntos
+        Europeos y Gestión de la Propiedad Estatal, registrado aparte y sin contarse—. Su
+        asiento es el del primer ministro, por lo que no se registra aparte ninguna oficina
+        del primer ministro.
+
+  - id: FI-2023-ulkoministerio
+    order: 2
+    name_original: Ulkoministeriö
+    abbreviation_original: UM
+    name_en: Ministry for Foreign Affairs
+    name_es: Ministerio de Asuntos Exteriores
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ulkoministeri
+    head_title_en: Minister for Foreign Affairs
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [foreign_affairs, development_cooperation, trade]
+    counts_as_ministry: true
+    url: https://um.fi/
+    sources: [laki-valtioneuvostosta-175-2003, vn-ministerien-tyonjako-2026-06-16, vn-orpon-hallitus, vn-en-ministries]
+    note:
+      en: >-
+        Called ulkoasiainministeriö in the statute until 1 December 2017, when act 837/2017
+        renamed it ulkoministeriö; the statutory list carries the current name. Three ministers
+        handle matters here — the minister for foreign affairs as head, the minister for
+        foreign trade and development for development cooperation and foreign trade, and the
+        minister of education for Nordic cooperation — but there is one ministry and one head,
+        so one seat is counted here and the other two ministers are counted where they are
+        recorded.
+      es: >-
+        En la ley se llamaba ulkoasiainministeriö hasta el 1 de diciembre de 2017, cuando la
+        ley 837/2017 lo renombró ulkoministeriö; la lista legal recoge el nombre actual. Aquí
+        tramitan asuntos tres ministros —la de Exteriores como jefa, el de Comercio Exterior y
+        Desarrollo para la cooperación al desarrollo y el comercio exterior, y el de Educación
+        para la cooperación nórdica—, pero hay un ministerio y una jefa, así que aquí se cuenta
+        un asiento y los otros dos ministros se cuentan donde están registrados.
+
+  - id: FI-2023-oikeusministerio
+    order: 3
+    name_original: Oikeusministeriö
+    abbreviation_original: OM
+    name_en: Ministry of Justice
+    name_es: Ministerio de Justicia
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Oikeusministeri
+    head_title_en: Minister of Justice
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [justice, territorial_administration]
+    counts_as_ministry: true
+    url: https://oikeusministerio.fi/
+    sources: [laki-valtioneuvostosta-175-2003, vn-ministerien-tyonjako-2026-06-16, vn-orpon-hallitus, vn-en-ministries]
+    note:
+      en: >-
+        Tagged territorial_administration for one specific reason: Åland affairs are a
+        portfolio of this ministry, handled by the minister of local government and regional
+        affairs. Åland's own autonomous government is out of scope as a subnational
+        government.
+      es: >-
+        Se etiqueta territorial_administration por una razón concreta: los asuntos de Åland
+        son una cartera de este ministerio, que tramita la ministra de Administración Local y
+        Regional. El gobierno autónomo de Åland queda fuera de alcance como gobierno
+        subnacional.
+
+  - id: FI-2023-sisaministerio
+    order: 4
+    name_original: Sisäministeriö
+    abbreviation_original: SM
+    name_en: Ministry of the Interior
+    name_es: Ministerio del Interior
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Sisäministeri
+    head_title_en: Minister of the Interior
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [interior, migration, civil_protection]
+    counts_as_ministry: true
+    url: https://intermin.fi/
+    sources: [laki-valtioneuvostosta-175-2003, vn-ministerien-tyonjako-2026-06-16, vn-orpon-hallitus, vn-en-ministries]
+    note:
+      en: >-
+        Finland has no separate migration ministry: immigration and asylum are this
+        ministry's, along with the police and the rescue services. Integration, by contrast,
+        belongs to the Ministry of Economic Affairs and Employment, where this ministry's
+        minister handles it — a division that this dataset records on the ministries rather
+        than on the minister.
+      es: >-
+        Finlandia no tiene un ministerio de migración propio: la inmigración y el asilo
+        corresponden a este ministerio, junto con la policía y los servicios de rescate. La
+        integración, en cambio, corresponde al Ministerio de Economía y Empleo, donde la
+        tramita la ministra de este ministerio: una división que este dataset registra en los
+        ministerios y no en la ministra.
+
+  - id: FI-2023-puolustusministerio
+    order: 5
+    name_original: Puolustusministeriö
+    abbreviation_original: PLM
+    name_en: Ministry of Defence
+    name_es: Ministerio de Defensa
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Puolustusministeri
+    head_title_en: Minister of Defence
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [defence]
+    counts_as_ministry: true
+    url: https://www.defmin.fi/
+    sources: [laki-valtioneuvostosta-175-2003, vn-ministerien-tyonjako-2026-06-16, vn-orpon-hallitus, vn-en-ministries]
+
+  - id: FI-2023-valtiovarainministerio
+    order: 6
+    name_original: Valtiovarainministeriö
+    abbreviation_original: VM
+    name_en: Ministry of Finance
+    name_es: Ministerio de Finanzas
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Valtiovarainministeri
+    head_title_en: Minister of Finance
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [finance, budget, public_administration, territorial_administration, digital]
+    counts_as_ministry: true
+    url: https://vm.fi/
+    sources: [laki-valtioneuvostosta-175-2003, vn-ministerien-tyonjako-2026-06-16, vn-orpon-hallitus, vn-en-ministries]
+    note:
+      en: >-
+        Three ministers handle matters in this ministry: the minister of finance as head, the
+        minister of local government and regional affairs (local and regional administration,
+        employer and personnel policy, public-sector ICT, the state controller function and
+        statistics) and the minister of economic affairs (the financial markets department,
+        apart from state borrowing and debt management). The digital and
+        territorial_administration tags come from the second of those, and neither is visible
+        in the ministry's name.
+      es: >-
+        Tres ministros tramitan asuntos en este ministerio: la de Finanzas como jefa, la de
+        Administración Local y Regional (administración local y regional, política de personal,
+        TIC del sector público, función de controlador del Estado y estadísticas) y el de
+        Economía (el departamento de mercados financieros, salvo el endeudamiento y la gestión
+        de la deuda del Estado). Las etiquetas digital y territorial_administration vienen de
+        la segunda, y ninguna se aprecia en el nombre del ministerio.
+
+  - id: FI-2023-opetus-ja-kulttuuriministerio
+    order: 7
+    name_original: Opetus- ja kulttuuriministeriö
+    abbreviation_original: OKM
+    name_en: Ministry of Education and Culture
+    name_es: Ministerio de Educación y Cultura
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Opetusministeri
+    head_title_en: Minister of Education
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [education, culture, higher_education, research, sport, youth, religion]
+    counts_as_ministry: true
+    url: https://okm.fi/
+    sources: [laki-valtioneuvostosta-175-2003, vn-ministerien-tyonjako-2026-06-16, vn-orpon-hallitus, vn-en-ministries]
+    note:
+      en: >-
+        The most crowded ministry in Finland: three of the nineteen ministers handle matters
+        here — the minister of education as head, the minister of science and culture for the
+        higher education, science, culture and arts departments, and the minister of sport,
+        exercise and youth for the youth and sport department and student financial aid.
+        Church affairs (kirkollisasiat) are also this ministry's and are expressly reserved to
+        its head, which is why religion is tagged here.
+      es: >-
+        El ministerio más concurrido de Finlandia: tres de los diecinueve ministros tramitan
+        asuntos aquí —el de Educación como jefe, la de Ciencia y Cultura para los
+        departamentos de universidades, ciencia, cultura y artes, y el de Deporte y Juventud
+        para el departamento de juventud y deporte y las ayudas al estudio—. Los asuntos
+        eclesiásticos (kirkollisasiat) también son de este ministerio y están expresamente
+        reservados a su jefe, y por eso se etiqueta religion aquí.
+
+  - id: FI-2023-maa-ja-metsatalousministerio
+    order: 8
+    name_original: Maa- ja metsätalousministeriö
+    abbreviation_original: MMM
+    name_en: Ministry of Agriculture and Forestry
+    name_es: Ministerio de Agricultura y Silvicultura
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Maa- ja metsätalousministeri
+    head_title_en: Minister of Agriculture and Forestry
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [agriculture, forestry, fisheries, food_safety, rural_development, water]
+    counts_as_ministry: true
+    url: https://mmm.fi/
+    sources: [laki-valtioneuvostosta-175-2003, vn-ministerien-tyonjako-2026-06-16, vn-orpon-hallitus, vn-en-ministries]
+    note:
+      en: >-
+        One minister, who handles every matter in the ministry's remit. The remit is wide:
+        agriculture, forestry, fisheries and game, food and food safety, rural development and
+        water resources, which is why the tag list is longer than the two-word name suggests.
+      es: >-
+        Una sola ministra, que tramita todos los asuntos del ámbito del ministerio. El ámbito
+        es amplio: agricultura, silvicultura, pesca y caza, alimentación y seguridad
+        alimentaria, desarrollo rural y recursos hídricos, y por eso la lista de etiquetas es
+        más larga de lo que sugiere un nombre de dos palabras.
+
+  - id: FI-2023-liikenne-ja-viestintaministerio
+    order: 9
+    name_original: Liikenne- ja viestintäministeriö
+    abbreviation_original: LVM
+    name_en: Ministry of Transport and Communications
+    name_es: Ministerio de Transporte y Comunicaciones
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Liikenne- ja viestintäministeri
+    head_title_en: Minister of Transport and Communications
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [transport, telecommunications, infrastructure]
+    counts_as_ministry: true
+    url: https://www.lvm.fi/
+    sources: [laki-valtioneuvostosta-175-2003, vn-ministerien-tyonjako-2026-06-16, vn-orpon-hallitus, vn-en-ministries]
+
+  - id: FI-2023-tyo-ja-elinkeinoministerio
+    order: 10
+    name_original: Työ- ja elinkeinoministeriö
+    abbreviation_original: TEM
+    name_en: Ministry of Economic Affairs and Employment
+    name_es: Ministerio de Economía y Empleo
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Työministeri
+    head_title_en: Minister of Employment
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [labour, economy, industry, energy, innovation, regional_development]
+    counts_as_ministry: true
+    url: https://tem.fi/
+    sources: [laki-valtioneuvostosta-175-2003, vn-ministerien-tyonjako-2026-06-16, vn-orpon-hallitus, vn-en-ministries]
+    note:
+      en: >-
+        Five of the nineteen ministers handle matters in this ministry, more than anywhere
+        else in the Finnish government: the minister of employment as head, the minister of
+        economic affairs (innovation and business finance, security of supply, regional
+        growth services), the minister of the environment and climate (the energy
+        department), the minister of local government and regional affairs (urban
+        development) and the minister of the interior (integration). The energy tag therefore
+        sits here rather than on the Ministry of the Environment, whose minister handles it:
+        this dataset tags the ministry that holds the subject matter.
+      es: >-
+        Cinco de los diecinueve ministros tramitan asuntos en este ministerio, más que en
+        ningún otro del gobierno finlandés: el de Trabajo como jefe, el de Economía
+        (innovación y financiación empresarial, seguridad de abastecimiento, servicios
+        regionales de crecimiento), la de Medio Ambiente y Clima (el departamento de
+        energía), la de Administración Local y Regional (desarrollo urbano) y la del Interior
+        (integración). La etiqueta energy está por tanto aquí y no en el Ministerio de Medio
+        Ambiente, cuya ministra la tramita: este dataset etiqueta al ministerio que tiene la
+        materia.
+
+  - id: FI-2023-sosiaali-ja-terveysministerio
+    order: 11
+    name_original: Sosiaali- ja terveysministeriö
+    abbreviation_original: STM
+    name_en: Ministry of Social Affairs and Health
+    name_es: Ministerio de Asuntos Sociales y Salud
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Sosiaali- ja terveysministeri
+    head_title_en: Minister of Social Affairs and Health
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [social_affairs, health, social_security, equality]
+    counts_as_ministry: true
+    url: https://stm.fi/
+    sources: [laki-valtioneuvostosta-175-2003, vn-ministerien-tyonjako-2026-06-16, vn-orpon-hallitus, vn-en-ministries]
+    note:
+      en: >-
+        Two ministers: the minister of social affairs and health as head, and the minister of
+        social security for the social insurance department, the labour and gender equality
+        department and the occupational safety and health department. Finland has no equality
+        ministry, and the equality tag sits here because the gender equality unit is a
+        department of this ministry.
+      es: >-
+        Dos ministros: el de Asuntos Sociales y Salud como jefe, y la de Seguridad Social para
+        el departamento de seguros sociales, el de trabajo e igualdad y el de seguridad y
+        salud. Finlandia no tiene ministerio de igualdad, y la etiqueta equality está aquí
+        porque la unidad de igualdad es un departamento de este ministerio.
+
+  - id: FI-2023-ymparistoministerio
+    order: 12
+    name_original: Ympäristöministeriö
+    abbreviation_original: YM
+    name_en: Ministry of the Environment
+    name_es: Ministerio de Medio Ambiente
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ympäristö- ja ilmastoministeri
+    head_title_en: Minister of the Environment and Climate
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [environment, climate, housing, spatial_planning]
+    counts_as_ministry: true
+    url: https://ym.fi/
+    sources: [laki-valtioneuvostosta-175-2003, vn-ministerien-tyonjako-2026-06-16, vn-orpon-hallitus, vn-en-ministries]
+    note:
+      en: >-
+        One minister, styled minister of the environment and climate, who also coordinates
+        climate policy across the government and handles the energy department of the Ministry
+        of Economic Affairs and Employment. Housing and the built environment are this
+        ministry's, which is why housing and spatial_planning are tagged here and not on a
+        housing ministry: Finland has none.
+      es: >-
+        Una sola ministra, titulada de Medio Ambiente y Clima, que además coordina la política
+        climática en el conjunto del gobierno y tramita el departamento de energía del
+        Ministerio de Economía y Empleo. La vivienda y el entorno construido son de este
+        ministerio, y por eso housing y spatial_planning se etiquetan aquí y no en un
+        ministerio de vivienda: Finlandia no tiene ninguno.
+
+  # --- recorded, not counted: the seven ministers who head no ministry -------------------
+  # Section 4 of the valtioneuvostolaki allows a minister to handle matters within the remit
+  # of ministries instead of heading one. Each holds full ministerial rank and a seat in the
+  # valtioneuvosto, so each adds a cabinet seat and no ministry. Order follows the
+  # government's own roster.
+  - id: FI-2023-eurooppa-ja-omistajaohjausministeri
+    order: 13
+    name_original: Eurooppa- ja omistajaohjausministeri
+    abbreviation_original: null
+    name_en: Minister for European Affairs and Ownership Steering
+    name_es: Ministro de Asuntos Europeos y Gestión de la Propiedad Estatal
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministeri
+    head_title_en: Minister
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    url: null
+    sources: [vn-ministerien-tyonjako-2026-06-16, vn-orpon-hallitus, laki-valtioneuvostosta-175-2003]
+    note:
+      en: >-
+        Works inside the valtioneuvoston kanslia, handling the EU secretariat matters that do
+        not belong to the Prime Minister, and state ownership steering. There is no ministry
+        of European affairs and none of state ownership. The exclusion reason
+        minister_without_portfolio is the closest fit in the project's vocabulary and is
+        slightly misleading in the Finnish context: this minister has a defined portfolio,
+        just no department of their own.
+      es: >-
+        Trabaja dentro de la valtioneuvoston kanslia y tramita los asuntos del secretariado
+        de la UE que no corresponden al primer ministro, así como la gestión de la propiedad
+        estatal. No existe un ministerio de Asuntos Europeos ni uno de propiedad estatal. El
+        motivo de exclusión minister_without_portfolio es el más aproximado del vocabulario
+        del proyecto y resulta algo engañoso en el contexto finlandés: este ministro sí tiene
+        cartera definida, lo que no tiene es departamento propio.
+
+  - id: FI-2023-ulkomaankauppa-ja-kehitysministeri
+    order: 14
+    name_original: Ulkomaankauppa- ja kehitysministeri
+    abbreviation_original: null
+    name_en: Minister for Foreign Trade and Development
+    name_es: Ministro de Comercio Exterior y Desarrollo
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministeri
+    head_title_en: Minister
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    url: null
+    sources: [vn-ministerien-tyonjako-2026-06-16, vn-orpon-hallitus, laki-valtioneuvostosta-175-2003]
+    note:
+      en: >-
+        Works inside the ulkoministeriö, handling development cooperation and foreign trade.
+        The trade and development_cooperation tags therefore sit on that ministry, not here.
+      es: >-
+        Trabaja dentro del ulkoministeriö y tramita la cooperación al desarrollo y el comercio
+        exterior. Las etiquetas trade y development_cooperation están por tanto en ese
+        ministerio y no aquí.
+
+  - id: FI-2023-kunta-ja-alueministeri
+    order: 15
+    name_original: Kunta- ja alueministeri
+    abbreviation_original: null
+    name_en: Minister of Local Government and Regional Affairs
+    name_es: Ministra de Administración Local y Regional
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministeri
+    head_title_en: Minister
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    url: null
+    sources: [vn-ministerien-tyonjako-2026-06-16, vn-orpon-hallitus, laki-valtioneuvostosta-175-2003]
+    note:
+      en: >-
+        The clearest illustration of why Finnish ministers cannot be mapped one-to-one onto
+        ministries: this minister handles Åland affairs in the Ministry of Justice, local and
+        regional administration, employer and personnel policy, public-sector ICT, the state
+        controller function and statistics in the Ministry of Finance, and urban development
+        in the Ministry of Economic Affairs and Employment. Three ministries, one minister,
+        one seat, no ministry of local government.
+      es: >-
+        La ilustración más clara de por qué los ministros finlandeses no se pueden asignar uno
+        a uno a los ministerios: esta ministra tramita los asuntos de Åland en el Ministerio de
+        Justicia; la administración local y regional, la política de personal, las TIC del
+        sector público, la función de controlador del Estado y las estadísticas en el
+        Ministerio de Finanzas; y el desarrollo urbano en el Ministerio de Economía y Empleo.
+        Tres ministerios, una ministra, un asiento y ningún ministerio de administración local.
+
+  - id: FI-2023-tiede-ja-kulttuuriministeri
+    order: 16
+    name_original: Tiede- ja kulttuuriministeri
+    abbreviation_original: null
+    name_en: Minister of Science and Culture
+    name_es: Ministra de Ciencia y Cultura
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministeri
+    head_title_en: Minister
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    url: null
+    sources: [vn-ministerien-tyonjako-2026-06-16, vn-orpon-hallitus, laki-valtioneuvostosta-175-2003]
+    note:
+      en: >-
+        Works inside the opetus- ja kulttuuriministeriö, handling the higher education and
+        science department and the culture and arts department, but expressly not church
+        affairs, which stay with the ministry's head. Finland therefore has no separate
+        science ministry and no separate culture ministry.
+      es: >-
+        Trabaja dentro del opetus- ja kulttuuriministeriö y tramita el departamento de
+        universidades y ciencia y el de cultura y artes, pero expresamente no los asuntos
+        eclesiásticos, que quedan con el jefe del ministerio. Finlandia no tiene, por tanto,
+        ministerio de ciencia ni de cultura propios.
+
+  - id: FI-2023-liikunta-urheilu-ja-nuorisoministeri
+    order: 17
+    name_original: Liikunta-, urheilu- ja nuorisoministeri
+    abbreviation_original: null
+    name_en: Minister of Sport, Exercise and Youth
+    name_es: Ministro de Deporte, Actividad Física y Juventud
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministeri
+    head_title_en: Minister
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    url: null
+    sources: [vn-ministerien-tyonjako-2026-06-16, vn-orpon-hallitus, laki-valtioneuvostosta-175-2003]
+    note:
+      en: >-
+        Works inside the opetus- ja kulttuuriministeriö, handling the youth and sport policy
+        department and student financial aid. The sport and youth tags sit on that ministry.
+      es: >-
+        Trabaja dentro del opetus- ja kulttuuriministeriö y tramita el departamento de
+        política de juventud y deporte y las ayudas al estudio. Las etiquetas sport y youth
+        están en ese ministerio.
+
+  - id: FI-2023-elinkeinoministeri
+    order: 18
+    name_original: Elinkeinoministeri
+    abbreviation_original: null
+    name_en: Minister of Economic Affairs
+    name_es: Ministro de Economía
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministeri
+    head_title_en: Minister
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    url: null
+    sources: [vn-ministerien-tyonjako-2026-06-16, vn-orpon-hallitus, laki-valtioneuvostosta-175-2003]
+    note:
+      en: >-
+        Works in two ministries: the innovation and business finance department, security of
+        supply and the regional growth services of the Ministry of Economic Affairs and
+        Employment, and the financial markets department of the Ministry of Finance apart from
+        state borrowing and debt management. Note that despite the title it is the minister of
+        employment, not this minister, who heads the Ministry of Economic Affairs and
+        Employment.
+      es: >-
+        Trabaja en dos ministerios: el departamento de innovación y financiación empresarial,
+        la seguridad de abastecimiento y los servicios regionales de crecimiento del
+        Ministerio de Economía y Empleo, y el departamento de mercados financieros del
+        Ministerio de Finanzas, salvo el endeudamiento y la gestión de la deuda del Estado.
+        Nótese que, pese al título, quien dirige el Ministerio de Economía y Empleo es el
+        ministro de Trabajo y no este ministro.
+
+  - id: FI-2023-sosiaaliturvaministeri
+    order: 19
+    name_original: Sosiaaliturvaministeri
+    abbreviation_original: null
+    name_en: Minister of Social Security
+    name_es: Ministra de Seguridad Social
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministeri
+    head_title_en: Minister
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    url: null
+    sources: [vn-ministerien-tyonjako-2026-06-16, vn-orpon-hallitus, laki-valtioneuvostosta-175-2003]
+    note:
+      en: >-
+        Works inside the sosiaali- ja terveysministeriö, handling the social insurance, labour
+        and gender equality, and occupational safety and health departments. This is the post
+        whose holder changed on 16 June 2026, when Karoliina Partanen replaced Sanni
+        Grahn-Laasonen for the duration of her family leave; the post itself is unchanged.
+      es: >-
+        Trabaja dentro del sosiaali- ja terveysministeriö y tramita los departamentos de
+        seguros sociales, de trabajo e igualdad y de seguridad y salud laboral. Es el puesto
+        cuyo titular cambió el 16 de junio de 2026, cuando Karoliina Partanen sustituyó a
+        Sanni Grahn-Laasonen durante su permiso familiar; el puesto en sí no ha cambiado.

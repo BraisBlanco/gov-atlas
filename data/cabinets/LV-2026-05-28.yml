@@ -1,0 +1,1003 @@
+# Latvia — government structure of Ministru prezidenta Andra Kulberga vadītais Ministru
+# kabinets, Latvia's 43rd government.
+#
+# See docs/DATA-CONTRACT.md. Four things worth knowing before reading the list:
+#
+#   1. Like Finland, Latvia enumerates its ministries in a statute — but it enumerates them
+#      obliquely. Section 5(1) of the Ministru kabineta iekārtas likums lists the ministers
+#      "kuriem ir pakļautas attiecīgās ministrijas", the ministers to whom the respective
+#      ministries are subordinate. Creating or abolishing a Latvian ministry means amending
+#      that list, so the count is a legal fact rather than a reading of a reorganisation
+#      decree.
+#   2. The list is numbered 1 to 15 but has fourteen items. Clauses 3 and 10 were repealed in
+#      2009 and 2010 and their numbers were never reused, while the ministry added in 2023
+#      was inserted as clause 7.1. Anyone who counts the numbers instead of the entries gets
+#      fifteen. This is the single commonest way to get Latvia wrong.
+#   3. Fourteen ministries, fifteen cabinet seats. The Ministru prezidents heads no ministry:
+#      section 5(1) puts him outside the enumeration, and the State Chancellery that serves
+#      him is headed by a civil-service director, not a minister.
+#   4. This cabinet is two months old. Evika Siliņa's cabinet of 15 September 2023 gave way
+#      to this one on 28 May 2026, when the Saeima expressed confidence in it; under section
+#      17 of the same Act its members took office the same day.
+
+country: LV
+cabinet_id: LV-2026-05-28
+
+cabinet_name_original: Ministru prezidenta Andra Kulberga vadītais Ministru kabinets
+cabinet_name_en: Kulbergs cabinet
+cabinet_name_es: Gobierno Kulbergs
+
+head_of_government_title_original: Ministru prezidents
+head_of_government_title_en: Prime Minister
+
+took_office: 2026-05-28
+left_office: null
+
+methodology_notes:
+  - en: >-
+      14 ministries and 15 cabinet seats. The fourteen are the ministries whose ministers are
+      enumerated in section 5, paragraph one of the Ministru kabineta iekārtas likums; the
+      fifteenth seat is the Ministru prezidenta, who heads no ministry. The statute is
+      explicit about the difference: paragraph one lists the Prime Minister first and then
+      "šādi ministri, kuriem ir pakļautas attiecīgās ministrijas" — the following ministers to
+      whom the respective ministries are subordinate. The Saeima's notice of 28 May 2026
+      publishes exactly the same shape: one Ministru prezidents and fourteen named ministers.
+      The two figures are never added together.
+    es: >-
+      14 ministerios y 15 asientos en el gabinete. Los catorce son los ministerios cuyos
+      ministros enumera el artículo 5, apartado primero, de la Ministru kabineta iekārtas
+      likums; el decimoquinto asiento es el del Ministru prezidents, que no encabeza ningún
+      ministerio. La ley es explícita al respecto: el apartado primero nombra primero al
+      primer ministro y después «šādi ministri, kuriem ir pakļautas attiecīgās ministrijas»,
+      los siguientes ministros a los que están subordinados los respectivos ministerios. El
+      aviso del Saeima de 28 de mayo de 2026 publica exactamente la misma forma: un Ministru
+      prezidents y catorce ministros nombrados. Las dos cifras nunca se suman.
+  - en: >-
+      Why the statutory list is numbered to 15 and still contains fourteen ministries. Clause
+      3 was repealed by the law of 28 May 2009 and clause 10 by the law of 16 December 2010;
+      Latvian legislative practice leaves the repealed clause in place as "(izslēgts ar ...
+      likumu)" rather than renumbering, so both slots are still visible in the consolidated
+      text. In the other direction, the Klimata un enerģētikas ministrija created on 1 January
+      2023 was inserted as clause 7.1, printed with a superscript, rather than as a new final
+      number. The result is a list running 1, 2, 4, 5, 6, 7, 7.1, 8, 9, 11, 12, 13, 14, 15 —
+      fourteen entries under fifteen numbers. A reader who counts the highest number rather
+      than the entries will publish 15, and several secondary compilations do.
+    es: >-
+      Por qué la lista legal llega al número 15 y aun así contiene catorce ministerios. El
+      punto 3 fue derogado por la ley de 28 de mayo de 2009 y el punto 10 por la de 16 de
+      diciembre de 2010; la práctica legislativa letona deja el punto derogado en su sitio
+      como «(izslēgts ar ... likumu)» en vez de renumerar, de modo que ambos huecos siguen
+      visibles en el texto consolidado. En sentido contrario, el Klimata un enerģētikas
+      ministrija, creado el 1 de enero de 2023, se insertó como punto 7.1, impreso con un
+      superíndice, y no como un número final nuevo. El resultado es una lista 1, 2, 4, 5, 6,
+      7, 7.1, 8, 9, 11, 12, 13, 14, 15: catorce entradas bajo quince números. Quien cuente el
+      número más alto en lugar de las entradas publicará 15, y varias recopilaciones
+      secundarias lo hacen.
+  - en: >-
+      This cabinet has no deputy prime minister and no minister for special assignments, and
+      that is a fact about this cabinet rather than about Latvia. Section 5, paragraph two of
+      the Act expressly allows the Cabinet to contain "viens vai vairāki ministri, kuriem var
+      nebūt pakļautas ministrijas" — one or several ministers who may have no ministry
+      subordinate to them — namely a Ministru prezidenta biedrs and an īpašu uzdevumu
+      ministrs. Earlier Latvian cabinets used both: the Kariņš cabinet confirmed on 23 January
+      2019 had two deputy prime ministers, each of whom also held a ministry. The Saeima's
+      notice of 28 May 2026 names neither office. If one were created mid-term it would add a
+      cabinet seat and, unless it were combined with a ministry, no ministry. A Latvian deputy
+      prime minister who also holds a ministry is counted once, through that ministry, as
+      section 7, paragraph two contemplates.
+    es: >-
+      Este gabinete no tiene viceprimer ministro ni ministro para encargos especiales, y eso
+      es un hecho sobre este gabinete y no sobre Letonia. El artículo 5, apartado segundo, de
+      la ley permite expresamente que el gabinete incluya «viens vai vairāki ministri, kuriem
+      var nebūt pakļautas ministrijas» —uno o varios ministros que pueden no tener ministerio
+      subordinado—, a saber, un Ministru prezidenta biedrs y un īpašu uzdevumu ministrs.
+      Gabinetes letones anteriores usaron ambas figuras: el gabinete Kariņš confirmado el 23
+      de enero de 2019 tuvo dos viceprimeros ministros, y cada uno ostentaba además un
+      ministerio. El aviso del Saeima de 28 de mayo de 2026 no nombra ninguna de las dos
+      figuras. Si se creara una a mitad de legislatura sumaría un asiento y, salvo que se
+      combinara con un ministerio, ningún ministerio. Un viceprimer ministro letón que además
+      ostente un ministerio se cuenta una sola vez, a través de ese ministerio, como prevé el
+      artículo 7, apartado segundo.
+  - en: >-
+      Which cabinet is in office, and from when. Evika Siliņa's cabinet took office on 15
+      September 2023 and is not the sitting government: on 28 May 2026 the Saeima, at an
+      extraordinary sitting, expressed confidence in a cabinet led by Andris Kulbergs, formed
+      by Apvienotais saraksts, Jaunā Vienotība, Zaļo un Zemnieku savienība and Nacionālā
+      apvienība. `took_office` is the date of that vote and not of any later ceremony, because
+      section 17 of the Ministru kabineta iekārtas likums provides that members of the Cabinet
+      "stājas pie amata pienākumu pildīšanas tūlīt pēc tam, kad Saeima viņiem izteikusi
+      uzticību" — they begin performing their duties immediately after the Saeima has
+      expressed confidence in them. Latvia's 15th Saeima election falls in October 2026, so
+      this cabinet is recorded as sitting with a term that will be short.
+    es: >-
+      Qué gabinete está en funciones, y desde cuándo. El gabinete de Evika Siliņa tomó
+      posesión el 15 de septiembre de 2023 y no es el gobierno vigente: el 28 de mayo de 2026
+      el Saeima, en sesión extraordinaria, expresó su confianza en un gabinete encabezado por
+      Andris Kulbergs, formado por Apvienotais saraksts, Jaunā Vienotība, Zaļo un Zemnieku
+      savienība y Nacionālā apvienība. `took_office` es la fecha de esa votación y no la de
+      ninguna ceremonia posterior, porque el artículo 17 de la Ministru kabineta iekārtas
+      likums dispone que los miembros del gabinete «stājas pie amata pienākumu pildīšanas
+      tūlīt pēc tam, kad Saeima viņiem izteikusi uzticību», es decir, empiezan a ejercer sus
+      funciones inmediatamente después de que el Saeima les haya expresado confianza. Las
+      elecciones al 15.º Saeima son en octubre de 2026, de modo que este gabinete se registra
+      como vigente con un mandato que será corto.
+  - en: >-
+      Environmental competence is split between two ministries, deliberately, and the statute
+      says so. Transitional provision 19, added by the law of 6 June 2024, records that the
+      former Vides aizsardzības un reģionālās attīstības ministrija now corresponds both to
+      the Viedās administrācijas un reģionālās attīstības ministrija, "ņemot vērā ...
+      kompetenci dabas aizsardzības jomā" (nature protection), and to the Klimata un
+      enerģētikas ministrija, "ņemot vērā ... kompetenci vides aizsardzības jomā"
+      (environmental protection). The project's taxonomy has one id, `environment`, covering
+      "environment and nature", so it is tagged on both, and each of the two entities carries
+      a note saying which half it holds. Counting these as two environment ministries would
+      overstate Latvia's structure; counting neither would lose the split entirely.
+    es: >-
+      La competencia ambiental está repartida deliberadamente entre dos ministerios, y así lo
+      dice la ley. La disposición transitoria 19, añadida por la ley de 6 de junio de 2024,
+      recoge que el antiguo Vides aizsardzības un reģionālās attīstības ministrija corresponde
+      ahora tanto al Viedās administrācijas un reģionālās attīstības ministrija, «ņemot vērā
+      ... kompetenci dabas aizsardzības jomā» (protección de la naturaleza), como al Klimata
+      un enerģētikas ministrija, «ņemot vērā ... kompetenci vides aizsardzības jomā»
+      (protección del medio ambiente). La taxonomía del proyecto tiene un solo id,
+      `environment`, que cubre «medio ambiente y naturaleza», por lo que se etiqueta en ambos,
+      y cada una de las dos entidades lleva una nota que indica qué mitad tiene. Contarlos
+      como dos ministerios de medio ambiente exageraría la estructura letona; no etiquetar
+      ninguno haría desaparecer el reparto.
+  - en: >-
+      Two official sources publish a figure or a name that this file does not follow, and both
+      are worth knowing about. First, the English edition of mk.gov.lv carries two
+      descriptions of the government: the "Cabinet composition" item says "the Prime Minister
+      and 14 sectoral ministers", matching the Latvian page and the statute, while the
+      neighbouring "Sittings of the Cabinet of Ministers" item still says 13 — a stale menu
+      description left over from before the Klimata un enerģētikas ministrija was created in
+      2023. Second, the State Language Centre's English translation of the Act on likumi.lv is
+      expressly flagged "The translation of this document is outdated. Translation validity:
+      15.03.2023.–30.06.2024. Amendments not included: 06.06.2024.", so its clause 14 still
+      reads "the Minister for Environmental Protection and Regional Development". The English
+      minister titles used here are mk.gov.lv's current ones, which give "Minister for Smart
+      Administration and Regional Development".
+    es: >-
+      Dos fuentes oficiales publican una cifra o un nombre que este fichero no sigue, y
+      conviene conocer ambas. Primero, la edición inglesa de mk.gov.lv lleva dos descripciones
+      del gobierno: la del apartado «Cabinet composition» dice «the Prime Minister and 14
+      sectoral ministers», coincidiendo con la página en letón y con la ley, mientras que la
+      contigua de «Sittings of the Cabinet of Ministers» sigue diciendo 13, una descripción de
+      menú obsoleta anterior a la creación del Klimata un enerģētikas ministrija en 2023.
+      Segundo, la traducción inglesa de la ley del Centro Estatal de Lengua publicada en
+      likumi.lv está marcada expresamente como «The translation of this document is outdated.
+      Translation validity: 15.03.2023.–30.06.2024. Amendments not included: 06.06.2024.», de
+      modo que su punto 14 aún dice «the Minister for Environmental Protection and Regional
+      Development». Los títulos ministeriales en inglés usados aquí son los actuales de
+      mk.gov.lv, que dan «Minister for Smart Administration and Regional Development».
+  - en: >-
+      Names and provenance. The Latvian government publishes official English titles for its
+      ministers ("Minister for Defence", "Minister for Welfare", "Minister for Smart
+      Administration and Regional Development"), and those are what this file records in
+      `head_title_en`. It does not publish a consolidated English list of the ministries as
+      institutions, so every `name_en` below is this project's rendering of the Latvian
+      institutional name, formed to match the government's own English title of the
+      corresponding minister, and is marked `translated`; the two entities whose English names
+      the government does publish — "Prime Minister" and "State Chancellery" — are marked
+      `official`. All Spanish names are this project's. Latvian minister titles are gendered:
+      the Saeima's notice writes "ārlietu ministre" and "izglītības un zinātnes ministre" of
+      the women holding those posts and "aizsardzības ministrs" of the man holding his.
+      `head_title_original` records the masculine form, which is the form the statute uses for
+      the office irrespective of who holds it.
+    es: >-
+      Nombres y procedencia. El gobierno letón publica títulos oficiales en inglés para sus
+      ministros («Minister for Defence», «Minister for Welfare», «Minister for Smart
+      Administration and Regional Development»), y eso es lo que este fichero recoge en
+      `head_title_en`. No publica una lista consolidada en inglés de los ministerios como
+      instituciones, de modo que cada `name_en` de abajo es una traducción de este proyecto
+      del nombre institucional letón, construida para coincidir con el título inglés oficial
+      del ministro correspondiente, y lleva la marca `translated`; las dos entidades cuyo
+      nombre inglés sí publica el gobierno —«Prime Minister» y «State Chancellery»— llevan
+      `official`. Todos los nombres en español son de este proyecto. Los títulos ministeriales
+      letones tienen género: el aviso del Saeima escribe «ārlietu ministre» e «izglītības un
+      zinātnes ministre» de las mujeres que ocupan esos puestos y «aizsardzības ministrs» del
+      hombre que ocupa el suyo. `head_title_original` recoge la forma masculina, que es la que
+      usa la ley para el cargo con independencia de quién lo ocupe.
+  - en: >-
+      Listing order and perimeter. `order` follows the order of the statute and of the
+      Saeima's notice, both of which name the Ministru prezidents first and then the ministers
+      in the same sequence; that is why the head of government stands at position 1 even
+      though he is not counted. The State Chancellery is recorded last, outside both lists,
+      because no source treats it as a member of the Cabinet. This file describes the central
+      government of the Republic of Latvia only: the 42 local governments and the five
+      planning regions are subnational and out of scope, and appear here only as the subject
+      matter of a ministry.
+    es: >-
+      Orden de listado y perímetro. `order` sigue el orden de la ley y el del aviso del
+      Saeima, que nombran ambos primero al Ministru prezidents y luego a los ministros en la
+      misma secuencia; por eso el jefe de gobierno ocupa la posición 1 aunque no se cuente. La
+      Cancillería del Estado se registra al final, fuera de ambas listas, porque ninguna
+      fuente la trata como miembro del gabinete. Este fichero describe únicamente el gobierno
+      central de la República de Letonia: los 42 gobiernos locales y las cinco regiones de
+      planificación son subnacionales y quedan fuera de alcance, y aparecen aquí sólo como
+      materia de un ministerio.
+
+sources:
+  - id: likumi-mk-iekartas-likums
+    tier: 1
+    type: statute
+    publisher: Latvijas Republikas Saeima / Oficiālais izdevējs "Latvijas Vēstnesis" (Likumi.lv)
+    title: Ministru kabineta iekārtas likums (konsolidētā redakcija, spēkā no 01.07.2025.)
+    url: https://likumi.lv/ta/id/175919-ministru-kabineta-iekartas-likums
+    archive_url: https://web.archive.org/web/20250523203503/https://likumi.lv/ta/id/175919-ministru-kabineta-iekartas-likums
+    lang: lv
+    published: 2008-05-28
+    accessed: 2026-07-28
+    quote: |-
+      5.pants. Ministru kabineta locekļi
+      (1) Ministru kabineta sastāvā ir Ministru prezidents un šādi ministri, kuriem ir pakļautas attiecīgās ministrijas:
+      1) aizsardzības ministrs;
+      2) ārlietu ministrs;
+      3) (izslēgts ar 28.05.2009. likumu);
+      4) ekonomikas ministrs;
+      5) finanšu ministrs;
+      6) iekšlietu ministrs;
+      7) izglītības un zinātnes ministrs;
+      7¹) klimata un enerģētikas ministrs;
+      8) kultūras ministrs;
+      9) labklājības ministrs;
+      10) (izslēgts ar 16.12.2010. likumu);
+      11) satiksmes ministrs;
+      12) tieslietu ministrs;
+      13) veselības ministrs;
+      14) viedās administrācijas un reģionālās attīstības ministrs;
+      15) zemkopības ministrs.
+      (2) Ministru kabineta sastāvā var būt viens vai vairāki ministri, kuriem var nebūt pakļautas ministrijas:
+      1) Ministru prezidenta biedrs;
+      2) īpašu uzdevumu ministrs.
+      (Ar grozījumiem, kas izdarīti ar 11.12.2008., 28.05.2009., 16.12.2010., 01.12.2022. un 06.06.2024. likumu, kas stājas spēkā 01.07.2024.)
+      17.pants. Ministru kabineta locekļu stāšanās amatā
+      Ministru kabineta locekļi stājas pie amata pienākumu pildīšanas tūlīt pēc tam, kad Saeima viņiem izteikusi uzticību.
+      19. Līdz dienai, kad stājas spēkā attiecīgi grozījumi citos normatīvajos aktos, tajos lietotais termins "Vides aizsardzības un reģionālās attīstības ministrija" atbilst terminam "Viedās administrācijas un reģionālās attīstības ministrija", ņemot vērā Viedās administrācijas un reģionālās attīstības ministrijas kompetenci dabas aizsardzības jomā, un terminam "Klimata un enerģētikas ministrija", ņemot vērā Klimata un enerģētikas ministrijas kompetenci vides aizsardzības jomā.
+    note: >-
+      The enumerating instrument, and the reason Latvia's ministry count is a legal fact:
+      section 5, paragraph one lists the ministers to whom the ministries are subordinate, and
+      adding or removing a ministry requires amending it. The quotation reproduces that
+      section in full, including paragraph two on ministers without a ministry and the
+      amendment history line that closes it; then section 17, which fixes the date this
+      cabinet took office; then transitional provision 19, which is the only place in the Act
+      where the two ministries renamed and re-scoped in 2024 are named as institutions rather
+      than through their ministers. Clause 7.1 is printed in the original with a superscript
+      one, transcribed here as 7¹. Consolidated text as published by Likumi.lv: the displayed
+      version is the one in force from 1 July 2025, and it is the newest — the amending law of
+      29 May 2025 touched sections 27 to 30 (handling of matters, sittings, transparency,
+      decision-making) and none of the passages quoted here, while section 5 was last amended
+      by the law of 6 June 2024 in force from 1 July 2024, which is when the vides aizsardzības
+      un reģionālās attīstības ministrs became the viedās administrācijas un reģionālās
+      attīstības ministrs. The archived snapshot is of 23 May 2025 and therefore shows the
+      previous consolidated version (1 July 2024 – 30 June 2025); the live page was read on the
+      access date and every passage quoted here is identical in both, which was checked
+      against the snapshot rather than assumed.
+
+  - id: lv-vestnesis-uzticiba-2026-05-28
+    tier: 1
+    type: official_gazette
+    publisher: Oficiālais izdevums "Latvijas Vēstnesis"
+    title: >-
+      Saeimas paziņojums "Par uzticības izteikšanu Ministru kabinetam" (Latvijas Vēstnesis,
+      28.05.2026., Nr. 101A, OP 2026/101A.1)
+    url: https://www.vestnesis.lv/op/2026/101A.1
+    archive_url: https://web.archive.org/web/20260714230217/https://www.vestnesis.lv/op/2026/101A.1
+    lang: lv
+    published: 2026-05-28
+    accessed: 2026-07-28
+    quote: |-
+      Daru zināmu, ka Saeima šā gada 28. maija sēdē izteikusi uzticību Ministru kabinetam šādā sastāvā:
+      Ministru prezidents — Andris Kulbergs,
+      aizsardzības ministrs — Raivis Melnis,
+      ārlietu ministre — Baiba Braže,
+      ekonomikas ministrs — Viktors Valainis,
+      finanšu ministrs — Māris Kučinskis,
+      iekšlietu ministrs — Jānis Dombrava,
+      izglītības un zinātnes ministre — Ilze Indriksone,
+      klimata un enerģētikas ministrs — Jānis Vitenbergs,
+      kultūras ministrs — Nauris Puntulis,
+      labklājības ministrs — Reinis Uzulnieks,
+      satiksmes ministrs — Rihards Kozlovskis,
+      tieslietu ministrs — Edvards Smiltēns,
+      veselības ministrs — Hosams Abu Meri,
+      viedās administrācijas un reģionālās attīstības ministrs — Edgars Tavars,
+      zemkopības ministrs — Uldis Augulis.
+      Saeimas priekšsēdētāja D. Mieriņa
+      Rīgā 2026. gada 28. maijā
+    note: >-
+      The instrument that constitutes this cabinet, published in the official gazette the same
+      evening as the vote (issue 101A of 28 May 2026, timed 18:01). It is quoted in full
+      because it settles three things at once: the date, which section 17 of the Ministru
+      kabineta iekārtas likums makes the date the members took office; the perimeter, since it
+      names one Ministru prezidents and fourteen ministers and no Ministru prezidenta biedrs
+      or īpašu uzdevumu ministrs; and the order, which is the same as the statute's. Its
+      wording — "uzticību Ministru kabinetam šādā sastāvā", confidence in the Cabinet in the
+      following composition — is why a confidence vote rather than an appointment decree is
+      the tier-1 source for a Latvian cabinet.
+
+  - id: mk-gov-lv-sastavs
+    tier: 2
+    type: government_website
+    publisher: Ministru kabinets / Valsts kanceleja
+    title: Ministru kabineta sastāvs
+    url: https://www.mk.gov.lv/lv/ministru-kabineta-sastavs
+    archive_url: https://web.archive.org/web/20260626161533/https://www.mk.gov.lv/lv/ministru-kabineta-sastavs
+    lang: lv
+    published: null
+    accessed: 2026-07-28
+    quote: |-
+      Informācija par valdības sastāvu, ko veido Ministru prezidents un 14 nozaru ministri.
+      Ministru prezidents
+      Aizsardzības ministrs
+      Tieslietu ministrs
+      Ārlietu ministre
+      Ekonomikas ministrs
+      Finanšu ministrs
+      Iekšlietu ministrs
+      Izglītības un zinātnes ministre
+      Kultūras ministrs
+      Klimata un enerģētikas ministrs
+      Labklājības ministrs
+      Satiksmes ministrs
+      Veselības ministrs
+      Viedās administrācijas un reģionālās attīstības ministrs
+      Zemkopības ministrs
+      Latvijas Republikas Ministru prezidents pašlaik ir Andris Kulbergs, kurš par valdības vadītāju kļuva 2026.gada 28.maijā.
+    note: >-
+      The government's own composition page, cited for the figure the government itself
+      publishes — "Ministru prezidents un 14 nozaru ministri", the Prime Minister and 14
+      sectoral ministers — which is the same 14 the statute yields, and for the date the
+      Prime Minister took office. The quotation takes that sentence, then the page's own list
+      of the fifteen offices in its own order (which puts tieslietu before ārlietu, unlike the
+      statute), then the sentence about the Prime Minister from further down the same page.
+      The archived snapshot is of 26 June 2026, a month into this cabinet, and contains every
+      quoted sentence.
+
+  - id: mk-gov-lv-cabinet-composition-en
+    tier: 2
+    type: government_website
+    publisher: Cabinet of Ministers (mk.gov.lv, English-language edition)
+    title: Cabinet composition — Cabinet of Ministers of the Republic of Latvia
+    url: https://www.mk.gov.lv/en/cabinet-composition
+    archive_url: https://web.archive.org/web/20260728092802/https://www.mk.gov.lv/en/cabinet-composition
+    lang: en
+    published: null
+    accessed: 2026-07-28
+    quote: |-
+      Information on the composition of the government, comprising the Prime Minister and 14 sectoral ministers.
+      Prime Minister
+      Minister for Defence
+      Minister for Justice
+      Minister for Foreign Affairs
+      Minister for Agriculture
+      Minister for Culture
+      Minister for Economics
+      Minister for Education and Science
+      Minister for Smart Administration and Regional Development
+      Minister for Finance
+      Minister for Health
+      Minister for Interior
+      Minister for Transport
+      Minister for Welfare
+      Minister for Climate and Energy
+      The State Chancellery is a central public administration institution. It is directly subordinated to the Prime Minister.
+    note: >-
+      The English-language edition of mk.gov.lv, published by the Latvian government itself,
+      which is what fixes the English titles of the ministers in this file and the English
+      names of the two entities marked name_en_provenance official, "Prime Minister" and
+      "State Chancellery". It also states the figure 14 in English. The same page's menu
+      carries one stale description, attached to the "Sittings of the Cabinet of Ministers"
+      item, still reading "the Prime Minister and 13 sectoral ministers"; it is a leftover from
+      before the Klimata un enerģētikas ministrija was created and is discussed in the
+      methodology notes. The snapshot was created on the access date because none existed.
+
+  - id: likumi-mk-structure-law-en
+    tier: 2
+    type: government_website
+    publisher: Valsts valodas centrs / Oficiālais izdevējs "Latvijas Vēstnesis" (Likumi.lv)
+    title: Cabinet of Ministers Structure Law (official English translation, Likumi.lv)
+    url: https://likumi.lv/ta/en/en/id/175919-cabinet-of-ministers-structure-law
+    archive_url: https://web.archive.org/web/20260728092652/https://likumi.lv/ta/en/en/id/175919-cabinet-of-ministers-structure-law
+    lang: en
+    published: null
+    accessed: 2026-07-28
+    quote: |-
+      The translation of this document is outdated.
+      Translation validity: 15.03.2023.–30.06.2024.
+      Amendments not included: 06.06.2024.
+      (1) The Cabinet shall be composed of the Prime Minister and the following ministers to whom the relevant ministries are subordinated:
+      1) the Minister for Defence;
+      2) the Minister for Foreign Affairs;
+      3) [28 May 2009];
+      4) the Minister for Economics;
+      5) the Minister for Finance;
+      6) the Minister for the Interior;
+      7) the Minister for Education and Science;
+      71) the Minister for Climate and Energy;
+      8) the Minister for Culture;
+      9) the Minister for Welfare;
+      10) [16 December 2010];
+      11) the Minister for Transport;
+      12) the Minister for Justice;
+      13) the Minister for Health;
+      14) the Minister for Environmental Protection and Regional Development;
+      15) the Minister for Agriculture.
+      (2) The Cabinet may be composed of one or several ministers who do not have ministries subordinated to them:
+      1) the Deputy Prime Minister;
+      2) the Minister for Special Assignments.
+    note: >-
+      The State Language Centre's English translation of the Act, published on Likumi.lv
+      alongside the Latvian text. Tier 2 rather than tier 1 because a translation is not the
+      legal act: Likumi.lv itself notes that in case of contradiction the official publication
+      prevails. It is cited for two reasons. First, it is the government's own English
+      rendering of the statutory list, and it confirms that "shall be composed of the Prime
+      Minister and the following ministers" separates the head of government from the fourteen.
+      Second, it is quoted with its own warning banner, because the page is expressly marked
+      outdated: it reflects the text in force to 30 June 2024 and therefore still calls clause
+      14 "the Minister for Environmental Protection and Regional Development", a post that no
+      longer exists under that name. The current English title is mk.gov.lv's "Minister for
+      Smart Administration and Regional Development", which is what this file uses. The
+      superscript in clause 7.1 is flattened to "71" by the page itself and is transcribed here
+      as the page prints it. The snapshot was created on the access date because none existed.
+
+entities:
+  # Order follows section 5(1) of the Ministru kabineta iekārtas likums and the Saeima's
+  # notice of 28 May 2026, both of which name the Prime Minister first and then the ministers
+  # in the same sequence. The Prime Minister is therefore first and is not counted.
+  - id: LV-2026-ministru-prezidents
+    order: 1
+    name_original: Ministru prezidents
+    abbreviation_original: null
+    name_en: Prime Minister
+    name_es: Primer ministro
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Ministru prezidents
+    head_title_en: Prime Minister
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: head_of_government_office
+    url: https://www.mk.gov.lv/lv/ministru-prezidents
+    sources: [likumi-mk-iekartas-likums, lv-vestnesis-uzticiba-2026-05-28, mk-gov-lv-sastavs, mk-gov-lv-cabinet-composition-en, likumi-mk-structure-law-en]
+    note:
+      en: >-
+        The head of government holds a seat without heading a ministry, and Latvian statute is
+        unusually explicit about it: section 5(1) names the Ministru prezidents and then,
+        separately, the ministers "kuriem ir pakļautas attiecīgās ministrijas". Section 6(2)
+        allows him to take over one minister's duties permanently or temporarily, which would
+        change who runs a ministry but not how many there are. His own department is the
+        Valsts kanceleja, recorded last in this file and not counted because it is headed by a
+        civil-service director rather than a minister. This is the difference between Latvia
+        and Finland, where the Prime Minister's Office is itself one of the statutory
+        ministries and is counted.
+      es: >-
+        El jefe de gobierno ocupa asiento sin encabezar ningún ministerio, y la ley letona es
+        inusualmente explícita al respecto: el artículo 5(1) nombra al Ministru prezidents y
+        después, por separado, a los ministros «kuriem ir pakļautas attiecīgās ministrijas».
+        El artículo 6(2) le permite asumir de forma permanente o temporal las funciones de un
+        ministro, lo que cambiaría quién dirige un ministerio pero no cuántos hay. Su
+        departamento propio es la Valsts kanceleja, registrada al final de este fichero y no
+        contada porque la dirige un funcionario y no un ministro. Esta es la diferencia con
+        Finlandia, donde la Oficina del Primer Ministro es ella misma uno de los ministerios
+        legales y sí se cuenta.
+
+  # --- the fourteen ministries, in the statutory order of section 5(1) --------------------
+  - id: LV-2026-aizsardzibas-ministrija
+    order: 2
+    name_original: Aizsardzības ministrija
+    abbreviation_original: null
+    name_en: Ministry of Defence
+    name_es: Ministerio de Defensa
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Aizsardzības ministrs
+    head_title_en: Minister for Defence
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [defence]
+    counts_as_ministry: true
+    url: https://www.mod.gov.lv
+    sources: [likumi-mk-iekartas-likums, lv-vestnesis-uzticiba-2026-05-28, mk-gov-lv-sastavs, mk-gov-lv-cabinet-composition-en, likumi-mk-structure-law-en]
+    note:
+      en: >-
+        Tagged defence only. Latvia's compulsory national service, the Valsts aizsardzības
+        dienests introduced in 2023, and military cyber defence are this ministry's, but
+        civil protection and the rescue service are the Ministry of the Interior's, and this
+        dataset tags the ministry that holds the subject matter.
+      es: >-
+        Se etiqueta sólo defence. El servicio nacional obligatorio letón, el Valsts
+        aizsardzības dienests introducido en 2023, y la ciberdefensa militar son de este
+        ministerio, pero la protección civil y el servicio de salvamento son del Ministerio
+        del Interior, y este dataset etiqueta al ministerio que tiene la materia.
+
+  - id: LV-2026-arlietu-ministrija
+    order: 3
+    name_original: Ārlietu ministrija
+    abbreviation_original: null
+    name_en: Ministry of Foreign Affairs
+    name_es: Ministerio de Asuntos Exteriores
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ārlietu ministrs
+    head_title_en: Minister for Foreign Affairs
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [foreign_affairs, european_affairs, development_cooperation, diaspora]
+    counts_as_ministry: true
+    url: https://www.mfa.gov.lv
+    sources: [likumi-mk-iekartas-likums, lv-vestnesis-uzticiba-2026-05-28, mk-gov-lv-sastavs, mk-gov-lv-cabinet-composition-en, likumi-mk-structure-law-en]
+    note:
+      en: >-
+        Latvia has no separate ministry for European affairs, for development cooperation or
+        for the diaspora, and all three sit here: the ministry runs development cooperation
+        and, under the Diasporas likums, coordinates diaspora policy. Trade is not tagged
+        here even though the ministry's economic relations directorate promotes exports,
+        because trade policy proper belongs to the Ministry of Economics.
+      es: >-
+        Letonia no tiene ministerio propio de asuntos europeos, de cooperación al desarrollo
+        ni de diáspora, y los tres están aquí: el ministerio gestiona la cooperación al
+        desarrollo y, conforme a la Diasporas likums, coordina la política de diáspora. No se
+        etiqueta trade aunque la dirección de relaciones económicas del ministerio promueva
+        las exportaciones, porque la política comercial propiamente dicha es del Ministerio de
+        Economía.
+
+  - id: LV-2026-ekonomikas-ministrija
+    order: 4
+    name_original: Ekonomikas ministrija
+    abbreviation_original: EM
+    name_en: Ministry of Economics
+    name_es: Ministerio de Economía
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ekonomikas ministrs
+    head_title_en: Minister for Economics
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [economy, industry, trade, small_business, innovation, housing, tourism, consumer_protection]
+    counts_as_ministry: true
+    url: https://www.em.gov.lv
+    sources: [likumi-mk-iekartas-likums, lv-vestnesis-uzticiba-2026-05-28, mk-gov-lv-sastavs, mk-gov-lv-cabinet-composition-en, likumi-mk-structure-law-en]
+    note:
+      en: >-
+        The widest remit in the Latvian government, and the longest tag list here: the
+        ministry describes itself as making structural economic policy and the policy for
+        industry, construction, tourism, external economic relations, the internal market in
+        goods and services, business development, investment and consumer protection, and it
+        also holds housing policy. Two cautions. Energy is not tagged here although the
+        ministry's own summary still mentions it: energy left this ministry on 1 January 2023
+        for the Klimata un enerģētikas ministrija, which was created by reorganising this
+        ministry and the former Vides aizsardzības un reģionālās attīstības ministrija.
+        Construction is not tagged as `infrastructure` either, because what this ministry
+        holds is building regulation rather than public works, which are the Ministry of
+        Transport's.
+      es: >-
+        El ámbito más amplio del gobierno letón, y la lista de etiquetas más larga de este
+        fichero: el ministerio se describe como responsable de la política estructural de la
+        economía nacional y de la política de industria, construcción, turismo, relaciones
+        económicas exteriores, mercado interior de bienes y servicios, desarrollo empresarial,
+        inversiones y protección de los consumidores, y además tiene la política de vivienda.
+        Dos cautelas. No se etiqueta energy aunque el propio resumen del ministerio siga
+        mencionándola: la energía salió de este ministerio el 1 de enero de 2023 hacia el
+        Klimata un enerģētikas ministrija, creado reorganizando este ministerio y el antiguo
+        Vides aizsardzības un reģionālās attīstības ministrija. Tampoco se etiqueta la
+        construcción como `infrastructure`, porque lo que tiene este ministerio es la
+        regulación de la edificación y no la obra pública, que es del Ministerio de
+        Transporte.
+
+  - id: LV-2026-finansu-ministrija
+    order: 5
+    name_original: Finanšu ministrija
+    abbreviation_original: FM
+    name_en: Ministry of Finance
+    name_es: Ministerio de Finanzas
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Finanšu ministrs
+    head_title_en: Minister for Finance
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [finance, budget]
+    counts_as_ministry: true
+    url: https://www.fm.gov.lv
+    sources: [likumi-mk-iekartas-likums, lv-vestnesis-uzticiba-2026-05-28, mk-gov-lv-sastavs, mk-gov-lv-cabinet-composition-en, likumi-mk-structure-law-en]
+    note:
+      en: >-
+        Tax policy, the annual budget, the tax and customs administration and macroeconomic
+        supervision. It is also Latvia's managing authority for the EU cohesion funds, which
+        would fit the taxonomy's `regional_development` ("regional development and cohesion
+        funds"); that tag is deliberately left on the Ministry of Smart Administration and
+        Regional Development instead, which makes regional policy, so that a cross-country
+        reader is not shown two Latvian regional-development ministries where there is one.
+      es: >-
+        Política fiscal, presupuesto anual, administración tributaria y aduanera y
+        supervisión macroeconómica. Es además la autoridad de gestión letona de los fondos de
+        cohesión de la UE, lo que encajaría con `regional_development` («desarrollo regional y
+        fondos de cohesión») de la taxonomía; esa etiqueta se deja deliberadamente en el
+        Ministerio de Administración Inteligente y Desarrollo Regional, que hace la política
+        regional, para que un lector transnacional no vea dos ministerios letones de
+        desarrollo regional donde hay uno.
+
+  - id: LV-2026-iekslietu-ministrija
+    order: 6
+    name_original: Iekšlietu ministrija
+    abbreviation_original: null
+    name_en: Ministry of the Interior
+    name_es: Ministerio del Interior
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Iekšlietu ministrs
+    head_title_en: Minister for Interior
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [interior, civil_protection, migration]
+    counts_as_ministry: true
+    url: https://www.iem.gov.lv
+    sources: [likumi-mk-iekartas-likums, lv-vestnesis-uzticiba-2026-05-28, mk-gov-lv-sastavs, mk-gov-lv-cabinet-composition-en, likumi-mk-structure-law-en]
+    note:
+      en: >-
+        The ministry defines its own sector as covering crime prevention, public order and
+        security, protection of persons' rights, state border security, fire safety,
+        firefighting, rescue, civil protection, population registration and documentation, and
+        migration. Latvia has no separate migration ministry and no separate civil-protection
+        ministry: the State Fire and Rescue Service and the Office of Citizenship and
+        Migration Affairs are both subordinate to this one.
+      es: >-
+        El ministerio define su sector como la lucha contra la delincuencia, el orden y la
+        seguridad públicos, la protección de los derechos de las personas, la seguridad de la
+        frontera estatal, la seguridad contra incendios, la extinción de incendios, el
+        salvamento, la protección civil, el registro y la documentación de la población y la
+        migración. Letonia no tiene ministerio de migración ni de protección civil propios: el
+        Servicio Estatal de Bomberos y Salvamento y la Oficina de Asuntos de Ciudadanía y
+        Migración dependen ambos de este.
+
+  - id: LV-2026-izglitibas-un-zinatnes-ministrija
+    order: 7
+    name_original: Izglītības un zinātnes ministrija
+    abbreviation_original: IZM
+    name_en: Ministry of Education and Science
+    name_es: Ministerio de Educación y Ciencia
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Izglītības un zinātnes ministrs
+    head_title_en: Minister for Education and Science
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [education, higher_education, vocational_training, research, sport, youth, language_policy, space]
+    counts_as_ministry: true
+    url: https://www.izm.gov.lv
+    sources: [likumi-mk-iekartas-likums, lv-vestnesis-uzticiba-2026-05-28, mk-gov-lv-sastavs, mk-gov-lv-cabinet-composition-en, likumi-mk-structure-law-en]
+    note:
+      en: >-
+        Four of the eight tags are invisible in the two-word name. The ministry describes
+        itself as the leading authority in education, science and sport and in youth, space
+        and state language policy. Sport and youth have no ministry of their own in Latvia.
+        Space is a policy area of this ministry rather than of the economy ministry, which is
+        unusual in this dataset. Language policy is tagged here because this ministry makes
+        it and the Latviešu valodas aģentūra is subordinate to it; enforcement of the State
+        Language Law sits with the Valsts valodas centrs under the Ministry of Justice, so a
+        reader looking for Latvian language policy should look at both.
+      es: >-
+        Cuatro de las ocho etiquetas no se aprecian en un nombre de dos palabras. El
+        ministerio se describe como la autoridad rectora en educación, ciencia y deporte y en
+        política de juventud, espacio y lengua estatal. El deporte y la juventud no tienen
+        ministerio propio en Letonia. El espacio es área de política de este ministerio y no
+        del de Economía, algo poco habitual en este dataset. La política lingüística se
+        etiqueta aquí porque la elabora este ministerio y la Latviešu valodas aģentūra depende
+        de él; la vigilancia del cumplimiento de la Ley de la Lengua Estatal corresponde al
+        Valsts valodas centrs, adscrito al Ministerio de Justicia, de modo que quien busque la
+        política lingüística letona debe mirar ambos.
+
+  - id: LV-2026-klimata-un-energetikas-ministrija
+    order: 8
+    name_original: Klimata un enerģētikas ministrija
+    abbreviation_original: KEM
+    name_en: Ministry of Climate and Energy
+    name_es: Ministerio de Clima y Energía
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Klimata un enerģētikas ministrs
+    head_title_en: Minister for Climate and Energy
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [climate, energy, environment, water]
+    counts_as_ministry: true
+    url: https://www.kem.gov.lv
+    sources: [likumi-mk-iekartas-likums, lv-vestnesis-uzticiba-2026-05-28, mk-gov-lv-sastavs, mk-gov-lv-cabinet-composition-en, likumi-mk-structure-law-en]
+    note:
+      en: >-
+        The newest Latvian ministry, created on 1 January 2023 by reorganising the Ministry of
+        Economics and the former Vides aizsardzības un reģionālās attīstības ministrija, and
+        inserted into the statutory list as clause 7.1 rather than at its end. It is one of
+        the few dedicated climate ministries in this dataset. The `environment` tag is the
+        contestable one: transitional provision 19 of the Act gives this ministry the
+        vides aizsardzība half of the old environment portfolio — waste management,
+        circular economy, surface, ground and marine water resources, pollution and
+        environmental quality — while nature protection went to the Ministry of Smart
+        Administration and Regional Development, which is tagged `environment` too. `water` is
+        tagged here for the same reason.
+      es: >-
+        El ministerio letón más reciente, creado el 1 de enero de 2023 reorganizando el
+        Ministerio de Economía y el antiguo Vides aizsardzības un reģionālās attīstības
+        ministrija, e insertado en la lista legal como punto 7.1 y no al final. Es uno de los
+        pocos ministerios de clima propios de este dataset. La etiqueta `environment` es la
+        discutible: la disposición transitoria 19 de la ley le da la mitad de vides
+        aizsardzība de la antigua cartera ambiental —gestión de residuos, economía circular,
+        aguas superficiales, subterráneas y marinas, contaminación y calidad ambiental—,
+        mientras que la protección de la naturaleza pasó al Ministerio de Administración
+        Inteligente y Desarrollo Regional, que también lleva `environment`. Por la misma razón
+        se etiqueta aquí `water`.
+
+  - id: LV-2026-kulturas-ministrija
+    order: 9
+    name_original: Kultūras ministrija
+    abbreviation_original: KM
+    name_en: Ministry of Culture
+    name_es: Ministerio de Cultura
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Kultūras ministrs
+    head_title_en: Minister for Culture
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [culture, media]
+    counts_as_ministry: true
+    url: https://www.km.gov.lv
+    sources: [likumi-mk-iekartas-likums, lv-vestnesis-uzticiba-2026-05-28, mk-gov-lv-sastavs, mk-gov-lv-cabinet-composition-en, likumi-mk-structure-law-en]
+    note:
+      en: >-
+        The ministry describes itself as forming and coordinating state cultural policy,
+        making state policy on the integration of society, and making mass-media policy —
+        hence `media` alongside `culture`. Its third stated task, sabiedrības integrācija, has
+        no home in the project's taxonomy: it is neither migration nor equality but social
+        cohesion, and it is recorded here in prose rather than forced into a tag that would
+        misdescribe it.
+      es: >-
+        El ministerio se describe como el que forma y coordina la política cultural estatal,
+        elabora la política estatal de integración de la sociedad y elabora la política de
+        medios de comunicación de masas; de ahí `media` junto a `culture`. Su tercera tarea
+        declarada, la sabiedrības integrācija, no tiene sitio en la taxonomía del proyecto: no
+        es migración ni igualdad, sino cohesión social, y se recoge aquí en prosa en lugar de
+        forzarla en una etiqueta que la describiría mal.
+
+  - id: LV-2026-labklajibas-ministrija
+    order: 10
+    name_original: Labklājības ministrija
+    abbreviation_original: LM
+    name_en: Ministry of Welfare
+    name_es: Ministerio de Bienestar
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Labklājības ministrs
+    head_title_en: Minister for Welfare
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [social_affairs, labour, social_security, family, disability, equality]
+    counts_as_ministry: true
+    url: https://www.lm.gov.lv
+    sources: [likumi-mk-iekartas-likums, lv-vestnesis-uzticiba-2026-05-28, mk-gov-lv-sastavs, mk-gov-lv-cabinet-composition-en, likumi-mk-structure-law-en]
+    note:
+      en: >-
+        Latvia has no labour ministry, no pensions ministry, no family ministry and no
+        equality ministry: this one is all of them. Its own description of the welfare sector
+        covers pensions, benefits, social insurance, social inclusion, family and children,
+        social work and services, the labour market, employment relations and occupational
+        safety, disability and gender equality. `equality` is tagged for that last item and
+        for the ministry's statutory lead on equal opportunities for persons with
+        disabilities; Latvia has no wider anti-discrimination department.
+      es: >-
+        Letonia no tiene ministerio de trabajo, ni de pensiones, ni de familia, ni de
+        igualdad: este los reúne todos. Su propia descripción del sector del bienestar abarca
+        pensiones, prestaciones, seguridad social, inclusión social, familia e infancia,
+        trabajo social y servicios sociales, mercado laboral, relaciones laborales y seguridad
+        en el trabajo, discapacidad e igualdad de género. `equality` se etiqueta por esto
+        último y por la competencia legal del ministerio en igualdad de oportunidades de las
+        personas con discapacidad; Letonia no tiene un departamento más amplio de no
+        discriminación.
+
+  - id: LV-2026-satiksmes-ministrija
+    order: 11
+    name_original: Satiksmes ministrija
+    abbreviation_original: SM
+    name_en: Ministry of Transport
+    name_es: Ministerio de Transporte
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Satiksmes ministrs
+    head_title_en: Minister for Transport
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [transport, telecommunications, shipping, infrastructure]
+    counts_as_ministry: true
+    url: https://www.sam.gov.lv
+    sources: [likumi-mk-iekartas-likums, lv-vestnesis-uzticiba-2026-05-28, mk-gov-lv-sastavs, mk-gov-lv-cabinet-composition-en, likumi-mk-structure-law-en]
+    note:
+      en: >-
+        "Satiksme" is transport and "sakari" is communications, and this ministry is the
+        leading authority in both. The transport sector is defined as covering rail, road,
+        maritime and aviation, together with passenger, transit and dangerous-goods carriage;
+        the road sub-sector includes the state road network, which is why `infrastructure` is
+        tagged. `telecommunications` covers the communications half — electronic
+        communications and postal services — which is separate from the digital-government
+        portfolio held by the Ministry of Smart Administration and Regional Development.
+      es: >-
+        «Satiksme» es transporte y «sakari» comunicaciones, y este ministerio es la autoridad
+        rectora en ambos. El sector del transporte se define como ferrocarril, carretera,
+        marítimo y aviación, junto con el transporte de pasajeros, de tránsito y de mercancías
+        peligrosas; el subsector de carretera incluye la red estatal de carreteras, y por eso
+        se etiqueta `infrastructure`. `telecommunications` cubre la mitad de comunicaciones
+        —comunicaciones electrónicas y servicios postales—, distinta de la cartera de gobierno
+        digital que tiene el Ministerio de Administración Inteligente y Desarrollo Regional.
+
+  - id: LV-2026-tieslietu-ministrija
+    order: 12
+    name_original: Tieslietu ministrija
+    abbreviation_original: null
+    name_en: Ministry of Justice
+    name_es: Ministerio de Justicia
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Tieslietu ministrs
+    head_title_en: Minister for Justice
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [justice, religion]
+    counts_as_ministry: true
+    url: https://www.tm.gov.lv
+    sources: [likumi-mk-iekartas-likums, lv-vestnesis-uzticiba-2026-05-28, mk-gov-lv-sastavs, mk-gov-lv-cabinet-composition-en, likumi-mk-structure-law-en]
+    note:
+      en: >-
+        The ministry describes itself as the leading authority in the justice sector — legal
+        system policy, the court system and court administration — and in the other fields
+        assigned to it by its statutes. `religion` is tagged because the activity of religious
+        organisations is one of those fields; Latvia has no ministry of religious affairs.
+        Enforcement of the State Language Law also sits here, through the Valsts valodas
+        centrs, but language policy is made by the Ministry of Education and Science and is
+        tagged there.
+      es: >-
+        El ministerio se describe como la autoridad rectora del sector de la justicia
+        —política del sistema jurídico, sistema judicial y administración de los tribunales— y
+        de los demás ámbitos que le asigna su reglamento. Se etiqueta `religion` porque la
+        actividad de las organizaciones religiosas es uno de ellos; Letonia no tiene
+        ministerio de asuntos religiosos. La vigilancia del cumplimiento de la Ley de la
+        Lengua Estatal también está aquí, a través del Valsts valodas centrs, pero la política
+        lingüística la elabora el Ministerio de Educación y Ciencia y se etiqueta allí.
+
+  - id: LV-2026-veselibas-ministrija
+    order: 13
+    name_original: Veselības ministrija
+    abbreviation_original: VM
+    name_en: Ministry of Health
+    name_es: Ministerio de Salud
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Veselības ministrs
+    head_title_en: Minister for Health
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [health]
+    counts_as_ministry: true
+    url: https://www.vm.gov.lv
+    sources: [likumi-mk-iekartas-likums, lv-vestnesis-uzticiba-2026-05-28, mk-gov-lv-sastavs, mk-gov-lv-cabinet-composition-en, likumi-mk-structure-law-en]
+
+  - id: LV-2026-viedas-administracijas-ministrija
+    order: 14
+    name_original: Viedās administrācijas un reģionālās attīstības ministrija
+    abbreviation_original: VARAM
+    name_en: Ministry of Smart Administration and Regional Development
+    name_es: Ministerio de Administración Inteligente y Desarrollo Regional
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Viedās administrācijas un reģionālās attīstības ministrs
+    head_title_en: Minister for Smart Administration and Regional Development
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [digital, public_administration, regional_development, territorial_administration, spatial_planning, environment]
+    counts_as_ministry: true
+    url: https://www.varam.gov.lv
+    sources: [likumi-mk-iekartas-likums, lv-vestnesis-uzticiba-2026-05-28, mk-gov-lv-sastavs, mk-gov-lv-cabinet-composition-en, likumi-mk-structure-law-en]
+    note:
+      en: >-
+        The same institution as the former Vides aizsardzības un reģionālās attīstības
+        ministrija, renamed and re-scoped on 1 July 2024 by the law of 6 June 2024, which kept
+        the abbreviation VARAM. It is not a new ministry and the count did not move. The
+        ministry now describes itself as making sectoral policy in nature protection, regional
+        development and the governance of digital transformation; local government, national
+        and municipal spatial development planning and the one-stop-shop network are also
+        its. `environment` is tagged for the dabas aizsardzība half of the old environment
+        portfolio, which transitional provision 19 of the Act expressly leaves here while
+        assigning vides aizsardzība to the Ministry of Climate and Energy. Note that the
+        government's own English translation of the Act still calls this post "Minister for
+        Environmental Protection and Regional Development", because that translation stops at
+        30 June 2024.
+      es: >-
+        La misma institución que el antiguo Vides aizsardzības un reģionālās attīstības
+        ministrija, renombrada y con competencias redefinidas el 1 de julio de 2024 por la ley
+        de 6 de junio de 2024, que conservó la sigla VARAM. No es un ministerio nuevo y la
+        cifra no se movió. El ministerio se describe ahora como el que elabora la política
+        sectorial en protección de la naturaleza, desarrollo regional y gobernanza de la
+        transformación digital; también son suyos el gobierno local, la planificación del
+        desarrollo territorial nacional y municipal y la red de ventanillas únicas.
+        `environment` se etiqueta por la mitad de dabas aizsardzība de la antigua cartera
+        ambiental, que la disposición transitoria 19 de la ley deja expresamente aquí mientras
+        asigna la vides aizsardzība al Ministerio de Clima y Energía. Nótese que la propia
+        traducción inglesa oficial de la ley sigue llamando a este cargo «Minister for
+        Environmental Protection and Regional Development», porque esa traducción se detiene
+        el 30 de junio de 2024.
+
+  - id: LV-2026-zemkopibas-ministrija
+    order: 15
+    name_original: Zemkopības ministrija
+    abbreviation_original: ZM
+    name_en: Ministry of Agriculture
+    name_es: Ministerio de Agricultura
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Zemkopības ministrs
+    head_title_en: Minister for Agriculture
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [agriculture, forestry, fisheries, food_safety, rural_development, animal_welfare]
+    counts_as_ministry: true
+    url: https://www.zm.gov.lv
+    sources: [likumi-mk-iekartas-likums, lv-vestnesis-uzticiba-2026-05-28, mk-gov-lv-sastavs, mk-gov-lv-cabinet-composition-en, likumi-mk-structure-law-en]
+    note:
+      en: >-
+        "Zemkopība" is husbandry rather than agriculture narrowly, and the ministry is the
+        leading authority in agriculture, forestry and fisheries alike — forestry matters in
+        a country slightly more than half of which is forest. Food and food safety and animal
+        protection and welfare are also its, through the Pārtikas un veterinārais dienests,
+        which is why `food_safety` and `animal_welfare` are tagged although neither appears in
+        the name.
+      es: >-
+        «Zemkopība» significa labranza más que agricultura en sentido estricto, y el
+        ministerio es la autoridad rectora tanto en agricultura como en silvicultura y pesca;
+        la silvicultura pesa en un país cuya superficie es algo más de la mitad bosque. La
+        alimentación y la seguridad alimentaria y la protección y el bienestar de los animales
+        también son suyos, a través del Pārtikas un veterinārais dienests, y por eso se
+        etiquetan `food_safety` y `animal_welfare` aunque ninguno aparezca en el nombre.
+
+  # --- recorded, not counted --------------------------------------------------------------
+  - id: LV-2026-valsts-kanceleja
+    order: 16
+    name_original: Valsts kanceleja
+    abbreviation_original: null
+    name_en: State Chancellery
+    name_es: Cancillería del Estado
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Valsts kancelejas direktors
+    head_title_en: Director of the State Chancellery
+    has_cabinet_seat: false
+    head_count: 1
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: not_headed_by_minister
+    url: https://www.mk.gov.lv/lv/valsts-kanceleja
+    sources: [mk-gov-lv-cabinet-composition-en, mk-gov-lv-sastavs, likumi-mk-iekartas-likums]
+    note:
+      en: >-
+        Recorded because a reader comparing Latvia with Germany or Finland will look for a
+        chancellery and should find the answer here rather than infer it from an absence. The
+        Valsts kanceleja is, in the government's own English words, "a central public
+        administration institution ... directly subordinated to the Prime Minister": it
+        services the Cabinet, prepares its sittings and runs public-administration
+        development policy. It is not counted for the plainest of reasons — section 5(1) of
+        the Ministru kabineta iekārtas likums does not list it, and its head is the Valsts
+        kancelejas direktors, a civil servant, not a minister. It adds no cabinet seat, so
+        Latvia's figures are unaffected either way; the German Bundeskanzleramt debate and the
+        Finnish valtioneuvoston kanslia decision have no Latvian counterpart.
+      es: >-
+        Se registra porque quien compare Letonia con Alemania o Finlandia buscará una
+        cancillería y debe encontrar aquí la respuesta en vez de deducirla de una ausencia. La
+        Valsts kanceleja es, en palabras inglesas del propio gobierno, «a central public
+        administration institution ... directly subordinated to the Prime Minister»: da
+        servicio al gabinete, prepara sus sesiones y lleva la política de desarrollo de la
+        administración pública. No se cuenta por la razón más simple: el artículo 5(1) de la
+        Ministru kabineta iekārtas likums no la enumera, y su titular es el Valsts kancelejas
+        direktors, un funcionario y no un ministro. No añade asiento en el gabinete, de modo
+        que las cifras de Letonia no varían en ningún caso; el debate del Bundeskanzleramt
+        alemán y la decisión sobre la valtioneuvoston kanslia finlandesa no tienen equivalente
+        letón.

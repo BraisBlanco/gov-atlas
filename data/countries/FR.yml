@@ -1,0 +1,54 @@
+# France — country metadata.
+#
+# See docs/DATA-CONTRACT.md. The cabinet itself is in data/cabinets/FR-2025-10-12.yml.
+
+iso2: FR
+iso3: FRA
+
+name_en: France
+name_es: Francia
+name_original: France
+official_name_original: République française
+
+continent: europe
+region: western_europe
+eu_member_since: 1958-01-01
+government_system: semi_presidential_republic
+official_languages: [fr]
+
+# Population carries its own citation because the per-capita views publish it as a
+# figure in its own right, not as a convenience constant.
+population:
+  value: 69082000
+  year: 2026
+  source:
+    id: insee-bilan-demographique-2025
+    tier: 3
+    type: statistical_office
+    publisher: Institut national de la statistique et des études économiques
+    title: Bilan démographique 2025 — Insee Première n° 2087
+    url: https://www.insee.fr/fr/statistiques/8719824
+    archive_url: https://web.archive.org/web/20260722152856/https://www.insee.fr/fr/statistiques/8719824
+    lang: fr
+    published: 2026-01-13
+    accessed: 2026-07-27
+    quote: >-
+      Au 1er janvier 2026, la population résidant en France est estimée à 69,1 millions
+      d’habitants : 66,8 millions en France métropolitaine et 2,3 millions dans les
+      départements d’outre-mer (figure 1). La population augmenterait de +0,25 % sur un
+      an.
+    note: >-
+      Perimeter: "France" in INSEE's sense, i.e. France métropolitaine plus the five
+      overseas départements (Guadeloupe, Martinique, Guyane, La Réunion, Mayotte). The
+      same publication states the perimeter as "France hors Mayotte jusqu'en 2013 et
+      France à partir de 2014"; the collectivités d'outre-mer and New Caledonia are
+      outside it. The prose quoted above rounds to 69.1 million; Figure 1 of the same
+      release ("Évolution de la population au 1er janvier, de 2020 à 2026, par
+      composante", en milliers) gives 69 082 for 2026, flagged provisional, and that is
+      the figure recorded here in units. A companion release of 15 January 2026,
+      "Estimations de population par sexe et âge au 1er janvier 2026", gives 69 081 996
+      for the same date and perimeter — an 0.006 % difference, i.e. rounding to the
+      thousand. Tier 3 because France has no legally fixed resident total between
+      censuses; this is the statistical office's provisional estimate. Note also that
+      these 2026 estimates predate the exhaustive Mayotte census of November 2025 to
+      January 2026, which put Mayotte at 323 153 rather than the 338 208 assumed here.

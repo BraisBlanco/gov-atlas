@@ -1,0 +1,80 @@
+# Lithuania — country metadata.
+#
+# See docs/DATA-CONTRACT.md. The cabinet, its entities and its citations live in
+# data/cabinets/LT-2026-07-14.yml; this file carries only country-level metadata.
+#
+# Perimeter: the Republic of Lithuania is a unitary state with no autonomous or federated
+# tier, so nothing is out of scope on territorial grounds. Its sixty municipalities and ten
+# counties are local and deconcentrated administration, not government departments.
+#
+# government_system is recorded as semi_presidential_republic and that is a judgement, not
+# a quotation: the Constitution calls Lithuania a parliamentary republic in Article 1's
+# tradition of "an independent democratic republic", while Article 84 gives the directly
+# elected President substantive executive powers — appointing the Prime Minister with the
+# Seimas' assent, appointing and dismissing ministers on the Prime Minister's proposal,
+# confirming the composition of the Government by decree and conducting foreign policy.
+# Comparative scholarship generally files Lithuania under the premier-presidential variety
+# of semi-presidentialism, which is the reading followed here; the cabinet file's
+# methodology_notes explain how those presidential powers bear on the cabinet's start date.
+
+iso2: LT
+iso3: LTU
+
+name_en: Lithuania
+name_es: Lituania
+name_original: Lietuva
+official_name_original: Lietuvos Respublika
+
+continent: europe
+region: northern_europe
+eu_member_since: 2004-05-01
+government_system: semi_presidential_republic
+official_languages: [lt]
+
+# Population carries its own citation because the country page publishes it as a figure in
+# its own right, not as a convenience constant. Nothing divides by it.
+population:
+  value: 2887592
+  year: 2026
+  source:
+    id: vda-nuolatiniai-gyventojai-2026-01-01
+    tier: 3
+    type: statistical_office
+    publisher: Valstybės duomenų agentūra
+    title: >-
+      Nuolatinių gyventojų skaičius pagal lytį ir amžių metų pradžioje (rodiklis
+      S3R167M3010205, duomenų rinkinys „Nuolatinių gyventojų skaičius metų pradžioje“)
+    url: >-
+      https://get.data.gov.lt/datasets/gov/lsd/statistika/nuolatiniai_gyventojai/S3R167M3010205?laikotarpis=%222026-01-01%22&lytis=%22Vyrai%20ir%20moterys%22&gyvenamoji_vietove=%22Miestas%20ir%20kaimas%22&amzius=%22I%C5%A1%20viso%20pagal%20am%C5%BEi%C5%B3%22
+    archive_url: null
+    lang: lt
+    published: 2026-05-07
+    accessed: 2026-07-28
+    quote: |-
+      "amzius": "Iš viso pagal amžių",
+      "gyvenamoji_vietove": "Miestas ir kaimas",
+      "laikotarpis": "2026-01-01",
+      "lytis": "Vyrai ir moterys",
+      "matavimo_vienetai": "asmenys",
+      "verte": 2887592,
+      "atnaujinta": "2026-05-07"
+    note: >-
+      The number of permanent residents of Lithuania on 1 January 2026, as published by the
+      State Data Agency (Valstybės duomenų agentūra, the successor to Lietuvos statistikos
+      departamentas) in official statistics indicator S3R167M3010205 and served through the
+      national open-data storage API, whose publisher of record for this dataset is the
+      Agency itself. The quotation is the single record the query returns, with the API's
+      Unicode escapes decoded; the record's own `atnaujinta` field carries the release date of
+      7 May 2026, which is the Agency's scheduled annual publication of start-of-year
+      population and is used here as `published`. Tier 3 rather than tier 1: a statistical
+      compilation from the population register, not a legal instrument. Two caveats a
+      reader of the figure should know. First, the Agency also publishes a monthly
+      preliminary series, and its figure for the start of February 2026 — "Išankstiniais
+      duomenimis, 2026 m. vasario mėn. pradžioje Lietuvoje gyveno 2 mln. 886 tūkst.
+      nuolatinių gyventojų" — is rounded to thousands and is preliminary, so it will not
+      reconcile to the last digit with the definitive start-of-year figure quoted here.
+      Second, several secondary compilations circulate a start-of-2026 figure of 2 886 883,
+      which appears to be an earlier or experimental vintage; the Agency's own indicator, as
+      revised on 7 May 2026, gives 2 887 592, and that is the figure recorded. The Agency's
+      own portal (osp.stat.gov.lt) refuses automated requests, which is why the open-data
+      API address is cited rather than a portal page.

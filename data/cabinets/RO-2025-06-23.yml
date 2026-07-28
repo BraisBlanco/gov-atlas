@@ -1,0 +1,1627 @@
+# Romania — government structure of the 135th Government of Romania (Guvernul Ilie Bolojan).
+#
+# See docs/DATA-CONTRACT.md. Six things worth knowing before reading the list:
+#
+#   1. Romania does not enumerate its ministries in a statute. The Codul administrativ
+#      (OUG nr. 57/2019) says what a ministry *is* and who belongs to the Government, but
+#      it names no department. The enumerating instrument is the parliamentary resolution
+#      granting confidence: Anexa nr. 1 to Hotărârea Parlamentului nr. 25/2025 lists the
+#      twenty members of the Government one by one, and those twenty positions contain
+#      exactly sixteen ministerial portfolios.
+#   2. The cabinet recorded here has been dismissed and is still in office. A motion of
+#      censure carried on 5 May 2026; under article 37(3) of the Codul administrativ the
+#      Government continues to issue only the acts needed to administer public affairs
+#      until a new Government is sworn in. No new Government has been invested: the last
+#      attempt failed the confidence vote on 22 June 2026. So `took_office` is still
+#      2025-06-23 and `left_office` is still null.
+#   3. Three figures, and the first methodology note says which is published and why:
+#      sixteen ministries, nineteen posts of member of the Government, and thirteen people
+#      actually in the Government on 28 July 2026. `cabinet_seats_count` is the thirteen,
+#      because the project defines the seat count as distinct people.
+#   4. Six of the sixteen portfolios have no minister of their own. The PSD ministers
+#      resigned in April 2026 and a dismissed Government cannot appoint replacements, so
+#      six portfolios are run *ad interim* by ministers of other departments. Those six
+#      entities carry `head_count: 0` — the seat exists, nobody of their own holds it —
+#      and deliberately no `shared_head_with`, which would assert a merger that does not
+#      exist. The sixteen is structural and stable; the thirteen moves with the crisis.
+#   5. Five members of the Government hold the title of viceprim-ministru. Two of them
+#      head a ministry and are counted through it; three do not and are recorded as
+#      deputy heads without portfolio, one of whose posts has since been vacated.
+#   6. Nowhere does this file state "16" or "19". Both are derived from the entities.
+
+country: RO
+cabinet_id: RO-2025-06-23
+
+cabinet_name_original: Guvernul Ilie Bolojan
+cabinet_name_en: Bolojan Government
+cabinet_name_es: Gobierno Bolojan
+
+head_of_government_title_original: Prim-ministru
+head_of_government_title_en: Prime Minister
+
+took_office: 2025-06-23
+left_office: null
+
+methodology_notes:
+  - en: >-
+      Three figures, and it matters which one is published. 16 ministries. 19 posts of member
+      of the Government. 13 people actually in the Government on 28 July 2026. The sixteen are
+      the ministerial portfolios named in Anexa nr. 1 to Hotărârea Parlamentului nr. 25/2025,
+      recorded here in that annex's own order. The nineteen posts are those sixteen plus the
+      Prime Minister, who heads no department, plus the two serving deputy prime ministers who
+      hold no portfolio. The thirteen is the number of distinct individuals, and it is the
+      figure this file publishes as `cabinet_seats_count`, because that is what METHODOLOGY.md
+      defines the seat count to be: distinct people holding a seat in the cabinet. Publishing
+      19 would have made Romania's seat figure mean posts while every other country's means
+      people, and a cross-country chart would then have mixed the two silently. The gap between
+      19 and 13 is six vacancies: the PSD ministers resigned in April 2026 after their party
+      withdrew from the coalition, and a Government whose mandate has ended cannot appoint
+      successors, so six of the sixteen portfolios are discharged ad interim by ministers of
+      other departments. Article 46(2) and (3) of the Codul administrativ is what makes those
+      posts vacant rather than doubly held: an interim is one member of the Government taking on
+      another's duties for at most 45 days, expressly pending the appointment of a new member.
+      Each of the six therefore carries `head_count: 0`, which is how the vacancy is encoded,
+      and none carries `shared_head_with`, which would have asserted a merger that does not
+      exist. Read the two published figures differently: the 16 is structural and has not moved
+      since this cabinet was invested, while the 13 is volatile and will change with the next
+      appointment or investiture. This file never adds them.
+    es: >-
+      Tres cifras, y importa cuál se publica. 16 ministerios. 19 puestos de miembro del
+      Gobierno. 13 personas realmente en el Gobierno el 28 de julio de 2026. Los dieciséis son
+      las carteras ministeriales enumeradas en el anexo n.º 1 de la Hotărârea Parlamentului nr.
+      25/2025, recogidas aquí en el orden de ese propio anexo. Los diecinueve puestos son esos
+      dieciséis más el primer ministro, que no encabeza ningún departamento, más los dos
+      viceprimeros ministros en ejercicio que no tienen cartera. Los trece son las personas
+      distintas, y es la cifra que este fichero publica como `cabinet_seats_count`, porque es lo
+      que METHODOLOGY.md define como recuento de asientos: personas distintas con asiento en el
+      gabinete. Publicar 19 habría hecho que la cifra de asientos de Rumanía significara puestos
+      mientras que la de todos los demás países significa personas, y un gráfico comparativo
+      habría mezclado ambas cosas en silencio. La diferencia entre 19 y 13 son seis vacantes:
+      los ministros del PSD dimitieron en abril de 2026 tras la retirada de su partido de la
+      coalición, y un Gobierno cuyo mandato ha terminado no puede nombrar sucesores, así que
+      seis de las dieciséis carteras las desempeñan de forma interina ministros de otros
+      departamentos. El artículo 46(2) y (3) del Codul administrativ es lo que hace que esos
+      cargos estén vacantes y no doblemente ocupados: una interinidad es un miembro del Gobierno
+      que asume las atribuciones de otro durante un máximo de 45 días, expresamente hasta el
+      nombramiento de un nuevo miembro. Cada una de las seis lleva por tanto `head_count: 0`,
+      que es como se codifica la vacante, y ninguna lleva `shared_head_with`, que habría
+      afirmado una fusión que no existe. Las dos cifras publicadas se leen de modo distinto: el
+      16 es estructural y no se ha movido desde la investidura de este gabinete, mientras que el
+      13 es volátil y cambiará con el próximo nombramiento o la próxima investidura. Este
+      fichero nunca las suma.
+
+  - en: >-
+      Which cabinet is sitting, and why the question had to be asked. On the access date
+      Romania had been governed for almost three months by a Government that Parliament had
+      already dismissed. A motion of censure — moțiunea de cenzură MC.1/2026, "STOP
+      «Planului Bolojan»", tabled by the PSD, AUR and PACE groups — was carried in the joint
+      session of the Chamber of Deputies and the Senate on 5 May 2026 by 281 votes to 4, the
+      largest majority ever recorded for a censure motion in Romania. That ended the
+      Government's mandate, but not its office: article 37(3) of the Codul administrativ
+      provides that until the members of the new Government are sworn in the Government
+      continues to issue only the individual or normative acts necessary for administering
+      public affairs, without promoting new policies, and may issue no ordinance and
+      initiate no bill. No new Government has been invested: the most recent attempt, the
+      cabinet proposed by the designated prime minister Adrian Veștea, was rejected by
+      Parliament on 22 June 2026 by 189 votes to 23, short of the 233 that article 103(3) of
+      the Constitution requires, and at the access date the Government's own register of
+      cabinet members still listed the Bolojan cabinet. This
+      dataset therefore records the Bolojan Government as the sitting cabinet, with
+      `took_office` 2025-06-23 — the date it was invested and sworn in — and `left_office`
+      null. The alternative readings are rejected: 5 May 2026 is not a `left_office`,
+      because a Romanian government whose mandate has ended remains in office and this
+      cabinet has no successor to hand over to; and the caretaker period is not a separate
+      cabinet, because no new investiture, no presidential appointment decree and no new
+      oath took place — it is the same Government under a reduced mandate.
+    es: >-
+      Qué gabinete está en funciones y por qué había que preguntarlo. En la fecha de consulta
+      Rumanía llevaba casi tres meses gobernada por un Gobierno que el Parlamento ya había
+      destituido. Una moción de censura —moțiunea de cenzură MC.1/2026, «STOP "Planului
+      Bolojan"», presentada por los grupos del PSD, AUR y PACE— fue aprobada en la sesión
+      conjunta de la Cámara de Diputados y el Senado el 5 de mayo de 2026 por 281 votos
+      contra 4, la mayor mayoría jamás registrada para una moción de censura en Rumanía. Eso
+      puso fin al mandato del Gobierno, pero no a su ejercicio: el artículo 37(3) del Codul
+      administrativ establece que, hasta que los miembros del nuevo Gobierno tomen posesión,
+      el Gobierno sigue emitiendo únicamente los actos individuales o normativos necesarios
+      para la administración de los asuntos públicos, sin promover políticas nuevas, y no
+      puede emitir ordenanzas ni iniciar proyectos de ley. No se ha investido ningún Gobierno
+      nuevo. El presidente Nicușor Dan designó a Eugen Tomac, que se retiró el 14 de junio de
+      2026, y después a Adrian Veștea, cuyo gabinete fue rechazado por el Parlamento el 22 de
+      junio de 2026 con 189 votos a favor frente a los 233 exigidos; en la fecha de consulta
+      no se había hecho ninguna designación posterior. Este conjunto de datos registra por
+      tanto el Gobierno Bolojan como el gabinete vigente, con `took_office` 2025-06-23 —la
+      fecha en que fue investido y juró— y `left_office` nulo. Se descartan las lecturas
+      alternativas: el 5 de mayo de 2026 no es un `left_office`, porque un gobierno rumano
+      cuyo mandato ha terminado sigue en funciones y este gabinete no tiene sucesor al que
+      entregar los poderes; y el periodo en funciones no es un gabinete distinto, porque no
+      hubo nueva investidura, ni decreto presidencial de nombramiento, ni nuevo juramento: es
+      el mismo Gobierno con un mandato reducido.
+
+  - en: >-
+      Where the list of ministries comes from, and why it takes three documents. Romania has
+      no equivalent of Spain's Real Decreto 829/2023: no legal instrument in force
+      enumerates the ministerial departments. The Codul administrativ (OUG nr. 57/2019),
+      which since 2019 has replaced the Legea nr. 90/2001 that older sources still cite as
+      the framework act — article 597(2) letter c) repeals it by name — defines a ministry
+      in article 52 and fixes the composition of the Government in article 18, but names not
+      one department. The enumeration therefore rests on Anexa nr. 1 to Hotărârea
+      Parlamentului nr. 25/2025, which lists the twenty members of the Government with their
+      functions, quoted here in full: sixteen of the twenty positions are ministerial
+      portfolios. That annex names *ministers* ("ministrul afacerilor interne"), not
+      ministries, so the `name_original` field of each entity carries the ministry's own
+      name, and those names come from two further sources — the reorganisation ordinance OUG
+      nr. 153/2024, which is the instrument that gave four of them their current names, and
+      the Government's own register of ministries on gov.ro, which publishes all sixteen.
+      The three lists are the same sixteen bodies, and a reader can check that against the
+      quotations in this file without opening any of the documents.
+    es: >-
+      De dónde sale la lista de ministerios y por qué hacen falta tres documentos. Rumanía no
+      tiene un equivalente del Real Decreto 829/2023 español: ningún instrumento jurídico en
+      vigor enumera los departamentos ministeriales. El Codul administrativ (OUG nr. 57/2019),
+      que desde 2019 sustituye a la Legea nr. 90/2001 que las fuentes antiguas siguen citando
+      como ley marco —el artículo 597(2) letra c) la deroga expresamente—, define lo que es un
+      ministerio en su artículo 52 y fija la composición del Gobierno en su artículo 18, pero
+      no nombra ni un departamento. La enumeración se apoya por tanto en el anexo n.º 1 de la
+      Hotărârea Parlamentului nr. 25/2025, que enumera los veinte miembros del Gobierno con
+      sus funciones y que aquí se cita íntegro: dieciséis de las veinte posiciones son carteras
+      ministeriales. Ese anexo nombra *ministros* («ministrul afacerilor interne»), no
+      ministerios, así que el campo `name_original` de cada entidad lleva el nombre propio del
+      ministerio, y esos nombres provienen de dos fuentes adicionales: la ordenanza de
+      reorganización OUG nr. 153/2024, que es el instrumento que dio a cuatro de ellos su
+      nombre actual, y el registro de ministerios que el propio Gobierno publica en gov.ro,
+      que recoge los dieciséis. Las tres listas son los mismos dieciséis órganos, y el lector
+      puede comprobarlo con las citas de este fichero sin abrir ninguno de los documentos.
+
+  - en: >-
+      How the six vacancies are encoded, and why not with `shared_head_with`. On the access date
+      the Government's own register showed the Prime Minister as interim minister of energy, the
+      deputy prime minister Tánczos Barna as interim minister of agriculture, the minister of
+      internal affairs as interim minister of justice, the minister of national defence as
+      interim minister of transport, the minister of investments and European projects as
+      interim minister of labour, and the minister of development as interim minister of health.
+      Six portfolios, no minister of their own. Each of those six entities carries
+      `has_cabinet_seat: true` and `head_count: 0`: the seat exists and is filled at the table
+      by the interim minister, but nobody of the department's own holds it, so it contributes no
+      person to the count. That is the whole mechanism, and it yields 13. What is deliberately
+      not used is `shared_head_with`. It would produce the same 13, but it would do so by
+      asserting that internal affairs and justice, or defence and transport, share a head as a
+      standing arrangement — and they do not. Article 46(2) and (3) of the Codul administrativ
+      makes an interim a temporary discharge of another member's duties, capped at 45 days and
+      expressly pending the appointment of a new member: the post is vacant, not held twice. A
+      vacancy is what `head_count: 0` says; a merger is what `shared_head_with` would have said.
+      Two further things a reader should carry away. The 45-day cap has long since been
+      exceeded, because article 47 requires a presidential appointment on the Prime Minister's
+      proposal to end an interim and article 37(3) leaves a dismissed Government no power to
+      make one — the vacancies are a symptom of the deadlock, not of neglect. And none of this
+      touches `ministries_count`: all sixteen ministries exist, each is headed by a person of
+      ministerial rank, and each is counted.
+    es: >-
+      Cómo se codifican las seis vacantes y por qué no con `shared_head_with`. En la fecha de
+      consulta el propio registro del Gobierno mostraba al primer ministro como ministro interino
+      de Energía, al viceprimer ministro Tánczos Barna como ministro interino de Agricultura, al
+      ministro del Interior como ministro interino de Justicia, al ministro de Defensa Nacional
+      como ministro interino de Transportes, al ministro de Inversiones y Proyectos Europeos como
+      ministro interino de Trabajo y al ministro de Desarrollo como ministro interino de Sanidad.
+      Seis carteras sin ministro propio. Cada una de esas seis entidades lleva
+      `has_cabinet_seat: true` y `head_count: 0`: el asiento existe y lo ocupa en la mesa el
+      ministro interino, pero nadie propio del departamento lo tiene, así que no aporta ninguna
+      persona al recuento. Ése es todo el mecanismo, y da 13. Lo que deliberadamente no se usa es
+      `shared_head_with`. Produciría el mismo 13, pero lo haría afirmando que Interior y Justicia,
+      o Defensa y Transportes, comparten titular como arreglo estable, y no es así. El artículo
+      46(2) y (3) del Codul administrativ configura la interinidad como el desempeño temporal de
+      las atribuciones de otro miembro, limitado a 45 días y expresamente hasta el nombramiento de
+      un nuevo miembro: el cargo está vacante, no doblemente ocupado. Una vacante es lo que dice
+      `head_count: 0`; una fusión es lo que habría dicho `shared_head_with`. Dos cosas más que el
+      lector debe llevarse. El límite de 45 días se ha superado con mucho, porque el artículo 47
+      exige un nombramiento presidencial a propuesta del primer ministro para poner fin a una
+      interinidad y el artículo 37(3) no deja a un Gobierno destituido poder para hacerlo: las
+      vacantes son un síntoma del bloqueo y no de una negligencia. Y nada de esto afecta a
+      `ministries_count`: los dieciséis ministerios existen, cada uno está encabezado por una
+      persona con rango ministerial y cada uno se cuenta.
+
+  - en: >-
+      Five deputy prime ministers, two ministries, three seats without a portfolio. Anexa nr.
+      1 to Hotărârea Parlamentului nr. 25/2025 gives the title of viceprim-ministru to five
+      of the twenty members: positions 2, 3 and 4 hold it alone, while positions 5 and 6 hold
+      it together with the internal affairs and national defence portfolios. Positions 5 and
+      6 are counted once each, through their ministry, exactly as the data contract
+      prescribes: the deputy-premiership adds nothing to either figure. Positions 2, 3 and 4
+      are recorded as separate entities with `deputy_head_without_portfolio`, because each
+      carries a seat in the Government under article 18 of the Codul administrativ and heads
+      no department. Their ids and their `order` follow the annex's numbering rather than
+      naming a holder, because the seat and not the person is what this dataset records. Two
+      of the three were still in place at the access date; the third was vacated in April
+      2026 and, because a dismissed Government cannot fill a vacancy, was not refilled.
+      Romania publishes no count of its own that these figures can be checked against: the
+      Government's register lists members without totalling them.
+    es: >-
+      Cinco viceprimeros ministros, dos ministerios, tres asientos sin cartera. El anexo n.º 1
+      de la Hotărârea Parlamentului nr. 25/2025 atribuye el título de viceprim-ministru a cinco
+      de los veinte miembros: las posiciones 2, 3 y 4 lo ostentan en solitario, mientras que
+      las posiciones 5 y 6 lo ostentan junto con las carteras de Interior y de Defensa
+      Nacional. Las posiciones 5 y 6 se cuentan una sola vez cada una, a través de su
+      ministerio, exactamente como prescribe el contrato de datos: la vicepresidencia no añade
+      nada a ninguna de las dos cifras. Las posiciones 2, 3 y 4 se registran como entidades
+      separadas con `deputy_head_without_portfolio`, porque cada una lleva asiento en el
+      Gobierno conforme al artículo 18 del Codul administrativ y no encabeza ningún
+      departamento. Sus identificadores y su `order` siguen la numeración del anexo en lugar de
+      nombrar a un titular, porque lo que este conjunto de datos registra es el asiento y no la
+      persona. Dos de los tres seguían en pie en la fecha de consulta; el tercero quedó vacante
+      en abril de 2026 y, como un Gobierno destituido no puede cubrir una vacante, no se
+      volvió a ocupar. Rumanía no publica ninguna cifra propia con la que contrastar estos
+      números: el registro del Gobierno enumera miembros sin totalizarlos.
+
+  - en: >-
+      Two bodies of ministerial rank are recorded and not counted, and both are genuine
+      judgement calls. The Secretariatul General al Guvernului is the Government's own
+      secretariat: article 20(1) of the Codul administrativ gives its head, the secretarul
+      general al Guvernului, the rank of minister, and article 20(3) makes it "elementul de
+      legătură și stabilitate al guvernării". It is excluded because it is not a portfolio
+      department but part of the aparatul de lucru al Guvernului under article 19, and because
+      its head is not a member of the Government: article 18 does not list the post, and
+      article 31(b) has the secretary-general appointed by a decision of the Prime Minister
+      rather than by presidential decree on a vote of confidence. It therefore carries no
+      cabinet seat either, which is why it does not move the seat count. The Cancelaria
+      Prim-Ministrului is excluded on the same reasoning — article 22(2) gives its head the
+      rank of minister and has the Prime Minister appoint and dismiss him by decision — with
+      the additional point that it sits in the Prime Minister's subordination. If a reader
+      prefers to treat rank of minister as decisive, Romania has 18 ministry-rank bodies
+      rather than 16; that is the figure those two entities would add, and it is stated here
+      rather than left to be discovered.
+    es: >-
+      Se registran dos órganos con rango de ministro que no se cuentan, y ambos son verdaderas
+      decisiones de criterio. El Secretariatul General al Guvernului es el secretariado propio
+      del Gobierno: el artículo 20(1) del Codul administrativ da a su titular, el secretarul
+      general al Guvernului, rango de ministro, y el artículo 20(3) lo convierte en «elementul
+      de legătură și stabilitate al guvernării». Se excluye porque no es un departamento con
+      cartera sino parte del aparatul de lucru al Guvernului conforme al artículo 19, y porque
+      su titular no es miembro del Gobierno: el artículo 18 no enumera el cargo y el artículo
+      31(b) hace que el secretario general sea nombrado por decisión del primer ministro y no
+      por decreto presidencial sobre un voto de confianza. Por eso tampoco lleva asiento en el
+      gabinete, y de ahí que no mueva el recuento de asientos. La Cancelaria Prim-Ministrului
+      se excluye por el mismo razonamiento —el artículo 22(2) da rango de ministro a su
+      titular y hace que el primer ministro lo nombre y lo cese por decisión— con la
+      precisión añadida de que está en subordinación del primer ministro. Si un lector
+      prefiere considerar decisivo el rango de ministro, Rumanía tiene 18 órganos con rango
+      ministerial en lugar de 16; ésa es la cifra que sumarían esas dos entidades, y se dice
+      aquí en vez de dejarla para que se descubra.
+
+  - en: >-
+      The perimeter, and the English and Spanish names. Out of scope, and therefore not
+      recorded even as exclusions: the secretari de stat and subsecretari de stat inside each
+      ministry, who are junior appointees named by decision of the Prime Minister under
+      article 31 of the Codul administrativ and hold no seat; the consilieri de stat and the
+      aparatul propriu de lucru of each deputy prime minister under article 21; the
+      departamente and other structures of the Government's working apparatus under article
+      23; the agencies, authorities and other organe de specialitate subordinate to or
+      coordinated by the Government or by a ministry under article 51, including bodies whose
+      heads rank as secretary of state; the prefects, who represent the Government in the
+      counties but head no department; the county and local authorities, which are local
+      self-government; and the Presidency of the Republic and the Banca Națională a României,
+      which are outside the executive. The head of state matters more in Romania than in a
+      parliamentary republic — this is a semi-presidential system in which the President
+      designates the prime minister and appoints the Government by decree — but the
+      Presidential Administration is not a department of the Government and is not recorded.
+      The English names of the sixteen ministries are `official`, which is unusual in this
+      dataset: the Government publishes an English edition of its register of ministries, and
+      those names are reproduced verbatim from it rather than translated here — which is why
+      three of them read "Digitalization", "Waters" and "Ministry for Development" instead of
+      the forms an English editor would choose. That English page is stale in one respect,
+      listing a ministry abolished in December 2024, so it is used for nomenclature only and
+      never for membership of the list. Every `name_es` is `translated`, as is the `name_en` of
+      each of the six entities that are not ministries: the Government publishes no Spanish
+      edition, and its English edition names no body other than a ministry.
+    es: >-
+      El perímetro y los nombres en inglés y español. Fuera de alcance, y por tanto no
+      registrados ni como exclusiones: los secretari de stat y subsecretari de stat de cada
+      ministerio, nombrados por decisión del primer ministro conforme al artículo 31 del Codul
+      administrativ y sin asiento; los consilieri de stat y el aparatul propriu de lucru de
+      cada viceprimer ministro conforme al artículo 21; los departamente y demás estructuras
+      del aparato de trabajo del Gobierno conforme al artículo 23; las agencias, autoridades y
+      demás organe de specialitate subordinadas o coordinadas por el Gobierno o por un
+      ministerio conforme al artículo 51, incluidos los órganos cuyos titulares tienen rango de
+      secretario de Estado; los prefectos, que representan al Gobierno en los condados pero no
+      encabezan ningún departamento; las autoridades de condado y locales, que son autogobierno
+      local; y la Presidencia de la República y la Banca Națională a României, ajenas al
+      ejecutivo. La jefatura del Estado importa más en Rumanía que en una república
+      parlamentaria —es un sistema semipresidencial en el que el presidente designa al primer
+      ministro y nombra al Gobierno por decreto— pero la Administración Presidencial no es un
+      departamento del Gobierno y no se registra. Todos los valores `name_en` y `name_es` de
+      este fichero son `translated`: son traducciones de este proyecto, no del Gobierno.
+      gov.ro publica una edición en inglés, pero sus nombres de ministerio no se verificaron
+      contra el registro rumano para este fichero, así que ningún nombre se marca como
+      `official`; un futuro curador que los verifique podrá elevar `name_en`.
+
+sources:
+  - id: mo-hp-25-2025
+    tier: 1
+    type: official_gazette
+    publisher: Monitorul Oficial al României, Partea I
+    title: >-
+      HOTĂRÂRE nr. 25 din 23 iunie 2025 pentru acordarea încrederii Guvernului
+    url: https://legislatie.just.ro/Public/DetaliiDocument/299203
+    archive_url: https://web.archive.org/web/20260121184300/https://legislatie.just.ro/public/DetaliiDocument/299203
+    lang: ro
+    published: 2025-06-23
+    accessed: 2026-07-28
+    quote: |-
+      HOTĂRÂRE nr. 25 din 23 iunie 2025 pentru acordarea încrederii Guvernului
+      Articolul 1
+      (1) Se acordă încredere Guvernului, în componența prevăzută în anexa nr. 1, pentru realizarea Programului de guvernare prevăzut în anexa nr. 2.
+      (2) Anexele nr. 1 și 2 fac parte integrantă din prezenta hotărâre.
+      Anexa nr. 1
+      LISTA
+      Guvernului României
+      1. Ilie-Gavril Bolojan - prim-ministru
+      2. Marian Neacșu - viceprim-ministru
+      3. Tánczos Barna - viceprim-ministru
+      4. Michael-Dragoș Anastasiu - viceprim-ministru
+      5. Marian-Cătălin Predoiu - viceprim-ministru, ministrul afacerilor interne
+      6. Liviu-Ionuț Moșteanu - viceprim-ministru, ministrul apărării naționale
+      7. Ciprian-Constantin Șerban - ministrul transporturilor și infrastructurii
+      8. Alexandru Nazare - ministrul finanțelor
+      9. Radu Marinescu - ministrul justiției
+      10. Florin-Ionuț Barbu - ministrul agriculturii și dezvoltării rurale
+      11. Bogdan-Gruia Ivan - ministrul energiei
+      12. Alexandru-Florin Rogobete - ministrul sănătății
+      13. Dragoș-Nicolae Pîslaru - ministrul investițiilor și proiectelor europene
+      14. Daniel-Ovidiu David - ministrul educației și cercetării
+      15. Oana-Silvia Țoiu - ministrul afacerilor externe
+      16. Diana-Anda Buzoianu - ministrul mediului, apelor și pădurilor
+      17. Petre-Florin Manole - ministrul muncii, familiei, tineretului și solidarității sociale
+      18. Radu-Dinel Miruță - ministrul economiei, digitalizării, antreprenoriatului și turismului
+      19. Cseke Attila-Zoltán - ministrul dezvoltării, lucrărilor publice și administrației
+      20. Demeter András István - ministrul culturii
+    note: >-
+      The instrument that enumerates the Government, published in Monitorul Oficial al
+      României, Partea I, nr. 580 of 23 June 2025 and adopted by the Chamber of Deputies and
+      the Senate in joint session the same day. Anexa nr. 1 is quoted in full above; Anexa
+      nr. 2, not quoted, is the 2025-2028 government programme of the PSD-PNL-USR-UDMR
+      coalition and the parliamentary group of national minorities. The annex names ministers
+      rather than ministries and includes the holder of each post, which is why the
+      `name_original` of each entity in this file comes from OUG nr. 153/2024 and the
+      Government's register instead. The holders named in the annex are those of 23 June 2025
+      and several have since changed; this file records posts, not people. Article 2 of the
+      resolution, not quoted, suspends the minister of finance from the board of the National
+      Bank for the duration of his mandate.
+
+  - id: cod-administrativ
+    tier: 1
+    type: statute
+    publisher: Monitorul Oficial al României, Partea I
+    title: >-
+      ORDONANȚĂ DE URGENȚĂ nr. 57 din 3 iulie 2019 privind Codul administrativ (text
+      consolidat)
+    url: https://legislatie.just.ro/Public/DetaliiDocument/215925
+    archive_url: https://web.archive.org/web/20260314102748/https://legislatie.just.ro/Public/DetaliiDocument/215925
+    lang: ro
+    published: 2019-07-05
+    accessed: 2026-07-28
+    quote: |-
+      Articolul 18 Componența Guvernului
+      Guvernul este alcătuit din prim-ministru și miniștri. Din Guvern pot face parte: viceprim-miniștri, miniștri de stat, miniștri delegați, miniștri cu însărcinări speciale pe lângă prim-ministru, numiți de Președintele României pe baza votului de încredere acordat de Parlament.
+      Articolul 19 Structura aparatului de lucru al Guvernului
+      Aparatul de lucru al Guvernului este alcătuit din Secretariatul General al Guvernului, Cancelaria Prim-ministrului, aparatul propriu de lucru al viceprim-ministrului, departamente și alte structuri organizatorice cu atribuții specifice stabilite prin hotărâre a Guvernului.
+      Articolul 20 Secretariatul General al Guvernului
+      (1) Guvernul are un Secretariat General care este condus de secretarul general al Guvernului care are rang de ministru, numit prin decizie a prim-ministrului.
+      Articolul 22 Cancelaria Prim-Ministrului
+      (2) Cancelaria Prim-Ministrului este condusă de șeful Cancelariei Prim-Ministrului, care are rang de ministru, numit și eliberat din funcție prin decizie a prim-ministrului.
+      Articolul 37
+      (3) În cazul încetării mandatului sau, în condițiile prevăzute de Constituție, până la depunerea jurământului de către membrii noului Guvern, Guvernul continuă să emită numai actele cu caracter individual sau normativ, necesare pentru administrarea treburilor publice, fără a promova politici noi. În această perioadă, Guvernul nu poate să emită ordonanțe sau ordonanțe de urgență și nu poate iniția proiecte de lege.
+      Articolul 46 Interimatul funcției de membru al Guvernului
+      (2) Prevederile alin. (1) se aplică în mod corespunzător și celorlalți membri ai Guvernului, la propunerea prim-ministrului, pentru o perioadă de cel mult 45 de zile.
+      (3) În situațiile prevăzute la alin. (2), înăuntrul termenului de 45 de zile, prim-ministrul iniţiază procedurile prevăzute de lege pentru numirea unui alt membru al Guvernului în calitate de ministru interimar.
+      Articolul 52 Rolul și atribuțiile ministerelor
+      (1) Ministerele sunt organe de specialitate ale administrației publice centrale care realizează politica guvernamentală în domeniile de interes stabilite de Guvern.
+      Articolul 54 Personalitatea juridică a ministerelor
+      Ministerele sunt persoane juridice de drept public, au sediul în municipiul București și sunt conduse de miniștri.
+    note: >-
+      Consolidated text of the Administrative Code, published in Monitorul Oficial al
+      României, Partea I, nr. 555 of 5 July 2019 and amended many times since; the snapshot
+      cited reflects the consolidation available in March 2026, the latest amendment shown in
+      the relevant titles being of November 2025. The quotation is a compilation of the
+      articles this file relies on, reproduced verbatim and in the document's own order, each
+      under its own article number and marginal title. Cited for four distinct claims: who
+      belongs to the Government (art. 18, which is why a viceprim-ministru holds a cabinet
+      seat and the secretary-general does not), what the Secretariatul General al Guvernului
+      and the Cancelaria Prim-Ministrului are (arts. 19, 20, 22), what a dismissed Government
+      may still do (art. 37(3)), and what an interim minister is (art. 46). Article 597(2)
+      letter c), not quoted here for length, repeals the Legea nr. 90/2001 privind
+      organizarea și funcționarea Guvernului României și a ministerelor by name — worth
+      recording because secondary sources still describe that repealed act as Romania's
+      framework act for the Government.
+
+  - id: mo-oug-153-2024
+    tier: 1
+    type: official_gazette
+    publisher: Monitorul Oficial al României, Partea I
+    title: >-
+      ORDONANȚĂ DE URGENȚĂ nr. 153 din 23 decembrie 2024 privind stabilirea unor măsuri la
+      nivelul administrației publice centrale (text consolidat)
+    url: https://legislatie.just.ro/Public/DetaliiDocument/293015
+    archive_url: https://web.archive.org/web/20251118075833/https://legislatie.just.ro/Public/DetaliiDocument/293015
+    lang: ro
+    published: 2024-12-24
+    accessed: 2026-07-28
+    quote: |-
+      Având în vedere Hotărârea Parlamentului României nr. 33/2024 pentru acordarea încrederii Guvernului, luând în considerare necesitatea stabilirii măsurilor care să permită îndeplinirea, în cel mai scurt timp, în noua structură, a activității Guvernului și a ministerelor,
+      Articolul 1
+      (1) La data intrării în vigoare a prezentei ordonanțe de urgență, Ministerul Muncii și Solidarității Sociale se reorganizează prin fuziune prin absorbție cu Ministerul Familiei, Tineretului și Egalității de Șanse, care se desființează.
+      (2) Ca urmare a reorganizării prin fuziune prin absorbție conform alin. (1), Ministerul Muncii și Solidarității Sociale își schimbă denumirea în Ministerul Muncii, Familiei, Tineretului și Solidarității Sociale.
+      Articolul 5
+      La data intrării în vigoare a prezentei ordonanțe de urgență, Ministerul Cercetării, Inovării și Digitalizării se reorganizează prin divizare totală și își încetează activitatea, prin împărțirea întregului său patrimoniu, personal și a activității după cum urmează:
+      a) patrimoniul, personalul, posturile și activitățile aferente domeniului cercetare se preiau de către Ministerul Educației și Cercetării pentru Autoritatea Națională pentru Cercetare;
+      b) patrimoniul, personalul, posturile și activitățile aferente domeniilor digitalizare, inovare și comunicații se preiau de către Ministerul Economiei, Antreprenoriatului și Turismului.
+      Articolul 6
+      (1) Ministerul Economiei, Antreprenoriatului și Turismului își schimbă denumirea în Ministerul Economiei, Digitalizării, Antreprenoriatului și Turismului.
+      Articolul 7
+      (1) Ministerul Educației își schimbă denumirea în Ministerul Educației și Cercetării.
+    note: >-
+      The reorganisation ordinance that produced the sixteen-ministry structure this cabinet
+      inherited, published in Monitorul Oficial al României, Partea I, nr. 1319 of 24
+      December 2024. It was issued after the previous investiture — Hotărârea Parlamentului
+      nr. 33/2024, for the Ciolacu Government — and is cited here because the Bolojan
+      Government made no reorganisation of its own: the sixteen portfolios in Hotărârea nr.
+      25/2025 are the sixteen ministries left standing by this ordinance. It is the source for
+      the current legal names of four of them, and for the fact that digitalisation,
+      innovation and communications sit in the economy ministry while research sits in the
+      education ministry, which is why those areas are tagged where they are. Cited as the
+      consolidated text, whose recorded consolidations are of 31 January and 31 March 2025.
+
+  - id: gov-ro-ministere
+    tier: 2
+    type: government_website
+    publisher: Guvernul României
+    title: Ministerele României — Guvernul României, Organizare
+    url: https://www.gov.ro/ro/guvernul/organizare/ministere
+    archive_url: https://web.archive.org/web/20260507103831/https://gov.ro/ro/guvernul/organizare/ministere
+    lang: ro
+    published: null
+    accessed: 2026-07-28
+    quote: |-
+      Ministerul Transporturilor și Infrastructurii
+      Ministerul Finanțelor
+      Ministerul Afacerilor Interne
+      Ministerul Afacerilor Externe
+      Ministerul Justiției
+      Ministerul Apărării Naționale
+      Ministerul Economiei, Digitalizării, Antreprenoriatului și Turismului
+      Ministerul Energiei
+      Ministerul Agriculturii și Dezvoltării Rurale
+      Ministerul Mediului, Apelor și Pădurilor
+      Ministerul Dezvoltării, Lucrărilor Publice și Administrației
+      Ministerul Investițiilor și Proiectelor Europene
+      Ministerul Muncii, Familiei, Tineretului și Solidarității Sociale
+      Ministerul Sănătății
+      Ministerul Educației și Cercetării
+      Ministerul Culturii
+    note: >-
+      The Government's own register of ministries, and the source for the legal name and the
+      official website of each of the sixteen. It carries no total and no date; the snapshot
+      cited was taken on 7 May 2026, two days after the censure motion, and lists the same
+      sixteen bodies as the investiture resolution of June 2025, which is the check that no
+      ministry was created or abolished during this cabinet's term. The page's own order is
+      not the investiture order and is not the order used in this file. Each ministry's `url`
+      in this file is the link this page gives for it.
+
+  - id: gov-ro-ministries-en
+    tier: 2
+    type: government_website
+    publisher: Government of Romania
+    title: Ministries — Government of Romania, Organization (English edition)
+    url: https://www.gov.ro/en/government/organization/ministries
+    archive_url: https://web.archive.org/web/20260507110715/https://gov.ro/en/government/organization/ministries
+    lang: en
+    published: null
+    accessed: 2026-07-28
+    quote: |-
+      Ministry of Transport and Infrastructure
+      Ministry of Finance
+      Ministry of Internal Affairs
+      Ministry of Foreign Affairs
+      Ministry of Justice
+      Ministry of National Defence
+      Ministry of Economy, Digitalization, Entrepreneurship and Tourism
+      Ministry of Energy
+      Ministry of Agriculture and Rural Development
+      Ministry of Environment, Waters and Forests
+      Ministry for Development, Public Works and Administration
+      Ministry of Investments and European Projects
+      Ministry of Labour, Family, Youth and Social Solidarity
+      Ministry of Health
+      Ministry of Education and Research
+      Ministry of Research, Innovation and Digitalization
+      Ministry of Culture
+    note: >-
+      The Government's own English edition of its register of ministries, and the reason every
+      counted ministry in this file carries `name_en_provenance: official` rather than
+      `translated`: these sixteen English names are the Government's, not this project's. They
+      are reproduced verbatim, including the choices a translator might not make — American
+      "Digitalization", the plural "Waters", and "Ministry for Development" where every other
+      entry has "Ministry of". Two warnings about this page. First, it is not maintained in step
+      with the Romanian edition: the seventeenth name in the list above, the Ministry of
+      Research, Innovation and Digitalization, is a department that article 5 of OUG nr.
+      153/2024 abolished in December 2024, and it appears in no other source in this file. The
+      page is therefore cited for the English nomenclature of the sixteen ministries that exist
+      and never for which ministries exist — that question is settled by the investiture
+      resolution and the Romanian register. Second, its order is the Romanian edition's order,
+      not the investiture order used in this file. The excluded entities in this file keep
+      `translated` English names, because this page names no body other than a ministry.
+
+  - id: gov-ro-cabinet-ministri
+    tier: 2
+    type: government_website
+    publisher: Guvernul României
+    title: Miniștrii Guvernului României — Cabinetul de miniștri
+    url: https://www.gov.ro/ro/guvernul/cabinetul-de-ministri
+    archive_url: https://web.archive.org/web/20260622175324/https://www.gov.ro/ro/guvernul/cabinetul-de-ministri
+    lang: ro
+    published: null
+    accessed: 2026-07-28
+    quote: |-
+      Ilie Bolojan
+      prim-ministru, ministru interimar al Energiei
+      Oana-Clara Gheorghiu
+      viceprim-ministru
+      Tánczos Barna
+      viceprim-ministru, ministru interimar al Agriculturii și Dezvoltării Rurale
+      Marian-Cătălin Predoiu
+      viceprim-ministru, ministrul Afacerilor Interne, ministru interimar al Justiției
+      Radu-Dinel Miruță
+      viceprim-ministru, ministrul Apărării Naționale, ministru interimar al Transporturilor și Infrastructurii
+      Alexandru Nazare
+      ministrul Finanțelor
+      Dragoș-Nicolae Pîslaru
+      ministrul Investițiilor și Proiectelor Europene, ministru interimar al Muncii, Familiei, Tineretului și Solidarității Sociale
+      Mihai Dimian
+      ministrul Educației și Cercetării
+      Oana-Silvia Țoiu
+      ministrul Afacerilor Externe
+      Diana-Anda Buzoianu
+      ministrul Mediului, Apelor și Pădurilor
+      Ambrozie-Irineu Darău
+      ministrul Economiei, Digitalizării, Antreprenoriatului și Turismului
+      Cseke Attila-Zoltán
+      ministrul Dezvoltării, Lucrărilor Publice și Administrației, ministru interimar al Sănătății
+      Demeter András István
+      ministrul Culturii
+    note: >-
+      The Government's own register of the members of the cabinet, quoted in full. The
+      snapshot cited was taken on 22 June 2026, the closest available to this file's access
+      date and after every change recorded here; the live page on 28 July 2026 showed the same
+      thirteen people. This is the source for three claims: that two serving deputy prime
+      ministers hold no portfolio, that six of the sixteen portfolios were held ad interim by
+      a minister of another department, and that Marian Neacșu was no longer a member. Thirteen
+      names for nineteen posts is the arithmetic behind the third figure in the first
+      methodology note. The page lists members without totalling them, so Romania publishes no
+      count of its own for this cabinet.
+
+  - id: juridice-decret-243-2026
+    tier: 3
+    type: press
+    publisher: JURIDICE.ro
+    title: Marian Neacșu a demisionat din funcția de vicepremier
+    url: https://www.juridice.ro/826348/marian-neacsu-a-demisionat-din-functia-de-vicepremier.html
+    archive_url: null
+    lang: ro
+    published: 2026-04-27
+    accessed: 2026-07-28
+    quote: >-
+      Se ia act de demisia lui Marian Neacșu din funcția de viceprim-ministru și se constată
+      vacanța acestei funcții.
+    note: >-
+      Cited for the date on which the second of the three deputy-premierships without
+      portfolio ended. The quotation is the operative wording of Decretul nr. 243/2026 pentru
+      constatarea vacanței unei funcții de membru al Guvernului, which this legal-news
+      publisher reports as published in Monitorul Oficial al României, Partea I, nr. 330 of 27
+      April 2026. Tier 3 and not tier 1 because the decree itself could not be reached: the
+      Portal Legislativ record for it was not located and the Monitorul Oficial site refused
+      automated access. The underlying fact — that the post was vacant well before the access
+      date — is independently established by the Government's own register of cabinet members,
+      which no longer lists him. A future curator should replace this citation with the decree.
+
+  - id: juridice-decret-1017-2025
+    tier: 3
+    type: press
+    publisher: JURIDICE.ro
+    title: Oana Gheorghiu este noul viceprim-ministru
+    url: https://www.juridice.ro/804674/oana-gheorghiu-este-noul-viceprim-ministru.html
+    archive_url: null
+    lang: ro
+    published: 2025-10-30
+    accessed: 2026-07-28
+    quote: >-
+      Se numeşte în funcţia de membru al Guvernului Oana-Clara Gheorghiu, viceprim-ministru.
+    note: >-
+      Cited for the appointment of a new deputy prime minister without portfolio during this
+      cabinet's term. The quotation is the operative wording of Decretul nr. 1017/2025 pentru
+      numirea unui membru al Guvernului, which this legal-news publisher reports as published
+      in Monitorul Oficial al României, Partea I, nr. 999 of 30 October 2025. Tier 3 and not
+      tier 1 for the same reason as the vacancy decree above: the decree itself could not be
+      reached from this network. The appointment is corroborated by the Government's own
+      register of cabinet members, which lists her as a viceprim-ministru with no portfolio.
+
+  - id: juridice-motiune-cenzura-2026
+    tier: 3
+    type: press
+    publisher: JURIDICE.ro
+    title: Moțiunea de cenzură împotriva Guvernului Bolojan a fost adoptată
+    url: https://www.juridice.ro/826899/motiunea-de-cenzura-impotriva-guvernului-bolojan-a-fost-adoptata.html
+    archive_url: null
+    lang: ro
+    published: 2026-05-05
+    accessed: 2026-07-28
+    quote: >-
+      MOȚIUNE DE CENZURĂ nr. MC.1/2026 – STOP „Planului Bolojan” de distrugere a economiei, de
+      sărăcire a populației și de vânzare frauduloasă a averii statului!
+    note: >-
+      Cited for the single most consequential fact about this cabinet: that its mandate ended
+      on 5 May 2026 while it remained in office. This legal-news publisher reports the motion
+      as published in Monitorul Oficial al României, Partea I, nr. 375 of 5 May 2026, and the
+      vote in the joint session of the Chamber of Deputies and the Senate as 281 in favour and
+      4 against. Tier 3 and not tier 1 because the gazette text could not be reached: the
+      Portal Legislativ record for the motion was not located from this network and
+      monitoruloficial.ro refused automated access. What the motion did to the Government's
+      powers, as opposed to the fact that it carried, rests on article 37(3) of the Codul
+      administrativ and is therefore tier 1.
+
+  - id: euronews-ro-investire-vestea
+    tier: 3
+    type: press
+    publisher: Euronews România
+    title: Guvernul Adrian Veștea a picat la vot în Parlament
+    url: https://www.euronews.ro/articole/vot-investire-guvern-adrian-vestea-parlamentul-romaniei
+    archive_url: null
+    lang: ro
+    published: 2026-06-22
+    accessed: 2026-07-28
+    quote: >-
+      Guvernul Adrian Veștea nu a întrunit numărul de 233 de voturi necesare. Rezultatul
+      votului: 189 de voturi pentru și 23 voturi împotriva.
+    note: >-
+      Cited for why this cabinet still has `left_office: null` nearly three months after being
+      dismissed: the last attempt to invest a successor failed. Adrian Veștea was the second
+      prime minister designated after the censure motion, the first having withdrawn before a
+      vote, and his cabinet fell short of the majority that article 103(3) of the Constitution
+      requires. Tier 3, and it does not need to be stronger: the claim it supports is that no
+      new Government has been sworn in, which is also what the Government's own register of
+      cabinet members shows by still listing this one. Veștea was not the first prime minister
+      designated after the censure motion — an earlier designate withdrew before any vote — but
+      that earlier designation is not recorded here, because it could not be traced to a source
+      this file cites and it changes nothing: what matters is that no successor was invested.
+
+entities:
+  # --- the head of government -----------------------------------------------------
+  - id: RO-2025-prim-ministru
+    order: 1
+    name_original: Prim-ministru
+    abbreviation_original: null
+    name_en: Office of the Prime Minister
+    name_es: Presidencia del Gobierno
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: prim-ministru
+    head_title_en: Prime Minister
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: head_of_government_office
+    url: https://www.gov.ro
+    sources:
+      - mo-hp-25-2025
+      - cod-administrativ
+      - gov-ro-cabinet-ministri
+      - juridice-motiune-cenzura-2026
+      - euronews-ro-investire-vestea
+    note:
+      en: >-
+        Position 1 of Anexa nr. 1 to Hotărârea Parlamentului nr. 25/2025, and the apex of the
+        cabinet rather than a portfolio department: article 28 of the Codul administrativ gives
+        the Prime Minister the direction of the Government and the coordination of its members,
+        and no field of activity. Recorded because the post carries a seat in the Government
+        under article 18, which is what makes the seat count one higher than it would otherwise
+        be. On the access date the Prime Minister was additionally interim minister of energy;
+        that is recorded on the energy ministry's entity and adds no seat here.
+      es: >-
+        Posición 1 del anexo n.º 1 de la Hotărârea Parlamentului nr. 25/2025, y cúspide del
+        gabinete y no departamento con cartera: el artículo 28 del Codul administrativ atribuye
+        al primer ministro la dirección del Gobierno y la coordinación de sus miembros, y ningún
+        ámbito de actividad. Se registra porque el cargo lleva asiento en el Gobierno conforme al
+        artículo 18, y eso es lo que hace que el recuento de asientos sea uno más alto de lo que
+        sería. En la fecha de consulta el primer ministro era además ministro interino de
+        Energía; eso se recoge en la entidad del ministerio de Energía y no añade asiento aquí.
+
+  # --- deputy prime ministers holding no portfolio ---------------------------------
+  - id: RO-2025-viceprim-ministru-2
+    order: 2
+    name_original: Viceprim-ministru
+    abbreviation_original: null
+    name_en: Deputy Prime Minister (second position in the investiture list)
+    name_es: Viceprimer ministro (segunda posición de la lista de investidura)
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: viceprim-ministru
+    head_title_en: Deputy Prime Minister
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: deputy_head_without_portfolio
+    valid_to: 2026-04-27
+    url: null
+    sources: [mo-hp-25-2025, cod-administrativ, juridice-decret-243-2026]
+    note:
+      en: >-
+        Position 2 of Anexa nr. 1 to Hotărârea Parlamentului nr. 25/2025: a member of the
+        Government holding the title of viceprim-ministru and no ministry, which is the textbook
+        case of `deputy_head_without_portfolio`. It carried a seat under article 18 of the Codul
+        administrativ and no field of activity, and its holder had only the aparatul propriu de
+        lucru that article 21 gives a deputy prime minister, which is a personal office and not
+        a department. Closed on 27 April 2026, when Decretul nr. 243/2026 took note of Marian
+        Neacșu's resignation and declared the post vacant after the PSD withdrew its support
+        from the coalition; the cabinet went from twenty seats to nineteen. It was not refilled,
+        and could not be: eight days later the Government's mandate ended on a censure motion,
+        and article 37(3) of the Codul administrativ leaves a dismissed Government only the
+        acts needed to administer public affairs. The entity is named by its position in the
+        annex rather than by its holder because this dataset records the seat, not the person.
+      es: >-
+        Posición 2 del anexo n.º 1 de la Hotărârea Parlamentului nr. 25/2025: un miembro del
+        Gobierno con el título de viceprim-ministru y sin ministerio, que es el caso de manual de
+        `deputy_head_without_portfolio`. Llevaba asiento conforme al artículo 18 del Codul
+        administrativ y ningún ámbito de actividad, y su titular sólo disponía del aparatul
+        propriu de lucru que el artículo 21 concede a un viceprimer ministro, que es un gabinete
+        personal y no un departamento. Cerrado el 27 de abril de 2026, cuando el Decretul nr.
+        243/2026 tomó nota de la dimisión de Marian Neacșu y declaró vacante el cargo tras la
+        retirada del apoyo del PSD a la coalición; el gabinete pasó de veinte asientos a
+        diecinueve. No se volvió a ocupar, ni podía: ocho días después el mandato del Gobierno
+        terminó por una moción de censura, y el artículo 37(3) del Codul administrativ sólo deja
+        a un Gobierno destituido los actos necesarios para administrar los asuntos públicos. La
+        entidad se nombra por su posición en el anexo y no por su titular porque este conjunto de
+        datos registra el asiento, no la persona.
+
+  - id: RO-2025-viceprim-ministru-3
+    order: 3
+    name_original: Viceprim-ministru
+    abbreviation_original: null
+    name_en: Deputy Prime Minister (third position in the investiture list)
+    name_es: Viceprimer ministro (tercera posición de la lista de investidura)
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: viceprim-ministru
+    head_title_en: Deputy Prime Minister
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: deputy_head_without_portfolio
+    url: null
+    sources: [mo-hp-25-2025, cod-administrativ, gov-ro-cabinet-ministri]
+    note:
+      en: >-
+        Position 3 of Anexa nr. 1 to Hotărârea Parlamentului nr. 25/2025, held by the same
+        person throughout this cabinet and still in place on the access date. A member of the
+        Government with a seat under article 18 of the Codul administrativ and no ministry. Its
+        holder was additionally interim minister of agriculture and rural development on the
+        access date; an interim under article 46 is a temporary discharge of another member's
+        duties and neither gives him that department nor a second seat, so the agriculture
+        ministry is recorded as its own entity and this one keeps a single seat and no policy
+        area.
+      es: >-
+        Posición 3 del anexo n.º 1 de la Hotărârea Parlamentului nr. 25/2025, ocupada por la
+        misma persona durante todo este gabinete y todavía en pie en la fecha de consulta. Un
+        miembro del Gobierno con asiento conforme al artículo 18 del Codul administrativ y sin
+        ministerio. Su titular era además ministro interino de Agricultura y Desarrollo Rural en
+        la fecha de consulta; una interinidad conforme al artículo 46 es el desempeño temporal
+        de las atribuciones de otro miembro y no le da ese departamento ni un segundo asiento,
+        así que el ministerio de Agricultura se registra como entidad propia y ésta conserva un
+        solo asiento y ningún área de política.
+
+  - id: RO-2025-viceprim-ministru-4
+    order: 4
+    name_original: Viceprim-ministru
+    abbreviation_original: null
+    name_en: Deputy Prime Minister (fourth position in the investiture list)
+    name_es: Viceprimer ministro (cuarta posición de la lista de investidura)
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: viceprim-ministru
+    head_title_en: Deputy Prime Minister
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: deputy_head_without_portfolio
+    url: null
+    sources:
+      - mo-hp-25-2025
+      - cod-administrativ
+      - gov-ro-cabinet-ministri
+      - juridice-decret-1017-2025
+    note:
+      en: >-
+        Position 4 of Anexa nr. 1 to Hotărârea Parlamentului nr. 25/2025: the third
+        deputy-premiership without portfolio, still in place on the access date and held by a
+        different person from the one named in the annex. The post is recorded as one continuous
+        entity, created with the cabinet and never closed, because what this dataset records is
+        the post and not its occupant: the holder named in the annex left during 2025 and
+        Decretul nr. 1017/2025 of 30 October 2025 appointed Oana-Clara Gheorghiu a member of the
+        Government as viceprim-ministru, which is the post she holds on the access date. One gap
+        in the record should be stated rather than papered over. Between the departure of the
+        first holder and 30 October 2025 the post appears to have been covered by an interim
+        designation, but the decree that would establish this could not be reached from this
+        network and no date for it is recorded here. `valid_from` is therefore left null, which
+        is correct for the post and may overstate the seat count by one for a reader replaying a
+        date inside that gap. Nothing in the current snapshot depends on it.
+      es: >-
+        Posición 4 del anexo n.º 1 de la Hotărârea Parlamentului nr. 25/2025: la tercera
+        vicepresidencia sin cartera, todavía en pie en la fecha de consulta y ocupada por una
+        persona distinta de la nombrada en el anexo. El cargo se registra como una única entidad
+        continua, creada con el gabinete y nunca cerrada, porque lo que este conjunto de datos
+        registra es el cargo y no su ocupante: el titular nombrado en el anexo lo dejó en el
+        curso de 2025 y el Decretul nr. 1017/2025 del 30 de octubre de 2025 nombró a
+        Oana-Clara Gheorghiu miembro del Gobierno como viceprim-ministru, que es el cargo que
+        ocupa en la fecha de consulta. Conviene declarar una laguna del registro en lugar de
+        disimularla. Entre la salida del primer titular y el 30 de octubre de 2025 el cargo
+        parece haber estado cubierto por una designación interina, pero el decreto que lo
+        acreditaría no pudo alcanzarse desde esta red y aquí no se recoge ninguna fecha para él.
+        Por eso `valid_from` se deja nulo, lo cual es correcto para el cargo y puede sobrestimar
+        en uno el recuento de asientos para un lector que reconstruya una fecha dentro de esa
+        laguna. Nada de la foto actual depende de ello.
+
+  # --- the sixteen ministries, in the investiture list's own order ------------------
+  - id: RO-2025-afaceri-interne
+    order: 5
+    name_original: Ministerul Afacerilor Interne
+    abbreviation_original: null
+    name_en: Ministry of Internal Affairs
+    name_es: Ministerio de Asuntos Internos
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: ministrul afacerilor interne
+    head_title_en: Minister of Internal Affairs
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [interior, civil_protection, migration]
+    counts_as_ministry: true
+    url: http://www.mai.gov.ro/
+    sources: [mo-hp-25-2025, gov-ro-ministere, gov-ro-cabinet-ministri, gov-ro-ministries-en]
+    note:
+      en: >-
+        Position 5 of the investiture list, where the portfolio is held together with the title
+        of viceprim-ministru. The deputy-premiership adds neither a ministry nor a seat and is
+        not recorded separately, as the data contract prescribes. `civil_protection` is tagged
+        because the emergency services and the inspectorate for emergency situations sit inside
+        this ministry rather than in a department of their own, and `migration` because the
+        immigration authority does.
+      es: >-
+        Posición 5 de la lista de investidura, donde la cartera se ostenta junto con el título de
+        viceprim-ministru. La vicepresidencia no añade ni ministerio ni asiento y no se registra
+        por separado, como prescribe el contrato de datos. Se etiqueta `civil_protection` porque
+        los servicios de emergencia y la inspección para situaciones de emergencia están dentro
+        de este ministerio y no en un departamento propio, y `migration` porque la autoridad de
+        inmigración también.
+
+  - id: RO-2025-aparare-nationala
+    order: 6
+    name_original: Ministerul Apărării Naționale
+    abbreviation_original: null
+    name_en: Ministry of National Defence
+    name_es: Ministerio de Defensa Nacional
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: ministrul apărării naționale
+    head_title_en: Minister of National Defence
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [defence]
+    counts_as_ministry: true
+    url: http://www.mapn.ro/
+    sources: [mo-hp-25-2025, gov-ro-ministere, gov-ro-cabinet-ministri, gov-ro-ministries-en]
+    note:
+      en: >-
+        Position 6 of the investiture list, where the portfolio is held together with the title
+        of viceprim-ministru, which adds neither a ministry nor a seat. Its holder changed during
+        this cabinet's term and on the access date was additionally interim minister of transport
+        and infrastructure; neither fact moves either figure this dataset publishes.
+      es: >-
+        Posición 6 de la lista de investidura, donde la cartera se ostenta junto con el título de
+        viceprim-ministru, que no añade ni ministerio ni asiento. Su titular cambió durante la
+        vida de este gabinete y en la fecha de consulta era además ministro interino de
+        Transportes e Infraestructuras; ninguno de los dos hechos mueve ninguna de las cifras que
+        publica este conjunto de datos.
+
+  - id: RO-2025-transporturi-infrastructura
+    order: 7
+    name_original: Ministerul Transporturilor și Infrastructurii
+    abbreviation_original: null
+    name_en: Ministry of Transport and Infrastructure
+    name_es: Ministerio de Transportes e Infraestructuras
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: ministrul transporturilor și infrastructurii
+    head_title_en: Minister of Transport and Infrastructure
+    has_cabinet_seat: true
+    head_count: 0
+    policy_areas: [transport, infrastructure, shipping]
+    counts_as_ministry: true
+    url: http://www.mt.gov.ro/
+    sources: [mo-hp-25-2025, gov-ro-ministere, gov-ro-cabinet-ministri, gov-ro-ministries-en]
+    note:
+      en: >-
+        Position 7 of Anexa nr. 1 to Hotărârea Parlamentului nr. 25/2025. `shipping` is tagged
+        because the naval authority and the maritime and inland ports sit in this ministry,
+        which is where a reader looking for a Romanian ministry of the sea would otherwise fail
+        to find one. On the access date this portfolio had no minister of its own. It fell
+        vacant when the PSD ministers resigned in April 2026, and it is discharged ad interim by
+        the minister of national defence under article 46(2) and (3) of the Codul administrativ,
+        which lets the Prime Minister propose that another member of the Government take on the
+        duties for at most 45 days pending the appointment of a successor — an appointment a
+        Government whose mandate has ended cannot make. `head_count: 0` is what encodes that
+        vacancy, and it is why this cabinet is thirteen people rather than nineteen posts. It
+        does not mean the department is unled or that it has no minister at all:
+        `has_cabinet_seat` stays true because the seat exists and is filled at the Government's
+        table by the interim minister, and `counts_as_ministry` stays true because the ministry
+        exists and its head holds ministerial rank. No `shared_head_with` links this entity to
+        that minister's own department, because the two posts are not merged and recording them
+        as one would be a false structural claim about Romania.
+      es: >-
+        Posición 7 del anexo n.º 1 de la Hotărârea Parlamentului nr. 25/2025. Se etiqueta
+        `shipping` porque la autoridad naval y los puertos marítimos y fluviales están en este
+        ministerio, que es donde un lector que buscara un ministerio rumano del mar no lo
+        encontraría de otro modo. En la fecha de consulta esta cartera no tenía ministro propio.
+        Quedó vacante cuando los ministros del PSD dimitieron en abril de 2026, y la desempeña
+        de forma interina el ministro de Defensa Nacional conforme al artículo 46(2) y (3) del
+        Codul administrativ, que permite al primer ministro proponer que otro miembro del
+        Gobierno asuma las atribuciones durante un máximo de 45 días hasta el nombramiento de un
+        sucesor, nombramiento que un Gobierno cuyo mandato ha terminado no puede hacer.
+        `head_count: 0` es lo que codifica esa vacante, y es la razón por la que este gabinete
+        son trece personas y no diecinueve puestos. No significa que el departamento esté sin
+        dirección ni que no tenga ningún ministro: `has_cabinet_seat` sigue siendo verdadero
+        porque el asiento existe y lo ocupa en la mesa del Gobierno el ministro interino, y
+        `counts_as_ministry` sigue siendo verdadero porque el ministerio existe y su titular
+        tiene rango ministerial. Ningún `shared_head_with` enlaza esta entidad con el
+        departamento propio de ese ministro, porque los dos cargos no están fusionados y
+        registrarlos como uno sería una afirmación estructural falsa sobre Rumanía.
+
+  - id: RO-2025-finante
+    order: 8
+    name_original: Ministerul Finanțelor
+    abbreviation_original: null
+    name_en: Ministry of Finance
+    name_es: Ministerio de Finanzas
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: ministrul finanțelor
+    head_title_en: Minister of Finance
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [finance, budget]
+    counts_as_ministry: true
+    url: http://www.mfinante.gov.ro/
+    sources: [mo-hp-25-2025, gov-ro-ministere, gov-ro-cabinet-ministri, gov-ro-ministries-en]
+    note:
+      en: >-
+        Position 8 of the investiture list, and one of the few portfolios whose holder did not
+        change during this cabinet's term. Romania has no separate budget ministry: this
+        department prepares the state budget and the social insurance budget and runs the tax
+        administration, so both `finance` and `budget` are tagged here.
+      es: >-
+        Posición 8 de la lista de investidura, y una de las pocas carteras cuyo titular no cambió
+        durante la vida de este gabinete. Rumanía no tiene un ministerio de presupuesto separado:
+        este departamento elabora el presupuesto del Estado y el de la seguridad social y dirige
+        la administración tributaria, así que se etiquetan aquí tanto `finance` como `budget`.
+
+  - id: RO-2025-justitie
+    order: 9
+    name_original: Ministerul Justiției
+    abbreviation_original: null
+    name_en: Ministry of Justice
+    name_es: Ministerio de Justicia
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: ministrul justiției
+    head_title_en: Minister of Justice
+    has_cabinet_seat: true
+    head_count: 0
+    policy_areas: [justice]
+    counts_as_ministry: true
+    url: https://www.just.ro/
+    sources: [mo-hp-25-2025, gov-ro-ministere, gov-ro-cabinet-ministri, gov-ro-ministries-en]
+    note:
+      en: >-
+        Position 9 of Anexa nr. 1 to Hotărârea Parlamentului nr. 25/2025. The prosecution
+        service and the judiciary are not part of this department and are outside this dataset's
+        perimeter; the ministry runs the prison administration, the trade register and the
+        legislative side of justice policy. On the access date this portfolio had no minister of
+        its own. It fell vacant when the PSD ministers resigned in April 2026, and it is
+        discharged ad interim by the minister of internal affairs under article 46(2) and (3) of
+        the Codul administrativ, which lets the Prime Minister propose that another member of
+        the Government take on the duties for at most 45 days pending the appointment of a
+        successor — an appointment a Government whose mandate has ended cannot make.
+        `head_count: 0` is what encodes that vacancy, and it is why this cabinet is thirteen
+        people rather than nineteen posts. It does not mean the department is unled or that it
+        has no minister at all: `has_cabinet_seat` stays true because the seat exists and is
+        filled at the Government's table by the interim minister, and `counts_as_ministry` stays
+        true because the ministry exists and its head holds ministerial rank. No
+        `shared_head_with` links this entity to that minister's own department, because the two
+        posts are not merged and recording them as one would be a false structural claim about
+        Romania.
+      es: >-
+        Posición 9 del anexo n.º 1 de la Hotărârea Parlamentului nr. 25/2025. La fiscalía y el
+        poder judicial no forman parte de este departamento y quedan fuera del perímetro de este
+        conjunto de datos; el ministerio dirige la administración penitenciaria, el registro
+        mercantil y la vertiente legislativa de la política de justicia. En la fecha de consulta
+        esta cartera no tenía ministro propio. Quedó vacante cuando los ministros del PSD
+        dimitieron en abril de 2026, y la desempeña de forma interina el ministro del Interior
+        conforme al artículo 46(2) y (3) del Codul administrativ, que permite al primer ministro
+        proponer que otro miembro del Gobierno asuma las atribuciones durante un máximo de 45
+        días hasta el nombramiento de un sucesor, nombramiento que un Gobierno cuyo mandato ha
+        terminado no puede hacer. `head_count: 0` es lo que codifica esa vacante, y es la razón
+        por la que este gabinete son trece personas y no diecinueve puestos. No significa que el
+        departamento esté sin dirección ni que no tenga ningún ministro: `has_cabinet_seat`
+        sigue siendo verdadero porque el asiento existe y lo ocupa en la mesa del Gobierno el
+        ministro interino, y `counts_as_ministry` sigue siendo verdadero porque el ministerio
+        existe y su titular tiene rango ministerial. Ningún `shared_head_with` enlaza esta
+        entidad con el departamento propio de ese ministro, porque los dos cargos no están
+        fusionados y registrarlos como uno sería una afirmación estructural falsa sobre Rumanía.
+
+  - id: RO-2025-agricultura-dezvoltare-rurala
+    order: 10
+    name_original: Ministerul Agriculturii și Dezvoltării Rurale
+    abbreviation_original: null
+    name_en: Ministry of Agriculture and Rural Development
+    name_es: Ministerio de Agricultura y Desarrollo Rural
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: ministrul agriculturii și dezvoltării rurale
+    head_title_en: Minister of Agriculture and Rural Development
+    has_cabinet_seat: true
+    head_count: 0
+    policy_areas: [agriculture, rural_development, fisheries, food_safety]
+    counts_as_ministry: true
+    url: http://www.madr.ro/
+    sources: [mo-hp-25-2025, gov-ro-ministere, gov-ro-cabinet-ministri, gov-ro-ministries-en]
+    note:
+      en: >-
+        Position 10 of Anexa nr. 1 to Hotărârea Parlamentului nr. 25/2025. `fisheries` and
+        `food_safety` are tagged although neither appears in the name: the national agency for
+        fisheries and aquaculture and the food industry sit in this ministry, and Romania has no
+        separate ministry for either. On the access date this portfolio had no minister of its
+        own. It fell vacant when the PSD ministers resigned in April 2026, and it is discharged
+        ad interim by the deputy prime minister at position 3 of the investiture list under
+        article 46(2) and (3) of the Codul administrativ, which lets the Prime Minister propose
+        that another member of the Government take on the duties for at most 45 days pending the
+        appointment of a successor — an appointment a Government whose mandate has ended cannot
+        make. `head_count: 0` is what encodes that vacancy, and it is why this cabinet is
+        thirteen people rather than nineteen posts. It does not mean the department is unled or
+        that it has no minister at all: `has_cabinet_seat` stays true because the seat exists
+        and is filled at the Government's table by the interim minister, and
+        `counts_as_ministry` stays true because the ministry exists and its head holds
+        ministerial rank. No `shared_head_with` links this entity to that minister's own
+        department, because the two posts are not merged and recording them as one would be a
+        false structural claim about Romania.
+      es: >-
+        Posición 10 del anexo n.º 1 de la Hotărârea Parlamentului nr. 25/2025. Se etiquetan
+        `fisheries` y `food_safety` aunque ninguno aparece en el nombre: la agencia nacional de
+        pesca y acuicultura y la industria alimentaria están en este ministerio, y Rumanía no
+        tiene un ministerio separado para ninguna de las dos. En la fecha de consulta esta
+        cartera no tenía ministro propio. Quedó vacante cuando los ministros del PSD dimitieron
+        en abril de 2026, y la desempeña de forma interina el viceprimer ministro de la posición
+        3 de la lista de investidura conforme al artículo 46(2) y (3) del Codul administrativ,
+        que permite al primer ministro proponer que otro miembro del Gobierno asuma las
+        atribuciones durante un máximo de 45 días hasta el nombramiento de un sucesor,
+        nombramiento que un Gobierno cuyo mandato ha terminado no puede hacer. `head_count: 0`
+        es lo que codifica esa vacante, y es la razón por la que este gabinete son trece
+        personas y no diecinueve puestos. No significa que el departamento esté sin dirección ni
+        que no tenga ningún ministro: `has_cabinet_seat` sigue siendo verdadero porque el
+        asiento existe y lo ocupa en la mesa del Gobierno el ministro interino, y
+        `counts_as_ministry` sigue siendo verdadero porque el ministerio existe y su titular
+        tiene rango ministerial. Ningún `shared_head_with` enlaza esta entidad con el
+        departamento propio de ese ministro, porque los dos cargos no están fusionados y
+        registrarlos como uno sería una afirmación estructural falsa sobre Rumanía.
+
+  - id: RO-2025-energie
+    order: 11
+    name_original: Ministerul Energiei
+    abbreviation_original: null
+    name_en: Ministry of Energy
+    name_es: Ministerio de Energía
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: ministrul energiei
+    head_title_en: Minister of Energy
+    has_cabinet_seat: true
+    head_count: 0
+    policy_areas: [energy]
+    counts_as_ministry: true
+    url: http://energie.gov.ro/
+    sources: [mo-hp-25-2025, gov-ro-ministere, gov-ro-cabinet-ministri, gov-ro-ministries-en]
+    note:
+      en: >-
+        Position 11 of Anexa nr. 1 to Hotărârea Parlamentului nr. 25/2025. Romania gives energy
+        a department of its own, separate from both the environment and the economy. This is
+        also the clearest illustration of why an interim is not recorded as a shared head: doing
+        so here would merge a portfolio department into the office of the head of government and
+        collapse the very distinction this dataset exists to keep. On the access date this
+        portfolio had no minister of its own. It fell vacant when the PSD ministers resigned in
+        April 2026, and it is discharged ad interim by the Prime Minister himself under article
+        46(2) and (3) of the Codul administrativ, which lets the Prime Minister propose that
+        another member of the Government take on the duties for at most 45 days pending the
+        appointment of a successor — an appointment a Government whose mandate has ended cannot
+        make. `head_count: 0` is what encodes that vacancy, and it is why this cabinet is
+        thirteen people rather than nineteen posts. It does not mean the department is unled or
+        that it has no minister at all: `has_cabinet_seat` stays true because the seat exists
+        and is filled at the Government's table by the interim minister, and
+        `counts_as_ministry` stays true because the ministry exists and its head holds
+        ministerial rank. No `shared_head_with` links this entity to that minister's own
+        department, because the two posts are not merged and recording them as one would be a
+        false structural claim about Romania.
+      es: >-
+        Posición 11 del anexo n.º 1 de la Hotărârea Parlamentului nr. 25/2025. Rumanía da a la
+        energía un departamento propio, separado tanto del medio ambiente como de la economía.
+        Es también la ilustración más clara de por qué una interinidad no se registra como
+        titularidad compartida: hacerlo aquí fusionaría un departamento con cartera en la
+        oficina del jefe de gobierno y destruiría la distinción misma que este conjunto de datos
+        existe para mantener. En la fecha de consulta esta cartera no tenía ministro propio.
+        Quedó vacante cuando los ministros del PSD dimitieron en abril de 2026, y la desempeña
+        de forma interina el propio primer ministro conforme al artículo 46(2) y (3) del Codul
+        administrativ, que permite al primer ministro proponer que otro miembro del Gobierno
+        asuma las atribuciones durante un máximo de 45 días hasta el nombramiento de un sucesor,
+        nombramiento que un Gobierno cuyo mandato ha terminado no puede hacer. `head_count: 0`
+        es lo que codifica esa vacante, y es la razón por la que este gabinete son trece
+        personas y no diecinueve puestos. No significa que el departamento esté sin dirección ni
+        que no tenga ningún ministro: `has_cabinet_seat` sigue siendo verdadero porque el
+        asiento existe y lo ocupa en la mesa del Gobierno el ministro interino, y
+        `counts_as_ministry` sigue siendo verdadero porque el ministerio existe y su titular
+        tiene rango ministerial. Ningún `shared_head_with` enlaza esta entidad con el
+        departamento propio de ese ministro, porque los dos cargos no están fusionados y
+        registrarlos como uno sería una afirmación estructural falsa sobre Rumanía.
+
+  - id: RO-2025-sanatate
+    order: 12
+    name_original: Ministerul Sănătății
+    abbreviation_original: null
+    name_en: Ministry of Health
+    name_es: Ministerio de Sanidad
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: ministrul sănătății
+    head_title_en: Minister of Health
+    has_cabinet_seat: true
+    head_count: 0
+    policy_areas: [health]
+    counts_as_ministry: true
+    url: http://www.ms.gov.ro/
+    sources: [mo-hp-25-2025, gov-ro-ministere, gov-ro-cabinet-ministri, gov-ro-ministries-en]
+    note:
+      en: >-
+        Position 12 of Anexa nr. 1 to Hotărârea Parlamentului nr. 25/2025. On the access date
+        this portfolio had no minister of its own. It fell vacant when the PSD ministers
+        resigned in April 2026, and it is discharged ad interim by the minister of development,
+        public works and administration under article 46(2) and (3) of the Codul administrativ,
+        which lets the Prime Minister propose that another member of the Government take on the
+        duties for at most 45 days pending the appointment of a successor — an appointment a
+        Government whose mandate has ended cannot make. `head_count: 0` is what encodes that
+        vacancy, and it is why this cabinet is thirteen people rather than nineteen posts. It
+        does not mean the department is unled or that it has no minister at all:
+        `has_cabinet_seat` stays true because the seat exists and is filled at the Government's
+        table by the interim minister, and `counts_as_ministry` stays true because the ministry
+        exists and its head holds ministerial rank. No `shared_head_with` links this entity to
+        that minister's own department, because the two posts are not merged and recording them
+        as one would be a false structural claim about Romania.
+      es: >-
+        Posición 12 del anexo n.º 1 de la Hotărârea Parlamentului nr. 25/2025. En la fecha de
+        consulta esta cartera no tenía ministro propio. Quedó vacante cuando los ministros del
+        PSD dimitieron en abril de 2026, y la desempeña de forma interina el ministro de
+        Desarrollo, Obras Públicas y Administración conforme al artículo 46(2) y (3) del Codul
+        administrativ, que permite al primer ministro proponer que otro miembro del Gobierno
+        asuma las atribuciones durante un máximo de 45 días hasta el nombramiento de un sucesor,
+        nombramiento que un Gobierno cuyo mandato ha terminado no puede hacer. `head_count: 0`
+        es lo que codifica esa vacante, y es la razón por la que este gabinete son trece
+        personas y no diecinueve puestos. No significa que el departamento esté sin dirección ni
+        que no tenga ningún ministro: `has_cabinet_seat` sigue siendo verdadero porque el
+        asiento existe y lo ocupa en la mesa del Gobierno el ministro interino, y
+        `counts_as_ministry` sigue siendo verdadero porque el ministerio existe y su titular
+        tiene rango ministerial. Ningún `shared_head_with` enlaza esta entidad con el
+        departamento propio de ese ministro, porque los dos cargos no están fusionados y
+        registrarlos como uno sería una afirmación estructural falsa sobre Rumanía.
+
+  - id: RO-2025-investitii-proiecte-europene
+    order: 13
+    name_original: Ministerul Investițiilor și Proiectelor Europene
+    abbreviation_original: null
+    name_en: Ministry of Investments and European Projects
+    name_es: Ministerio de Inversiones y Proyectos Europeos
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: ministrul investițiilor și proiectelor europene
+    head_title_en: Minister of Investments and European Projects
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [regional_development, reconstruction]
+    counts_as_ministry: true
+    url: http://mfe.gov.ro/
+    sources: [mo-hp-25-2025, gov-ro-ministere, gov-ro-cabinet-ministri, gov-ro-ministries-en]
+    note:
+      en: >-
+        Position 13 of the investiture list, and one of the harder tagging decisions in this
+        file. The department is the managing authority for Romania's EU cohesion programmes and
+        for the national recovery and resilience plan, so it is tagged `regional_development`
+        (which in this taxonomy covers cohesion funds) and `reconstruction` (recovery funds). It
+        is deliberately not tagged `european_affairs`: it administers money, while relations with
+        the European Union belong to the foreign ministry. Its holder was additionally interim
+        minister of labour on the access date.
+      es: >-
+        Posición 13 de la lista de investidura, y una de las decisiones de etiquetado más
+        difíciles de este fichero. El departamento es la autoridad de gestión de los programas de
+        cohesión de la UE en Rumanía y del plan nacional de recuperación y resiliencia, así que
+        se etiqueta `regional_development` (que en esta taxonomía cubre los fondos de cohesión) y
+        `reconstruction` (fondos de recuperación). Deliberadamente no se etiqueta
+        `european_affairs`: administra dinero, mientras que las relaciones con la Unión Europea
+        corresponden al ministerio de Asuntos Exteriores. Su titular era además ministro interino
+        de Trabajo en la fecha de consulta.
+
+  - id: RO-2025-educatie-cercetare
+    order: 14
+    name_original: Ministerul Educației și Cercetării
+    abbreviation_original: null
+    name_en: Ministry of Education and Research
+    name_es: Ministerio de Educación e Investigación
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: ministrul educației și cercetării
+    head_title_en: Minister of Education and Research
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [education, higher_education, research]
+    counts_as_ministry: true
+    url: https://www.edu.ro/
+    sources: [mo-hp-25-2025, mo-oug-153-2024, gov-ro-ministere, gov-ro-cabinet-ministri, gov-ro-ministries-en]
+    note:
+      en: >-
+        Position 14 of the investiture list. It carries research because article 7(1) of OUG nr.
+        153/2024 renamed the Ministerul Educației to the Ministerul Educației și Cercetării and
+        article 5(a) transferred the research portfolio to it from the abolished Ministerul
+        Cercetării, Inovării și Digitalizării, placing it under a new Autoritatea Națională pentru
+        Cercetare inside the ministry. Romania therefore has no separate research ministry in this
+        cabinet, and `innovation` is tagged on the economy ministry rather than here, because
+        article 5(b) sent innovation the other way. Its holder changed twice during this cabinet's
+        term.
+      es: >-
+        Posición 14 de la lista de investidura. Lleva la investigación porque el artículo 7(1) de
+        la OUG nr. 153/2024 renombró el Ministerul Educației como Ministerul Educației și
+        Cercetării y el artículo 5(a) le transfirió la cartera de investigación desde el suprimido
+        Ministerul Cercetării, Inovării și Digitalizării, situándola bajo una nueva Autoritatea
+        Națională pentru Cercetare dentro del ministerio. Rumanía no tiene por tanto un ministerio
+        de investigación separado en este gabinete, y `innovation` se etiqueta en el ministerio de
+        Economía y no aquí, porque el artículo 5(b) envió la innovación en la otra dirección. Su
+        titular cambió dos veces durante la vida de este gabinete.
+
+  - id: RO-2025-afaceri-externe
+    order: 15
+    name_original: Ministerul Afacerilor Externe
+    abbreviation_original: null
+    name_en: Ministry of Foreign Affairs
+    name_es: Ministerio de Asuntos Exteriores
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: ministrul afacerilor externe
+    head_title_en: Minister of Foreign Affairs
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [foreign_affairs, european_affairs]
+    counts_as_ministry: true
+    url: http://www.mae.gov.ro/
+    sources: [mo-hp-25-2025, gov-ro-ministere, gov-ro-cabinet-ministri, gov-ro-ministries-en]
+    note:
+      en: >-
+        Position 15 of the investiture list. `european_affairs` is tagged here rather than on the
+        ministry of investments and European projects: this cabinet has no ministru delegat pentru
+        afaceri europene, a post Romania has created and abolished repeatedly, so relations with
+        the Union sit in the foreign ministry. `diaspora` is deliberately not tagged even though
+        Romania has one of Europe's largest emigrant populations, because the department for
+        Romanians abroad is a structure of the Government's working apparatus rather than a
+        portfolio of this ministry.
+      es: >-
+        Posición 15 de la lista de investidura. Se etiqueta `european_affairs` aquí y no en el
+        ministerio de Inversiones y Proyectos Europeos: este gabinete no tiene ningún ministru
+        delegat pentru afaceri europene, un cargo que Rumanía ha creado y suprimido varias veces,
+        así que las relaciones con la Unión están en el ministerio de Asuntos Exteriores.
+        Deliberadamente no se etiqueta `diaspora` aunque Rumanía tiene una de las mayores
+        poblaciones emigrantes de Europa, porque el departamento para los rumanos en el exterior
+        es una estructura del aparato de trabajo del Gobierno y no una cartera de este ministerio.
+
+  - id: RO-2025-mediu-ape-paduri
+    order: 16
+    name_original: Ministerul Mediului, Apelor și Pădurilor
+    abbreviation_original: null
+    name_en: Ministry of Environment, Waters and Forests
+    name_es: Ministerio de Medio Ambiente, Aguas y Bosques
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: ministrul mediului, apelor și pădurilor
+    head_title_en: Minister of Environment, Waters and Forests
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [environment, water, forestry, climate]
+    counts_as_ministry: true
+    url: http://www.mmediu.ro/
+    sources: [mo-hp-25-2025, gov-ro-ministere, gov-ro-cabinet-ministri, gov-ro-ministries-en]
+    note:
+      en: >-
+        Position 16 of the investiture list. Three of the four tags are in the name; `climate` is
+        added because Romania gives climate no department of its own and this ministry holds the
+        national climate change and emissions trading remit. Energy is tagged on its own ministry
+        and not here, which is a genuine structural difference from the countries that combine
+        climate and energy in one department.
+      es: >-
+        Posición 16 de la lista de investidura. Tres de las cuatro etiquetas están en el nombre;
+        `climate` se añade porque Rumanía no da al clima un departamento propio y este ministerio
+        tiene la competencia nacional de cambio climático y comercio de emisiones. La energía se
+        etiqueta en su propio ministerio y no aquí, lo que es una diferencia estructural real
+        respecto de los países que combinan clima y energía en un solo departamento.
+
+  - id: RO-2025-munca-familie-tineret-solidaritate
+    order: 17
+    name_original: Ministerul Muncii, Familiei, Tineretului și Solidarității Sociale
+    abbreviation_original: null
+    name_en: Ministry of Labour, Family, Youth and Social Solidarity
+    name_es: Ministerio de Trabajo, Familia, Juventud y Solidaridad Social
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: ministrul muncii, familiei, tineretului și solidarității sociale
+    head_title_en: Minister of Labour, Family, Youth and Social Solidarity
+    has_cabinet_seat: true
+    head_count: 0
+    policy_areas: [labour, family, youth, social_affairs, social_security]
+    counts_as_ministry: true
+    url: http://mmuncii.ro/
+    sources: [mo-hp-25-2025, mo-oug-153-2024, gov-ro-ministere, gov-ro-cabinet-ministri, gov-ro-ministries-en]
+    note:
+      en: >-
+        Position 17 of Anexa nr. 1 to Hotărârea Parlamentului nr. 25/2025. Its name and its
+        breadth are the work of article 1 of OUG nr. 153/2024, which merged the Ministerul
+        Familiei, Tineretului și Egalității de Șanse into the labour ministry by absorption and
+        renamed the result. One consequence is worth stating: equality lost its department in
+        that merger, and this cabinet has no ministry tagged `equality` at all.
+        `social_security` is tagged because the pension house and the pension system sit here.
+        On the access date this portfolio had no minister of its own. It fell vacant when the
+        PSD ministers resigned in April 2026, and it is discharged ad interim by the minister of
+        investments and European projects under article 46(2) and (3) of the Codul
+        administrativ, which lets the Prime Minister propose that another member of the
+        Government take on the duties for at most 45 days pending the appointment of a successor
+        — an appointment a Government whose mandate has ended cannot make. `head_count: 0` is
+        what encodes that vacancy, and it is why this cabinet is thirteen people rather than
+        nineteen posts. It does not mean the department is unled or that it has no minister at
+        all: `has_cabinet_seat` stays true because the seat exists and is filled at the
+        Government's table by the interim minister, and `counts_as_ministry` stays true because
+        the ministry exists and its head holds ministerial rank. No `shared_head_with` links
+        this entity to that minister's own department, because the two posts are not merged and
+        recording them as one would be a false structural claim about Romania.
+      es: >-
+        Posición 17 del anexo n.º 1 de la Hotărârea Parlamentului nr. 25/2025. Su nombre y su
+        amplitud son obra del artículo 1 de la OUG nr. 153/2024, que fusionó por absorción el
+        Ministerul Familiei, Tineretului și Egalității de Șanse en el ministerio de Trabajo y
+        renombró el resultado. Conviene decir una consecuencia: la igualdad perdió su
+        departamento en esa fusión, y este gabinete no tiene ningún ministerio etiquetado
+        `equality`. Se etiqueta `social_security` porque la caja de pensiones y el sistema de
+        pensiones están aquí. En la fecha de consulta esta cartera no tenía ministro propio.
+        Quedó vacante cuando los ministros del PSD dimitieron en abril de 2026, y la desempeña
+        de forma interina el ministro de Inversiones y Proyectos Europeos conforme al artículo
+        46(2) y (3) del Codul administrativ, que permite al primer ministro proponer que otro
+        miembro del Gobierno asuma las atribuciones durante un máximo de 45 días hasta el
+        nombramiento de un sucesor, nombramiento que un Gobierno cuyo mandato ha terminado no
+        puede hacer. `head_count: 0` es lo que codifica esa vacante, y es la razón por la que
+        este gabinete son trece personas y no diecinueve puestos. No significa que el
+        departamento esté sin dirección ni que no tenga ningún ministro: `has_cabinet_seat`
+        sigue siendo verdadero porque el asiento existe y lo ocupa en la mesa del Gobierno el
+        ministro interino, y `counts_as_ministry` sigue siendo verdadero porque el ministerio
+        existe y su titular tiene rango ministerial. Ningún `shared_head_with` enlaza esta
+        entidad con el departamento propio de ese ministro, porque los dos cargos no están
+        fusionados y registrarlos como uno sería una afirmación estructural falsa sobre Rumanía.
+
+  - id: RO-2025-economie-digitalizare-antreprenoriat-turism
+    order: 18
+    name_original: Ministerul Economiei, Digitalizării, Antreprenoriatului și Turismului
+    abbreviation_original: null
+    name_en: Ministry of Economy, Digitalization, Entrepreneurship and Tourism
+    name_es: Ministerio de Economía, Digitalización, Emprendimiento y Turismo
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: ministrul economiei, digitalizării, antreprenoriatului și turismului
+    head_title_en: Minister of Economy, Digitalization, Entrepreneurship and Tourism
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [economy, digital, small_business, tourism, industry, telecommunications, innovation, state_assets]
+    counts_as_ministry: true
+    url: https://economie.gov.ro/
+    sources: [mo-hp-25-2025, mo-oug-153-2024, gov-ro-ministere, gov-ro-cabinet-ministri, gov-ro-ministries-en]
+    note:
+      en: >-
+        Position 18 of the investiture list, and the widest portfolio in this cabinet. The first
+        four tags follow the four words of its name. The last four are added on the authority of
+        OUG nr. 153/2024, which is why this entity cites it: article 6(1) gave the ministry its
+        current name, article 5(b) transferred digitalisation, innovation and communications to
+        it from the abolished Ministerul Cercetării, Inovării și Digitalizării, and article 6(2)
+        gave it the state's shareholder role and the privatisation remit for the companies under
+        its authority. So `telecommunications`, `innovation` and `state_assets` are primary
+        responsibilities of this department even though none of them appears in its name, and
+        Romania has no separate ministry for digitalisation, for industry or for state holdings.
+        Eight tags is the most any entity in this file carries, and it is a fact about Romanian
+        cabinet structure rather than a failure to choose.
+      es: >-
+        Posición 18 de la lista de investidura, y la cartera más amplia de este gabinete. Las
+        cuatro primeras etiquetas siguen las cuatro palabras de su nombre. Las cuatro últimas se
+        añaden con fundamento en la OUG nr. 153/2024, y por eso esta entidad la cita: el artículo
+        6(1) dio al ministerio su nombre actual, el artículo 5(b) le transfirió la digitalización,
+        la innovación y las comunicaciones desde el suprimido Ministerul Cercetării, Inovării și
+        Digitalizării, y el artículo 6(2) le atribuyó la condición de accionista del Estado y la
+        competencia de privatización de las sociedades bajo su autoridad. Así que
+        `telecommunications`, `innovation` y `state_assets` son responsabilidades principales de
+        este departamento aunque ninguna figure en su nombre, y Rumanía no tiene un ministerio
+        separado de digitalización, de industria ni de patrimonio estatal. Ocho etiquetas es lo
+        máximo que lleva una entidad de este fichero, y es un hecho sobre la estructura del
+        gabinete rumano y no una incapacidad de elegir.
+
+  - id: RO-2025-dezvoltare-lucrari-publice-administratie
+    order: 19
+    name_original: Ministerul Dezvoltării, Lucrărilor Publice și Administrației
+    abbreviation_original: null
+    name_en: Ministry for Development, Public Works and Administration
+    name_es: Ministerio de Desarrollo, Obras Públicas y Administración
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: ministrul dezvoltării, lucrărilor publice și administrației
+    head_title_en: Minister for Development, Public Works and Administration
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [infrastructure, public_administration, territorial_administration, spatial_planning, housing]
+    counts_as_ministry: true
+    url: https://www.mdlpa.ro/
+    sources: [mo-hp-25-2025, gov-ro-ministere, gov-ro-cabinet-ministri, gov-ro-ministries-en]
+    note:
+      en: >-
+        Position 19 of the investiture list. The three words of its name map onto five areas:
+        public works to `infrastructure`, administration to both `public_administration` (the
+        civil service and the administrative code itself, which is issued jointly by this
+        minister and the secretary-general of the Government) and `territorial_administration`
+        (the relationship with counties and communes), and development to `spatial_planning` and
+        `housing`. It is deliberately not tagged `regional_development`: the cohesion funds sit
+        in the ministry of investments and European projects, and tagging both would double
+        Romania in that column. Its holder was additionally interim minister of health on the
+        access date.
+      es: >-
+        Posición 19 de la lista de investidura. Las tres palabras de su nombre se corresponden con
+        cinco áreas: obras públicas con `infrastructure`, administración tanto con
+        `public_administration` (la función pública y el propio código administrativo, que este
+        ministro emite conjuntamente con el secretario general del Gobierno) como con
+        `territorial_administration` (la relación con condados y comunas), y desarrollo con
+        `spatial_planning` y `housing`. Deliberadamente no se etiqueta `regional_development`: los
+        fondos de cohesión están en el ministerio de Inversiones y Proyectos Europeos, y etiquetar
+        ambos duplicaría a Rumanía en esa columna. Su titular era además ministro interino de
+        Sanidad en la fecha de consulta.
+
+  - id: RO-2025-cultura
+    order: 20
+    name_original: Ministerul Culturii
+    abbreviation_original: null
+    name_en: Ministry of Culture
+    name_es: Ministerio de Cultura
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: ministrul culturii
+    head_title_en: Minister of Culture
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [culture]
+    counts_as_ministry: true
+    url: http://www.cultura.ro/culturaro
+    sources: [mo-hp-25-2025, gov-ro-ministere, gov-ro-cabinet-ministri, gov-ro-ministries-en]
+    note:
+      en: >-
+        Position 20 of the investiture list, the last, and the narrowest portfolio in this
+        cabinet. Tagged `culture` alone: heritage is part of that area in this taxonomy, while
+        `media` is not tagged because broadcasting regulation belongs to an autonomous authority
+        and the public broadcasters answer to Parliament, not to this ministry. The `url` is the
+        address the Government's own register of ministries gives, unusual path and all.
+      es: >-
+        Posición 20 de la lista de investidura, la última, y la cartera más estrecha de este
+        gabinete. Etiquetada sólo con `culture`: el patrimonio forma parte de esa área en esta
+        taxonomía, mientras que `media` no se etiqueta porque la regulación audiovisual
+        corresponde a una autoridad autónoma y las radiotelevisiones públicas responden ante el
+        Parlamento y no ante este ministerio. La `url` es la dirección que da el propio registro
+        de ministerios del Gobierno, con su ruta inusual incluida.
+
+  # --- recorded, not counted: ministry rank without a portfolio ---------------------
+  - id: RO-2025-secretariat-general-guvern
+    order: 21
+    name_original: Secretariatul General al Guvernului
+    abbreviation_original: null
+    name_en: General Secretariat of the Government
+    name_es: Secretaría General del Gobierno
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: secretarul general al Guvernului
+    head_title_en: Secretary-General of the Government
+    has_cabinet_seat: false
+    head_count: 0
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: not_headed_by_minister
+    url: https://sgg.gov.ro
+    sources: [cod-administrativ]
+    note:
+      en: >-
+        The Government's own secretariat, and the closest thing Romania has to a chancellery.
+        Recorded because its head holds the rank of minister under article 20(1) of the Codul
+        administrativ and a reader who counts ministry-rank bodies will find it. It is not
+        counted, and the exclusion reason chosen needs stating plainly: `not_headed_by_minister`
+        is used rather than `head_of_government_office` because the decisive fact is not that
+        the body serves the Prime Minister — it serves the Government as a whole, and article
+        20(3) calls it the element of continuity and stability of governance — but that its head
+        is not a member of the Government. Article 18 does not list the post among those that
+        may belong to the Government, and article 31(b) has the secretary-general appointed by a
+        decision of the Prime Minister rather than by presidential decree on a parliamentary
+        vote of confidence. Rank of minister is not membership of the Government in Romanian
+        law. `has_cabinet_seat` is false and `head_count` is 0 accordingly: the secretary-general
+        attends and countersigns, but holds no seat, so this entity moves neither figure.
+      es: >-
+        El secretariado propio del Gobierno, y lo más parecido a una cancillería que tiene
+        Rumanía. Se registra porque su titular tiene rango de ministro conforme al artículo 20(1)
+        del Codul administrativ y un lector que cuente órganos con rango ministerial lo
+        encontrará. No se cuenta, y el motivo de exclusión elegido conviene explicarlo con
+        claridad: se usa `not_headed_by_minister` y no `head_of_government_office` porque el
+        hecho decisivo no es que el órgano sirva al primer ministro —sirve al Gobierno en su
+        conjunto, y el artículo 20(3) lo llama el elemento de enlace y estabilidad de la
+        gobernación— sino que su titular no es miembro del Gobierno. El artículo 18 no enumera el
+        cargo entre los que pueden formar parte del Gobierno, y el artículo 31(b) hace que el
+        secretario general sea nombrado por decisión del primer ministro y no por decreto
+        presidencial sobre un voto de confianza parlamentario. El rango de ministro no es la
+        condición de miembro del Gobierno en el derecho rumano. `has_cabinet_seat` es falso y
+        `head_count` es 0 en consecuencia: el secretario general asiste y refrenda, pero no ocupa
+        asiento, así que esta entidad no mueve ninguna de las dos cifras.
+
+  - id: RO-2025-cancelaria-prim-ministrului
+    order: 22
+    name_original: Cancelaria Prim-Ministrului
+    abbreviation_original: null
+    name_en: Chancellery of the Prime Minister
+    name_es: Cancillería del Primer Ministro
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: șeful Cancelariei Prim-Ministrului
+    head_title_en: Head of the Prime Minister's Chancellery
+    has_cabinet_seat: false
+    head_count: 0
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: head_of_government_office
+    url: null
+    sources: [cod-administrativ]
+    note:
+      en: >-
+        A legal person in the subordination of the Prime Minister, financed through the budget of
+        the General Secretariat, and part of the aparatul de lucru al Guvernului under article 19
+        of the Codul administrativ. Recorded for the same reason as the General Secretariat:
+        article 22(2) gives its head the rank of minister. Excluded as
+        `head_of_government_office` rather than `not_headed_by_minister` — the reverse of the
+        choice made one entity above — because here the decisive fact is what the body is: unlike
+        the General Secretariat it serves the Prime Minister personally and sits in his
+        subordination, which is precisely the office-of-the-head-of-government case. Its head is
+        appointed and dismissed by decision of the Prime Minister and is not a member of the
+        Government, so it carries no seat either. No official website of its own is published;
+        the field is null rather than pointed at gov.ro, which is recorded as the Prime
+        Minister's office above.
+      es: >-
+        Una persona jurídica en subordinación del primer ministro, financiada a través del
+        presupuesto de la Secretaría General, y parte del aparatul de lucru al Guvernului conforme
+        al artículo 19 del Codul administrativ. Se registra por la misma razón que la Secretaría
+        General: el artículo 22(2) da rango de ministro a su titular. Se excluye como
+        `head_of_government_office` y no como `not_headed_by_minister` —al revés que en la entidad
+        anterior— porque aquí el hecho decisivo es lo que el órgano es: a diferencia de la
+        Secretaría General sirve al primer ministro personalmente y está en su subordinación, que
+        es exactamente el caso de la oficina del jefe de gobierno. Su titular es nombrado y cesado
+        por decisión del primer ministro y no es miembro del Gobierno, así que tampoco lleva
+        asiento. No se publica una web propia; el campo es nulo en lugar de apuntar a gov.ro, que
+        se registra arriba como oficina del primer ministro.

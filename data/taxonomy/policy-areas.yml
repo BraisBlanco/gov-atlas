@@ -1,0 +1,310 @@
+# Controlled vocabulary of policy areas.
+#
+# Ministry names are not comparable across countries — "Ministerio de Fomento" and
+# "Ministry of Housing, Communities and Local Government" cover overlapping ground
+# under unrecognisably different labels. Tagging each ministry with areas from this
+# fixed list is what makes cross-country questions answerable: which countries have a
+# dedicated climate ministry, where digital policy sits, whether equality has its own
+# department.
+#
+# Rules for curators:
+#   - Tag every area a ministry has *primary* responsibility for, in descending order
+#     of prominence in its official name. Do not tag areas it merely touches.
+#   - Never invent an id. If a portfolio genuinely has no home here, propose the
+#     addition in your hand-off notes rather than adding it silently — a new id
+#     changes every country's comparison row.
+#   - `group` only controls how areas are clustered in charts.
+
+groups:
+  - id: state_core
+    label_en: Core state functions
+    label_es: Funciones esenciales del Estado
+  - id: economy
+    label_en: Economy and finance
+    label_es: Economía y finanzas
+  - id: welfare
+    label_en: Welfare, health and labour
+    label_es: Bienestar, sanidad y trabajo
+  - id: education_culture
+    label_en: Education, science and culture
+    label_es: Educación, ciencia y cultura
+  - id: land_environment
+    label_en: Land, environment and energy
+    label_es: Territorio, medio ambiente y energía
+  - id: infrastructure
+    label_en: Infrastructure and connectivity
+    label_es: Infraestructuras y conectividad
+  - id: governance
+    label_en: Governance and external relations
+    label_es: Gobernanza y relaciones exteriores
+
+areas:
+  # --- state_core -----------------------------------------------------------
+  - id: foreign_affairs
+    group: state_core
+    label_en: Foreign affairs
+    label_es: Asuntos exteriores
+  - id: defence
+    group: state_core
+    label_en: Defence
+    label_es: Defensa
+  - id: interior
+    group: state_core
+    label_en: Interior and public security
+    label_es: Interior y seguridad pública
+  - id: justice
+    group: state_core
+    label_en: Justice
+    label_es: Justicia
+  - id: migration
+    group: state_core
+    label_en: Migration and asylum
+    label_es: Migración y asilo
+  - id: civil_protection
+    group: state_core
+    label_en: Civil protection and emergencies
+    label_es: Protección civil y emergencias
+  - id: veterans
+    group: state_core
+    label_en: Veterans and war remembrance
+    label_es: Veteranos y memoria de guerra
+
+  # --- economy --------------------------------------------------------------
+  - id: finance
+    group: economy
+    label_en: Finance and treasury
+    label_es: Hacienda y tesoro
+  - id: budget
+    group: economy
+    label_en: Budget and public spending
+    label_es: Presupuesto y gasto público
+  - id: economy
+    group: economy
+    label_en: Economy
+    label_es: Economía
+  - id: industry
+    group: economy
+    label_en: Industry and manufacturing
+    label_es: Industria y manufactura
+  - id: trade
+    group: economy
+    label_en: Trade and commerce
+    label_es: Comercio
+  - id: tourism
+    group: economy
+    label_en: Tourism
+    label_es: Turismo
+  - id: small_business
+    group: economy
+    label_en: Small business and entrepreneurship
+    label_es: Pymes y emprendimiento
+  - id: state_assets
+    group: economy
+    label_en: State assets and privatisation
+    label_es: Patrimonio estatal y privatizaciones
+  - id: consumer_protection
+    group: economy
+    label_en: Consumer protection
+    label_es: Consumo
+
+  # --- welfare --------------------------------------------------------------
+  - id: labour
+    group: welfare
+    label_en: Labour and employment
+    label_es: Trabajo y empleo
+  - id: social_affairs
+    group: welfare
+    label_en: Social affairs and welfare
+    label_es: Asuntos sociales y bienestar
+  - id: social_security
+    group: welfare
+    label_en: Social security and pensions
+    label_es: Seguridad social y pensiones
+  - id: health
+    group: welfare
+    label_en: Health
+    label_es: Sanidad
+  - id: family
+    group: welfare
+    label_en: Family and children
+    label_es: Familia e infancia
+  - id: youth
+    group: welfare
+    label_en: Youth
+    label_es: Juventud
+  - id: elderly
+    group: welfare
+    label_en: Ageing and elderly care
+    label_es: Envejecimiento y cuidados de mayores
+  - id: disability
+    group: welfare
+    label_en: Disability
+    label_es: Discapacidad
+  - id: equality
+    group: welfare
+    label_en: Equality and anti-discrimination
+    label_es: Igualdad y no discriminación
+  - id: housing
+    group: welfare
+    label_en: Housing
+    label_es: Vivienda
+
+  # --- education_culture ----------------------------------------------------
+  - id: education
+    group: education_culture
+    label_en: School education
+    label_es: Educación escolar
+  - id: higher_education
+    group: education_culture
+    label_en: Higher education
+    label_es: Universidades
+  - id: vocational_training
+    group: education_culture
+    label_en: Vocational training
+    label_es: Formación profesional
+  - id: research
+    group: education_culture
+    label_en: Research and science
+    label_es: Investigación y ciencia
+  - id: innovation
+    group: education_culture
+    label_en: Innovation
+    label_es: Innovación
+  - id: culture
+    group: education_culture
+    label_en: Culture and heritage
+    label_es: Cultura y patrimonio
+  - id: media
+    group: education_culture
+    label_en: Media and broadcasting
+    label_es: Medios y radiodifusión
+  - id: sport
+    group: education_culture
+    label_en: Sport
+    label_es: Deporte
+  - id: religion
+    group: education_culture
+    label_en: Religious affairs
+    label_es: Asuntos religiosos
+  - id: language_policy
+    group: education_culture
+    label_en: Language policy
+    label_es: Política lingüística
+
+  # --- land_environment -----------------------------------------------------
+  - id: agriculture
+    group: land_environment
+    label_en: Agriculture
+    label_es: Agricultura
+  - id: fisheries
+    group: land_environment
+    label_en: Fisheries and maritime affairs
+    label_es: Pesca y asuntos marítimos
+  - id: food_safety
+    group: land_environment
+    label_en: Food and food safety
+    label_es: Alimentación y seguridad alimentaria
+  - id: forestry
+    group: land_environment
+    label_en: Forestry
+    label_es: Bosques
+  - id: rural_development
+    group: land_environment
+    label_en: Rural development
+    label_es: Desarrollo rural
+  - id: environment
+    group: land_environment
+    label_en: Environment and nature
+    label_es: Medio ambiente y naturaleza
+  - id: climate
+    group: land_environment
+    label_en: Climate
+    label_es: Clima
+  - id: energy
+    group: land_environment
+    label_en: Energy
+    label_es: Energía
+  - id: water
+    group: land_environment
+    label_en: Water
+    label_es: Agua
+  - id: mining
+    group: land_environment
+    label_en: Mining and geology
+    label_es: Minería y geología
+  - id: spatial_planning
+    group: land_environment
+    label_en: Spatial planning and land use
+    label_es: Ordenación del territorio
+  - id: animal_welfare
+    group: land_environment
+    label_en: Animal welfare
+    label_es: Bienestar animal
+
+  # --- infrastructure -------------------------------------------------------
+  - id: transport
+    group: infrastructure
+    label_en: Transport
+    label_es: Transporte
+  - id: infrastructure
+    group: infrastructure
+    label_en: Public works and infrastructure
+    label_es: Obras públicas e infraestructuras
+  - id: digital
+    group: infrastructure
+    label_en: Digital government and digitalisation
+    label_es: Digitalización y gobierno digital
+  - id: telecommunications
+    group: infrastructure
+    label_en: Telecommunications
+    label_es: Telecomunicaciones
+  - id: space
+    group: infrastructure
+    label_en: Space
+    label_es: Espacio
+  - id: shipping
+    group: infrastructure
+    label_en: Shipping and ports
+    label_es: Marina mercante y puertos
+
+  # --- governance -----------------------------------------------------------
+  - id: public_administration
+    group: governance
+    label_en: Public administration and civil service
+    label_es: Administración pública y función pública
+  - id: territorial_administration
+    group: governance
+    label_en: Territorial and local government
+    label_es: Administración territorial y local
+  - id: regional_development
+    group: governance
+    label_en: Regional development and cohesion funds
+    label_es: Desarrollo regional y fondos de cohesión
+  - id: european_affairs
+    group: governance
+    label_en: European affairs
+    label_es: Asuntos europeos
+  - id: development_cooperation
+    group: governance
+    label_en: Development cooperation
+    label_es: Cooperación al desarrollo
+  - id: diaspora
+    group: governance
+    label_en: Diaspora and citizens abroad
+    label_es: Diáspora y ciudadanos en el exterior
+  - id: parliamentary_relations
+    group: governance
+    label_en: Parliamentary relations
+    label_es: Relaciones con el parlamento
+  - id: government_coordination
+    group: governance
+    label_en: Government coordination
+    label_es: Coordinación del gobierno
+  - id: historical_memory
+    group: governance
+    label_en: Historical and democratic memory
+    label_es: Memoria histórica y democrática
+  - id: reconstruction
+    group: governance
+    label_en: Reconstruction and recovery funds
+    label_es: Reconstrucción y fondos de recuperación

@@ -1,0 +1,835 @@
+# Greece — government structure of the second Mitsotakis government.
+#
+# Read docs/DATA-CONTRACT.md alongside this file. Four Greece-specific things to know:
+#
+#   1. The enumerating instrument is not a decree creating ministries but the Prime
+#      Minister's decision fixing their order of precedence, Υ 1/3.1.2024 (ΦΕΚ Β' 28), whose
+#      article 1 lists all twenty of them. Greek ministries are created, renamed and merged
+#      one at a time by presidential decree, so this decision is the only single official
+#      text that states the whole list. The listing order below is its order.
+#   2. Greek law, not our judgement, decides who has a cabinet seat. Article 1(2) of law
+#      4622/2019 puts the Prime Minister, the deputy prime ministers, the ministers, the
+#      ministers of state and the alternate ministers in the Υπουργικό Συμβούλιο, and
+#      excludes deputy ministers (υφυπουργοί) from it. That is why four alternate ministers
+#      are recorded here and about twenty deputy ministers are not.
+#   3. Reshuffles do not restart the cabinet. This government was appointed on 27 June 2023
+#      and has been reshuffled several times since, most recently in April and June 2026;
+#      no new government was appointed, and the twenty departments have not changed.
+#   4. Two entities carry url: null because the ministry's website could not be confirmed
+#      from an archived capture, not because the ministry has none.
+
+country: GR
+cabinet_id: GR-2023-06-27
+
+cabinet_name_original: Κυβέρνηση Κυριάκου Μητσοτάκη (2023)
+cabinet_name_en: Second government of Kyriakos Mitsotakis
+cabinet_name_es: Segundo gobierno de Kyriakos Mitsotakis
+
+head_of_government_title_original: Πρωθυπουργός
+head_of_government_title_en: Prime Minister
+
+took_office: 2023-06-27
+left_office: null
+
+methodology_notes:
+  - en: >-
+      Greece has 20 ministries but 27 seats in the Council of Ministers. The gap is not a
+      matter of interpretation: article 1(2) of law 4622/2019 provides that the Υπουργικό
+      Συμβούλιο "consists of the Prime Minister, the Vice-Presidents of the Government and
+      the Ministers, including the Ministers of State and the Alternate Ministers", and that
+      deputy ministers are not members of it. Counting from that definition gives the 20
+      ministers who head a department, plus the Prime Minister, one Vice-President of the
+      Government, one Minister of State without portfolio and four Alternate Ministers. The
+      20 and the 27 answer different questions and are never added together.
+    es: >-
+      Grecia tiene 20 ministerios pero 27 asientos en el Consejo de Ministros. La diferencia
+      no es interpretativa: el artículo 1.2 de la ley 4622/2019 dispone que el Υπουργικό
+      Συμβούλιο «está compuesto por el primer ministro, los vicepresidentes del Gobierno y
+      los ministros, incluidos los ministros de Estado y los ministros adjuntos», y que los
+      viceministros no son miembros. Contando desde esa definición salen los 20 ministros
+      que encabezan un departamento, más el primer ministro, un vicepresidente del Gobierno,
+      un ministro de Estado sin cartera y cuatro ministros adjuntos. El 20 y el 27 responden
+      a preguntas distintas y nunca se suman.
+  - en: >-
+      Alternate ministers (αναπληρωτές υπουργοί) are the awkward case. They hold ministerial
+      rank and sit in the Council of Ministers, so each adds a seat, but they exercise
+      competences delegated to them inside an existing ministry and head no department of
+      their own, so none adds a ministry. They are recorded with the exclusion reason
+      junior_minister_or_state_secretary, which is the closest fit in this project's
+      vocabulary but understates their rank: unlike a Spanish secretario de Estado or a
+      French secrétaire d'État, a Greek alternate minister is a full member of the cabinet.
+      The four in office are attached to National Economy and Finance, to Education,
+      Religious Affairs and Sport (for sport), to Health, and to Infrastructure and
+      Transport (for transport).
+    es: >-
+      Los ministros adjuntos (αναπληρωτές υπουργοί) son el caso delicado. Tienen rango
+      ministerial y asiento en el Consejo de Ministros, de modo que cada uno suma un
+      asiento, pero ejercen competencias delegadas dentro de un ministerio existente y no
+      encabezan departamento propio, así que ninguno suma un ministerio. Se registran con el
+      motivo de exclusión junior_minister_or_state_secretary, que es lo más aproximado en el
+      vocabulario de este proyecto pero se queda corto: a diferencia de un secretario de
+      Estado español o un secrétaire d'État francés, el ministro adjunto griego es miembro
+      de pleno derecho del gabinete. Los cuatro en ejercicio están adscritos a Economía
+      Nacional y Hacienda, a Educación, Asuntos Religiosos y Deportes (para deportes), a
+      Sanidad y a Infraestructuras y Transportes (para transportes).
+  - en: >-
+      Around twenty deputy ministers (υφυπουργοί), including three attached to the Prime
+      Minister and one who is the government spokesperson, are deliberately absent from this
+      file. The second sentence of article 1(2) of law 4622/2019 says they are not members of
+      the Council of Ministers and may only be invited to attend without a vote, so they add
+      neither a ministry nor a seat, and this dataset records only the bodies that move one
+      of the two figures. A source that answers "how large is the Greek government?" with a
+      number in the forties is counting them; it is not wrong, it is answering a third
+      question.
+    es: >-
+      Una veintena de viceministros (υφυπουργοί), entre ellos tres adscritos al primer
+      ministro y uno que es portavoz del Gobierno, están deliberadamente ausentes de este
+      fichero. La segunda frase del artículo 1.2 de la ley 4622/2019 dice que no son
+      miembros del Consejo de Ministros y que solo pueden ser invitados a asistir sin voto,
+      por lo que no suman ni ministerio ni asiento, y este conjunto de datos registra solo
+      los órganos que mueven una de las dos cifras. Una fuente que responde «¿de qué tamaño
+      es el Gobierno griego?» con una cifra de cuarenta y tantos los está contando: no se
+      equivoca, responde a una tercera pregunta.
+  - en: >-
+      A discrepancy worth recording. The official page of the General Secretariat for Legal
+      and Parliamentary Affairs that reproduces the list of ministries attributes it to
+      "decision Υ 22/3-1-2024"; the gazette itself, ΦΕΚ Β' 28 of 3 January 2024, numbers the
+      decision "Υ 1". The list of twenty ministries is identical in both, so nothing in this
+      file turns on it, but the citation used here is the gazette's own numbering.
+    es: >-
+      Una discrepancia que conviene dejar anotada. La página oficial de la Secretaría General
+      de Asuntos Jurídicos y Parlamentarios que reproduce la lista de ministerios la atribuye
+      a la «decisión Υ 22/3-1-2024»; el propio boletín, ΦΕΚ Β' 28 de 3 de enero de 2024,
+      numera la decisión «Υ 1». La lista de veinte ministerios es idéntica en ambos, así que
+      nada de este fichero depende de ello, pero la cita empleada aquí sigue la numeración
+      del boletín.
+  - en: >-
+      Greek names are the official ones; the English and Spanish names are this project's
+      translations, except where a ministry publishes its own English name. Two translation
+      choices are worth flagging. Υπουργείο Προστασίας του Πολίτη is rendered "Ministry of
+      Citizen Protection": it is the police and public-order department, and the interior
+      ministry, Υπουργείο Εσωτερικών, is the one that runs the civil service and local
+      government. And Υπουργείο Ανάπτυξης, literally "Ministry of Development", is the
+      industry, trade and research department, not a development-cooperation one; that
+      portfolio sits in the foreign ministry.
+    es: >-
+      Los nombres griegos son los oficiales; los nombres en inglés y español son traducciones
+      de este proyecto, salvo donde un ministerio publica su propio nombre en inglés. Dos
+      decisiones de traducción merecen señalarse. Υπουργείο Προστασίας του Πολίτη se traduce
+      «Ministerio de Protección del Ciudadano»: es el departamento de policía y orden
+      público, mientras que el ministerio del Interior, Υπουργείο Εσωτερικών, es el que
+      gestiona la función pública y la administración local. Y Υπουργείο Ανάπτυξης,
+      literalmente «Ministerio de Desarrollo», es el departamento de industria, comercio e
+      investigación, no de cooperación al desarrollo; esa cartera está en Exteriores.
+
+sources:
+  - id: fek-b-28-2024
+    tier: 1
+    type: official_gazette
+    publisher: Εθνικό Τυπογραφείο — Εφημερίδα της Κυβερνήσεως
+    title: >-
+      Απόφαση του Πρωθυπουργού υπό στοιχεία Υ 1/3.1.2024 «Καθορισμός σειράς τάξης
+      Υπουργείων» (ΦΕΚ Β' 28/03.01.2024)
+    url: https://www.et.gr/api/DownloadFeksApi/?fek_pdf=20240200028
+    archive_url: https://web.archive.org/web/20240529000500/https://www.et.gr/api/DownloadFeksApi/?fek_pdf=20240200028
+    lang: el
+    published: 2024-01-03
+    accessed: 2026-07-27
+    quote: |-
+      Άρθρο 1
+      Η σειρά τάξης των Υπουργείων καθορίζεται ως εξής:
+      1. Υπουργείο Εθνικής Οικονομίας και Οικονομικών,
+      2. Υπουργείο Εξωτερικών,
+      3. Υπουργείο Εθνικής Άμυνας,
+      4. Υπουργείο Εσωτερικών,
+      5. Υπουργείο Παιδείας, Θρησκευμάτων και Αθλητισμού,
+      6. Υπουργείο Υγείας,
+      7. Υπουργείο Προστασίας του Πολίτη,
+      8. Υπουργείο Υποδομών και Μεταφορών,
+      9. Υπουργείο Περιβάλλοντος και Ενέργειας,
+      10. Υπουργείο Ανάπτυξης,
+      11. Υπουργείο Εργασίας και Κοινωνικής Ασφάλισης,
+      12. Υπουργείο Δικαιοσύνης,
+      13. Υπουργείο Πολιτισμού,
+      14. Υπουργείο Μετανάστευσης και Ασύλου,
+      15. Υπουργείο Κοινωνικής Συνοχής και Οικογένειας,
+      16. Υπουργείο Αγροτικής Ανάπτυξης και Τροφίμων,
+      17. Υπουργείο Ναυτιλίας και Νησιωτικής Πολιτικής,
+      18. Υπουργείο Τουρισμού,
+      19. Υπουργείο Ψηφιακής Διακυβέρνησης,
+      20. Υπουργείο Κλιματικής Κρίσης και Πολιτικής Προστασίας.
+    note: >-
+      The instrument that enumerates the ministries. Signed by the Prime Minister on
+      3 January 2024, in force from publication, and it repeals the previous list, decision
+      Υ2/27.6.2023 (Β' 4162). No later decision or presidential decree has created, abolished
+      or renamed a ministry: the same twenty appear, in the same order, on the government's
+      own composition page consulted on the access date. The quote is verbatim except that
+      the gazette's line-break hyphenation in "Πολιτικής Προ-στασίας" is closed up. The
+      archived snapshot is of the identical two-page PDF; note that et.gr now redirects this
+      download endpoint to a bare-IP host, so a fresh capture made today lands on that host
+      rather than on www.et.gr.
+
+  - id: fek-a-131-2023
+    tier: 1
+    type: official_gazette
+    publisher: Εθνικό Τυπογραφείο — Εφημερίδα της Κυβερνήσεως
+    title: >-
+      Προεδρικό Διάταγμα υπ' αριθμ. 79 «Διορισμός Υπουργών, Αναπληρωτών Υπουργών και
+      Υφυπουργών» (ΦΕΚ Α' 131/27.06.2023)
+    url: https://www.et.gr/api/DownloadFeksApi/?fek_pdf=20230100131
+    archive_url: https://web.archive.org/web/20240407070111/https://www.et.gr/api/DownloadFeksApi/?fek_pdf=20230100131
+    lang: el
+    published: 2023-06-27
+    accessed: 2026-07-27
+    quote: >-
+      Διορίζουμε τους: 1) Κωνσταντίνο Χατζηδάκη του Ιωάννη στη θέση του Υπουργού Οικονομικών,
+      [...] 21) Μαυρουδή Βορίδη του Χρήστου στη θέση του Υπουργού Επικρατείας, 22) Σταύρο
+      Παπασταύρου του Νικολάου στη θέση του Υπουργού Επικρατείας, 23) Χρήστο - Γεώργιο
+      Σκέρτσο του Βασιλείου στη θέση του Υπουργού Επικρατείας, 24) Νικόλαο Παπαθανάση του
+      Χρήστου στη θέση του Αναπληρωτή Υπουργού Οικονομικών, [...] Αθήνα, 27 Ιουνίου 2023
+    note: >-
+      The decree that appointed this government, and therefore the source of took_office.
+      Cited here for the two kinds of post that are not departments: it appointed three
+      Υπουργοί Επικρατείας (ministers of state without portfolio) and four Αναπληρωτές
+      Υπουργοί (alternate ministers). The quote elides the intervening appointments at
+      "[...]"; the full list of 62 names is in the linked document. Officeholders and the
+      number of ministers of state have changed with later reshuffles — the government's own
+      composition page, cited separately, is what this file follows for the current
+      structure. Note also that the decree still uses the pre-June-2023 department names
+      (e.g. Υπουργού Οικονομικών), which π.δ. 77/2023 renamed days later.
+
+  - id: fek-a-133-2019
+    tier: 1
+    type: statute
+    publisher: Εθνικό Τυπογραφείο — Εφημερίδα της Κυβερνήσεως
+    title: >-
+      Νόμος 4622/2019 «Επιτελικό Κράτος: οργάνωση, λειτουργία και διαφάνεια της Κυβέρνησης,
+      των κυβερνητικών οργάνων και της κεντρικής δημόσιας διοίκησης» (ΦΕΚ Α' 133/07.08.2019)
+    url: https://www.et.gr/api/DownloadFeksApi/?fek_pdf=20190100133
+    archive_url: https://web.archive.org/web/20230418182520/https://www.et.gr/api/DownloadFeksApi/?fek_pdf=20190100133
+    lang: el
+    published: 2019-08-07
+    accessed: 2026-07-27
+    quote: >-
+      Το Υπουργικό Συμβούλιο αποτελείται από τον Πρωθυπουργό, τους Αντιπροέδρους της
+      Κυβέρνησης και τους Υπουργούς, συμπεριλαμβανομένων των Υπουργών Επικρατείας και των
+      Αναπληρωτών Υπουργών. Οι Υφυπουργοί δεν αποτελούν μέλη του Υπουργικού Συμβουλίου, αλλά
+      δύνανται να προσκληθούν να συμμετάσχουν σε αυτό από τον Πρωθυπουργό, χωρίς δικαίωμα
+      ψήφου.
+    note: >-
+      Article 1(2), quoted from the original gazette text. This paragraph is what makes
+      cabinet_seats_count a matter of statute rather than of our interpretation, and it is
+      the reason alternate ministers are recorded here while deputy ministers are not. It
+      has not been amended: the consolidated text carries no amendment note against it.
+
+  - id: government-gov-gr-synthesi
+    tier: 2
+    type: government_website
+    publisher: Ελληνική Κυβέρνηση
+    title: Σύνθεση της Κυβέρνησης
+    url: https://www.government.gov.gr/kivernisi/
+    archive_url: https://web.archive.org/web/20260420122254/https://www.government.gov.gr/kivernisi/
+    lang: el
+    published: null
+    accessed: 2026-07-27
+    quote: >-
+      ΠΡΩΘΥΠΟΥΡΓΟΣ: Κυριάκος Μητσοτάκης. Αντιπρόεδρος της Κυβέρνησης: Κωστής Χατζηδάκης.
+      [...] Υπουργός Επικρατείας Άκης Σκέρτσος. Υφυπουργός παρά τω Πρωθυπουργώ: Θανάσης
+      Κοντογεώργης.
+    note: >-
+      The government's own composition page, and the source for which non-departmental posts
+      currently exist: one Vice-President of the Government, one Minister of State and four
+      alternate ministers. The most recent archived capture is of 20 April 2026; the June
+      2026 mini-reshuffle that followed changed deputy ministers and the holder of the
+      alternate-minister post at Infrastructure and Transport, but created and abolished no
+      post, so the structure recorded here is unaffected. The page lists the same twenty
+      ministries, in the same order, as the gazette. The quote elides the twenty ministry
+      blocks at "[...]".
+
+entities:
+  - id: GR-2023-ethnikis-oikonomias
+    order: 1
+    name_original: Υπουργείο Εθνικής Οικονομίας και Οικονομικών
+    abbreviation_original: null
+    name_en: Ministry of National Economy and Finance
+    name_es: Ministerio de Economía Nacional y Hacienda
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Υπουργός
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [economy, finance, budget]
+    counts_as_ministry: true
+    url: https://minfin.gr
+    sources: [fek-b-28-2024, government-gov-gr-synthesi]
+    note:
+      en: >-
+        The English name is the ministry's own, as published on its website. The 2023 merger
+        of the former Ministry of Finance with the development-planning side of the economy
+        portfolio is why the Greek name leads with "National Economy".
+      es: >-
+        El nombre en inglés es el que publica el propio ministerio en su web. La fusión de
+        2023 del antiguo Ministerio de Hacienda con la vertiente de planificación económica
+        explica que el nombre griego empiece por «Economía Nacional».
+
+  - id: GR-2023-exoterikon
+    order: 2
+    name_original: Υπουργείο Εξωτερικών
+    abbreviation_original: null
+    name_en: Ministry of Foreign Affairs
+    name_es: Ministerio de Asuntos Exteriores
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Υπουργός
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [foreign_affairs, european_affairs, diaspora]
+    counts_as_ministry: true
+    url: https://www.mfa.gr
+    sources: [fek-b-28-2024, government-gov-gr-synthesi]
+
+  - id: GR-2023-ethnikis-amynas
+    order: 3
+    name_original: Υπουργείο Εθνικής Άμυνας
+    abbreviation_original: ΥΠΕΘΑ
+    name_en: Ministry of National Defence
+    name_es: Ministerio de Defensa Nacional
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Υπουργός
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [defence]
+    counts_as_ministry: true
+    url: https://www.mod.mil.gr
+    sources: [fek-b-28-2024, government-gov-gr-synthesi]
+
+  - id: GR-2023-esoterikon
+    order: 4
+    name_original: Υπουργείο Εσωτερικών
+    abbreviation_original: ΥΠΕΣ
+    name_en: Ministry of the Interior
+    name_es: Ministerio del Interior
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Υπουργός
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [public_administration, territorial_administration]
+    counts_as_ministry: true
+    url: https://www.ypes.gr
+    sources: [fek-b-28-2024, government-gov-gr-synthesi]
+    note:
+      en: >-
+        Not the police ministry. The Greek interior ministry runs the civil service, local
+        government, elections and civil registration; public order and the police belong to
+        the Ministry of Citizen Protection, further down this list. A comparison that maps
+        "interior" onto policing will misread Greece.
+      es: >-
+        No es el ministerio de la policía. El ministerio del Interior griego gestiona la
+        función pública, la administración local, las elecciones y el registro civil; el
+        orden público y la policía corresponden al Ministerio de Protección del Ciudadano,
+        más abajo en esta lista. Una comparación que asocie «interior» con policía leerá mal
+        a Grecia.
+
+  - id: GR-2023-paideias
+    order: 5
+    name_original: Υπουργείο Παιδείας, Θρησκευμάτων και Αθλητισμού
+    abbreviation_original: ΥΠΑΙΘΑ
+    name_en: Ministry of Education, Religious Affairs and Sports
+    name_es: Ministerio de Educación, Asuntos Religiosos y Deportes
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Υπουργός
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [education, higher_education, religion, sport]
+    counts_as_ministry: true
+    url: https://www.minedu.gov.gr
+    sources: [fek-b-28-2024, government-gov-gr-synthesi]
+
+  - id: GR-2023-ygeias
+    order: 6
+    name_original: Υπουργείο Υγείας
+    abbreviation_original: null
+    name_en: Ministry of Health
+    name_es: Ministerio de Sanidad
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Υπουργός
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [health]
+    counts_as_ministry: true
+    url: https://www.moh.gov.gr
+    sources: [fek-b-28-2024, government-gov-gr-synthesi]
+
+  - id: GR-2023-prostasias-tou-politi
+    order: 7
+    name_original: Υπουργείο Προστασίας του Πολίτη
+    abbreviation_original: null
+    name_en: Ministry of Citizen Protection
+    name_es: Ministerio de Protección del Ciudadano
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Υπουργός
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [interior]
+    counts_as_ministry: true
+    url: https://www.minocp.gov.gr
+    sources: [fek-b-28-2024, government-gov-gr-synthesi]
+    note:
+      en: >-
+        The department responsible for the Hellenic Police, public order and prisons. It is
+        tagged with the interior policy area for that reason, even though the ministry called
+        "of the Interior" in Greece is a different department.
+      es: >-
+        El departamento responsable de la Policía Helénica, el orden público y las prisiones.
+        Por eso lleva el área de política «interior», aunque el ministerio que en Grecia se
+        llama «del Interior» es un departamento distinto.
+
+  - id: GR-2023-ypodomon-metaforon
+    order: 8
+    name_original: Υπουργείο Υποδομών και Μεταφορών
+    abbreviation_original: null
+    name_en: Ministry of Infrastructure and Transport
+    name_es: Ministerio de Infraestructuras y Transportes
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Υπουργός
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [infrastructure, transport]
+    counts_as_ministry: true
+    url: https://www.yme.gov.gr
+    sources: [fek-b-28-2024, government-gov-gr-synthesi]
+
+  - id: GR-2023-perivallontos-energeias
+    order: 9
+    name_original: Υπουργείο Περιβάλλοντος και Ενέργειας
+    abbreviation_original: ΥΠΕΝ
+    name_en: Ministry of Environment and Energy
+    name_es: Ministerio de Medio Ambiente y Energía
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Υπουργός
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [environment, energy, spatial_planning]
+    counts_as_ministry: true
+    url: https://ypen.gov.gr
+    sources: [fek-b-28-2024, government-gov-gr-synthesi]
+    note:
+      en: >-
+        Climate policy is not here. Greece gives the climate crisis to a separate department,
+        the Ministry of Climate Crisis and Civil Protection, which is unusual in this dataset
+        and is the reason this ministry is not tagged with the climate policy area.
+      es: >-
+        La política climática no está aquí. Grecia atribuye la crisis climática a un
+        departamento aparte, el Ministerio de Crisis Climática y Protección Civil, lo que es
+        inusual en este conjunto de datos y explica que este ministerio no lleve el área de
+        política «clima».
+
+  - id: GR-2023-anaptyxis
+    order: 10
+    name_original: Υπουργείο Ανάπτυξης
+    abbreviation_original: null
+    name_en: Ministry of Development
+    name_es: Ministerio de Desarrollo
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Υπουργός
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [industry, trade, research, innovation]
+    counts_as_ministry: true
+    url: https://www.mindev.gov.gr
+    sources: [fek-b-28-2024, government-gov-gr-synthesi]
+    note:
+      en: >-
+        "Development" here means industry, commerce and market regulation, together with
+        research and innovation, which has its own deputy minister. It is not development
+        cooperation; that sits in the foreign ministry.
+      es: >-
+        «Desarrollo» significa aquí industria, comercio y regulación de mercados, junto con
+        investigación e innovación, que tiene su propio viceministro. No es cooperación al
+        desarrollo: esa cartera está en Exteriores.
+
+  - id: GR-2023-ergasias
+    order: 11
+    name_original: Υπουργείο Εργασίας και Κοινωνικής Ασφάλισης
+    abbreviation_original: null
+    name_en: Ministry of Labour and Social Security
+    name_es: Ministerio de Trabajo y Seguridad Social
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Υπουργός
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [labour, social_security]
+    counts_as_ministry: true
+    url: https://ypergasias.gov.gr
+    sources: [fek-b-28-2024, government-gov-gr-synthesi]
+
+  - id: GR-2023-dikaiosynis
+    order: 12
+    name_original: Υπουργείο Δικαιοσύνης
+    abbreviation_original: null
+    name_en: Ministry of Justice
+    name_es: Ministerio de Justicia
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Υπουργός
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [justice]
+    counts_as_ministry: true
+    url: https://www.ministryofjustice.gr
+    sources: [fek-b-28-2024, government-gov-gr-synthesi]
+
+  - id: GR-2023-politismou
+    order: 13
+    name_original: Υπουργείο Πολιτισμού
+    abbreviation_original: null
+    name_en: Ministry of Culture
+    name_es: Ministerio de Cultura
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Υπουργός
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [culture]
+    counts_as_ministry: true
+    url: null
+    sources: [fek-b-28-2024, government-gov-gr-synthesi]
+    note:
+      en: >-
+        Sport left this department in 2023 and is now an alternate-minister portfolio inside
+        the education ministry, which is why culture here is tagged with heritage and culture
+        only. url is null because no archived capture of the ministry's site could be checked
+        on the access date, not because it has no site.
+      es: >-
+        El deporte salió de este departamento en 2023 y es hoy una cartera de ministro
+        adjunto dentro del ministerio de Educación, por lo que aquí solo se etiqueta cultura
+        y patrimonio. url es null porque en la fecha de consulta no pudo comprobarse ninguna
+        copia archivada del sitio del ministerio, no porque carezca de él.
+
+  - id: GR-2023-metanastefsis-asylou
+    order: 14
+    name_original: Υπουργείο Μετανάστευσης και Ασύλου
+    abbreviation_original: null
+    name_en: Ministry of Migration and Asylum
+    name_es: Ministerio de Migración y Asilo
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Υπουργός
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [migration]
+    counts_as_ministry: true
+    url: https://migration.gov.gr
+    sources: [fek-b-28-2024, government-gov-gr-synthesi]
+
+  - id: GR-2023-koinonikis-synochis
+    order: 15
+    name_original: Υπουργείο Κοινωνικής Συνοχής και Οικογένειας
+    abbreviation_original: null
+    name_en: Ministry of Social Cohesion and Family Affairs
+    name_es: Ministerio de Cohesión Social y Familia
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Υπουργός
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [social_affairs, family]
+    counts_as_ministry: true
+    url: null
+    sources: [fek-b-28-2024, government-gov-gr-synthesi]
+    note:
+      en: >-
+        Created in June 2023 out of the welfare side of the labour ministry, and the newest
+        of the twenty. url is null for the same reason as the culture ministry: the site
+        could not be confirmed from an archived capture on the access date.
+      es: >-
+        Creado en junio de 2023 a partir de la vertiente asistencial del ministerio de
+        Trabajo, es el más reciente de los veinte. url es null por la misma razón que en
+        Cultura: en la fecha de consulta no pudo confirmarse el sitio con una copia archivada.
+
+  - id: GR-2023-agrotikis-anaptyxis
+    order: 16
+    name_original: Υπουργείο Αγροτικής Ανάπτυξης και Τροφίμων
+    abbreviation_original: ΥΠΑΑΤ
+    name_en: Ministry of Rural Development and Food
+    name_es: Ministerio de Desarrollo Rural y Alimentación
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Υπουργός
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [agriculture, rural_development, food_safety, fisheries]
+    counts_as_ministry: true
+    url: https://www.minagric.gr
+    sources: [fek-b-28-2024, government-gov-gr-synthesi]
+    note:
+      en: >-
+        Fisheries are tagged here, not to the shipping ministry: in Greece fisheries and
+        aquaculture are a directorate-general of the rural development ministry, while the
+        Ministry of Maritime Affairs and Insular Policy handles merchant shipping, ports and
+        the coastguard.
+      es: >-
+        La pesca se etiqueta aquí y no en el ministerio de Marina: en Grecia la pesca y la
+        acuicultura son una dirección general del ministerio de Desarrollo Rural, mientras
+        que el Ministerio de Marina Mercante y Política Insular se ocupa de la marina
+        mercante, los puertos y los guardacostas.
+
+  - id: GR-2023-naftilias
+    order: 17
+    name_original: Υπουργείο Ναυτιλίας και Νησιωτικής Πολιτικής
+    abbreviation_original: ΥΝΑΝΠ
+    name_en: Ministry of Maritime Affairs and Insular Policy
+    name_es: Ministerio de Marina Mercante y Política Insular
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Υπουργός
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [shipping, regional_development]
+    counts_as_ministry: true
+    url: https://www.ynanp.gr
+    sources: [fek-b-28-2024, government-gov-gr-synthesi]
+
+  - id: GR-2023-tourismou
+    order: 18
+    name_original: Υπουργείο Τουρισμού
+    abbreviation_original: null
+    name_en: Ministry of Tourism
+    name_es: Ministerio de Turismo
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Υπουργός
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [tourism]
+    counts_as_ministry: true
+    url: https://mintour.gov.gr
+    sources: [fek-b-28-2024, government-gov-gr-synthesi]
+
+  - id: GR-2023-psifiakis-diakyvernisis
+    order: 19
+    name_original: Υπουργείο Ψηφιακής Διακυβέρνησης
+    abbreviation_original: null
+    name_en: Ministry of Digital Governance
+    name_es: Ministerio de Gobernanza Digital
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Υπουργός
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [digital, telecommunications]
+    counts_as_ministry: true
+    url: https://mindigital.gr
+    sources: [fek-b-28-2024, government-gov-gr-synthesi]
+
+  - id: GR-2023-klimatikis-krisis
+    order: 20
+    name_original: Υπουργείο Κλιματικής Κρίσης και Πολιτικής Προστασίας
+    abbreviation_original: null
+    name_en: Ministry of Climate Crisis and Civil Protection
+    name_es: Ministerio de Crisis Climática y Protección Civil
+    name_en_provenance: official
+    name_es_provenance: translated
+    head_title_original: Υπουργός
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [civil_protection, climate]
+    counts_as_ministry: true
+    url: https://www.civilprotection.gov.gr
+    sources: [fek-b-28-2024, government-gov-gr-synthesi]
+    note:
+      en: >-
+        Created in 2021 after the summer wildfires. Greece is one of the few countries in
+        this dataset where climate has a department of its own, though it is paired with
+        emergency response rather than with energy or the environment.
+      es: >-
+        Creado en 2021 tras los incendios del verano. Grecia es uno de los pocos países de
+        este conjunto de datos donde el clima tiene departamento propio, aunque emparejado
+        con la respuesta a emergencias y no con la energía o el medio ambiente.
+
+  # --- recorded, not counted ---------------------------------------------------
+  - id: GR-2023-prothypourgos
+    order: 21
+    name_original: Πρωθυπουργός
+    abbreviation_original: null
+    name_en: Prime Minister
+    name_es: Primer ministro
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Πρωθυπουργός
+    head_title_en: Prime Minister
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: head_of_government_office
+    url: https://www.primeminister.gr
+    sources: [fek-a-133-2019, government-gov-gr-synthesi]
+    note:
+      en: >-
+        The head of government holds a seat without heading a ministry. The Prime Minister's
+        own services are organised as the Προεδρία της Κυβέρνησης, a central structure
+        created by law 4622/2019, but it is not one of the twenty ministries in the gazette's
+        list and is not counted.
+      es: >-
+        El jefe de gobierno ocupa asiento sin encabezar ningún ministerio. Los servicios del
+        primer ministro se organizan como Προεδρία της Κυβέρνησης, una estructura central
+        creada por la ley 4622/2019, pero no es uno de los veinte ministerios de la lista del
+        boletín y no se cuenta.
+
+  - id: GR-2023-antiproedros-kyvernisis
+    order: 22
+    name_original: Αντιπρόεδρος της Κυβέρνησης
+    abbreviation_original: null
+    name_en: Vice-President of the Government
+    name_es: Vicepresidente del Gobierno
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Αντιπρόεδρος της Κυβέρνησης
+    head_title_en: Vice-President of the Government
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: deputy_head_without_portfolio
+    url: null
+    sources: [fek-a-133-2019, government-gov-gr-synthesi]
+    note:
+      en: >-
+        A member of the Council of Ministers under article 1(2) of law 4622/2019 who heads no
+        department. The post was vacant for most of this government's term and was filled in
+        March 2025; the composition page consulted here lists one holder.
+      es: >-
+        Miembro del Consejo de Ministros conforme al artículo 1.2 de la ley 4622/2019 que no
+        encabeza departamento alguno. El cargo estuvo vacante durante buena parte de esta
+        legislatura y se cubrió en marzo de 2025; la página de composición consultada recoge
+        un titular.
+
+  - id: GR-2023-ypourgos-epikrateias
+    order: 23
+    name_original: Υπουργός Επικρατείας
+    abbreviation_original: null
+    name_en: Minister of State
+    name_es: Ministro de Estado
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Υπουργός Επικρατείας
+    head_title_en: Minister of State
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    url: null
+    sources: [fek-a-131-2023, government-gov-gr-synthesi]
+    note:
+      en: >-
+        Full ministerial rank and a seat in the Council of Ministers, no department. Three
+        were appointed in June 2023 and one is in office on the composition page consulted
+        here; this entity records the post as currently filled, so it contributes one seat.
+      es: >-
+        Rango ministerial pleno y asiento en el Consejo de Ministros, sin departamento. En
+        junio de 2023 se nombraron tres y en la página de composición consultada figura uno;
+        esta entidad registra el cargo tal como está cubierto ahora, de modo que aporta un
+        asiento.
+
+  - id: GR-2023-anapl-ethnikis-oikonomias
+    order: 24
+    name_original: Αναπληρωτής Υπουργός Εθνικής Οικονομίας και Οικονομικών
+    abbreviation_original: null
+    name_en: Alternate Minister of National Economy and Finance
+    name_es: Ministro adjunto de Economía Nacional y Hacienda
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Αναπληρωτής Υπουργός
+    head_title_en: Alternate Minister
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: junior_minister_or_state_secretary
+    url: null
+    sources: [fek-a-131-2023, fek-a-133-2019, government-gov-gr-synthesi]
+    note:
+      en: >-
+        Works inside the Ministry of National Economy and Finance on competences delegated to
+        him, so he adds a cabinet seat but no department. See the methodology note on
+        alternate ministers for why the exclusion reason understates the rank.
+      es: >-
+        Trabaja dentro del Ministerio de Economía Nacional y Hacienda sobre competencias
+        delegadas, por lo que aporta asiento en el gabinete pero ningún departamento. Véase
+        la nota metodológica sobre los ministros adjuntos para entender por qué el motivo de
+        exclusión se queda corto respecto al rango.
+
+  - id: GR-2023-anapl-paideias-athlitismou
+    order: 25
+    name_original: Αναπληρωτής Υπουργός Παιδείας, Θρησκευμάτων και Αθλητισμού με αρμοδιότητα τον Αθλητισμό
+    abbreviation_original: null
+    name_en: Alternate Minister of Education, Religious Affairs and Sports, responsible for Sport
+    name_es: Ministro adjunto de Educación, Asuntos Religiosos y Deportes, responsable de Deportes
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Αναπληρωτής Υπουργός
+    head_title_en: Alternate Minister
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: junior_minister_or_state_secretary
+    url: null
+    sources: [fek-a-131-2023, fek-a-133-2019, government-gov-gr-synthesi]
+    note:
+      en: >-
+        Sport in Greece is a delegated portfolio inside the education ministry rather than a
+        department. A reader looking for a Greek sports ministry will not find one here, and
+        the sport policy area is tagged to the education ministry accordingly.
+      es: >-
+        El deporte en Grecia es una cartera delegada dentro del ministerio de Educación y no
+        un departamento. Quien busque un ministerio griego de deportes no lo encontrará aquí,
+        y el área de política «deporte» se etiqueta en consecuencia al ministerio de
+        Educación.
+
+  - id: GR-2023-anapl-ygeias
+    order: 26
+    name_original: Αναπληρωτής Υπουργός Υγείας
+    abbreviation_original: null
+    name_en: Alternate Minister of Health
+    name_es: Ministro adjunto de Sanidad
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Αναπληρωτής Υπουργός
+    head_title_en: Alternate Minister
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: junior_minister_or_state_secretary
+    url: null
+    sources: [fek-a-131-2023, fek-a-133-2019, government-gov-gr-synthesi]
+
+  - id: GR-2023-anapl-ypodomon-metaforon
+    order: 27
+    name_original: Αναπληρωτής Υπουργός Υποδομών και Μεταφορών με αρμοδιότητα τις Μεταφορές
+    abbreviation_original: null
+    name_en: Alternate Minister of Infrastructure and Transport, responsible for Transport
+    name_es: Ministro adjunto de Infraestructuras y Transportes, responsable de Transportes
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Αναπληρωτής Υπουργός
+    head_title_en: Alternate Minister
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: junior_minister_or_state_secretary
+    url: null
+    sources: [fek-a-131-2023, fek-a-133-2019, government-gov-gr-synthesi]
+    note:
+      en: >-
+        The post whose holder changed in the June 2026 mini-reshuffle. The post itself was
+        neither created nor abolished, which is why the structure recorded here is unchanged.
+      es: >-
+        El cargo cuyo titular cambió en la miniremodelación de junio de 2026. El cargo en sí
+        ni se creó ni se suprimió, y por eso la estructura aquí registrada no varía.

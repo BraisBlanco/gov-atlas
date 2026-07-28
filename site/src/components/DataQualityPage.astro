@@ -1,0 +1,132 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { formatDate, formatNumber, loadCountries, loadMetadata } from '../lib/data.ts';
+import { countryName } from '../lib/data.ts';
+import { localePath, translator, type Locale } from '../i18n/index.ts';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const t = translator(locale);
+const es = locale === 'es';
+
+const [countries, metadata] = await Promise.all([loadCountries(), loadMetadata()]);
+const rows = countries
+  .slice()
+  .sort((a, b) => countryName(a, locale).localeCompare(countryName(b, locale)));
+---
+
+<BaseLayout locale={locale} title={t('nav.dataQuality')}>
+  <div class="prose">
+    <h1>{t('nav.dataQuality')}</h1>
+    <p class="lede">
+      {
+        es
+          ? 'Qué está cubierto, con qué fuerza documental y qué falta. Un país ausente de un gráfico no es un país sin ministerios.'
+          : 'What is covered, how strongly it is sourced, and what is missing. A country absent from a chart is not a country with no ministries.'
+      }
+    </p>
+    <p>
+      {
+        es
+          ? `${formatNumber(metadata.countries_covered, locale)} de ${formatNumber(metadata.countries_total, locale)} países curados, con ${formatNumber(metadata.sources_total, locale)} fuentes. Datos a ${formatDate(metadata.as_of, locale)}.`
+          : `${formatNumber(metadata.countries_covered, locale)} of ${formatNumber(metadata.countries_total, locale)} countries curated, with ${formatNumber(metadata.sources_total, locale)} sources. Data as of ${formatDate(metadata.as_of, locale)}.`
+      }
+    </p>
+
+    <h2>{t('quality.grade')}</h2>
+    <ul>
+      <li><strong>A</strong> — {t('quality.a')}</li>
+      <li><strong>B</strong> — {t('quality.b')}</li>
+      <li><strong>C</strong> — {t('quality.c')}</li>
+    </ul>
+  </div>
+
+  <div class="wide">
+    <div class="scroll-x">
+      <table class="dq-table">
+        <thead>
+          <tr>
+            <th scope="col">{t('table.country')}</th>
+            <th scope="col" class="num">{t('table.ministries')}</th>
+            <th scope="col" class="num">{t('table.seats')}</th>
+            <th scope="col" class="num">{t('table.excluded')}</th>
+            <th scope="col">{t('table.grade')}</th>
+            <th scope="col">{t('country.cabinet')}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            rows.map((country) => (
+              <tr>
+                <th scope="row">
+                  <a href={localePath(locale, `countries/${country.iso2}`)}>
+                    {countryName(country, locale)}
+                  </a>
+                </th>
+                <td class="num">{formatNumber(country.ministries_count, locale)}</td>
+                <td class="num">{formatNumber(country.cabinet_seats_count, locale)}</td>
+                <td class="num">{formatNumber(country.excluded_count, locale)}</td>
+                <td>{country.quality.grade}</td>
+                <td>{formatDate(country.took_office, locale)}</td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </div>
+
+    {
+      metadata.countries_uncovered.length > 0 ? (
+        <p class="dq-missing">
+          {es ? 'Todavía sin curar: ' : 'Not yet curated: '}
+          {metadata.countries_uncovered.join(', ')}
+        </p>
+      ) : null
+    }
+  </div>
+
+  <style>
+    .lede {
+      font-size: var(--text-lg);
+      color: var(--text-secondary);
+    }
+
+    .dq-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: var(--font-sans);
+      font-size: var(--text-sm);
+    }
+
+    .dq-table th,
+    .dq-table td {
+      padding: var(--space-2) var(--space-3);
+      border-bottom: 1px solid var(--gridline);
+      text-align: left;
+    }
+
+    .dq-table thead th {
+      color: var(--text-secondary);
+      border-bottom: 1px solid var(--axis);
+    }
+
+    .dq-table tbody th {
+      font-weight: 400;
+    }
+
+    .num {
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .dq-missing {
+      font-family: var(--font-sans);
+      font-size: var(--text-sm);
+      color: var(--text-secondary);
+      margin-top: var(--space-4);
+    }
+  </style>
+</BaseLayout>

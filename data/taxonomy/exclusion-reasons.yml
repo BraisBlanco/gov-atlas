@@ -1,0 +1,129 @@
+# Why a government entity is recorded but NOT counted as a ministry.
+#
+# Recording exclusions is the point of this file. Anyone can publish a number;
+# only a dataset that says what it left out and why can be argued with. Every
+# entity with `counts_as_ministry: false` must cite one of these ids.
+
+reasons:
+  - id: head_of_government_office
+    label_en: Office of the head of government
+    label_es: Oficina del jefe de gobierno
+    description_en: >-
+      The prime minister's office, chancellery or presidency of government. Excluded
+      by default because it is the apex of the cabinet rather than a portfolio
+      department. Where national law explicitly constitutes it as a ministry (notably
+      the German Bundeskanzleramt debate), the country's methodology_notes must say so.
+    description_es: >-
+      Oficina del primer ministro, cancillería o presidencia del gobierno. Excluida por
+      defecto por ser la cúspide del gabinete y no un departamento con cartera. Cuando
+      la ley nacional la constituye expresamente como ministerio (caso notorio del
+      Bundeskanzleramt alemán), las methodology_notes del país deben decirlo.
+
+  - id: deputy_head_without_portfolio
+    label_en: Deputy head of government without a portfolio
+    label_es: Vicejefe de gobierno sin cartera
+    description_en: >-
+      A deputy prime minister or vice-president of government who heads no department.
+      Deputy prime ministers who also hold a ministry are counted once, through that
+      ministry.
+    description_es: >-
+      Vicepresidente o viceprimer ministro que no encabeza ningún departamento. Los que
+      además ostentan un ministerio se cuentan una sola vez, a través de ese ministerio.
+
+  - id: minister_without_portfolio
+    label_en: Minister without portfolio
+    label_es: Ministro sin cartera
+    description_en: >-
+      Holds ministerial rank and a cabinet seat but no administrative department.
+      Contributes to cabinet_seats_count, never to ministries_count.
+    description_es: >-
+      Tiene rango ministerial y asiento en el gabinete pero ningún departamento
+      administrativo. Cuenta para cabinet_seats_count, nunca para ministries_count.
+
+  - id: junior_minister_or_state_secretary
+    label_en: Junior minister or state secretary
+    label_es: Ministro junior o secretario de Estado
+    description_en: >-
+      Subordinate to a minister and working inside an existing department
+      (Staatssekretär, secrétaire d'État, Minister of State, viceministro).
+    description_es: >-
+      Subordinado a un ministro y encuadrado en un departamento existente
+      (Staatssekretär, secrétaire d'État, Minister of State, viceministro).
+
+  - id: agency_or_public_body
+    label_en: Agency or public body
+    label_es: Agencia u organismo público
+    description_en: >-
+      An executive agency, authority, commission or state-owned body. Not a ministry
+      even when its head attends cabinet.
+    description_es: >-
+      Agencia ejecutiva, autoridad, comisión u organismo estatal. No es un ministerio
+      aunque su titular asista al consejo de ministros.
+
+  - id: subnational_government
+    label_en: Subnational government
+    label_es: Gobierno subnacional
+    description_en: >-
+      A department of a regional, federated, devolved or local government. Out of
+      scope: this dataset covers central government only.
+    description_es: >-
+      Departamento de un gobierno regional, federado, autonómico o local. Fuera de
+      alcance: este dataset cubre únicamente el gobierno central.
+
+  - id: not_headed_by_minister
+    label_en: Not headed by a minister
+    label_es: No encabezado por un ministro
+    description_en: >-
+      A central government department whose head does not hold ministerial rank
+      (for example a secretary-general or a permanent chief of staff).
+    description_es: >-
+      Departamento del gobierno central cuyo titular no tiene rango ministerial
+      (por ejemplo un secretario general o un jefe de gabinete permanente).
+
+  - id: advisory_body
+    label_en: Advisory or consultative body
+    label_es: Órgano consultivo
+    description_en: A council, committee or advisory body without executive authority over a department.
+    description_es: Consejo, comité u órgano consultivo sin autoridad ejecutiva sobre un departamento.
+
+  - id: central_bank
+    label_en: Central bank
+    label_es: Banco central
+    description_en: An independent monetary authority, structurally outside the executive.
+    description_es: Autoridad monetaria independiente, estructuralmente fuera del ejecutivo.
+
+  - id: prosecution_or_judiciary
+    label_en: Prosecution service or judiciary
+    label_es: Fiscalía o poder judicial
+    description_en: A prosecuting authority or judicial organ, not part of the executive branch.
+    description_es: Autoridad fiscal u órgano judicial, ajeno al poder ejecutivo.
+
+  - id: ceremonial_or_head_of_state
+    label_en: Head of state or ceremonial household
+    label_es: Jefatura del Estado o casa real
+    description_en: >-
+      The presidency of the republic, royal household or equivalent, where distinct
+      from the head of government.
+    description_es: >-
+      Presidencia de la república, casa real o equivalente, cuando es distinta del
+      jefe de gobierno.
+
+  - id: superseded_within_cabinet
+    label_en: Superseded during the cabinet's term
+    label_es: Sustituido durante la legislatura
+    description_en: >-
+      A department that was merged, split or abolished mid-term. Kept for the historical
+      record with valid_to set; excluded from the cabinet's current snapshot.
+    description_es: >-
+      Departamento fusionado, escindido o suprimido a mitad de legislatura. Se conserva
+      para el registro histórico con valid_to fijado; excluido de la foto actual del gabinete.
+
+  - id: duplicate_entity
+    label_en: Duplicate of another entity
+    label_es: Duplicado de otra entidad
+    description_en: >-
+      A second official name or an alternate listing of a department already recorded.
+      Prevents double counting when sources disagree on nomenclature.
+    description_es: >-
+      Segundo nombre oficial o listado alternativo de un departamento ya registrado.
+      Evita el doble recuento cuando las fuentes discrepan en la nomenclatura.

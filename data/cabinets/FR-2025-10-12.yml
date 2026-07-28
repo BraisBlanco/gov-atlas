@@ -1,0 +1,1345 @@
+# France — government structure of the Lecornu government (2025-10-12 to date).
+#
+# Read docs/DATA-CONTRACT.md alongside this file. Three France-specific things to know:
+#
+#   1. France's hierarchy drives the count. Only the ministres named in article 1 of the
+#      composition decree head a ministerial department. Ministres délégués are attached
+#      to a minister and work inside an existing department, so they are recorded with
+#      counts_as_ministry: false and junior_minister_or_state_secretary.
+#   2. This government has no secrétaires d'État at all — unusual for France.
+#   3. The tier-1 instrument (Légifrance) could not be archived; see methodology_notes
+#      and the source notes. The enumeration therefore rests on tier 2, so France is
+#      graded B rather than A.
+
+country: FR
+cabinet_id: FR-2025-10-12
+
+cabinet_name_original: Gouvernement de Sébastien Lecornu
+cabinet_name_en: Government of Sébastien Lecornu
+cabinet_name_es: Gobierno de Sébastien Lecornu
+
+head_of_government_title_original: Premier ministre
+head_of_government_title_en: Prime Minister
+
+took_office: 2025-10-12
+left_office: null
+
+methodology_notes:
+  - en: >-
+      France has 19 ministerial departments but 36 members of the Government. The gap is
+      the Prime Minister, who holds a seat without heading a department, and 16 ministres
+      délégués, who are attached to a minister and act inside an existing department
+      rather than heading one of their own. Sources that answer "how big is the French
+      government?" with 36 are not wrong; they are answering a different question. This
+      dataset counts departments.
+    es: >-
+      Francia tiene 19 departamentos ministeriales pero 36 miembros del Gobierno. La
+      diferencia son el primer ministro, que ocupa asiento sin encabezar departamento, y
+      16 ministros delegados, adscritos a un ministro y que actúan dentro de un
+      departamento existente en lugar de encabezar uno propio. Las fuentes que responden
+      «¿de qué tamaño es el Gobierno francés?» con 36 no se equivocan: responden a otra
+      pregunta. Este conjunto de datos cuenta departamentos.
+  - en: >-
+      cabinet_seats_count is 20: the Prime Minister plus the 19 ministres. Two readings
+      would give a larger number. The composition decree grants two ministres délégués —
+      relations with Parliament, and the government spokesperson — participation in the
+      conseil des ministres without restriction, which would make 22; the other 14 attend
+      only "pour les affaires relevant de leurs attributions", i.e. for their own agenda
+      items, which is attendance rather than a standing seat. Counting every member of
+      the Government would give 36. We take the narrowest reading, the one the
+      Constitution supports directly, and record the alternatives here rather than
+      leaving a reader to guess which we used.
+    es: >-
+      cabinet_seats_count es 20: el primer ministro más los 19 ministros. Dos lecturas
+      darían una cifra mayor. El decreto de composición concede a dos ministros delegados
+      —relaciones con el Parlamento y portavoz del Gobierno— participación sin
+      restricciones en el conseil des ministres, lo que daría 22; los otros 14 asisten
+      solo «pour les affaires relevant de leurs attributions», es decir para sus propios
+      asuntos, lo que es asistencia y no asiento permanente. Contar a todos los miembros
+      del Gobierno daría 36. Adoptamos la lectura más estricta, la que sostiene
+      directamente la Constitución, y dejamos aquí constancia de las alternativas en vez
+      de obligar al lector a adivinar cuál se usó.
+  - en: >-
+      Why the cabinet is still dated 12 October 2025 despite the February 2026 reshuffle.
+      Sébastien Lecornu was appointed by the décret du 10 octobre 2025 portant nomination
+      du Premier ministre and his ministers by the décret du 12 octobre 2025 relatif à la
+      composition du Gouvernement. The reshuffle decrees of 22 and 26 February 2026 both
+      open with "Vu le décret du 10 octobre 2025 portant nomination du Premier ministre ;
+      Vu le décret du 12 octobre 2025 relatif à la composition du Gouvernement", and no
+      décret portant nomination du Premier ministre was issued in February or March 2026;
+      an arrêté of 30 June 2026 on the Prime Minister's own staff still cites the 10
+      October 2025 appointment and is signed by Lecornu. In French practice a remaniement
+      that does not re-appoint the Prime Minister changes officeholders, not the
+      government, so this is one cabinet and took_office is 12 October 2025. It is
+      commonly called "Lecornu II" to distinguish it from the government of 5-6 October
+      2025, which lasted about fourteen hours; that name is journalistic, not official.
+    es: >-
+      Por qué el gabinete sigue fechado el 12 de octubre de 2025 pese a la remodelación de
+      febrero de 2026. Sébastien Lecornu fue nombrado por el décret du 10 octobre 2025
+      portant nomination du Premier ministre y sus ministros por el décret du 12 octobre
+      2025 relatif à la composition du Gouvernement. Los decretos de remodelación de 22 y
+      26 de febrero de 2026 empiezan ambos con «Vu le décret du 10 octobre 2025 portant
+      nomination du Premier ministre ; Vu le décret du 12 octobre 2025 relatif à la
+      composition du Gouvernement», y no se dictó ningún décret portant nomination du
+      Premier ministre en febrero ni marzo de 2026; un arrêté del 30 de junio de 2026
+      sobre el gabinete del propio primer ministro sigue citando el nombramiento del 10 de
+      octubre de 2025 y lo firma Lecornu. En la práctica francesa, una remodelación que no
+      renombra al primer ministro cambia titulares, no gobierno: por tanto es un solo
+      gabinete y took_office es el 12 de octubre de 2025. Se le llama habitualmente
+      «Lecornu II» para distinguirlo del gobierno del 5-6 de octubre de 2025, que duró
+      unas catorce horas; ese nombre es periodístico, no oficial.
+  - en: >-
+      Source weakness, stated plainly. The instrument that enumerates the departments is
+      the Décret du 12 octobre 2025 relatif à la composition du Gouvernement (NOR
+      HRUX2527927D, JORF n° 0241 du 13 octobre 2025), as amended by the décrets of 22 and
+      26 February 2026 (NOR HRUX2605372D, JORF n° 0046; NOR HRUX2605723D, JORF n° 0050).
+      That text was read on Légifrance, but Légifrance sits behind a bot challenge: the
+      Internet Archive's Save Page Now returns an error for every Légifrance URL, the one
+      capture it did produce is the challenge page rather than the decree, and
+      archive.today is CAPTCHA-gated. Rather than cite a tier-1 source with an archive_url
+      that does not show the cited text, this file rests its enumeration on two archived
+      pages of the government's own portal, info.gouv.fr, which reproduce the decree's
+      list. France is therefore graded B, not A. The decree is real and its reference is
+      given here so any reader can check it; what is missing is a durable snapshot, not
+      the source.
+    es: >-
+      Debilidad de fuentes, dicha sin rodeos. El instrumento que enumera los departamentos
+      es el Décret du 12 octobre 2025 relatif à la composition du Gouvernement (NOR
+      HRUX2527927D, JORF n° 0241 du 13 octobre 2025), modificado por los decretos de 22 y
+      26 de febrero de 2026 (NOR HRUX2605372D, JORF n° 0046; NOR HRUX2605723D, JORF
+      n° 0050). Ese texto se consultó en Légifrance, pero Légifrance está tras un filtro
+      antibots: el Save Page Now de Internet Archive devuelve error en todas las URL de
+      Légifrance, la única captura que llegó a generar es la página del filtro y no el
+      decreto, y archive.today exige CAPTCHA. Antes que citar una fuente de nivel 1 con un
+      archive_url que no muestra el texto citado, este fichero apoya su enumeración en dos
+      páginas archivadas del propio portal del Gobierno, info.gouv.fr, que reproducen la
+      lista del decreto. Francia queda por tanto calificada B y no A. El decreto es real y
+      su referencia se da aquí para que cualquiera lo compruebe; lo que falta es una copia
+      archivada duradera, no la fuente.
+  - en: >-
+      Two things a comparison view will get wrong about France unless it reads this.
+      Energy is not in the ecological-transition ministry: "souveraineté énergétique" sits
+      in the Ministère de l'Économie, des Finances et de la Souveraineté industrielle,
+      énergétique et numérique, which also has a delegated minister for energy. And the
+      budget is not in the finance ministry: public accounts and the civil service are a
+      separate department, the Ministère de l'Action et des Comptes publics. Immigration
+      and asylum are tagged to the Ministère de l'Intérieur, which the décret d'attributions
+      of 29 October 2025 charges with "l'immigration, l'asile, l'intégration des étrangers
+      en France", even though its one-word name says nothing about it.
+    es: >-
+      Dos cosas que una vista comparativa entenderá mal sobre Francia si no lee esto. La
+      energía no está en el ministerio de transición ecológica: la «souveraineté
+      énergétique» está en el Ministère de l'Économie, des Finances et de la Souveraineté
+      industrielle, énergétique et numérique, que además tiene una ministra delegada de
+      Energía. Y el presupuesto no está en el ministerio de finanzas: las cuentas públicas
+      y la función pública son un departamento aparte, el Ministère de l'Action et des
+      Comptes publics. La inmigración y el asilo se etiquetan en el Ministère de
+      l'Intérieur, al que el décret d'attributions del 29 de octubre de 2025 encomienda
+      «l'immigration, l'asile, l'intégration des étrangers en France», aunque su nombre de
+      una sola palabra no lo diga.
+  - en: >-
+      What the February 2026 reshuffle did and did not change. Not one ministerial
+      department was created, merged, renamed or abolished, so all 19 carry no
+      valid_from/valid_to. Among the delegated posts it did move things: a delegated
+      minister for citizenship and one for vocational education and apprenticeship were
+      created on 26 February 2026 and carry valid_from; the delegated portfolio for the
+      civil service and state reform was ended on 22 February 2026, when its holder was
+      promoted to head the Ministère de l'Action et des Comptes publics, and it is kept in
+      the file with valid_to rather than deleted. One person, the government spokesperson,
+      holds two delegated posts at once and appears twice on the official composition page;
+      she is recorded once.
+    es: >-
+      Qué cambió y qué no en la remodelación de febrero de 2026. No se creó, fusionó,
+      renombró ni suprimió ningún departamento ministerial, de modo que los 19 no llevan
+      valid_from ni valid_to. Entre los puestos delegados sí hubo movimiento: se crearon el
+      26 de febrero de 2026 una ministra delegada de Ciudadanía y otra de Enseñanza y
+      Formación Profesionales y Aprendizaje, que llevan valid_from; la delegación de
+      Función Pública y Reforma del Estado se extinguió el 22 de febrero de 2026, cuando su
+      titular pasó a encabezar el Ministère de l'Action et des Comptes publics, y se
+      conserva en el fichero con valid_to en lugar de borrarse. Una misma persona, la
+      portavoz del Gobierno, ocupa dos puestos delegados a la vez y figura dos veces en la
+      página oficial de composición; se registra una sola vez.
+
+sources:
+  - id: info-gouv-composition-2026-02-26
+    tier: 2
+    type: government_website
+    publisher: Gouvernement de la République française — info.gouv.fr
+    title: La nouvelle composition du Gouvernement de Sébastien Lecornu
+    url: https://www.info.gouv.fr/actualite/la-nouvelle-composition-du-gouvernement-de-sebastien-lecornu
+    archive_url: https://web.archive.org/web/20260312025425/https://www.info.gouv.fr/actualite/la-nouvelle-composition-du-gouvernement-de-sebastien-lecornu
+    lang: fr
+    published: 2026-02-26
+    accessed: 2026-07-27
+    quote: |-
+      La composition du Gouvernement résultant du décret signé jeudi 26 février 2026 sur la proposition du Premier ministre est la suivante :
+      Les ministres
+      M. Laurent NUNEZ, ministre de l’Intérieur ;
+      Mme Catherine VAUTRIN, ministre des Armées et des Anciens combattants ;
+      M. Jean-Pierre FARANDOU, ministre du Travail et des Solidarités ;
+      Mme Monique BARBUT, ministre de la Transition écologique, de la Biodiversité et des Négociations internationales sur le climat et la nature ;
+      M. Gérald DARMANIN, garde des Sceaux, ministre de la Justice ;
+      M. Roland LESCURE, ministre de l’Économie, des Finances et de la Souveraineté industrielle, énergétique et numérique ;
+      M. Serge PAPIN, ministre des Petites et moyennes entreprises, du Commerce, de l’Artisanat, du Tourisme et du Pouvoir d’achat ;
+      Mme Annie GENEVARD, ministre de l’Agriculture, de l’Agro-alimentaire et de la Souveraineté alimentaire ;
+      M. Édouard GEFFRAY, ministre de l’Éducation nationale ;
+      M. Jean-Noël BARROT, ministre de l’Europe et des Affaires étrangères ;
+      Mme Stéphanie RIST, ministre de la Santé, des Familles, de l’Autonomie et des Personnes handicapées ;
+      Mme Catherine PÉGARD, ministre de la Culture ;
+      Mme Naïma MOUTCHOU, ministre des Outre-mer ;
+      Mme Françoise GATEL, ministre de l’Aménagement du territoire et de la Décentralisation ;
+      M. David AMIEL, ministre de l’Action et des Comptes publics ;
+      M. Philippe BAPTISTE, ministre de l’Enseignement supérieur, de la Recherche et de l’Espace ;
+      Mme Marina FERRARI, ministre des Sports, de la Jeunesse et de la Vie associative ;
+      M. Philippe TABAROT, ministre des Transports ;
+      M. Vincent JEANBRUN, ministre de la Ville et du Logement.
+      Les ministres délégués
+      Auprès du Premier ministre :
+      M. Laurent PANIFOUS, chargé des Relations avec le Parlement ;
+      Mme Maud BREGEON, porte-parole du Gouvernement et chargée de l’Énergie auprès du ministre de l’Economie, des Finances et de la Souveraineté industrielle, énergétique et numérique ;
+      Mme Aurore BERGÉ, chargée de l’Égalité entre les femmes et les hommes et de la Lutte contre les discriminations ;
+      Auprès du ministre de l’Intérieur :
+      M. Jean-Didier BERGER ;
+      Mme Marie-Pierre VEDRENNE, chargée de la Citoyenneté ;
+      Auprès de la ministre des Armées et des Anciens combattants :
+      Mme Alice RUFO ;
+      Auprès du ministre du Travail et des Solidarités et du ministre de l’Éducation nationale :
+      Mme Sabrina ROUBACHE, chargée de l’Enseignement et de la Formation professionnels et de l’Apprentissage ;
+      Auprès de la ministre de la Transition écologique, de la Biodiversité et des Négociations internationales sur le climat et la nature :
+      Mme Catherine CHABAUD, chargée de la Mer et de la Pêche ;
+      M. Mathieu LEFÈVRE, chargé de la Transition écologique ;
+      Auprès du ministre de l’Économie, des Finances et de la Souveraineté industrielle, énergétique et numérique :
+      M. Sébastien MARTIN, chargé de l’Industrie ;
+      Mme Anne LE HÉNANFF, chargée de l’Intelligence artificielle et du Numérique ;
+      Auprès du ministre de l’Europe et des Affaires étrangères :
+      M. Benjamin HADDAD, chargé de l’Europe ;
+      M. Nicolas FORISSIER, chargé du Commerce extérieur et de l'Attractivité ;
+      Mme Éléonore CAROIT, chargée de la Francophonie, des Partenariats internationaux et des Français de l’étranger ;
+      Auprès de la ministre de la Santé, des Familles, de l’Autonomie et des Personnes handicapées :
+      Mme Camille GALLIARD-MINIER, chargée de l’Autonomie et des Personnes handicapées ;
+      Auprès de la ministre de l’Aménagement du territoire et de la Décentralisation :
+      M. Michel FOURNIER, chargé de la Ruralité.
+    note: >-
+      The government's own reproduction of the composition as it stands after the February
+      2026 reshuffle, i.e. the décret du 12 octobre 2025 as amended by the décrets of 22
+      and 26 February 2026 — the currently applicable composition. This is the primary
+      enumerating source for this file, at tier 2 rather than tier 1 only because the
+      Légifrance text of the decree itself cannot be archived; see methodology_notes. The
+      page carries "Publié le 26/02/2026" and "Modifié le 27/02/2026". The décrets
+      d'attributions of 18 March 2026 (nos 2026-184, 2026-185, 2026-186, 2026-187 and
+      2026-192) independently corroborate the five delegated posts this composition
+      created or re-scoped.
+
+  - id: info-gouv-composition-directory
+    tier: 2
+    type: government_website
+    publisher: Gouvernement de la République française — info.gouv.fr
+    title: Composition du Gouvernement
+    url: https://www.info.gouv.fr/composition-du-gouvernement
+    archive_url: https://web.archive.org/web/20260718215450/https://www.info.gouv.fr/composition-du-gouvernement
+    lang: fr
+    published: 2026-02-26
+    accessed: 2026-07-27
+    quote: |-
+      Aller à un ministère
+      Premier ministre
+      Ministère de l'Intérieur
+      Ministère des Armées et des Anciens combattants
+      Ministère du Travail et des Solidarités
+      Ministère de la Transition écologique, de la Biodiversité et des Négociations internationales sur le climat et la nature
+      Ministère de la Justice
+      Ministère de l’Économie, des Finances et de la Souveraineté industrielle, énergétique et numérique
+      Ministère des Petites et moyennes entreprises, du Commerce, de l’Artisanat et du Tourisme et du Pouvoir d’achat
+      Ministère de l’Agriculture, de l’Agro-alimentaire et de la Souveraineté alimentaire
+      Ministère de l'Éducation nationale
+      Ministère de l'Europe et des Affaires étrangères
+      Ministère de la Santé, des Familles, de l’Autonomie et des Personnes handicapées
+      Ministère de la Culture
+      Ministère des Outre-mer
+      Ministère de l'Aménagement du territoire et de la Décentralisation
+      Ministère de l’Action et des Comptes publics
+      Ministère de l’Enseignement supérieur, de la Recherche et de l’Espace
+      Ministère des Sports, de la Jeunesse et de la Vie associative
+      Ministère des Transports
+      Ministère de la Ville et du Logement
+    note: >-
+      The standing official directory of the Government, snapshotted 18 July 2026, nine
+      days before the access date. Two things make it worth citing alongside the February
+      announcement. First, its navigation names the departments as departments — nineteen
+      "Ministère de ..." headings plus "Premier ministre" — which is what this dataset
+      counts, whereas the decree names ministers. Second, it shows the same nineteen
+      departments and the same sixteen delegated ministers still in place in July 2026, so
+      nothing changed between the reshuffle and the access date. One discrepancy with the
+      February announcement and with Légifrance, recorded rather than smoothed over: this
+      navigation writes "du Commerce, de l’Artisanat et du Tourisme et du Pouvoir d’achat"
+      where both the decree and the announcement write "du Commerce, de l’Artisanat, du
+      Tourisme et du Pouvoir d’achat". We follow the decree's wording for the department's
+      name_original. The page is dated "Annoncé le 26/02/2026".
+
+  - id: info-gouv-composition-2025-10-12
+    tier: 2
+    type: government_website
+    publisher: Gouvernement de la République française — info.gouv.fr
+    title: Composition du gouvernement de Sébastien Lecornu
+    url: https://www.info.gouv.fr/actualite/composition-du-gouvernement-du-sebastien-lecornu
+    archive_url: https://web.archive.org/web/20260215071913/https://www.info.gouv.fr/actualite/composition-du-gouvernement-du-sebastien-lecornu
+    lang: fr
+    published: 2025-10-12
+    accessed: 2026-07-27
+    quote: |-
+      Le palais de l'Élysée a annoncé la nomination du gouvernement de Sébastien Lecornu dimanche 12 octobre 2025.
+      Auprès de la ministre de l’Action et des Comptes publics :
+      M. David AMIEL, chargé de la Fonction publique et de la Réforme de l’État.
+      Le Président de la République réunira l’ensemble des membres du Gouvernement pour un Conseil des ministres qui se tiendra le mardi 14 octobre à 10 heures.
+    note: >-
+      Cited for two things the current composition cannot show. It establishes took_office
+      — the ministers were named on 12 October 2025, two days after the Prime Minister's
+      own appointment decree of 10 October 2025 — and it evidences the one delegated
+      portfolio that has since disappeared, "chargé de la Fonction publique et de la
+      Réforme de l'État", which the February 2026 composition no longer contains. Its
+      nineteen ministres are the same nineteen departments as today's, under the same
+      names, which is the check that no department was created, merged or renamed during
+      the term. The order of two entries differs from the current one, Culture and Santé
+      having swapped rank when the culture minister was replaced; precedence order is not a
+      structural fact and this file follows the current listing.
+
+  - id: constitution-1958
+    tier: 1
+    type: statute
+    publisher: Conseil constitutionnel
+    title: Constitution du 4 octobre 1958 — texte intégral en vigueur
+    url: https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur
+    archive_url: https://web.archive.org/web/20260706131408/https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur
+    lang: fr
+    published: null
+    accessed: 2026-07-27
+    quote: |-
+      ARTICLE 8.
+      Le Président de la République nomme le Premier ministre. Il met fin à ses fonctions sur la présentation par celui-ci de la démission du Gouvernement.
+      Sur la proposition du Premier ministre, il nomme les autres membres du Gouvernement et met fin à leurs fonctions.
+      ARTICLE 9.
+      Le Président de la République préside le conseil des ministres.
+      ARTICLE 21.
+      Le Premier ministre dirige l'action du Gouvernement.
+    note: >-
+      Cited only for the Prime Minister's office, and deliberately not for any counted
+      ministry: the Constitution establishes that the Prime Minister heads the Government
+      and that the President, not the Prime Minister, chairs the conseil des ministres, but
+      it names no department, so it cannot support the existence of one. That is why France
+      is graded B — attaching this tier-1 source to the nineteen departments would raise the
+      grade to A on evidence that does not mention them.
+
+entities:
+  # Listing order follows the official directory: Premier ministre, the ministres
+  # délégués attached to him, then each ministerial department with its own délégués.
+  - id: FR-2025-premier-ministre
+    order: 1
+    name_original: Premier ministre
+    abbreviation_original: null
+    name_en: Office of the Prime Minister
+    name_es: Oficina del Primer Ministro
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Premier ministre
+    head_title_en: Prime Minister
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: head_of_government_office
+    url: null
+    sources: [constitution-1958, info-gouv-composition-directory, info-gouv-composition-2025-10-12]
+    note:
+      en: >-
+        Not a ministerial department: the composition decree does not name it among the
+        ministres and it holds no portfolio. It is recorded because its holder heads the
+        Government under article 21 of the Constitution, which is what makes the seat count
+        20 while the department count is 19. The Prime Minister is appointed by a separate
+        decree from the one that appoints the ministers.
+      es: >-
+        No es un departamento ministerial: el decreto de composición no lo enumera entre
+        los ministres y no tiene cartera. Se registra porque su titular dirige el Gobierno
+        conforme al artículo 21 de la Constitución, y eso es lo que hace que los asientos
+        sean 20 mientras los departamentos son 19. El primer ministro se nombra por un
+        decreto distinto del que nombra a los ministros.
+
+  - id: FR-2025-md-relations-parlement
+    order: 2
+    name_original: Ministre délégué auprès du Premier ministre, chargé des Relations avec le Parlement
+    abbreviation_original: null
+    name_en: Delegated Minister to the Prime Minister for Relations with Parliament
+    name_es: Ministro delegado ante el Primer Ministro, encargado de las Relaciones con el Parlamento
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre délégué
+    head_title_en: Delegated Minister
+    has_cabinet_seat: false
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: junior_minister_or_state_secretary
+    url: null
+    sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
+    note:
+      en: >-
+        A borderline case, recorded so the borderline is visible. Unlike the other
+        delegated ministers this one is granted participation in the conseil des ministres
+        without restriction by the composition decree, so a defensible curator could set
+        has_cabinet_seat: true here and raise cabinet_seats_count to 22. We do not, because
+        the post heads no department and the clause granting participation could not be
+        cited from an archived source. It is still not a ministry on any reading.
+      es: >-
+        Caso fronterizo, registrado para que la frontera se vea. A diferencia de los demás
+        ministros delegados, el decreto de composición le concede participación sin
+        restricciones en el conseil des ministres, por lo que un curador defendible podría
+        poner aquí has_cabinet_seat: true y elevar cabinet_seats_count a 22. No lo hacemos,
+        porque el puesto no encabeza ningún departamento y la cláusula que concede esa
+        participación no pudo citarse desde una fuente archivada. En ninguna lectura es un
+        ministerio.
+
+  - id: FR-2025-md-porte-parole-energie
+    order: 3
+    name_original: Ministre déléguée, porte-parole du Gouvernement auprès du Premier ministre et ministre déléguée, chargée de l’Énergie auprès du ministre de l’Économie, des Finances et de la Souveraineté industrielle, énergétique et numérique
+    abbreviation_original: null
+    name_en: Delegated Minister, Government Spokesperson to the Prime Minister, and Delegated Minister for Energy to the Minister of the Economy, Finance and Industrial, Energy and Digital Sovereignty
+    name_es: Ministra delegada, portavoz del Gobierno ante el Primer Ministro, y ministra delegada de Energía ante el Ministro de Economía, Hacienda y Soberanía Industrial, Energética y Digital
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre déléguée
+    head_title_en: Delegated Minister
+    has_cabinet_seat: false
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: junior_minister_or_state_secretary
+    url: null
+    sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
+    note:
+      en: >-
+        One post, listed twice on the official page — once under the Prime Minister as
+        government spokesperson and once under the economy ministry as delegated minister
+        for energy — and recorded once here, so that a reader counting the official page
+        does not arrive at 37 members. The spokesperson role dates from 12 October 2025; the
+        energy remit was added on 26 February 2026. Like the post above, the composition
+        decree grants it unrestricted participation in the conseil des ministres, so the
+        same 22-seat reading is available.
+      es: >-
+        Un solo puesto, listado dos veces en la página oficial —una bajo el primer ministro
+        como portavoz del Gobierno y otra bajo el ministerio de economía como ministra
+        delegada de Energía— y registrado aquí una sola vez, para que quien cuente la página
+        oficial no llegue a 37 miembros. La portavocía data del 12 de octubre de 2025; la
+        competencia de energía se añadió el 26 de febrero de 2026. Igual que el puesto
+        anterior, el decreto de composición le concede participación sin restricciones en el
+        conseil des ministres, por lo que cabe la misma lectura de 22 asientos.
+
+  - id: FR-2025-md-egalite-femmes-hommes
+    order: 4
+    name_original: Ministre déléguée auprès du Premier ministre, chargée de l’Égalité entre les femmes et les hommes et de la Lutte contre les discriminations
+    abbreviation_original: null
+    name_en: Delegated Minister to the Prime Minister for Equality between Women and Men and the Fight against Discrimination
+    name_es: Ministra delegada ante el Primer Ministro, encargada de la Igualdad entre Mujeres y Hombres y de la Lucha contra las Discriminaciones
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre déléguée
+    head_title_en: Delegated Minister
+    has_cabinet_seat: false
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: junior_minister_or_state_secretary
+    url: null
+    sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
+    note:
+      en: >-
+        Worth flagging for the comparison views: equality is a delegated portfolio attached
+        to the Prime Minister in France, not a ministerial department as it is in Spain. The
+        France row therefore shows no ministry tagged "equality", and that absence is a
+        finding about structure rather than a gap in the data.
+      es: >-
+        Merece señalarse para las vistas comparativas: en Francia la igualdad es una
+        delegación adscrita al primer ministro, no un departamento ministerial como en
+        España. La fila de Francia no muestra por tanto ningún ministerio etiquetado
+        «equality», y esa ausencia es un hallazgo sobre la estructura, no una laguna de los
+        datos.
+
+  # --- counted: 19 ministerial departments -------------------------------------
+  - id: FR-2025-interieur
+    order: 5
+    name_original: Ministère de l’Intérieur
+    abbreviation_original: null
+    name_en: Ministry of the Interior
+    name_es: Ministerio del Interior
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [interior, migration, civil_protection]
+    counts_as_ministry: true
+    url: https://www.interieur.gouv.fr
+    sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
+    note:
+      en: >-
+        The migration tag does not come from the name, which is a single word. It comes from
+        the décret n° 2025-995 du 29 octobre 2025 relatif aux attributions du ministre de
+        l'intérieur, whose article 1 charges the minister with "la sécurité intérieure, les
+        libertés publiques, l'immigration, l'asile, l'intégration des étrangers en France".
+        France has no separate migration ministry, so omitting the tag would make it look as
+        though nobody owns the area.
+      es: >-
+        La etiqueta de migración no procede del nombre, que es una sola palabra, sino del
+        décret n° 2025-995 du 29 octobre 2025 relatif aux attributions du ministre de
+        l'intérieur, cuyo artículo 1 encomienda al ministro «la sécurité intérieure, les
+        libertés publiques, l'immigration, l'asile, l'intégration des étrangers en France».
+        Francia no tiene un ministerio de migración separado, de modo que omitir la etiqueta
+        haría parecer que nadie asume esa área.
+
+  - id: FR-2025-md-interieur
+    order: 6
+    name_original: Ministre délégué auprès du ministre de l’Intérieur
+    abbreviation_original: null
+    name_en: Delegated Minister to the Minister of the Interior
+    name_es: Ministro delegado ante el Ministro del Interior
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre délégué
+    head_title_en: Delegated Minister
+    has_cabinet_seat: false
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: junior_minister_or_state_secretary
+    url: null
+    sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
+    note:
+      en: >-
+        A delegated post with no named remit — the decree attaches its holder to the
+        interior minister and stops there. The post itself is continuous from 12 October
+        2025; only its occupant changed in February 2026, when the previous holder moved to
+        the citizenship post recorded next, so it carries no valid_from.
+      es: >-
+        Puesto delegado sin competencia nominada: el decreto adscribe a su titular al
+        ministro del Interior y no dice más. El puesto es continuo desde el 12 de octubre de
+        2025; en febrero de 2026 solo cambió su ocupante, cuando la titular anterior pasó al
+        puesto de Ciudadanía que se registra a continuación, de modo que no lleva valid_from.
+
+  - id: FR-2025-md-citoyennete
+    order: 7
+    name_original: Ministre déléguée auprès du ministre de l’Intérieur, chargée de la Citoyenneté
+    abbreviation_original: null
+    name_en: Delegated Minister to the Minister of the Interior for Citizenship
+    name_es: Ministra delegada ante el Ministro del Interior, encargada de la Ciudadanía
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre déléguée
+    head_title_en: Delegated Minister
+    has_cabinet_seat: false
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: junior_minister_or_state_secretary
+    valid_from: 2026-02-26
+    url: null
+    sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
+    note:
+      en: >-
+        Created by the composition decree of 26 February 2026 and given its remit by the
+        décret n° 2026-185 du 18 mars 2026. It is a new delegated portfolio, not a new
+        department, so it changes no count; valid_from records when it appeared.
+      es: >-
+        Creado por el decreto de composición del 26 de febrero de 2026 y dotado de
+        competencias por el décret n° 2026-185 du 18 mars 2026. Es una nueva delegación, no
+        un nuevo departamento, por lo que no altera ningún recuento; valid_from registra
+        cuándo apareció.
+
+  - id: FR-2025-armees-anciens-combattants
+    order: 8
+    name_original: Ministère des Armées et des Anciens combattants
+    abbreviation_original: null
+    name_en: Ministry of the Armed Forces and Veterans
+    name_es: Ministerio de las Fuerzas Armadas y de los Excombatientes
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [defence, veterans]
+    counts_as_ministry: true
+    url: https://www.defense.gouv.fr
+    sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
+
+  - id: FR-2025-md-armees
+    order: 9
+    name_original: Ministre déléguée auprès de la ministre des Armées et des Anciens combattants
+    abbreviation_original: null
+    name_en: Delegated Minister to the Minister of the Armed Forces and Veterans
+    name_es: Ministra delegada ante la Ministra de las Fuerzas Armadas y de los Excombatientes
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre déléguée
+    head_title_en: Delegated Minister
+    has_cabinet_seat: false
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: junior_minister_or_state_secretary
+    url: null
+    sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
+
+  - id: FR-2025-travail-solidarites
+    order: 10
+    name_original: Ministère du Travail et des Solidarités
+    abbreviation_original: null
+    name_en: Ministry of Labour and Solidarity
+    name_es: Ministerio de Trabajo y Solidaridades
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [labour, social_affairs, social_security]
+    counts_as_ministry: true
+    url: https://solidarites.gouv.fr
+    sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
+    note:
+      en: >-
+        The social_security tag is a judgement. The name says only "Travail et Solidarités",
+        but this is the department that carries the sécurité sociale, and France has no
+        separate social-security ministry; the alternative reading, tagging only labour and
+        social_affairs, would leave the area unowned in the France row. Note that families,
+        long-term care and disability are not here: they belong to the health ministry.
+      es: >-
+        La etiqueta social_security es un juicio. El nombre solo dice «Travail et
+        Solidarités», pero este es el departamento que lleva la sécurité sociale y Francia no
+        tiene un ministerio de seguridad social aparte; la lectura alternativa, etiquetar
+        solo labour y social_affairs, dejaría el área sin titular en la fila de Francia.
+        Nótese que familias, autonomía y discapacidad no están aquí: corresponden al
+        ministerio de sanidad.
+
+  - id: FR-2025-md-enseignement-formation-professionnels
+    order: 11
+    name_original: Ministre déléguée auprès du ministre du Travail et des Solidarités et du ministre de l’Éducation nationale, chargée de l’Enseignement et de la Formation professionnels et de l’Apprentissage
+    abbreviation_original: null
+    name_en: Delegated Minister to the Minister of Labour and Solidarity and the Minister of National Education for Vocational Education, Vocational Training and Apprenticeship
+    name_es: Ministra delegada ante el Ministro de Trabajo y Solidaridades y el Ministro de Educación Nacional, encargada de la Enseñanza y la Formación Profesionales y del Aprendizaje
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre déléguée
+    head_title_en: Delegated Minister
+    has_cabinet_seat: false
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: junior_minister_or_state_secretary
+    valid_from: 2026-02-26
+    url: null
+    sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
+    note:
+      en: >-
+        Created on 26 February 2026 and given its remit by the décret n° 2026-187 du 18 mars
+        2026. Unusually it is attached to two ministers at once, labour and national
+        education, and so appears twice on the official composition page; it is recorded
+        once. It is a delegated post inside two existing departments, not a department, so it
+        adds nothing to the count. The vocational_training policy area is tagged on national
+        education, which is where the schools side of the remit sits.
+      es: >-
+        Creada el 26 de febrero de 2026 y dotada de competencias por el décret n° 2026-187 du
+        18 mars 2026. Inusualmente está adscrita a dos ministros a la vez, trabajo y
+        educación nacional, y por eso figura dos veces en la página oficial de composición;
+        se registra una sola vez. Es una delegación dentro de dos departamentos existentes,
+        no un departamento, así que no añade nada al recuento. El área vocational_training se
+        etiqueta en educación nacional, donde se sitúa la parte escolar de la competencia.
+
+  - id: FR-2025-transition-ecologique
+    order: 12
+    name_original: Ministère de la Transition écologique, de la Biodiversité et des Négociations internationales sur le climat et la nature
+    abbreviation_original: null
+    name_en: Ministry for the Ecological Transition, Biodiversity and International Negotiations on Climate and Nature
+    name_es: Ministerio de la Transición Ecológica, la Biodiversidad y las Negociaciones Internacionales sobre el Clima y la Naturaleza
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [environment, climate, fisheries]
+    counts_as_ministry: true
+    url: https://www.ecologie.gouv.fr
+    sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
+    note:
+      en: >-
+        Energy is deliberately not tagged here. Despite the name, "souveraineté énergétique"
+        belongs to the economy ministry, which also holds the delegated minister for energy —
+        a reversal of the arrangement most EU governments use, and the single most likely
+        thing for a cross-country reader to get wrong about France. Fisheries and maritime
+        affairs are tagged here because the delegated minister for the sea and fisheries is
+        attached to this department.
+      es: >-
+        La energía no se etiqueta aquí, deliberadamente. A pesar del nombre, la «souveraineté
+        énergétique» corresponde al ministerio de economía, que además tiene a la ministra
+        delegada de Energía: lo contrario de lo que hace la mayoría de gobiernos de la UE, y
+        lo que con más probabilidad malinterpretará quien compare países. La pesca y los
+        asuntos marítimos se etiquetan aquí porque la ministra delegada del Mar y la Pesca
+        está adscrita a este departamento.
+
+  - id: FR-2025-md-mer-peche
+    order: 13
+    name_original: Ministre déléguée auprès de la ministre de la Transition écologique, de la Biodiversité et des Négociations internationales sur le climat et la nature, chargée de la Mer et de la Pêche
+    abbreviation_original: null
+    name_en: Delegated Minister to the Minister for the Ecological Transition, Biodiversity and International Negotiations on Climate and Nature, for the Sea and Fisheries
+    name_es: Ministra delegada ante la Ministra de la Transición Ecológica, la Biodiversidad y las Negociaciones Internacionales sobre el Clima y la Naturaleza, encargada del Mar y la Pesca
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre déléguée
+    head_title_en: Delegated Minister
+    has_cabinet_seat: false
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: junior_minister_or_state_secretary
+    url: null
+    sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
+    note:
+      en: >-
+        France has had a full ministère de la Mer in living memory; in this government the
+        sea and fisheries are a delegated portfolio inside the ecological-transition
+        department. Recorded so a reader who expects a maritime ministry can see where it
+        went.
+      es: >-
+        Francia ha tenido un ministère de la Mer de pleno derecho en tiempos recientes; en
+        este gobierno el mar y la pesca son una delegación dentro del departamento de
+        transición ecológica. Se registra para que quien espere un ministerio marítimo vea
+        dónde quedó.
+
+  - id: FR-2025-md-transition-ecologique
+    order: 14
+    name_original: Ministre délégué auprès de la ministre de la Transition écologique, de la Biodiversité et des Négociations internationales sur le climat et la nature, chargé de la Transition écologique
+    abbreviation_original: null
+    name_en: Delegated Minister to the Minister for the Ecological Transition, Biodiversity and International Negotiations on Climate and Nature, for the Ecological Transition
+    name_es: Ministro delegado ante la Ministra de la Transición Ecológica, la Biodiversidad y las Negociaciones Internacionales sobre el Clima y la Naturaleza, encargado de la Transición Ecológica
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre délégué
+    head_title_en: Delegated Minister
+    has_cabinet_seat: false
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: junior_minister_or_state_secretary
+    url: null
+    sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
+
+  - id: FR-2025-justice
+    order: 15
+    name_original: Ministère de la Justice
+    abbreviation_original: null
+    name_en: Ministry of Justice
+    name_es: Ministerio de Justicia
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Garde des Sceaux, ministre de la Justice
+    head_title_en: Keeper of the Seals, Minister of Justice
+    has_cabinet_seat: true
+    policy_areas: [justice]
+    counts_as_ministry: true
+    url: https://www.justice.gouv.fr
+    sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
+    note:
+      en: >-
+        The head's title is recorded as the composition decree gives it, "garde des Sceaux,
+        ministre de la Justice". "Garde des Sceaux" is an honorific attached to the justice
+        minister, not a second office, so it adds neither a department nor a seat.
+      es: >-
+        El título del titular se registra como lo da el decreto de composición, «garde des
+        Sceaux, ministre de la Justice». «Garde des Sceaux» es un honorífico adscrito al
+        ministro de Justicia, no un segundo cargo, por lo que no añade departamento ni
+        asiento.
+
+  - id: FR-2025-economie-finances
+    order: 16
+    name_original: Ministère de l’Économie, des Finances et de la Souveraineté industrielle, énergétique et numérique
+    abbreviation_original: null
+    name_en: Ministry of the Economy, Finance and Industrial, Energy and Digital Sovereignty
+    name_es: Ministerio de Economía, Hacienda y Soberanía Industrial, Energética y Digital
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [economy, finance, industry, energy, digital]
+    counts_as_ministry: true
+    url: https://www.economie.gouv.fr
+    sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
+    note:
+      en: >-
+        Five policy areas, which is more than any other French department, because the name
+        claims all five and three delegated ministers — industry, energy, and artificial
+        intelligence and digital — sit inside it. Budget and public accounts are not among
+        them: they are a separate department. Telecommunications is not tagged; the "numérique"
+        remit here is digital policy and AI rather than telecoms regulation.
+      es: >-
+        Cinco áreas, más que ningún otro departamento francés, porque el nombre reclama las
+        cinco y tres ministros delegados —industria, energía e inteligencia artificial y
+        digital— están dentro de él. El presupuesto y las cuentas públicas no están entre
+        ellas: son un departamento aparte. No se etiquetan telecomunicaciones; la competencia
+        «numérique» de aquí es política digital e IA, no regulación de telecos.
+
+  - id: FR-2025-md-industrie
+    order: 17
+    name_original: Ministre délégué auprès du ministre de l’Économie, des Finances et de la Souveraineté industrielle, énergétique et numérique, chargé de l’Industrie
+    abbreviation_original: null
+    name_en: Delegated Minister to the Minister of the Economy, Finance and Industrial, Energy and Digital Sovereignty, for Industry
+    name_es: Ministro delegado ante el Ministro de Economía, Hacienda y Soberanía Industrial, Energética y Digital, encargado de la Industria
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre délégué
+    head_title_en: Delegated Minister
+    has_cabinet_seat: false
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: junior_minister_or_state_secretary
+    url: null
+    sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
+
+  - id: FR-2025-md-intelligence-artificielle-numerique
+    order: 18
+    name_original: Ministre déléguée auprès du ministre de l’Économie, des Finances et de la Souveraineté industrielle, énergétique et numérique, chargée de l’Intelligence artificielle et du Numérique
+    abbreviation_original: null
+    name_en: Delegated Minister to the Minister of the Economy, Finance and Industrial, Energy and Digital Sovereignty, for Artificial Intelligence and Digital Affairs
+    name_es: Ministra delegada ante el Ministro de Economía, Hacienda y Soberanía Industrial, Energética y Digital, encargada de la Inteligencia Artificial y lo Digital
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre déléguée
+    head_title_en: Delegated Minister
+    has_cabinet_seat: false
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: junior_minister_or_state_secretary
+    url: null
+    sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
+    note:
+      en: >-
+        Artificial intelligence has a named minister in France but not a department. Anyone
+        looking for an AI or digital ministry in the France row will not find one; the remit
+        is a delegated portfolio inside the economy department, and "digital" is tagged there.
+      es: >-
+        La inteligencia artificial tiene ministra nombrada en Francia pero no departamento.
+        Quien busque un ministerio de IA o de lo digital en la fila de Francia no lo
+        encontrará: la competencia es una delegación dentro del departamento de economía, y
+        «digital» se etiqueta allí.
+
+  - id: FR-2025-pme-commerce-artisanat-tourisme
+    order: 19
+    name_original: Ministère des Petites et moyennes entreprises, du Commerce, de l’Artisanat, du Tourisme et du Pouvoir d’achat
+    abbreviation_original: null
+    name_en: Ministry of Small and Medium-Sized Enterprises, Trade, Crafts, Tourism and Purchasing Power
+    name_es: Ministerio de Pequeñas y Medianas Empresas, Comercio, Artesanía, Turismo y Poder de Compra
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [small_business, trade, tourism, consumer_protection]
+    counts_as_ministry: true
+    url: https://www.entreprises.gouv.fr
+    sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
+    note:
+      en: >-
+        Two tags here are the closest available fit rather than a match. "Artisanat" is
+        folded into small_business, and "pouvoir d'achat" — a cost-of-living remit — into
+        consumer_protection; the taxonomy has no id for either. The trade tag is also carried
+        by the foreign affairs department, which holds external trade; this one is domestic
+        commerce. The official directory's navigation spells the name with an extra "et"
+        before "du Tourisme"; the decree's wording is used here.
+      es: >-
+        Dos etiquetas son aquí lo más aproximado disponible, no una correspondencia exacta.
+        «Artisanat» se integra en small_business y «pouvoir d'achat» —una competencia de coste
+        de la vida— en consumer_protection; la taxonomía no tiene id para ninguna de las dos.
+        La etiqueta trade la lleva también el departamento de asuntos exteriores, que tiene el
+        comercio exterior; esta es el comercio interior. La navegación del directorio oficial
+        escribe el nombre con un «et» de más antes de «du Tourisme»; aquí se usa la redacción
+        del decreto.
+
+  - id: FR-2025-agriculture
+    order: 20
+    name_original: Ministère de l’Agriculture, de l’Agro-alimentaire et de la Souveraineté alimentaire
+    abbreviation_original: null
+    name_en: Ministry of Agriculture, Agri-Food and Food Sovereignty
+    name_es: Ministerio de Agricultura, Agroalimentación y Soberanía Alimentaria
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [agriculture, food_safety]
+    counts_as_ministry: true
+    url: https://agriculture.gouv.fr
+    sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
+    note:
+      en: >-
+        Fisheries is not tagged here, unlike in most EU governments: in this government the
+        sea and fisheries are a delegated portfolio of the ecological-transition department.
+        Rural development is not tagged here either; it is a delegated portfolio of the
+        territorial-planning department.
+      es: >-
+        La pesca no se etiqueta aquí, a diferencia de la mayoría de gobiernos de la UE: en
+        este gobierno el mar y la pesca son una delegación del departamento de transición
+        ecológica. El desarrollo rural tampoco se etiqueta aquí; es una delegación del
+        departamento de ordenación del territorio.
+
+  - id: FR-2025-education-nationale
+    order: 21
+    name_original: Ministère de l’Éducation nationale
+    abbreviation_original: null
+    name_en: Ministry of National Education
+    name_es: Ministerio de Educación Nacional
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [education, vocational_training]
+    counts_as_ministry: true
+    url: https://www.education.gouv.fr
+    sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
+    note:
+      en: >-
+        Schools only: higher education, research and space are a separate department. The
+        vocational_training tag reflects the delegated minister for vocational education and
+        apprenticeship, who since 26 February 2026 reports jointly to this department and to
+        labour; tagging the area on both would double-count it, so it is tagged here, on the
+        schools side.
+      es: >-
+        Solo enseñanza escolar: la enseñanza superior, la investigación y el espacio son un
+        departamento aparte. La etiqueta vocational_training refleja a la ministra delegada de
+        Enseñanza y Formación Profesionales y Aprendizaje, que desde el 26 de febrero de 2026
+        depende conjuntamente de este departamento y de trabajo; etiquetar el área en ambos la
+        contaría dos veces, así que se etiqueta aquí, del lado escolar.
+
+  - id: FR-2025-europe-affaires-etrangeres
+    order: 22
+    name_original: Ministère de l’Europe et des Affaires étrangères
+    abbreviation_original: null
+    name_en: Ministry for Europe and Foreign Affairs
+    name_es: Ministerio de Europa y Asuntos Exteriores
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [foreign_affairs, european_affairs, trade, development_cooperation, diaspora]
+    counts_as_ministry: true
+    url: https://www.diplomatie.gouv.fr
+    sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
+    note:
+      en: >-
+        The official name puts Europe first, but foreign_affairs is listed first here because
+        it is the department's principal area; the ordering rule is about prominence in the
+        name and this is the one place we depart from it. The last three tags come from its
+        three delegated ministers: external trade, international partnerships — which is how
+        France frames development cooperation — and French citizens abroad.
+      es: >-
+        El nombre oficial pone Europa primero, pero aquí foreign_affairs figura primero porque
+        es el área principal del departamento; la regla de orden se refiere a la prominencia
+        en el nombre y este es el único punto en que nos apartamos de ella. Las tres últimas
+        etiquetas provienen de sus tres ministros delegados: comercio exterior, asociaciones
+        internacionales —así enmarca Francia la cooperación al desarrollo— y franceses en el
+        exterior.
+
+  - id: FR-2025-md-europe
+    order: 23
+    name_original: Ministre délégué auprès du ministre de l’Europe et des Affaires étrangères, chargé de l’Europe
+    abbreviation_original: null
+    name_en: Delegated Minister to the Minister for Europe and Foreign Affairs, for Europe
+    name_es: Ministro delegado ante el Ministro de Europa y Asuntos Exteriores, encargado de Europa
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre délégué
+    head_title_en: Delegated Minister
+    has_cabinet_seat: false
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: junior_minister_or_state_secretary
+    url: null
+    sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
+
+  - id: FR-2025-md-commerce-exterieur
+    order: 24
+    name_original: Ministre délégué auprès du ministre de l’Europe et des Affaires étrangères, chargé du Commerce extérieur et de l'Attractivité
+    abbreviation_original: null
+    name_en: Delegated Minister to the Minister for Europe and Foreign Affairs, for External Trade and Attractiveness
+    name_es: Ministro delegado ante el Ministro de Europa y Asuntos Exteriores, encargado del Comercio Exterior y el Atractivo
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre délégué
+    head_title_en: Delegated Minister
+    has_cabinet_seat: false
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: junior_minister_or_state_secretary
+    url: null
+    sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
+    note:
+      en: >-
+        External trade sits with foreign affairs in France, not with the economy or the
+        small-business department. Recorded because a reader comparing trade portfolios across
+        countries needs to know which department owns it here.
+      es: >-
+        En Francia el comercio exterior está en asuntos exteriores, no en economía ni en el
+        departamento de pymes. Se registra porque quien compare carteras de comercio entre
+        países necesita saber qué departamento lo asume aquí.
+
+  - id: FR-2025-md-francophonie
+    order: 25
+    name_original: Ministre déléguée auprès du ministre de l’Europe et des Affaires étrangères, chargée de la Francophonie, des Partenariats internationaux et des Français de l’étranger
+    abbreviation_original: null
+    name_en: Delegated Minister to the Minister for Europe and Foreign Affairs, for the Francophonie, International Partnerships and French Nationals Abroad
+    name_es: Ministra delegada ante el Ministro de Europa y Asuntos Exteriores, encargada de la Francofonía, las Asociaciones Internacionales y los Franceses en el Exterior
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre déléguée
+    head_title_en: Delegated Minister
+    has_cabinet_seat: false
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: junior_minister_or_state_secretary
+    url: null
+    sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
+    note:
+      en: >-
+        "Partenariats internationaux" is how this government names development cooperation,
+        and the francophonie remit has no counterpart in the taxonomy at all. Both are folded
+        into the parent department's tags rather than left invisible.
+      es: >-
+        «Partenariats internationaux» es como este gobierno denomina la cooperación al
+        desarrollo, y la competencia de francofonía no tiene equivalente alguno en la
+        taxonomía. Ambas se integran en las etiquetas del departamento matriz en lugar de
+        quedar invisibles.
+
+  - id: FR-2025-sante-familles-autonomie
+    order: 26
+    name_original: Ministère de la Santé, des Familles, de l’Autonomie et des Personnes handicapées
+    abbreviation_original: null
+    name_en: Ministry of Health, Families, Long-Term Care and Disability
+    name_es: Ministerio de Sanidad, Familias, Autonomía y Personas con Discapacidad
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [health, family, elderly, disability]
+    counts_as_ministry: true
+    url: https://www.sante.gouv.fr
+    sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
+    note:
+      en: >-
+        "Autonomie" is tagged as elderly: in French usage it means the loss of autonomy that
+        comes with age and the care system that answers it. The disability half of the same
+        word is tagged separately because the name states it separately.
+      es: >-
+        «Autonomie» se etiqueta como elderly: en el uso francés designa la pérdida de
+        autonomía asociada a la edad y el sistema de cuidados que la atiende. La mitad de
+        discapacidad de esa misma expresión se etiqueta aparte porque el nombre la enuncia
+        aparte.
+
+  - id: FR-2025-md-autonomie-personnes-handicapees
+    order: 27
+    name_original: Ministre déléguée auprès de la ministre de la Santé, des Familles, de l’Autonomie et des Personnes handicapées, chargée de l’Autonomie et des Personnes handicapées
+    abbreviation_original: null
+    name_en: Delegated Minister to the Minister of Health, Families, Long-Term Care and Disability, for Long-Term Care and Disability
+    name_es: Ministra delegada ante la Ministra de Sanidad, Familias, Autonomía y Personas con Discapacidad, encargada de la Autonomía y las Personas con Discapacidad
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre déléguée
+    head_title_en: Delegated Minister
+    has_cabinet_seat: false
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: junior_minister_or_state_secretary
+    url: null
+    sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
+    note:
+      en: >-
+        The post is continuous from 12 October 2025 with the same remit; only its holder
+        changed on 26 February 2026, which is an officeholder change and not recorded as a
+        structural one. Its attributions were restated by the décret n° 2026-192 du 18 mars
+        2026.
+      es: >-
+        El puesto es continuo desde el 12 de octubre de 2025 con la misma competencia; solo
+        cambió su titular el 26 de febrero de 2026, lo que es un cambio de persona y no se
+        registra como estructural. Sus atribuciones se reformularon por el décret n° 2026-192
+        du 18 mars 2026.
+
+  - id: FR-2025-culture
+    order: 28
+    name_original: Ministère de la Culture
+    abbreviation_original: null
+    name_en: Ministry of Culture
+    name_es: Ministerio de Cultura
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [culture, media]
+    counts_as_ministry: true
+    url: https://www.culture.gouv.fr
+    sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
+    note:
+      en: >-
+        The media tag is a judgement the name does not state. The French culture ministry has
+        carried press and broadcasting policy for decades, through its directorate-general for
+        media and cultural industries, and no other department claims the area; a curator
+        tagging culture alone would leave media unowned in the France row. The holder of this
+        department changed on 26 February 2026; the department did not.
+      es: >-
+        La etiqueta media es un juicio que el nombre no enuncia. El ministerio de Cultura
+        francés lleva décadas asumiendo la política de prensa y audiovisual, a través de su
+        dirección general de medios e industrias culturales, y ningún otro departamento reclama
+        el área; quien etiquetara solo culture dejaría media sin titular en la fila de Francia.
+        La titular de este departamento cambió el 26 de febrero de 2026; el departamento no.
+
+  - id: FR-2025-outre-mer
+    order: 29
+    name_original: Ministère des Outre-mer
+    abbreviation_original: null
+    name_en: Ministry for the Overseas Territories
+    name_es: Ministerio de los Territorios de Ultramar
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [territorial_administration, regional_development]
+    counts_as_ministry: true
+    url: https://www.outre-mer.gouv.fr
+    sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
+    note:
+      en: >-
+        The taxonomy has no id for overseas or dependent territories, which is the one gap this
+        country file really felt. Both tags are approximations: the department administers the
+        overseas départements and collectivités and runs their development programmes, but it is
+        not a territorial-administration ministry in the sense the id implies. An
+        overseas_territories id is the addition this curator would propose.
+      es: >-
+        La taxonomía no tiene id para territorios de ultramar o dependientes, y esa es la única
+        laguna que este país ha hecho notar de verdad. Ambas etiquetas son aproximaciones: el
+        departamento administra los departamentos y colectividades de ultramar y gestiona sus
+        programas de desarrollo, pero no es un ministerio de administración territorial en el
+        sentido que sugiere el id. Un id overseas_territories es la adición que este curador
+        propondría.
+
+  - id: FR-2025-amenagement-territoire-decentralisation
+    order: 30
+    name_original: Ministère de l’Aménagement du territoire et de la Décentralisation
+    abbreviation_original: null
+    name_en: Ministry of Territorial Planning and Decentralisation
+    name_es: Ministerio de Ordenación del Territorio y Descentralización
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [spatial_planning, territorial_administration, rural_development]
+    counts_as_ministry: true
+    url: null
+    sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
+    note:
+      en: >-
+        This department, not the interior ministry, owns decentralisation and relations with
+        local authorities; the interior ministry owns the prefectural administration of the
+        state. The two are easy to conflate and the split is a real feature of the French
+        executive. Rural development is tagged because the delegated minister for rurality sits
+        here. url is left null: no single ministerial site could be verified for this
+        department, and inventing a plausible one is worse than leaving it empty.
+      es: >-
+        Este departamento, y no el ministerio del Interior, asume la descentralización y las
+        relaciones con las entidades locales; el ministerio del Interior asume la administración
+        prefectoral del Estado. Es fácil confundirlos y el reparto es un rasgo real del ejecutivo
+        francés. El desarrollo rural se etiqueta aquí porque el ministro delegado de Ruralidad
+        está en este departamento. url queda en null: no pudo verificarse ningún sitio ministerial
+        único para este departamento, e inventar uno plausible es peor que dejarlo vacío.
+
+  - id: FR-2025-md-ruralite
+    order: 31
+    name_original: Ministre délégué auprès de la ministre de l’Aménagement du territoire et de la Décentralisation, chargé de la Ruralité
+    abbreviation_original: null
+    name_en: Delegated Minister to the Minister of Territorial Planning and Decentralisation, for Rural Affairs
+    name_es: Ministro delegado ante la Ministra de Ordenación del Territorio y Descentralización, encargado de la Ruralidad
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre délégué
+    head_title_en: Delegated Minister
+    has_cabinet_seat: false
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: junior_minister_or_state_secretary
+    url: null
+    sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
+
+  - id: FR-2025-action-comptes-publics
+    order: 32
+    name_original: Ministère de l’Action et des Comptes publics
+    abbreviation_original: null
+    name_en: Ministry of Public Action and Public Accounts
+    name_es: Ministerio de Acción y Cuentas Públicas
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [budget, public_administration]
+    counts_as_ministry: true
+    url: null
+    sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
+    note:
+      en: >-
+        France splits what most governments keep together: the budget and public accounts are a
+        department of their own, separate from the economy and finance ministry. Its head changed
+        on 22 February 2026, when the delegated minister for the civil service was promoted into
+        it and his delegated post was not refilled; the department itself is unchanged since 12
+        October 2025. url is null because budget.gouv.fr could not be confirmed as this
+        department's own site rather than a cross-government budget portal.
+      es: >-
+        Francia separa lo que la mayoría de gobiernos mantiene junto: el presupuesto y las
+        cuentas públicas son un departamento propio, distinto del ministerio de economía y
+        hacienda. Su titular cambió el 22 de febrero de 2026, cuando el ministro delegado de
+        Función Pública ascendió a encabezarlo y su puesto delegado no se volvió a cubrir; el
+        departamento en sí no ha cambiado desde el 12 de octubre de 2025. url es null porque no
+        pudo confirmarse que budget.gouv.fr sea el sitio propio de este departamento y no un
+        portal presupuestario interministerial.
+
+  - id: FR-2025-enseignement-superieur-recherche-espace
+    order: 33
+    name_original: Ministère de l’Enseignement supérieur, de la Recherche et de l’Espace
+    abbreviation_original: null
+    name_en: Ministry of Higher Education, Research and Space
+    name_es: Ministerio de Enseñanza Superior, Investigación y Espacio
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [higher_education, research, space]
+    counts_as_ministry: true
+    url: https://www.enseignementsup-recherche.gouv.fr
+    sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
+    note:
+      en: >-
+        One of very few EU departments to name space in its title, which is worth noticing in the
+        policy-area matrix rather than leaving to a footnote.
+      es: >-
+        Uno de los muy pocos departamentos de la UE que nombra el espacio en su título, algo que
+        merece verse en la matriz de áreas de política y no quedar en una nota al pie.
+
+  - id: FR-2025-sports-jeunesse-vie-associative
+    order: 34
+    name_original: Ministère des Sports, de la Jeunesse et de la Vie associative
+    abbreviation_original: null
+    name_en: Ministry of Sport, Youth and Community Life
+    name_es: Ministerio de Deportes, Juventud y Vida Asociativa
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [sport, youth]
+    counts_as_ministry: true
+    url: https://www.sports.gouv.fr
+    sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
+    note:
+      en: >-
+        "Vie associative" — the voluntary and community sector — is the third of this
+        department's three named remits and has no id in the taxonomy, so it is not tagged at
+        all. A civil_society id would be the second addition this curator would propose.
+      es: >-
+        «Vie associative» —el sector asociativo y del voluntariado— es la tercera de las tres
+        competencias nombradas de este departamento y no tiene id en la taxonomía, por lo que no
+        se etiqueta en absoluto. Un id civil_society sería la segunda adición que este curador
+        propondría.
+
+  - id: FR-2025-transports
+    order: 35
+    name_original: Ministère des Transports
+    abbreviation_original: null
+    name_en: Ministry of Transport
+    name_es: Ministerio de Transportes
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [transport, infrastructure]
+    counts_as_ministry: true
+    url: null
+    sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
+    note:
+      en: >-
+        A department in its own right in this government, rather than a delegated portfolio of the
+        ecological-transition ministry as it has often been in France. url is null:
+        transports.gouv.fr does not resolve and the department's content sits under the
+        ecological-transition site, which is not its own address.
+      es: >-
+        En este gobierno es un departamento de pleno derecho, y no una delegación del ministerio de
+        transición ecológica como ha sido a menudo en Francia. url es null: transports.gouv.fr no
+        resuelve y sus contenidos están bajo el sitio de transición ecológica, que no es su
+        dirección propia.
+
+  - id: FR-2025-ville-logement
+    order: 36
+    name_original: Ministère de la Ville et du Logement
+    abbreviation_original: null
+    name_en: Ministry of Urban Affairs and Housing
+    name_es: Ministerio de la Ciudad y la Vivienda
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [housing, spatial_planning]
+    counts_as_ministry: true
+    url: null
+    sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
+    note:
+      en: >-
+        "Ville" is urban policy — the state's programmes for deprived neighbourhoods — for which the
+        taxonomy has no id; spatial_planning is the closest fit and is shared with the
+        territorial-planning department. An urban_policy id would be the third addition this curator
+        would propose. url is null: logement.gouv.fr redirects to the ecological-transition site and
+        ville.gouv.fr does not resolve.
+      es: >-
+        «Ville» es la política de la ciudad —los programas estatales para barrios
+        desfavorecidos—, para la que la taxonomía no tiene id; spatial_planning es lo más
+        aproximado y se comparte con el departamento de ordenación del territorio. Un id
+        urban_policy sería la tercera adición que este curador propondría. url es null:
+        logement.gouv.fr redirige al sitio de transición ecológica y ville.gouv.fr no resuelve.
+
+  # --- closed during the term, kept for the historical record ---------------------
+  - id: FR-2025-md-fonction-publique
+    order: 37
+    name_original: Ministre délégué auprès de la ministre de l’Action et des Comptes publics, chargé de la Fonction publique et de la Réforme de l’État
+    abbreviation_original: null
+    name_en: Delegated Minister to the Minister of Public Action and Public Accounts, for the Civil Service and State Reform
+    name_es: Ministro delegado ante la Ministra de Acción y Cuentas Públicas, encargado de la Función Pública y la Reforma del Estado
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre délégué
+    head_title_en: Delegated Minister
+    has_cabinet_seat: false
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: junior_minister_or_state_secretary
+    valid_to: 2026-02-22
+    url: null
+    sources: [info-gouv-composition-2025-10-12, info-gouv-composition-2026-02-26]
+    note:
+      en: >-
+        Recorded rather than deleted, because a post that existed for four months of the term is a
+        fact about the term. It appears in the composition of 12 October 2025 and is absent from the
+        composition of 26 February 2026; the closing date is that of the Décret du 22 février 2026
+        relatif à la composition du Gouvernement (NOR HRUX2605372D, JORF n° 0046), which ended its
+        holder's functions on promoting him to head the Ministère de l'Action et des Comptes publics
+        and did not name a successor to the delegated post. That decree was read on Légifrance but
+        could not be archived, so the exact day rests on it while the two archived sources bracket the
+        change; a curator preferring to date the closure only from archived evidence would write
+        2026-02-26. No ministerial department was affected either way, so no count moves.
+      es: >-
+        Se registra en lugar de borrarse, porque un puesto que existió cuatro meses de la legislatura
+        es un hecho de la legislatura. Figura en la composición del 12 de octubre de 2025 y falta en
+        la del 26 de febrero de 2026; la fecha de cierre es la del Décret du 22 février 2026 relatif à
+        la composition du Gouvernement (NOR HRUX2605372D, JORF n° 0046), que puso fin a las funciones
+        de su titular al ascenderlo a encabezar el Ministère de l'Action et des Comptes publics y no
+        nombró sucesor en la delegación. Ese decreto se consultó en Légifrance pero no pudo
+        archivarse, de modo que el día exacto se apoya en él mientras las dos fuentes archivadas
+        acotan el cambio; un curador que prefiriera fechar el cierre solo con evidencia archivada
+        pondría 2026-02-26. En ningún caso se vio afectado un departamento ministerial, así que
+        ningún recuento se mueve.

@@ -1,0 +1,1276 @@
+# Slovakia — government structure of the cabinet appointed on 25 October 2023 (Robert Fico's
+# fourth government).
+#
+# See docs/DATA-CONTRACT.md. Five things worth knowing before reading the list:
+#
+#   1. Slovakia enumerates its ministries in a statute and does it plainly. § 3 of zákon
+#      č. 575/2001 Z. z. o organizácii činnosti vlády a organizácii ústrednej štátnej správy —
+#      the kompetenčný zákon — lists them a) to o) and says of them "na ktorých čele je člen
+#      vlády". Creating, abolishing or renaming a Slovak ministry means amending that section,
+#      so the count is a legal fact rather than a reading of a reorganisation decree.
+#   2. The same statute then lists, in § 21, twelve "ostatné ústredné orgány štátnej správy".
+#      Those are central authorities, not ministries. Two of them are recorded here because a
+#      source presents them at cabinet level; the other ten are named in the methodology notes
+#      and left out of scope.
+#   3. Fifteen ministries, sixteen cabinet seats. The gap is the Prime Minister, who heads no
+#      ministry.
+#   4. This cabinet's structure changed mid-term. It was appointed with fourteen ministries; a
+#      fifteenth was created and one renamed on 1 February 2024. The superseded entity is kept
+#      with `valid_to` set instead of being back-edited, so any date in the term replays.
+#   5. It also lost a cabinet seat mid-term. A fourth deputy prime minister, holding no
+#      ministry, sat in it until 19 November 2025 and the post has been vacant since.
+
+country: SK
+cabinet_id: SK-2023-10-25
+
+cabinet_name_original: Vláda Slovenskej republiky vymenovaná 25. októbra 2023
+cabinet_name_en: Fico's fourth cabinet
+cabinet_name_es: Cuarto Gobierno de Robert Fico
+
+head_of_government_title_original: predseda vlády Slovenskej republiky
+head_of_government_title_en: Prime Minister
+
+took_office: 2023-10-25
+left_office: null
+
+methodology_notes:
+  - en: >-
+      15 ministries and 16 cabinet seats. The fifteen are the ministries enumerated in § 3 of
+      zákon č. 575/2001 Z. z.; the sixteenth seat is the predseda vlády, who heads none of them.
+      The statute is explicit about the difference: § 3 lists the ministries "na ktorých čele je
+      člen vlády" — at the head of which stands a member of the government — and the Prime
+      Minister is not at the head of any of them, while article 109(1) of the Constitution says
+      the government "sa skladá z predsedu, podpredsedov a ministrov", so his seat is a matter of
+      constitutional law rather than of our interpretation. The two figures are never added
+      together.
+    es: >-
+      15 ministerios y 16 asientos en el gabinete. Los quince son los ministerios que enumera el
+      § 3 de la zákon č. 575/2001 Z. z.; el decimosexto asiento es el del predseda vlády, que no
+      encabeza ninguno de ellos. La ley es explícita al respecto: el § 3 enumera los ministerios
+      «na ktorých čele je člen vlády» —a cuya cabeza está un miembro del gobierno— y el primer
+      ministro no encabeza ninguno, mientras que el artículo 109(1) de la Constitución dice que
+      el gobierno «sa skladá z predsedu, podpredsedov a ministrov», de modo que su asiento es
+      una cuestión de derecho constitucional y no de nuestra interpretación. Las dos cifras nunca
+      se suman.
+  - en: >-
+      Deputy prime ministers, and why they add up to almost nothing here. This cabinet was
+      appointed with four podpredsedovia vlády. Three of them — for defence, for the economy and
+      for the environment — also head a ministry and are counted once, through that ministry: a
+      Slovak vice-premiership is a personal rank attached to a member of the government, not a
+      department, and § 3 does not list one. The fourth held no ministry, and that seat is
+      recorded separately below. It is the reason the cabinet had 17 seats from 25 October 2023
+      to 19 November 2025 and has 16 since.
+    es: >-
+      Los viceprimeros ministros, y por qué aquí casi no suman nada. Este gabinete se nombró con
+      cuatro podpredsedovia vlády. Tres de ellos —de defensa, de economía y de medio ambiente—
+      encabezan además un ministerio y se cuentan una sola vez, a través de ese ministerio: una
+      vicepresidencia eslovaca es un rango personal adscrito a un miembro del gobierno, no un
+      departamento, y el § 3 no la enumera. El cuarto no tenía ministerio, y ese asiento se
+      registra aparte más abajo. Es la razón por la que el gabinete tuvo 17 asientos del 25 de
+      octubre de 2023 al 19 de noviembre de 2025 y tiene 16 desde entonces.
+  - en: >-
+      The vacant fourth vice-premiership, and why nobody replaced the seat. The podpredseda vlády
+      Slovenskej republiky pre Plán obnovy a znalostnú ekonomiku — a deputy prime minister with
+      no ministry, responsible for the EU Recovery and Resilience Plan — resigned on 19 November
+      2025, when the President accepted his resignation and, under article 116(7) of the
+      Constitution, "určí, ktorý z členov vlády bude dočasne spravovať veci člena vlády, ktorého
+      demisiu prijal", designated the minister of education to administer the agenda temporarily.
+      A minister administering a departed colleague's affairs is still one person in one seat, so
+      the arrangement removed a seat rather than moving one. No successor had been appointed by
+      the date this file records: the President's own register of appointments and dismissals
+      lists no vymenovanie to the post after 19 November 2025. The post itself was renamed on
+      20 December 2024 — until then it was the podpredseda vlády Slovenskej republiky pre Plán
+      obnovy a odolnosti a využívanie eurofondov, the title under which it appears in the
+      appointment notice of 25 October 2023 — and the entity below records the seat across both
+      names rather than splitting it, because a rename of a portfolio-less vice-premiership moves
+      neither figure this dataset publishes.
+    es: >-
+      La cuarta vicepresidencia vacante, y por qué nadie sustituyó el asiento. El podpredseda
+      vlády Slovenskej republiky pre Plán obnovy a znalostnú ekonomiku —un viceprimer ministro
+      sin ministerio, responsable del Plan de Recuperación y Resiliencia de la UE— dimitió el 19
+      de noviembre de 2025, cuando el presidente aceptó su dimisión y, conforme al artículo
+      116(7) de la Constitución, «určí, ktorý z členov vlády bude dočasne spravovať veci člena
+      vlády, ktorého demisiu prijal», designó al ministro de educación para administrar
+      temporalmente la agenda. Un ministro que administra los asuntos de un colega que se ha ido
+      sigue siendo una persona en un asiento, de modo que el arreglo eliminó un asiento en vez de
+      trasladarlo. No se había nombrado sucesor a la fecha que registra este fichero: el propio
+      registro presidencial de nombramientos y ceses no recoge ningún vymenovanie al cargo
+      después del 19 de noviembre de 2025. El cargo se renombró el 20 de diciembre de 2024
+      —hasta entonces era el podpredseda vlády Slovenskej republiky pre Plán obnovy a odolnosti a
+      využívanie eurofondov, título con el que aparece en el aviso de nombramiento del 25 de
+      octubre de 2023— y la entidad de más abajo registra el asiento con ambos nombres sin
+      escindirlo, porque el cambio de nombre de una vicepresidencia sin cartera no mueve ninguna
+      de las dos cifras que publica este conjunto de datos.
+  - en: >-
+      What changed mid-term, and why the appointment-day figures were different. When the
+      President appointed this cabinet on 25 October 2023 the statute listed fourteen ministries
+      and the government had sixteen members: one prime minister, four deputy prime ministers
+      (three of them heading a ministry) and eleven further ministers. Zákon č. 7/2024 Z. z.,
+      published on 25 January 2024 and in force from 1 February 2024, renamed the Ministerstvo
+      školstva, vedy, výskumu a športu Slovenskej republiky to Ministerstvo školstva, výskumu,
+      vývoja a mládeže Slovenskej republiky and added a fifteenth ministry, the Ministerstvo
+      cestovného ruchu a športu Slovenskej republiky — moving sport out of the education
+      portfolio in the process. Both entities carry `valid_from: 2024-02-01`, and the ministry
+      they replaced is kept below with `valid_to: 2024-01-31` rather than overwritten. Read that
+      superseded entity carefully if you replay a date: following this project's vocabulary it is
+      recorded as not counted, with the reason `superseded_within_cabinet`, so a replay of a date
+      before 1 February 2024 yields 13 ministries and 15 seats rather than the 14 and 16 that were
+      actually in place. The 14 and the 16 are the sourced figures, from § 3 as it stood in the
+      version in force from 15 July 2023 and from the appointment notice of 25 October 2023; the
+      figures this dataset publishes are the current ones, 15 and 16. Nothing in § 3 has changed
+      since 1 February 2024; the amendments in force from 1 July 2026 (zákon č. 86/2026 Z. z.), 10
+      October 2025 and 30 June 2025 left the list of ministries and the list of central authorities
+      untouched.
+    es: >-
+      Qué cambió a mitad de legislatura, y por qué las cifras del día del nombramiento eran
+      distintas. Cuando el presidente nombró este gabinete el 25 de octubre de 2023 la ley
+      enumeraba catorce ministerios y el gobierno tenía dieciséis miembros: un primer ministro,
+      cuatro viceprimeros ministros (tres de ellos al frente de un ministerio) y once ministros
+      más. La zákon č. 7/2024 Z. z., publicada el 25 de enero de 2024 y en vigor desde el 1 de
+      febrero de 2024, renombró el Ministerstvo školstva, vedy, výskumu a športu Slovenskej
+      republiky como Ministerstvo školstva, výskumu, vývoja a mládeže Slovenskej republiky y
+      añadió un decimoquinto ministerio, el Ministerstvo cestovného ruchu a športu Slovenskej
+      republiky, sacando el deporte de la cartera de educación. Ambas entidades llevan
+      `valid_from: 2024-02-01`, y el ministerio al que sustituyen se conserva más abajo con
+      `valid_to: 2024-01-31` en lugar de reescribirse. Lea con cuidado esa entidad sustituida si
+      reconstruye una fecha: siguiendo el vocabulario de este proyecto se registra como no contada,
+      con el motivo `superseded_within_cabinet`, de modo que la reconstrucción de una fecha anterior
+      al 1 de febrero de 2024 arroja 13 ministerios y 15 asientos en lugar de los 14 y 16 que
+      realmente había. El 14 y el 16 son las cifras con fuente, del § 3 en la versión en vigor
+      desde el 15 de julio de 2023 y del aviso de nombramiento del 25 de octubre de 2023; las
+      cifras que publica este conjunto de datos son las actuales, 15 y 16. Nada del § 3 ha cambiado
+      desde el 1 de febrero de 2024; las modificaciones en vigor desde el 1 de julio de 2026
+      (zákon č. 86/2026 Z. z.), el 10 de octubre de 2025 y el 30 de junio de 2025 no tocaron ni la
+      lista de ministerios ni la de autoridades centrales.
+  - en: >-
+      The Úrad vlády Slovenskej republiky is recorded and not counted, and it is the entity that
+      carries the Prime Minister's seat. The statute puts it outside the ministries twice over:
+      it appears in § 21(1)(a) among the "ostatné ústredné orgány štátnej správy" rather than in
+      § 3, and § 22(1) puts a vedúci at its head — a civil-service director appointed by the
+      government and answerable to the Prime Minister — not a minister. What makes it the office
+      of the head of government is § 1b: it discharges the professional, organisational and
+      technical work of the government "aj pre predsedu vlády ako jeho výkonný orgán", as the
+      Prime Minister's executive organ, and the government's own list of cabinet members is the
+      one place that puts the Prime Minister and this office on the same line. Recording it with
+      `has_cabinet_seat: true` is therefore what makes the seat count come out at 16 against 15
+      ministries. A curator who instead treated it strictly as a § 21 authority headed by a
+      non-minister would publish 15 seats and lose the Prime Minister from the cabinet
+      altogether, which is why the choice is stated here rather than left implicit.
+    es: >-
+      El Úrad vlády Slovenskej republiky se registra y no se cuenta, y es la entidad que lleva el
+      asiento del primer ministro. La ley lo sitúa fuera de los ministerios por dos vías: aparece
+      en el § 21(1)(a) entre los «ostatné ústredné orgány štátnej správy» y no en el § 3, y el
+      § 22(1) pone a su cabeza un vedúci —un director de la función pública nombrado por el
+      gobierno y responsable ante el primer ministro—, no un ministro. Lo que lo convierte en la
+      oficina del jefe de gobierno es el § 1b: desempeña las tareas técnicas, organizativas y
+      profesionales del gobierno «aj pre predsedu vlády ako jeho výkonný orgán», como órgano
+      ejecutivo del primer ministro, y la propia lista gubernamental de miembros del gabinete es
+      el único lugar que pone al primer ministro y a esta oficina en la misma línea. Registrarlo
+      con `has_cabinet_seat: true` es, por tanto, lo que hace que los asientos sean 16 frente a
+      15 ministerios. Un curador que lo tratase estrictamente como una autoridad del § 21
+      encabezada por un no ministro publicaría 15 asientos y perdería al primer ministro del
+      gabinete, y por eso la decisión se explicita aquí.
+  - en: >-
+      What the § 21 list contains and what this file leaves out of scope. Besides the Úrad vlády
+      and the Office of the Deputy Prime Minister for the Recovery Plan, § 21(1) of the same
+      statute constitutes ten further central bodies of state administration: Protimonopolný úrad
+      Slovenskej republiky, Štatistický úrad Slovenskej republiky, Úrad geodézie, kartografie a
+      katastra Slovenskej republiky, Úrad jadrového dozoru Slovenskej republiky, Úrad pre
+      normalizáciu, metrológiu a skúšobníctvo Slovenskej republiky, Úrad pre verejné obstarávanie,
+      Úrad priemyselného vlastníctva Slovenskej republiky, Správa štátnych hmotných rezerv
+      Slovenskej republiky, Národný bezpečnostný úrad and Úrad pre územné plánovanie a výstavbu
+      Slovenskej republiky; § 21(2) gives the same status to the Úrad pre reguláciu sieťových
+      odvetví and the Slovenská informačná služba. None of them is headed by a member of the
+      government — § 22 gives them a predseda appointed by the government, or by the President or
+      the National Council, and none of them appears on the government's list of cabinet members
+      — so none is a ministry and none is cabinet-level. They are named here rather than recorded
+      as entities, because a reader comparing this figure with a count of "central state
+      administration bodies" will otherwise get 27 or 29 and have no way of seeing where the
+      difference comes from.
+    es: >-
+      Qué contiene la lista del § 21 y qué deja este fichero fuera de alcance. Además del Úrad
+      vlády y de la Oficina del Vicepresidente del Gobierno para el Plan de Recuperación, el
+      § 21(1) de la misma ley constituye diez órganos centrales más de la administración estatal:
+      Protimonopolný úrad Slovenskej republiky, Štatistický úrad Slovenskej republiky, Úrad
+      geodézie, kartografie a katastra Slovenskej republiky, Úrad jadrového dozoru Slovenskej
+      republiky, Úrad pre normalizáciu, metrológiu a skúšobníctvo Slovenskej republiky, Úrad pre
+      verejné obstarávanie, Úrad priemyselného vlastníctva Slovenskej republiky, Správa štátnych
+      hmotných rezerv Slovenskej republiky, Národný bezpečnostný úrad y Úrad pre územné
+      plánovanie a výstavbu Slovenskej republiky; el § 21(2) otorga el mismo estatus al Úrad pre
+      reguláciu sieťových odvetví y a la Slovenská informačná služba. Ninguno está encabezado por
+      un miembro del gobierno —el § 22 les da un predseda nombrado por el gobierno, o por el
+      presidente o el Consejo Nacional, y ninguno figura en la lista gubernamental de miembros
+      del gabinete—, de modo que ninguno es un ministerio ni tiene rango de gabinete. Aquí se
+      nombran en lugar de registrarse como entidades, porque quien compare esta cifra con un
+      recuento de «órganos centrales de la administración estatal» obtendrá 27 o 29 y no tendrá
+      manera de ver de dónde viene la diferencia.
+  - en: >-
+      Names and provenance. The Slovak government publishes no official English or Spanish list
+      of its ministries: vlada.gov.sk carries an English and a German entry in its language
+      switcher, but both are dead placeholders pointing at "#2" and "#3", and there is no
+      English-language edition of the list of cabinet members. Every `name_en` and `name_es`
+      below is therefore this project's own rendering and is marked `translated`, including for
+      the entities whose individual ministries do publish an English name of their own on their
+      own websites; nothing here is marked `official`. The Slovak names are given in the full
+      form the statute uses, ending in "Slovenskej republiky"; the government's own pages
+      abbreviate the same names to "... SR", and the two are the same body.
+      `head_title_original` records the masculine "minister", which is the form the statute uses
+      for the office irrespective of who holds it — the government writes "ministerka" and
+      "podpredsedníčka vlády" of the women holding those posts. No abbreviation is recorded for
+      any entity: Slovak practice uses forms such as "MF SR" and "MZVEZ SR" constantly, but
+      neither the statute nor any single official page enumerates them, and an abbreviation
+      assembled by us would be an unsourced datum in a file whose point is that there are none.
+    es: >-
+      Nombres y procedencia. El gobierno eslovaco no publica ninguna lista oficial en inglés ni
+      en español de sus ministerios: vlada.gov.sk lleva una entrada «English» y otra «German» en
+      su selector de idioma, pero ambas son marcadores muertos que apuntan a «#2» y «#3», y no
+      existe edición inglesa de la lista de miembros del gabinete. Por eso cada `name_en` y
+      `name_es` de abajo es una traducción propia de este proyecto y lleva la marca `translated`,
+      incluidas las entidades cuyos ministerios sí publican un nombre inglés propio en su propia
+      web; nada aquí lleva la marca `official`. Los nombres eslovacos se dan en la forma completa
+      que usa la ley, terminada en «Slovenskej republiky»; las páginas del propio gobierno
+      abrevian los mismos nombres como «... SR», y son el mismo organismo. `head_title_original`
+      recoge la forma masculina «minister», que es la que usa la ley para el cargo con
+      independencia de quién lo ocupe: el gobierno escribe «ministerka» y «podpredsedníčka vlády»
+      de las mujeres que los ocupan. No se registra abreviatura para ninguna entidad: la práctica
+      eslovaca usa constantemente formas como «MF SR» o «MZVEZ SR», pero ni la ley ni ninguna
+      página oficial única las enumera, y una abreviatura montada por nosotros sería un dato sin
+      fuente en un fichero cuya razón de ser es que no hay ninguno.
+  - en: >-
+      Two sources have to be read with care, and it matters which claim rests on which. First,
+      the government's own "Členovia vlády" page, last updated 27 January 2026, still lists four
+      people who no longer hold the posts it attributes to them alongside their successors — the
+      deputy prime minister for the Recovery Plan who resigned in November 2025, and the previous
+      holders of the investment, health and tourism portfolios. It is cited here for the
+      structure it shows (which institution each member of the government is attached to, and the
+      fact that the Prime Minister's institution is the Úrad vlády SR), never for who currently
+      holds an office; the President's register of appointments and dismissals is the authority
+      for that, and this dataset records institutions rather than officeholders in any case.
+      Second, there is no tier-1 instrument constituting a Slovak cabinet. The Constitution
+      requires publication in the Zbierka zákonov only for the caretaker mandate under article
+      115(3); an ordinary appointment under articles 110 and 111 is made by decree handed to the
+      appointee and is not gazetted. `took_office` therefore rests on two official but tier-2
+      sources — the Government Office's notice of the appointment ceremony of 25 October 2023 and
+      the President's register — while every counted ministry rests on the statute.
+    es: >-
+      Dos fuentes hay que leerlas con cuidado, e importa qué afirmación se apoya en cuál. Primero,
+      la página gubernamental «Členovia vlády», actualizada por última vez el 27 de enero de 2026,
+      sigue listando a cuatro personas que ya no ocupan los cargos que les atribuye, junto a sus
+      sucesores: el viceprimer ministro para el Plan de Recuperación que dimitió en noviembre de
+      2025 y los titulares anteriores de las carteras de inversiones, sanidad y turismo. Aquí se
+      cita por la estructura que muestra (a qué institución está adscrito cada miembro del
+      gobierno, y el hecho de que la institución del primer ministro es el Úrad vlády SR), nunca
+      por quién ocupa hoy un cargo; para eso la autoridad es el registro presidencial de
+      nombramientos y ceses, y en todo caso este conjunto de datos registra instituciones y no
+      titulares. Segundo, no existe instrumento de nivel 1 que constituya un gabinete eslovaco.
+      La Constitución exige la publicación en la Zbierka zákonov únicamente para el mandato en
+      funciones del artículo 115(3); un nombramiento ordinario conforme a los artículos 110 y 111
+      se hace por decreto entregado al nombrado y no se publica en el boletín. Por eso
+      `took_office` se apoya en dos fuentes oficiales pero de nivel 2 —el aviso de la Oficina del
+      Gobierno sobre la ceremonia de nombramiento del 25 de octubre de 2023 y el registro
+      presidencial— mientras que todos los ministerios contados se apoyan en la ley.
+  - en: >-
+      Policy-area tagging judgements a careful reader may want to argue with. Mining and geology
+      are split in Slovak law: § 6 gives the Ministry of Economy the extraction of solid fuels,
+      oil, gas and ores and the supervision of mineral deposits, while § 16 gives the Ministry of
+      the Environment geological survey and exploration. The taxonomy has one id covering
+      "mining and geology", and it is tagged on the Ministry of Economy only, because the
+      extractive competence is the one a cross-country comparison is asking about; the
+      Environment entity carries a note saying what it holds. In the same spirit the Ministry of
+      Investment, Regional Development and Informatisation is tagged `regional_development`
+      (whose label covers cohesion funds, which is most of what it does) and `digital`, and not
+      `reconstruction`: the Recovery and Resilience Plan sits with the deputy prime minister's
+      office, not with this ministry. `equality` is tagged on the Ministry of Labour, Social
+      Affairs and Family, which holds gender equality and equal opportunities under § 15(1)(h),
+      rather than on the Ministry of Justice, which coordinates human-rights policy generally
+      under § 13(9).
+    es: >-
+      Decisiones de etiquetado de áreas de política que un lector atento puede querer discutir.
+      La minería y la geología están repartidas en el derecho eslovaco: el § 6 da al Ministerio de
+      Economía la extracción de combustibles sólidos, petróleo, gas y minerales y la supervisión
+      de los yacimientos, mientras que el § 16 da al Ministerio de Medio Ambiente la
+      investigación y prospección geológica. La taxonomía tiene un solo id que cubre «minería y
+      geología», y se etiqueta únicamente en el Ministerio de Economía, porque la competencia
+      extractiva es la que interesa a una comparación entre países; la entidad de Medio Ambiente
+      lleva una nota que dice qué tiene. Con el mismo criterio, el Ministerio de Inversiones,
+      Desarrollo Regional e Informatización se etiqueta con `regional_development` (cuya etiqueta
+      cubre los fondos de cohesión, que es la mayor parte de lo que hace) y `digital`, y no con
+      `reconstruction`: el Plan de Recuperación y Resiliencia está en la oficina del viceprimer
+      ministro, no en este ministerio. `equality` se etiqueta en el Ministerio de Trabajo,
+      Asuntos Sociales y Familia, que tiene la igualdad de género y la igualdad de oportunidades
+      conforme al § 15(1)(h), y no en el Ministerio de Justicia, que coordina la política general
+      de derechos humanos conforme al § 13(9).
+
+sources:
+  - id: slovlex-575-2001
+    tier: 1
+    type: statute
+    publisher: Ministerstvo spravodlivosti Slovenskej republiky — Slov-Lex, Zbierka zákonov Slovenskej republiky
+    title: >-
+      Zákon č. 575/2001 Z. z. o organizácii činnosti vlády a organizácii ústrednej štátnej správy
+      (konsolidované znenie, časová verzia účinná od 01.07.2026)
+    url: https://static.slov-lex.sk/static/SK/ZZ/2001/575/20260701.print.html
+    archive_url: https://web.archive.org/web/20260728101625/https://static.slov-lex.sk/static/SK/ZZ/2001/575/20260701.print.html
+    lang: sk
+    published: 2001-12-29
+    accessed: 2026-07-28
+    quote: |-
+      § 3
+      Ministerstvá
+      V Slovenskej republike pôsobia tieto ministerstvá, na ktorých čele je člen vlády:
+      a) Ministerstvo hospodárstva Slovenskej republiky,
+      b) Ministerstvo financií Slovenskej republiky,
+      c) Ministerstvo dopravy Slovenskej republiky,
+      d) Ministerstvo pôdohospodárstva a rozvoja vidieka Slovenskej republiky,
+      e) Ministerstvo investícií, regionálneho rozvoja a informatizácie Slovenskej republiky,
+      f) Ministerstvo vnútra Slovenskej republiky,
+      g) Ministerstvo obrany Slovenskej republiky,
+      h) Ministerstvo spravodlivosti Slovenskej republiky,
+      i) Ministerstvo zahraničných vecí a európskych záležitostí Slovenskej republiky,
+      j) Ministerstvo práce, sociálnych vecí a rodiny Slovenskej republiky,
+      k) Ministerstvo životného prostredia Slovenskej republiky,
+      l) Ministerstvo školstva, výskumu, vývoja a mládeže Slovenskej republiky,
+      m) Ministerstvo kultúry Slovenskej republiky,
+      n) Ministerstvo zdravotníctva Slovenskej republiky,
+      o) Ministerstvo cestovného ruchu a športu Slovenskej republiky.
+      § 21
+      Ostatné ústredné orgány štátnej správy
+      (1) V Slovenskej republike pôsobia aj tieto ústredné orgány štátnej správy:
+      a) Úrad vlády Slovenskej republiky,
+      b) Protimonopolný úrad Slovenskej republiky,
+      c) Štatistický úrad Slovenskej republiky,
+      d) Úrad geodézie, kartografie a katastra Slovenskej republiky,
+      e) Úrad jadrového dozoru Slovenskej republiky,
+      f) Úrad pre normalizáciu, metrológiu a skúšobníctvo Slovenskej republiky,
+      g) Úrad pre verejné obstarávanie,
+      h) Úrad priemyselného vlastníctva Slovenskej republiky,
+      i) Správa štátnych hmotných rezerv Slovenskej republiky,
+      j) Národný bezpečnostný úrad,
+      k) Úrad pre územné plánovanie a výstavbu Slovenskej republiky,
+      l) Úrad podpredsedu vlády Slovenskej republiky pre Plán obnovy a znalostnú ekonomiku.
+      (2) Postavenie ostatného ústredného orgánu štátnej správy má aj Úrad pre reguláciu sieťových odvetví a Slovenská informačná služba; § 37, § 39 a 40 sa nepoužijú.
+      § 1b
+      Úlohy spojené s odborným, organizačným a technickým zabezpečovaním činnosti vlády plní Úrad vlády Slovenskej republiky; rovnaké úlohy plní Úrad vlády Slovenskej republiky aj pre predsedu vlády ako jeho výkonný orgán.
+      § 4
+      (1) Ministerstvo riadi a za jeho činnosť zodpovedá minister.
+      § 22
+      (1) Na čele Úradu vlády Slovenskej republiky je vedúci, ktorý je za výkon svojej funkcie zodpovedný predsedovi vlády. Vedúceho Úradu vlády Slovenskej republiky vymenúva a odvoláva vláda.
+      (5) Na čele Úradu podpredsedu vlády Slovenskej republiky pre Plán obnovy a znalostnú ekonomiku je vedúci, ktorého vymenúva a odvoláva vláda na návrh podpredsedu vlády Slovenskej republiky pre Plán obnovy a znalostnú ekonomiku. Vedúci je za výkon svojej funkcie zodpovedný podpredsedovi vlády Slovenskej republiky pre Plán obnovy a znalostnú ekonomiku.
+      (6) Na čele ostatných ústredných orgánov štátnej správy uvedených v § 21 ods. 1 písm. c) až f), h) a i) je predseda, ktorého vymenúva a odvoláva vláda. Predseda je za výkon svojej funkcie zodpovedný vláde.
+    note: >-
+      The kompetenčný zákon: the instrument that enumerates the Slovak ministries, and the reason
+      the ministry count is a legal fact rather than a judgement. § 3 is quoted in full, so a
+      reader can confirm the whole list at a glance; § 21 is quoted in full because it is the
+      boundary of what is a ministry and what is merely a central authority; then § 1b, § 4(1),
+      § 22(1), § 22(5) and § 22(6), which are what settle that a ministry is headed by a minister
+      while the Úrad vlády and the Office of the Deputy Prime Minister are headed by a vedúci and
+      the remaining authorities by a predseda. Consolidated text as published by Slov-Lex: the
+      displayed version is the one in force from 1 July 2026, the newest, reflecting the
+      amendment by zákon č. 86/2026 Z. z.; that amendment touched only § 24 (the Úrad vlády's
+      competence for the inclusion of marginalised Roma communities and the plenipotentiary who
+      carries it out) and neither § 3 nor § 21, which was checked by comparing this version
+      against the previous one in force from 10 October 2025 rather than assumed. § 3 was last
+      amended by zákon č. 7/2024 Z. z. with effect from 1 February 2024 and § 21 by zákon
+      č. 201/2024 Z. z. with effect from 1 January 2025. The citation points at
+      static.slov-lex.sk, which is Slov-Lex's own static mirror — the main portal at
+      www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2001/575/20260701 renders its text
+      client-side and returns only an empty application shell to an automated fetch or to a web
+      archive, and the portal itself directs readers to the static version for that reason. The
+      `.print.html` view was archived because the ordinary static view exceeded the archive's
+      capture limit; the two carry the same text. Slov-Lex prints each letter of an enumeration on
+      its own line above the item; the quotation joins letter and item on one line and is
+      otherwise verbatim.
+
+  - id: ustava-460-1992
+    tier: 1
+    type: statute
+    publisher: Ministerstvo spravodlivosti Slovenskej republiky — Slov-Lex, Zbierka zákonov Slovenskej republiky
+    title: >-
+      Ústava Slovenskej republiky č. 460/1992 Zb. (konsolidované znenie, časová verzia účinná od
+      01.11.2025)
+    url: https://static.slov-lex.sk/static/SK/ZZ/1992/460/20251101.portal
+    archive_url: https://web.archive.org/web/20260728101947/https://static.slov-lex.sk/static/SK/ZZ/1992/460/20251101.portal
+    lang: sk
+    published: 1992-10-01
+    accessed: 2026-07-28
+    quote: |-
+      Čl. 109
+      (1) Vláda sa skladá z predsedu, podpredsedov a ministrov.
+      Čl. 110
+      (1) Predsedu vlády vymenúva a odvoláva prezident Slovenskej republiky.
+      Čl. 111
+      Na návrh predsedu vlády prezident Slovenskej republiky vymenuje a odvolá ďalších členov vlády a poverí ich riadením ministerstiev. Za podpredsedu vlády a ministra môže vymenovať občana, ktorý je voliteľný za poslanca Národnej rady Slovenskej republiky.
+      Čl. 116
+      (2) Člen vlády môže podať demisiu prezidentovi Slovenskej republiky.
+      (7) Ak prijme prezident Slovenskej republiky demisiu alebo ak odvolá člena vlády, určí, ktorý z členov vlády bude dočasne spravovať veci člena vlády, ktorého demisiu prijal.
+    note: >-
+      Cited for the composition of the government, which is what makes the Prime Minister's seat
+      a matter of constitutional law rather than of our interpretation, and therefore why
+      cabinet_seats_count is 16 while ministries_count is 15; for article 111, which shows that
+      the President appoints members of the government and entrusts them with the direction of
+      ministries as two separate acts, so a deputy prime minister may exist without a ministry;
+      and for article 116(7), which is the provision the President applied on 19 November 2025
+      when he designated a serving minister to administer the departed deputy prime minister's
+      affairs — an act that leaves the number of people in the cabinet one lower rather than
+      unchanged. Consolidated text as published by Slov-Lex, version in force from 1 November
+      2025, which is the newest; none of the quoted articles has been amended since 1993. The
+      `.portal` view of the static mirror was archived because the ordinary static view and the
+      print view both exceeded the archive's capture limit; all three carry the same text. Letters
+      and paragraph numbers are printed by Slov-Lex on their own lines and are joined to their
+      text here; the quotation is otherwise verbatim, and omits the paragraphs of articles 109 and
+      116 that are not relied on.
+
+  - id: zbierka-7-2024
+    tier: 1
+    type: official_gazette
+    publisher: Zbierka zákonov Slovenskej republiky (Slov-Lex)
+    title: >-
+      Zákon č. 7/2024 Z. z., ktorým sa mení a dopĺňa zákon č. 575/2001 Z. z. o organizácii
+      činnosti vlády a organizácii ústrednej štátnej správy v znení neskorších predpisov a ktorým
+      sa menia a dopĺňajú niektoré zákony (vyhlásené znenie)
+    url: https://static.slov-lex.sk/static/SK/ZZ/2024/7/vyhlasene_znenie.print.html
+    archive_url: https://web.archive.org/web/20260728101720/https://static.slov-lex.sk/static/SK/ZZ/2024/7/vyhlasene_znenie.print.html
+    lang: sk
+    published: 2024-01-25
+    accessed: 2026-07-28
+    quote: |-
+      Čl. I
+      4. V § 3 písmeno l) znie:
+      „l) Ministerstvo školstva, výskumu, vývoja a mládeže Slovenskej republiky,“.
+      5. § 3 sa dopĺňa písmenom o), ktoré znie:
+      „o) Ministerstvo cestovného ruchu a športu Slovenskej republiky.“.
+      Čl. XXII
+      Tento zákon nadobúda účinnosť 1. februára 2024.
+    note: >-
+      The instrument that changed this cabinet's ministry count mid-term, cited for the two
+      amendments that did it and for its own commencement date. Points 4 and 5 of article I are
+      what renamed the Ministerstvo školstva, vedy, výskumu a športu Slovenskej republiky and
+      added the Ministerstvo cestovného ruchu a športu Slovenskej republiky as the fifteenth
+      entry in § 3; article XXII fixes 1 February 2024, which is the `valid_from` of both new
+      entities and the `valid_to` of the ministry the first of them replaced, dated to the
+      previous day. This is the text as promulgated (vyhlásené znenie), not a consolidated
+      version, because the point of the citation is what the amending law did rather than what the
+      amended law now says. Its own § 3 amendments are visible in the consolidated text cited
+      above. Quoted verbatim; Slov-Lex prints the amendment number, the introductory sentence and
+      the quoted new wording on separate lines, joined here.
+
+  - id: vlada-vymenovanie-2023-10-25
+    tier: 2
+    type: government_website
+    publisher: Úrad vlády Slovenskej republiky
+    title: Prezidentka SR vymenovala Roberta Fica do funkcie predsedu vlády SR (tlačová správa)
+    url: https://www.vlada.gov.sk/tlacove-spravy/prezidentka-sr-vymenovala-roberta-fica-do-funkcie-predsedu-vldy-sr-177/
+    archive_url: https://web.archive.org/web/20260728102104/https://www.vlada.gov.sk/tlacove-spravy/prezidentka-sr-vymenovala-roberta-fica-do-funkcie-predsedu-vldy-sr-177/
+    lang: sk
+    published: 2023-10-25
+    accessed: 2026-07-28
+    quote: |-
+      V stredu 25. októbra 2023 prezidentka SR Zuzana Čaputová vymenovala Roberta Fica do funkcie predsedu vlády, dekrét o vymenovaní si prevzali aj ostatní členovia vlády.
+      Zoznam členov novej vlády:
+      Robert Fico, predseda vlády SR
+      Robert Kaliňák, podpredseda vlády SR a minister obrany SR
+      Denisa Saková, podpredsedníčka vlády SR a ministerka hospodárstva SR
+      Tomáša Taraba, podpredseda vlády SR a minister životného prostredia SR
+      Peter Kmec, podpredseda vlády SR pre Plán obnovy a odolnosti a využívanie eurofondov
+      Ladislav Kamenický, minister financií SR
+      Jozef Ráž, minister dopravy SR
+      Richard Takáč, minister pôdohospodárstva a rozvoja vidieka SR
+      Richard Raši, minister investícií, regionálneho rozvoja a informatizácie SR
+      Matúš Šutaj Eštok, minister vnútra SR
+      Boris Susko, minister spravodlivosti SR
+      Juraj Blanár, minister zahraničných vecí a európskych záležitostí SR
+      Erik Tomáš, minister práce, sociálnych vecí a rodiny SR
+      Tomáš Drucker, minister školstva, vedy, výskumu a športu SR
+      Martina Šimkovičová, ministerka kultúry SR
+      Zuzana Dolinková, ministerka zdravotníctva SR
+    note: >-
+      The Government Office's own notice of the appointment ceremony, quoted in full because it
+      settles three things at once. The date: 25 October 2023, which is this cabinet's
+      `took_office`, the day the Prime Minister was appointed and the other members received
+      their decrees. The perimeter at that date: sixteen people — one predseda vlády, four
+      podpredsedovia vlády of whom three also head a ministry, and eleven further ministers —
+      against the fourteen ministries § 3 then listed, which is where the appointment-day figures
+      in the methodology notes come from. And the original title of the portfolio-less
+      vice-premiership, "podpredseda vlády SR pre Plán obnovy a odolnosti a využívanie
+      eurofondov", renamed on 20 December 2024. Tier 2 rather than tier 1: a Slovak appointment
+      is made by presidential decree handed to the appointee and is not published in the Zbierka
+      zákonov, so no gazette instrument exists to cite. The page runs the members' names together
+      with long runs of trailing spaces, which are collapsed here; the wording, including
+      "Tomáša Taraba" in the accusative where the rest of the list is nominative, is the page's
+      own. The snapshot was created on the access date.
+
+  - id: vlada-clenovia-vlady
+    tier: 2
+    type: government_website
+    publisher: Úrad vlády Slovenskej republiky
+    title: Členovia vlády — Vláda SR
+    url: https://www.vlada.gov.sk/vlada-sr/clenovia-vlady/
+    archive_url: https://web.archive.org/web/20260728101818/https://www.vlada.gov.sk/vlada-sr/clenovia-vlady/
+    lang: sk
+    published: null
+    accessed: 2026-07-28
+    quote: |-
+      Aktualizované 27.01.2026
+      Robert Fico
+      Predseda vlády SR
+      Úrad vlády SR
+      Robert Kaliňák
+      Podpredseda vlády a minister obrany SR
+      Ministerstvo obrany SR
+      Denisa Saková
+      Podpredsedníčka vlády a ministerka hospodárstva SR
+      Ministerstvo hospodárstva SR
+      Tomáš Taraba
+      Podpredseda vlády a minister životného prostredia SR
+      Ministerstvo životného prostredia SR
+      Tomáš Drucker
+      poverený riadením Úradu podpredsedu vlády SR pre plán obnovy a znalostnú ekonomiku
+      Úrad podpredsedu vlády SR pre plán obnovy a znalostnú ekonomiku
+      Ladislav Kamenický
+      Minister financií SR
+      Ministerstvo financií SR
+      Jozef Ráž
+      Minister dopravy SR
+      Ministerstvo dopravy SR
+      Richard Takáč
+      Minister pôdohospodárstva a rozvoja vidieka SR
+      Ministerstvo pôdohospodárstva a rozvoja vidieka SR
+      Samuel Migaľ
+      Minister investícií, regionálneho rozvoja a informatizácie SR
+      Ministerstvo investícií, regionálneho rozvoja a informatizácie SR
+      Matúš Šutaj Eštok
+      Minister vnútra SR
+      Ministerstvo vnútra SR
+      Boris Susko
+      Minister spravodlivosti SR
+      Ministerstvo spravodlivosti SR
+      Juraj Blanár
+      Minister zahraničných vecí a európskych záležitostí SR
+      Ministerstvo zahraničných vecí a európskych záležitostí SR
+      Erik Tomáš
+      Minister práce, sociálnych vecí a rodiny SR
+      Ministerstvo práce, sociálnych vecí a rodiny SR
+      Martina Šimkovičová
+      Ministerka kultúry SR
+      Ministerstvo kultúry SR
+      Kamil Šaško
+      Minister zdravotníctva SR
+      Ministerstvo zdravotníctva SR
+      Rudolf Huliak
+      Minister cestovného ruchu a športu SR
+      Ministerstvo cestovného ruchu a športu SR
+    note: >-
+      The government's own list of its members, cited for the structural facts it shows and not
+      for who holds office. It attaches each member of the government to an institution, and it
+      is the one official source that puts the Prime Minister and the Úrad vlády SR on the same
+      line, which is why the Úrad vlády is the entity carrying his cabinet seat in this file. It
+      also shows that the Office of the Deputy Prime Minister for the Recovery Plan is treated at
+      cabinet level even while the vice-premiership itself is vacant, the minister of education
+      being listed against it as "poverený riadením", entrusted with running it. The page is
+      stale in one specific way and it must be read knowing it: last updated 27 January 2026, it
+      still carries entries for Peter Kmec as podpredseda vlády SR pre plán obnovy a znalostnú
+      ekonomiku (he resigned on 19 November 2025), and for Richard Raši, Zuzana Dolinková and
+      Dušan Keketi alongside their successors Samuel Migaľ, Kamil Šaško and Rudolf Huliak in the
+      investment, health and tourism portfolios. The quotation reproduces the page's entries in
+      the page's own order with those four superseded entries omitted, and marks the omission
+      nowhere else than here; every line quoted appears in the snapshot. Non-breaking spaces and
+      trailing spaces are normalised. The snapshot was created on the access date because none
+      existed for this URL.
+
+  - id: prezident-vymenovania-odvolania
+    tier: 2
+    type: government_website
+    publisher: Kancelária prezidenta Slovenskej republiky
+    title: Vymenovania a odvolania po 15. 6. 2024 — Prezident Slovenskej republiky
+    url: https://www.prezident.sk/page/vymenovania-a-odvolania-pp/
+    archive_url: https://web.archive.org/web/20260707152706/https://www.prezident.sk/page/vymenovania-a-odvolania-pp/
+    lang: sk
+    published: null
+    accessed: 2026-07-28
+    quote: |-
+      19.11.2025
+      podpredsedu vlády SR pre Plán obnovy a znalostnú ekonomiku - poverenie dočasne spravovať veci
+      Tomáš Drucker
+      19.11.2025
+      podpredseda vlády SR pre Plán obnovy a znalostnú ekonomiku demisia - demisia
+      Peter Kmec
+      20.12.2024
+      podpredseda vlády SR pre Plán obnovy a znalostnú ekonomiku - vymenovanie
+      Peter Kmec
+      20.12.2024
+      podpredsedu vlády SR pre Plán obnovy a odolnosti a využívanie eurofondov - odvolanie
+      Peter Kmec
+    note: >-
+      The President's own register of every appointment and dismissal he has made since taking
+      office on 15 June 2024, in reverse chronological order, and the authority for the two dates
+      this file needs it for. The rows of 19 November 2025 record the resignation of the deputy
+      prime minister for the Recovery Plan and the designation of a serving minister to administer
+      the agenda temporarily; the rows of 20 December 2024 record the renaming of the post, as a
+      dismissal from the old title and an appointment to the new one on the same day. Just as
+      important is what the register does not contain: no appointment to that vice-premiership
+      after 19 November 2025, which is what supports recording the seat as gone rather than
+      transferred, and no change to the fifteen ministries. Cited as tier 2 because it is an
+      official register rather than a legal instrument. The archived snapshot is of 7 July 2026,
+      three weeks before the access date; every quoted row appears in it, and the register's rows
+      are laid out as a three-column table which is transcribed here one cell per line.
+      Non-breaking spaces inside the event descriptions — including the one that produces the
+      duplicated "demisia - demisia" — are rendered as ordinary spaces. prezident.sk rejects
+      automated requests, so this page was read through the archive rather than live.
+
+  - id: prezident-kmec-demisia-2025
+    tier: 2
+    type: government_website
+    publisher: Kancelária prezidenta Slovenskej republiky
+    title: >-
+      Prezident SR prijal demisiu vicepremiéra Petra Kmeca, spravovaním jeho agendy dočasne
+      poveril Tomáša Druckera
+    url: https://www.prezident.sk/article/prezident-sr-prijal-demisiu-vicepremiera-petra-kmeca-spravovanim-jeho-agendy-docasne-poveril-tomasa-druckera/
+    archive_url: https://web.archive.org/web/20260714164752/https://www.prezident.sk/article/prezident-sr-prijal-demisiu-vicepremiera-petra-kmeca-spravovanim-jeho-agendy-docasne-poveril-tomasa-druckera/
+    lang: sk
+    published: 2025-11-19
+    accessed: 2026-07-28
+    quote: >-
+      Prezident SR Peter Pellegrini dnes v zmysle svojich ústavných právomocí prijal demisiu
+      podpredsedu vlády SR pre plán obnovy a znalostnú ekonomiku Petra Kmeca. Dočasným
+      spravovaním agendy podpredsedu vlády pre plán obnovy a znalostnú ekonomiku poveril ministra
+      školstva, výskumu, vývoja a mládeže SR Tomáša Druckera.
+    note: >-
+      The President's press release of the day, cited for the date the fourth vice-premiership
+      became vacant and for the fact that the arrangement that followed was a temporary
+      administration of the agenda by a serving minister under article 116(7) of the
+      Constitution, not an appointment to the post. That is what makes 19 November 2025 the
+      `valid_to` of the deputy prime minister entity below and the day the cabinet went from
+      seventeen seats to sixteen. The page carries "Dátum publikovania 19.11.2025" and the word
+      "dnes" in the quoted sentence refers to that day. prezident.sk rejects automated requests,
+      so this page was read through the archived snapshot of 14 July 2026, in which the quoted
+      sentences appear verbatim.
+
+entities:
+  # Orders 1 to 15 follow § 3 of zákon č. 575/2001 Z. z., letters a) to o), in the statute's own
+  # sequence. Orders 16 and 17 follow § 21(1) of the same statute, letters a) and l). Orders 18
+  # and 19 are entities that no longer exist and are outside both lists; they carry valid_to and
+  # drop out of the cabinet's current snapshot.
+  - id: SK-2023-hospodarstvo
+    order: 1
+    name_original: Ministerstvo hospodárstva Slovenskej republiky
+    abbreviation_original: null
+    name_en: Ministry of Economy of the Slovak Republic
+    name_es: Ministerio de Economía de la República Eslovaca
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: minister hospodárstva Slovenskej republiky
+    head_title_en: Minister of Economy
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [economy, industry, energy, trade, small_business, consumer_protection, mining, state_assets]
+    counts_as_ministry: true
+    url: https://www.mhsr.sk
+    sources: [slovlex-575-2001]
+    note:
+      en: >-
+        Under § 6 this is the central body of state administration for industry, energy including
+        nuclear fuel management, heat and gas, the extraction of solid fuels, oil, gas and ores,
+        support for small and medium-sized business, internal and foreign trade including trade
+        in defence-industry products, consumer protection outside financial services, mineral
+        deposits, and the privatisation and management of state property in the business sphere.
+        Its minister has held a vice-premiership throughout this cabinet, which adds neither a
+        ministry nor a seat.
+      es: >-
+        Conforme al § 6 es el órgano central de la administración estatal para la industria, la
+        energía incluida la gestión del combustible nuclear, la calefacción y el gas, la
+        extracción de combustibles sólidos, petróleo, gas y minerales, el apoyo a la pequeña y
+        mediana empresa, el comercio interior y exterior incluido el de productos de la industria
+        de defensa, la protección del consumidor fuera de los servicios financieros, los
+        yacimientos minerales y la privatización y gestión del patrimonio estatal en la esfera
+        empresarial. Su titular ha ostentado una vicepresidencia durante todo este gabinete, lo
+        que no añade ni ministerio ni asiento.
+
+  - id: SK-2023-financie
+    order: 2
+    name_original: Ministerstvo financií Slovenskej republiky
+    abbreviation_original: null
+    name_en: Ministry of Finance of the Slovak Republic
+    name_es: Ministerio de Hacienda de la República Eslovaca
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: minister financií Slovenskej republiky
+    head_title_en: Minister of Finance
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [finance, budget]
+    counts_as_ministry: true
+    url: https://www.mfsr.sk
+    sources: [slovlex-575-2001]
+
+  - id: SK-2023-doprava
+    order: 3
+    name_original: Ministerstvo dopravy Slovenskej republiky
+    abbreviation_original: null
+    name_en: Ministry of Transport of the Slovak Republic
+    name_es: Ministerio de Transporte de la República Eslovaca
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: minister dopravy Slovenskej republiky
+    head_title_en: Minister of Transport
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [transport, infrastructure, housing, telecommunications, shipping]
+    counts_as_ministry: true
+    url: https://www.mindop.sk
+    sources: [slovlex-575-2001]
+    note:
+      en: >-
+        Housing is tagged because § 8(1)(k), (l) and (o) give this ministry the formation and
+        conduct of housing policy, the state premium on building savings, the state contribution
+        to mortgage loans and state-supported rental housing; Slovakia has no housing ministry.
+        Spatial planning and construction are not tagged: they were moved to the Úrad pre územné
+        plánovanie a výstavbu Slovenskej republiky, a § 21 authority outside this file's scope,
+        for which § 8(3) leaves this ministry only the duty of preparing legislation.
+      es: >-
+        Se etiqueta vivienda porque el § 8(1)(k), (l) y (o) atribuye a este ministerio la
+        formulación y ejecución de la política de vivienda, la prima estatal al ahorro para la
+        construcción, la aportación estatal a los préstamos hipotecarios y la vivienda de alquiler
+        con apoyo estatal; Eslovaquia no tiene ministerio de vivienda. No se etiquetan la
+        ordenación del territorio ni la construcción: pasaron al Úrad pre územné plánovanie a
+        výstavbu Slovenskej republiky, una autoridad del § 21 fuera del alcance de este fichero,
+        para la que el § 8(3) deja a este ministerio solo el deber de preparar la legislación.
+
+  - id: SK-2023-podohospodarstvo
+    order: 4
+    name_original: Ministerstvo pôdohospodárstva a rozvoja vidieka Slovenskej republiky
+    abbreviation_original: null
+    name_en: Ministry of Agriculture and Rural Development of the Slovak Republic
+    name_es: Ministerio de Agricultura y Desarrollo Rural de la República Eslovaca
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: minister pôdohospodárstva a rozvoja vidieka Slovenskej republiky
+    head_title_en: Minister of Agriculture and Rural Development
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [agriculture, rural_development, forestry, food_safety, fisheries]
+    counts_as_ministry: true
+    url: https://www.mpsr.sk
+    sources: [slovlex-575-2001]
+    note:
+      en: >-
+        Fisheries is tagged for this ministry and not for the Ministry of the Environment because
+        § 9(1)(h) gives it fisheries "v oblasti akvakultúry a morského rybolovu" — aquaculture and
+        sea fishing — while § 16(b) gives the environment ministry inland fisheries other than
+        those. The split is real and is recorded on both entities rather than resolved.
+      es: >-
+        La pesca se etiqueta en este ministerio y no en el de Medio Ambiente porque el § 9(1)(h)
+        le atribuye la pesca «v oblasti akvakultúry a morského rybolovu» —acuicultura y pesca
+        marítima—, mientras que el § 16(b) atribuye al ministerio de medio ambiente la pesca
+        continental restante. El reparto es real y se recoge en ambas entidades en lugar de
+        resolverse.
+
+  - id: SK-2023-investicie-informatizacia
+    order: 5
+    name_original: Ministerstvo investícií, regionálneho rozvoja a informatizácie Slovenskej republiky
+    abbreviation_original: null
+    name_en: Ministry of Investment, Regional Development and Informatisation of the Slovak Republic
+    name_es: Ministerio de Inversiones, Desarrollo Regional e Informatización de la República Eslovaca
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: minister investícií, regionálneho rozvoja a informatizácie Slovenskej republiky
+    head_title_en: Minister of Investment, Regional Development and Informatisation
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [regional_development, digital]
+    counts_as_ministry: true
+    url: https://mirri.gov.sk
+    sources: [slovlex-575-2001]
+    note:
+      en: >-
+        § 10(1) gives this ministry the management and oversight of European Union funds,
+        strategic investment planning, regional and urban development, and the central direction
+        of the informatisation of society and of public-sector IT spending. It is not the
+        Recovery and Resilience Plan authority: that sits with the Office of the Deputy Prime
+        Minister recorded further down.
+      es: >-
+        El § 10(1) atribuye a este ministerio la gestión y supervisión de los fondos de la Unión
+        Europea, la planificación estratégica de inversiones, el desarrollo regional y urbano y la
+        dirección central de la informatización de la sociedad y del gasto público en tecnologías
+        de la información. No es la autoridad del Plan de Recuperación y Resiliencia: eso
+        corresponde a la Oficina del Vicepresidente del Gobierno que se registra más abajo.
+
+  - id: SK-2023-vnutro
+    order: 6
+    name_original: Ministerstvo vnútra Slovenskej republiky
+    abbreviation_original: null
+    name_en: Ministry of the Interior of the Slovak Republic
+    name_es: Ministerio del Interior de la República Eslovaca
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: minister vnútra Slovenskej republiky
+    head_title_en: Minister of the Interior
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [interior, civil_protection, migration, territorial_administration]
+    counts_as_ministry: true
+    url: https://www.minv.sk
+    sources: [slovlex-575-2001]
+    note:
+      en: >-
+        Migration is tagged because § 11(a) gives this ministry entry to and residence in
+        Slovakia by foreigners and the affairs of asylum-holders and displaced persons; Slovakia
+        has no migration ministry. Territorial administration is tagged for § 11(b) and (d),
+        which give it general internal administration, the territorial and administrative
+        division of the state, the organisation of every kind of election and referendum, and the
+        coordination of state administration carried out by municipalities and self-governing
+        regions.
+      es: >-
+        Se etiqueta migración porque el § 11(a) atribuye a este ministerio la entrada y
+        residencia de extranjeros en Eslovaquia y los asuntos de asilados y desplazados;
+        Eslovaquia no tiene ministerio de migración. Se etiqueta administración territorial por
+        el § 11(b) y (d), que le atribuyen la administración interior general, la división
+        territorial y administrativa del Estado, la organización de toda clase de elecciones y
+        referendos y la coordinación de la administración estatal ejercida por municipios y
+        regiones autónomas.
+
+  - id: SK-2023-obrana
+    order: 7
+    name_original: Ministerstvo obrany Slovenskej republiky
+    abbreviation_original: null
+    name_en: Ministry of Defence of the Slovak Republic
+    name_es: Ministerio de Defensa de la República Eslovaca
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: minister obrany Slovenskej republiky
+    head_title_en: Minister of Defence
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [defence]
+    counts_as_ministry: true
+    url: https://www.mosr.sk
+    sources: [slovlex-575-2001]
+    note:
+      en: >-
+        Its minister has held a vice-premiership throughout this cabinet. A Slovak
+        vice-premiership is a personal rank attached to a member of the government, not a
+        department, so it adds neither a ministry nor a cabinet seat, and the entity is counted
+        once, through this ministry.
+      es: >-
+        Su titular ha ostentado una vicepresidencia durante todo este gabinete. Una
+        vicepresidencia eslovaca es un rango personal adscrito a un miembro del gobierno, no un
+        departamento, de modo que no añade ni ministerio ni asiento, y la entidad se cuenta una
+        sola vez, a través de este ministerio.
+
+  - id: SK-2023-spravodlivost
+    order: 8
+    name_original: Ministerstvo spravodlivosti Slovenskej republiky
+    abbreviation_original: null
+    name_en: Ministry of Justice of the Slovak Republic
+    name_es: Ministerio de Justicia de la República Eslovaca
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: minister spravodlivosti Slovenskej republiky
+    head_title_en: Minister of Justice
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [justice]
+    counts_as_ministry: true
+    url: https://www.justice.gov.sk
+    sources: [slovlex-575-2001]
+
+  - id: SK-2023-zahranicne-veci
+    order: 9
+    name_original: Ministerstvo zahraničných vecí a európskych záležitostí Slovenskej republiky
+    abbreviation_original: null
+    name_en: Ministry of Foreign and European Affairs of the Slovak Republic
+    name_es: Ministerio de Asuntos Exteriores y Europeos de la República Eslovaca
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: minister zahraničných vecí a európskych záležitostí Slovenskej republiky
+    head_title_en: Minister of Foreign and European Affairs
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [foreign_affairs, european_affairs, development_cooperation, diaspora]
+    counts_as_ministry: true
+    url: https://www.mzv.sk
+    sources: [slovlex-575-2001]
+    note:
+      en: >-
+        Development cooperation and diaspora are tagged for § 14(2)(f) and (h), which give this
+        ministry development cooperation and state policy towards Slovaks living abroad;
+        European affairs for § 14(1) and (2)(g), the relationship with European institutions and
+        the coordination of the implementation of European Union policies.
+      es: >-
+        Se etiquetan cooperación al desarrollo y diáspora por el § 14(2)(f) y (h), que atribuyen a
+        este ministerio la cooperación al desarrollo y la política estatal hacia los eslovacos
+        residentes en el exterior; asuntos europeos por el § 14(1) y (2)(g), la relación con las
+        instituciones europeas y la coordinación de la aplicación de las políticas de la Unión
+        Europea.
+
+  - id: SK-2023-praca
+    order: 10
+    name_original: Ministerstvo práce, sociálnych vecí a rodiny Slovenskej republiky
+    abbreviation_original: null
+    name_en: Ministry of Labour, Social Affairs and Family of the Slovak Republic
+    name_es: Ministerio de Trabajo, Asuntos Sociales y Familia de la República Eslovaca
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: minister práce, sociálnych vecí a rodiny Slovenskej republiky
+    head_title_en: Minister of Labour, Social Affairs and Family
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [labour, social_affairs, social_security, family, equality, disability]
+    counts_as_ministry: true
+    url: https://www.employment.gov.sk
+    sources: [slovlex-575-2001]
+    note:
+      en: >-
+        Equality is tagged for § 15(1)(h), gender equality and equal opportunities and the
+        coordination of state policy in that field, and disability for § 15(1)(f), support for the
+        social inclusion of persons with severe disabilities. Slovakia has neither an equality
+        ministry nor a disability ministry.
+      es: >-
+        Se etiqueta igualdad por el § 15(1)(h) —igualdad de género e igualdad de oportunidades y
+        coordinación de la política estatal en esa materia— y discapacidad por el § 15(1)(f),
+        apoyo a la inclusión social de las personas con discapacidad grave. Eslovaquia no tiene
+        ministerio de igualdad ni de discapacidad.
+
+  - id: SK-2023-zivotne-prostredie
+    order: 11
+    name_original: Ministerstvo životného prostredia Slovenskej republiky
+    abbreviation_original: null
+    name_en: Ministry of the Environment of the Slovak Republic
+    name_es: Ministerio de Medio Ambiente de la República Eslovaca
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: minister životného prostredia Slovenskej republiky
+    head_title_en: Minister of the Environment
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [environment, water, climate]
+    counts_as_ministry: true
+    url: https://www.minzp.sk
+    sources: [slovlex-575-2001]
+    note:
+      en: >-
+        Climate is tagged because § 16(c) gives this ministry the protection of the air, the
+        ozone layer and the climate system of the Earth; Slovakia has no climate ministry, and
+        energy policy sits with the Ministry of Economy. Water is tagged for § 16(b), water
+        management, flood protection and the quality and quantity of water. It also holds
+        geological survey and exploration under § 16(h), which is the geology half of the
+        taxonomy's single mining-and-geology id; that id is tagged on the Ministry of Economy,
+        which holds extraction and the supervision of mineral deposits, and the methodology notes
+        record the choice. Its minister has held a vice-premiership throughout this cabinet,
+        which adds neither a ministry nor a seat.
+      es: >-
+        Se etiqueta clima porque el § 16(c) atribuye a este ministerio la protección del aire, de
+        la capa de ozono y del sistema climático de la Tierra; Eslovaquia no tiene ministerio de
+        clima, y la política energética está en el Ministerio de Economía. Se etiqueta agua por
+        el § 16(b), gestión del agua, protección contra inundaciones y calidad y cantidad de las
+        aguas. También tiene la investigación y prospección geológica conforme al § 16(h), que es
+        la mitad geológica del único id de minería y geología de la taxonomía; ese id se etiqueta
+        en el Ministerio de Economía, que tiene la extracción y la supervisión de los yacimientos,
+        y las notas metodológicas recogen la decisión. Su titular ha ostentado una vicepresidencia
+        durante todo este gabinete, lo que no añade ni ministerio ni asiento.
+
+  - id: SK-2023-skolstvo-vyskum-vyvoj-mladez
+    order: 12
+    name_original: Ministerstvo školstva, výskumu, vývoja a mládeže Slovenskej republiky
+    abbreviation_original: null
+    name_en: Ministry of Education, Research, Development and Youth of the Slovak Republic
+    name_es: Ministerio de Educación, Investigación, Desarrollo y Juventud de la República Eslovaca
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: minister školstva, výskumu, vývoja a mládeže Slovenskej republiky
+    head_title_en: Minister of Education, Research, Development and Youth
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [education, higher_education, research, youth, vocational_training]
+    counts_as_ministry: true
+    valid_from: 2024-02-01
+    url: https://www.minedu.sk
+    sources: [slovlex-575-2001, zbierka-7-2024]
+    note:
+      en: >-
+        Opened on 1 February 2024, when point 4 of article I of zákon č. 7/2024 Z. z. replaced
+        letter l) of § 3 and this ministry took the place of the Ministerstvo školstva, vedy,
+        výskumu a športu Slovenskej republiky, which is recorded separately with a `valid_to`. The
+        same day sport left the portfolio for the new Ministry of Tourism and Sport, so `sport` is
+        not tagged here; § 17(e) leaves this ministry only the development of physical and sporting
+        activity in schools. Vocational training is tagged for § 17(a) and (c), secondary schools
+        and lifelong learning, and higher education for the vysoké školy in § 17(a).
+      es: >-
+        Abierto el 1 de febrero de 2024, cuando el punto 4 del artículo I de la zákon č. 7/2024
+        Z. z. sustituyó la letra l) del § 3 y este ministerio ocupó el lugar del Ministerstvo
+        školstva, vedy, výskumu a športu Slovenskej republiky, que se registra aparte con un
+        `valid_to`. Ese mismo día el deporte salió de la cartera hacia el nuevo Ministerio de
+        Turismo y Deporte, por lo que aquí no se etiqueta `sport`; el § 17(e) deja a este
+        ministerio solo el fomento de la actividad física y deportiva en los centros escolares. Se
+        etiqueta formación profesional por el § 17(a) y (c), enseñanza secundaria y aprendizaje a
+        lo largo de la vida, y universidades por las vysoké školy del § 17(a).
+
+  - id: SK-2023-kultura
+    order: 13
+    name_original: Ministerstvo kultúry Slovenskej republiky
+    abbreviation_original: null
+    name_en: Ministry of Culture of the Slovak Republic
+    name_es: Ministerio de Cultura de la República Eslovaca
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: minister kultúry Slovenskej republiky
+    head_title_en: Minister of Culture
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [culture, media, language_policy, religion]
+    counts_as_ministry: true
+    url: https://www.culture.gov.sk
+    sources: [slovlex-575-2001]
+    note:
+      en: >-
+        Language policy is tagged because § 18(1)(a) makes this ministry the central body for the
+        state language, media for § 18(1)(h), media and audiovisual affairs, and religion for
+        § 18(1)(g), relations with churches and religious societies. Slovakia has no separate
+        ministry for any of the three.
+      es: >-
+        Se etiqueta política lingüística porque el § 18(1)(a) convierte a este ministerio en el
+        órgano central para la lengua del Estado; medios por el § 18(1)(h), medios y audiovisual;
+        y asuntos religiosos por el § 18(1)(g), relaciones con las iglesias y las sociedades
+        religiosas. Eslovaquia no tiene ministerio propio para ninguna de las tres.
+
+  - id: SK-2023-zdravotnictvo
+    order: 14
+    name_original: Ministerstvo zdravotníctva Slovenskej republiky
+    abbreviation_original: null
+    name_en: Ministry of Health of the Slovak Republic
+    name_es: Ministerio de Sanidad de la República Eslovaca
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: minister zdravotníctva Slovenskej republiky
+    head_title_en: Minister of Health
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [health]
+    counts_as_ministry: true
+    url: https://www.health.gov.sk
+    sources: [slovlex-575-2001]
+
+  - id: SK-2023-cestovny-ruch-sport
+    order: 15
+    name_original: Ministerstvo cestovného ruchu a športu Slovenskej republiky
+    abbreviation_original: null
+    name_en: Ministry of Tourism and Sport of the Slovak Republic
+    name_es: Ministerio de Turismo y Deporte de la República Eslovaca
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: minister cestovného ruchu a športu Slovenskej republiky
+    head_title_en: Minister of Tourism and Sport
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: [tourism, sport]
+    counts_as_ministry: true
+    valid_from: 2024-02-01
+    url: https://mincrs.sk
+    sources: [slovlex-575-2001, zbierka-7-2024]
+    note:
+      en: >-
+        The fifteenth ministry, created mid-term: point 5 of article I of zákon č. 7/2024 Z. z.
+        added letter o) to § 3 with effect from 1 February 2024. It did not exist when this
+        cabinet was appointed on 25 October 2023, which is why the ministry count for this
+        cabinet is 14 before that date and 15 after it, and why the appointment notice of 25
+        October 2023 names no minister for it.
+      es: >-
+        El decimoquinto ministerio, creado a mitad de legislatura: el punto 5 del artículo I de la
+        zákon č. 7/2024 Z. z. añadió la letra o) al § 3 con efecto desde el 1 de febrero de 2024.
+        No existía cuando este gabinete fue nombrado el 25 de octubre de 2023, y por eso el
+        recuento de ministerios de este gabinete es 14 antes de esa fecha y 15 después, y por eso
+        el aviso de nombramiento del 25 de octubre de 2023 no nombra ningún titular para él.
+
+  # --- recorded, not counted -----------------------------------------------------
+  - id: SK-2023-urad-vlady
+    order: 16
+    name_original: Úrad vlády Slovenskej republiky
+    abbreviation_original: null
+    name_en: Office of the Government of the Slovak Republic
+    name_es: Oficina del Gobierno de la República Eslovaca
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: predseda vlády Slovenskej republiky
+    head_title_en: Prime Minister
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: head_of_government_office
+    url: https://www.vlada.gov.sk
+    sources: [slovlex-575-2001, ustava-460-1992, vlada-clenovia-vlady, vlada-vymenovanie-2023-10-25]
+    note:
+      en: >-
+        Not a ministry: § 3 of zákon č. 575/2001 Z. z. does not list it, § 21(1)(a) puts it among
+        the other central bodies of state administration, and § 22(1) puts a vedúci at its head
+        rather than a minister. It is recorded because it is the office of the head of government
+        — § 1b makes it the Prime Minister's executive organ as well as the government's
+        secretariat, and the government's own list of its members puts the Prime Minister and
+        this office on one line — and because its `has_cabinet_seat: true` is what carries the
+        Prime Minister's seat, the seat that makes the cabinet 16 people and the government 15
+        ministries. `head_title_original` therefore records the Prime Minister rather than the
+        vedúci: the vedúci is a civil-service director appointed by and answerable to the
+        government and the Prime Minister, and does not sit in the cabinet. Until 19 November 2025
+        the office also housed the deputy prime minister for the Recovery Plan, which is recorded
+        as its own entity.
+      es: >-
+        No es un ministerio: el § 3 de la zákon č. 575/2001 Z. z. no lo enumera, el § 21(1)(a) lo
+        sitúa entre los demás órganos centrales de la administración estatal y el § 22(1) pone a
+        su cabeza un vedúci y no un ministro. Se registra porque es la oficina del jefe de
+        gobierno —el § 1b lo convierte en órgano ejecutivo del primer ministro además de
+        secretaría del gobierno, y la propia lista gubernamental de miembros pone al primer
+        ministro y a esta oficina en la misma línea— y porque su `has_cabinet_seat: true` es lo
+        que lleva el asiento del primer ministro, el asiento que hace que el gabinete sean 16
+        personas y el gobierno 15 ministerios. Por eso `head_title_original` recoge al primer
+        ministro y no al vedúci: el vedúci es un director de la función pública nombrado por el
+        gobierno y responsable ante él y ante el primer ministro, y no tiene asiento en el
+        gabinete. Hasta el 19 de noviembre de 2025 la oficina albergó además al viceprimer
+        ministro para el Plan de Recuperación, que se registra como entidad propia.
+
+  - id: SK-2023-urad-podpredsedu-vlady-plan-obnovy
+    order: 17
+    name_original: Úrad podpredsedu vlády Slovenskej republiky pre Plán obnovy a znalostnú ekonomiku
+    abbreviation_original: null
+    name_en: >-
+      Office of the Deputy Prime Minister of the Slovak Republic for the Recovery Plan and the
+      Knowledge Economy
+    name_es: >-
+      Oficina del Vicepresidente del Gobierno de la República Eslovaca para el Plan de
+      Recuperación y la Economía del Conocimiento
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: vedúci Úradu podpredsedu vlády Slovenskej republiky pre Plán obnovy a znalostnú ekonomiku
+    head_title_en: Head of Office
+    has_cabinet_seat: false
+    head_count: 0
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: agency_or_public_body
+    valid_from: 2025-01-01
+    url: https://www.vicepremier.gov.sk
+    sources: [slovlex-575-2001, vlada-clenovia-vlady, prezident-vymenovania-odvolania]
+    note:
+      en: >-
+        A central body of state administration, not a ministry: § 21(1)(l) of zákon č. 575/2001
+        Z. z. added it to the list of other central authorities with effect from 1 January 2025,
+        and § 22(5) puts a vedúci at its head, appointed by the government on the proposal of the
+        deputy prime minister it serves. It is recorded rather than left out of scope because the
+        government's own list of cabinet members carries it, with the minister of education listed
+        against it as "poverený riadením" — entrusted with running it — since the vice-premiership
+        it serves fell vacant on 19 November 2025. `has_cabinet_seat` is false and `head_count` is
+        0 because its own head has never sat in the cabinet; the cabinet seat that belonged to the
+        deputy prime minister is recorded on the next entity, and counting it here as well would
+        double it. Before 1 January 2025 the same agenda was run from inside the Úrad vlády
+        Slovenskej republiky.
+      es: >-
+        Un órgano central de la administración estatal, no un ministerio: el § 21(1)(l) de la
+        zákon č. 575/2001 Z. z. lo añadió a la lista de las demás autoridades centrales con efecto
+        desde el 1 de enero de 2025, y el § 22(5) pone a su cabeza un vedúci nombrado por el
+        gobierno a propuesta del viceprimer ministro al que sirve. Se registra en lugar de dejarse
+        fuera de alcance porque la propia lista gubernamental de miembros del gabinete lo recoge,
+        con el ministro de educación anotado como «poverený riadením» —encargado de dirigirlo—
+        desde que la vicepresidencia a la que sirve quedó vacante el 19 de noviembre de 2025.
+        `has_cabinet_seat` es falso y `head_count` es 0 porque su propio titular nunca ha tenido
+        asiento en el gabinete; el asiento que correspondía al viceprimer ministro se registra en
+        la entidad siguiente, y contarlo también aquí lo duplicaría. Antes del 1 de enero de 2025
+        la misma agenda se dirigía desde dentro del Úrad vlády Slovenskej republiky.
+
+  - id: SK-2023-podpredseda-vlady-plan-obnovy
+    order: 18
+    name_original: podpredseda vlády Slovenskej republiky pre Plán obnovy a znalostnú ekonomiku
+    abbreviation_original: null
+    name_en: Deputy Prime Minister for the Recovery Plan and the Knowledge Economy
+    name_es: Vicepresidente del Gobierno para el Plan de Recuperación y la Economía del Conocimiento
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: podpredseda vlády Slovenskej republiky
+    head_title_en: Deputy Prime Minister
+    has_cabinet_seat: true
+    head_count: 1
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: deputy_head_without_portfolio
+    valid_to: 2025-11-19
+    url: null
+    sources: [ustava-460-1992, vlada-vymenovanie-2023-10-25, prezident-kmec-demisia-2025, prezident-vymenovania-odvolania]
+    note:
+      en: >-
+        A deputy prime minister holding no ministry, and the only member of this cabinet who ever
+        was one: the other three vice-premiers each head a department and are counted through it.
+        He held a cabinet seat under article 109(1) of the Constitution and no portfolio under
+        § 3, which is the textbook case of `deputy_head_without_portfolio`. Closed on 19 November
+        2025, the day the President accepted his resignation and, under article 116(7) of the
+        Constitution, designated the minister of education to administer the agenda temporarily
+        rather than appointing a successor — so the seat ended rather than changing hands, and the
+        cabinet went from 17 seats to 16. The President's register of appointments records no
+        appointment to the post since. The post was renamed on 20 December 2024: from 25 October
+        2023 it was the podpredseda vlády Slovenskej republiky pre Plán obnovy a odolnosti a
+        využívanie eurofondov, and the register shows the dismissal from the old title and the
+        appointment to the new one on the same day. This entity spans both names rather than being
+        split, because the rename moved neither of the figures this dataset publishes; it is
+        recorded under the later name because that is the name under which the seat ended.
+      es: >-
+        Un viceprimer ministro sin ministerio, y el único miembro de este gabinete que lo fue: los
+        otros tres vicepresidentes encabezan cada uno un departamento y se cuentan a través de él.
+        Tenía asiento en el gabinete conforme al artículo 109(1) de la Constitución y ninguna
+        cartera conforme al § 3, que es el caso de manual de `deputy_head_without_portfolio`.
+        Cerrado el 19 de noviembre de 2025, el día en que el presidente aceptó su dimisión y,
+        conforme al artículo 116(7) de la Constitución, designó al ministro de educación para
+        administrar temporalmente la agenda en vez de nombrar un sucesor: el asiento terminó en
+        lugar de cambiar de manos, y el gabinete pasó de 17 asientos a 16. El registro
+        presidencial de nombramientos no recoge ningún nombramiento al cargo desde entonces. El
+        cargo se renombró el 20 de diciembre de 2024: desde el 25 de octubre de 2023 era el
+        podpredseda vlády Slovenskej republiky pre Plán obnovy a odolnosti a využívanie
+        eurofondov, y el registro muestra el cese del título antiguo y el nombramiento al nuevo el
+        mismo día. Esta entidad abarca ambos nombres sin escindirse, porque el cambio de nombre no
+        movió ninguna de las cifras que publica este conjunto de datos; se registra con el nombre
+        posterior porque es el nombre con el que terminó el asiento.
+
+  - id: SK-2023-skolstvo-veda-vyskum-sport
+    order: 19
+    name_original: Ministerstvo školstva, vedy, výskumu a športu Slovenskej republiky
+    abbreviation_original: null
+    name_en: Ministry of Education, Science, Research and Sport of the Slovak Republic
+    name_es: Ministerio de Educación, Ciencia, Investigación y Deporte de la República Eslovaca
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: minister školstva, vedy, výskumu a športu Slovenskej republiky
+    head_title_en: Minister of Education, Science, Research and Sport
+    has_cabinet_seat: false
+    head_count: 0
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: superseded_within_cabinet
+    valid_to: 2024-01-31
+    url: null
+    sources: [zbierka-7-2024, vlada-vymenovanie-2023-10-25]
+    note:
+      en: >-
+        The education ministry as it stood when this cabinet was appointed on 25 October 2023, and
+        one of the fourteen ministries it then had. Point 4 of article I of zákon č. 7/2024 Z. z.
+        replaced letter l) of § 3 with effect from 1 February 2024, so this entity closes on 31
+        January 2024 and the Ministerstvo školstva, výskumu, vývoja a mládeže Slovenskej republiky
+        opens the next day; sport went to the new Ministry of Tourism and Sport at the same
+        moment. Kept for the historical record instead of being renamed in place: `valid_to` alone
+        already drops it out of this cabinet's current snapshot, and it additionally carries the
+        project's `superseded_within_cabinet` reason, which is the vocabulary this dataset provides
+        for a department merged, split or abolished mid-term. One consequence is worth stating
+        rather than leaving for a reader to discover: because it is recorded as not counted and
+        without a seat, a replay of a date before 1 February 2024 shows 13 ministries and 15 seats
+        instead of the 14 and 16 that were actually in place. It was in truth a full ministry with a
+        cabinet seat for the first three months of this cabinet, and the methodology notes say so.
+      es: >-
+        El ministerio de educación tal como estaba cuando este gabinete fue nombrado el 25 de
+        octubre de 2023, y uno de los catorce ministerios que entonces tenía. El punto 4 del
+        artículo I de la zákon č. 7/2024 Z. z. sustituyó la letra l) del § 3 con efecto desde el 1
+        de febrero de 2024, de modo que esta entidad se cierra el 31 de enero de 2024 y el
+        Ministerstvo školstva, výskumu, vývoja a mládeže Slovenskej republiky se abre al día
+        siguiente; el deporte pasó al nuevo Ministerio de Turismo y Deporte en el mismo momento.
+        Se conserva para el registro histórico en lugar de renombrarse sobre la marcha: el
+        `valid_to` ya lo saca por sí solo de la foto actual de este gabinete, y además lleva el
+        motivo `superseded_within_cabinet` del proyecto, que es el vocabulario que este conjunto de
+        datos ofrece para un departamento fusionado, escindido o suprimido a mitad de legislatura.
+        Conviene decir una consecuencia en vez de dejar que el lector la descubra: como se registra
+        como no contado y sin asiento, la reconstrucción de una fecha anterior al 1 de febrero de
+        2024 muestra 13 ministerios y 15 asientos en lugar de los 14 y 16 que realmente había. En
+        realidad fue un ministerio completo con asiento en el gabinete durante los tres primeros
+        meses de este gabinete, y las notas metodológicas lo dicen.

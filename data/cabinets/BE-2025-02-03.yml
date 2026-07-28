@@ -1,0 +1,720 @@
+# Belgium — structure of the federal government of Bart De Wever.
+#
+# Read docs/DATA-CONTRACT.md alongside this file. Four Belgium-specific things to know:
+#
+#   1. Belgium has no federal "ministries" to count. The permanent administration is
+#      organised into services publics fédéraux / federale overheidsdiensten, which do not
+#      map one-to-one onto portfolios, and no instrument enumerates departments the way a
+#      Spanish or Greek decree does. What the law does enumerate is ministers: the royal
+#      decree of 3 February 2025 names each one and states the portfolio each is appointed
+#      to. Those portfolios are the entities below, in the decree's own order.
+#   2. This is a federal-level file only. Belgium's communities and regions have their own
+#      governments and ministers, several of them larger than a small member state's; they
+#      are subnational and out of scope, so nothing here counts them.
+#   3. This government has no secretaries of state at all, which is unusual for Belgium and
+#      is why no entity carries junior_minister_or_state_secretary.
+#   4. Titles are given in French in name_original and in Dutch in each entity's note. Both
+#      versions of the decree are authentic; the choice of which to put in a single field is
+#      ours, and it is explained in the methodology notes.
+
+country: BE
+cabinet_id: BE-2025-02-03
+
+cabinet_name_original: Gouvernement De Wever / Regering-De Wever
+cabinet_name_en: De Wever government
+cabinet_name_es: Gobierno De Wever
+
+head_of_government_title_original: Premier Ministre / Eerste Minister
+head_of_government_title_en: Prime Minister
+
+took_office: 2025-02-03
+left_office: null
+
+methodology_notes:
+  - en: >-
+      Belgium is counted here as having 14 ministerial portfolios and 15 cabinet seats. The
+      difference is the Prime Minister, who sits in the Council of Ministers without being
+      appointed to a portfolio. Article 99 of the Constitution caps the Council at fifteen
+      members and requires equal numbers of French-speaking and Dutch-speaking ministers, the
+      Prime Minister aside; this government is at that cap, which is why "the Belgian federal
+      government has fifteen ministers" and "Belgium has fourteen ministries" are both true.
+    es: >-
+      Bélgica se cuenta aquí con 14 carteras ministeriales y 15 asientos en el gabinete. La
+      diferencia es el primer ministro, que forma parte del Consejo de Ministros sin estar
+      nombrado para ninguna cartera. El artículo 99 de la Constitución limita el Consejo a
+      quince miembros y exige el mismo número de ministros francófonos y neerlandófonos,
+      salvo el primer ministro; este gobierno está en ese tope, y por eso «el gobierno
+      federal belga tiene quince ministros» y «Bélgica tiene catorce ministerios» son ambas
+      afirmaciones ciertas.
+  - en: >-
+      What is being counted is a portfolio, not a department. Belgium's federal
+      administration consists of services publics fédéraux (SPF) and services publics de
+      programmation, permanent bodies that survive changes of government and that do not
+      correspond one-to-one to the portfolios a Prime Minister distributes: some ministers
+      draw on several SPFs, some SPFs serve several ministers, and portfolios such as Energy
+      or the North Sea have no SPF of their own at all. Counting SPFs instead of portfolios
+      would produce a different and equally defensible number for Belgium. This dataset
+      counts what the appointment decree names, because that is the only enumeration made by
+      a legal instrument and because it is the closest analogue to the ministerial
+      departments counted in the other countries here.
+    es: >-
+      Lo que se cuenta es una cartera, no un departamento. La administración federal belga se
+      compone de services publics fédéraux (SPF) y services publics de programmation,
+      organismos permanentes que sobreviven a los cambios de gobierno y que no se
+      corresponden uno a uno con las carteras que reparte un primer ministro: hay ministros
+      que se apoyan en varios SPF, SPF que sirven a varios ministros y carteras como Energía
+      o el Mar del Norte que no tienen SPF propio. Contar SPF en lugar de carteras daría para
+      Bélgica una cifra distinta e igualmente defendible. Este conjunto de datos cuenta lo que
+      nombra el decreto de nombramiento, porque es la única enumeración hecha por un
+      instrumento jurídico y porque es lo más parecido a los departamentos ministeriales que
+      se cuentan en los demás países.
+  - en: >-
+      Five of the fourteen ministers are also Vice-Prime Ministers, one for each coalition
+      party. A vice-premiership is a personal office attached to a minister who already heads
+      a portfolio, not a department of its own, so it adds neither a ministry nor a seat —
+      the same treatment Spain's vice-presidencies get in this dataset. The rank is part of
+      the title the decree confers, so it stays in name_original rather than being edited out.
+    es: >-
+      Cinco de los catorce ministros son además viceprimeros ministros, uno por cada partido
+      de la coalición. Una viceprimatura es un cargo personal adscrito a un ministro que ya
+      encabeza una cartera, no un departamento propio, por lo que no añade ni ministerio ni
+      asiento: el mismo tratamiento que reciben aquí las vicepresidencias españolas. El rango
+      forma parte del título que confiere el decreto, así que se conserva en name_original en
+      lugar de suprimirse.
+  - en: >-
+      No secretaries of state. Belgian federal governments almost always include
+      secrétaires d'État / staatssecretarissen, who are members of the government of lesser
+      rank attached to a minister; this one has none, and the royal decree of 3 February 2025
+      appoints ministers only. Nothing is therefore excluded from Belgium's count on
+      junior-minister grounds, and the fifteen seats are fifteen full ministers.
+    es: >-
+      Sin secretarios de Estado. Los gobiernos federales belgas casi siempre incluyen
+      secrétaires d'État / staatssecretarissen, miembros del gobierno de rango menor
+      adscritos a un ministro; este no tiene ninguno, y el real decreto de 3 de febrero de
+      2025 nombra únicamente ministros. Nada se excluye por tanto del recuento belga por ser
+      cargo subalterno, y los quince asientos son quince ministros de pleno derecho.
+  - en: >-
+      French in the field, Dutch in the note, and nothing implied by the order. The Moniteur
+      belge publishes the appointment decree in French and in Dutch, and both texts are
+      authentic; German-language versions of federal acts are translations published later.
+      The schema has one name_original field per entity, so this file puts the French title
+      there and gives the Dutch title of the same decree in the entity's note, citing the
+      Dutch text of the decree as a source in its own right. No priority between the two
+      languages is intended or should be read into it. One consequence of quoting the decree
+      verbatim: the participle agrees with the sex of the person appointed, so a portfolio
+      held by a woman reads "chargée" where one held by a man reads "chargé". That is an
+      artefact of the appointment, not part of the portfolio's name.
+    es: >-
+      El francés en el campo, el neerlandés en la nota, y ningún orden implícito. El Moniteur
+      belge publica el decreto de nombramiento en francés y en neerlandés, y ambos textos son
+      auténticos; las versiones en alemán de las normas federales son traducciones publicadas
+      después. El esquema tiene un único campo name_original por entidad, así que este
+      fichero pone ahí el título francés y da el título neerlandés del mismo decreto en la
+      nota de la entidad, citando el texto neerlandés como fuente propia. No se pretende
+      ninguna prelación entre las dos lenguas ni debe leerse tal cosa. Una consecuencia de
+      citar el decreto literalmente: el participio concuerda con el sexo de la persona
+      nombrada, de modo que una cartera en manos de una mujer dice «chargée» donde una en
+      manos de un hombre dice «chargé». Es un rasgo del nombramiento, no parte del nombre de
+      la cartera.
+  - en: >-
+      One portfolio's title was corrected three weeks after the government took office. A
+      royal decree of 21 February 2025, published on 27 February and given retroactive effect
+      to 3 February, replaced "et des Etablissements scientifiques fédéraux" with "et de la
+      Politique scientifique" in the title of the Minister of Public Action and
+      Modernisation. This file records the corrected title, which is the one in force for the
+      whole of the government's life; sources written in the first weeks of February 2025
+      give the earlier wording.
+    es: >-
+      El título de una cartera se corrigió tres semanas después de la toma de posesión. Un
+      real decreto de 21 de febrero de 2025, publicado el 27 de febrero y con efecto
+      retroactivo al 3 de febrero, sustituyó «et des Etablissements scientifiques fédéraux»
+      por «et de la Politique scientifique» en el título de la ministra de Acción y
+      Modernización Públicas. Este fichero recoge el título corregido, que es el vigente
+      durante toda la vida del gobierno; las fuentes escritas en las primeras semanas de
+      febrero de 2025 dan la redacción anterior.
+  - en: >-
+      Entity urls are null on purpose. A Belgian federal portfolio has no departmental
+      website: the administrations that serve it are the SPFs, whose sites are organised by
+      administration rather than by portfolio, and the minister-level sites at
+      <name>.belgium.be are personal to the officeholder and disappear when the holder
+      changes. Recording either would attach a URL to something other than the entity it is
+      filed under. The Prime Minister's office is the exception and keeps its own site.
+    es: >-
+      Las url de las entidades son null a propósito. Una cartera federal belga no tiene sitio
+      web departamental: las administraciones que la sirven son los SPF, cuyos sitios se
+      organizan por administración y no por cartera, y los sitios de nivel ministerial en
+      <nombre>.belgium.be son personales del titular y desaparecen cuando este cambia.
+      Registrar cualquiera de los dos ataría una URL a algo distinto de la entidad bajo la
+      que figura. La excepción es la oficina del primer ministro, que conserva sitio propio.
+
+sources:
+  - id: mb-ar-2025-02-03-nomination
+    tier: 1
+    type: official_gazette
+    publisher: Moniteur belge — Service public fédéral Chancellerie du Premier Ministre
+    title: >-
+      3 février 2025. — Arrêté royal. — Gouvernement. — Nomination (Moniteur belge du
+      4 février 2025, numac 2025001155)
+    url: https://www.ejustice.just.fgov.be/cgi/article.pl?language=fr&sum_date=2025-02-04&lg_txt=f&numac_search=2025001155
+    archive_url: https://web.archive.org/web/20250513231449/http://www.ejustice.just.fgov.be/cgi/article.pl?language=fr&sum_date=2025-02-04&lg_txt=f&numac_search=2025001155
+    lang: fr
+    published: 2025-02-04
+    accessed: 2026-07-27
+    quote: |-
+      Article 1er. M. David Clarinval, membre de la Chambre des représentants, est nommé Vice-Premier Ministre et Ministre de l'Emploi, de l'Economie et de l'Agriculture.
+      M. Maxime Prévot, membre de la Chambre des représentants, est nommé Vice-Premier Ministre et Ministre des Affaires étrangères, des Affaires européennes et de la Coopération au développement.
+      M. Frank Vandenbroucke, Ministre d'Etat, membre de la Chambre des représentants, est nommé Vice-Premier Ministre et Ministre des Affaires sociales et de la Santé publique, chargé de la Lutte contre la pauvreté.
+      M. Vincent Van Peteghem, membre de la Chambre des représentants, est nommé Vice-Premier Ministre et Ministre du Budget, chargé de la Simplification administrative.
+      M. Jan Jambon, membre du Parlement flamand, est nommé Vice-Premier Ministre et Ministre des Finances et des Pensions, chargé de la Loterie nationale et des Institutions culturelles fédérales.
+      Mme Annelies Verlinden, membre de la Chambre des représentants, est nommée Ministre de la Justice, chargée de la Mer du Nord.
+      M. Bernard Quintin est nommé Ministre de la Sécurité et de l'Intérieur, chargé de Beliris.
+      M. Theo Francken, membre de la Chambre des représentants, est nommé Ministre de la Défense, chargé du Commerce extérieur.
+      M. Jean-Luc Crucke, membre de la Chambre des représentants, est nommé Ministre de la Mobilité, du Climat et de la Transition environnementale.
+      Mme Vanessa Matz, membre de la Chambre des représentants, est nommée Ministre de l'Action et de la Modernisation publiques, chargée des Entreprises publiques, de la Fonction publique, de la Gestion immobilière de l'Etat, du Numérique et des Etablissements scientifiques fédéraux.
+      M. Rob Beenders est nommé Ministre de la Protection des consommateurs, de la Lutte contre la Fraude sociale, des Personnes handicapées et de l'Egalité des chances.
+      Mme Anneleen Van Bossuyt, membre de la Chambre des représentants, est nommée Ministre de l'Asile et de la Migration, et de l'Intégration sociale, chargée de la Politique des Grandes villes.
+      M. Mathieu Bihet, membre de la Chambre des représentants, est nommé Ministre de l'Energie.
+      Mme Eléonore Simonet, membre du Parlement bruxellois, est nommée Ministre des Classes moyennes, des Indépendants et des PME.
+    note: >-
+      The instrument that enumerates this government's portfolios, quoted in full. Taken with
+      article 96 of the Constitution, under which it is made, it is also what fixes
+      took_office: article 2 provides that the decree enters into force the same day, and the
+      ministers were sworn in before the King on 3 February 2025. It is countersigned by the
+      Prime Minister, B. De Wever, who is appointed by a separate decree of the same day and
+      is therefore not among the fourteen named here. The last title in the quote was amended
+      three weeks later — see the modification decree cited below, which is what this file
+      follows. The permanent identifier of this text is the ELI
+      https://www.ejustice.just.fgov.be/eli/arrete/2025/02/03/2025001155/moniteur; the url
+      recorded here is the article view of the same text, because that is the form of the URL
+      the web archive has captured.
+
+  - id: mb-kb-2025-02-03-benoeming
+    tier: 1
+    type: official_gazette
+    publisher: Belgisch Staatsblad — Federale Overheidsdienst Kanselarij van de Eerste Minister
+    title: >-
+      3 februari 2025. — Koninklijk besluit. — Regering. — Benoeming (Belgisch Staatsblad van
+      4 februari 2025, numac 2025001155)
+    url: https://www.ejustice.just.fgov.be/cgi/article_body.pl?language=nl&caller=summary&pub_date=25-02-04&numac=2025001155
+    archive_url: https://web.archive.org/web/20260727223219/https://www.ejustice.just.fgov.be/cgi/article_body.pl?language=nl&caller=summary&pub_date=25-02-04&numac=2025001155
+    lang: nl
+    published: 2025-02-04
+    accessed: 2026-07-27
+    quote: |-
+      Artikel 1. Dhr. David Clarinval, lid van de Kamer van volksvertegenwoordigers, wordt benoemd tot Vice-eersteminister en Minister van Werk, Economie en Landbouw.
+      Dhr. Maxime Prévot, lid van de Kamer van volksvertegenwoordigers, wordt benoemd tot Vice-eersteminister en Minister van Buitenlandse Zaken, Europese Zaken en Ontwikkelingssamenwerking.
+      Dhr. Frank Vandenbroucke, Minister van Staat, lid van de Kamer van volksvertegenwoordigers, wordt benoemd tot Vice-eersteminister en Minister van Sociale Zaken en Volksgezondheid, belast met Armoedebestrijding.
+      Dhr. Vincent Van Peteghem, lid van de Kamer van volksvertegenwoordigers, wordt benoemd tot Vice-eersteminister en Minister van Begroting, belast met Administratieve Vereenvoudiging.
+      Dhr. Jan Jambon, lid van het Vlaams Parlement, wordt benoemd tot Vice-eersteminister en Minister van Financiën en Pensioenen, belast met de Nationale Loterij en de Federale Culturele Instellingen.
+      Mevr. Annelies Verlinden, lid van de Kamer van volksvertegenwoordigers, wordt benoemd tot Minister van Justitie, belast met Noordzee.
+      Dhr. Bernard Quintin wordt benoemd tot Minister van Veiligheid en Binnenlandse Zaken, belast met Beliris.
+      Dhr. Theo Francken, lid van de Kamer van volksvertegenwoordigers, wordt benoemd tot Minister van Defensie, belast met Buitenlandse Handel.
+      Dhr. Jean-Luc Crucke, lid van de Kamer van volksvertegenwoordigers, wordt benoemd tot Minister van Mobiliteit, Klimaat en Ecologische Transitie.
+      Mevr. Vanessa Matz, lid van de Kamer van volksvertegenwoordigers, wordt benoemd tot Minister van Modernisering van de Overheid, belast met Overheidsbedrijven, Ambtenarenzaken, het Gebouwenbeheer van de Staat, Digitalisering en de Federale Wetenschappelijke Instellingen.
+      Dhr. Rob Beenders wordt benoemd tot Minister van Consumentenbescherming, Sociale Fraude-bestrijding, Personen met een handicap en Gelijke Kansen.
+      Mevr. Anneleen Van Bossuyt, lid van de Kamer van volksvertegenwoordigers, wordt benoemd tot Minister van Asiel en Migratie, en Maatschappelijke Integratie, belast met Grootstedenbeleid.
+      Dhr. Mathieu Bihet, lid van de Kamer van volksvertegenwoordigers, wordt benoemd tot Minister van Energie.
+      Mevr. Eléonore Simonet, lid van het Brussels Parlement, wordt benoemd tot Minister van Middenstand, Zelfstandigen en KMO's.
+    note: >-
+      The Dutch text of the same decree, equally authentic, and the source of the Dutch titles
+      given in each entity's note. Cited separately rather than folded into the French entry
+      because a title in a data file is a claim, and a claim in Dutch should rest on the Dutch
+      text. Its permanent identifier is the ELI
+      https://www.ejustice.just.fgov.be/eli/besluit/2025/02/03/2025001155/staatsblad. As in
+      the French version, the title of the Minister for Modernisation of Public Services was
+      amended on 21 February 2025.
+
+  - id: mb-ar-2025-02-21-modification
+    tier: 1
+    type: official_gazette
+    publisher: Moniteur belge — Service public fédéral Chancellerie du Premier Ministre
+    title: >-
+      21 février 2025. — Arrêté royal Gouvernement. — Modification (Moniteur belge du
+      27 février 2025, numac 2025001761)
+    url: https://www.ejustice.just.fgov.be/cgi/article.pl?language=fr&sum_date=2025-02-27&lg_txt=f&numac_search=2025001761
+    archive_url: https://web.archive.org/web/20250513233639/http://www.ejustice.just.fgov.be/cgi/article.pl?language=fr&sum_date=2025-02-27&lg_txt=f&numac_search=2025001761
+    lang: fr
+    published: 2025-02-27
+    accessed: 2026-07-27
+    quote: >-
+      A l'article 1er de l'arrêté royal du 3 février 2025 "Gouvernement - Nomination", le
+      titre "Ministre de l'Action et de la Modernisation publiques, chargée des Entreprises
+      publiques, de la Fonction publique, de la Gestion immobilière de l'Etat, du Numérique
+      et des Etablissements scientifiques fédéraux" de Mme Vanessa Matz est remplacé par le
+      titre "Ministre de l'Action et de la Modernisation publiques, chargée des Entreprises
+      publiques, de la Fonction publique, de la Gestion immobilière de l'Etat, du Numérique
+      et de la Politique scientifique".
+    note: >-
+      Article 1. Article 2 of the same decree gives it effect from 3 February 2025, so the
+      corrected title is the one that has applied throughout, and it is the title recorded
+      here. The Dutch version replaces "de Federale Wetenschappelijke Instellingen" with
+      "Wetenschapsbeleid" in the same way.
+
+  - id: senat-constitution-art96-99
+    tier: 1
+    type: statute
+    publisher: Sénat de Belgique
+    title: La Constitution belge (texte coordonné), articles 96 et 99
+    url: https://www.senate.be/doc/const_fr.html
+    archive_url: https://web.archive.org/web/20260727222832/https://www.senate.be/doc/const_fr.html
+    lang: fr
+    published: null
+    accessed: 2026-07-27
+    quote: >-
+      Le Conseil des ministres compte quinze membres au plus. Le Premier Ministre
+      éventuellement excepté, le Conseil des ministres compte autant de ministres d'expression
+      française que d'expression néerlandaise.
+    note: >-
+      Article 99, which caps the cabinet and imposes linguistic parity, and article 96, under
+      which the King appoints and dismisses ministers and which is the legal basis recited in
+      the appointment decree. Together they are why cabinet_seats_count for Belgium can never
+      exceed 15 whatever a Prime Minister does with the portfolios, and why the fourteen
+      portfolios below are distributed seven and seven between the language groups.
+
+entities:
+  - id: BE-2025-premier-ministre
+    order: 1
+    name_original: Premier Ministre / Eerste Minister
+    abbreviation_original: null
+    name_en: Prime Minister
+    name_es: Primer ministro
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Premier Ministre / Eerste Minister
+    head_title_en: Prime Minister
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: head_of_government_office
+    url: https://www.premier.be
+    sources: [mb-ar-2025-02-03-nomination, senat-constitution-art96-99]
+    note:
+      en: >-
+        Appointed by a separate royal decree of the same day and not among the fourteen
+        ministers named in the decree quoted here, which he countersigns. He chairs the
+        Council of Ministers and holds no portfolio, so he is one seat and no ministry. His
+        services are the SPF Chancellerie du Premier Ministre, the department that publishes
+        the appointment decrees themselves.
+      es: >-
+        Nombrado por un real decreto distinto del mismo día y ausente de los catorce ministros
+        que nombra el decreto aquí citado, que él refrenda. Preside el Consejo de Ministros y
+        no tiene cartera, de modo que es un asiento y ningún ministerio. Sus servicios son el
+        SPF Chancellerie du Premier Ministre, el departamento que publica los propios decretos
+        de nombramiento.
+
+  - id: BE-2025-emploi-economie-agriculture
+    order: 2
+    name_original: Vice-Premier Ministre et Ministre de l'Emploi, de l'Economie et de l'Agriculture
+    abbreviation_original: null
+    name_en: Deputy Prime Minister and Minister of Employment, the Economy and Agriculture
+    name_es: Viceprimer ministro y ministro de Empleo, Economía y Agricultura
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre / Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [labour, economy, agriculture]
+    counts_as_ministry: true
+    url: null
+    sources: [mb-ar-2025-02-03-nomination, mb-kb-2025-02-03-benoeming]
+    note:
+      en: >-
+        Dutch title, equally official: "Vice-eersteminister en Minister van Werk, Economie en
+        Landbouw". Federal agriculture is a residual competence — most of it belongs to the
+        regions — and covers food-chain safety policy, animal health and the negotiation of
+        the common agricultural policy.
+      es: >-
+        Título neerlandés, igualmente oficial: «Vice-eersteminister en Minister van Werk,
+        Economie en Landbouw». La agricultura federal es una competencia residual —la mayor
+        parte corresponde a las regiones— y abarca la seguridad de la cadena alimentaria, la
+        sanidad animal y la negociación de la política agrícola común.
+
+  - id: BE-2025-affaires-etrangeres
+    order: 3
+    name_original: >-
+      Vice-Premier Ministre et Ministre des Affaires étrangères, des Affaires européennes et
+      de la Coopération au développement
+    abbreviation_original: null
+    name_en: >-
+      Deputy Prime Minister and Minister of Foreign Affairs, European Affairs and Development
+      Cooperation
+    name_es: >-
+      Viceprimer ministro y ministro de Asuntos Exteriores, Asuntos Europeos y Cooperación al
+      Desarrollo
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre / Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [foreign_affairs, european_affairs, development_cooperation]
+    counts_as_ministry: true
+    url: null
+    sources: [mb-ar-2025-02-03-nomination, mb-kb-2025-02-03-benoeming]
+    note:
+      en: >-
+        Dutch title, equally official: "Vice-eersteminister en Minister van Buitenlandse
+        Zaken, Europese Zaken en Ontwikkelingssamenwerking". Foreign trade is not here: it is
+        attached to the Minister of Defence.
+      es: >-
+        Título neerlandés, igualmente oficial: «Vice-eersteminister en Minister van
+        Buitenlandse Zaken, Europese Zaken en Ontwikkelingssamenwerking». El comercio exterior
+        no está aquí: está adscrito al ministro de Defensa.
+
+  - id: BE-2025-affaires-sociales-sante
+    order: 4
+    name_original: >-
+      Vice-Premier Ministre et Ministre des Affaires sociales et de la Santé publique, chargé
+      de la Lutte contre la pauvreté
+    abbreviation_original: null
+    name_en: >-
+      Deputy Prime Minister and Minister of Social Affairs and Public Health, responsible for
+      Combating Poverty
+    name_es: >-
+      Viceprimer ministro y ministro de Asuntos Sociales y Salud Pública, encargado de la
+      Lucha contra la Pobreza
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre / Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [health, social_affairs, social_security]
+    counts_as_ministry: true
+    url: null
+    sources: [mb-ar-2025-02-03-nomination, mb-kb-2025-02-03-benoeming]
+    note:
+      en: >-
+        Dutch title, equally official: "Vice-eersteminister en Minister van Sociale Zaken en
+        Volksgezondheid, belast met Armoedebestrijding". Belgium's compulsory health insurance
+        and most social-insurance branches sit in this portfolio, which is why it carries
+        social_security as well as health.
+      es: >-
+        Título neerlandés, igualmente oficial: «Vice-eersteminister en Minister van Sociale
+        Zaken en Volksgezondheid, belast met Armoedebestrijding». El seguro obligatorio de
+        enfermedad y la mayoría de las ramas del seguro social están en esta cartera, y por eso
+        lleva «seguridad social» además de «sanidad».
+
+  - id: BE-2025-budget
+    order: 5
+    name_original: Vice-Premier Ministre et Ministre du Budget, chargé de la Simplification administrative
+    abbreviation_original: null
+    name_en: Deputy Prime Minister and Minister of the Budget, responsible for Administrative Simplification
+    name_es: Viceprimer ministro y ministro de Presupuesto, encargado de la Simplificación Administrativa
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre / Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [budget, public_administration]
+    counts_as_ministry: true
+    url: null
+    sources: [mb-ar-2025-02-03-nomination, mb-kb-2025-02-03-benoeming]
+    note:
+      en: >-
+        Dutch title, equally official: "Vice-eersteminister en Minister van Begroting, belast
+        met Administratieve Vereenvoudiging". Belgium separates the budget from finance: this
+        portfolio controls expenditure, the next one taxation and public debt.
+      es: >-
+        Título neerlandés, igualmente oficial: «Vice-eersteminister en Minister van Begroting,
+        belast met Administratieve Vereenvoudiging». Bélgica separa presupuesto y hacienda:
+        esta cartera controla el gasto y la siguiente la fiscalidad y la deuda pública.
+
+  - id: BE-2025-finances-pensions
+    order: 6
+    name_original: >-
+      Vice-Premier Ministre et Ministre des Finances et des Pensions, chargé de la Loterie
+      nationale et des Institutions culturelles fédérales
+    abbreviation_original: null
+    name_en: >-
+      Deputy Prime Minister and Minister of Finance and Pensions, responsible for the National
+      Lottery and the Federal Cultural Institutions
+    name_es: >-
+      Viceprimer ministro y ministro de Hacienda y Pensiones, encargado de la Lotería Nacional
+      y las Instituciones Culturales Federales
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre / Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [finance, social_security, culture]
+    counts_as_ministry: true
+    url: null
+    sources: [mb-ar-2025-02-03-nomination, mb-kb-2025-02-03-benoeming]
+    note:
+      en: >-
+        Dutch title, equally official: "Vice-eersteminister en Minister van Financiën en
+        Pensioenen, belast met de Nationale Loterij en de Federale Culturele Instellingen".
+        Culture in Belgium is a community competence, so the only cultural responsibility left
+        federally is the handful of national institutions — the opera house, the national
+        orchestra, the federal scientific and cultural establishments — which is why this
+        portfolio, and not any dedicated one, carries the culture area.
+      es: >-
+        Título neerlandés, igualmente oficial: «Vice-eersteminister en Minister van Financiën
+        en Pensioenen, belast met de Nationale Loterij en de Federale Culturele Instellingen».
+        La cultura en Bélgica es competencia de las comunidades, así que lo único cultural que
+        queda en el nivel federal son unas pocas instituciones nacionales —la ópera, la
+        orquesta nacional, los establecimientos científicos y culturales federales—, y por eso
+        es esta cartera, y no una específica, la que lleva el área de cultura.
+
+  - id: BE-2025-justice-mer-du-nord
+    order: 7
+    name_original: Ministre de la Justice, chargée de la Mer du Nord
+    abbreviation_original: null
+    name_en: Minister of Justice, responsible for the North Sea
+    name_es: Ministra de Justicia, encargada del Mar del Norte
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre / Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [justice, environment]
+    counts_as_ministry: true
+    url: null
+    sources: [mb-ar-2025-02-03-nomination, mb-kb-2025-02-03-benoeming]
+    note:
+      en: >-
+        Dutch title, equally official: "Minister van Justitie, belast met Noordzee". The North
+        Sea portfolio covers marine spatial planning, the protection of the marine environment
+        and offshore installations in Belgium's territorial waters, which is why this
+        otherwise unmistakable justice portfolio is also tagged with environment.
+      es: >-
+        Título neerlandés, igualmente oficial: «Minister van Justitie, belast met Noordzee».
+        La cartera del Mar del Norte abarca la ordenación del espacio marino, la protección
+        del medio marino y las instalaciones en alta mar en aguas territoriales belgas, y por
+        eso esta cartera de justicia, por lo demás inconfundible, lleva también medio ambiente.
+
+  - id: BE-2025-securite-interieur
+    order: 8
+    name_original: Ministre de la Sécurité et de l'Intérieur, chargé de Beliris
+    abbreviation_original: null
+    name_en: Minister of Security and the Interior, responsible for Beliris
+    name_es: Ministro de Seguridad e Interior, encargado de Beliris
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre / Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [interior, civil_protection, infrastructure]
+    counts_as_ministry: true
+    url: null
+    sources: [mb-ar-2025-02-03-nomination, mb-kb-2025-02-03-benoeming]
+    note:
+      en: >-
+        Dutch title, equally official: "Minister van Veiligheid en Binnenlandse Zaken, belast
+        met Beliris". Beliris is the federal-Brussels cooperation agreement under which the
+        federal state funds infrastructure in the capital region; it is the reason this
+        portfolio carries an infrastructure tag alongside policing and civil protection.
+      es: >-
+        Título neerlandés, igualmente oficial: «Minister van Veiligheid en Binnenlandse Zaken,
+        belast met Beliris». Beliris es el acuerdo de cooperación entre el Estado federal y
+        Bruselas por el que el primero financia infraestructuras en la región capital; es la
+        razón de que esta cartera lleve infraestructuras junto a policía y protección civil.
+
+  - id: BE-2025-defense-commerce-exterieur
+    order: 9
+    name_original: Ministre de la Défense, chargé du Commerce extérieur
+    abbreviation_original: null
+    name_en: Minister of Defence, responsible for Foreign Trade
+    name_es: Ministro de Defensa, encargado del Comercio Exterior
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre / Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [defence, trade]
+    counts_as_ministry: true
+    url: null
+    sources: [mb-ar-2025-02-03-nomination, mb-kb-2025-02-03-benoeming]
+    note:
+      en: >-
+        Dutch title, equally official: "Minister van Defensie, belast met Buitenlandse
+        Handel". Pairing defence with foreign trade is unusual across this dataset; in most
+        countries trade sits with the economy or with foreign affairs.
+      es: >-
+        Título neerlandés, igualmente oficial: «Minister van Defensie, belast met Buitenlandse
+        Handel». Emparejar defensa con comercio exterior es inusual en este conjunto de datos;
+        en la mayoría de los países el comercio va con economía o con exteriores.
+
+  - id: BE-2025-mobilite-climat
+    order: 10
+    name_original: Ministre de la Mobilité, du Climat et de la Transition environnementale
+    abbreviation_original: null
+    name_en: Minister of Mobility, Climate and the Environmental Transition
+    name_es: Ministro de Movilidad, Clima y Transición Medioambiental
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre / Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [transport, climate, environment]
+    counts_as_ministry: true
+    url: null
+    sources: [mb-ar-2025-02-03-nomination, mb-kb-2025-02-03-benoeming]
+    note:
+      en: >-
+        Dutch title, equally official: "Minister van Mobiliteit, Klimaat en Ecologische
+        Transitie". Federal mobility means the railways, aviation, road-traffic law and the
+        maritime authority; regional and urban transport belongs to the regions.
+      es: >-
+        Título neerlandés, igualmente oficial: «Minister van Mobiliteit, Klimaat en Ecologische
+        Transitie». La movilidad federal son los ferrocarriles, la aviación, el código de
+        circulación y la autoridad marítima; el transporte regional y urbano corresponde a las
+        regiones.
+
+  - id: BE-2025-modernisation-publique
+    order: 11
+    name_original: >-
+      Ministre de l'Action et de la Modernisation publiques, chargée des Entreprises
+      publiques, de la Fonction publique, de la Gestion immobilière de l'Etat, du Numérique et
+      de la Politique scientifique
+    abbreviation_original: null
+    name_en: >-
+      Minister of Public Action and Modernisation, responsible for Public Enterprises, the
+      Civil Service, State Property Management, Digitalisation and Science Policy
+    name_es: >-
+      Ministra de Acción y Modernización Públicas, encargada de las Empresas Públicas, la
+      Función Pública, la Gestión Inmobiliaria del Estado, lo Digital y la Política Científica
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre / Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [public_administration, digital, state_assets, research]
+    counts_as_ministry: true
+    url: null
+    sources: [mb-ar-2025-02-03-nomination, mb-ar-2025-02-21-modification, mb-kb-2025-02-03-benoeming]
+    note:
+      en: >-
+        The title recorded is the one as amended on 21 February 2025 with effect from
+        3 February; the original wording ended "et des Etablissements scientifiques fédéraux".
+        Dutch title, equally official, likewise as amended: "Minister van Modernisering van de
+        Overheid, belast met Overheidsbedrijven, Ambtenarenzaken, het Gebouwenbeheer van de
+        Staat, Digitalisering en Wetenschapsbeleid". Public enterprises here means the post
+        office and the railway holding, which is why the portfolio carries state_assets.
+      es: >-
+        El título registrado es el modificado el 21 de febrero de 2025 con efecto desde el 3 de
+        febrero; la redacción original terminaba en «et des Etablissements scientifiques
+        fédéraux». Título neerlandés, igualmente oficial y también modificado: «Minister van
+        Modernisering van de Overheid, belast met Overheidsbedrijven, Ambtenarenzaken, het
+        Gebouwenbeheer van de Staat, Digitalisering en Wetenschapsbeleid». Empresas públicas
+        significa aquí Correos y el holding ferroviario, y por eso la cartera lleva
+        «patrimonio estatal».
+
+  - id: BE-2025-protection-consommateurs
+    order: 12
+    name_original: >-
+      Ministre de la Protection des consommateurs, de la Lutte contre la Fraude sociale, des
+      Personnes handicapées et de l'Egalité des chances
+    abbreviation_original: null
+    name_en: >-
+      Minister of Consumer Protection, the Fight against Social Fraud, People with Disabilities
+      and Equal Opportunities
+    name_es: >-
+      Ministro de Protección de los Consumidores, Lucha contra el Fraude Social, Personas con
+      Discapacidad e Igualdad de Oportunidades
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre / Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [consumer_protection, disability, equality]
+    counts_as_ministry: true
+    url: null
+    sources: [mb-ar-2025-02-03-nomination, mb-kb-2025-02-03-benoeming]
+    note:
+      en: >-
+        Dutch title, equally official: "Minister van Consumentenbescherming, Sociale
+        Fraude-bestrijding, Personen met een handicap en Gelijke Kansen". Belgium is one of
+        the few countries in this dataset where equality and disability are named in a
+        portfolio title rather than folded into a social-affairs department.
+      es: >-
+        Título neerlandés, igualmente oficial: «Minister van Consumentenbescherming, Sociale
+        Fraude-bestrijding, Personen met een handicap en Gelijke Kansen». Bélgica es uno de los
+        pocos países de este conjunto de datos donde igualdad y discapacidad se nombran en el
+        título de una cartera en lugar de diluirse en un departamento de asuntos sociales.
+
+  - id: BE-2025-asile-migration
+    order: 13
+    name_original: >-
+      Ministre de l'Asile et de la Migration, et de l'Intégration sociale, chargée de la
+      Politique des Grandes villes
+    abbreviation_original: null
+    name_en: >-
+      Minister of Asylum and Migration and of Social Integration, responsible for Urban Policy
+    name_es: >-
+      Ministra de Asilo y Migración y de Integración Social, encargada de la Política de
+      Grandes Ciudades
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre / Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [migration, social_affairs, regional_development]
+    counts_as_ministry: true
+    url: null
+    sources: [mb-ar-2025-02-03-nomination, mb-kb-2025-02-03-benoeming]
+    note:
+      en: >-
+        Dutch title, equally official: "Minister van Asiel en Migratie, en Maatschappelijke
+        Integratie, belast met Grootstedenbeleid". "Politique des Grandes villes" is the
+        federal programme of transfers to large urban municipalities, tagged here as regional
+        development for want of an urban-policy area in the taxonomy.
+      es: >-
+        Título neerlandés, igualmente oficial: «Minister van Asiel en Migratie, en
+        Maatschappelijke Integratie, belast met Grootstedenbeleid». «Politique des Grandes
+        villes» es el programa federal de transferencias a los grandes municipios urbanos,
+        etiquetado aquí como desarrollo regional a falta de un área de política urbana en la
+        taxonomía.
+
+  - id: BE-2025-energie
+    order: 14
+    name_original: Ministre de l'Energie
+    abbreviation_original: null
+    name_en: Minister of Energy
+    name_es: Ministro de Energía
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre / Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [energy]
+    counts_as_ministry: true
+    url: null
+    sources: [mb-ar-2025-02-03-nomination, mb-kb-2025-02-03-benoeming]
+    note:
+      en: >-
+        Dutch title, equally official: "Minister van Energie". The shortest title in the
+        decree, and a portfolio with no service public fédéral of its own: energy policy is
+        administered by a directorate-general of the SPF Economie. It is counted for the same
+        reason as the others — the decree appoints a minister to it.
+      es: >-
+        Título neerlandés, igualmente oficial: «Minister van Energie». El título más corto del
+        decreto, y una cartera sin service public fédéral propio: la política energética la
+        administra una dirección general del SPF Economie. Se cuenta por la misma razón que
+        las demás: el decreto nombra a un ministro para ella.
+
+  - id: BE-2025-classes-moyennes-pme
+    order: 15
+    name_original: Ministre des Classes moyennes, des Indépendants et des PME
+    abbreviation_original: null
+    name_en: Minister of the Self-Employed and Small and Medium-Sized Enterprises
+    name_es: Ministra de Clases Medias, Autónomos y Pymes
+    name_en_provenance: translated
+    name_es_provenance: translated
+    head_title_original: Ministre / Minister
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [small_business]
+    counts_as_ministry: true
+    url: null
+    sources: [mb-ar-2025-02-03-nomination, mb-kb-2025-02-03-benoeming]
+    note:
+      en: >-
+        Dutch title, equally official: "Minister van Middenstand, Zelfstandigen en KMO's".
+        "Classes moyennes" is a Belgian term of art for the self-employed and small business
+        rather than a social class, and the English name is given accordingly instead of the
+        literal "middle classes".
+      es: >-
+        Título neerlandés, igualmente oficial: «Minister van Middenstand, Zelfstandigen en
+        KMO's». «Classes moyennes» es un término técnico belga que designa a los autónomos y
+        la pequeña empresa, no a una clase social; el nombre en español conserva la expresión
+        original porque en castellano «clases medias» sí se ha usado con ese sentido gremial.

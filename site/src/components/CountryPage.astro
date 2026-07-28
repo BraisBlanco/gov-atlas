@@ -1,0 +1,611 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import {
+  areaLabel,
+  countryName,
+  exclusionLabel,
+  formatDate,
+  formatNumber,
+  loadCountry,
+  loadTaxonomy,
+  ministryName,
+  type Source,
+} from '../lib/data.ts';
+import { localePath, translator, type Locale } from '../i18n/index.ts';
+
+/**
+ * One government's structure, in full.
+ *
+ * This is the page the headline number points at: the reader who wants to know *which*
+ * ministries make up "22" gets the list, in the government's own spelling, with the
+ * citation behind each row — and the bodies we recorded and did not count, with the reason
+ * each one was left out.
+ *
+ * Citations are numbered footnotes rather than a block per row. Every counted ministry
+ * here rests on the same one or two instruments, so a per-row source card would repeat the
+ * same decree twenty times and bury the list it is supposed to support.
+ */
+
+interface Props {
+  locale: Locale;
+  iso2: string;
+}
+
+const { locale, iso2 } = Astro.props;
+const t = translator(locale);
+const es = locale === 'es';
+
+const [{ summary, entities }, taxonomy] = await Promise.all([loadCountry(iso2), loadTaxonomy()]);
+
+const counted = entities.filter((entity) => entity.counts_as_ministry);
+const excluded = entities.filter((entity) => !entity.counts_as_ministry);
+
+/**
+ * Footnote numbering, assigned in the order a reader meets the sources: the ministry list
+ * first, the population figure last. Deduplicated by URL, like `chartSources`.
+ */
+const footnotes: Source[] = [];
+const footnoteIndex = new Map<string, number>();
+for (const source of [...entities.flatMap((entity) => entity.sources), summary.population.source]) {
+  if (footnoteIndex.has(source.url)) continue;
+  footnotes.push(source);
+  footnoteIndex.set(source.url, footnotes.length);
+}
+const refsOf = (sources: Source[]): number[] =>
+  [...new Set(sources.map((source) => footnoteIndex.get(source.url)).filter((n): n is number => !!n))].sort(
+    (a, b) => a - b,
+  );
+
+const TIER_KEY: Record<number, string> = {
+  1: 'chart.source.tier1',
+  2: 'chart.source.tier2',
+  3: 'chart.source.tier3',
+};
+
+const primaryLang = summary.official_languages[0];
+const name = countryName(summary, locale);
+const cabinetName = es ? summary.cabinet_name_es : summary.cabinet_name_en;
+---
+
+<BaseLayout
+  locale={locale}
+  title={name}
+  description={es
+    ? `Los ${summary.ministries_count} ministerios de ${name}, con la fuente de cada uno.`
+    : `The ${summary.ministries_count} ministries of ${name}, with a source for each.`}
+>
+  <div class="prose">
+    <p class="crumb">
+      <a href={localePath(locale, 'countries')}>← {t('country.backToCountries')}</a>
+    </p>
+
+    <h1>{name}</h1>
+    <p class="original" lang={primaryLang}>{summary.name_original}</p>
+
+    <dl class="facts">
+      <div>
+        <dt>{t('country.cabinet')}</dt>
+        <dd>
+          <span lang={primaryLang}>{summary.cabinet_name_original}</span>
+          {summary.cabinet_name_original !== cabinetName ? <span class="gloss">{cabinetName}</span> : null}
+        </dd>
+      </div>
+      <div>
+        <dt>{t('country.headOfGovernment')}</dt>
+        <dd>
+          <span lang={primaryLang}>{summary.head_of_government_title_original}</span>
+        </dd>
+      </div>
+      <div>
+        <dt>{t('country.tookOffice')}</dt>
+        <dd>{formatDate(summary.took_office, locale)}</dd>
+      </div>
+      <div>
+        <dt>{summary.left_office ? t('country.leftOffice') : t('country.inOffice')}</dt>
+        <dd>{summary.left_office ? formatDate(summary.left_office, locale) : t('common.yes')}</dd>
+      </div>
+    </dl>
+  </div>
+
+  <div class="wide">
+    <ul class="tiles">
+      <li class="tile is-headline">
+        <span class="tile-value">{formatNumber(summary.ministries_count, locale)}</span>
+        <span class="tile-label">{t('table.ministries')}</span>
+      </li>
+      <li class="tile">
+        <span class="tile-value">{formatNumber(summary.cabinet_seats_count, locale)}</span>
+        <span class="tile-label">{t('table.seats')}</span>
+      </li>
+      <li class="tile">
+        <span class="tile-value">{formatNumber(summary.excluded_count, locale)}</span>
+        <span class="tile-label">{t('table.excluded')}</span>
+      </li>
+      <li class="tile">
+        <span class="tile-value">{summary.quality.grade}</span>
+        <span class="tile-label">{t('table.grade')}</span>
+      </li>
+      <li class="tile">
+        <span class="tile-value is-small">{formatNumber(summary.population.value, locale)}</span>
+        <span class="tile-label">
+          {/* The year is a label, not a quantity: formatNumber would render it "2,025". */}
+          {t('country.population')} ({summary.population.year})
+          {refsOf([summary.population.source]).map((ref) => (
+            <sup>
+              <a class="ref" href={`#source-${ref}`}>{ref}</a>
+            </sup>
+          ))}
+        </span>
+      </li>
+    </ul>
+    <p class="tiles-note">{t('country.populationNote')}</p>
+  </div>
+
+  {
+    summary.methodology_notes.length > 0 ? (
+      <div class="prose">
+        <h2>{t('country.notes')}</h2>
+        {summary.methodology_notes.map((note) => (
+          <p class="note">{es ? note.es : note.en}</p>
+        ))}
+      </div>
+    ) : null
+  }
+
+  <div class="wide">
+    <h2 class="section-head">{t('country.counted')}</h2>
+    <p class="section-note">{t('country.countedNote', { count: counted.length })}</p>
+
+    <div class="scroll-x">
+      <table class="ministries">
+        <thead>
+          <tr>
+            <th scope="col" class="num">{t('country.order')}</th>
+            <th scope="col">{t('country.originalName')}</th>
+            <th scope="col">{t('country.readerName')}</th>
+            <th scope="col">{t('country.policyAreas')}</th>
+            <th scope="col">{t('country.hasSeat')}</th>
+            <th scope="col">{t('country.sources')}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            counted.map((entity) => {
+              const rendered = ministryName(entity, locale);
+              return (
+                <tr>
+                  <td class="num">{formatNumber(entity.order, locale)}</td>
+                  <th scope="row">
+                    <span lang={primaryLang}>{entity.name_original}</span>
+                    {entity.abbreviation_original ? (
+                      <span class="abbr">{entity.abbreviation_original}</span>
+                    ) : null}
+                    <span class="head-title" lang={primaryLang}>
+                      {entity.head_title_original}
+                    </span>
+                    {entity.url ? (
+                      <a class="site" href={entity.url} rel="noreferrer noopener" target="_blank">
+                        {t('country.website')}
+                      </a>
+                    ) : null}
+                  </th>
+                  <td>
+                    {/* A Spanish reader looking at Spain would otherwise read the same
+                        string twice across two columns. Say so instead of repeating it. */}
+                    {rendered.name === entity.name_original ? (
+                      <span class="same">{t('country.sameAsOfficial')}</span>
+                    ) : (
+                      <>
+                        {rendered.name}
+                        <span class="provenance">
+                          {rendered.isOfficial
+                            ? t('country.nameProvenance.official')
+                            : t('country.nameProvenance.translated')}
+                        </span>
+                      </>
+                    )}
+                    {entity.note ? (
+                      <span class="row-note">
+                        <span class="row-note-label">{t('country.note')}</span>{' '}
+                        {es ? entity.note.es : entity.note.en}
+                      </span>
+                    ) : null}
+                  </td>
+                  <td>
+                    <ul class="areas">
+                      {entity.policy_areas.map((area) => (
+                        <li>{areaLabel(taxonomy, area, locale)}</li>
+                      ))}
+                    </ul>
+                  </td>
+                  <td>{entity.has_cabinet_seat ? t('common.yes') : t('common.no')}</td>
+                  <td class="num">
+                    {refsOf(entity.sources).map((ref, index) => (
+                      <>
+                        {index > 0 ? ', ' : ''}
+                        <a class="ref" href={`#source-${ref}`}>
+                          {ref}
+                        </a>
+                      </>
+                    ))}
+                  </td>
+                </tr>
+              );
+            })
+          }
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  {
+    excluded.length > 0 ? (
+      <div class="wide section">
+        <h2 class="section-head">{t('country.notCounted')}</h2>
+        <p class="section-note">{t('country.notCountedNote')}</p>
+
+        <div class="scroll-x">
+          <table class="ministries">
+            <thead>
+              <tr>
+                <th scope="col" class="num">
+                  {t('country.order')}
+                </th>
+                <th scope="col">{t('country.originalName')}</th>
+                <th scope="col">{t('country.readerName')}</th>
+                <th scope="col">{t('country.exclusionReason')}</th>
+                <th scope="col">{t('country.hasSeat')}</th>
+                <th scope="col">{t('country.sources')}</th>
+              </tr>
+            </thead>
+            <tbody>
+              {excluded.map((entity) => (
+                <tr>
+                  <td class="num">{formatNumber(entity.order, locale)}</td>
+                  <th scope="row">
+                    <span lang={primaryLang}>{entity.name_original}</span>
+                    <span class="head-title" lang={primaryLang}>
+                      {entity.head_title_original}
+                    </span>
+                  </th>
+                  <td>
+                    {ministryName(entity, locale).name === entity.name_original ? (
+                      <span class="same">{t('country.sameAsOfficial')}</span>
+                    ) : (
+                      ministryName(entity, locale).name
+                    )}
+                    {entity.note ? (
+                      <span class="row-note">
+                        <span class="row-note-label">{t('country.note')}</span>{' '}
+                        {es ? entity.note.es : entity.note.en}
+                      </span>
+                    ) : null}
+                  </td>
+                  <td>{exclusionLabel(taxonomy, entity.exclusion_reason, locale)}</td>
+                  <td>{entity.has_cabinet_seat ? t('common.yes') : t('common.no')}</td>
+                  <td class="num">
+                    {refsOf(entity.sources).map((ref, index) => (
+                      <>
+                        {index > 0 ? ', ' : ''}
+                        <a class="ref" href={`#source-${ref}`}>
+                          {ref}
+                        </a>
+                      </>
+                    ))}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    ) : null
+  }
+
+  <div class="wide section">
+    <h2 class="section-head">{t('country.sourceCount', { count: footnotes.length })}</h2>
+    <ol class="sources">
+      {
+        footnotes.map((source, index) => (
+          <li id={`source-${index + 1}`} class="source">
+            <span class={`tier tier-${source.tier}`}>{t(TIER_KEY[source.tier] ?? 'chart.source.tier3')}</span>
+            <div class="source-body">
+              <p class="source-line">
+                <a href={source.url} rel="noreferrer noopener" target="_blank">
+                  {source.title}
+                </a>
+                {' — '}
+                <span class="publisher">{source.publisher}</span>
+              </p>
+              <blockquote class="quote" lang={source.lang}>
+                {source.quote}
+              </blockquote>
+              <p class="source-meta">
+                {t('chart.source.accessed')} {formatDate(source.accessed, locale)}
+                {source.archive_url ? (
+                  <>
+                    {' · '}
+                    <a href={source.archive_url} rel="noreferrer noopener" target="_blank">
+                      {t('chart.source.archived')}
+                    </a>
+                  </>
+                ) : null}
+              </p>
+            </div>
+          </li>
+        ))
+      }
+    </ol>
+
+    <p class="section-note">
+      <a href={localePath(locale, 'methodology')}>{t('chart.methodology')}</a>
+      {' · '}
+      <a href={`/data/countries/${summary.iso2}.json`}>{t('nav.download')}</a>
+    </p>
+  </div>
+
+  <style>
+    .crumb {
+      font-family: var(--font-sans);
+      font-size: var(--text-sm);
+      margin-bottom: var(--space-5);
+    }
+
+    .original {
+      font-family: var(--font-sans);
+      font-size: var(--text-sm);
+      color: var(--text-muted);
+      margin-top: calc(var(--space-3) * -1);
+    }
+
+    .facts {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+      gap: var(--space-4);
+      margin: var(--space-5) 0 0;
+      font-family: var(--font-sans);
+      font-size: var(--text-sm);
+    }
+
+    .facts dt {
+      color: var(--text-secondary);
+      font-size: var(--text-xs);
+    }
+
+    .facts dd {
+      margin: 2px 0 0;
+      color: var(--text-primary);
+    }
+
+    .gloss {
+      display: block;
+      color: var(--text-muted);
+      font-size: var(--text-xs);
+    }
+
+    /* --- figure tiles --------------------------------------------------------- */
+
+    /* Bottom-aligned, so the labels sit on one line even though the headline value is
+       twice the height of the others. */
+    .tiles {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      gap: var(--space-6);
+      list-style: none;
+      margin: var(--space-6) 0 0;
+      padding: var(--space-4) 0;
+      border-block: 1px solid var(--gridline);
+      font-family: var(--font-sans);
+    }
+
+    .tile {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .tile-value {
+      font-size: var(--text-2xl);
+      font-variant-numeric: tabular-nums;
+      line-height: var(--leading-tight);
+      color: var(--text-primary);
+    }
+
+    .tile.is-headline .tile-value {
+      font-size: var(--text-hero);
+      font-weight: 600;
+    }
+
+    .tile-value.is-small {
+      font-size: var(--text-lg);
+    }
+
+    .tile-label {
+      font-size: var(--text-xs);
+      color: var(--text-secondary);
+    }
+
+    .tiles-note {
+      font-family: var(--font-sans);
+      font-size: var(--text-xs);
+      color: var(--text-muted);
+      margin-top: var(--space-2);
+    }
+
+    .note {
+      border-left: 2px solid var(--axis);
+      padding-left: var(--space-4);
+      color: var(--text-secondary);
+    }
+
+    /* --- sections ------------------------------------------------------------- */
+
+    .section {
+      margin-top: var(--space-8);
+    }
+
+    .section-head {
+      font-family: var(--font-sans);
+      font-size: var(--text-sm);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--text-secondary);
+      border-bottom: 1px solid var(--axis);
+      padding-bottom: var(--space-2);
+      margin-top: var(--space-8);
+    }
+
+    .section-note {
+      font-family: var(--font-sans);
+      font-size: var(--text-sm);
+      color: var(--text-secondary);
+      max-width: var(--measure);
+    }
+
+    /* --- the list ------------------------------------------------------------- */
+
+    .ministries {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: var(--font-sans);
+      font-size: var(--text-sm);
+    }
+
+    .ministries th,
+    .ministries td {
+      padding: var(--space-3);
+      border-bottom: 1px solid var(--gridline);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .ministries thead th {
+      color: var(--text-secondary);
+      font-weight: 600;
+      font-size: var(--text-xs);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      border-bottom: 1px solid var(--axis);
+    }
+
+    .ministries tbody th {
+      font-weight: 600;
+      color: var(--text-primary);
+      max-width: 22rem;
+    }
+
+    .num {
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+
+    .abbr {
+      display: inline-block;
+      margin-left: var(--space-2);
+      padding: 0 4px;
+      border: 1px solid var(--border);
+      border-radius: 2px;
+      font-size: var(--text-xs);
+      font-weight: 400;
+      color: var(--text-secondary);
+    }
+
+    .same {
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    .head-title,
+    .provenance {
+      display: block;
+      font-weight: 400;
+      font-size: var(--text-xs);
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    .site {
+      display: block;
+      font-weight: 400;
+      font-size: var(--text-xs);
+      margin-top: 2px;
+    }
+
+    .row-note {
+      display: block;
+      margin-top: var(--space-2);
+      font-size: var(--text-xs);
+      color: var(--text-secondary);
+    }
+
+    .row-note-label {
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--text-muted);
+    }
+
+    .areas {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      color: var(--text-secondary);
+    }
+
+    /* --- citations ------------------------------------------------------------ */
+
+    .ref {
+      font-variant-numeric: tabular-nums;
+    }
+
+    .sources {
+      margin: var(--space-5) 0 0;
+      padding-left: var(--space-5);
+      max-width: var(--measure-wide);
+      font-family: var(--font-sans);
+      font-size: var(--text-sm);
+    }
+
+    .source {
+      margin-bottom: var(--space-5);
+    }
+
+    .source:target .source-body {
+      border-left: 2px solid var(--accent);
+      padding-left: var(--space-3);
+    }
+
+    .tier {
+      display: inline-block;
+      padding: 0 var(--space-2);
+      border: 1px solid var(--border);
+      border-radius: 2px;
+      font-size: var(--text-xs);
+      color: var(--text-secondary);
+      margin-bottom: var(--space-2);
+    }
+
+    .source-line {
+      margin: 0;
+    }
+
+    .publisher {
+      color: var(--text-secondary);
+    }
+
+    .quote {
+      margin: var(--space-2) 0;
+      padding-left: var(--space-3);
+      border-left: 1px solid var(--gridline);
+      color: var(--text-secondary);
+      font-style: italic;
+    }
+
+    .source-meta {
+      margin: 0;
+      font-size: var(--text-xs);
+      color: var(--text-muted);
+    }
+  </style>
+</BaseLayout>

@@ -1,0 +1,60 @@
+# Netherlands — country metadata.
+#
+# See docs/DATA-CONTRACT.md. The cabinet, its entities and its citations live in
+# data/cabinets/NL-2026-02-23.yml; this file carries only country-level metadata.
+#
+# Perimeter: this record describes the Netherlands, the country within the Kingdom of
+# the Netherlands whose central government sits in The Hague. Aruba, Curaçao and Sint
+# Maarten are separate countries of the Kingdom with their own governments and are out
+# of scope; the population figure below is on the same perimeter.
+
+iso2: NL
+iso3: NLD
+
+name_en: Netherlands
+name_es: Países Bajos
+name_original: Nederland
+official_name_original: Koninkrijk der Nederlanden
+
+continent: europe
+region: western_europe
+eu_member_since: 1958-01-01
+government_system: parliamentary_monarchy
+official_languages: [nl]
+
+# Population carries its own citation because the per-capita views publish it as a
+# figure in its own right, not as a convenience constant.
+population:
+  value: 18130208
+  year: 2026
+  source:
+    id: cbs-statline-03759ned
+    tier: 3
+    type: statistical_office
+    publisher: Centraal Bureau voor de Statistiek
+    title: >-
+      StatLine tabel 03759ned — Bevolking op 1 januari en gemiddeld; geslacht, leeftijd
+      en regio (Nederland, totaal, 1 januari 2026)
+    url: >-
+      https://opendata.cbs.nl/ODataApi/odata/03759ned/TypedDataSet?$filter=Geslacht%20eq%20%27T001038%27%20and%20Leeftijd%20eq%20%2710000%27%20and%20BurgerlijkeStaat%20eq%20%27T001019%27%20and%20RegioS%20eq%20%27NL01%20%20%27%20and%20Perioden%20eq%20%272026JJ00%27&$select=Perioden,RegioS,BevolkingOp1Januari_1
+    archive_url: >-
+      https://web.archive.org/web/20260727183724/https://opendata.cbs.nl/ODataApi/odata/03759ned/TypedDataSet?$filter=Geslacht%20eq%20%27T001038%27%20and%20Leeftijd%20eq%20%2710000%27%20and%20BurgerlijkeStaat%20eq%20%27T001019%27%20and%20RegioS%20eq%20%27NL01%20%20%27%20and%20Perioden%20eq%20%272026JJ00%27&$select=Perioden,RegioS,BevolkingOp1Januari_1
+    lang: nl
+    published: 2026-06-23
+    accessed: 2026-07-27
+    quote: '{"Perioden":"2026JJ00","RegioS":"NL01  ","BevolkingOp1Januari_1":18130208}'
+    note: >-
+      Definitive figure for the resident population of the Netherlands on 1 January 2026,
+      read from the Open Data (OData) endpoint of CBS StatLine table 03759ned; the
+      human-readable table is at https://www.cbs.nl/nl-nl/cijfers/detail/03759ned. CBS
+      states of this table "Alle cijfers in de tabel zijn definitief" and "Wijzigingen per
+      23 juni 2026: Definitieve cijfers van 1 januari 2026 en de gemiddelde cijfers over
+      2025 zijn toegevoegd", which is why `published` is 23 June 2026. The API response is
+      quoted verbatim rather than a press sentence because CBS's news release of 2 February
+      2026 gives only the provisional rounded figure ("In 2025 groeide de bevolking met 87
+      duizend mensen naar 18,13 miljoen"), and the monthly table 83474NED still carries the
+      provisional 18 131 238 for the same date. Tier 3 rather than tier 1: this is a
+      statistical estimate from the population register, not a legal instrument. The
+      region "Nederland" (code NL01) in this table covers the European Netherlands; it
+      contains no entry for Bonaire, Sint Eustatius or Saba, which CBS publishes
+      separately as Caribisch Nederland.
