@@ -185,10 +185,17 @@ code {
   max-width: 100%;
 }
 
+/* Shares .wide's envelope so prose starts on the same left edge as the charts, tables
+   and card grids it sits between; each block inside stays capped at the reading measure
+   so line length remains comfortable. */
 .prose {
-  max-width: var(--measure);
+  max-width: var(--measure-wide);
   margin-inline: auto;
   padding-inline: var(--space-4);
+}
+
+.prose > * {
+  max-width: var(--measure);
 }
 
 .wide {
