@@ -1,0 +1,72 @@
+# Cyprus — country metadata.
+#
+# See docs/DATA-CONTRACT.md. The cabinet lives in data/cabinets/CY-2023-03-01.yml.
+#
+# Two things about this file that are not boilerplate:
+#
+#   1. `government_system: presidential_republic`. Cyprus is the only presidential republic
+#      in this dataset. There is no prime minister: the President of the Republic is head of
+#      state and head of government at once, and the ministers are appointed by him and
+#      answerable to him rather than to the House of Representatives.
+#   2. The population figure is for the **government-controlled area only**. The Republic
+#      does not exercise effective control over the northern part of the island, and its
+#      Statistical Service does not publish, and this project does not estimate, a figure
+#      that includes it. The basis is stated in the source note, because a reader comparing
+#      Cyprus with its neighbours needs to know which Cyprus the number describes.
+
+iso2: CY
+iso3: CYP
+
+name_en: Cyprus
+name_es: Chipre
+name_original: Κύπρος
+official_name_original: Κυπριακή Δημοκρατία
+
+continent: europe
+region: southern_europe
+eu_member_since: 2004-05-01
+government_system: presidential_republic
+# Article 3(1) of the 1960 Constitution makes Greek and Turkish the official languages of
+# the Republic, and both are recorded here because that is the constitutional position and
+# it has never been amended. In practice legislation, the Official Gazette and the
+# government's own web estate appear in Greek (and, for the portal, English); every source
+# quoted in the cabinet file is Greek or English. See the cabinet's methodology_notes.
+official_languages: [el, tr]
+
+# Population carries its own citation because the country page publishes it as a figure in
+# its own right, not as a convenience constant.
+population:
+  value: 983000
+  year: 2024
+  source:
+    id: cystat-demographic-statistics-2024
+    tier: 3
+    type: statistical_office
+    publisher: Στατιστική Υπηρεσία Κύπρου (CyStat) — Republic of Cyprus, Statistical Service
+    title: Press Release — Demographic Statistics 2024
+    url: https://library.cystat.gov.cy/NEW/Demographic_Statistics-2024-EN-191225.pdf
+    archive_url: null
+    lang: en
+    published: 2025-12-19
+    accessed: 2026-07-28
+    quote: >-
+      The population in the Government controlled area of Cyprus is estimated at 983,0
+      thousand at the end of 2024, compared to 966,4 thousand at the end of 2023, recording
+      an increase of 1,7%.
+    note: >-
+      The most recent official population figure Cyprus publishes. Three things a reader
+      should know. First, the basis: this is the population of the **government-controlled
+      area** of Cyprus, which is what the Statistical Service publishes and the only basis on
+      which the Republic produces population data; it excludes the northern part of the
+      island, over which the Republic does not exercise effective control. Second, the
+      precision: the Service publishes the estimate to the nearest hundred ("983,0
+      thousand"), so the value recorded here is 983 000 exactly as published and is not a
+      head count — a spuriously precise number would misrepresent the source. Third, the
+      reference date: this is the figure for the end of 2024, the latest available, because
+      the equivalent 2025 release was not yet published on the access date. Tier 3 for the
+      same reason as Spain's INE figure and Greece's ELSTAT figure: it is an estimate
+      produced by the statistical office between censuses, not a legal instrument.
+      archive_url is null because tier 3 does not require an archived snapshot and no Wayback
+      capture of this PDF exists; the live URL served the quoted text on the access date.
+      Archive.org's Save Page Now was returning HTTP 520 for every URL throughout the access
+      date, so no new snapshot could be made.
