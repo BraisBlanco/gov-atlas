@@ -6,6 +6,7 @@ import {
   deriveCountrySummary,
   derivePolicyMatrix,
   deriveEntities,
+  deriveTimeline,
   entitiesAsOf,
   qualityOf,
 } from '../lib/derive.ts';
@@ -285,6 +286,135 @@ describe('derived entities', () => {
       }),
     );
     expect(deriveEntities(cabinet, cabinet.entities).map((entity) => entity.order)).toEqual([1, 2]);
+  });
+});
+
+describe('the history series', () => {
+  const idsOf = (point: { ministries: { id: string }[] } | undefined): string[] =>
+    (point?.ministries ?? []).map((ministry) => ministry.id);
+
+  /** One cabinet, two mid-term changes: a replacement that holds the count, then a closure. */
+  const ninth = makeCabinetInput({
+    cabinet_id: 'ES-2008-04-14',
+    took_office: '2008-04-14',
+    left_office: '2011-12-21',
+    entities: [
+      makeMinistry({ id: 'ES-2008-agricultura' }),
+      makeMinistry({
+        id: 'ES-2008-sanidad-consumo',
+        order: 2,
+        policy_areas: ['health'],
+        valid_to: '2009-04-06',
+      }),
+      makeMinistry({
+        id: 'ES-2008-sanidad-social',
+        order: 3,
+        policy_areas: ['health'],
+        valid_from: '2009-04-07',
+      }),
+      makeMinistry({
+        id: 'ES-2008-vivienda',
+        order: 4,
+        policy_areas: ['housing'],
+        valid_to: '2010-10-20',
+      }),
+      makePresidency({ id: 'ES-2008-presidencia', order: 5 }),
+    ],
+  });
+
+  it('emits one point per structural change, not one per cabinet', () => {
+    const points = deriveTimeline('ES', [parseCabinet(ninth)]);
+    expect(points.map((point) => point.date)).toEqual([
+      '2008-04-14',
+      '2009-04-07',
+      '2010-10-21',
+    ]);
+  });
+
+  it('closes each point on the day before the next one begins', () => {
+    const points = deriveTimeline('ES', [parseCabinet(ninth)]);
+    expect(points.map((point) => point.until)).toEqual([
+      '2009-04-06',
+      '2010-10-20',
+      '2011-12-21',
+    ]);
+  });
+
+  it('keeps a repeated count rather than compressing it away', () => {
+    // The reshuffle that renames a department without changing the total is exactly the
+    // event a bare number hides, so the point must survive with its own ministry list.
+    const points = deriveTimeline('ES', [parseCabinet(ninth)]);
+    expect(points.map((point) => point.ministries_count)).toEqual([3, 3, 2]);
+    expect(idsOf(points[0])).toContain('ES-2008-sanidad-consumo');
+    expect(idsOf(points[1])).toContain('ES-2008-sanidad-social');
+    expect(idsOf(points[1])).not.toContain('ES-2008-sanidad-consumo');
+  });
+
+  it('counts a department that ends mid-term for the period it existed', () => {
+    const points = deriveTimeline('ES', [parseCabinet(ninth)]);
+    expect(idsOf(points[1])).toContain('ES-2008-vivienda');
+    expect(idsOf(points[2])).not.toContain('ES-2008-vivienda');
+    expect(points.map((point) => point.cabinet_seats_count)).toEqual([4, 4, 3]);
+  });
+
+  it('runs the last point of a sitting cabinet open-ended', () => {
+    const points = deriveTimeline(
+      'ES',
+      [parseCabinet(makeCabinetInput({ left_office: null }))],
+    );
+    expect(points).toHaveLength(1);
+    expect(points[0]?.until).toBeNull();
+  });
+
+  it('orders points across cabinets by date', () => {
+    const points = deriveTimeline('ES', [
+      parseCabinet(makeCabinetInput({ left_office: null })),
+      parseCabinet(ninth),
+    ]);
+    expect(points.map((point) => point.date)).toEqual([
+      '2008-04-14',
+      '2009-04-07',
+      '2010-10-21',
+      '2023-11-21',
+    ]);
+  });
+
+  it('ignores cabinets belonging to another country', () => {
+    const portuguese = makeCabinetInput({
+      country: 'PT',
+      cabinet_id: 'PT-2024-04-02',
+      took_office: '2024-04-02',
+      entities: [makeMinistry({ id: 'PT-2024-agricultura' }), makePresidency({ id: 'PT-2024-presidencia' })],
+    });
+    const points = deriveTimeline('ES', [parseCabinet(ninth), parseCabinet(portuguese)]);
+    expect(points.every((point) => point.iso2 === 'ES')).toBe(true);
+    expect(points).toHaveLength(3);
+  });
+
+  it('flags a point whose departments are recorded but deliberately not counted', () => {
+    // An uncounted department that existed at this date makes the figure a floor rather
+    // than a count. Drawing it as a real dip would invent a reorganisation.
+    const points = deriveTimeline('ES', [
+      parseCabinet(
+        makeCabinetInput({
+          left_office: null,
+          entities: [
+            makeMinistry(),
+            makeMinistry({
+              id: 'ES-2023-vivienda',
+              order: 2,
+              policy_areas: [],
+              counts_as_ministry: false,
+              exclusion_reason: 'superseded_within_cabinet',
+              valid_to: '2024-06-30',
+            }),
+            makePresidency({ order: 3 }),
+          ],
+        }),
+      ),
+    ]);
+    expect(points[0]?.reconstructed).toBe(false);
+    expect(points[1]?.reconstructed).toBe(true);
   });
 });
 

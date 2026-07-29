@@ -3,6 +3,7 @@ import type { Country } from '../../data/schema/country.schema.ts';
 import type { Source } from '../../data/schema/source.schema.ts';
 import type { Taxonomy } from '../../data/schema/taxonomy.schema.ts';
 import type { Bilingual } from '../../data/schema/common.ts';
+import { dayAfter, dayBefore, onOrBefore } from './dates.ts';
 
 /**
  * Every published number is computed here, from the curated entity lists, and nowhere
@@ -72,9 +73,40 @@ export interface CountrySummary {
   methodology_notes: Bilingual[];
 }
 
-/** `YYYY-MM-DD` strings compare correctly as strings. */
-function onOrBefore(a: string, b: string): boolean {
-  return a <= b;
+/**
+ * A department as it appears in a history point.
+ *
+ * The names travel with the point rather than being joined from elsewhere: a reader who
+ * downloads the series gets departments they can read, and the chart that plots a count can
+ * name the departments behind it without loading every cabinet on record.
+ */
+export interface TimelineMinistry {
+  id: string;
+  name_original: string;
+  name_en: string;
+  name_es: string;
+}
+
+/** One structural state of a country's government, and how long it lasted. */
+export interface TimelinePoint {
+  iso2: string;
+  cabinet_id: string;
+  cabinet_name_en: string;
+  cabinet_name_es: string;
+  /** Date this structure took effect. */
+  date: string;
+  /** Last date it was in force; null while it still is. */
+  until: string | null;
+  ministries_count: number;
+  cabinet_seats_count: number;
+  /** The counted ministries in force, so a reader can see the list behind the number. */
+  ministries: TimelineMinistry[];
+  /**
+   * False when this file records that a department existed at this date but declines to
+   * count it — see `superseded_within_cabinet`. The number is then a floor rather than a
+   * count, and a chart must say so instead of drawing a dip that did not happen.
+   */
+  reconstructed: boolean;
 }
 
 /**
@@ -259,6 +291,81 @@ export function deriveCountrySummary(
     quality: qualityOf(cabinet, entities),
     methodology_notes: cabinet.methodology_notes,
   };
+}
+
+/**
+ * The dates on which a cabinet's structure changed, including the day it took office.
+ *
+ * A department that opens or closes mid-term moves the structure on that day, so the change
+ * points are the cabinet's own start plus every `valid_from`, plus the day after every
+ * `valid_to` — the day the closure takes effect. Dates outside the term are ignored rather
+ * than trusted; the validator rejects them separately.
+ */
+function changePointsOf(cabinet: Cabinet): string[] {
+  const end = cabinet.left_office;
+  const dates = new Set<string>([cabinet.took_office]);
+
+  for (const entity of cabinet.entities) {
+    if (entity.valid_from !== null) dates.add(entity.valid_from);
+    if (entity.valid_to !== null) dates.add(dayAfter(entity.valid_to));
+  }
+
+  return [...dates]
+    .filter((date) => onOrBefore(cabinet.took_office, date))
+    .filter((date) => end === null || onOrBefore(date, end))
+    .sort();
+}
+
+/**
+ * A country's structure over time, as a step function.
+ *
+ * This is the one derivation that reads more than the current cabinet, and it exists
+ * because "how many ministries does Spain have?" has a different answer for every date.
+ * Like every other figure here, each point is computed from the curated entity lists — the
+ * series cannot disagree with the department lists it summarises.
+ *
+ * Consecutive points may repeat a count. That is not redundancy to be compressed away: a
+ * reshuffle that renames three departments without changing the total is exactly the event
+ * a bare number hides, and the point carries the ministry ids that make it visible.
+ */
+export function deriveTimeline(iso2: string, cabinets: Cabinet[]): TimelinePoint[] {
+  const ordered = cabinets
+    .filter((cabinet) => cabinet.country === iso2)
+    .slice()
+    .sort((a, b) => a.took_office.localeCompare(b.took_office));
+
+  return ordered.flatMap((cabinet) => {
+    const dates = changePointsOf(cabinet);
+
+    return dates.map((date, index) => {
+      const next = dates[index + 1];
+      const entities = entitiesAsOf(cabinet, date);
+      const counted = entities.filter((entity) => entity.counts_as_ministry);
+
+      return {
+        iso2,
+        cabinet_id: cabinet.cabinet_id,
+        cabinet_name_en: cabinet.cabinet_name_en,
+        cabinet_name_es: cabinet.cabinet_name_es,
+        date,
+        until: next === undefined ? cabinet.left_office : dayBefore(next),
+        ministries_count: counted.length,
+        cabinet_seats_count: countCabinetSeats(entities),
+        ministries: counted
+          .slice()
+          .sort((a, b) => a.order - b.order)
+          .map((entity) => ({
+            id: entity.id,
+            name_original: entity.name_original,
+            name_en: entity.name_en,
+            name_es: entity.name_es,
+          })),
+        reconstructed: !entities.some(
+          (entity) => entity.exclusion_reason === 'superseded_within_cabinet',
+        ),
+      };
+    });
+  });
 }
 
 export interface PolicyMatrixCell {

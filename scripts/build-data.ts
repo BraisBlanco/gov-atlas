@@ -10,6 +10,7 @@
 import { mkdir, rm, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 
+import type { Source } from '../data/schema/source.schema.ts';
 import { loadDataset, valuesOf } from './lib/load.ts';
 import { checkDataset } from './lib/rules.ts';
 import { countBySeverity, formatIssues, warning } from './lib/issues.ts';
@@ -20,9 +21,11 @@ import {
   deriveCountrySummary,
   deriveEntities,
   derivePolicyMatrix,
+  deriveTimeline,
   entitiesAsOf,
   type CountrySummary,
   type DerivedEntity,
+  type TimelinePoint,
 } from './lib/derive.ts';
 
 const today = process.env.GOV_ATLAS_TODAY ?? new Date().toISOString().slice(0, 10);
@@ -59,6 +62,18 @@ const cabinets = valuesOf(dataset.cabinets);
 const summaries: CountrySummary[] = [];
 const entitiesByCountry: { iso2: string; entities: DerivedEntity[] }[] = [];
 const uncovered: string[] = [];
+/**
+ * One row per structural change, across every cabinet a country has — the only derived
+ * output that looks beyond the current cabinet. A country with a single cabinet file still
+ * gets one point, so the shape does not depend on how far its history has been curated.
+ */
+const timelineByCountry = new Map<string, TimelinePoint[]>();
+/**
+ * The citations behind the whole series, not just behind the sitting cabinet: a chart has to
+ * be able to show the instrument for every step it draws. Deduplicated by URL and ordered by
+ * tier, so legal instruments come first.
+ */
+const timelineSourcesByCountry = new Map<string, Source[]>();
 
 for (const { value: country } of countries) {
   const forCountry = cabinets.filter(({ value }) => value.country === country.iso2);
@@ -76,6 +91,24 @@ for (const { value: country } of countries) {
     iso2: country.iso2,
     entities: deriveEntities(current.value, entitiesAsOf(current.value, today)),
   });
+  timelineByCountry.set(
+    country.iso2,
+    deriveTimeline(
+      country.iso2,
+      forCountry.map((entry) => entry.value),
+    ),
+  );
+
+  const byUrl = new Map<string, Source>();
+  for (const { value } of forCountry) {
+    for (const source of value.sources) {
+      if (!byUrl.has(source.url)) byUrl.set(source.url, source);
+    }
+  }
+  timelineSourcesByCountry.set(
+    country.iso2,
+    [...byUrl.values()].sort((a, b) => a.tier - b.tier || a.publisher.localeCompare(b.publisher)),
+  );
 }
 
 summaries.sort((a, b) => a.iso2.localeCompare(b.iso2));
@@ -83,6 +116,9 @@ entitiesByCountry.sort((a, b) => a.iso2.localeCompare(b.iso2));
 
 const allEntities = entitiesByCountry.flatMap((entry) => entry.entities);
 const policyMatrix = derivePolicyMatrix(entitiesByCountry, taxonomy);
+const timeline = [...timelineByCountry.values()]
+  .flat()
+  .sort((a, b) => a.iso2.localeCompare(b.iso2) || a.date.localeCompare(b.date));
 
 const metadata = {
   generated_at: generatedAt,
@@ -98,6 +134,15 @@ const metadata = {
   /** Target countries with no country file at all yet. */
   target_missing: EU27.filter((iso2) => !summaries.some((summary) => summary.iso2 === iso2)),
   cabinets_total: cabinets.length,
+  /** Structural states on record, across all cabinets — the length of the history series. */
+  timeline_points: timeline.length,
+  /**
+   * Countries whose history reaches back beyond the sitting cabinet. Reported because a
+   * one-point series is a current snapshot, not a trend, and the two must not look alike.
+   */
+  countries_with_history: [...timelineByCountry.values()].filter(
+    (points) => new Set(points.map((point) => point.cabinet_id)).size > 1,
+  ).length,
   entities_total: allEntities.length,
   ministries_total: allEntities.filter((entity) => entity.counts_as_ministry).length,
   sources_total: cabinets.reduce((sum, { value }) => sum + value.sources.length, 0),
@@ -134,11 +179,17 @@ await writeJson('taxonomy.json', taxonomy);
 await writeJson('countries.json', summaries);
 await writeJson('ministries.json', allEntities);
 await writeJson('policy-matrix.json', policyMatrix);
+await writeJson('timeline.json', timeline);
 
 // Per-country payloads: a country page pulls one small file instead of the whole dataset.
 for (const { iso2, entities } of entitiesByCountry) {
   const summary = summaries.find((candidate) => candidate.iso2 === iso2);
-  await writeJson(path.join('countries', `${iso2}.json`), { summary, entities });
+  await writeJson(path.join('countries', `${iso2}.json`), {
+    summary,
+    entities,
+    timeline: timelineByCountry.get(iso2) ?? [],
+    timeline_sources: timelineSourcesByCountry.get(iso2) ?? [],
+  });
 }
 
 await writeText(
@@ -155,6 +206,32 @@ await writeText(
     'took_office',
     'left_office',
   ]),
+);
+
+await writeText(
+  'timeline.csv',
+  toCsv(
+    timeline.map((point) => ({
+      iso2: point.iso2,
+      date: point.date,
+      until: point.until ?? '',
+      cabinet_id: point.cabinet_id,
+      ministries_count: point.ministries_count,
+      cabinet_seats_count: point.cabinet_seats_count,
+      reconstructed: point.reconstructed,
+      ministries: point.ministries.map((ministry) => ministry.name_original),
+    })),
+    [
+      'iso2',
+      'date',
+      'until',
+      'cabinet_id',
+      'ministries_count',
+      'cabinet_seats_count',
+      'reconstructed',
+      'ministries',
+    ],
+  ),
 );
 
 await writeText(

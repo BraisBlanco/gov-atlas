@@ -1,4 +1,10 @@
-import type { CountrySummary, DerivedEntity, PolicyMatrixCell } from '../../../scripts/lib/derive.ts';
+import type {
+  CountrySummary,
+  DerivedEntity,
+  PolicyMatrixCell,
+  TimelineMinistry,
+  TimelinePoint,
+} from '../../../scripts/lib/derive.ts';
 import type { Source } from '../../../data/schema/source.schema.ts';
 import type { Taxonomy } from '../../../data/schema/taxonomy.schema.ts';
 import type { Locale } from '../i18n/index.ts';
@@ -12,7 +18,15 @@ import type { Locale } from '../i18n/index.ts';
  * package boundary in the bundle.
  */
 
-export type { CountrySummary, DerivedEntity, PolicyMatrixCell, Source, Taxonomy };
+export type {
+  CountrySummary,
+  DerivedEntity,
+  PolicyMatrixCell,
+  Source,
+  Taxonomy,
+  TimelineMinistry,
+  TimelinePoint,
+};
 
 export interface Metadata {
   generated_at: string;
@@ -35,6 +49,13 @@ export interface Metadata {
 export interface CountryPayload {
   summary: CountrySummary;
   entities: DerivedEntity[];
+  /**
+   * Every structural state on record for this country, oldest first. One entry means only
+   * the sitting cabinet is curated — a snapshot rather than a history.
+   */
+  timeline: TimelinePoint[];
+  /** Citations behind the whole series, including cabinets no longer in office. */
+  timeline_sources: Source[];
 }
 
 /*
