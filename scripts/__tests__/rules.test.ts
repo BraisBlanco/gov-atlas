@@ -307,6 +307,87 @@ describe('identity and cross-file rules', () => {
     expect(rulesFrom(issues)).toContain('multiple-current-cabinets');
   });
 
+  it('rejects two cabinets of one country covering the same date', () => {
+    // The failure this prevents: a historical series that counts one country's ministries
+    // twice over the overlap, which reads as a spike rather than as a modelling error.
+    const issues = check({
+      taxonomy,
+      cabinets: [
+        makeCabinetInput({ left_office: '2024-01-05' }),
+        makeCabinetInput({
+          cabinet_id: 'ES-2024-01-05',
+          took_office: '2024-01-05',
+          left_office: null,
+          entities: [
+            makeMinistry({ id: 'ES-2024-agricultura' }),
+            makePresidency({ id: 'ES-2024-presidencia' }),
+          ],
+        }),
+      ],
+    });
+    expect(rulesFrom(issues)).toContain('cabinet-terms-overlap');
+  });
+
+  it('treats a later cabinet after an open-ended one as an overlap', () => {
+    const issues = check({
+      taxonomy,
+      cabinets: [
+        makeCabinetInput({ left_office: null }),
+        makeCabinetInput({
+          cabinet_id: 'ES-2024-01-02',
+          took_office: '2024-01-02',
+          left_office: '2024-06-01',
+          entities: [
+            makeMinistry({ id: 'ES-2024-agricultura' }),
+            makePresidency({ id: 'ES-2024-presidencia' }),
+          ],
+        }),
+      ],
+    });
+    expect(rulesFrom(issues)).toContain('cabinet-terms-overlap');
+  });
+
+  it('accepts consecutive cabinets that meet exactly', () => {
+    const issues = check({
+      taxonomy,
+      cabinets: [
+        makeCabinetInput({ left_office: '2024-01-01' }),
+        makeCabinetInput({
+          cabinet_id: 'ES-2024-01-02',
+          took_office: '2024-01-02',
+          entities: [
+            makeMinistry({ id: 'ES-2024-agricultura' }),
+            makePresidency({ id: 'ES-2024-presidencia' }),
+          ],
+        }),
+      ],
+    });
+    expect(rulesFrom(issues)).not.toContain('cabinet-terms-overlap');
+    expect(rulesFrom(issues)).not.toContain('cabinet-term-gap');
+  });
+
+  it('warns about an uncovered stretch between two cabinets', () => {
+    const issues = check({
+      taxonomy,
+      cabinets: [
+        makeCabinetInput({ left_office: '2024-01-01' }),
+        makeCabinetInput({
+          cabinet_id: 'ES-2024-03-01',
+          took_office: '2024-03-01',
+          entities: [
+            makeMinistry({ id: 'ES-2024-agricultura' }),
+            makePresidency({ id: 'ES-2024-presidencia' }),
+          ],
+        }),
+      ],
+    });
+    const gap = issues.filter((issue) => issue.rule === 'cabinet-term-gap');
+    expect(gap).toHaveLength(1);
+    expect(gap[0]?.severity).toBe('warning');
+    expect(gap[0]?.message).toContain('2024-01-02');
+    expect(gap[0]?.message).toContain('2024-02-29');
+  });
+
   it('rejects duplicate listing order', () => {
     const issues = check({
       taxonomy,

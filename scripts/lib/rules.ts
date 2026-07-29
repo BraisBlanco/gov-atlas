@@ -5,6 +5,7 @@ import type { Country } from '../../data/schema/country.schema.ts';
 import type { Taxonomy } from '../../data/schema/taxonomy.schema.ts';
 import type { Dataset } from './load.ts';
 import { valuesOf } from './load.ts';
+import { dayAfter, dayBefore } from './dates.ts';
 import { error, warning, type Issue } from './issues.ts';
 
 /**
@@ -59,6 +60,7 @@ function sourcePath(index: number, field?: string): string {
 function isAfter(a: string, b: string): boolean {
   return a > b;
 }
+
 
 export interface CheckOptions {
   /** Injected so the "accessed in the future" rule is testable and not clock-flaky. */
@@ -120,6 +122,49 @@ export function checkDataset(dataset: Dataset, options: CheckOptions): Issue[] {
         );
       }
     }
+  }
+
+  // A country's cabinets must tile time: no date may belong to two of them, and any
+  // uncovered stretch must be declared rather than left to look like a flat line.
+  for (const [iso2, entries] of cabinetsByCountry) {
+    const ordered = entries
+      .slice()
+      .sort((a, b) => a.value.took_office.localeCompare(b.value.took_office));
+
+    ordered.forEach((entry, index) => {
+      const previous = ordered[index - 1];
+      if (!previous) return;
+
+      // An open-ended earlier cabinet runs to today, so anything starting after it overlaps.
+      const previousEnd = previous.value.left_office;
+      if (previousEnd === null || !isAfter(entry.value.took_office, previousEnd)) {
+        issues.push(
+          error(
+            'cabinet-terms-overlap',
+            entry.file,
+            `${iso2}: ${entry.value.cabinet_id} takes office on ${entry.value.took_office}, ` +
+              `which is not after ${previous.value.cabinet_id} left office on ` +
+              `${previousEnd ?? 'null (still in office)'}; a date in two cabinets at once ` +
+              'counts its ministries twice',
+            'took_office',
+          ),
+        );
+        return;
+      }
+
+      if (entry.value.took_office !== dayAfter(previousEnd)) {
+        issues.push(
+          warning(
+            'cabinet-term-gap',
+            entry.file,
+            `${iso2}: no cabinet covers ${dayAfter(previousEnd)} to ` +
+              `${dayBefore(entry.value.took_office)}, between ${previous.value.cabinet_id} ` +
+              `and ${entry.value.cabinet_id}; a historical series will show a hole there`,
+            'took_office',
+          ),
+        );
+      }
+    });
   }
 
   // Coverage gaps are not defects, but they must be visible rather than inferred from
