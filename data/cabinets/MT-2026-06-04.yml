@@ -341,10 +341,22 @@ sources:
       recently the issue of 13 January 2026 on 26 July 2026. No snapshot could be created while
       this file was curated because Save Page Now returned "Job failed" to every request over more
       than an hour, including control captures of unrelated URLs, and archive.today accepted
-      capture jobs but never completed them and gates its status pages behind a CAPTCHA. The next
-      curator to touch this file should retry Save Page Now on this URL, open the resulting
-      snapshot, confirm that Government Notice 844 is legible in it, and only then paste the
-      timestamp here.
+      capture jobs but never completed them and gates its status pages behind a CAPTCHA.
+      One capture of this URL now exists, and it must not be used. The CDX API lists timestamp
+      20260729001205, and that capture is five kilobytes of Cloudflare's "Just a moment..."
+      interstitial, recorded with status 403 and mimetype text/html — not the gazette. Every
+      Maltese government host sits behind Cloudflare bot management, so a save that appears to
+      succeed can still archive the challenge page instead of the document; the January issue
+      cited above took two attempts, and its first attempt recorded exactly this kind of decoy.
+      The acceptance test for a snapshot of this URL is therefore mechanical, and neither half of
+      it is "open it in a browser", which is what a decoy passes. The CDX row for the timestamp
+      must read mimetype application/pdf with status 200 and a length in the megabytes, and
+      `pdftotext -layout` run on the raw capture — the `<timestamp>id_/` form of the URL, fetched
+      with `curl --compressed`, or the bytes arrive gzipped and every check fails for the wrong
+      reason — must contain the quote above. Only a timestamp that passes both belongs in
+      archive_url. Retry hours apart rather than in a loop: a tight retry loop on 29 July 2026
+      drew "Job failed" from every attempt and then sustained rate-limiting from Save Page Now
+      itself, which delays the next real chance instead of improving the odds.
 
   - id: gazzetta-21661-gn842-ministers
     tier: 1
