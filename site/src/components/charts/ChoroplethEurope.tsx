@@ -372,10 +372,14 @@ export function ChoroplethEurope({
           ))}
         </ul>
         <ul className="ce-keys">
-          <li>
-            <span className="ce-swatch is-empty-key" aria-hidden="true" />
-            {t('map.legend.notCovered', { count: layers.empty.length })}
-          </li>
+          {/* Only worth a key while something is actually hatched; with every in-scope
+              country covered the row would explain a paint the map never uses. */}
+          {layers.empty.length > 0 ? (
+            <li>
+              <span className="ce-swatch is-empty-key" aria-hidden="true" />
+              {t('map.legend.notCovered', { count: layers.empty.length })}
+            </li>
+          ) : null}
           <li>
             <span className="ce-swatch is-context-key" aria-hidden="true" />
             {t('map.legend.outOfScope')}
