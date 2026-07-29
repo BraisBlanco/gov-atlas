@@ -58,7 +58,7 @@ methodology_notes:
       is set out in the next note. The Republic's own portal states the first figure without
       qualification: "the President of the Republic appoints eleven Ministers, who constitute
       the Council of Ministers of the state". These figures answer different questions and
-      this file never adds them.
+      this page never adds them.
     es: >-
       Tres cifras, e importa cuál se publica. Once ministerios. Doce asientos en el Consejo de
       Ministros. Diecisiete departamentos, si se contaran como ministerios los seis
@@ -73,7 +73,7 @@ methodology_notes:
       El razonamiento está en la nota siguiente. El propio portal de la República enuncia la
       primera cifra sin matices: «el Presidente de la República nombra once ministros, que
       constituyen el Consejo de Ministros del Estado». Estas cifras responden a preguntas
-      distintas y este fichero nunca las suma.
+      distintas y esta ficha nunca las suma.
 
   - en: >-
       The Deputy Ministries, and why they are recorded but not counted. This is the hardest
@@ -84,8 +84,8 @@ methodology_notes:
       (23(I)/2024). They are not units inside a ministry. Each is a free-standing central
       department with its own director-general, its own budget vote submitted through the
       Minister of Finance, and its own subordinate departments; the government's own website
-      directory groups them alongside the eleven ministries. On the criteria in
-      METHODOLOGY.md they satisfy the first (central government) and the third (named in an
+      directory groups them alongside the eleven ministries. On this project's criteria
+      they satisfy the first (central government) and the third (named in an
       official source) without difficulty. They fail the second, and they fail it on the
       words of the statutes that created them rather than on our reading. The head of each is
       a Υφυπουργός παρά τω Προέδρω — a Deputy Minister *to the President* — not a Υπουργός,
@@ -98,8 +98,8 @@ methodology_notes:
       23(I)/2024). The Constitution reinforces it from the other direction: article 46
       composes the Council of Ministers of ministers only, and the word υφυπουργός does not
       appear anywhere in the constitutional text. So a Deputy Minister has no vote and no
-      seat, and this file records the six with `has_cabinet_seat: false` and the exclusion
-      reason junior_minister_or_state_secretary. That reason understates them, and the
+      seat, and the six are recorded here without a cabinet seat, excluded as junior
+      ministers or state secretaries. That reason understates them, and the
       understatement should be visible: unlike a Spanish secretario de Estado or a Greek
       υφυπουργός, a Cypriot Deputy Minister heads a whole department rather than working
       inside someone else's. A reader who thinks the departmental character should win over
@@ -108,7 +108,7 @@ methodology_notes:
       the other.
     es: >-
       Los Viceministerios, y por qué se registran pero no se cuentan. Es la decisión más
-      difícil del fichero chipriota, y lo honesto es reconocer que está reñida. Chipre tiene
+      difícil de la ficha chipriota, y lo honesto es reconocer que está reñida. Chipre tiene
       seis Υφυπουργεία, cada uno creado por su propia ley: Marina Mercante (ley 123(I)/2017),
       Turismo (123(I)/2018), Investigación, Innovación y Política Digital (14(I)/2020),
       Bienestar Social (89(I)/2021), Cultura (55(I)/2022) y Migración y Protección
@@ -116,7 +116,7 @@ methodology_notes:
       departamento central autónomo, con su director general, su propia partida
       presupuestaria presentada a través del ministro de Hacienda y sus propios departamentos
       subordinados; el directorio web del propio Gobierno los agrupa junto a los once
-      ministerios. Con los criterios de METHODOLOGY.md cumplen sin dificultad el primero
+      ministerios. Con los criterios de este proyecto cumplen sin dificultad el primero
       (gobierno central) y el tercero (nombrados en fuente oficial). Incumplen el segundo, y
       lo incumplen por el texto de las leyes que los crearon, no por nuestra lectura. Al
       frente de cada uno hay un Υφυπουργός παρά τω Προέδρω —un viceministro *ante el
@@ -129,8 +129,8 @@ methodology_notes:
       55(I)/2022, artículo 14 de 23(I)/2024). La Constitución lo refuerza desde el otro lado:
       el artículo 46 compone el Consejo de Ministros solo de ministros, y la palabra
       υφυπουργός no aparece en ningún lugar del texto constitucional. Así que un viceministro
-      no tiene voto ni asiento, y este fichero registra los seis con `has_cabinet_seat: false`
-      y el motivo de exclusión junior_minister_or_state_secretary. Ese motivo se queda corto,
+      no tiene voto ni asiento, y los seis se registran aquí sin asiento en el gabinete,
+      excluidos como secretarios de Estado o ministros júnior. Ese motivo se queda corto,
       y conviene que se vea: a diferencia de un secretario de Estado español o de un
       υφυπουργός griego, el viceministro chipriota encabeza un departamento entero en lugar de
       trabajar dentro del de otro. Quien considere que debe primar el carácter departamental
@@ -146,8 +146,8 @@ methodology_notes:
       and migration. Cyprus therefore appears in those columns as a government with no
       dedicated department, when in fact it has one — headed by a Deputy Minister rather than
       a Minister. Tagging policy areas onto uncounted entities would not fix it: the matrix is
-      built from counted ministries only, and no other country in this dataset tags its
-      excluded bodies. A reader comparing Cyprus on tourism or shipping should read this note
+      built from counted ministries only, and excluded bodies never carry policy-area
+      tags. A reader comparing Cyprus on tourism or shipping should read this note
       first, and should treat a zero in those cells as "no ministry", not as "no department".
     es: >-
       Un coste de esa decisión, dicho sin rodeos porque distorsiona las vistas comparativas.
@@ -157,8 +157,8 @@ methodology_notes:
       sociales y migración. Chipre figura por tanto en esas columnas como un gobierno sin
       departamento dedicado cuando en realidad tiene uno, encabezado por un viceministro y no
       por un ministro. Etiquetar áreas en entidades no contadas no lo arreglaría: la matriz se
-      construye solo con los ministerios contados, y ningún otro país de este conjunto etiqueta
-      sus órganos excluidos. Quien compare a Chipre en turismo o marina mercante debería leer
+      construye solo con los ministerios contados, y los órganos excluidos nunca llevan
+      etiquetas de área. Quien compare a Chipre en turismo o marina mercante debería leer
       antes esta nota, y entender un cero en esas celdas como «ningún ministerio», no como
       «ningún departamento».
 
@@ -173,10 +173,10 @@ methodology_notes:
       Vice-President the Deputy Head of the State. In 1964 the Turkish Cypriot Vice-President
       and the three Turkish Cypriot ministers withdrew from the government, and none of those
       posts has been filled since. Two consequences are recorded here, and a third is
-      deliberately not. First, the Vice-Presidency is recorded as an entity with
-      `has_cabinet_seat: true` and `head_count: 0` — the constitutional post exists, nobody
-      holds it, and `countCabinetSeats` therefore adds nothing for it. That is the same device
-      Romania uses for its ad-interim portfolios, and it is why the seat figure is twelve
+      deliberately not. First, the Vice-Presidency is recorded as an entity
+      with a cabinet seat but no holder — the constitutional post exists, nobody
+      holds it, and the seat count therefore adds nothing for it. That is how any vacant
+      seat is recorded, and it is why the seat figure is twelve
       rather than thirteen. Second, the article 46 numbers no longer describe the government:
       under the law of necessity the President alone appoints the ministers, and there are
       eleven ministries rather than the constitutional ten. Third — and this is the thing not
@@ -200,9 +200,9 @@ methodology_notes:
       tres ministros turcochipriotas se retiraron del gobierno, y ninguno de esos cargos se ha
       cubierto desde entonces. Aquí se registran dos consecuencias, y deliberadamente no una
       tercera. Primera: la Vicepresidencia se registra como entidad con
-      `has_cabinet_seat: true` y `head_count: 0` —el cargo constitucional existe, nadie lo
-      ocupa, y por tanto `countCabinetSeats` no le suma nada—. Es el mismo mecanismo que usa
-      Rumanía para sus carteras interinas, y explica que la cifra de asientos sea doce y no
+      asiento en el gabinete pero sin titular —el cargo constitucional existe, nadie lo
+      ocupa, y por tanto el recuento de asientos no le suma nada—. Así se registra toda
+      vacante de asiento, y explica que la cifra de asientos sea doce y no
       trece. Segunda: los números del artículo 46 ya no describen al gobierno: por el derecho
       de necesidad el Presidente nombra solo a los ministros, y hay once ministerios en lugar
       de los diez constitucionales. Tercera —y esto es lo que no se ha hecho—: no se han
@@ -216,66 +216,66 @@ methodology_notes:
       ningún instrumento describe.
 
   - en: >-
-      Perimeter: which Cyprus this file describes. The Republic of Cyprus does not exercise
+      Perimeter: which Cyprus this page describes. The Republic of Cyprus does not exercise
       effective control over the northern part of the island. The administrative structures
       operating there are not organs of the Republic, they are not established by its laws,
       their heads are not appointed by its President, and they are out of scope for this
-      dataset, which records the departments of a state's central executive. Nothing in the
-      entity list below refers to them, and no figure in this file or in
-      data/countries/CY.yml includes them: the population figure on the country page is the
+      project, which records the departments of a state's central executive. Nothing in the
+      entity list below refers to them, and no figure on this page or on the
+      country page includes them: the population figure on the country page is the
       Statistical Service's estimate for the government-controlled area, which is the only
       basis on which the Republic publishes population data, and the source note says so. This
       is a scope statement about what the data covers, not a position on the political
       question.
     es: >-
-      Perímetro: de qué Chipre habla este fichero. La República de Chipre no ejerce control
+      Perímetro: de qué Chipre habla esta ficha. La República de Chipre no ejerce control
       efectivo sobre la parte norte de la isla. Las estructuras administrativas que operan
       allí no son órganos de la República, no están creadas por sus leyes, sus titulares no
-      son nombrados por su Presidente y quedan fuera del alcance de este conjunto de datos,
+      son nombrados por su Presidente y quedan fuera del alcance de este proyecto,
       que registra los departamentos del ejecutivo central de un Estado. Nada de la lista de
-      entidades de abajo se refiere a ellas, y ninguna cifra de este fichero ni de
-      data/countries/CY.yml las incluye: la población de la ficha de país es la estimación de
+      entidades de abajo se refiere a ellas, y ninguna cifra de esta ficha ni de la
+      ficha de país las incluye: la población de la ficha de país es la estimación de
       la Servicio de Estadística para el área bajo control del Gobierno, única base sobre la
       que la República publica datos de población, y la nota de la fuente lo indica. Es una
       delimitación de alcance sobre lo que cubren los datos, no una posición sobre la cuestión
       política.
 
   - en: >-
-      A presidency, not a premiership, and what that does to the seat count. Every other
-      country in this dataset separates the head of state from the head of government. Cyprus
+      A presidency, not a premiership, and what that does to the seat count. European
+      states ordinarily separate the head of state from the head of government. Cyprus
       does not: under articles 36 and 46 of the Constitution the President of the Republic is
       the Head of the State and, with no prime minister in the constitutional order, also the
       head of the executive. He presides over the Council of Ministers, and the ministers hold
       office at his pleasure. He is therefore recorded here as an entity with
-      `has_cabinet_seat: true`, `counts_as_ministry: false` and the exclusion reason
-      head_of_government_office — the same treatment as a prime minister's office elsewhere,
+      a cabinet seat but not as a ministry, excluded as the office of the head of
+      government — the same treatment as a prime minister's office elsewhere,
       because he occupies the same position in the structure: the apex of the cabinet rather
       than a portfolio department. Two caveats a careful reader will want. First, on a strict
       reading of article 46 the President is not a *member* of the Council of Ministers: the
       text says the President and the Vice-President "have" a Council of Ministers composed of
-      the ministers. This file follows the project's uniform convention of giving the head of
+      the ministers. This page follows the project's uniform convention of giving the head of
       government a seat, because doing otherwise would make Cyprus's seat figure mean
-      something different from every other country's. Second, the exclusion reason
-      ceremonial_or_head_of_state was considered and rejected: its definition applies "where
+      something different from every other country's. Second, excluding him instead as
+      head-of-state was considered and rejected: that ground applies "where
       distinct from the head of government", and in Cyprus the two offices are the same
       person.
     es: >-
       Una presidencia, no una jefatura de gobierno, y qué implica para el recuento de
-      asientos. Todos los demás países de este conjunto separan al jefe del Estado del jefe
+      asientos. Los Estados europeos separan por lo general al jefe del Estado del jefe
       del gobierno. Chipre no: conforme a los artículos 36 y 46 de la Constitución, el
       Presidente de la República es el Jefe del Estado y, al no existir primer ministro en el
       orden constitucional, también el jefe del ejecutivo. Preside el Consejo de Ministros, y
       los ministros ocupan el cargo mientras él quiera. Por eso se registra aquí como entidad
-      con `has_cabinet_seat: true`, `counts_as_ministry: false` y el motivo de exclusión
-      head_of_government_office —el mismo tratamiento que la oficina de un primer ministro en
+      con asiento en el gabinete pero no como ministerio, excluida como oficina del jefe
+      de gobierno —el mismo tratamiento que la oficina de un primer ministro en
       otros países, porque ocupa el mismo lugar en la estructura: la cúspide del gabinete y no
       un departamento con cartera—. Dos matices para el lector atento. Primero: en una lectura
       estricta del artículo 46 el Presidente no es *miembro* del Consejo de Ministros, pues el
       texto dice que el Presidente y el Vicepresidente «tienen» un Consejo de Ministros
-      compuesto por los ministros. Este fichero sigue la convención uniforme del proyecto de
+      compuesto por los ministros. Esta ficha sigue la convención uniforme del proyecto de
       dar asiento al jefe de gobierno, porque lo contrario haría que la cifra de asientos de
       Chipre significara algo distinto de la de los demás países. Segundo: se consideró y
-      descartó el motivo ceremonial_or_head_of_state, cuya definición se aplica «cuando es
+      descartó excluirlo como jefatura del Estado, motivo que se aplica «cuando es
       distinto del jefe de gobierno», y en Chipre ambos cargos son la misma persona.
 
   - en: >-
@@ -286,16 +286,17 @@ methodology_notes:
       candidates. Nikos Christodoulides won the second round of the presidential election on
       12 February 2023 and assumed office before a special sitting of the House on 28
       February 2023; the members of his Council of Ministers were sworn in at the Presidential
-      Palace on Wednesday 1 March 2023. This file takes the second, because the unit of the
-      dataset is a cabinet rather than a presidential term, and 1 March 2023 is the day the
+      Palace on Wednesday 1 March 2023. This page takes the second, because the unit of this
+      project is a cabinet rather than a presidential term, and 1 March 2023 is the day the
       eleven ministers took office. The government has been reshuffled repeatedly since —
       among others the Ministers of Defence, Energy, Commerce and Industry, Agriculture,
       Labour, Justice and Health have all changed hands, the last two in a reshuffle of 8
       December 2025 — and one Deputy Ministry and one Deputy Minister post have been created.
-      None of that created a new government: no new cabinet was appointed, so `took_office`
-      remains 2023-03-01 and `left_office` remains null. Officeholders' names are not recorded
-      by this dataset, which curates departments and posts; the mid-term creations are recorded
-      with `valid_from`, which is how the structure stays replayable.
+      None of that created a new government: no new cabinet was appointed, so the date the
+      cabinet took office remains 1 March 2023 and no end date is recorded. Officeholders'
+      names are not recorded by this project, which curates departments and posts; the
+      mid-term creations are recorded with their own start dates, which is how the structure
+      stays replayable.
     es: >-
       Por qué este gabinete se fecha el 1 de marzo de 2023 y por qué las remodelaciones no lo
       han reiniciado. En una república presidencial el gobierno no cae ni se rehace como en
@@ -304,59 +305,61 @@ methodology_notes:
       fechas candidatas. Nikos Christodoulides ganó la segunda vuelta de las elecciones
       presidenciales el 12 de febrero de 2023 y asumió el cargo ante una sesión especial de la
       Cámara el 28 de febrero de 2023; los miembros de su Consejo de Ministros prestaron
-      juramento en el Palacio Presidencial el miércoles 1 de marzo de 2023. Este fichero toma
-      la segunda, porque la unidad del conjunto de datos es un gabinete y no un mandato
+      juramento en el Palacio Presidencial el miércoles 1 de marzo de 2023. Esta ficha toma
+      la segunda, porque la unidad de este proyecto es un gabinete y no un mandato
       presidencial, y el 1 de marzo de 2023 es el día en que los once ministros asumieron. El
       gobierno se ha remodelado repetidamente desde entonces —entre otros han cambiado de
       titular Defensa, Energía, Comercio e Industria, Agricultura, Trabajo, Justicia y Sanidad,
       los dos últimos en una remodelación del 8 de diciembre de 2025— y se han creado un
       Viceministerio y un puesto de viceministro. Nada de ello creó un gobierno nuevo: no se
-      nombró un gabinete nuevo, de modo que `took_office` sigue siendo 2023-03-01 y
-      `left_office` sigue siendo null. Este conjunto de datos no registra nombres de titulares,
-      sino departamentos y cargos; las creaciones a mitad de legislatura se registran con
-      `valid_from`, que es lo que mantiene reconstruible la estructura.
+      nombró un gabinete nuevo, de modo que la fecha de toma de posesión sigue siendo el 1 de
+      marzo de 2023 y no se registra fecha de cese. Este proyecto no registra nombres de
+      titulares, sino departamentos y cargos; las creaciones a mitad de legislatura se
+      registran con su propia fecha de inicio, que es lo que mantiene reconstruible la
+      estructura.
 
   - en: >-
-      Two posts that move with the calendar, and one that will lapse within days of writing.
+      Two posts that move with the calendar, and one that lapses on 31 July 2026.
       The Deputy Ministry of Migration and International Protection did not exist when this
       cabinet took office: law 23(I)/2024 was published on 15 March 2024 and the Minister of
       the Interior fixed 17 June 2024 as its commencement date by notification Κ.Δ.Π.
-      203/2024, so that entity carries `valid_from: 2024-06-17`. The Deputy Minister to the
+      203/2024, so that entity is recorded with 17 June 2024 as its start date. The Deputy Minister to the
       President for European Affairs is stranger still. The post was created by law
       119(I)/2023 (Official Gazette 4968 of 1 December 2023), which is expressly a law of
       "Προσωρινές Διατάξεις" — temporary provisions — enacted for Cyprus's Presidency of the
       Council of the European Union in the first half of 2026, and whose article 9 provides
       that the Law commences on a date fixed by the Council of Ministers and "λήγει την 31η
-      Ιουλίου 2026", expires on 31 July 2026. The entity therefore carries
-      `valid_to: 2026-07-31`. It was still in place on the access date, two days before that
-      expiry, so it appears in the current snapshot; from 1 August 2026 it drops out, and this
-      country's `excluded_count` and `entities_total` will fall by one while the published
-      ministry and seat counts stay put. That is the temporal model working as intended rather
-      than a defect. Its `valid_from` is set to 2023-12-01, the date the law was published,
-      which is the earliest date the post could exist; the Council of Ministers decision
-      actually bringing the law into force is published in the Gazette's fourth annex and
-      could not be located, and a future curator should replace the date if they find it.
+      Ιουλίου 2026", expires on 31 July 2026. The entity is therefore recorded
+      with 31 July 2026 as its end date. It was still in place on the access date, two days
+      before that expiry, so it appears in the current snapshot; from 1 August 2026 it drops
+      out, and this country's totals of recorded and excluded bodies will fall by one while
+      the published ministry and seat counts stay put. That is a consequence of recording
+      posts with their legal end dates, not a defect. Its start date is set to 1 December
+      2023, the date the law was published, which is the earliest date the post could exist;
+      the Council of Ministers decision actually bringing the law into force is published in
+      the Gazette's fourth annex and could not be located.
     es: >-
-      Dos cargos que se mueven con el calendario, y uno que caducará a los pocos días de
-      escribir esto. El Viceministerio de Migración y Protección Internacional no existía
+      Dos cargos que se mueven con el calendario, y uno que caduca el 31 de julio de
+      2026. El Viceministerio de Migración y Protección Internacional no existía
       cuando este gabinete asumió: la ley 23(I)/2024 se publicó el 15 de marzo de 2024 y el
       ministro del Interior fijó el 17 de junio de 2024 como fecha de entrada en vigor
-      mediante la notificación Κ.Δ.Π. 203/2024, de modo que esa entidad lleva
-      `valid_from: 2024-06-17`. El viceministro ante el Presidente para Asuntos Europeos es
+      mediante la notificación Κ.Δ.Π. 203/2024, de modo que esa entidad se registra con
+      fecha de inicio el 17 de junio de 2024. El viceministro ante el Presidente para Asuntos Europeos es
       aún más curioso. El cargo fue creado por la ley 119(I)/2023 (Boletín Oficial 4968 de 1
       de diciembre de 2023), que es expresamente una ley de «Προσωρινές Διατάξεις»
       —disposiciones temporales— aprobada para la Presidencia chipriota del Consejo de la Unión
       Europea en el primer semestre de 2026, y cuyo artículo 9 dispone que la ley entra en
       vigor en la fecha que fije el Consejo de Ministros y «λήγει την 31η Ιουλίου 2026»,
-      expira el 31 de julio de 2026. La entidad lleva por tanto `valid_to: 2026-07-31`. Seguía
-      vigente en la fecha de consulta, dos días antes de esa expiración, así que aparece en la
-      foto actual; desde el 1 de agosto de 2026 desaparece, y el `excluded_count` y el
-      `entities_total` de este país bajarán en uno mientras las cifras publicadas de
-      ministerios y asientos no se mueven. Es el modelo temporal funcionando como se pretendía,
-      no un defecto. Su `valid_from` se fija en 2023-12-01, fecha de publicación de la ley, que
-      es la más temprana en que el cargo podía existir; la decisión del Consejo de Ministros
-      que efectivamente puso la ley en vigor se publica en el cuarto anexo del Boletín y no
-      pudo localizarse, y un curador futuro debería sustituir la fecha si la encuentra.
+      expira el 31 de julio de 2026. La entidad se registra por tanto con el 31 de julio de
+      2026 como fecha de fin. Seguía vigente en la fecha de consulta, dos días antes de esa
+      expiración, así que aparece en la foto actual; desde el 1 de agosto de 2026 desaparece,
+      y las cifras de órganos registrados y excluidos de este país bajarán en uno mientras
+      las cifras publicadas de ministerios y asientos no se mueven. Es la consecuencia de
+      registrar los cargos con sus fechas legales de fin, no un defecto. Su fecha de inicio
+      se fija en el 1 de diciembre de 2023, fecha de publicación de la ley, que es la más
+      temprana en que el cargo podía existir; la decisión del Consejo de Ministros que
+      efectivamente puso la ley en vigor se publica en el cuarto anexo del Boletín y no
+      pudo localizarse.
 
   - en: >-
       Why Cyprus is graded B and cannot honestly be graded A. Grade A requires every counted
@@ -415,9 +418,9 @@ methodology_notes:
       Names, and where each language's version comes from. The Greek names are the official
       ones, taken from the Republic's own directory of ministries and deputy ministries and
       matching the statutes. The English names are the government's own — gov.cy publishes an
-      English edition that names every department — so `name_en_provenance` is `official`
-      rather than `translated` throughout, which is unusual in this dataset and worth relying
-      on. The Spanish names are this project's translations. Three details. The Republic's own
+      English edition that names every department — so all of them are marked as the
+      government's names rather than as this project's translations, which few governments
+      make possible. The Spanish names are this project's translations. Three details. The Republic's own
       English is not internally consistent about the deputy ministries: five are "Deputy
       Ministry of X" but the shipping one is published as "Shipping Deputy Ministry", and that
       is recorded as it is published rather than tidied up. Cyprus's own Greek is not quite
@@ -427,15 +430,15 @@ methodology_notes:
       Presidency's composition page; the statutory spelling is used here. And Υπουργείο
       Εσωτερικών is translated "Ministry of the Interior" but is not the police ministry:
       policing and public order belong to the Ministry of Justice and Public Order, which is
-      why the `interior` policy area is tagged there and not to Εσωτερικών — the same pattern
-      as Greece.
+      why that ministry, and not Εσωτερικών, carries the interior policy area — the same
+      pattern as Greece.
     es: >-
       Los nombres, y de dónde sale la versión en cada idioma. Los nombres griegos son los
       oficiales, tomados del directorio de ministerios y viceministerios de la propia República
       y coincidentes con las leyes. Los nombres en inglés son los del propio Gobierno —gov.cy
-      publica una edición inglesa que nombra cada departamento—, así que `name_en_provenance`
-      es `official` y no `translated` en todos los casos, lo que es inusual en este conjunto de
-      datos y merece aprovecharse. Los nombres en español son traducciones de este proyecto.
+      publica una edición inglesa que nombra cada departamento—, así que todos se señalan
+      como nombres del propio Gobierno y no como traducciones de este proyecto, algo que
+      pocos gobiernos hacen posible. Los nombres en español son traducciones de este proyecto.
       Tres detalles. El inglés de la propia República no es internamente coherente con los
       viceministerios: cinco son «Deputy Ministry of X» pero el de marina mercante se publica
       como «Shipping Deputy Ministry», y así se registra, sin corregirlo. El griego de Chipre
@@ -445,11 +448,11 @@ methodology_notes:
       pero como Δημόσιας Τάξεως en la página de composición de la Presidencia; aquí se usa la
       grafía legal. Y Υπουργείο Εσωτερικών se traduce «Ministerio del Interior» pero no es el
       ministerio de la policía: la policía y el orden público corresponden al Ministerio de
-      Justicia y Orden Público, y por eso el área de política `interior` se etiqueta allí y no
-      en Εσωτερικών —el mismo patrón que en Grecia—.
+      Justicia y Orden Público, y por eso ese ministerio, y no Εσωτερικών, lleva el área de
+      interior —el mismo patrón que en Grecia—.
 
   - en: >-
-      Posts on the government's composition page that are deliberately absent from this file.
+      Posts on the government's composition page that are deliberately absent from this page.
       The Presidency publishes, alongside the President, the eleven ministers and the eight
       deputy ministers, three further officials: the Government Spokesman, the Deputy
       Government Spokesman and the Secretary of the Council of Ministers. None is recorded
@@ -464,7 +467,7 @@ methodology_notes:
       is answering a different question.
     es: >-
       Cargos que figuran en la página de composición del Gobierno y están deliberadamente
-      ausentes de este fichero. La Presidencia publica, junto al Presidente, los once ministros
+      ausentes de esta ficha. La Presidencia publica, junto al Presidente, los once ministros
       y los ocho viceministros, tres funcionarios más: el Portavoz del Gobierno, el Portavoz
       adjunto y el Secretario del Consejo de Ministros. Ninguno se registra aquí, porque
       ninguno mueve ninguna de las dos cifras publicadas: ninguno encabeza un ministerio y

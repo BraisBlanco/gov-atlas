@@ -41,8 +41,8 @@ methodology_notes:
       seat and heads the Office of the Prime Minister rather than a portfolio department. The
       instrument that assigns the business of government lists 22 headings — the Prime Minister
       and 21 ministries — and the notice appointing the ministers names 21 people, each holding
-      one of them, so no portfolio is shared and there is no `shared_head_with` link anywhere in
-      this file. 21 ministers plus the Prime Minister is 22 seats. The two figures answer
+      one of them, so no portfolio is shared and no ministry recorded here has a shared head.
+      21 ministers plus the Prime Minister is 22 seats. The two figures answer
       different questions and are never added.
     es: >-
       Malta tiene 21 ministerios y 22 asientos en el gabinete. La diferencia es el primer
@@ -50,8 +50,8 @@ methodology_notes:
       con cartera. El instrumento que reparte los asuntos del gobierno enumera 22 encabezamientos
       —el primer ministro y 21 ministerios— y el aviso que nombra a los ministros designa a 21
       personas, cada una al frente de uno de ellos, de modo que no hay carteras compartidas ni
-      ningún enlace `shared_head_with` en este fichero. 21 ministros más el primer ministro son
-      22 asientos. Las dos cifras responden a preguntas distintas y nunca se suman.
+      ningún ministerio registrado aquí con titular compartido. 21 ministros más el primer
+      ministro son 22 asientos. Las dos cifras responden a preguntas distintas y nunca se suman.
   - en: >-
       Where Malta's enumeration lives, and why it is easy to miss. There is no Maltese act or
       legal notice that lists the ministries: the Public Administration Act (Cap. 595) carries no
@@ -63,7 +63,7 @@ methodology_notes:
       Government Notice 844, published with the appointments themselves (Government Notices 842
       and 843) in Government Gazette No. 21,661 of 5 June 2026 — a special issue the Department of
       Information titles "Government Gazette Ministers" and does not reproduce in the
-      per-issue web pages it publishes for ordinary gazettes. A curator who looks only at those
+      per-issue web pages it publishes for ordinary gazettes. Anyone who looks only at those
       web pages finds an unexplained gap in the notice numbering between 2 and 5 June and concludes
       that Malta publishes no enumeration; the notice is in the gazette PDF for that special issue
       and nowhere else on gov.mt. Because it is a legal instrument, Malta grades A: all 21 counted
@@ -87,31 +87,33 @@ methodology_notes:
       tiene grado A: los 21 ministerios contados, sus nombres en las dos lenguas oficiales y las
       materias asignadas a cada uno se apoyan en él.
   - en: >-
-      Both Maltese and English are official, and name_en is `official` rather than `translated`
-      for the strongest possible reason: the same instrument prints both. Article 5 of the
+      Both Maltese and English are official, and the English names are marked as the
+      government's own rather than as translations for the strongest possible reason: the same
+      instrument prints both. Article 5 of the
       Constitution makes Maltese the national language and provides that Maltese and English shall
       be the official languages of Malta, and Government Notice 844 is set in parallel columns,
       Maltese on the left and English on the right, so "Ministeru għall-Enerġija, l-Ambjent u
       r-Riġenerazzjoni tal-Port il-Kbir" and "Ministry for Energy, the Environment and the
       Regeneration of the Grand Harbour" are two official names of one department rather than a
-      name and a rendering of it. name_original carries the Maltese, because Maltese is the
-      national language. Only the Spanish names are this project's own translations, and only they
-      are marked `translated`.
+      name and a rendering of it. The Maltese form is recorded as the original name, because
+      Maltese is the national language. Only the Spanish names are this project's own
+      translations, and only they are marked as such.
     es: >-
-      El maltés y el inglés son ambos oficiales, y name_en se marca `official` y no `translated`
-      por la razón más fuerte posible: el mismo instrumento imprime los dos. El artículo 5 de la
+      El maltés y el inglés son ambos oficiales, y los nombres ingleses se señalan como nombres
+      propios del gobierno y no como traducciones por la razón más fuerte posible: el mismo
+      instrumento imprime los dos. El artículo 5 de la
       Constitución hace del maltés la lengua nacional y dispone que el maltés y el inglés serán las
       lenguas oficiales de Malta, y el Government Notice 844 se compone en columnas paralelas,
       maltés a la izquierda e inglés a la derecha, de modo que «Ministeru għall-Enerġija,
       l-Ambjent u r-Riġenerazzjoni tal-Port il-Kbir» y «Ministry for Energy, the Environment and
       the Regeneration of the Grand Harbour» son dos nombres oficiales de un mismo departamento y
-      no un nombre y su versión. name_original recoge el maltés, porque el maltés es la lengua
-      nacional. Solo los nombres españoles son traducciones de este proyecto, y solo ellos se
-      marcan `translated`.
+      no un nombre y su versión. Como nombre original se recoge el maltés, porque el maltés es la
+      lengua nacional. Solo los nombres españoles son traducciones de este proyecto, y solo ellos
+      se señalan como tales.
   - en: >-
-      Where the instrument and the government's own portal disagree, this file follows the
+      Where the instrument and the government's own portal disagree, this page follows the
       instrument. gov.mt publishes a list of ministries and a portfolio page for each — the pages
-      recorded as each entity's `url`, and the pages a reader will actually find first — but it
+      given here as the link for each body, and the pages a reader will actually find first — but it
       sets every name in full capitals and differs from Government Notice 844 in three places.
       The portal has "MINISTRY FOR EDUCATION AND SPORT" where the instrument has "Ministry for
       Education and Sports"; "MINISTRY FOR ECONOMY…" where the instrument has "Ministry for the
@@ -120,12 +122,12 @@ methodology_notes:
       difference runs the other way and is not adopted: the ministry's own portfolio page styles
       itself "Ministry for Arts, Culture and the National Heritage", while both the instrument and
       the portal's list drop the article, so "Ministry for Arts, Culture and National Heritage" is
-      what this file records. None of these is a difference of substance; they are recorded rather
-      than resolved silently because a reader comparing this file with gov.mt will see them.
+      what is recorded here. None of these is a difference of substance; they are recorded rather
+      than resolved silently because a reader comparing this page with gov.mt will see them.
     es: >-
-      Cuando el instrumento y el propio portal del gobierno discrepan, este fichero sigue al
+      Cuando el instrumento y el propio portal del gobierno discrepan, esta ficha sigue al
       instrumento. gov.mt publica una lista de ministerios y una página de portafolio para cada
-      uno —las páginas registradas como `url` de cada entidad, y las que un lector encontrará
+      uno —las páginas dadas aquí como enlace de cada organismo, y las que un lector encontrará
       antes—, pero escribe todos los nombres en mayúsculas y difiere del Government Notice 844 en
       tres puntos. El portal pone «MINISTRY FOR EDUCATION AND SPORT» donde el instrumento pone
       «Ministry for Education and Sports»; «MINISTRY FOR ECONOMY…» donde el instrumento pone
@@ -135,7 +137,7 @@ methodology_notes:
       «Ministry for Arts, Culture and the National Heritage», mientras que tanto el instrumento
       como la lista del portal suprimen el artículo, así que aquí se registra «Ministry for Arts,
       Culture and National Heritage». Ninguna es diferencia de fondo; se hacen constar en lugar de
-      resolverse en silencio porque el lector que compare este fichero con gov.mt las verá.
+      resolverse en silencio porque el lector que compare esta ficha con gov.mt las verá.
   - en: >-
       Policy-area tags follow the subjects the instrument assigns, not the ministry titles.
       Government Notice 844 prints, under each ministry's name, the list of subjects that ministry
@@ -147,8 +149,8 @@ methodology_notes:
       "Climate Change Policy" and "Water Policy" are assigned to an energy and environment
       ministry that names neither in its title; and migration is split, with "Legal Migration and
       Expatriate Affairs" assigned to the infrastructure and employment ministry and "Irregular
-      Migration" to home affairs, so two ministries carry `migration`. A comparison built from
-      ministry names alone would have got all of these wrong.
+      Migration" to home affairs, so two ministries carry the migration area. A comparison built
+      from ministry names alone would have got all of these wrong.
     es: >-
       Las áreas de política siguen las materias que asigna el instrumento, no los títulos
       ministeriales. El Government Notice 844 imprime, bajo el nombre de cada ministerio, la lista
@@ -160,7 +162,7 @@ methodology_notes:
       o transporte; «Climate Change Policy» y «Water Policy» se asignan a un ministerio de energía
       y medio ambiente que no nombra ninguna de las dos en su título; y la migración se divide, con
       «Legal Migration and Expatriate Affairs» en el ministerio de infraestructuras y empleo e
-      «Irregular Migration» en interior, así que dos ministerios llevan `migration`. Una
+      «Irregular Migration» en interior, así que dos ministerios llevan el área de migración. Una
       comparación construida solo con los nombres se habría equivocado en todo esto.
   - en: >-
       Parliamentary secretaries move neither figure and are not recorded here. They are the Maltese
@@ -175,8 +177,9 @@ methodology_notes:
       Environment and the Regeneration of the Grand Harbour, with responsibility for animal
       welfare. Because Government Notice 844 assigns the elderly and animal-welfare subjects to
       those two ministries and not to the secretariats, the two remits are tagged as policy areas
-      of the parent ministries — `elderly` on the health ministry and `animal_welfare` on the
-      energy and environment ministry — which is why Malta appears in those columns without a
+      of the parent ministries — the elderly area on the health ministry and the animal-welfare
+      area on the energy and environment ministry — which is why Malta appears in those columns
+      without a
       department of its own for either. A source that answers "how big is the Maltese government?"
       with a number in the thirties is counting parliamentary secretaries alongside ministers, and
       is answering a different question.
@@ -193,8 +196,9 @@ methodology_notes:
       Alicia Bugeja Said en el Ministerio de Energía, Medio Ambiente y Regeneración del Gran
       Puerto, responsable del bienestar animal. Como el Government Notice 844 asigna las materias
       de mayores y de bienestar animal a esos dos ministerios y no a las secretarías, los dos
-      cometidos se etiquetan como áreas de los ministerios matrices —`elderly` en el de sanidad y
-      `animal_welfare` en el de energía y medio ambiente—, y por eso Malta aparece en esas columnas
+      cometidos se etiquetan como áreas de los ministerios matrices —el área de mayores en el de
+      sanidad y la de bienestar animal en el de energía y medio ambiente—, y por eso Malta
+      aparece en esas columnas
       sin departamento propio para ninguna. Una fuente que responde «¿de qué tamaño es el Gobierno
       maltés?» con una cifra de treinta y tantos está contando secretarios parlamentarios junto a
       los ministros: responde a otra pregunta.
@@ -207,7 +211,7 @@ methodology_notes:
       other. What that notice assigns to it is "Gozo Affairs (excluding health services and
       education but including all infrastructural works related to the education sector)" — a
       carve-up of central government business by territory, with two subjects explicitly carved
-      back out, which is the opposite of devolution. Excluding it as `subnational_government` would
+      back out, which is the opposite of devolution. Excluding it as subnational government would
       misread a central ministry with a territorial remit as a regional administration, and would
       put Malta's count at 20 for the wrong reason.
     es: >-
@@ -219,8 +223,8 @@ methodology_notes:
       otro. Lo que ese aviso le asigna es «Gozo Affairs (excluding health services and education
       but including all infrastructural works related to the education sector)»: un reparto
       territorial de los asuntos del gobierno central, con dos materias expresamente excluidas, que
-      es lo contrario de la descentralización. Excluirlo como `subnational_government` sería leer un
-      ministerio central con ámbito territorial como una administración regional, y dejaría el
+      es lo contrario de la descentralización. Excluirlo como administración subestatal sería leer
+      un ministerio central con ámbito territorial como una administración regional, y dejaría el
       recuento de Malta en 20 por el motivo equivocado.
   - en: >-
       The perimeter. Counted: the 21 ministries listed in Government Notice 844, each headed by a
@@ -232,7 +236,7 @@ methodology_notes:
       of the Public Service Commission — rather than a sector of policy, so this project excludes
       it as it excludes Spain's Presidencia del Gobierno. Counting it would give 22 ministries
       instead of 21. Not recorded at all: parliamentary secretaries (see above); the President of
-      Malta, who is head of state and outside the executive this dataset counts; the Attorney
+      Malta, who is head of state and outside the executive this project counts; the Attorney
       General and the State Advocate, which Government Notice 844 lists as offices assigned to the
       justice ministry rather than as ministries; and the several hundred authorities, agencies,
       foundations, councils and boards that sit under the ministries.
@@ -247,34 +251,34 @@ methodology_notes:
       este proyecto la excluye igual que excluye la Presidencia del Gobierno española. Contarla
       daría 22 ministerios en lugar de 21. No se registran: los secretarios parlamentarios (véase
       más arriba); el presidente de Malta, jefe del Estado y ajeno al ejecutivo que cuenta este
-      dataset; el fiscal general y el abogado del Estado, que el Government Notice 844 enumera como
+      proyecto; el fiscal general y el abogado del Estado, que el Government Notice 844 enumera como
       oficinas asignadas al ministerio de justicia y no como ministerios; y los centenares de
       autoridades, agencias, fundaciones, consejos y comités situados bajo los ministerios.
   - en: >-
-      Three dates, and why this file uses 4 June 2026. The general election was held on Saturday
+      Three dates, and why this page uses 4 June 2026. The general election was held on Saturday
       30 May 2026; the Electoral Commission's return of the members elected, in the Government
       Gazette of 1 June 2026, recites that date. The President appointed Robert Abela Prime Minister
       on 1 June 2026 (Government Notice 821). The ministers were appointed on 4 June 2026
       (Government Notice 842), and the assignment of responsibilities bears the same date
-      (Government Notice 844), although both were printed in the gazette of 5 June. This file dates
+      (Government Notice 844), although both were printed in the gazette of 5 June. This page dates
       the cabinet from the ministers' appointment, as the project's other files do — Spain's cabinet
       is dated 21 November 2023, when its ministers were sworn in, not from the prime minister's own
       investiture four days earlier — because what the file describes is the composition of the
       cabinet, not the identity of its head. All three dates come from legal instruments; no datum
-      in this file rests on a press report.
+      in this page rests on a press report.
     es: >-
-      Tres fechas, y por qué este fichero usa el 4 de junio de 2026. Las elecciones generales se
+      Tres fechas, y por qué esta ficha usa el 4 de junio de 2026. Las elecciones generales se
       celebraron el sábado 30 de mayo de 2026; el aviso de la Comisión Electoral con los diputados
       electos, en la Gazzetta del 1 de junio de 2026, recoge esa fecha. El presidente de la
       República nombró primer ministro a Robert Abela el 1 de junio de 2026 (Government Notice 821).
       Los ministros fueron nombrados el 4 de junio de 2026 (Government Notice 842), y el reparto de
       responsabilidades lleva la misma fecha (Government Notice 844), aunque los dos se imprimieron
-      en la Gazzetta del 5 de junio. Este fichero fecha el gabinete en el nombramiento de los
+      en la Gazzetta del 5 de junio. Esta ficha fecha el gabinete en el nombramiento de los
       ministros, como hacen los demás ficheros del proyecto —el gabinete español se fecha el 21 de
       noviembre de 2023, cuando juraron sus ministros, y no en la investidura del presidente cuatro
-      días antes—, porque lo que el fichero describe es la composición del gabinete y no la
+      días antes—, porque lo que esta ficha describe es la composición del gabinete y no la
       identidad de su titular. Las tres fechas provienen de instrumentos jurídicos; ningún dato de
-      este fichero se apoya en una noticia de prensa.
+      esta ficha se apoya en una noticia de prensa.
 
 sources:
   - id: gazzetta-21661-gn844-assignment

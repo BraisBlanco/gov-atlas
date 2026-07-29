@@ -53,10 +53,10 @@ methodology_notes:
       correspond one-to-one to the portfolios a Prime Minister distributes: some ministers
       draw on several SPFs, some SPFs serve several ministers, and portfolios such as Energy
       or the North Sea have no SPF of their own at all. Counting SPFs instead of portfolios
-      would produce a different and equally defensible number for Belgium. This dataset
+      would produce a different and equally defensible number for Belgium. This project
       counts what the appointment decree names, because that is the only enumeration made by
-      a legal instrument and because it is the closest analogue to the ministerial
-      departments counted in the other countries here.
+      a legal instrument and because it is the closest analogue to a ministerial department
+      in the sense this project's methodology uses.
     es: >-
       Lo que se cuenta es una cartera, no un departamento. La administración federal belga se
       compone de services publics fédéraux (SPF) y services publics de programmation,
@@ -64,23 +64,23 @@ methodology_notes:
       corresponden uno a uno con las carteras que reparte un primer ministro: hay ministros
       que se apoyan en varios SPF, SPF que sirven a varios ministros y carteras como Energía
       o el Mar del Norte que no tienen SPF propio. Contar SPF en lugar de carteras daría para
-      Bélgica una cifra distinta e igualmente defendible. Este conjunto de datos cuenta lo que
+      Bélgica una cifra distinta e igualmente defendible. Este proyecto cuenta lo que
       nombra el decreto de nombramiento, porque es la única enumeración hecha por un
-      instrumento jurídico y porque es lo más parecido a los departamentos ministeriales que
-      se cuentan en los demás países.
+      instrumento jurídico y porque es lo más parecido a un departamento ministerial en el
+      sentido que usa la metodología de este proyecto.
   - en: >-
       Five of the fourteen ministers are also Vice-Prime Ministers, one for each coalition
       party. A vice-premiership is a personal office attached to a minister who already heads
       a portfolio, not a department of its own, so it adds neither a ministry nor a seat —
-      the same treatment Spain's vice-presidencies get in this dataset. The rank is part of
-      the title the decree confers, so it stays in name_original rather than being edited out.
+      the same treatment Spain's vice-presidencies get. The rank is part of the title the
+      decree confers, so it stays in the original name shown here rather than being edited out.
     es: >-
       Cinco de los catorce ministros son además viceprimeros ministros, uno por cada partido
       de la coalición. Una viceprimatura es un cargo personal adscrito a un ministro que ya
       encabeza una cartera, no un departamento propio, por lo que no añade ni ministerio ni
-      asiento: el mismo tratamiento que reciben aquí las vicepresidencias españolas. El rango
-      forma parte del título que confiere el decreto, así que se conserva en name_original en
-      lugar de suprimirse.
+      asiento: el mismo tratamiento que reciben las vicepresidencias españolas. El rango
+      forma parte del título que confiere el decreto, así que se conserva en el nombre
+      original que se muestra, en lugar de suprimirse.
   - en: >-
       No secretaries of state. Belgian federal governments almost always include
       secrétaires d'État / staatssecretarissen, who are members of the government of lesser
@@ -97,9 +97,9 @@ methodology_notes:
       French in the field, Dutch in the note, and nothing implied by the order. The Moniteur
       belge publishes the appointment decree in French and in Dutch, and both texts are
       authentic; German-language versions of federal acts are translations published later.
-      The schema has one name_original field per entity, so this file puts the French title
-      there and gives the Dutch title of the same decree in the entity's note, citing the
-      Dutch text of the decree as a source in its own right. No priority between the two
+      Only one original name is shown per entity, and here it is the French title; the Dutch
+      title of the same decree is given in the entity's note, citing the Dutch text of the
+      decree as a source in its own right. No priority between the two
       languages is intended or should be read into it. One consequence of quoting the decree
       verbatim: the participle agrees with the sex of the person appointed, so a portfolio
       held by a woman reads "chargée" where one held by a man reads "chargé". That is an
@@ -108,9 +108,9 @@ methodology_notes:
       El francés en el campo, el neerlandés en la nota, y ningún orden implícito. El Moniteur
       belge publica el decreto de nombramiento en francés y en neerlandés, y ambos textos son
       auténticos; las versiones en alemán de las normas federales son traducciones publicadas
-      después. El esquema tiene un único campo name_original por entidad, así que este
-      fichero pone ahí el título francés y da el título neerlandés del mismo decreto en la
-      nota de la entidad, citando el texto neerlandés como fuente propia. No se pretende
+      después. Sólo se muestra un nombre original por entidad, y aquí es el título francés;
+      el título neerlandés del mismo decreto se da en la nota de la entidad, citando el
+      texto neerlandés como fuente propia. No se pretende
       ninguna prelación entre las dos lenguas ni debe leerse tal cosa. Una consecuencia de
       citar el decreto literalmente: el participio concuerda con el sexo de la persona
       nombrada, de modo que una cartera en manos de una mujer dice «chargée» donde una en
@@ -121,7 +121,7 @@ methodology_notes:
       royal decree of 21 February 2025, published on 27 February and given retroactive effect
       to 3 February, replaced "et des Etablissements scientifiques fédéraux" with "et de la
       Politique scientifique" in the title of the Minister of Public Action and
-      Modernisation. This file records the corrected title, which is the one in force for the
+      Modernisation. This page records the corrected title, which is the one in force for the
       whole of the government's life; sources written in the first weeks of February 2025
       give the earlier wording.
     es: >-
@@ -129,22 +129,22 @@ methodology_notes:
       real decreto de 21 de febrero de 2025, publicado el 27 de febrero y con efecto
       retroactivo al 3 de febrero, sustituyó «et des Etablissements scientifiques fédéraux»
       por «et de la Politique scientifique» en el título de la ministra de Acción y
-      Modernización Públicas. Este fichero recoge el título corregido, que es el vigente
+      Modernización Públicas. Esta ficha recoge el título corregido, que es el vigente
       durante toda la vida del gobierno; las fuentes escritas en las primeras semanas de
       febrero de 2025 dan la redacción anterior.
   - en: >-
-      Entity urls are null on purpose. A Belgian federal portfolio has no departmental
-      website: the administrations that serve it are the SPFs, whose sites are organised by
-      administration rather than by portfolio, and the minister-level sites at
+      The portfolios are deliberately given no links. A Belgian federal portfolio has no
+      departmental website: the administrations that serve it are the SPFs, whose sites are
+      organised by administration rather than by portfolio, and the minister-level sites at
       <name>.belgium.be are personal to the officeholder and disappear when the holder
-      changes. Recording either would attach a URL to something other than the entity it is
-      filed under. The Prime Minister's office is the exception and keeps its own site.
+      changes. Linking either would attach the link to something other than the body it is
+      listed under. The Prime Minister's office is the exception and keeps its own site.
     es: >-
-      Las url de las entidades son null a propósito. Una cartera federal belga no tiene sitio
-      web departamental: las administraciones que la sirven son los SPF, cuyos sitios se
-      organizan por administración y no por cartera, y los sitios de nivel ministerial en
+      Las carteras figuran deliberadamente sin enlace. Una cartera federal belga no tiene
+      sitio web departamental: las administraciones que la sirven son los SPF, cuyos sitios
+      se organizan por administración y no por cartera, y los sitios de nivel ministerial en
       <nombre>.belgium.be son personales del titular y desaparecen cuando este cambia.
-      Registrar cualquiera de los dos ataría una URL a algo distinto de la entidad bajo la
+      Enlazar cualquiera de los dos ataría el enlace a algo distinto del organismo bajo el
       que figura. La excepción es la oficina del primer ministro, que conserva sitio propio.
 
 sources:

@@ -33,8 +33,8 @@ left_office: null
 
 methodology_notes:
   - en: >-
-      10 ministries and 24 cabinet seats — the widest gap in this dataset so far, and it is
-      structural rather than accidental. Sweden has no ministries in the sense other
+      10 ministries and 24 cabinet seats — an unusually wide gap, and a structural one
+      rather than an accident. Sweden has no ministries in the sense other
       countries use the word: the Regeringskansliet is one authority, and what other states
       call a ministry is here a departement within it, listed in § 2 of förordning
       (1996:1515). Ten of those departments are headed by a minister and are counted. The
@@ -45,8 +45,8 @@ methodology_notes:
       distributed across the departments; several departments have two, three or four of
       them. Counting Statsrådsberedningen as a ministry would give 11.
     es: >-
-      10 ministerios y 24 asientos en el gabinete: la mayor diferencia del dataset hasta
-      ahora, y es estructural, no accidental. Suecia no tiene ministerios en el sentido en
+      10 ministerios y 24 asientos en el gabinete: una diferencia inusualmente amplia, y
+      estructural, no accidental. Suecia no tiene ministerios en el sentido en
       que otros países usan la palabra: el Regeringskansliet es una sola autoridad y lo que
       en otros Estados es un ministerio aquí es un departement dentro de ella, enumerado en
       el § 2 del förordning (1996:1515). Diez de esos departamentos están dirigidos por un
@@ -57,8 +57,8 @@ methodology_notes:
       ministro y otros 23 ministros— repartidos entre los departamentos; varios tienen dos,
       tres o cuatro. Contar la Statsrådsberedningen como ministerio daría 11.
   - en: >-
-      How the seats are counted. Each department carries a `head_count` equal to the number
-      of ministers serving in it, taken from the government's own list of its members:
+      How the seats are counted. Each department's seats are the ministers serving in it,
+      taken from the government's own list of its members:
       Socialdepartementet 4, Finansdepartementet 3, Statsrådsberedningen 2 (the Prime
       Minister and the Minister for EU Affairs), Justitie-, Utrikes-, Försvars-, Utbildnings-,
       Klimat- och näringslivs-, Arbetsmarknads- and Landsbygds- och infrastrukturdepartementet
@@ -70,8 +70,8 @@ methodology_notes:
       ministries Sweden has — there is a Minister for Gender Equality but no equality
       department, a Minister for Migration but no migration department.
     es: >-
-      Cómo se cuentan los asientos. Cada departamento lleva un `head_count` igual al número de
-      ministros que sirven en él, tomado de la propia lista de miembros del gobierno:
+      Cómo se cuentan los asientos. Los asientos de cada departamento son los ministros que
+      sirven en él, tomados de la propia lista de miembros del gobierno:
       Socialdepartementet 4, Finansdepartementet 3, Statsrådsberedningen 2 (el primer ministro
       y la ministra de Asuntos Europeos), Justitie-, Utrikes-, Försvars-, Utbildnings-,
       Klimat- och näringslivs-, Arbetsmarknads- y Landsbygds- och infrastrukturdepartementet 2
@@ -90,10 +90,10 @@ methodology_notes:
       infrastrukturdepartementet, and § 2 of the instruction was amended accordingly by
       förordning (2022:1873). Sweden's count under this cabinet was therefore 11 until 31
       December 2022 and has been 10 since. The three abolished departments are recorded below
-      with `valid_to: 2022-12-31` so the change is visible rather than inferred, but this file
-      does not attempt to reconstruct which minister sat in which of them, so they carry no
-      cabinet seat: a replay of any date before 1 January 2023 would understate the seats.
-      Everything else in this file describes the structure in force from 1 January 2023 to the
+      with 31 December 2022 as their end date, so the change is visible rather than inferred,
+      but no attempt is made to reconstruct which minister sat in which of them, so they carry
+      no cabinet seat: a reconstruction of any date before 1 January 2023 would understate the
+      seats. Everything else describes the structure in force from 1 January 2023 to the
       access date.
     es: >-
       La estructura departamental cambió a los 75 días de legislatura. Cuando el gobierno tomó
@@ -103,25 +103,25 @@ methodology_notes:
       näringslivsdepartementet y el Landsbygds- och infrastrukturdepartementet, y el § 2 de la
       instrucción se modificó en consecuencia mediante el förordning (2022:1873). La cifra
       sueca bajo este gobierno fue por tanto 11 hasta el 31 de diciembre de 2022 y es 10 desde
-      entonces. Los tres departamentos suprimidos se registran abajo con `valid_to:
-      2022-12-31` para que el cambio sea visible y no deducido, pero este fichero no intenta
+      entonces. Los tres departamentos suprimidos se registran abajo con el 31 de diciembre de
+      2022 como fecha de fin, para que el cambio sea visible y no deducido, pero no se intenta
       reconstruir qué ministro estaba en cada uno de ellos, así que no llevan asiento: una
       reconstrucción de cualquier fecha anterior al 1 de enero de 2023 subestimaría los
       asientos. Todo lo demás describe la estructura vigente desde el 1 de enero de 2023 hasta
       la fecha de consulta.
   - en: >-
-      Sweden has no European affairs ministry in this dataset, and that is a real finding
-      rather than a gap. EU coordination belongs to the Minister for EU Affairs, who sits in
+      Sweden shows no European affairs ministry here, and that is a real finding rather than
+      a gap. EU coordination belongs to the Minister for EU Affairs, who sits in
       Statsrådsberedningen — the one entry excluded as the office of the head of government —
-      so the european_affairs area is tagged on no counted Swedish department. Read the
+      so no counted Swedish department carries the European-affairs policy area. Read the
       comparison views accordingly: Sweden's EU minister exists, but not in a department that
       this methodology counts.
     es: >-
-      En este dataset Suecia no tiene ministerio de Asuntos Europeos, y eso es un hallazgo
+      Aquí Suecia no tiene ministerio de Asuntos Europeos, y eso es un hallazgo
       real y no una laguna. La coordinación de la UE corresponde a la ministra de Asuntos
       Europeos, que se sitúa en la Statsrådsberedningen —la única entrada excluida como
-      oficina del jefe de gobierno—, de modo que el área european_affairs no se etiqueta en
-      ningún departamento sueco contado. Conviene leer así las vistas comparativas: la
+      oficina del jefe de gobierno—, de modo que ningún departamento sueco contado lleva el
+      área de asuntos europeos. Conviene leer así las vistas comparativas: la
       ministra de la UE existe, pero no en un departamento que esta metodología cuente.
   - en: >-
       Which department owns what is taken from the government's own attributions, not from
@@ -129,7 +129,7 @@ methodology_notes:
       society belong to Socialdepartementet, digitalisation policy to Finansdepartementet
       (under the Minister for Public Administration), and housing and spatial planning to
       Landsbygds- och infrastrukturdepartementet. Each of those three claims is cited on the
-      entity concerned. The head_title_original of each department is the title of the
+      entity concerned. The ministerial title shown for each department is the title of the
       minister regeringen.se lists first for it, which by Swedish convention is the
       departementschef.
     es: >-
@@ -139,21 +139,20 @@ methodology_notes:
       la política de digitalización al Finansdepartementet (bajo el ministro de Administración
       Pública) y la vivienda y la ordenación del territorio al Landsbygds- och
       infrastrukturdepartementet. Cada una de esas tres afirmaciones se cita en la entidad
-      correspondiente. El head_title_original de cada departamento es el título del ministro
-      que regeringen.se enumera primero, que por convención sueca es el departementschef.
+      correspondiente. El título ministerial que se muestra para cada departamento es el que
+      regeringen.se enumera primero, que por convención sueca es el departementschef.
   - en: >-
       English department names are the Swedish government's own, taken verbatim from
-      government.se, the English-language edition of regeringen.se, and marked
-      name_en_provenance: official. The one exception is Regeringskansliets
-      förvaltningsavdelning, for which government.se publishes no English name; that
-      rendering and all Spanish names are this project's own and are marked translated.
+      government.se, the English-language edition of regeringen.se. The one exception is
+      Regeringskansliets förvaltningsavdelning, for which government.se publishes no English
+      name; that rendering and all Spanish names are this project's own translations, and
+      are marked as such.
     es: >-
       Los nombres ingleses de los departamentos son los del propio gobierno sueco, tomados
-      literalmente de government.se, la edición en inglés de regeringen.se, y llevan
-      name_en_provenance: official. La única excepción es la Regeringskansliets
-      förvaltningsavdelning, para la que government.se no publica nombre inglés; esa
-      traducción y todos los nombres en español son de este proyecto y llevan la marca
-      translated.
+      literalmente de government.se, la edición en inglés de regeringen.se. La única
+      excepción es la Regeringskansliets förvaltningsavdelning, para la que government.se no
+      publica nombre inglés; esa traducción y todos los nombres en español son de este
+      proyecto, y así se indican.
 
 sources:
   - id: sfs-1996-1515

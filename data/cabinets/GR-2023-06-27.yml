@@ -54,9 +54,9 @@ methodology_notes:
       Alternate ministers (αναπληρωτές υπουργοί) are the awkward case. They hold ministerial
       rank and sit in the Council of Ministers, so each adds a seat, but they exercise
       competences delegated to them inside an existing ministry and head no department of
-      their own, so none adds a ministry. They are recorded with the exclusion reason
-      junior_minister_or_state_secretary, which is the closest fit in this project's
-      vocabulary but understates their rank: unlike a Spanish secretario de Estado or a
+      their own, so none adds a ministry. They are recorded as junior ministers or state
+      secretaries, the closest available category, though it understates their
+      rank: unlike a Spanish secretario de Estado or a
       French secrétaire d'État, a Greek alternate minister is a full member of the cabinet.
       The four in office are attached to National Economy and Finance, to Education,
       Religious Affairs and Sport (for sport), to Health, and to Infrastructure and
@@ -65,44 +65,44 @@ methodology_notes:
       Los ministros adjuntos (αναπληρωτές υπουργοί) son el caso delicado. Tienen rango
       ministerial y asiento en el Consejo de Ministros, de modo que cada uno suma un
       asiento, pero ejercen competencias delegadas dentro de un ministerio existente y no
-      encabezan departamento propio, así que ninguno suma un ministerio. Se registran con el
-      motivo de exclusión junior_minister_or_state_secretary, que es lo más aproximado en el
-      vocabulario de este proyecto pero se queda corto: a diferencia de un secretario de
+      encabezan departamento propio, así que ninguno suma un ministerio. Se registran como
+      ministros júnior o secretarios de Estado, la categoría disponible más aproximada,
+      aunque se queda corta con su rango: a diferencia de un secretario de
       Estado español o un secrétaire d'État francés, el ministro adjunto griego es miembro
       de pleno derecho del gabinete. Los cuatro en ejercicio están adscritos a Economía
       Nacional y Hacienda, a Educación, Asuntos Religiosos y Deportes (para deportes), a
       Sanidad y a Infraestructuras y Transportes (para transportes).
   - en: >-
       Around twenty deputy ministers (υφυπουργοί), including three attached to the Prime
-      Minister and one who is the government spokesperson, are deliberately absent from this
-      file. The second sentence of article 1(2) of law 4622/2019 says they are not members of
+      Minister and one who is the government spokesperson, are deliberately not recorded
+      here. The second sentence of article 1(2) of law 4622/2019 says they are not members of
       the Council of Ministers and may only be invited to attend without a vote, so they add
-      neither a ministry nor a seat, and this dataset records only the bodies that move one
+      neither a ministry nor a seat, and this project records only the bodies that affect one
       of the two figures. A source that answers "how large is the Greek government?" with a
       number in the forties is counting them; it is not wrong, it is answering a third
       question.
     es: >-
       Una veintena de viceministros (υφυπουργοί), entre ellos tres adscritos al primer
-      ministro y uno que es portavoz del Gobierno, están deliberadamente ausentes de este
-      fichero. La segunda frase del artículo 1.2 de la ley 4622/2019 dice que no son
+      ministro y uno que es portavoz del Gobierno, deliberadamente no se registran
+      aquí. La segunda frase del artículo 1.2 de la ley 4622/2019 dice que no son
       miembros del Consejo de Ministros y que solo pueden ser invitados a asistir sin voto,
-      por lo que no suman ni ministerio ni asiento, y este conjunto de datos registra solo
-      los órganos que mueven una de las dos cifras. Una fuente que responde «¿de qué tamaño
+      por lo que no suman ni ministerio ni asiento, y este proyecto registra solo
+      los órganos que afectan a una de las dos cifras. Una fuente que responde «¿de qué tamaño
       es el Gobierno griego?» con una cifra de cuarenta y tantos los está contando: no se
       equivoca, responde a una tercera pregunta.
   - en: >-
       A discrepancy worth recording. The official page of the General Secretariat for Legal
       and Parliamentary Affairs that reproduces the list of ministries attributes it to
       "decision Υ 22/3-1-2024"; the gazette itself, ΦΕΚ Β' 28 of 3 January 2024, numbers the
-      decision "Υ 1". The list of twenty ministries is identical in both, so nothing in this
-      file turns on it, but the citation used here is the gazette's own numbering.
+      decision "Υ 1". The list of twenty ministries is identical in both, so nothing recorded
+      here turns on it, but the citation used here is the gazette's own numbering.
     es: >-
       Una discrepancia que conviene dejar anotada. La página oficial de la Secretaría General
       de Asuntos Jurídicos y Parlamentarios que reproduce la lista de ministerios la atribuye
       a la «decisión Υ 22/3-1-2024»; el propio boletín, ΦΕΚ Β' 28 de 3 de enero de 2024,
       numera la decisión «Υ 1». La lista de veinte ministerios es idéntica en ambos, así que
-      nada de este fichero depende de ello, pero la cita empleada aquí sigue la numeración
-      del boletín.
+      nada de lo registrado aquí depende de ello, pero la cita empleada aquí sigue la
+      numeración del boletín.
   - en: >-
       Greek names are the official ones; the English and Spanish names are this project's
       translations, except where a ministry publishes its own English name. Two translation

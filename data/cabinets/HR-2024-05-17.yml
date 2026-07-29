@@ -79,10 +79,10 @@ methodology_notes:
       None of the nine holds ministerial rank, none sits in the Government, and none appears
       in the Sabor's confidence decision. Recording them rather than omitting them is
       deliberate: a reader who counts "state administration bodies" in Croatian law will
-      arrive at twenty-seven, and this file shows exactly which nine of those twenty-seven it
+      arrive at twenty-seven, and this page shows exactly which nine of those twenty-seven it
       leaves out and on what statutory ground. The line is drawn at ministerial rank, not at
       importance: the Central State Office for Croats outside the Republic of Croatia runs
-      what in several other countries in this dataset is a ministry or a minister without
+      what in several other European countries is a ministry or a minister without
       portfolio, and it is still not counted here.
     es: >-
       Dónde se traza el perímetro y por qué. El artículo 2 de la ley enumeradora divide la
@@ -101,10 +101,10 @@ methodology_notes:
       rango ministerial, ninguno se sienta en el Gobierno y ninguno aparece en la decisión de
       confianza del Sabor. Registrarlos en lugar de omitirlos es deliberado: quien cuente los
       «órganos de la administración del Estado» en el derecho croata llegará a veintisiete, y
-      este fichero muestra exactamente cuáles nueve de esos veintisiete deja fuera y con qué
+      esta ficha muestra exactamente cuáles nueve de esos veintisiete deja fuera y con qué
       fundamento legal. La línea se traza en el rango ministerial, no en la importancia: la
       Oficina Central del Estado para los Croatas fuera de la República de Croacia gestiona lo
-      que en varios otros países de este conjunto de datos es un ministerio o un ministro sin
+      que en varios otros países europeos es un ministerio o un ministro sin
       cartera, y aun así no se cuenta aquí.
   - en: >-
       Which cabinet is sitting, and why individual replacements do not change the answer.
@@ -121,7 +121,7 @@ methodology_notes:
       Irena Hrstić at health. Under article 7 of the Zakon o Vladi the Prime Minister accepts
       an individual minister's resignation and presents the replacement to the Sabor for a
       confidence vote on that member alone; the Government's mandate is unaffected and no new
-      cabinet is formed. This file records departments and not people, so the reshuffles
+      cabinet is formed. This page records departments and not people, so the reshuffles
       change nothing in it — but they are the reason a reader comparing it against a news
       report of the May 2024 swearing-in will find different names against the same eighteen
       portfolios.
@@ -140,8 +140,8 @@ methodology_notes:
       Alen Ružić en Trabajo y a Vili Beroš Irena Hrstić en Sanidad. Según el artículo 7 de la
       Zakon o Vladi, el presidente del Gobierno acepta la renuncia de un ministro individual y
       presenta al sustituto ante el Sabor para una votación de confianza sobre ese solo
-      miembro; el mandato del Gobierno no se ve afectado y no se forma un nuevo gabinete. Este
-      fichero registra departamentos y no personas, así que las remodelaciones no cambian nada
+      miembro; el mandato del Gobierno no se ve afectado y no se forma un nuevo gabinete. Esta
+      ficha registra departamentos y no personas, así que las remodelaciones no cambian nada
       en él —pero son la razón por la que quien lo compare con una crónica de la toma de
       posesión de mayo de 2024 encontrará nombres distintos frente a las mismas dieciocho
       carteras—.
@@ -155,15 +155,15 @@ methodology_notes:
       fisheries. Its article 14 abolished the Središnji državni ured za razvoj digitalnog društva and
       the Središnji državni ured za demografiju i mlade, whose enabling provisions — articles 22 and
       21 of the Act respectively — now read simply "Brisan.", deleted. The digital office's work went
-      to the Ministry of Justice, Administration and Digital Transformation, which is why digital is
-      tagged there, and the demography office's to the new demography ministry. This is also why
+      to the Ministry of Justice, Administration and Digital Transformation, which is why that
+      ministry carries the digital area, and the demography office's to the new demography ministry. This is also why
       article 4 now lists nine state administrative organisations where the Act as enacted in 2020
       listed twelve: the two offices just named were struck out in 2024, and a third, the Središnji
       državni ured za obnovu i stambeno zbrinjavanje of article 24, had already been removed by the
       2023 amendment, its post-earthquake reconstruction and housing work passing to the Ministry of
-      Spatial Planning, Construction and State Property. Because this dataset
+      Spatial Planning, Construction and State Property. Because this project
       publishes one cabinet per country and the previous cabinet is not in it, all of that is
-      recorded here as background rather than as closed entities with valid_to dates.
+      recorded here as background rather than as closed entries with an end date.
     es: >-
       Dos de los dieciocho ministerios no existían antes de mayo de 2024, y se suprimieron dos
       oficinas centrales del Estado para hacerlos posibles. Conviene saberlo porque explica dónde se
@@ -175,20 +175,20 @@ methodology_notes:
       Središnji državni ured za razvoj digitalnog društva y la Središnji državni ured za demografiju i
       mlade, cuyas disposiciones habilitantes —los artículos 22 y 21 de la ley, respectivamente—
       dicen ahora simplemente «Brisan.», suprimido. El trabajo de la oficina digital pasó al
-      Ministerio de Justicia, Administración y Transformación Digital, y de ahí que digital se
-      etiquete allí, y el de la oficina de demografía al nuevo ministerio de demografía. Es también la
+      Ministerio de Justicia, Administración y Transformación Digital, y de ahí que ese
+      ministerio lleve el área digital, y el de la oficina de demografía al nuevo ministerio de demografía. Es también la
       razón por la que el artículo 4 enumera hoy nueve organizaciones administrativas del Estado donde
       la ley de 2020 enumeraba doce: las dos oficinas recién citadas se suprimieron en 2024, y una
       tercera, la Središnji državni ured za obnovu i stambeno zbrinjavanje del artículo 24, había sido
       ya retirada por la modificación de 2023, pasando su labor de reconstrucción tras los terremotos
       y de realojo al Ministerio de Ordenación del Territorio, Construcción y Patrimonio del Estado.
-      Como este conjunto
-      de datos publica un gabinete por país y el anterior no figura en él, todo lo anterior se recoge
-      aquí como contexto y no como entidades cerradas con fecha valid_to.
+      Como este proyecto
+      publica un gabinete por país y el anterior no figura en él, todo lo anterior se recoge
+      aquí como contexto y no como entidades cerradas con fecha de fin.
   - en: >-
       What rests on the gazette and what rests on a commercial consolidator, stated plainly because
       the distinction is the difference between a sourced count and a plausible one. Neither figure
-      this dataset publishes depends on any consolidation: the list of eighteen ministries and the
+      this project publishes depends on any consolidation: the list of eighteen ministries and the
       list of nine state administrative organisations are quoted verbatim from the gazette (Narodne
       novine 57/2024, document 982) and the cabinet's size comes from the Sabor's own decision
       (Narodne novine 60/2024, document 1006). The Act as originally enacted (Narodne novine 85/2020,
@@ -197,12 +197,12 @@ methodology_notes:
       the fields of activity behind the policy-area tags — those of the interior, defence, finance,
       science, culture, regional development, agriculture, spatial planning and health ministries and
       of the central state office for Croats abroad — and that is disclosed in the note on that
-      source together with what a future curator would quote to remove the dependency. No count
-      depends on it.
+      source together with what anyone re-checking the sources would need to quote to remove
+      the dependency. No count depends on it.
     es: >-
       Qué se apoya en el boletín oficial y qué en un consolidador comercial, dicho sin rodeos porque
       la distinción es la diferencia entre un recuento con fuentes y un recuento verosímil. Ninguna de
-      las dos cifras que publica este conjunto de datos depende de ninguna consolidación: la lista de
+      las dos cifras que publica este proyecto depende de ninguna consolidación: la lista de
       dieciocho ministerios y la de nueve organizaciones administrativas del Estado se citan
       textualmente del boletín (Narodne novine 57/2024, documento 982) y el tamaño del gabinete sale
       de la propia decisión del Sabor (Narodne novine 60/2024, documento 1006). El texto original de
@@ -212,56 +212,58 @@ methodology_notes:
       área de política —los de los ministerios de Interior, Defensa, Finanzas, Ciencia, Cultura,
       Desarrollo Regional, Agricultura, Ordenación del Territorio y Sanidad, y el de la oficina
       central para los croatas en el exterior— y así se declara en la nota de esa fuente, junto con lo
-      que un curador futuro tendría que citar para eliminar esa dependencia. Ningún recuento depende
-      de ello.
+      que quien vuelva a comprobar las fuentes tendría que citar para eliminar esa dependencia.
+      Ningún recuento depende de ello.
   - en: >-
-      Names, and what "official" means here. Every Croatian name in this file is the statutory
+      Names, and what "official" means here. Every Croatian name in this page is the statutory
       one from articles 3 and 4 of the Zakon o ustrojstvu i djelokrugu tijela državne uprave,
-      with the diacritics as the gazette prints them. No English ministry name is marked
-      official, and that is a deliberate restraint rather than an oversight. The Croatian
+      with the diacritics as the gazette prints them. No English ministry name here is
+      recorded as an official name, and that is a deliberate restraint rather than an oversight. The Croatian
       government does publish an English edition of vlada.gov.hr, and its Government Members
       page gives an official English form of every minister's title — "Minister of Croatian
       Veterans", "Minister of Economic Affairs", "Minister of Demography and Migration", and so
       on. What it does not publish anywhere is an English list of the ministries themselves, so
       the English names here are this project's renderings of the government's own ministerial
-      titles and are marked translated; head_title_en reproduces the government's English title
-      exactly, minus the words "Deputy Prime Minister and" where they appear, because the
-      deputy-premiership is not part of the department's head's office. Two artefacts of the
-      government's own English are preserved in head_title_en and not regularised: it writes
+      titles, and are marked as such; the English title recorded for each minister reproduces
+      the government's English title exactly, minus the words "Deputy Prime Minister and"
+      where they appear, because the deputy-premiership is not part of the department's
+      head's office. Two artefacts of the government's own English are preserved in those
+      titles and not regularised: it writes
       serial commas in "Spatial Planning, Construction, and State Property", "Agriculture,
       Forestry, and Fisheries", "Justice, Administration, and Digital Transformation",
       "Science, Education, and Youth" and "Labour, Pension System, Family, and Social Policy"
       but not in "the Sea, Transport and Infrastructure", and it renders "gospodarstvo" as
       "Economic Affairs" and "useljeništvo" as "Migration". Spanish names throughout are this
-      project's renderings and are marked translated. No abbreviation is recorded for any
+      project's renderings and are marked as such. No abbreviation is recorded for any
       Croatian ministry: the government does not publish official short forms in the gazette,
       and the internal-organisation decrees use ad-hoc acronyms that changed with the 2024
-      reorganisation, so inventing one would be a fabrication of exactly the kind this dataset
+      reorganisation, so inventing one would be a fabrication of exactly the kind this project
       exists to avoid.
     es: >-
-      Los nombres, y qué significa aquí «oficial». Todos los nombres croatas de este fichero son
+      Los nombres, y qué significa aquí «oficial». Todos los nombres croatas de esta ficha son
       los legales de los artículos 3 y 4 de la Zakon o ustrojstvu i djelokrugu tijela državne
       uprave, con los diacríticos tal como los imprime el boletín oficial. Ningún nombre inglés
-      de ministerio lleva la marca official, y es una contención deliberada y no un descuido. El
+      de ministerio se registra aquí como nombre oficial, y es una contención deliberada y no
+      un descuido. El
       gobierno croata sí publica una edición inglesa de vlada.gov.hr, y su página Government
       Members da una forma inglesa oficial del título de cada ministro —«Minister of Croatian
       Veterans», «Minister of Economic Affairs», «Minister of Demography and Migration», etc.—.
       Lo que no publica en ninguna parte es una lista inglesa de los ministerios mismos, así que
       los nombres ingleses de aquí son versiones de este proyecto a partir de los títulos
-      ministeriales del propio gobierno y llevan la marca translated; head_title_en reproduce
-      exactamente el título inglés del gobierno, menos las palabras «Deputy Prime Minister and»
-      donde aparecen, porque la vicepresidencia no forma parte del cargo del titular del
-      departamento. Se conservan sin regularizar dos peculiaridades del inglés del propio
-      gobierno: escribe coma serial en «Spatial Planning, Construction, and State Property»,
+      ministeriales del propio gobierno, y así se indican; el título inglés registrado para
+      cada ministro reproduce exactamente el título inglés del gobierno, menos las palabras
+      «Deputy Prime Minister and» donde aparecen, porque la vicepresidencia no forma parte del
+      cargo del titular del departamento. Se conservan en esos títulos, sin regularizar, dos
+      peculiaridades del inglés del propio gobierno: escribe coma serial en «Spatial Planning, Construction, and State Property»,
       «Agriculture, Forestry, and Fisheries», «Justice, Administration, and Digital
       Transformation», «Science, Education, and Youth» y «Labour, Pension System, Family, and
       Social Policy» pero no en «the Sea, Transport and Infrastructure», y traduce
       «gospodarstvo» por «Economic Affairs» y «useljeništvo» por «Migration». Todos los nombres
-      en español son traducciones de este proyecto y llevan la marca translated. No se registra
+      en español son traducciones de este proyecto y así se indican. No se registra
       abreviatura para ningún ministerio croata: el gobierno no publica formas cortas oficiales
       en el boletín, y los decretos de organización interna usan siglas ad hoc que cambiaron con
       la reorganización de 2024, de modo que inventar una sería exactamente la clase de
-      fabricación que este conjunto de datos existe para evitar.
+      fabricación que este proyecto existe para evitar.
   - en: >-
       One discrepancy between two versions of the same statutory list, disclosed rather than
       quietly resolved. The consolidated text published by zakon.hr prints the eighth item of
@@ -270,7 +272,7 @@ methodology_notes:
       prints "8. Ministarstvo znanosti, obrazovanja i mladih", and so does article 11 of the
       same consolidated text, which opens "Ministarstvo znanosti, obrazovanja i mladih obavlja
       upravne i druge poslove...", and so does the Sabor's confidence decision, which appoints
-      a "ministar znanosti, obrazovanja i mladih". Following the higher-tier source, this file
+      a "ministar znanosti, obrazovanja i mladih". Following the higher-tier source, this page
       uses the gazette's form and treats the zakon.hr reading as a transcription slip in the
       consolidator. Both quotations are reproduced in the sources below exactly as each source
       spells them, so a reader can see the disagreement instead of taking our word for it.
@@ -283,7 +285,7 @@ methodology_notes:
       el artículo 11 de ese mismo texto consolidado, que empieza «Ministarstvo znanosti,
       obrazovanja i mladih obavlja upravne i druge poslove...», y lo mismo la decisión de
       confianza del Sabor, que nombra a un «ministar znanosti, obrazovanja i mladih». Siguiendo
-      la fuente de nivel superior, este fichero usa la forma del boletín y trata la lectura de
+      la fuente de nivel superior, esta ficha usa la forma del boletín y trata la lectura de
       zakon.hr como un error de transcripción del consolidador. Ambas citas se reproducen en las
       fuentes de más abajo exactamente como las escribe cada fuente, para que el lector vea la
       discrepancia en lugar de fiarse de nuestra palabra.
@@ -335,23 +337,23 @@ methodology_notes:
       from domestic violence and the social-care system, while the new Ministry of Demography and
       Migration was given natality measures, support for parenthood, the reconciliation of work
       and family life, child allowance and maternity and parental benefits. Both therefore carry
-      the family tag. Equality has no tag on any Croatian
+      the family area. Equality has no tag on any Croatian
       ministry because it has no ministry: gender equality sits in the Ured za ravnopravnost
       spolova, one of the six expert offices article 27 of the Zakon o Vladi requires the
       Government to establish, and human and minority rights in the Ured za ljudska prava i prava
       nacionalnih manjina, with a residual competence for minority rights in the justice
-      ministry. Those offices are outside this file's perimeter, which is the two statutory lists
+      ministry. Those offices are outside this page's perimeter, which is the two statutory lists
       of state administration bodies plus the bodies the Zakon o Vladi constitutes inside the
       Government itself.
     es: >-
       Tres áreas de política se etiquetan deliberadamente en dos ministerios cada una, y la igualdad
-      no se etiqueta en ninguno. Los tres duplicados son trade, en el Ministerio de Asuntos
+      no se etiqueta en ninguno. Los tres duplicados son el comercio, en el Ministerio de Asuntos
       Exteriores y Europeos por la política comercial y la política comercial común de la Unión
       Europea y en el Ministerio de Economía por el mercado interior y el comercio interno;
-      infrastructure, en el Ministerio del Mar, Transporte e Infraestructuras por la infraestructura
-      de transporte y en el Ministerio de Ordenación del Territorio, Construcción y Patrimonio del
-      Estado como autoridad estatal de construcción y obra pública; y family, por la razón que se
-      expone a continuación. En los tres casos los dos departamentos tienen mitades distintas de una
+      las infraestructuras, en el Ministerio del Mar, Transporte e Infraestructuras por la
+      infraestructura de transporte y en el Ministerio de Ordenación del Territorio, Construcción
+      y Patrimonio del Estado como autoridad estatal de construcción y obra pública; y la familia,
+      por la razón que se expone a continuación. En los tres casos los dos departamentos tienen mitades distintas de una
       competencia realmente repartida al amparo de artículos distintos de la ley enumeradora, de modo
       que una vista comparativa que informe de dos ministerios croatas en esas áreas está describiendo
       bien la estructura y no contando dos veces. Croacia repartió la política familiar y demográfica
@@ -361,42 +363,15 @@ methodology_notes:
       violencia doméstica y el sistema de servicios sociales, mientras que al nuevo Ministerio de
       Demografía e Inmigración se le atribuyeron las medidas de natalidad, el apoyo a la
       parentalidad, la conciliación de la vida laboral y familiar, la prestación por hijo y las
-      prestaciones de maternidad y parentalidad. Ambos llevan por tanto la etiqueta family. La
+      prestaciones de maternidad y parentalidad. Ambos llevan por tanto el área de familia. La
       igualdad no se etiqueta en ningún ministerio
       croata porque no tiene ministerio: la igualdad de género reside en la Ured za ravnopravnost
       spolova, una de las seis oficinas especializadas que el artículo 27 de la Zakon o Vladi
       obliga al Gobierno a crear, y los derechos humanos y de las minorías en la Ured za ljudska
       prava i prava nacionalnih manjina, con una competencia residual sobre derechos de las
-      minorías en el ministerio de justicia. Esas oficinas quedan fuera del perímetro de este
-      fichero, que es el de las dos listas legales de órganos de la administración del Estado más
+      minorías en el ministerio de justicia. Esas oficinas quedan fuera del perímetro de esta
+      ficha, que es el de las dos listas legales de órganos de la administración del Estado más
       los órganos que la Zakon o Vladi constituye dentro del Gobierno mismo.
-  - en: >-
-      What a future curator should re-check, in order of likelihood. First, whether article 3 has
-      been amended: Croatia amends this Act often — 85/2020, 21/2023, 57/2024 in four years — and
-      a single amending act can change the count overnight. As at 28 July 2026 the consolidated
-      text still reflected only those three publications, and the consolidator's database was
-      current to Narodne novine 53/2026, so no fourth amendment existed. Second, whether the
-      Government is still the same one: the next regular parliamentary election is due in 2028,
-      but article 6 of the Zakon o Vladi makes the whole Government resign with its Prime
-      Minister, so a resignation would end this cabinet and require a new file. Third, the
-      ministry web addresses, which were reassigned wholesale after the 2024 split of the
-      economy and environment portfolios and are the least durable field here. Fourth, the
-      English names, which would become official rather than translated the day vlada.gov.hr
-      publishes an English index of ministries rather than only of ministers.
-    es: >-
-      Qué debería volver a comprobar un curador futuro, por orden de probabilidad. Primero, si el
-      artículo 3 ha sido modificado: Croacia modifica esta ley con frecuencia —85/2020, 21/2023,
-      57/2024 en cuatro años— y una sola ley de modificación puede cambiar el recuento de un día
-      para otro. A 28 de julio de 2026 el texto consolidado seguía reflejando sólo esas tres
-      publicaciones, y la base del consolidador estaba actualizada hasta Narodne novine 53/2026,
-      así que no existía una cuarta modificación. Segundo, si el Gobierno sigue siendo el mismo:
-      las próximas elecciones parlamentarias ordinarias corresponden a 2028, pero el artículo 6
-      de la Zakon o Vladi hace que todo el Gobierno dimita con su presidente, de modo que una
-      renuncia pondría fin a este gabinete y exigiría un fichero nuevo. Tercero, las direcciones
-      web de los ministerios, reasignadas en bloque tras la escisión de 2024 de las carteras de
-      economía y medio ambiente, y el campo menos duradero de este fichero. Cuarto, los nombres
-      ingleses, que pasarían de translated a official el día en que vlada.gov.hr publique un
-      índice inglés de ministerios y no sólo de ministros.
 
 sources:
   - id: nn-57-2024-982

@@ -50,7 +50,7 @@ methodology_notes:
       recorded here in that annex's own order. The nineteen posts are those sixteen plus the
       Prime Minister, who heads no department, plus the two serving deputy prime ministers who
       hold no portfolio. The thirteen is the number of distinct individuals, and it is the
-      figure this file publishes as `cabinet_seats_count`, because that is what METHODOLOGY.md
+      cabinet-seats figure published here, because that is what this project's methodology
       defines the seat count to be: distinct people holding a seat in the cabinet. Publishing
       19 would have made Romania's seat figure mean posts while every other country's means
       people, and a cross-country chart would then have mixed the two silently. The gap between
@@ -60,11 +60,11 @@ methodology_notes:
       other departments. Article 46(2) and (3) of the Codul administrativ is what makes those
       posts vacant rather than doubly held: an interim is one member of the Government taking on
       another's duties for at most 45 days, expressly pending the appointment of a new member.
-      Each of the six therefore carries `head_count: 0`, which is how the vacancy is encoded,
-      and none carries `shared_head_with`, which would have asserted a merger that does not
-      exist. Read the two published figures differently: the 16 is structural and has not moved
+      Each of the six is therefore recorded with a seat but no holder of its own, which is how
+      the vacancy is encoded, and none is recorded as a portfolio with a shared head, which
+      would have asserted a merger that does not exist. Read the two published figures differently: the 16 is structural and has not moved
       since this cabinet was invested, while the 13 is volatile and will change with the next
-      appointment or investiture. This file never adds them.
+      appointment or investiture. This page never adds them.
     es: >-
       Tres cifras, y importa cuál se publica. 16 ministerios. 19 puestos de miembro del
       Gobierno. 13 personas realmente en el Gobierno el 28 de julio de 2026. Los dieciséis son
@@ -72,9 +72,9 @@ methodology_notes:
       25/2025, recogidas aquí en el orden de ese propio anexo. Los diecinueve puestos son esos
       dieciséis más el primer ministro, que no encabeza ningún departamento, más los dos
       viceprimeros ministros en ejercicio que no tienen cartera. Los trece son las personas
-      distintas, y es la cifra que este fichero publica como `cabinet_seats_count`, porque es lo
-      que METHODOLOGY.md define como recuento de asientos: personas distintas con asiento en el
-      gabinete. Publicar 19 habría hecho que la cifra de asientos de Rumanía significara puestos
+      distintas, y es la cifra de asientos en el gabinete que aquí se publica, porque es lo
+      que la metodología de este proyecto define como recuento de asientos: personas distintas
+      con asiento en el gabinete. Publicar 19 habría hecho que la cifra de asientos de Rumanía significara puestos
       mientras que la de todos los demás países significa personas, y un gráfico comparativo
       habría mezclado ambas cosas en silencio. La diferencia entre 19 y 13 son seis vacantes:
       los ministros del PSD dimitieron en abril de 2026 tras la retirada de su partido de la
@@ -83,12 +83,12 @@ methodology_notes:
       departamentos. El artículo 46(2) y (3) del Codul administrativ es lo que hace que esos
       cargos estén vacantes y no doblemente ocupados: una interinidad es un miembro del Gobierno
       que asume las atribuciones de otro durante un máximo de 45 días, expresamente hasta el
-      nombramiento de un nuevo miembro. Cada una de las seis lleva por tanto `head_count: 0`,
-      que es como se codifica la vacante, y ninguna lleva `shared_head_with`, que habría
-      afirmado una fusión que no existe. Las dos cifras publicadas se leen de modo distinto: el
+      nombramiento de un nuevo miembro. Cada una de las seis se registra por tanto con asiento
+      pero sin titular propio, que es como se codifica la vacante, y ninguna se registra como
+      cartera con titular compartido, lo que habría afirmado una fusión que no existe. Las dos cifras publicadas se leen de modo distinto: el
       16 es estructural y no se ha movido desde la investidura de este gabinete, mientras que el
-      13 es volátil y cambiará con el próximo nombramiento o la próxima investidura. Este
-      fichero nunca las suma.
+      13 es volátil y cambiará con el próximo nombramiento o la próxima investidura. Esta
+      ficha nunca las suma.
 
   - en: >-
       Which cabinet is sitting, and why the question had to be asked. On the access date
@@ -103,14 +103,14 @@ methodology_notes:
       public affairs, without promoting new policies, and may issue no ordinance and
       initiate no bill. No new Government has been invested: the most recent attempt, the
       cabinet proposed by the designated prime minister Adrian Veștea, was rejected by
-      Parliament on 22 June 2026 by 189 votes to 23, short of the 233 that article 103(3) of
-      the Constitution requires, and at the access date the Government's own register of
-      cabinet members still listed the Bolojan cabinet. This
-      dataset therefore records the Bolojan Government as the sitting cabinet, with
-      `took_office` 2025-06-23 — the date it was invested and sworn in — and `left_office`
-      null. The alternative readings are rejected: 5 May 2026 is not a `left_office`,
-      because a Romanian government whose mandate has ended remains in office and this
-      cabinet has no successor to hand over to; and the caretaker period is not a separate
+      Parliament on 22 June 2026 with 189 votes in favour and 23 against, short of the 233
+      that article 103(3) of the Constitution requires, and at the access date the
+      Government's own register of cabinet members still listed the Bolojan cabinet. This
+      project therefore records the Bolojan Government as the sitting cabinet, taking office
+      on 23 June 2025 — the date it was invested and sworn in — and with no end date
+      recorded. The alternative readings are rejected: 5 May 2026 is not recorded as the date
+      it left office, because a Romanian government whose mandate has ended remains in
+      office and this cabinet has no successor to hand over to; and the caretaker period is not a separate
       cabinet, because no new investiture, no presidential appointment decree and no new
       oath took place — it is the same Government under a reduced mandate.
     es: >-
@@ -125,15 +125,16 @@ methodology_notes:
       el Gobierno sigue emitiendo únicamente los actos individuales o normativos necesarios
       para la administración de los asuntos públicos, sin promover políticas nuevas, y no
       puede emitir ordenanzas ni iniciar proyectos de ley. No se ha investido ningún Gobierno
-      nuevo. El presidente Nicușor Dan designó a Eugen Tomac, que se retiró el 14 de junio de
-      2026, y después a Adrian Veștea, cuyo gabinete fue rechazado por el Parlamento el 22 de
-      junio de 2026 con 189 votos a favor frente a los 233 exigidos; en la fecha de consulta
-      no se había hecho ninguna designación posterior. Este conjunto de datos registra por
-      tanto el Gobierno Bolojan como el gabinete vigente, con `took_office` 2025-06-23 —la
-      fecha en que fue investido y juró— y `left_office` nulo. Se descartan las lecturas
-      alternativas: el 5 de mayo de 2026 no es un `left_office`, porque un gobierno rumano
-      cuyo mandato ha terminado sigue en funciones y este gabinete no tiene sucesor al que
-      entregar los poderes; y el periodo en funciones no es un gabinete distinto, porque no
+      nuevo: el intento más reciente, el gabinete propuesto por el primer ministro designado
+      Adrian Veștea, fue rechazado por el Parlamento el 22 de junio de 2026 con 189 votos a
+      favor y 23 en contra, por debajo de los 233 que exige el artículo 103(3) de la
+      Constitución, y en la fecha de consulta el propio registro de miembros del gabinete del
+      Gobierno seguía recogiendo el gabinete Bolojan. Este proyecto registra por tanto el
+      Gobierno Bolojan como el gabinete vigente, con toma de posesión el 23 de junio de 2025
+      —la fecha en que fue investido y juró— y sin fecha de cese. Se descartan las lecturas
+      alternativas: el 5 de mayo de 2026 no se registra como fecha de cese, porque un
+      gobierno rumano cuyo mandato ha terminado sigue en funciones y este gabinete no tiene
+      sucesor al que entregar los poderes; y el periodo en funciones no es un gabinete distinto, porque no
       hubo nueva investidura, ni decreto presidencial de nombramiento, ni nuevo juramento: es
       el mismo Gobierno con un mandato reducido.
 
@@ -148,12 +149,12 @@ methodology_notes:
       Parlamentului nr. 25/2025, which lists the twenty members of the Government with their
       functions, quoted here in full: sixteen of the twenty positions are ministerial
       portfolios. That annex names *ministers* ("ministrul afacerilor interne"), not
-      ministries, so the `name_original` field of each entity carries the ministry's own
+      ministries, so each entity is recorded here under the ministry's own
       name, and those names come from two further sources — the reorganisation ordinance OUG
       nr. 153/2024, which is the instrument that gave four of them their current names, and
       the Government's own register of ministries on gov.ro, which publishes all sixteen.
       The three lists are the same sixteen bodies, and a reader can check that against the
-      quotations in this file without opening any of the documents.
+      quotations in this page without opening any of the documents.
     es: >-
       De dónde sale la lista de ministerios y por qué hacen falta tres documentos. Rumanía no
       tiene un equivalente del Real Decreto 829/2023 español: ningún instrumento jurídico en
@@ -165,71 +166,73 @@ methodology_notes:
       Hotărârea Parlamentului nr. 25/2025, que enumera los veinte miembros del Gobierno con
       sus funciones y que aquí se cita íntegro: dieciséis de las veinte posiciones son carteras
       ministeriales. Ese anexo nombra *ministros* («ministrul afacerilor interne»), no
-      ministerios, así que el campo `name_original` de cada entidad lleva el nombre propio del
+      ministerios, así que cada entidad se registra aquí con el nombre propio del
       ministerio, y esos nombres provienen de dos fuentes adicionales: la ordenanza de
       reorganización OUG nr. 153/2024, que es el instrumento que dio a cuatro de ellos su
       nombre actual, y el registro de ministerios que el propio Gobierno publica en gov.ro,
       que recoge los dieciséis. Las tres listas son los mismos dieciséis órganos, y el lector
-      puede comprobarlo con las citas de este fichero sin abrir ninguno de los documentos.
+      puede comprobarlo con las citas de esta ficha sin abrir ninguno de los documentos.
 
   - en: >-
-      How the six vacancies are encoded, and why not with `shared_head_with`. On the access date
+      How the six vacancies are encoded, and why not as shared portfolios. On the access date
       the Government's own register showed the Prime Minister as interim minister of energy, the
       deputy prime minister Tánczos Barna as interim minister of agriculture, the minister of
       internal affairs as interim minister of justice, the minister of national defence as
       interim minister of transport, the minister of investments and European projects as
       interim minister of labour, and the minister of development as interim minister of health.
-      Six portfolios, no minister of their own. Each of those six entities carries
-      `has_cabinet_seat: true` and `head_count: 0`: the seat exists and is filled at the table
+      Six portfolios, no minister of their own. Each of those six entities is recorded with
+      a cabinet seat and no holder of its own: the seat exists and is filled at the table
       by the interim minister, but nobody of the department's own holds it, so it contributes no
       person to the count. That is the whole mechanism, and it yields 13. What is deliberately
-      not used is `shared_head_with`. It would produce the same 13, but it would do so by
-      asserting that internal affairs and justice, or defence and transport, share a head as a
-      standing arrangement — and they do not. Article 46(2) and (3) of the Codul administrativ
+      not done is to record them as portfolios with a shared head. That would produce the same
+      13, but it would do so by asserting that internal affairs and justice, or defence and
+      transport, share a head as a standing arrangement — and they do not. Article 46(2) and (3) of the Codul administrativ
       makes an interim a temporary discharge of another member's duties, capped at 45 days and
-      expressly pending the appointment of a new member: the post is vacant, not held twice. A
-      vacancy is what `head_count: 0` says; a merger is what `shared_head_with` would have said.
+      expressly pending the appointment of a new member: the post is vacant, not held twice. What
+      is recorded here is a vacancy; a shared head would have recorded a merger.
       Two further things a reader should carry away. The 45-day cap has long since been
       exceeded, because article 47 requires a presidential appointment on the Prime Minister's
       proposal to end an interim and article 37(3) leaves a dismissed Government no power to
       make one — the vacancies are a symptom of the deadlock, not of neglect. And none of this
-      touches `ministries_count`: all sixteen ministries exist, each is headed by a person of
-      ministerial rank, and each is counted.
+      touches the ministries figure: all sixteen ministries exist, each is headed by a person
+      of ministerial rank, and each is counted.
     es: >-
-      Cómo se codifican las seis vacantes y por qué no con `shared_head_with`. En la fecha de
+      Cómo se codifican las seis vacantes y por qué no como carteras compartidas. En la fecha de
       consulta el propio registro del Gobierno mostraba al primer ministro como ministro interino
       de Energía, al viceprimer ministro Tánczos Barna como ministro interino de Agricultura, al
       ministro del Interior como ministro interino de Justicia, al ministro de Defensa Nacional
       como ministro interino de Transportes, al ministro de Inversiones y Proyectos Europeos como
       ministro interino de Trabajo y al ministro de Desarrollo como ministro interino de Sanidad.
-      Seis carteras sin ministro propio. Cada una de esas seis entidades lleva
-      `has_cabinet_seat: true` y `head_count: 0`: el asiento existe y lo ocupa en la mesa el
+      Seis carteras sin ministro propio. Cada una de esas seis entidades se registra con
+      asiento en el gabinete y sin titular propio: el asiento existe y lo ocupa en la mesa el
       ministro interino, pero nadie propio del departamento lo tiene, así que no aporta ninguna
-      persona al recuento. Ése es todo el mecanismo, y da 13. Lo que deliberadamente no se usa es
-      `shared_head_with`. Produciría el mismo 13, pero lo haría afirmando que Interior y Justicia,
-      o Defensa y Transportes, comparten titular como arreglo estable, y no es así. El artículo
+      persona al recuento. Ése es todo el mecanismo, y da 13. Lo que deliberadamente no se hace
+      es registrarlas como carteras con titular compartido. Eso produciría el mismo 13, pero lo
+      haría afirmando que Interior y Justicia, o Defensa y Transportes, comparten titular
+      como arreglo estable, y no es así. El artículo
       46(2) y (3) del Codul administrativ configura la interinidad como el desempeño temporal de
       las atribuciones de otro miembro, limitado a 45 días y expresamente hasta el nombramiento de
-      un nuevo miembro: el cargo está vacante, no doblemente ocupado. Una vacante es lo que dice
-      `head_count: 0`; una fusión es lo que habría dicho `shared_head_with`. Dos cosas más que el
+      un nuevo miembro: el cargo está vacante, no doblemente ocupado. Lo que aquí se registra
+      es una vacante; un titular compartido habría registrado una fusión. Dos cosas más que el
       lector debe llevarse. El límite de 45 días se ha superado con mucho, porque el artículo 47
       exige un nombramiento presidencial a propuesta del primer ministro para poner fin a una
       interinidad y el artículo 37(3) no deja a un Gobierno destituido poder para hacerlo: las
       vacantes son un síntoma del bloqueo y no de una negligencia. Y nada de esto afecta a
-      `ministries_count`: los dieciséis ministerios existen, cada uno está encabezado por una
-      persona con rango ministerial y cada uno se cuenta.
+      la cifra de ministerios: los dieciséis ministerios existen, cada uno está encabezado por
+      una persona con rango ministerial y cada uno se cuenta.
 
   - en: >-
       Five deputy prime ministers, two ministries, three seats without a portfolio. Anexa nr.
       1 to Hotărârea Parlamentului nr. 25/2025 gives the title of viceprim-ministru to five
       of the twenty members: positions 2, 3 and 4 hold it alone, while positions 5 and 6 hold
       it together with the internal affairs and national defence portfolios. Positions 5 and
-      6 are counted once each, through their ministry, exactly as the data contract
-      prescribes: the deputy-premiership adds nothing to either figure. Positions 2, 3 and 4
-      are recorded as separate entities with `deputy_head_without_portfolio`, because each
-      carries a seat in the Government under article 18 of the Codul administrativ and heads
-      no department. Their ids and their `order` follow the annex's numbering rather than
-      naming a holder, because the seat and not the person is what this dataset records. Two
+      6 are counted once each, through their ministry, exactly as this project's rules
+      prescribe: the deputy-premiership adds nothing to either figure. Positions 2, 3 and 4
+      are recorded as separate entities, excluded as deputy-head posts without portfolio,
+      because each carries a seat in the Government under article 18 of the Codul
+      administrativ and heads no department. Their identifiers, and the order they are listed
+      in here, follow the annex's numbering rather than naming a holder, because the seat
+      and not the person is what this project records. Two
       of the three were still in place at the access date; the third was vacated in April
       2026 and, because a dismissed Government cannot fill a vacancy, was not refilled.
       Romania publishes no count of its own that these figures can be checked against: the
@@ -240,13 +243,13 @@ methodology_notes:
       de los veinte miembros: las posiciones 2, 3 y 4 lo ostentan en solitario, mientras que
       las posiciones 5 y 6 lo ostentan junto con las carteras de Interior y de Defensa
       Nacional. Las posiciones 5 y 6 se cuentan una sola vez cada una, a través de su
-      ministerio, exactamente como prescribe el contrato de datos: la vicepresidencia no añade
-      nada a ninguna de las dos cifras. Las posiciones 2, 3 y 4 se registran como entidades
-      separadas con `deputy_head_without_portfolio`, porque cada una lleva asiento en el
-      Gobierno conforme al artículo 18 del Codul administrativ y no encabeza ningún
-      departamento. Sus identificadores y su `order` siguen la numeración del anexo en lugar de
-      nombrar a un titular, porque lo que este conjunto de datos registra es el asiento y no la
-      persona. Dos de los tres seguían en pie en la fecha de consulta; el tercero quedó vacante
+      ministerio, exactamente como prescriben las reglas de este proyecto: la vicepresidencia
+      no añade nada a ninguna de las dos cifras. Las posiciones 2, 3 y 4 se registran como
+      entidades separadas, excluidas como vicepresidencias sin cartera, porque cada una lleva
+      asiento en el Gobierno conforme al artículo 18 del Codul administrativ y no encabeza
+      ningún departamento. Sus identificadores, y el orden en que se listan aquí, siguen la
+      numeración del anexo en lugar de nombrar a un titular, porque lo que este proyecto
+      registra es el asiento y no la persona. Dos de los tres seguían en pie en la fecha de consulta; el tercero quedó vacante
       en abril de 2026 y, como un Gobierno destituido no puede cubrir una vacante, no se
       volvió a ocupar. Rumanía no publica ninguna cifra propia con la que contrastar estos
       números: el registro del Gobierno enumera miembros sin totalizarlos.
@@ -302,15 +305,16 @@ methodology_notes:
       parliamentary republic — this is a semi-presidential system in which the President
       designates the prime minister and appoints the Government by decree — but the
       Presidential Administration is not a department of the Government and is not recorded.
-      The English names of the sixteen ministries are `official`, which is unusual in this
-      dataset: the Government publishes an English edition of its register of ministries, and
-      those names are reproduced verbatim from it rather than translated here — which is why
-      three of them read "Digitalization", "Waters" and "Ministry for Development" instead of
-      the forms an English editor would choose. That English page is stale in one respect,
-      listing a ministry abolished in December 2024, so it is used for nomenclature only and
-      never for membership of the list. Every `name_es` is `translated`, as is the `name_en` of
-      each of the six entities that are not ministries: the Government publishes no Spanish
-      edition, and its English edition names no body other than a ministry.
+      The English names of the sixteen ministries are the Government's own, which few
+      governments make possible: the Government publishes an English edition of its register
+      of ministries, and those names are reproduced verbatim from it rather than translated
+      here — which is why three of them read "Digitalization", "Waters" and "Ministry for
+      Development" instead of the forms an English editor would choose. That English page is
+      stale in one respect, listing a ministry abolished in December 2024, so it is used for
+      nomenclature only and never for membership of the list. Every Spanish name is this
+      project's translation and is marked as such, as is the English name of each of the six
+      entities that are not ministries: the Government publishes no Spanish edition, and its
+      English edition names no body other than a ministry.
     es: >-
       El perímetro y los nombres en inglés y español. Fuera de alcance, y por tanto no
       registrados ni como exclusiones: los secretari de stat y subsecretari de stat de cada
@@ -326,11 +330,17 @@ methodology_notes:
       ejecutivo. La jefatura del Estado importa más en Rumanía que en una república
       parlamentaria —es un sistema semipresidencial en el que el presidente designa al primer
       ministro y nombra al Gobierno por decreto— pero la Administración Presidencial no es un
-      departamento del Gobierno y no se registra. Todos los valores `name_en` y `name_es` de
-      este fichero son `translated`: son traducciones de este proyecto, no del Gobierno.
-      gov.ro publica una edición en inglés, pero sus nombres de ministerio no se verificaron
-      contra el registro rumano para este fichero, así que ningún nombre se marca como
-      `official`; un futuro curador que los verifique podrá elevar `name_en`.
+      departamento del Gobierno y no se registra. Los nombres ingleses de los dieciséis
+      ministerios son los del propio Gobierno, algo que pocos gobiernos hacen posible: el
+      Gobierno publica una edición inglesa de su registro de ministerios, y esos nombres se
+      reproducen de ella al pie de la letra en lugar de traducirse aquí —y de ahí que tres de
+      ellos digan «Digitalization», «Waters» y «Ministry for Development» en vez de las formas
+      que elegiría un editor de inglés—. Esa página inglesa está desactualizada en un aspecto,
+      pues recoge un ministerio suprimido en diciembre de 2024, así que se usa sólo para la
+      nomenclatura y nunca para determinar la composición de la lista. Todos los nombres en
+      español son traducciones de este proyecto y así se indican, igual que el nombre inglés
+      de cada una de las seis entidades que no son ministerios: el Gobierno no publica edición
+      en español, y su edición inglesa no nombra ningún órgano que no sea un ministerio.
 
 sources:
   - id: mo-hp-25-2025

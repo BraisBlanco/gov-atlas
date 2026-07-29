@@ -64,41 +64,37 @@ methodology_notes:
       ministers. The Prime Minister holds a seat without heading a ministry, and four
       ministers hold a seat without heading one either, which is where the five-seat
       gap comes from. Neither number is wrong; they answer different questions, and
-      this dataset never adds them.
+      this site never adds them.
     es: >-
       Portugal tiene 12 ministerios pero 17 asientos en el gabinete. El artículo 4(1)
       del Decreto-Lei n.º 87-A/2025 compone el Conselho de Ministros con el
       primer ministro y los dieciséis ministros. El primer ministro ocupa asiento sin
       encabezar ministerio, y cuatro ministros también ocupan asiento sin encabezarlo:
       de ahí la diferencia de cinco. Ninguna cifra es incorrecta; responden a preguntas
-      distintas, y este conjunto de datos nunca las suma.
+      distintas, y este sitio nunca las suma.
   - en: >-
-      The four ministers who head no ministry carry the exclusion reason
-      "minister_without_portfolio", and the label is imprecise. Three of them hold
+      The four ministers who head no ministry are recorded as ministers without
+      portfolio, and the label is imprecise. Three of them hold
       substantial policy responsibilities — migration, media and government
       coordination (Presidência); public-administration reform and digitalisation
       (Adjunto e Reforma do Estado); infrastructure, transport, housing and urban
       regeneration (Infraestruturas e Habitação) — and only Assuntos Parlamentares is a
-      genuinely portfolio-free liaison office (Article 17 is a single sentence). The id
-      was chosen because its definition in data/taxonomy/exclusion-reasons.yml is
-      exactly the test applied here — "holds ministerial rank and a cabinet seat but no
-      administrative department" — and because it has the correct counting behaviour.
-      What the project's vocabulary lacks is an id for a minister with a real portfolio
-      exercised inside another department.
+      genuinely portfolio-free liaison office (Article 17 is a single sentence). The
+      label was chosen because this project defines it by exactly the test applied
+      here — "holds ministerial rank and a cabinet seat but no administrative
+      department" — and because it has the correct counting behaviour.
     es: >-
-      Los cuatro ministros que no encabezan ministerio llevan el motivo de exclusión
-      «minister_without_portfolio», y la etiqueta es imprecisa. Tres de ellos tienen
+      Los cuatro ministros que no encabezan ministerio se registran como ministros sin
+      cartera, y la etiqueta es imprecisa. Tres de ellos tienen
       responsabilidades sustantivas —migraciones, comunicación social y coordinación
       gubernamental (Presidencia); reforma de la Administración Pública y
       digitalización (Adjunto y Reforma del Estado); infraestructuras, transportes,
       vivienda y rehabilitación urbana (Infraestructuras y Vivienda)— y solo Asuntos
       Parlamentarios es una verdadera oficina de enlace sin cartera (el artículo 17 es
-      una sola frase). Se eligió ese id porque su definición en
-      data/taxonomy/exclusion-reasons.yml es exactamente la prueba aplicada aquí
+      una sola frase). Se eligió esa etiqueta porque este proyecto la define
+      exactamente con la prueba aplicada aquí
       —«tiene rango ministerial y asiento en el gabinete pero ningún departamento
-      administrativo»— y porque su efecto sobre los recuentos es el correcto. Lo que
-      falta en el vocabulario del proyecto es un id para un ministro con cartera real
-      ejercida dentro de otro departamento.
+      administrativo»— y porque su efecto sobre los recuentos es el correcto.
   - en: >-
       The Presidência do Conselho de Ministros is recorded but not counted. Article
       13(1) calls it "o departamento central do Governo", not a ministério; its mission
@@ -106,8 +102,7 @@ methodology_notes:
       Government inside it, and Article 13(5) sweeps into it every service "não
       expressamente integrados em outros ministérios". Under this project's default the
       office of the head of government is excluded as the apex of the cabinet rather
-      than a portfolio department. A curator who counted it would publish 13 rather
-      than 12.
+      than a portfolio department. Counting it would give 13 rather than 12.
     es: >-
       La Presidência do Conselho de Ministros se registra pero no se cuenta. El
       artículo 13(1) la llama «o departamento central do Governo», no un ministério; su
@@ -115,7 +110,7 @@ methodology_notes:
       Gobierno integrados en ella, y el artículo 13(5) le atribuye todo servicio «não
       expressamente integrados em outros ministérios». Por defecto, este proyecto
       excluye la oficina del jefe de gobierno por ser la cúspide del gabinete y no un
-      departamento con cartera. Un curador que la contara publicaría 13 en lugar de 12.
+      departamento con cartera. Contarla daría 13 en lugar de 12.
   - en: >-
       Secretários de Estado are not recorded individually. Article 3 of the decree
       attaches 43 of them to the sixteen ministers; Article 10 gives them no competence
@@ -138,50 +133,51 @@ methodology_notes:
       Portugal is recorded as a semi-presidential republic. The President is elected by
       direct universal suffrage and holds real powers — appointing the Prime Minister,
       dissolving the Assembleia da República, vetoing legislation, referring laws to
-      the Constitutional Court — and the ministers in this file were appointed by
-      presidential decree (Decreto do Presidente da República n.º 47-C/2025). A
-      defensible curator could record "parliamentary_republic" instead, because since
-      the 1982 constitutional revision the President cannot dismiss the Government at
-      will and the executive is answerable to parliament alone; comparative datasets
-      split on this. The value here is fixed for cross-country consistency.
+      the Constitutional Court — and the ministers recorded here were appointed by
+      presidential decree (Decreto do Presidente da República n.º 47-C/2025). The
+      classification could defensibly be "parliamentary republic" instead, because
+      since the 1982 constitutional revision the President cannot dismiss the
+      Government at will and the executive is answerable to parliament alone;
+      comparative datasets split on this. The published value follows this project's
+      cross-country convention.
     es: >-
       Portugal se registra como república semipresidencial. El presidente se elige por
       sufragio universal directo y tiene poderes reales —nombrar al primer ministro,
       disolver la Assembleia da República, vetar leyes, someterlas al Tribunal
-      Constitucional— y los ministros de este fichero fueron nombrados por decreto
-      presidencial (Decreto do Presidente da República n.º 47-C/2025). Un curador
-      razonable podría registrar «parliamentary_republic», porque desde la revisión
-      constitucional de 1982 el presidente no puede destituir al Gobierno a voluntad y
-      el ejecutivo responde solo ante el parlamento; los conjuntos de datos
-      comparativos discrepan. El valor se fija aquí por coherencia entre países.
+      Constitucional— y los ministros aquí registrados fueron nombrados por decreto
+      presidencial (Decreto do Presidente da República n.º 47-C/2025). La
+      clasificación podría ser, con razones, «república parlamentaria», porque desde
+      la revisión constitucional de 1982 el presidente no puede destituir al Gobierno
+      a voluntad y el ejecutivo responde solo ante el parlamento; los conjuntos de
+      datos comparativos discrepan. El valor publicado sigue la convención entre
+      países de este proyecto.
   - en: >-
-      All English and Spanish names in this file are the project's own. The Government's
+      All English and Spanish names on this page are the project's own. The Government's
       English-language portal does publish short area labels under a heading
       "Ministries" — "Foreign Affairs", "Home Affairs", "Agriculture and Maritime
       Affairs" — and those wordings are followed here, but the full "Ministry of X"
-      form is ours, so every name_en_provenance and name_es_provenance is "translated".
+      form is ours, so every name is marked as a translation.
     es: >-
-      Todos los nombres en inglés y español de este fichero son propios del proyecto. El
+      Todos los nombres en inglés y español de esta ficha son propios del proyecto. El
       portal en inglés del Gobierno publica etiquetas breves de área bajo el
       encabezado «Ministries» —«Foreign Affairs», «Home Affairs», «Agriculture and
       Maritime Affairs»— y aquí se sigue esa terminología, pero la forma completa
-      «Ministry of X» es nuestra, de modo que todos los campos name_en_provenance y
-      name_es_provenance son «translated».
+      «Ministry of X» es nuestra, de modo que todos los nombres se señalan como
+      traducciones.
   - en: >-
-      This file records departments, not officeholders. The nomination decree is cited
+      This page records departments, not officeholders. The nomination decree is cited
       for the set of ministerial offices actually filled on 5 June 2025, not for who
       occupies them today: the Minister of Home Affairs named in it resigned in
       February 2026 and was replaced, which changed no department. No abbreviation is
       recorded for any ministry, because Decreto-Lei n.º 87-A/2025 does not establish
-      acronyms and this dataset does not carry unsourced fields.
+      acronyms and this project does not publish unsourced data.
     es: >-
-      Este fichero registra departamentos, no titulares. El decreto de nombramiento se
+      Esta ficha registra departamentos, no titulares. El decreto de nombramiento se
       cita por el conjunto de cargos ministeriales efectivamente cubiertos el 5 de
       junio de 2025, no por quién los ocupa hoy: la ministra de Administração Interna
       que figura en él dimitió en febrero de 2026 y fue sustituida, sin que cambiara
       ningún departamento. No se registra ninguna sigla, porque el Decreto-Lei n.º
-      87-A/2025 no establece acrónimos y este conjunto de datos no admite campos sin
-      fuente.
+      87-A/2025 no establece acrónimos y este proyecto no publica datos sin fuente.
 
 sources:
   - id: dre-dl-87-a-2025

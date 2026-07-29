@@ -73,23 +73,23 @@ methodology_notes:
       a Bulgaria 19 o 20 ministerios describe la estructura anterior a mayo de 2026 o cuenta
       como departamentos las dos vicepresidencias sin cartera.
   - en: >-
-      Two deputy prime ministers hold no department and are recorded with the exclusion
-      reason deputy_head_without_portfolio. They are full members of the Council of Ministers
+      Two deputy prime ministers hold no department and are recorded as deputy-head posts
+      without portfolio. They are full members of the Council of Ministers
       under article 108(1) of the Constitution, so each adds a seat, and two seats are what
       makes the difference between 18 and 21 (the third being the Prime Minister). The other
       two deputy premierships are held by the Minister of Finance and by the Minister of
-      Economy, Investments and Industry; following the data contract those are recorded once,
+      Economy, Investments and Industry; under this project's rules those are recorded once,
       as the ministry, because the title is a personal precedence rank rather than a
       department.
     es: >-
-      Dos viceprimeros ministros no encabezan departamento y se registran con el motivo de
-      exclusión deputy_head_without_portfolio. Son miembros de pleno derecho del Consejo de
+      Dos viceprimeros ministros no encabezan departamento y se registran como
+      vicepresidencias sin cartera. Son miembros de pleno derecho del Consejo de
       Ministros conforme al artículo 108.1 de la Constitución, de modo que cada uno suma un
       asiento, y esos dos asientos son los que explican la diferencia entre 18 y 21 (el
       tercero es el primer ministro). Las otras dos vicepresidencias las ostentan el ministro
-      de Hacienda y el ministro de Economía, Inversiones e Industria; conforme al contrato de
-      datos se registran una sola vez, como el ministerio, porque el título es un rango
-      personal de precedencia y no un departamento.
+      de Hacienda y el ministro de Economía, Inversiones e Industria; conforme a las reglas de
+      este proyecto se registran una sola vez, como el ministerio, porque el título es un
+      rango personal de precedencia y no un departamento.
   - en: >-
       There are no ministers without portfolio in this cabinet, and that is a sourced fact
       rather than an absence of evidence: point 1 of the structure decision provides that
@@ -127,9 +127,9 @@ methodology_notes:
       Where the English names come from. The Bulgarian names are the official ones, spelled
       as the State Gazette spells them. The English names are the Bulgarian government's own
       wording, taken from the English edition of the Council of Ministers' portal, which
-      publishes each post as "Minister of ..."; this file renders that same wording in the
-      department form "Ministry of ...". That is why name_en_provenance is official rather
-      than translated, and it is also why the English names keep the portal's American
+      publishes each post as "Minister of ..."; this page renders that same wording in the
+      department form "Ministry of ...". That is why the English names are marked as the
+      government's own and not translations, and it is also why they keep the portal's American
       spelling in "Ministry of Defense" and "Ministry of Labor and Social Policy" instead of
       being silently normalised. One English name is newer than the department's own website:
       the Ministry of Innovation and Digital Transformation was still trading as "Ministry of
@@ -139,9 +139,9 @@ methodology_notes:
       De dónde vienen los nombres en inglés. Los nombres búlgaros son los oficiales, escritos
       como los escribe el Държавен вестник. Los nombres en inglés son la redacción del propio
       gobierno búlgaro, tomada de la edición inglesa del portal del Consejo de Ministros, que
-      publica cada cargo como «Minister of ...»; este fichero traslada esa misma redacción a
-      la forma departamental «Ministry of ...». Por eso name_en_provenance es official y no
-      translated, y por eso también los nombres en inglés conservan la ortografía
+      publica cada cargo como «Minister of ...»; esta ficha traslada esa misma redacción a la
+      forma departamental «Ministry of ...». Por eso los nombres en inglés se señalan como
+      propios del gobierno y no como traducciones, y por eso también conservan la ortografía
       estadounidense del portal en «Ministry of Defense» y «Ministry of Labor and Social
       Policy» en lugar de normalizarse en silencio. Un nombre inglés va por delante del sitio
       web del propio departamento: el Ministerio de Innovación y Transformación Digital
@@ -158,7 +158,7 @@ methodology_notes:
       Bulgaria has no migration ministry: residence and migration enforcement is a
       directorate of the Ministry of Interior, which is where the migration area is tagged,
       while asylum determination sits with a state agency outside every ministry and
-      therefore outside this file.
+      therefore outside this page.
     es: >-
       Decisiones de etiquetado que conviene señalar, porque dos de ellas van contra el nombre
       del ministerio. Las carreteras y los servicios de abastecimiento de agua corresponden
@@ -170,53 +170,55 @@ methodology_notes:
       Aguas. Y Bulgaria no tiene ministerio de migración: la gestión de la residencia y la
       migración es una dirección del Ministerio del Interior, donde se etiqueta el área
       «migración», mientras que la determinación del asilo corresponde a una agencia estatal
-      ajena a todo ministerio y por tanto ajena a este fichero.
+      ajena a todo ministerio y por tanto ajena a esta ficha.
   - en: >-
       No acronyms are recorded. Bulgarian ministries are universally referred to by initialisms
       in practice, but neither the structure decision nor the election decision states one, so
-      abbreviation_original is null throughout rather than carrying an unsourced value.
+      none is recorded for any department rather than carrying an unsourced value.
     es: >-
       No se registran siglas. En la práctica los ministerios búlgaros se citan siempre por sus
       iniciales, pero ni la decisión de estructura ni la de elección del gobierno enuncia
-      ninguna, de modo que abbreviation_original es null en todo el fichero en lugar de
+      ninguna, de modo que no se registra abreviatura para ningún departamento en lugar de
       llevar un valor sin fuente.
   - en: >-
-      Sixteen of the eighteen departments carry a url, each confirmed on the access date by
-      opening the site and checking that it identifies itself by the ministry's official
-      Bulgarian name. Two are null: the Ministry of Education and Science and the Ministry of
-      Economy, Investments and Industry both sit behind bot-protection interstitials that
-      could not be got past, so their websites are unconfirmed rather than non-existent. The
-      site of the Ministry of Innovation and Digital Transformation is recorded even though it
-      still identified itself under the department's pre-merger name on the access date.
+      Sixteen of the eighteen departments carry a link to their website, each confirmed on
+      the access date by opening the site and checking that it identifies itself by the
+      ministry's official Bulgarian name. Two carry none: the Ministry of Education and
+      Science and the Ministry of Economy, Investments and Industry both sit behind
+      bot-protection interstitials that could not be got past, so their websites are
+      unconfirmed rather than non-existent. The site of the Ministry of Innovation and
+      Digital Transformation is recorded even though it still identified itself under the
+      department's pre-merger name on the access date.
     es: >-
-      Dieciséis de los dieciocho departamentos llevan url, cada una confirmada en la fecha de
-      consulta abriendo el sitio y comprobando que se identifica con el nombre búlgaro oficial
-      del ministerio. Dos son null: el Ministerio de Educación y Ciencia y el Ministerio de
+      Dieciséis de los dieciocho departamentos llevan enlace a su web, cada uno confirmado en
+      la fecha de consulta abriendo el sitio y comprobando que se identifica con el nombre
+      búlgaro oficial del ministerio. Dos no llevan ninguno: el Ministerio de Educación y
+      Ciencia y el Ministerio de
       Economía, Inversiones e Industria están detrás de pantallas de protección antibots que
       no se pudieron franquear, así que sus sitios quedan sin confirmar, no inexistentes. El
       sitio del Ministerio de Innovación y Transformación Digital se registra aunque en la
       fecha de consulta seguía identificándose con el nombre previo a la fusión.
   - en: >-
-      A sourcing caveat future curators of Bulgaria should know about. The National Assembly
+      A sourcing caveat. The National Assembly
       publishes the Constitution only as a client-rendered page, so no web archive can capture
       it: a snapshot of parliament.bg/bg/const preserves an application shell and thirteen
       characters of text, and the endpoint the page then calls returns the articles as JSON
       with every Cyrillic character escaped. An archived citation of the parliamentary edition
       would therefore look valid while showing a reader nothing. The Constitution is cited here
       from the Constitutional Court's static consolidated text instead, which archives cleanly.
-      Nothing in this file depends on that citation alone in any case: the two gazette decisions
+      Nothing on this page depends on that citation alone in any case: the two gazette decisions
       recite article 84(6), article 84(7) and article 108 in their own preambles, and point 1 of
       the structure decision states this cabinet's composition in concrete numbers.
     es: >-
-      Una advertencia sobre las fuentes que conviene que conozcan los futuros curadores de
-      Bulgaria. La Asamblea Nacional publica la Constitución únicamente como página renderizada
+      Una advertencia sobre las fuentes. La Asamblea Nacional publica la Constitución
+      únicamente como página renderizada
       en el cliente, de modo que ningún archivo web puede capturarla: una copia de
       parliament.bg/bg/const conserva un armazón de aplicación y trece caracteres de texto, y el
       endpoint que la página invoca después devuelve los artículos como JSON con todos los
       caracteres cirílicos escapados. Una cita archivada de la edición parlamentaria parecería
       válida sin mostrar nada al lector. Por eso la Constitución se cita aquí desde el texto
       consolidado estático del Tribunal Constitucional, que se archiva sin problemas. En
-      cualquier caso nada de este fichero depende solo de esa cita: las dos decisiones del
+      cualquier caso nada de esta ficha depende solo de esa cita: las dos decisiones del
       boletín recitan el artículo 84.6, el artículo 84.7 y el artículo 108 en sus propios
       preámbulos, y el punto 1 de la decisión de estructura enuncia en cifras concretas la
       composición de este gabinete.

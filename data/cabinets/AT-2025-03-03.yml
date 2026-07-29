@@ -50,8 +50,8 @@ methodology_notes:
       project's default — applied to Spain's Presidencia del Gobierno and to the German
       Bundeskanzleramt — is to exclude such an office. A reader who prefers that reading
       should subtract one from every ministry figure this site publishes for Austria. The
-      difference from Germany is a difference between the two statutes, not between two
-      curators: German law never designates the Bundeskanzleramt a Bundesministerium, and
+      difference from Germany is a difference between the two statutes, not a difference
+      of judgement: German law never designates the Bundeskanzleramt a Bundesministerium, and
       the German budget act pointedly heads its budget section "Bundeskanzler und
       Bundeskanzleramt" while reserving the word "Bundesministerium" for the sixteen
       departments; Austrian law designates it one, first in the list.
@@ -76,7 +76,7 @@ methodology_notes:
       Presidencia del Gobierno española y al Bundeskanzleramt alemán— es excluir esa
       oficina. Quien prefiera esa lectura debe restar uno a todas las cifras de ministerios
       que este sitio publica sobre Austria. La diferencia con Alemania es una diferencia
-      entre las dos leyes, no entre dos curadores: la ley alemana nunca designa al
+      entre las dos leyes, no una diferencia de criterio: la ley alemana nunca designa al
       Bundeskanzleramt como Bundesministerium, y la ley de presupuestos alemana titula su
       sección presupuestaria «Bundeskanzler und Bundeskanzleramt» reservando la palabra
       «Bundesministerium» para los dieciséis departamentos; la ley austriaca sí lo designa
@@ -89,13 +89,13 @@ methodology_notes:
       ministry of her own but the "sachliche Leitung" of specified matters inside the
       Chancellery's remit, under § 1 Abs. 2 BMG and Article 77 Abs. 3 B-VG. And there are
       21 people appointed by the Federal President to the government's ranks, once the
-      seven Staatssekretäre are added. This dataset publishes ministries_count 13 and
-      cabinet_seats_count 14. The Staatssekretäre carry no cabinet seat: Article 69 Abs. 1
-      B-VG composes the Bundesregierung of the Chancellor, the Vice-Chancellor and the
-      other federal ministers and no one else, and Article 78 Abs. 3 makes a Staatssekretär
-      subordinate to and bound by the instructions of his minister. They attend the
-      Ministerrat but are not members of it. A curator who counted attendance as a seat
-      would publish 21 seats rather than 14. The two figures are never added together.
+      seven Staatssekretäre are added. This site publishes 13 as the ministries figure and
+      14 as the cabinet-seats figure. The Staatssekretäre carry no cabinet seat: Article 69
+      Abs. 1 B-VG composes the Bundesregierung of the Chancellor, the Vice-Chancellor and
+      the other federal ministers and no one else, and Article 78 Abs. 3 makes a
+      Staatssekretär subordinate to and bound by the instructions of his minister. They
+      attend the Ministerrat but are not members of it. Counting attendance as a seat would
+      give 21 seats rather than 14. The two figures are never added together.
     es: >-
       Austria arroja tres cifras que no son intercambiables. Hay 13 Bundesministerien,
       porque el § 1 Abs. 1 BMG enumera 13. Hay 14 miembros de la Bundesregierung: el
@@ -104,12 +104,12 @@ methodology_notes:
       «sachliche Leitung» de determinadas materias del ámbito de la Cancillería, al amparo
       del § 1 Abs. 2 BMG y del artículo 77 Abs. 3 B-VG. Y hay 21 personas nombradas por el
       presidente federal para los cargos del gobierno, sumando los siete Staatssekretäre.
-      Este conjunto de datos publica ministries_count 13 y cabinet_seats_count 14. Los
-      Staatssekretäre no ocupan asiento en el gabinete: el artículo 69 Abs. 1 B-VG compone
-      la Bundesregierung con el canciller, el vicecanciller y los demás ministros
-      federales, y con nadie más, y el artículo 78 Abs. 3 subordina al Staatssekretär a su
-      ministro y lo vincula a sus instrucciones. Asisten al Consejo de Ministros pero no son
-      miembros de él. Un curador que contase la asistencia como asiento publicaría 21
+      Este sitio publica 13 como cifra de ministerios y 14 como cifra de asientos en el
+      gabinete. Los Staatssekretäre no ocupan asiento en el gabinete: el artículo 69 Abs. 1
+      B-VG compone la Bundesregierung con el canciller, el vicecanciller y los demás
+      ministros federales, y con nadie más, y el artículo 78 Abs. 3 subordina al
+      Staatssekretär a su ministro y lo vincula a sus instrucciones. Asisten al Consejo de
+      Ministros pero no son miembros de él. Contar la asistencia como asiento daría 21
       asientos en lugar de 14. Las dos cifras nunca se suman.
   - en: >-
       The department structure changed 29 days into this cabinet's term. When the government
@@ -125,15 +125,16 @@ methodology_notes:
       Innovation und Technologie by distributing its competences. Eight ministers and three
       state secretaries were sworn in again on 2 April 2025 to match their new departments.
       Austria's count under this cabinet was therefore 12 until 31 March 2025 and has been
-      13 since 1 April 2025. The seven entities created or renamed on that date carry
-      `valid_from: 2025-04-01`; the six designations that ceased are recorded below with
-      `valid_to: 2025-03-31` so the change is visible rather than inferred. Following the
-      precedent set for Sweden, those six are recorded as not counted and carry no cabinet
-      seat, because this file does not reconstruct which minister held which of them in March
-      2025. The consequence is explicit rather than hidden: a replay of any date before 1
-      April 2025 returns six ministries and seven seats, understating both, and only the
-      snapshot from 1 April 2025 onward is a figure this dataset stands behind. Everything
-      else in this file describes the structure in force from 1 April 2025 to the access date.
+      13 since 1 April 2025. The seven entities created or renamed on that date are
+      recorded with 1 April 2025 as their start date; the six designations that ceased are
+      recorded below with 31 March 2025 as their end date, so the change is visible rather
+      than inferred. Those six are recorded as not counted and carry no cabinet seat — the
+      treatment this project gives departments superseded during a cabinet's term — because
+      this page does not reconstruct which minister held which of them in March 2025. The
+      consequence is explicit rather than hidden: a replay of any date before 1 April 2025
+      returns six ministries and seven seats, understating both, and only the snapshot from
+      1 April 2025 onward is a figure this project stands behind. Everything else on this
+      page describes the structure in force from 1 April 2025 to the access date.
     es: >-
       La estructura departamental cambió a los 29 días de legislatura. Cuando el gobierno
       tomó posesión el 3 de marzo de 2025, la Bundesministeriengesetz seguía enumerando 12
@@ -149,15 +150,16 @@ methodology_notes:
       Estado volvieron a ser juramentados el 2 de abril de 2025 conforme a sus nuevos
       departamentos. La cifra austriaca bajo este gobierno fue por tanto 12 hasta el 31 de
       marzo de 2025 y es 13 desde el 1 de abril de 2025. Las siete entidades creadas o
-      renombradas en esa fecha llevan `valid_from: 2025-04-01`; las seis denominaciones que
-      cesaron se registran abajo con `valid_to: 2025-03-31`, para que el cambio sea visible
-      y no deducido. Siguiendo el precedente fijado para Suecia, esas seis se registran como
-      no contadas y sin asiento en el gabinete, porque este fichero no reconstruye qué
+      renombradas en esa fecha se registran con el 1 de abril de 2025 como fecha de inicio;
+      las seis denominaciones que cesaron se registran abajo con el 31 de marzo de 2025 como
+      fecha de fin, para que el cambio sea visible y no deducido. Esas seis se registran como
+      no contadas y sin asiento en el gabinete —el tratamiento que este proyecto da a los
+      departamentos sustituidos durante la legislatura—, porque esta ficha no reconstruye qué
       ministro ocupaba cada una de ellas en marzo de 2025. La consecuencia es explícita y no
       oculta: una reconstrucción de cualquier fecha anterior al 1 de abril de 2025 devuelve
       seis ministerios y siete asientos, subestimando ambos, y sólo la foto desde el 1 de
-      abril de 2025 es una cifra que este conjunto de datos respalda. Todo lo demás en este
-      fichero describe la estructura vigente desde el 1 de abril de 2025 hasta la fecha de
+      abril de 2025 es una cifra que este proyecto respalda. Todo lo demás en esta
+      ficha describe la estructura vigente desde el 1 de abril de 2025 hasta la fecha de
       consulta.
   - en: >-
       The Vice-Chancellorship is a personal office held by a serving minister — in this
@@ -212,30 +214,30 @@ methodology_notes:
       realmente.
   - en: >-
       Two competences that the Annex assigns to the Bundeskanzleramt are not tagged at all,
-      because the project's policy-area vocabulary has no id for them. One is Integration —
+      because this project's policy areas include none that covers them. One is Integration —
       "Angelegenheiten der gesellschaftlichen Integration und des Zusammenlebens von
       Menschen mit und ohne Migrationshintergrund", item 25 of section A, which is a
       distinct competence from the migration and asylum powers held by the interior
       ministry and is not the same thing as social welfare. The other is Volksgruppen, item
       15 of section A: the affairs of Austria's six legally recognised ethnic groups, which
-      is neither language policy nor equality as those ids are defined. Both are named in
-      the title the Federal Chancellery gives the minister who runs them —
+      is neither language policy nor equality as this project defines those areas. Both are
+      named in the title the Federal Chancellery gives the minister who runs them —
       "Bundesministerin für Europa, Integration und Familie im Bundeskanzleramt" — so a
       reader who looks for Austrian integration policy in the comparison views will not
-      find it, and this note is the reason.
+      find it.
     es: >-
       Dos competencias que el Anexo asigna al Bundeskanzleramt no se etiquetan en absoluto,
-      porque el vocabulario de áreas de política del proyecto no tiene identificador para
-      ellas. Una es la Integración —«Angelegenheiten der gesellschaftlichen Integration und
+      porque las áreas de política de este proyecto no incluyen ninguna que las cubra. Una
+      es la Integración —«Angelegenheiten der gesellschaftlichen Integration und
       des Zusammenlebens von Menschen mit und ohne Migrationshintergrund», punto 25 de la
       sección A—, competencia distinta de las de migración y asilo que ostenta el
       ministerio del Interior y que no es lo mismo que la asistencia social. La otra son los
       Volksgruppen, punto 15 de la sección A: los asuntos de los seis grupos étnicos
       legalmente reconocidos de Austria, que no son ni política lingüística ni igualdad tal
-      como se definen esos identificadores. Ambas figuran en el título que la Cancillería
+      como este proyecto define esas áreas. Ambas figuran en el título que la Cancillería
       Federal da a la ministra que las dirige —«Bundesministerin für Europa, Integration und
       Familie im Bundeskanzleramt»—, de modo que quien busque la política austriaca de
-      integración en las vistas comparativas no la encontrará, y esta nota es la razón.
+      integración en las vistas comparativas no la encontrará.
   - en: >-
       The Präsidentschaftskanzlei, the office of the Federal President, is not recorded as
       an entity at all rather than recorded and excluded. It is not a Bundesministerium —
@@ -257,49 +259,49 @@ methodology_notes:
       inventar una candidatura que nadie sostiene. El mismo razonamiento excluye al
       Rechnungshof y a la Volksanwaltschaft, órganos del Consejo Nacional.
   - en: >-
-      Austria is a federal state and this file covers the Bundesregierung only. Each of the
+      Austria is a federal state and this page covers the Bundesregierung only. Each of the
       nine Länder has its own Landesregierung whose members hold competences that in a
       centralised state would sit with a national ministry — building law, nature
       conservation, youth welfare, hospitals and kindergartens above all, and the
       administration of much federal law through the Länder under Article 102 B-VG. State
-      governments are out of scope for this dataset, so they are not listed at all rather
+      governments are out of scope for this project, so they are not listed at all rather
       than listed and excluded. Austria's federalism is nonetheless less far-reaching than
       Germany's: school education, policing and culture are federal competences here and
       state competences there, which is part of why Austria's 13 and Germany's 16 are not a
       like-for-like measure of governmental reach.
     es: >-
-      Austria es un Estado federal y este fichero cubre únicamente la Bundesregierung. Cada
+      Austria es un Estado federal y esta ficha cubre únicamente la Bundesregierung. Cada
       uno de los nueve Länder tiene su propia Landesregierung, cuyos miembros ostentan
       competencias que en un Estado centralizado corresponderían a un ministerio nacional:
       sobre todo derecho de la edificación, protección de la naturaleza, protección de la
       juventud, hospitales y guarderías, además de la ejecución de gran parte del derecho
       federal a través de los Länder conforme al artículo 102 B-VG. Los gobiernos de los
-      Länder quedan fuera del alcance de este conjunto de datos, por lo que no se listan en
+      Länder quedan fuera del alcance de este proyecto, por lo que no se listan en
       absoluto en lugar de listarse y excluirse. El federalismo austriaco es sin embargo
       menos extenso que el alemán: la educación escolar, la policía y la cultura son aquí
       competencias federales y allí competencias de los Länder, y en parte por eso los 13 de
       Austria y los 16 de Alemania no miden el mismo alcance de gobierno.
   - en: >-
-      Every English and Spanish ministry name in this file is the project's own rendering,
-      marked translated accordingly. The Austrian federal government publishes no
+      Every English and Spanish ministry name on this page is this project's own
+      translation, and is marked as such. The Austrian federal government publishes no
       consolidated list of its ministries' names in either language: the Federal
       Chancellery's English pages do not carry one, and RIS notes that the English
       translation of the Bundesministeriengesetz lives in a separate "Austrian Laws"
       application as an expressly non-binding aid. Several ministries do publish an English
       name of their own on their own sites, and adopting those would be defensible, but no
-      archived snapshot of those pages was obtained for this pass, and an unverifiable claim
-      of officialness is worse than an understated one. The original German name is shown
+      archived snapshot of those pages has been obtained, and an unverifiable claim of
+      officialness is worse than an understated one. The original German name is shown
       alongside every rendering.
     es: >-
-      Todos los nombres de ministerios en inglés y español de este fichero son traducciones
-      del proyecto, señaladas como tales. El gobierno federal austriaco no publica una lista
+      Todos los nombres de ministerios en inglés y español de esta ficha son traducciones
+      de este proyecto, señaladas como tales. El gobierno federal austriaco no publica una lista
       consolidada de los nombres de sus ministerios en ninguno de los dos idiomas: las
       páginas en inglés de la Cancillería Federal no la incluyen, y RIS advierte que la
       traducción inglesa de la Bundesministeriengesetz reside en una aplicación aparte,
       «Austrian Laws», como auxilio expresamente no vinculante. Varios ministerios sí
       publican un nombre inglés propio en sus webs, y adoptarlo sería defendible, pero no se
-      obtuvo copia archivada de esas páginas en esta pasada, y una afirmación de oficialidad
-      no verificable es peor que una subestimada. El nombre alemán original se muestra junto
+      ha obtenido copia archivada de esas páginas, y una afirmación de oficialidad no
+      verificable es peor que una subestimada. El nombre alemán original se muestra junto
       a cada traducción.
 
 sources:

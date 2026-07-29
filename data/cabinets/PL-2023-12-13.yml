@@ -56,10 +56,10 @@ methodology_notes:
       Ministrów has merged, abolished or renamed either ministry, the Prime Minister gave
       Ministerstwo Rozwoju i Technologii a fresh statute on 23 January 2026 (M.P. 2026
       poz. 137), and the government's own directory of ministries lists both separately.
-      There is no legal entity called "Ministerstwo Finansów i Gospodarki". This dataset
+      There is no legal entity called "Ministerstwo Finansów i Gospodarki". This project
       therefore records two counted ministries with one shared minister and one cabinet
-      seat, which is the same treatment every other country in the dataset receives for a
-      minister holding two departments. A reader who prefers to count ministers rather than
+      seat, the same treatment applied to any country when a minister holds two
+      departments. A reader who prefers to count ministers rather than
       ministries should read 18 wherever this site says 19 for Poland; the cabinet-seat
       figure of 22 is unaffected either way.
     es: >-
@@ -75,10 +75,10 @@ methodology_notes:
       ninguno de los dos ministerios, el primer ministro aprobó un nuevo estatuto para el
       Ministerstwo Rozwoju i Technologii el 23 de enero de 2026 (M.P. 2026 poz. 137) y el
       propio directorio gubernamental de ministerios los lista por separado. No existe
-      ninguna entidad jurídica llamada «Ministerstwo Finansów i Gospodarki». Este conjunto
-      de datos registra por tanto dos ministerios contados con un ministro compartido y un
-      único asiento en el gabinete, exactamente el mismo tratamiento que recibe cualquier
-      otro país cuando un ministro ostenta dos departamentos. Quien prefiera contar
+      ninguna entidad jurídica llamada «Ministerstwo Finansów i Gospodarki». Este proyecto
+      registra por tanto dos ministerios contados con un ministro compartido y un
+      único asiento en el gabinete, el mismo tratamiento que se aplica a cualquier
+      país cuando un ministro ostenta dos departamentos. Quien prefiera contar
       ministros en lugar de ministerios debe leer 18 donde este sitio dice 19 para Polonia;
       la cifra de 22 asientos no cambia en ningún caso.
   - en: >-
@@ -179,7 +179,7 @@ methodology_notes:
       sólo se registra esta última.
   - en: >-
       Four structural changes happened during this cabinet's term and are recorded with
-      valid_from and valid_to rather than by rewriting the list. Ministerstwo Edukacji i
+      their own start and end dates rather than by rewriting the list. Ministerstwo Edukacji i
       Nauki served both the Minister Edukacji and the Minister Nauki until 31 December 2023,
       and was split into Ministerstwo Edukacji Narodowej and Ministerstwo Nauki i
       Szkolnictwa Wyższego on 1 January 2024. Ministerstwo Przemysłu was created on 1 March
@@ -188,7 +188,7 @@ methodology_notes:
       Środowiska. And the reconstruction of 24 July 2025 abolished four ministerial offices
       that had no department — European Union affairs, equality, senior policy and civil
       society — which is why the Council of Ministers went from 27 members to 22 without any
-      ministry being abolished. Two consequences a reader should know. This file records
+      ministry being abolished. Two consequences a reader should know. This page records
       departmental structure, not officeholders, so it does not reconstruct every personnel
       change: a replay of an earlier date will give the ministries in place then, but not
       necessarily every seat. And between 24 July and 20 August 2025 the Minister Energii
@@ -197,7 +197,8 @@ methodology_notes:
       the reorganisation of the ministries by four weeks.
     es: >-
       Durante esta legislatura se produjeron cuatro cambios estructurales, registrados con
-      valid_from y valid_to en lugar de reescribiendo la lista. El Ministerstwo Edukacji i
+      sus propias fechas de inicio y de fin en lugar de reescribiendo la lista. El Ministerstwo
+      Edukacji i
       Nauki atendía tanto al Minister Edukacji como al Minister Nauki hasta el 31 de
       diciembre de 2023, y se escindió en Ministerstwo Edukacji Narodowej y Ministerstwo
       Nauki i Szkolnictwa Wyższego el 1 de enero de 2024. El Ministerstwo Przemysłu se creó
@@ -207,7 +208,7 @@ methodology_notes:
       julio de 2025 suprimió cuatro cargos ministeriales sin departamento —asuntos de la
       Unión Europea, igualdad, política sénior y sociedad civil—, razón por la cual el
       Consejo de Ministros pasó de 27 miembros a 22 sin que se suprimiera ningún ministerio.
-      Dos consecuencias que conviene conocer. Este fichero registra la estructura
+      Dos consecuencias que conviene conocer. Esta ficha registra la estructura
       departamental, no a los titulares, por lo que no reconstruye cada cambio de personas:
       una reconstrucción de una fecha anterior dará los ministerios entonces existentes, pero
       no necesariamente todos los asientos. Y entre el 24 de julio y el 20 de agosto de 2025
@@ -217,56 +218,58 @@ methodology_notes:
       reorganización de los ministerios.
   - en: >-
       In Poland the name of a ministry and the title of its minister are set by different
-      instruments and do not always match, and this file keeps both. The department called
+      instruments and do not always match, and both are kept here. The department called
       Ministerstwo Edukacji Narodowej is headed by a minister whose office is simply
       "Minister Edukacji"; the department called Ministerstwo Nauki i Szkolnictwa Wyższego
       was headed until January 2025 by a "Minister Nauki" and since then by a "Minister
       Nauki i Szkolnictwa Wyższego"; and the Minister Finansów i Gospodarki heads two
-      departments, neither of which carries his title. name_original always gives the
+      departments, neither of which carries his title. The original name always gives the
       ministry as its own legal instrument spells it, never the minister's title.
     es: >-
       En Polonia el nombre de un ministerio y el título de su ministro los fijan
-      instrumentos distintos y no siempre coinciden; este fichero conserva ambos. El
+      instrumentos distintos y no siempre coinciden; aquí se conservan ambos. El
       departamento llamado Ministerstwo Edukacji Narodowej lo encabeza un ministro cuyo
       cargo es simplemente «Minister Edukacji»; el departamento llamado Ministerstwo Nauki i
       Szkolnictwa Wyższego lo encabezó hasta enero de 2025 un «Minister Nauki» y desde
       entonces un «Minister Nauki i Szkolnictwa Wyższego»; y el Minister Finansów i
       Gospodarki encabeza dos departamentos, ninguno de los cuales lleva su título.
-      name_original da siempre el ministerio tal como lo escribe su propio instrumento
+      El nombre original da siempre el ministerio tal como lo escribe su propio instrumento
       jurídico, nunca el título del ministro.
   - en: >-
-      All English and Spanish ministry names in this file are the project's own renderings
-      and are marked translated accordingly. Several Polish ministries do publish English
+      All English and Spanish ministry names on this page are this project's own
+      translations and are marked as such. Several Polish ministries do publish English
       pages under gov.pl, but the English titles there are not uniform, no consolidated
       official English list of ministry names exists, and an unverifiable claim of
       officialness is worse than an understated one. The original Polish name is shown
       alongside everywhere.
     es: >-
-      Todos los nombres de ministerios en inglés y español de este fichero son traducciones
-      del proyecto y se marcan como tales. Varios ministerios polacos publican páginas en
+      Todos los nombres de ministerios en inglés y español de esta ficha son traducciones
+      de este proyecto y se marcan como tales. Varios ministerios polacos publican páginas en
       inglés en gov.pl, pero los títulos ingleses no son uniformes, no existe ninguna lista
       oficial consolidada de nombres de ministerios en inglés y una afirmación de oficialidad
       no verificable es peor que una subestimada. El nombre polaco original se muestra
       siempre al lado.
   - en: >-
-      One policy area could not be tagged for want of a vocabulary id. Ministerstwo Aktywów
+      One policy area could not be tagged, because this project has no area covering it.
+      Ministerstwo Aktywów
       Państwowych runs the branch "łączność", which article 16 of the ustawa o działach
       administracji rządowej defines as postal affairs — "Dział łączność obejmuje sprawy
-      poczty." The taxonomy has telecommunications but nothing for postal services, and
-      telecommunications is the wrong label here: under article 12a of the same statute
-      telecommunications belongs to the branch "informatyzacja" and therefore to
-      Ministerstwo Cyfryzacji. The state-assets ministry is consequently tagged with
-      state_assets alone, and its postal remit is invisible in the comparison views.
+      poczty." This project has a telecommunications area but none for postal services, and
+      the telecommunications area would be the wrong one here: under article 12a of the same
+      statute telecommunications belongs to the branch "informatyzacja" and therefore to
+      Ministerstwo Cyfryzacji. The state-assets ministry consequently carries the
+      state-assets area alone, and its postal remit is invisible in the comparison views.
     es: >-
-      Un área de política no ha podido etiquetarse por falta de un id en el vocabulario. El
+      Un área de política no ha podido etiquetarse, porque este proyecto no tiene ningún área
+      que la cubra. El
       Ministerstwo Aktywów Państwowych dirige el ramo «łączność», que el artículo 16 de la
       ustawa o działach administracji rządowej define como asuntos postales: «Dział łączność
-      obejmuje sprawy poczty.» La taxonomía tiene telecommunications pero nada para los
-      servicios postales, y telecommunications sería aquí la etiqueta equivocada: conforme al
-      artículo 12a de la misma ley las telecomunicaciones pertenecen al ramo
+      obejmuje sprawy poczty.» Este proyecto tiene un área de telecomunicaciones pero ninguna
+      para los servicios postales, y la de telecomunicaciones sería aquí la equivocada:
+      conforme al artículo 12a de la misma ley las telecomunicaciones pertenecen al ramo
       «informatyzacja» y por tanto al Ministerstwo Cyfryzacji. En consecuencia el ministerio
-      de activos estatales sólo lleva state_assets, y su competencia postal es invisible en
-      las vistas comparativas.
+      de activos estatales sólo lleva el área de patrimonio estatal, y su competencia postal
+      es invisible en las vistas comparativas.
 
 sources:
   # --- the enumeration of the Council of Ministers ------------------------------------

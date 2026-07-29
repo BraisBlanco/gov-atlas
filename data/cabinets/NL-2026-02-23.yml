@@ -42,8 +42,8 @@ methodology_notes:
       Minister's full title is "Minister-President, Minister van Algemene Zaken", the
       department appears in the government's own list of ministries at rijksoverheid.nl
       and in the English list at government.nl, and it carries its own chapter in the
-      annual budget. This is the case the exclusion reason head_of_government_office
-      describes as contested, and both figures are published here so a reader can choose:
+      annual budget. This is the case where the exclusion as the office of the head of
+      government is contested, and both figures are published here so a reader can choose:
       12 ministries including Algemene Zaken, 11 excluding it.
     es: >-
       Aquí se cuentan 12 ministerios para los Países Bajos, y el Ministerie van Algemene
@@ -55,8 +55,8 @@ methodology_notes:
       primer ministro es «Minister-President, Minister van Algemene Zaken», el
       departamento figura en la lista oficial de ministerios de rijksoverheid.nl y en la
       lista inglesa de government.nl, y tiene su propio capítulo en el presupuesto anual.
-      Este es el supuesto que el motivo de exclusión head_of_government_office califica de
-      discutido, y aquí se publican ambas cifras para que el lector elija: 12 ministerios
+      Este es el supuesto en que la exclusión como oficina del jefe de gobierno resulta
+      discutida, y aquí se publican ambas cifras para que el lector elija: 12 ministerios
       contando Algemene Zaken, 11 sin contarlo.
   - en: >-
       12 ministries but 18 cabinet seats. Six of the eighteen ministers are ministers
@@ -142,7 +142,7 @@ methodology_notes:
       Economische Zaken en Klimaat and circular-economy policy from Infrastructuur en
       Waterstaat to the minister for Klimaat en Groene Groei. No ministry was created. Any
       source describing the Dutch government before 23 February 2026 therefore lists three
-      more ministries than this file does, and does not use the name Economische Zaken en
+      more ministries than this page does, and does not use the name Economische Zaken en
       Klimaat.
     es: >-
       Tres de los doce ministerios llevan denominaciones que cambiaron el 23 de febrero de
@@ -157,7 +157,7 @@ methodology_notes:
       a Economische Zaken en Klimaat y la política de economía circular de Infrastructuur en
       Waterstaat al ministro de Klimaat en Groene Groei. No se creó ningún ministerio. Por
       tanto, cualquier fuente que describa el gobierno neerlandés antes del 23 de febrero de
-      2026 enumera tres ministerios más que este fichero y no usa el nombre Economische
+      2026 enumera tres ministerios más que esta ficha y no usa el nombre Economische
       Zaken en Klimaat.
   - en: >-
       There is no Dutch legal instrument that lists the ministries in one place, so the
@@ -191,35 +191,35 @@ methodology_notes:
       antes de la reorganización de febrero de 2026 y todavía contiene capítulos separados
       para los tres ministerios suprimidos; por eso no se ha utilizado.
   - en: >-
-      Perimeter. This file describes the central government of the Netherlands, the country
+      Perimeter. This page describes the central government of the Netherlands, the country
       whose government sits in The Hague. Aruba, Curaçao and Sint Maarten are separate
       countries of the Kingdom of the Netherlands with their own governments and their own
       ministers, and they are out of scope; their Gevolmachtigde Ministers, who appear in
       the closing formula of every decree cited here, are not ministers of this cabinet and
       are not recorded. Kingdom affairs are a portfolio of the Ministerie van Binnenlandse
-      Zaken en Koninkrijksrelaties. The population figure in data/countries/NL.yml is on the
-      same perimeter.
+      Zaken en Koninkrijksrelaties. The population figure published for the Netherlands is
+      on the same perimeter.
     es: >-
-      Perímetro. Este fichero describe el gobierno central de los Países Bajos, el país
+      Perímetro. Esta ficha describe el gobierno central de los Países Bajos, el país
       cuyo gobierno tiene su sede en La Haya. Aruba, Curazao y San Martín son países
       distintos del Reino de los Países Bajos, con sus propios gobiernos y sus propios
       ministros, y quedan fuera de alcance; sus Gevolmachtigde Ministers, que aparecen en
       la fórmula final de todos los reales decretos aquí citados, no son ministros de este
       gabinete y no se registran. Los asuntos del Reino son una cartera del Ministerie van
-      Binnenlandse Zaken en Koninkrijksrelaties. La cifra de población de
-      data/countries/NL.yml se refiere al mismo perímetro.
+      Binnenlandse Zaken en Koninkrijksrelaties. La cifra de población publicada para los
+      Países Bajos se refiere al mismo perímetro.
   - en: >-
       English ministry names are the Dutch government's own. All twelve are taken verbatim
       from government.nl, the English-language edition of rijksoverheid.nl, and are marked
-      name_en_provenance: official. The English and Spanish titles of the six ministers
-      zonder portefeuille, and all Spanish names, are this project's renderings and are
-      marked translated.
+      as the government's own names. The English and Spanish titles of the six ministers
+      zonder portefeuille, and all Spanish names, are this project's own translations, and
+      are marked as such.
     es: >-
       Los nombres ingleses de los ministerios son los del propio gobierno neerlandés. Los
       doce se toman literalmente de government.nl, la edición en inglés de rijksoverheid.nl,
-      y llevan name_en_provenance: official. Los títulos en inglés y español de los seis
+      y se señalan como nombres oficiales. Los títulos en inglés y español de los seis
       ministros sin cartera, y todos los nombres en español, son traducciones de este
-      proyecto y llevan la marca translated.
+      proyecto y así se indican.
 
 sources:
   - id: stcrt-2026-8194

@@ -46,9 +46,9 @@ methodology_notes:
       article 1 of the Act constitutes the Government as "Ministras Pirmininkas ir
       ministrai", and article 29(4) gives every ministry a minister at its head, so the
       Prime Minister sits in the cabinet without holding a department. Lithuania is
-      therefore one of the cleanest cases in this dataset — one minister per ministry, one
-      ministry per minister, no minister without portfolio, no deputy prime minister, no
-      shared portfolios. Note that Lithuanian usage counts the other way round: the press
+      therefore an unusually clean-cut case — one minister per ministry, one ministry per
+      minister, no minister without portfolio, no deputy prime minister, no shared
+      portfolios. Note that Lithuanian usage counts the other way round: the press
       and the government's own communiqués describe this as a cabinet of "Ministras
       Pirmininkas ir 14 ministrų", which is the seat count minus nothing, i.e. 15 people,
       and never a count of departments. The two figures are published separately here and
@@ -60,9 +60,9 @@ methodology_notes:
       es el del Ministras Pirmininkas: el artículo 1 de la ley constituye el Gobierno como
       «Ministras Pirmininkas ir ministrai», y el artículo 29(4) da a cada ministerio un
       ministro al frente, de modo que el primer ministro tiene asiento en el gabinete sin
-      cartera propia. Lituania es por ello uno de los casos más limpios de este conjunto de
-      datos: un ministro por ministerio, un ministerio por ministro, sin ministros sin
-      cartera, sin viceprimer ministro y sin carteras compartidas. Conviene notar que el uso
+      cartera propia. Lituania es por ello un caso inusualmente nítido: un ministro por
+      ministerio, un ministerio por ministro, sin ministros sin cartera, sin viceprimer
+      ministro y sin carteras compartidas. Conviene notar que el uso
       lituano cuenta al revés: la prensa y los propios comunicados del Gobierno describen
       este gabinete como «Ministras Pirmininkas ir 14 ministrų», es decir 15 personas, y
       nunca como un recuento de departamentos. Aquí las dos cifras se publican por separado
@@ -78,8 +78,8 @@ methodology_notes:
       ministers took the oath and began their duties. Article 6(3) of the Vyriausybės
       įstatymas is decisive: "Vyriausybė gauna įgaliojimus veikti, kai Seimas posėdyje
       dalyvaujančių narių balsų dauguma pritaria jos programai" — a government acquires the
-      powers to act when the Seimas approves its programme. The DATA-CONTRACT asks for the
-      date the cabinet took office, so this file uses 14 July 2026: the earlier dates are
+      powers to act when the Seimas approves its programme. This project's rules ask for the
+      date the cabinet took office, so the date used here is 14 July 2026: the earlier dates are
       steps in appointing people, and the government could not act on any of them. The
       swearing-in fell on the same day, which removes the only competing reading.
     es: >-
@@ -93,9 +93,9 @@ methodology_notes:
       tras lo cual el primer ministro y los catorce ministros juraron y comenzaron a ejercer.
       El artículo 6(3) de la Vyriausybės įstatymas es decisivo: «Vyriausybė gauna įgaliojimus
       veikti, kai Seimas posėdyje dalyvaujančių narių balsų dauguma pritaria jos programai»
-      —el Gobierno obtiene los poderes para actuar cuando el Seimas aprueba su programa—. El
-      DATA-CONTRACT pide la fecha en que el gabinete tomó posesión, así que este fichero usa
-      el 14 de julio de 2026: las fechas anteriores son pasos para nombrar personas y el
+      —el Gobierno obtiene los poderes para actuar cuando el Seimas aprueba su programa—. Las
+      reglas de este proyecto piden la fecha en que el gabinete tomó posesión, así que aquí
+      se usa el 14 de julio de 2026: las fechas anteriores son pasos para nombrar personas y el
       Gobierno no podía actuar en ninguna de ellas. El juramento cayó el mismo día, lo que
       elimina la única lectura alternativa.
   - en: >-
@@ -129,13 +129,13 @@ methodology_notes:
       Two bodies are recorded and not counted, and they are different bodies. The Ministras
       Pirmininkas is recorded as the office of the head of government: it holds a cabinet
       seat and no portfolio, which is what makes the seat count 15 against 14 ministries,
-      and it is excluded under head_of_government_office exactly as Spain's Presidencia del
-      Gobierno is. The Vyriausybės kanceliarija is a separate thing: article 44-1(1) of the
+      and it is excluded as the office of the head of government, exactly as Spain's
+      Presidencia del Gobierno is. The Vyriausybės kanceliarija is a separate thing: article 44-1(1) of the
       Act constitutes it as "Vyriausybės įsteigta biudžetinė įstaiga, padedanti atlikti
       Vyriausybės ir Ministro Pirmininko funkcijas", a budgetary institution established by
       the Government to assist it and the Prime Minister, headed not by a minister but by
       the Vyriausybės kancleris, a political-trust civil servant appointed and dismissed by
-      the Prime Minister. It is therefore excluded under not_headed_by_minister and carries
+      the Prime Minister. It is therefore excluded as not headed by a minister and carries
       no cabinet seat — counting it would give 15 ministries, and giving its chancellor a
       seat would give 16 seats. Neither is done here. This is the opposite of the Finnish
       arrangement, where the valtioneuvoston kanslia appears in the statutory list of
@@ -144,22 +144,22 @@ methodology_notes:
       Se registran dos órganos que no se cuentan, y son órganos distintos. El Ministras
       Pirmininkas se registra como la oficina del jefe de gobierno: tiene asiento en el
       gabinete y ninguna cartera, que es lo que hace que los asientos sean 15 frente a 14
-      ministerios, y se excluye por head_of_government_office igual que la Presidencia del
-      Gobierno española. La Vyriausybės kanceliarija es otra cosa: el artículo 44-1(1) de la
+      ministerios, y se excluye como oficina del jefe de gobierno igual que la Presidencia
+      del Gobierno española. La Vyriausybės kanceliarija es otra cosa: el artículo 44-1(1) de la
       ley la constituye como «Vyriausybės įsteigta biudžetinė įstaiga, padedanti atlikti
       Vyriausybės ir Ministro Pirmininko funkcijas», una institución presupuestaria creada
       por el Gobierno para asistirlo a él y al primer ministro, dirigida no por un ministro
       sino por el Vyriausybės kancleris, un funcionario de confianza política que nombra y
-      cesa el primer ministro. Se excluye por tanto por not_headed_by_minister y no lleva
-      asiento en el gabinete: contarla daría 15 ministerios, y dar asiento a su canciller
-      daría 16 asientos. Aquí no se hace ni lo uno ni lo otro. Es lo contrario del caso
+      cesa el primer ministro. Se excluye por tanto por no estar encabezada por un ministro
+      y no lleva asiento en el gabinete: contarla daría 15 ministerios, y dar asiento a su
+      canciller daría 16 asientos. Aquí no se hace ni lo uno ni lo otro. Es lo contrario del caso
       finlandés, donde la valtioneuvoston kanslia figura en la lista legal de ministerios en
       pie de igualdad con los otros once y sí se cuenta.
   - en: >-
       Names, and what "official" means here. The English names of all fourteen ministries
       and of the Office of the Government are the Lithuanian government's own, taken from
-      the ministry navigation of lrv.lt's English edition, and are marked
-      name_en_provenance: official. One liberty is taken and disclosed: lrv.lt appends the
+      the ministry navigation of lrv.lt's English edition, and are marked as the
+      government's own names. One liberty is taken and disclosed: lrv.lt appends the
       state qualifier "of the Republic of Lithuania" to twelve of the fourteen — but not to
       "Ministry of Transport and Communications" or "Ministry of Education, Science and
       Sport" — and the qualifier is dropped uniformly here, because it identifies the state
@@ -167,17 +167,17 @@ methodology_notes:
       of Lithuania" with a capitalised "The", which is why the trailing phrase is better cut
       than reproduced. The Lithuanian names are treated symmetrically: article 29(2) of the
       statute lists every ministry as "Lietuvos Respublikos aplinkos ministerija" and so on,
-      and name_original carries the short form the ministries and the government use in
-      daily practice. The full statutory strings are reproduced verbatim in the tier-1
-      source's quote, so nothing is hidden. Beware one inconsistency of the government's
+      and the Lithuanian names recorded here are the short form the ministries and the
+      government use in daily practice. The full statutory strings are reproduced verbatim
+      in the quotation from the tier-1 source, so nothing is hidden. Beware one inconsistency of the government's
       own: its English edition calls the department the "Ministry of Environment" but its
       head the "Minister of the Environment", and both are recorded as published. Spanish
-      names throughout are this project's renderings and are marked translated.
+      names throughout are this project's own translations, and are marked as such.
     es: >-
       Los nombres, y qué significa aquí «oficial». Los nombres ingleses de los catorce
       ministerios y de la Oficina del Gobierno son los del propio gobierno lituano, tomados
-      de la navegación de ministerios de la edición inglesa de lrv.lt, y llevan
-      name_en_provenance: official. Se toma y se declara una licencia: lrv.lt añade el
+      de la navegación de ministerios de la edición inglesa de lrv.lt, y se señalan como
+      nombres oficiales. Se toma y se declara una licencia: lrv.lt añade el
       calificativo estatal «of the Republic of Lithuania» a doce de los catorce —pero no a
       «Ministry of Transport and Communications» ni a «Ministry of Education, Science and
       Sport»—, y ese calificativo se suprime de manera uniforme aquí porque identifica al
@@ -185,32 +185,32 @@ methodology_notes:
       The Republic of Lithuania», con «The» en mayúscula, lo que confirma que la coletilla
       se corta mejor que se reproduce. Los nombres lituanos reciben el mismo trato: el
       artículo 29(2) de la ley enumera cada ministerio como «Lietuvos Respublikos aplinkos
-      ministerija» y demás, y name_original recoge la forma breve que usan los ministerios y
-      el gobierno en la práctica diaria. Las cadenas legales completas se reproducen
+      ministerija» y demás, y los nombres lituanos aquí recogidos son la forma breve que
+      usan los ministerios y el gobierno en la práctica diaria. Las cadenas legales completas se reproducen
       textualmente en la cita de la fuente de nivel 1, de modo que nada queda oculto.
       Atención a una incoherencia del propio gobierno: su edición inglesa llama al
       departamento «Ministry of Environment» pero a su titular «Minister of the
       Environment», y ambos se registran tal como se publican. Todos los nombres en español
-      son traducciones de este proyecto y llevan la marca translated.
+      son traducciones de este proyecto y así se indican.
   - en: >-
       Ministerial titles are recorded in the generic masculine, which is a limitation of a
-      structural dataset rather than a statement about the officeholders. Lithuanian inflects
+      structural record rather than a statement about the officeholders. Lithuanian inflects
       the title for gender — aplinkos ministras, aplinkos ministrė — and four of the fourteen
       current ministers are women, so Lithuanian reporting writes "švietimo, mokslo ir sporto
-      ministrė Raminta Popovienė" and "teisingumo ministrė Rita Tamašunienė". This file
+      ministrė Raminta Popovienė" and "teisingumo ministrė Rita Tamašunienė". This page
       records departments and not people, and article 29(4) of the Act states the rule in the
-      generic masculine ("Ministerijai vadovauja ministras"), so head_title_original follows
-      the statute's form. The compound titles themselves are attested: the LRT report cited
+      generic masculine ("Ministerijai vadovauja ministras"), so the titles recorded here
+      follow the statute's form. The compound titles themselves are attested: the LRT report cited
       below names six of them verbatim.
     es: >-
       Los títulos ministeriales se recogen en masculino genérico, lo que es una limitación de
-      un conjunto de datos estructural y no una afirmación sobre quienes ocupan los cargos.
+      un registro estructural y no una afirmación sobre quienes ocupan los cargos.
       El lituano flexiona el título por género —aplinkos ministras, aplinkos ministrė— y
       cuatro de los catorce ministros actuales son mujeres, de modo que la prensa lituana
       escribe «švietimo, mokslo ir sporto ministrė Raminta Popovienė» y «teisingumo ministrė
-      Rita Tamašunienė». Este fichero registra departamentos y no personas, y el artículo
+      Rita Tamašunienė». Esta ficha registra departamentos y no personas, y el artículo
       29(4) de la ley enuncia la regla en masculino genérico («Ministerijai vadovauja
-      ministras»), así que head_title_original sigue la forma de la ley. Los títulos
+      ministras»), así que los títulos aquí recogidos siguen la forma de la ley. Los títulos
       compuestos están atestiguados: el reportaje de LRT que se cita más abajo nombra seis de
       ellos textualmente.
   - en: >-
@@ -237,25 +237,25 @@ methodology_notes:
       vivienda. Ninguna de las dos se aprecia en el nombre del ministerio, que es el riesgo
       general de comparar gabinetes por sus etiquetas.
   - en: >-
-      Perimeter and evidence. This file describes the central government of the Republic of
+      Perimeter and evidence. This page describes the central government of the Republic of
       Lithuania, a unitary state: its sixty municipalities and its counties are local and
       deconcentrated administration and are out of scope, and the interior ministry's
       responsibility for local self-government is recorded as a portfolio of that ministry
       rather than as a tier of government. Every counted ministry rests on the statute, so
-      the country grades A. The weakest link in the file is not the list but the calendar:
+      the country grades A. The least solid part of this page is not the list but the calendar:
       the Lithuanian legal-acts register and the presidency's own site both refuse automated
       requests, so the President's decree of 7 July 2026 confirming the composition of the
       Government and the Seimas resolution of 14 July 2026 approving its programme are cited
       at second hand, through the government's own communiqué and an LRT report, rather than
       by their gazette references.
     es: >-
-      Perímetro y evidencia. Este fichero describe el gobierno central de la República de
+      Perímetro y evidencia. Esta ficha describe el gobierno central de la República de
       Lituania, un Estado unitario: sus sesenta municipios y sus condados son administración
       local y desconcentrada y quedan fuera de alcance, y la competencia del ministerio del
       Interior sobre el autogobierno local se registra como una cartera de ese ministerio y
       no como un nivel de gobierno. Todos los ministerios contados se apoyan en la ley, por
-      lo que el país obtiene el grado A. El eslabón más débil del fichero no es la lista sino
-      el calendario: el registro lituano de actos jurídicos y la web de la Presidencia
+      lo que el país obtiene el grado A. La parte menos sólida de esta ficha no es la lista
+      sino el calendario: el registro lituano de actos jurídicos y la web de la Presidencia
       rechazan las peticiones automatizadas, de modo que el decreto presidencial de 7 de
       julio de 2026 que confirma la composición del Gobierno y la resolución del Seimas de 14
       de julio de 2026 que aprueba su programa se citan de segunda mano, a través del

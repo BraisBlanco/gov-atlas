@@ -64,7 +64,7 @@ methodology_notes:
       carried by another tier-1 instrument cited on the entity itself, so every counted
       ministry here rests on a legal instrument. The set of twenty-one is closed by the
       Prime Minister's Office's own precedence list of the government's ministers, which is
-      the listing order used for the `order` field below.
+      the order they are listed in here.
     es: >-
       No existe un instrumento jurídico danés que enumere los ministerios en un solo lugar,
       de modo que la enumeración aquí se compone en lugar de copiarse. Según la práctica
@@ -78,7 +78,7 @@ methodology_notes:
       Beredskab— llevan cada uno otro instrumento de nivel 1 citado en la propia entidad,
       por lo que todos los ministerios contados se apoyan en un instrumento jurídico. El
       conjunto de veintiuno se cierra con la lista de precedencia de los ministros que
-      publica el Statsministeriet, que es el orden de listado usado en el campo `order`.
+      publica el Statsministeriet, que es el orden en que se listan aquí.
   - en: >-
       What changed on 3 June 2026, and why the Danish count fell. Three ministries were
       abolished: Ministeriet for Fødevarer, Landbrug og Fiskeri (its business going mainly
@@ -107,7 +107,7 @@ methodology_notes:
       digitalización, ni ministerio de la Iglesia como tal. También se suprimió el puesto de
       europaminister y sus áreas se asignaron al ministro de Exteriores.
   - en: >-
-      Minister titles and ministry names do not always match in Denmark, and this file
+      Minister titles and ministry names do not always match in Denmark, and this page
       follows the ministry. Three cases: the minister appointed on 3 June 2026 is styled
       erhvervs- og konkurrencekraftsminister, but no instrument renamed Erhvervsministeriet
       and the ministry's own website still calls itself Erhvervsministeriet; the
@@ -121,7 +121,7 @@ methodology_notes:
       renamed Beskæftigelses- og Ligestillingsministeriet.
     es: >-
       En Dinamarca los títulos de los ministros no siempre coinciden con los nombres de los
-      ministerios, y este fichero sigue al ministerio. Tres casos: el ministro nombrado el 3
+      ministerios, y esta ficha sigue al ministerio. Tres casos: el ministro nombrado el 3
       de junio de 2026 se titula erhvervs- og konkurrencekraftsminister, pero ningún
       instrumento renombró el Erhvervsministeriet y la propia web del ministerio sigue
       llamándose Erhvervsministeriet; el ministro de Sanidad es a la vez ministro de la
@@ -138,17 +138,17 @@ methodology_notes:
       royal resolution of 3 June 2026, and a second royal resolution of 5 June 2026 moved a
       few further subject areas (ECOFIN and international economic affairs, and relations
       with the IMF, to the ministry renamed Skatte- og Vækstministeriet). Both were
-      published together as BEK nr 514 af 08/06/2026, in Lovtidende A of 11 June 2026.
-      `took_office` is 3 June 2026, the date the ministers were appointed and the date the
-      Prime Minister's Office gives for the government.
+      published together as BEK nr 514 af 08/06/2026, in Lovtidende A of 11 June 2026. The
+      date of taking office recorded here is 3 June 2026, the date the ministers were
+      appointed and the date the Prime Minister's Office gives for the government.
     es: >-
       Dos reales resoluciones, una fecha de toma de posesión. El gobierno fue nombrado por la
       real resolución de 3 de junio de 2026, y una segunda real resolución de 5 de junio de
       2026 trasladó algunas materias adicionales (ECOFIN y economía internacional, y las
       relaciones con el FMI, al ministerio renombrado Skatte- og Vækstministeriet). Ambas se
       publicaron juntas como BEK nr 514 af 08/06/2026, en el Lovtidende A de 11 de junio de
-      2026. `took_office` es el 3 de junio de 2026, fecha del nombramiento de los ministros y
-      la que da el Statsministeriet para este gobierno.
+      2026. La fecha de toma de posesión que se registra aquí es el 3 de junio de 2026, la del
+      nombramiento de los ministros y la que da el Statsministeriet para este gobierno.
   - en: >-
       Ministeriet for Samfundssikkerhed og Beredskab is recorded in the definite form used
       by Lovtidende and by the ministry itself. The instrument that created it, BEK nr 1005
@@ -162,31 +162,32 @@ methodology_notes:
       Beredskab», que es la fórmula danesa habitual para crear un departamento y no un
       segundo nombre.
   - en: >-
-      English and Spanish ministry names in this file are the project's own renderings and
-      are marked translated. Danish ministries do publish English names, but after the
+      English and Spanish ministry names on this page are the project's own renderings and
+      are marked as such. Danish ministries do publish English names, but after the
       reorganisation of 3 June 2026 there is no consolidated official English list of the
       twenty-one, and several of the renamed ministries had not published an English name at
-      the access date. Marking a rendering official when it is ours is the one error the
-      validator cannot catch, so nothing here is marked official.
+      the access date. Marking a rendering as official when it is ours is the one error no
+      automated check can catch, so no name here is marked as the government's own.
     es: >-
-      Los nombres en inglés y español de este fichero son traducciones del proyecto y llevan
-      la marca translated. Los ministerios daneses publican nombres en inglés, pero tras la
+      Los nombres en inglés y español de esta ficha son traducciones del proyecto y así se
+      indican. Los ministerios daneses publican nombres en inglés, pero tras la
       reorganización del 3 de junio de 2026 no existe una lista oficial consolidada en inglés
       de los veintiuno, y varios de los ministerios renombrados no habían publicado nombre
       inglés en la fecha de consulta. Marcar como oficial una traducción propia es el único
-      error que el validador no puede detectar, así que aquí nada se marca como oficial.
+      error que ningún control automático puede detectar, así que aquí ningún nombre se
+      señala como propio del gobierno.
   - en: >-
-      Perimeter. This file describes the central government of Denmark. Greenland and the
+      Perimeter. This page describes the central government of Denmark. Greenland and the
       Faroe Islands are self-governing parts of the Kingdom with their own governments and
       their own ministers, and they are out of scope; Danish ministers who hold Realm
-      portfolios do so within the departments recorded here. The population figure in
-      data/countries/DK.yml is on the same perimeter.
+      portfolios do so within the departments recorded here. The population figure published
+      for Denmark is on the same perimeter.
     es: >-
-      Perímetro. Este fichero describe el gobierno central de Dinamarca. Groenlandia y las
+      Perímetro. Esta ficha describe el gobierno central de Dinamarca. Groenlandia y las
       Islas Feroe son partes autónomas del Reino con sus propios gobiernos y ministros, y
       quedan fuera de alcance; los ministros daneses con carteras del Reino las ejercen
-      dentro de los departamentos aquí registrados. La cifra de población de
-      data/countries/DK.yml se refiere al mismo perímetro.
+      dentro de los departamentos aquí registrados. La cifra de población publicada para
+      Dinamarca se refiere al mismo perímetro.
 
 sources:
   - id: bek-514-2026

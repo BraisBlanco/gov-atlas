@@ -48,7 +48,7 @@ methodology_notes:
       ministrů", so the Prime Minister's seat is a matter of constitutional law rather than
       of our interpretation, and article 68(2) is what allows a minister to be charged with
       running "jiných úřadů" instead of a ministry. Neither figure is wrong; they answer
-      different questions, and this file never adds them.
+      different questions, and this page never adds them.
     es: >-
       14 ministerios y 16 asientos en el gabinete. Los catorce son exactamente los órganos
       centrales enumerados en el § 1 de la zákon č. 2/1969 Sb. (la kompetenční zákon) en la
@@ -61,36 +61,36 @@ methodology_notes:
       ministro es cuestión de derecho constitucional y no de nuestra interpretación, y el
       artículo 68.2 es lo que permite encomendar a un ministro la dirección de «jiných úřadů»
       en lugar de un ministerio. Ninguna de las dos cifras es incorrecta: responden a
-      preguntas distintas, y este fichero nunca las suma.
+      preguntas distintas, y esta ficha nunca las suma.
   - en: >-
       The one minister without a portfolio, and why sport is tagged where it is. Boris
       Šťastný was sworn in on 15 December 2025 as ministr pro sport, prevenci a zdraví, a post
       this government created; the government's own press release says he "bude sídlit na
       Úřadu vlády", and § 1 of the kompetenční zákon was not amended to add a ministry for
-      him. He therefore holds a cabinet seat and no department, and is recorded here as
-      minister_without_portfolio — the reason the cabinet is sixteen people and the government
+      him. He therefore holds a cabinet seat and no department, and is recorded here as a
+      minister without portfolio — the reason the cabinet is sixteen people and the government
       fourteen departments. The statutory home of sport is unchanged: § 7 odst. 1 gives
       "státní péče o děti, mládež a tělesnou výchovu" to the Ministerstvo školství, mládeže a
       tělovýchovy, whose name still ends in "a tělovýchovy", and the Národní sportovní
-      agentura remains one of the central authorities of § 2. The sport tag is therefore on
-      the education ministry, not on the new post. A curator who treated the new post as a
+      agentura remains one of the central authorities of § 2. The sport area is therefore
+      carried by the education ministry, not by the new post. Treating the new post as a
       fifteenth ministry — as several press summaries of the cabinet do, calling it a
-      "ministerstvo sportu" — would publish 15; that reading has no support in § 1.
+      "ministerstvo sportu" — would give 15; that reading has no support in § 1.
     es: >-
       El único ministro sin cartera, y por qué el deporte se etiqueta donde se etiqueta. Boris
       Šťastný tomó posesión el 15 de diciembre de 2025 como ministr pro sport, prevenci a
       zdraví, un puesto creado por este gobierno; la propia nota de prensa del gobierno dice
       que «bude sídlit na Úřadu vlády», y el § 1 de la kompetenční zákon no se modificó para
       añadirle un ministerio. Ocupa por tanto un asiento en el gabinete sin departamento y se
-      registra como minister_without_portfolio: es la razón de que el gabinete sean dieciséis
+      registra como ministro sin cartera: es la razón de que el gabinete sean dieciséis
       personas y el gobierno catorce departamentos. La sede legal del deporte no ha cambiado:
       el § 7 apartado 1 atribuye la «státní péče o děti, mládež a tělesnou výchovu» al
       Ministerstvo školství, mládeže a tělovýchovy, cuyo nombre sigue terminando en «a
       tělovýchovy», y la Národní sportovní agentura sigue siendo uno de los órganos centrales
-      del § 2. La etiqueta sport está por tanto en el ministerio de educación y no en el nuevo
-      puesto. Un curador que tratara el nuevo puesto como un decimoquinto ministerio —como
+      del § 2. El área de deporte la lleva por tanto el ministerio de educación y no el nuevo
+      puesto. Tratar el nuevo puesto como un decimoquinto ministerio —como
       hacen varios resúmenes de prensa del gabinete, que lo llaman «ministerstvo sportu»—
-      publicaría 15; esa lectura no tiene apoyo en el § 1.
+      daría 15; esa lectura no tiene apoyo en el § 1.
   - en: >-
       Why the Úřad vlády České republiky is not recorded, and neither is any other body from
       § 2. The Úřad vlády (Office of the Government) is item 10 of § 2, the list of central
@@ -101,9 +101,9 @@ methodology_notes:
       vedoucí Úřadu vlády appointed and dismissed by the government, a civil servant who is
       not a minister and holds no seat. Recording it as an entity would either invent a
       fifteenth department or a seventeenth seat, so the předseda vlády is recorded instead,
-      uncounted, under head_of_government_office. The same reasoning excludes the other
-      sixteen § 2 authorities: the Český statistický úřad (whose figure this dataset's Czech
-      population comes from), the Český úřad zeměměřický a katastrální, the Úřad pro ochranu
+      uncounted, as the office of the head of government. The same reasoning excludes the other
+      sixteen § 2 authorities: the Český statistický úřad (the source of the population figure
+      published for Czechia), the Český úřad zeměměřický a katastrální, the Úřad pro ochranu
       hospodářské soutěže, the Národní sportovní agentura, the Digitální a informační agentura
       and the rest are central authorities whose heads do not sit in the cabinet, and no
       official source presents any of them as cabinet-level. Two consequences are worth
@@ -124,9 +124,9 @@ methodology_notes:
       vedoucí Úřadu vlády nombrado y separado por el gobierno, un funcionario que no es
       ministro y no tiene asiento. Registrarlo como entidad inventaría un decimoquinto
       departamento o un decimoséptimo asiento, de modo que se registra en su lugar el předseda
-      vlády, sin contarlo, por head_of_government_office. El mismo razonamiento excluye a los
+      vlády, sin contarlo, como oficina del jefe de gobierno. El mismo razonamiento excluye a los
       otros dieciséis órganos del § 2: el Český statistický úřad (de donde procede la cifra de
-      población checa de este dataset), el Český úřad zeměměřický a katastrální, el Úřad pro
+      población publicada para Chequia), el Český úřad zeměměřický a katastrální, el Úřad pro
       ochranu hospodářské soutěže, la Národní sportovní agentura, la Digitální a informační
       agentura y los demás son órganos centrales cuyos titulares no se sientan en el gabinete,
       y ninguna fuente oficial los presenta como de rango ministerial. Dos consecuencias
@@ -144,7 +144,7 @@ methodology_notes:
       members shows. A deputy premiership is a personal office attached to a minister, not a
       department, so it creates neither a ministry nor a seat, and no entity here is recorded
       for it. Which ministers hold them can change with a reshuffle; the departmental
-      structure of § 1 does not, and only the latter is recorded in this file. There is no
+      structure of § 1 does not, and only the latter is recorded in this page. There is no
       deputy prime minister without a portfolio in this cabinet.
     es: >-
       Los viceprimeros ministros no añaden nada a ninguna de las dos cifras. Cuatro de los
@@ -153,7 +153,7 @@ methodology_notes:
       de miembros del gobierno. Una vicepresidencia del gobierno es un cargo personal adscrito
       a un ministro, no un departamento, por lo que no crea ni ministerio ni asiento, y aquí
       no se registra ninguna entidad por ella. Quién las ostenta puede cambiar con una
-      remodelación; la estructura departamental del § 1 no, y en este fichero sólo se registra
+      remodelación; la estructura departamental del § 1 no, y en esta ficha sólo se registra
       esta última. En este gabinete no hay ningún viceprimer ministro sin cartera.
   - en: >-
       One ministry ran without its own minister for ten weeks, and no entity records it. The
@@ -162,13 +162,15 @@ methodology_notes:
       Macinka, was charged with running the Ministerstvo životního prostředí until Igor Červený
       was appointed to it on 23 February 2026. That was a vacancy in a ministerial post, not a
       change to the list of departments: § 1 was untouched, the ministry existed and acted
-      throughout, and this file records the structure in force on the access date, so the
-      environment entity carries no valid_from and no shared_head_with. A reader reconstructing
+      throughout, and this page records the structure in force on the access date, so the
+      environment entity is recorded with neither a start date of its own nor a shared head.
+      A reader reconstructing
       the cabinet as it stood in January 2026 should note that the ministry then shared a head
       with the foreign ministry, and that the derived seat count for that period would have
       been fifteen rather than sixteen. The government won the confidence of the Poslanecká
-      sněmovna on 15 January 2026, within the thirty days článek 68 odst. 3 allows;
-      took_office in this file is the date of appointment, not of the confidence vote.
+      sněmovna on 15 January 2026, within the thirty days článek 68 odst. 3 allows; the date
+      recorded here for the cabinet taking office is the date of appointment, not of the
+      confidence vote.
     es: >-
       Un ministerio funcionó diez semanas sin ministro propio, y ninguna entidad lo refleja. El
       presidente nombró a quince de los dieciséis miembros el 15 de diciembre de 2025; el
@@ -176,69 +178,71 @@ methodology_notes:
       Exteriores, Petr Macinka, quedó encargado de dirigir el Ministerstvo životního prostředí
       hasta que Igor Červený fue nombrado el 23 de febrero de 2026. Fue una vacante en un
       puesto ministerial, no un cambio en la lista de departamentos: el § 1 no se tocó, el
-      ministerio existió y actuó durante todo ese tiempo, y este fichero registra la estructura
-      vigente en la fecha de consulta, de modo que la entidad de medio ambiente no lleva
-      valid_from ni shared_head_with. Quien reconstruya el gabinete tal como estaba en enero de
+      ministerio existió y actuó durante todo ese tiempo, y esta ficha registra la estructura
+      vigente en la fecha de consulta, de modo que la entidad de medio ambiente se registra sin
+      fecha de inicio propia y sin titular compartido. Quien reconstruya el gabinete tal como
+      estaba en enero de
       2026 debe tener en cuenta que entonces el ministerio compartía titular con el de
       Exteriores y que el recuento derivado de asientos para ese periodo habría sido quince y
       no dieciséis. El gobierno obtuvo la confianza de la Poslanecká sněmovna el 15 de enero de
-      2026, dentro de los treinta días que permite el artículo 68 apartado 3; el took_office de
-      este fichero es la fecha del nombramiento, no la de la votación de confianza.
+      2026, dentro de los treinta días que permite el artículo 68 apartado 3; la fecha de toma
+      de posesión registrada aquí es la del nombramiento, no la de la votación de confianza.
   - en: >-
       English ministry names are the Czech government's own; Spanish names are ours. All
       fourteen English names are copied from the Ministries page of the English-language
-      edition of vlada.gov.cz and are marked name_en_provenance official, as are the English
+      edition of vlada.gov.cz and are marked as the government's own names, as are the English
       ministerial titles, which come from the same site's list of members. Two inconsistencies
       in that source are reproduced faithfully rather than smoothed over: the site writes
       "Ministry of Interior" for the department but "Minister of the Interior" for its head,
       and it writes "Ministry of the Environment" as the department's heading while the body
-      text of the same entry says "Ministry of Environment". Every Spanish name in this file is
-      this project's own rendering and is marked translated; so is the Spanish name of the
-      country's own institutions in the notes. Czech has one official language, so
-      name_original raises none of the parallel-name questions that Belgium's or Finland's
-      entries do.
+      text of the same entry says "Ministry of Environment". Every Spanish name on this page is
+      this project's own translation and is marked as such; so is the Spanish name of the
+      country's own institutions in the notes. Czech has one official language, so the
+      original names here raise no parallel-name questions.
     es: >-
       Los nombres ingleses de los ministerios son los del propio gobierno checo; los españoles
       son nuestros. Los catorce nombres en inglés están copiados de la página Ministries de la
-      edición inglesa de vlada.gov.cz y llevan name_en_provenance official, igual que los
-      títulos ministeriales en inglés, que proceden de la lista de miembros del mismo sitio.
+      edición inglesa de vlada.gov.cz y se señalan como nombres propios del gobierno, igual que
+      los títulos ministeriales en inglés, que proceden de la lista de miembros del mismo sitio.
       Dos incoherencias de esa fuente se reproducen fielmente en lugar de corregirse: el sitio
       escribe «Ministry of Interior» para el departamento pero «Minister of the Interior» para
       su titular, y escribe «Ministry of the Environment» como encabezamiento del departamento
       mientras el cuerpo de la misma entrada dice «Ministry of Environment». Todos los nombres
-      en español de este fichero son traducciones propias del proyecto y llevan la marca
-      translated. El checo es la única lengua oficial, de modo que name_original no plantea
-      aquí las cuestiones de nombres paralelos que sí plantean Bélgica o Finlandia.
+      en español de esta ficha son traducciones propias de este proyecto y así se indican;
+      también lo es el nombre español de las instituciones del propio país en las notas. El
+      checo es la única lengua oficial, de modo que los nombres originales no plantean aquí
+      cuestiones de nombres paralelos.
   - en: >-
       A sourcing weakness a reader should know about. The instrument that enumerates the
       ministries is a statute, and the official Sbírka zákonů publishes it at e-sbirka.cz — but
       that site is a client-rendered application, and every web-archive snapshot of it,
-      including the one cited here and every attempt made on the access date to create a fresh
-      one, preserves only the empty application shell. The quoted text of §§ 1, 2 and 28 was
+      including the one cited here, preserves only the empty application shell, and fresh
+      snapshots made as of the access date come out the same way. The quoted text of §§ 1, 2
+      and 28 was
       therefore read from the official machine-readable ELI open data of the same system
       (opendata.eselpoint.gov.cz), fragment by fragment, and cross-checked word for word
       against two static renderings: the Ministry of Agriculture's official publication of the
       consolidated Act, whose server blocks archiving crawlers, and the commercial consolidated
       text at zakonyprolidi.cz, which is archived and is cited at tier 3 for that purpose. All
       three agree exactly. This is the reason Czechia's tier-1 citation cannot be checked by
-      opening its snapshot the way Spain's or Estonia's can, and it is a property of the Czech
-      official gazette rather than of this file.
+      opening an archived snapshot, unlike what is usual in this project, and it is a property
+      of the Czech official gazette rather than of this page.
     es: >-
       Una debilidad de las fuentes que el lector debe conocer. El instrumento que enumera los
       ministerios es una ley, y la Sbírka zákonů oficial la publica en e-sbirka.cz, pero ese
       sitio es una aplicación que se renderiza en el navegador y todas las copias de archivo
-      web que existen de él —incluida la citada aquí y todos los intentos de crear una nueva en
-      la fecha de consulta— conservan sólo el armazón vacío de la aplicación. El texto citado
+      web que existen de él —incluida la citada aquí— conservan sólo el armazón vacío de la
+      aplicación, y las copias nuevas creadas a fecha de consulta salen igual. El texto citado
       de los §§ 1, 2 y 28 se leyó por ello en los datos abiertos oficiales legibles por máquina
       del mismo sistema (opendata.eselpoint.gov.cz), fragmento a fragmento, y se cotejó palabra
       por palabra con dos versiones estáticas: la publicación oficial del texto consolidado por
       el Ministerio de Agricultura, cuyo servidor bloquea a los rastreadores de archivo, y el
       texto consolidado comercial de zakonyprolidi.cz, que sí está archivado y se cita en nivel
       3 con ese fin. Las tres coinciden exactamente. Es la razón por la que la cita de nivel 1
-      de Chequia no puede comprobarse abriendo su copia archivada como sí puede hacerse con la
-      de España o Estonia, y es una propiedad del boletín oficial checo, no de este fichero.
+      de Chequia no puede comprobarse abriendo una copia archivada, a diferencia de lo habitual
+      en este proyecto, y es una propiedad del boletín oficial checo, no de esta ficha.
   - en: >-
-      Perimeter. This file describes the central government of the Czech Republic. The fourteen
+      Perimeter. This page describes the central government of the Czech Republic. The fourteen
       kraje and the municipalities are subnational and out of scope; oversight of them is a
       portfolio of the Ministerstvo vnitra and the Ministerstvo pro místní rozvoj rather than a
       ministry of its own. The President of the Republic is head of state, appoints the
@@ -246,11 +250,12 @@ methodology_notes:
       independent monetary authority outside the executive and is not one of the § 2 central
       authorities. § 1 lists fourteen items in the redaction in force on the access date and in
       the later redaction already published as taking effect on 1 January 2027, so the ministry
-      count is not due to change on any instrument published so far; § 2, by contrast, grows
+      count is not due to change on any instrument published as of the access date; § 2, by
+      contrast, grows
       from seventeen items to nineteen in that 2027 redaction, which changes the count of
       central authorities and not the count of ministries.
     es: >-
-      Perímetro. Este fichero describe el gobierno central de la República Checa. Los catorce
+      Perímetro. Esta ficha describe el gobierno central de la República Checa. Los catorce
       kraje y los municipios son subnacionales y quedan fuera de alcance; su tutela es una
       cartera del Ministerstvo vnitra y del Ministerstvo pro místní rozvoj y no un ministerio
       propio. El presidente de la República es jefe del Estado, nombra al gobierno según el
@@ -258,7 +263,8 @@ methodology_notes:
       independiente ajena al ejecutivo y no figura entre los órganos centrales del § 2. El § 1
       enumera catorce puntos en la redacción vigente en la fecha de consulta y también en la
       redacción posterior ya publicada con efectos de 1 de enero de 2027, de modo que la cifra
-      de ministerios no va a cambiar según ningún instrumento publicado hasta ahora; el § 2, en
+      de ministerios no va a cambiar según ningún instrumento publicado a la fecha de consulta;
+      el § 2, en
       cambio, pasa de diecisiete a diecinueve puntos en esa redacción de 2027, lo que altera el
       recuento de órganos centrales y no el de ministerios.
 

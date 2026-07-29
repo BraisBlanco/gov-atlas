@@ -50,8 +50,8 @@ methodology_notes:
       article 9(1) of legge 23 agosto 1988, n. 400 they are appointed "presso la
       Presidenza del Consiglio dei ministri" and exercise functions delegated to them by
       the President of the Council; they head a department (*dipartimento*) of the Prime
-      Minister's own office, not a ministry with its own budget. They contribute to
-      cabinet_seats_count and never to ministries_count. Sources that report "Italy's
+      Minister's own office, not a ministry with its own budget. They count towards the
+      seats figure and never towards the ministries figure. Sources that report "Italy's
       government has 25 members" are counting the Council of Ministers, which is a
       different question from how many ministries exist.
     es: >-
@@ -59,8 +59,8 @@ methodology_notes:
       Según el artículo 9.1 de la legge 23 agosto 1988, n. 400 se nombran «presso la
       Presidenza del Consiglio dei ministri» y ejercen las funciones que les delega el
       presidente del Consejo; encabezan un departamento (*dipartimento*) de la propia
-      oficina del presidente, no un ministerio con presupuesto propio. Cuentan para
-      cabinet_seats_count y nunca para ministries_count. Las fuentes que dicen que «el
+      oficina del presidente, no un ministerio con presupuesto propio. Cuentan para la
+      cifra de asientos y nunca para la de ministerios. Las fuentes que dicen que «el
       gobierno italiano tiene 25 miembros» están contando el Consejo de Ministros, que es
       una pregunta distinta de cuántos ministerios existen.
   - en: >-
@@ -108,9 +108,9 @@ methodology_notes:
       "the South" removed from it (decree of 10 November 2022); regulatory simplification
       was added to institutional reforms (same date); and the European affairs portfolio
       was re-conferred, retitled and given to a different person in December 2024. This
-      file records the configuration in force on the access date, 27 July 2026, and cites
+      page records the configuration in force on the access date, 27 July 2026, and cites
       the decree behind each. The count of nine such posts has held throughout the term,
-      so cabinet_seats_count is unaffected by the churn.
+      so the seats figure is unaffected by the churn.
     es: >-
       Las delegaciones de los ministros sin cartera son personales y se confieren por
       decreto del presidente del Consejo, de modo que cambian a lo largo de la legislatura
@@ -119,10 +119,10 @@ methodology_notes:
       políticas del mar y se le retiró «el Sur» (decreto del 10 de noviembre de 2022); se
       añadió la simplificación normativa a las reformas institucionales (misma fecha); y
       la cartera de asuntos europeos se volvió a conferir, con otro título y a otra
-      persona, en diciembre de 2024. Este fichero registra la configuración vigente en la
+      persona, en diciembre de 2024. Esta ficha registra la configuración vigente en la
       fecha de consulta, 27 de julio de 2026, y cita el decreto de cada una. El número de
-      nueve puestos se ha mantenido toda la legislatura, por lo que cabinet_seats_count no
-      se ve afectado por esos cambios.
+      nueve puestos se ha mantenido toda la legislatura, por lo que la cifra de asientos no
+      se ve afectada por esos cambios.
   - en: >-
       The Presidenza del Consiglio dei Ministri is not a ministry. Article 2 of decreto
       legislativo 300/1999 does not list it, it holds no portfolio, and it is governed by a
@@ -138,8 +138,8 @@ methodology_notes:
   - en: >-
       Vice-ministri and sottosegretari di Stato are subordinate to a minister and work
       inside an existing department, so they are neither ministries nor cabinet seats and
-      are not enumerated here — there are around forty of them and they belong to a
-      different dataset. One exception is recorded: the Under-Secretary of State to the
+      are not enumerated here — there are around forty of them and they are outside this
+      project's scope. One exception is recorded: the Under-Secretary of State to the
       Presidency of the Council who serves as Secretary of the Council of Ministers. He
       attends every meeting and signs its minutes, but article 92 of the Constitution makes
       the Council "il Presidente del Consiglio e i ministri" only, so he is recorded with no
@@ -147,8 +147,8 @@ methodology_notes:
     es: >-
       Los viceministros y los subsecretarios de Estado están subordinados a un ministro y
       trabajan dentro de un departamento existente, por lo que no son ni ministerios ni
-      asientos en el gabinete y no se enumeran aquí: son unos cuarenta y pertenecen a otro
-      conjunto de datos. Se registra una excepción: el subsecretario de Estado de la
+      asientos en el gabinete y no se enumeran aquí: son unos cuarenta y quedan fuera del
+      alcance de este proyecto. Se registra una excepción: el subsecretario de Estado de la
       Presidencia del Consejo que ejerce de secretario del Consejo de Ministros. Asiste a
       todas las reuniones y firma sus actas, pero el artículo 92 de la Constitución define
       el Consejo únicamente como «il Presidente del Consiglio e i ministri», de modo que se

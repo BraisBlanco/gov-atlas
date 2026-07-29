@@ -31,16 +31,16 @@ methodology_notes:
       délégués, who are attached to a minister and act inside an existing department
       rather than heading one of their own. Sources that answer "how big is the French
       government?" with 36 are not wrong; they are answering a different question. This
-      dataset counts departments.
+      project counts departments.
     es: >-
       Francia tiene 19 departamentos ministeriales pero 36 miembros del Gobierno. La
       diferencia son el primer ministro, que ocupa asiento sin encabezar departamento, y
       16 ministros delegados, adscritos a un ministro y que actúan dentro de un
       departamento existente en lugar de encabezar uno propio. Las fuentes que responden
       «¿de qué tamaño es el Gobierno francés?» con 36 no se equivocan: responden a otra
-      pregunta. Este conjunto de datos cuenta departamentos.
+      pregunta. Este proyecto cuenta departamentos.
   - en: >-
-      cabinet_seats_count is 20: the Prime Minister plus the 19 ministres. Two readings
+      The cabinet-seats figure is 20: the Prime Minister plus the 19 ministres. Two readings
       would give a larger number. The composition decree grants two ministres délégués —
       relations with Parliament, and the government spokesperson — participation in the
       conseil des ministres without restriction, which would make 22; the other 14 attend
@@ -50,8 +50,8 @@ methodology_notes:
       Constitution supports directly, and record the alternatives here rather than
       leaving a reader to guess which we used.
     es: >-
-      cabinet_seats_count es 20: el primer ministro más los 19 ministros. Dos lecturas
-      darían una cifra mayor. El decreto de composición concede a dos ministros delegados
+      La cifra de asientos en el gabinete es 20: el primer ministro más los 19 ministros.
+      Dos lecturas darían una cifra mayor. El decreto de composición concede a dos ministros delegados
       —relaciones con el Parlamento y portavoz del Gobierno— participación sin
       restricciones en el conseil des ministres, lo que daría 22; los otros 14 asisten
       solo «pour les affaires relevant de leurs attributions», es decir para sus propios
@@ -70,7 +70,7 @@ methodology_notes:
       an arrêté of 30 June 2026 on the Prime Minister's own staff still cites the 10
       October 2025 appointment and is signed by Lecornu. In French practice a remaniement
       that does not re-appoint the Prime Minister changes officeholders, not the
-      government, so this is one cabinet and took_office is 12 October 2025. It is
+      government, so this is one cabinet and the date it took office is 12 October 2025. It is
       commonly called "Lecornu II" to distinguish it from the government of 5-6 October
       2025, which lasted about fourteen hours; that name is journalistic, not official.
     es: >-
@@ -85,8 +85,8 @@ methodology_notes:
       sobre el gabinete del propio primer ministro sigue citando el nombramiento del 10 de
       octubre de 2025 y lo firma Lecornu. En la práctica francesa, una remodelación que no
       renombra al primer ministro cambia titulares, no gobierno: por tanto es un solo
-      gabinete y took_office es el 12 de octubre de 2025. Se le llama habitualmente
-      «Lecornu II» para distinguirlo del gobierno del 5-6 de octubre de 2025, que duró
+      gabinete y su fecha de toma de posesión es el 12 de octubre de 2025. Se le llama
+      habitualmente «Lecornu II» para distinguirlo del gobierno del 5-6 de octubre de 2025, que duró
       unas catorce horas; ese nombre es periodístico, no oficial.
   - en: >-
       Source weakness, stated plainly. The instrument that enumerates the departments is
@@ -96,9 +96,9 @@ methodology_notes:
       That text was read on Légifrance, but Légifrance sits behind a bot challenge: the
       Internet Archive's Save Page Now returns an error for every Légifrance URL, the one
       capture it did produce is the challenge page rather than the decree, and
-      archive.today is CAPTCHA-gated. Rather than cite a tier-1 source with an archive_url
-      that does not show the cited text, this file rests its enumeration on two archived
-      pages of the government's own portal, info.gouv.fr, which reproduce the decree's
+      archive.today is CAPTCHA-gated. Rather than cite a tier-1 source with an archived
+      snapshot that does not show the cited text, this page rests its enumeration on two
+      archived pages of the government's own portal, info.gouv.fr, which reproduce the decree's
       list. France is therefore graded B, not A. The decree is real and its reference is
       given here so any reader can check it; what is missing is a durable snapshot, not
       the source.
@@ -110,53 +110,53 @@ methodology_notes:
       n° 0050). Ese texto se consultó en Légifrance, pero Légifrance está tras un filtro
       antibots: el Save Page Now de Internet Archive devuelve error en todas las URL de
       Légifrance, la única captura que llegó a generar es la página del filtro y no el
-      decreto, y archive.today exige CAPTCHA. Antes que citar una fuente de nivel 1 con un
-      archive_url que no muestra el texto citado, este fichero apoya su enumeración en dos
+      decreto, y archive.today exige CAPTCHA. Antes que citar una fuente de nivel 1 con una
+      copia archivada que no muestra el texto citado, esta ficha apoya su enumeración en dos
       páginas archivadas del propio portal del Gobierno, info.gouv.fr, que reproducen la
       lista del decreto. Francia queda por tanto calificada B y no A. El decreto es real y
       su referencia se da aquí para que cualquiera lo compruebe; lo que falta es una copia
       archivada duradera, no la fuente.
   - en: >-
-      Two things a comparison view will get wrong about France unless it reads this.
+      Two things the comparison views can mislead about France.
       Energy is not in the ecological-transition ministry: "souveraineté énergétique" sits
       in the Ministère de l'Économie, des Finances et de la Souveraineté industrielle,
       énergétique et numérique, which also has a delegated minister for energy. And the
       budget is not in the finance ministry: public accounts and the civil service are a
       separate department, the Ministère de l'Action et des Comptes publics. Immigration
-      and asylum are tagged to the Ministère de l'Intérieur, which the décret d'attributions
+      and asylum are carried by the Ministère de l'Intérieur, which the décret d'attributions
       of 29 October 2025 charges with "l'immigration, l'asile, l'intégration des étrangers
       en France", even though its one-word name says nothing about it.
     es: >-
-      Dos cosas que una vista comparativa entenderá mal sobre Francia si no lee esto. La
+      Dos cosas que las vistas comparativas pueden dar a entender mal sobre Francia. La
       energía no está en el ministerio de transición ecológica: la «souveraineté
       énergétique» está en el Ministère de l'Économie, des Finances et de la Souveraineté
       industrielle, énergétique et numérique, que además tiene una ministra delegada de
       Energía. Y el presupuesto no está en el ministerio de finanzas: las cuentas públicas
       y la función pública son un departamento aparte, el Ministère de l'Action et des
-      Comptes publics. La inmigración y el asilo se etiquetan en el Ministère de
+      Comptes publics. La inmigración y el asilo corresponden aquí al Ministère de
       l'Intérieur, al que el décret d'attributions del 29 de octubre de 2025 encomienda
       «l'immigration, l'asile, l'intégration des étrangers en France», aunque su nombre de
       una sola palabra no lo diga.
   - en: >-
       What the February 2026 reshuffle did and did not change. Not one ministerial
-      department was created, merged, renamed or abolished, so all 19 carry no
-      valid_from/valid_to. Among the delegated posts it did move things: a delegated
+      department was created, merged, renamed or abolished, so none of the 19 carries a
+      time window of its own. Among the delegated posts it did move things: a delegated
       minister for citizenship and one for vocational education and apprenticeship were
-      created on 26 February 2026 and carry valid_from; the delegated portfolio for the
+      created on 26 February 2026 and carry that start date; the delegated portfolio for the
       civil service and state reform was ended on 22 February 2026, when its holder was
-      promoted to head the Ministère de l'Action et des Comptes publics, and it is kept in
-      the file with valid_to rather than deleted. One person, the government spokesperson,
+      promoted to head the Ministère de l'Action et des Comptes publics, and it is kept
+      here with its end date rather than deleted. One person, the government spokesperson,
       holds two delegated posts at once and appears twice on the official composition page;
       she is recorded once.
     es: >-
       Qué cambió y qué no en la remodelación de febrero de 2026. No se creó, fusionó,
       renombró ni suprimió ningún departamento ministerial, de modo que los 19 no llevan
-      valid_from ni valid_to. Entre los puestos delegados sí hubo movimiento: se crearon el
+      ventana temporal propia. Entre los puestos delegados sí hubo movimiento: se crearon el
       26 de febrero de 2026 una ministra delegada de Ciudadanía y otra de Enseñanza y
-      Formación Profesionales y Aprendizaje, que llevan valid_from; la delegación de
+      Formación Profesionales y Aprendizaje, que llevan esa fecha de inicio; la delegación de
       Función Pública y Reforma del Estado se extinguió el 22 de febrero de 2026, cuando su
       titular pasó a encabezar el Ministère de l'Action et des Comptes publics, y se
-      conserva en el fichero con valid_to en lugar de borrarse. Una misma persona, la
+      conserva aquí con su fecha de fin en lugar de borrarse. Una misma persona, la
       portavoz del Gobierno, ocupa dos puestos delegados a la vez y figura dos veces en la
       página oficial de composición; se registra una sola vez.
 

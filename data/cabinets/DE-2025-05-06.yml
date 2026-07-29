@@ -65,9 +65,8 @@ methodology_notes:
       a minister with cabinet rank and no portfolio department. And there are 18 members
       of the cabinet, once the Chancellor is added; the Federal Government's own cabinet
       page says the government "besteht aus Bundeskanzler Friedrich Merz sowie 17
-      Bundesministerinnen und -ministern". This dataset therefore publishes
-      ministries_count 16 and cabinet_seats_count 18. Neither figure is wrong and they are
-      never added together.
+      Bundesministerinnen und -ministern". This site therefore publishes 16 ministries and
+      18 cabinet seats. Neither figure is wrong and they are never added together.
     es: >-
       Alemania arroja tres cifras distintas que no son intercambiables. Hay 16 ministerios
       federales. Hay 17 ministros federales, porque el jefe de la Cancillería Federal
@@ -75,24 +74,24 @@ methodology_notes:
       rango de gabinete y sin departamento. Y hay 18 miembros del gabinete, sumando al
       canciller; la propia página del gabinete del Gobierno Federal dice que el gobierno
       «besteht aus Bundeskanzler Friedrich Merz sowie 17 Bundesministerinnen und
-      -ministern». Este conjunto de datos publica por tanto ministries_count 16 y
-      cabinet_seats_count 18. Ninguna de las dos cifras es incorrecta y nunca se suman.
+      -ministern». Este sitio publica por tanto 16 ministerios y 18 asientos en el
+      gabinete. Ninguna de las dos cifras es incorrecta y nunca se suman.
   - en: >-
-      Germany is a federal state and this file covers the Bundesregierung only. Each of
+      Germany is a federal state and this page covers the Bundesregierung only. Each of
       the 16 Länder has its own cabinet of Landesministerien, and those departments hold
       primary competence for areas that in a centralised state such as Spain sit with a
       national ministry — school education, policing, culture and broadcasting above all.
-      State ministries are out of scope for this dataset, so they are not listed at all
+      State ministries are out of scope for this project, so they are not listed at all
       rather than listed and excluded. A reader comparing Germany's 16 with Spain's 22 is
       therefore not comparing like with like in terms of governmental reach: the German
       figure covers a narrower slice of public administration.
     es: >-
-      Alemania es un Estado federal y este fichero cubre únicamente la Bundesregierung.
+      Alemania es un Estado federal y esta ficha cubre únicamente la Bundesregierung.
       Cada uno de los 16 Länder tiene su propio gabinete de Landesministerien, y esos
       departamentos ostentan la competencia principal en materias que en un Estado
       centralizado como España corresponden a un ministerio nacional: sobre todo educación
       escolar, policía, cultura y radiodifusión. Los ministerios de los Länder quedan
-      fuera del alcance de este conjunto de datos, por lo que no se listan en absoluto en
+      fuera del alcance de este proyecto, por lo que no se listan en absoluto en
       lugar de listarse y excluirse. Quien compare los 16 de Alemania con los 22 de España
       no está comparando alcances de gobierno equivalentes: la cifra alemana cubre una
       porción más estrecha de la administración pública.
@@ -135,8 +134,8 @@ methodology_notes:
       Kultur und Medien, a Staatsminister attached directly to the Chancellor who heads a
       supreme federal authority of some 430 staff. That office attends cabinet meetings but
       its holder is not a Bundesminister, so under Article 62 of the Basic Law it is not a
-      member of the Federal Government and it is recorded with no cabinet seat. A curator
-      who counted meeting attendance as a seat would publish 19 seats rather than 18.
+      member of the Federal Government and it is recorded with no cabinet seat. Counting
+      meeting attendance as a seat would give 19 seats rather than 18.
     es: >-
       Los Parlamentarische Staatssekretäre y los Staatssekretäre están subordinados a un
       ministro y encuadrados en un departamento existente, por lo que no son ministerios ni
@@ -147,15 +146,15 @@ methodology_notes:
       canciller que encabeza una autoridad federal suprema con unos 430 efectivos. Ese
       cargo asiste a las reuniones del gabinete, pero su titular no es Bundesminister, de
       modo que conforme al artículo 62 de la Ley Fundamental no es miembro del Gobierno
-      Federal y se registra sin asiento en el gabinete. Un curador que contase la
-      asistencia a las reuniones como asiento publicaría 19 asientos en lugar de 18.
+      Federal y se registra sin asiento en el gabinete. Contar la asistencia a las
+      reuniones como asiento daría 19 asientos en lugar de 18.
   - en: >-
       The cabinet reshuffle announced on 24 July 2026 moved people, not departments: the
       Health Minister became Head of the Federal Chancellery and Federal Minister for
       Special Tasks, a member of the Bundestag took over the health portfolio, and a new
       Staatsminister for federal-state relations was appointed in the Chancellery. No
-      ministry was created, renamed, merged or abolished, so no entity in this file carries
-      a valid_to or a new valid_from. This dataset records departmental structure, not
+      ministry was created, renamed, merged or abolished, so no entity here carries an end
+      date or a new start date. This project records departmental structure, not
       officeholders.
     es: >-
       La remodelación del gabinete anunciada el 24 de julio de 2026 cambió personas, no
@@ -163,12 +162,12 @@ methodology_notes:
       ministra federal para Tareas Especiales, un diputado del Bundestag asumió la cartera
       de Sanidad y se nombró un nuevo Staatsminister para las relaciones entre la
       Federación y los Länder en la Cancillería. No se creó, renombró, fusionó ni suprimió
-      ningún ministerio, por lo que ninguna entidad de este fichero lleva valid_to ni un
-      valid_from nuevo. Este conjunto de datos registra la estructura departamental, no a
+      ningún ministerio, por lo que ninguna entidad de aquí lleva fecha de fin ni una
+      fecha de inicio nueva. Este proyecto registra la estructura departamental, no a
       los titulares.
   - en: >-
-      English and Spanish ministry names here are the project's renderings, marked
-      name_en_provenance and name_es_provenance accordingly, with three exceptions. The
+      English and Spanish ministry names here are the project's renderings, marked as
+      such, with three exceptions. The
       German Federal Government publishes English titles for its ministers but no
       consolidated English list of ministry names, and its ministries' own English sites
       are not uniform. Where a ministry publishes its own English name on its own site and
@@ -180,7 +179,7 @@ methodology_notes:
       unverifiable claim of officialness is worse than an understated one.
     es: >-
       Los nombres de ministerios en inglés y español son aquí traducciones del proyecto,
-      señaladas como tales en name_en_provenance y name_es_provenance, con tres
+      señaladas como tales, con tres
       excepciones. El Gobierno Federal alemán publica títulos en inglés de sus ministros
       pero ninguna lista consolidada de nombres de ministerios en inglés, y las webs en
       inglés de sus ministerios no son uniformes. Cuando un ministerio publica su propio

@@ -78,7 +78,7 @@ methodology_notes:
       meetings — the arrangement Irish politics calls "super junior" ministers, upheld by the
       Supreme Court in 2025 — but attendance is not membership: they do not vote and they are
       not appointed under article 28.1, so they add no seat here. The Attorney General also
-      attends without being a member, and is likewise absent from this file. A source that
+      attends without being a member, and is likewise not recorded here. A source that
       answers "how big is the Irish government?" with a number in the thirties is counting
       Ministers of State; it is answering a different question.
     es: >-
@@ -88,11 +88,11 @@ methodology_notes:
       la política irlandesa llama ministros «super junior», figura avalada por el Tribunal
       Supremo en 2025—, pero asistir no es ser miembro: no votan ni se nombran conforme al
       artículo 28.1, de modo que no suman asiento aquí. El fiscal general (Attorney General)
-      también asiste sin ser miembro y tampoco figura en este fichero. Una fuente que
+      también asiste sin ser miembro y tampoco se registra aquí. Una fuente que
       responde «¿de qué tamaño es el Gobierno irlandés?» con una cifra de treinta y tantos
       está contando a los ministros de Estado: responde a otra pregunta.
   - en: >-
-      Where the government's own two pages disagree, this file follows the department name.
+      Where the government's own two pages disagree, this page follows the department name.
       The list of departments and the Department of Agriculture, Food and the Marine's own
       pages both give that name, and no Alteration of Name of Department and Title of
       Minister Order has been made for it — there were nine such orders in 2025 and none in
@@ -101,7 +101,7 @@ methodology_notes:
       an order is made, the department's name is the one recorded here, and the fuller
       ministerial style is noted rather than silently adopted.
     es: >-
-      Cuando las dos páginas del propio Gobierno discrepan, este fichero sigue el nombre del
+      Cuando las dos páginas del propio Gobierno discrepan, esta ficha sigue el nombre del
       departamento. La lista de departamentos y las páginas del propio Department of
       Agriculture, Food and the Marine dan ese nombre, y no se ha dictado ninguna Alteration
       of Name of Department and Title of Minister Order para él: hubo nueve en 2025 y ninguna
@@ -110,31 +110,32 @@ methodology_notes:
       que se dicte una orden, el nombre del departamento es el aquí registrado, y el título
       ministerial más extenso se anota en lugar de adoptarse en silencio.
   - en: >-
-      Both languages are official, and name_original gives the English. Every Department of
-      State has an equally official Irish name — the nine 2025 orders cited here alter both in
-      the same instrument, so that the Department of Justice became, in Irish, an Roinn Dlí
-      agus Cirt, Gnóthaí Baile agus Imirce and, in English, the Department of Justice, Home
-      Affairs and Migration. English is recorded as name_original because it is the form given
-      for all eighteen departments in every source cited here, and name_en is therefore marked
-      official rather than translated. No Irish name has been supplied for a department whose
-      Irish name this file did not read in an official instrument.
+      Both languages are official, and the original name shown here is the English one. Every
+      Department of State has an equally official Irish name — the nine 2025 orders cited here
+      alter both in the same instrument, so that the Department of Justice became, in Irish,
+      an Roinn Dlí agus Cirt, Gnóthaí Baile agus Imirce and, in English, the Department of
+      Justice, Home Affairs and Migration. English is recorded as the original name because it
+      is the form given for all eighteen departments in every source cited here, and the
+      English names are therefore marked as the government's own rather than as translations.
+      No Irish name has been attributed to a department whose Irish name was not read in an
+      official instrument.
     es: >-
-      Ambas lenguas son oficiales, y name_original recoge la inglesa. Todo departamento de
-      Estado tiene un nombre irlandés igualmente oficial: las nueve órdenes de 2025 aquí
-      citadas modifican los dos en el mismo instrumento, de modo que el Department of Justice
-      pasó a ser, en irlandés, an Roinn Dlí agus Cirt, Gnóthaí Baile agus Imirce y, en
-      inglés, the Department of Justice, Home Affairs and Migration. Se registra el inglés
-      como name_original porque es la forma que dan para los dieciocho departamentos todas
-      las fuentes citadas, y por eso name_en se marca como oficial y no como traducción. No
-      se atribuye nombre irlandés a ningún departamento cuyo nombre irlandés no se haya leído
-      en un instrumento oficial.
+      Ambas lenguas son oficiales, y el nombre original que se muestra aquí es el inglés.
+      Todo departamento de Estado tiene un nombre irlandés igualmente oficial: las nueve
+      órdenes de 2025 aquí citadas modifican los dos en el mismo instrumento, de modo que el
+      Department of Justice pasó a ser, en irlandés, an Roinn Dlí agus Cirt, Gnóthaí Baile
+      agus Imirce y, en inglés, the Department of Justice, Home Affairs and Migration. Se
+      registra el inglés como nombre original porque es la forma que dan para los dieciocho
+      departamentos todas las fuentes citadas, y por eso los nombres ingleses se señalan como
+      propios del gobierno y no como traducciones. No se atribuye nombre irlandés a ningún
+      departamento cuyo nombre irlandés no se haya leído en un instrumento oficial.
   - en: >-
       Why Ireland is graded B. Nine departments cite the 2025 order that gave them their
       current name, which is a legal instrument and therefore tier 1. The other nine —
       Agriculture, Food and the Marine; Defence; Finance; Further and Higher Education,
       Research, Innovation and Science; Health; Housing, Local Government and Heritage;
       Social Protection; the Taoiseach; and Transport — were last renamed or created by
-      instruments this file did not trace, some of them a century old, so they rest on the
+      instruments not traced here, some of them a century old, so they rest on the
       government's list of departments, which is tier 2. The grade reflects a gap in the
       research, not a doubt about the departments: all eighteen appear on the same official
       list, and all eighteen have a serving minister named on the government's own page.
@@ -144,7 +145,7 @@ methodology_notes:
       —Agricultura, Alimentación y Marina; Defensa; Hacienda; Educación Superior,
       Investigación, Innovación y Ciencia; Sanidad; Vivienda, Gobierno Local y Patrimonio;
       Protección Social; el Taoiseach; y Transporte— fueron renombrados o creados por
-      instrumentos que este fichero no rastreó, algunos de hace un siglo, por lo que se
+      instrumentos que no se han rastreado aquí, algunos de hace un siglo, por lo que se
       apoyan en la lista oficial de departamentos, que es nivel 2. El grado refleja una
       laguna de la investigación, no una duda sobre los departamentos: los dieciocho constan
       en la misma lista oficial y los dieciocho tienen ministro en ejercicio en la página del

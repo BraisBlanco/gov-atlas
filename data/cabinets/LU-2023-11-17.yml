@@ -56,7 +56,7 @@ methodology_notes:
       departamentos.
   - en: >-
       Why the ministries and the ministers are not merged into one number. Luxembourg keeps
-      two separate legal instruments, and this dataset keeps them separate too. Annexe A of
+      two separate legal instruments, and this project keeps them separate too. Annexe A of
       the règlement interne du Gouvernement says which departments exist; the arrêté
       grand-ducal portant attribution des compétences ministérielles says who runs them. Six
       of the fifteen ministers hold more than one ministry: Yuriko Backes holds three
@@ -65,11 +65,11 @@ methodology_notes:
       and — counting her two delegated mandates — Elisabeth Margue hold two or three each.
       Collapsing the two lists into a single "number of ministries" would either lose four
       real departments or invent four ministers who do not exist. Each pairing is recorded
-      with shared_head_with, so the seat count is a count of people and the ministry count is
-      a count of departments.
+      as portfolios with a shared head, so the seat count is a count of people and the
+      ministry count is a count of departments.
     es: >-
       Por qué no se fusionan los ministerios y los ministros en una sola cifra. Luxemburgo
-      mantiene dos instrumentos jurídicos separados, y este conjunto de datos los mantiene
+      mantiene dos instrumentos jurídicos separados, y este proyecto los mantiene
       separados también. El anexo A del règlement interne du Gouvernement dice qué
       departamentos existen; el arrêté grand-ducal portant attribution des compétences
       ministérielles dice quién los dirige. Seis de los quince ministros ostentan más de un
@@ -78,18 +78,19 @@ methodology_notes:
       Claude Meisch, Stéphanie Obertin, Serge Wilmes y —contando sus dos mandatos delegados—
       Elisabeth Margue ostentan dos o tres cada uno. Refundir las dos listas en un único
       «número de ministerios» perdería cuatro departamentos reales o inventaría cuatro
-      ministros inexistentes. Cada emparejamiento se registra con shared_head_with, de modo
-      que el recuento de asientos cuenta personas y el de ministerios cuenta departamentos.
+      ministros inexistentes. Cada emparejamiento se registra como carteras con titular
+      compartido, de modo que el recuento de asientos cuenta personas y el de ministerios
+      cuenta departamentos.
   - en: >-
       The Ministère d'État, and both resulting figures. Annexe A lists the Ministère d'État
       as ministry number 1, and article 8 of the règlement interne provides that the Prime
       Minister directs it, so Luxembourg law does constitute the head of government's office
-      as a ministry. This dataset nevertheless excludes it, under the default in
-      METHODOLOGY.md that the office of the head of government is the apex of the cabinet
+      as a ministry. This project nevertheless excludes it, under its default rule that
+      the office of the head of government is the apex of the cabinet
       rather than a portfolio department, and the count is therefore 19. Read the other way —
       counting every entry in the legal enumeration — Luxembourg has 20 ministries. Both
       figures are defensible and the choice is the project's, not Luxembourg's. The exclusion
-      is a closer call here than in most countries, because the Ministère d'État is not a
+      is a particularly close call here, because the Ministère d'État is not a
       bare chancellery: annexe B gives it substantive portfolios including media, electronic
       communications, space, data protection, relations with religious communities, the
       intelligence service and national security co-ordination.
@@ -97,28 +98,28 @@ methodology_notes:
       El Ministère d'État y las dos cifras resultantes. El anexo A enumera el Ministère
       d'État como ministerio número 1, y el artículo 8 del règlement interne dispone que lo
       dirige el primer ministro, de modo que el derecho luxemburgués sí constituye la oficina
-      del jefe de gobierno como ministerio. Este conjunto de datos lo excluye de todos modos,
-      conforme al criterio por defecto de METHODOLOGY.md según el cual la oficina del jefe de
+      del jefe de gobierno como ministerio. Este proyecto lo excluye de todos modos,
+      conforme a su criterio por defecto según el cual la oficina del jefe de
       gobierno es la cúspide del gabinete y no un departamento con cartera, y por eso la cifra
       es 19. Leído del otro modo —contando todas las entradas de la enumeración legal—
       Luxemburgo tiene 20 ministerios. Ambas cifras son defendibles y la elección es del
-      proyecto, no de Luxemburgo. La exclusión es aquí más discutible que en la mayoría de los
-      países, porque el Ministère d'État no es una cancillería desnuda: el anexo B le atribuye
+      proyecto, no de Luxemburgo. La exclusión es aquí especialmente discutible, porque el
+      Ministère d'État no es una cancillería desnuda: el anexo B le atribuye
       carteras sustantivas como los medios, las comunicaciones electrónicas, el espacio, la
       protección de datos, las relaciones con las comunidades religiosas, el servicio de
       inteligencia y la coordinación de la seguridad nacional.
   - en: >-
       Where the enumerating instrument moved to, and why that matters for anyone checking
-      this file. Until 2022 Luxembourg published an "arrêté grand-ducal portant constitution
+      this page. Until 2022 Luxembourg published an "arrêté grand-ducal portant constitution
       des Ministères" whose article 1 listed the departments; the last one is dated 22 August
       2022 and ceased to have effect on 1 July 2023, when the revised Constitution came into
       force. Since then the same two lists are annexes A and B of the règlement interne du
       Gouvernement, approved by arrêté grand-ducal and published in the Journal officiel.
-      A curator searching Legilux for "constitution des Ministères" will find nothing after
+      Anyone searching Legilux for "constitution des Ministères" will find nothing after
       2022 and may wrongly conclude that Luxembourg has stopped enumerating its ministries.
     es: >-
       Dónde ha ido a parar el instrumento que enumera los ministerios, y por qué importa a
-      quien quiera comprobar este fichero. Hasta 2022 Luxemburgo publicaba un «arrêté
+      quien quiera comprobar esta ficha. Hasta 2022 Luxemburgo publicaba un «arrêté
       grand-ducal portant constitution des Ministères» cuyo artículo 1 enumeraba los
       departamentos; el último es de 22 de agosto de 2022 y dejó de surtir efecto el 1 de
       julio de 2023, al entrar en vigor la Constitución revisada. Desde entonces esas dos
@@ -132,9 +133,9 @@ methodology_notes:
       A, but annexe B divides it into "I. Affaires étrangères et européennes, Coopération,
       Commerce extérieur et Grande Région" and "II. Défense", and the competences decree
       gives the first to Xavier Bettel and the second to Yuriko Backes. It is recorded as one
-      ministry with head_count: 2, and linked to Backes's two other ministries, so that the
+      ministry with two heads, and linked to Backes's two other ministries, so that the
       seat arithmetic yields two people — Bettel and Backes — for this group rather than one.
-      This is the only entity in the file with head_count above 1, and the reason is not
+      It is the only portfolio here with two heads, and the reason is not
       co-ministers of equal rank over the whole department but two ministers with distinct
       statutory sections of it.
     es: >-
@@ -143,9 +144,9 @@ methodology_notes:
       anexo A, pero el anexo B lo divide en «I. Affaires étrangères et européennes,
       Coopération, Commerce extérieur et Grande Région» y «II. Défense», y el arrêté de
       competencias da la primera sección a Xavier Bettel y la segunda a Yuriko Backes. Se
-      registra como un ministerio con head_count: 2, vinculado a los otros dos ministerios de
+      registra como un ministerio con dos titulares, vinculado a los otros dos ministerios de
       Backes, para que la aritmética de asientos dé dos personas —Bettel y Backes— en este
-      grupo y no una. Es la única entidad del fichero con head_count mayor que 1, y la razón
+      grupo y no una. Es la única cartera con dos titulares aquí, y la razón
       no son co-ministros de igual rango sobre todo el departamento, sino dos ministros con
       secciones estatutarias distintas del mismo.
   - en: >-
@@ -158,7 +159,7 @@ methodology_notes:
       l'Énergie et du Tourisme" is the whole of the four-section Ministère de l'Économie. A
       reader counting the "Ministre de ..." titles on the government's own composition page
       will therefore arrive at a much larger number than 19, without either source being
-      wrong. This file counts departments named in annexe A.
+      wrong. This page counts departments named in annexe A.
     es: >-
       Los títulos ministeriales no son ministerios, y Luxemburgo tiene muchos más de los
       primeros. En su versión modificada, el artículo 1 del arrêté de competencias confiere 27
@@ -169,7 +170,7 @@ methodology_notes:
       l'Économie, des PME, de l'Énergie et du Tourisme» es la totalidad del Ministère de
       l'Économie, que tiene cuatro secciones. Quien cuente los títulos «Ministre de …» en la
       página de composición del propio Gobierno llegará por tanto a una cifra muy superior a
-      19, sin que ninguna de las dos fuentes se equivoque. Este fichero cuenta departamentos
+      19, sin que ninguna de las dos fuentes se equivoque. Esta ficha cuenta departamentos
       nombrados en el anexo A.
   - en: >-
       Three official languages, and why the names here are French. Luxembourgish is the
@@ -178,9 +179,9 @@ methodology_notes:
       language in which legislation is drafted, and the Journal officiel publishes the
       règlement interne and the competences decree in French only. There is no authentic
       Luxembourgish or German text of the list of ministries to record, so unlike Belgium —
-      where two language versions of the same decree are equally authentic — this file has
-      only one original language to put in name_original, and no parallel-language note is
-      possible for the entities.
+      where two language versions of the same decree are equally authentic — the names
+      recorded here have a single original language, and no parallel-language note is
+      possible for the ministries.
     es: >-
       Tres lenguas oficiales, y por qué los nombres aquí están en francés. El luxemburgués es
       la lengua nacional y el luxemburgués, el francés y el alemán son todos oficiales según
@@ -189,20 +190,20 @@ methodology_notes:
       interne y el arrêté de competencias únicamente en francés. No existe un texto auténtico
       en luxemburgués o en alemán de la lista de ministerios que registrar, de modo que, a
       diferencia de Bélgica —donde dos versiones lingüísticas del mismo decreto son igualmente
-      auténticas—, este fichero sólo tiene una lengua original que poner en name_original, y
-      no cabe una nota de lengua paralela en las entidades.
+      auténticas—, los nombres aquí registrados tienen una única lengua original, y
+      no cabe una nota de lengua paralela para los ministerios.
   - en: >-
-      The English names are the government's own. Unusually for this dataset, gouvernement.lu
+      The English names are the government's own. Unlike many governments, gouvernement.lu
       publishes an English edition that names the ministries themselves, not merely the
-      ministers, and its list matches annexe A one for one and in the same order. Every
-      counted ministry therefore carries name_en_provenance: official. The Spanish names are
-      the project's own translations.
+      ministers, and its list matches annexe A one for one and in the same order. The English
+      names of every counted ministry are therefore marked as the government's own. The
+      Spanish names are the project's own translations.
     es: >-
-      Los nombres en inglés son del propio Gobierno. Cosa inusual en este conjunto de datos,
+      Los nombres en inglés son del propio Gobierno. A diferencia de muchos gobiernos,
       gouvernement.lu publica una edición en inglés que nombra los ministerios mismos, y no
       sólo a los ministros, y su lista coincide uno a uno y en el mismo orden con el anexo A.
-      Por eso todos los ministerios contados llevan name_en_provenance: official. Los nombres
-      en español son traducciones del proyecto.
+      Por eso los nombres ingleses de todos los ministerios contados se señalan como nombres
+      oficiales. Los nombres en español son traducciones del proyecto.
   - en: >-
       The perimeter. This is a central-government file and Luxembourg has no regional tier,
       so nothing is excluded as subnational; the country's 100 communes are local authorities
@@ -215,7 +216,7 @@ methodology_notes:
       competences within another minister's department rather than departments of their own.
       The Grand Duke, as head of state, is not part of the government and is not recorded.
     es: >-
-      El perímetro. Este es un fichero de gobierno central y Luxemburgo no tiene nivel
+      El perímetro. Este es una ficha de gobierno central y Luxemburgo no tiene nivel
       regional, así que nada se excluye por subnacional; las 100 comunas del país son
       entidades locales tuteladas por el Ministère des Affaires intérieures y quedan fuera de
       alcance. Este gobierno no tiene ningún secrétaire d'État, figura que el artículo 2 del
@@ -233,8 +234,9 @@ methodology_notes:
       Martine Hansen consumer protection, and an arrêté of 11 December 2025 removed Georges
       Mischo from the government, made Marc Spautz Minister of Labour and moved Sport to
       Martine Hansen. Neither changed annexe A, so the 20 ministries have been the same
-      throughout and no entity carries valid_from or valid_to; what changed is who heads
-      them, which this dataset records only through the shared-head groupings. A reader
+      throughout and no ministry is recorded with a start or end date of its own; what
+      changed is who heads them, which this project records only through the shared-head
+      groupings. A reader
       reconstructing the cabinet as it stood in 2024 should expect a different set of
       shared-head pairs, not a different set of ministries.
     es: >-
@@ -244,9 +246,9 @@ methodology_notes:
       Xavier Bettel y dio a Martine Hansen la protección de los consumidores, y un arrêté de
       11 de diciembre de 2025 sacó a Georges Mischo del gobierno, hizo a Marc Spautz ministro
       de Trabajo y pasó Deportes a Martine Hansen. Ninguno modificó el anexo A, de modo que
-      los 20 ministerios han sido los mismos todo el tiempo y ninguna entidad lleva valid_from
-      ni valid_to; lo que cambió es quién los encabeza, y eso este conjunto de datos sólo lo
-      recoge a través de los grupos de titular compartido. Quien reconstruya el gabinete tal
+      los 20 ministerios han sido los mismos todo el tiempo y ningún ministerio lleva fecha
+      de inicio ni de fin propia; lo que cambió es quién los encabeza, y eso este proyecto
+      sólo lo recoge a través de los grupos de titular compartido. Quien reconstruya el gabinete tal
       como estaba en 2024 debe esperar un conjunto distinto de parejas de titular compartido,
       no un conjunto distinto de ministerios.
 

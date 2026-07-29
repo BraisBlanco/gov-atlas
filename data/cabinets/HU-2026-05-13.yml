@@ -76,15 +76,15 @@ methodology_notes:
       responsibilities including the coordination of European Union affairs and the making of
       EU policy, government communication, the design of the civil-service career and the
       coordination of social policy. And this project's own rule for a chancellery constituted
-      as a ministry by national law is to count it and to publish both figures, which is what
-      this note does. The argument the other way is real and a reader should have it: § 5 of
+      as a ministry by national law is to count it and to publish both figures. The argument
+      the other way is real and a reader should have it: § 5 of
       the same decree provides that "A miniszterelnök munkaszervezete az általános politikai
       koordinációért felelős miniszter munkaszervezetében működik" — the prime minister's own
       work organisation operates inside the work organisation of the minister responsible for
       general political coordination, which is this ministry — and § 16(2) of the Act on
       government administration places the Miniszterelnöki Kormányiroda inside it too. So the
       Miniszterelnökség does house the prime minister's apparatus. What it is not is a body
-      whose head is the prime minister, and that is the distinction this dataset draws. The
+      whose head is the prime minister, and that is the distinction this project draws. The
       prime minister's seat and the Miniszterelnöki Kormányiroda are both recorded separately
       below and neither is counted.
     es: >-
@@ -100,15 +100,14 @@ methodology_notes:
       la comunicación gubernamental, el diseño de la carrera en la función pública y la
       coordinación de la política social. Y la regla propia de este proyecto para una
       cancillería constituida como ministerio por la ley nacional es contarla y publicar ambas
-      cifras, que es lo que hace esta nota. El argumento contrario existe y el lector debe
-      conocerlo: el § 5 del mismo decreto dispone que «A miniszterelnök munkaszervezete az
+      cifras. El argumento contrario existe y el lector debe conocerlo: el § 5 del mismo decreto dispone que «A miniszterelnök munkaszervezete az
       általános politikai koordinációért felelős miniszter munkaszervezetében működik» —la
       organización de trabajo del primer ministro funciona dentro de la del ministro
       responsable de la coordinación política general, que es este ministerio— y el § 16(2) de
       la ley de administración gubernamental sitúa también dentro de ella la Miniszterelnöki
       Kormányiroda. La Miniszterelnökség aloja, por tanto, el aparato del primer ministro. Lo
       que no es es un órgano cuyo titular sea el primer ministro, y esa es la distinción que
-      traza este conjunto de datos. El asiento del primer ministro y la Miniszterelnöki
+      traza este proyecto. El asiento del primer ministro y la Miniszterelnöki
       Kormányiroda se registran aparte más abajo y ninguno se cuenta.
   - en: >-
       Do not compare 16 with a pre-2026 Hungarian figure without reading this. The repealed
@@ -121,9 +120,9 @@ methodology_notes:
       seven others. Both dissolved bodies kept operating as budgetary and government
       administrative organs after 13 May — § 4(2) and § 4(3) of the act say so, and put the
       minister heading the Miniszterelnökség in charge of them — until 15 June 2026, the date
-      fixed by § 206 of decree 90/2026. They are therefore recorded here with
-      `valid_to: 2026-06-15` and the exclusion reason superseded_within_cabinet, so they appear
-      in the cabinet's history and not in its current structure. A source counting Hungary's
+      fixed by § 206 of decree 90/2026. They are therefore recorded here with 15 June 2026 as
+      their end date, as departments superseded during the term, so they appear in the
+      cabinet's history and not in its current structure. A source counting Hungary's
       ministries on 12 May 2026 answers a different question from one counting them today.
     es: >-
       No compare el 16 con una cifra húngara anterior a 2026 sin leer esto. La ley de 2022,
@@ -137,9 +136,9 @@ methodology_notes:
       presupuestarios y de administración gubernamental después del 13 de mayo —así lo dicen
       los § 4(2) y § 4(3) de la ley, que ponen al frente de ellos al ministro que dirige la
       Miniszterelnökség— hasta el 15 de junio de 2026, fecha fijada por el § 206 del decreto
-      90/2026. Por eso se registran aquí con `valid_to: 2026-06-15` y el motivo de exclusión
-      superseded_within_cabinet, de modo que aparecen en la historia del gabinete y no en su
-      estructura actual. Una fuente que cuente los ministerios húngaros a 12 de mayo de 2026
+      90/2026. Por eso se registran aquí con el 15 de junio de 2026 como fecha de fin, como
+      departamentos sustituidos durante la legislatura, de modo que aparecen en la historia
+      del gabinete y no en su estructura actual. Una fuente que cuente los ministerios húngaros a 12 de mayo de 2026
       responde a una pregunta distinta de la que cuenta los de hoy.
   - en: >-
       Hungary has no ministers without portfolio in this government, and their absence is a
@@ -150,7 +149,7 @@ methodology_notes:
       whose sixteen titles map one-to-one onto the sixteen ministries. Nor are the
       "kormánybiztos" (government commissioners), whose activity § 8(1)(e) of decree 90/2026
       puts under the minister heading the Miniszterelnökség, members of the Government under
-      article 16(1); they are absent from this file for that reason. State secretaries
+      article 16(1); they are absent from this page for that reason. State secretaries
       (államtitkár) and administrative state secretaries (közigazgatási államtitkár) are
       likewise not members of the Government and are not recorded, with one exception: the
       administrative state secretary who heads the Miniszterelnöki Kormányiroda, because that
@@ -164,7 +163,7 @@ methodology_notes:
       dieciséis títulos se corresponden uno a uno con los dieciséis ministerios. Tampoco los
       «kormánybiztos» (comisionados del Gobierno), cuya actividad el § 8(1)(e) del decreto
       90/2026 sitúa bajo el ministro que dirige la Miniszterelnökség, son miembros del Gobierno
-      según el artículo 16(1); están ausentes de este fichero por esa razón. Los secretarios de
+      según el artículo 16(1); están ausentes de esta ficha por esa razón. Los secretarios de
       Estado (államtitkár) y los secretarios de Estado administrativos (közigazgatási
       államtitkár) tampoco son miembros del Gobierno y no se registran, con una excepción: el
       secretario de Estado administrativo que dirige la Miniszterelnöki Kormányiroda, porque
@@ -180,13 +179,13 @@ methodology_notes:
       Belügyminisztérium. Second: foreign trade is not in the foreign ministry. The former
       Külgazdasági és Külügyminisztérium was renamed simply Külügyminisztérium and
       "külgazdasági ügyekért" is listed under the economic and energy minister in § 75, so the
-      trade tag sits there. Third: three tags this project's vocabulary cannot express are
-      missing rather than approximated — the minority-affairs and diaspora ministry's
-      "nemzetiségpolitika" (policy toward Hungary's recognised national minorities) has no id,
-      nor does its remit for relations with civil society, and the science ministry's
-      "kormányzati tudománypolitika" is tagged research rather than innovation because the
-      decree assigns it no innovation remit even though the ministry is the successor of the
-      Kulturális és Innovációs Minisztérium.
+      trade tag sits there. Third: three remits this project's vocabulary of policy areas
+      cannot express are missing rather than approximated — the minority-affairs and diaspora
+      ministry's "nemzetiségpolitika" (policy toward Hungary's recognised national minorities)
+      has no matching area, nor does its remit for relations with civil society, and the
+      science ministry's "kormányzati tudománypolitika" carries the research area rather than
+      innovation because the decree assigns it no innovation remit even though the ministry is
+      the successor of the Kulturális és Innovációs Minisztérium.
     es: >-
       De dónde salen las áreas de política, y tres que sorprenderán al lector. Cada ministerio
       contado se etiqueta a partir de las responsabilidades que el decreto gubernamental
@@ -195,23 +194,23 @@ methodology_notes:
       179, en ese orden. Primera sorpresa: el deporte está en el ministerio del Interior, cuyo
       § 34(1) hace al belügyminiszter responsable de la «sportpolitikáért» y de los grandes
       eventos deportivos internacionales, de modo que ningún ministerio húngaro lleva el
-      deporte en el nombre y la etiqueta «sport» va al Belügyminisztérium. Segunda: el comercio
+      deporte en el nombre y la etiqueta de deporte va al Belügyminisztérium. Segunda: el comercio
       exterior no está en Exteriores. El antiguo Külgazdasági és Külügyminisztérium pasó a
       llamarse simplemente Külügyminisztérium y los «külgazdasági ügyekért» figuran bajo el
-      ministro de Economía y Energía en el § 75, así que la etiqueta «trade» va allí. Tercera:
-      tres etiquetas que el vocabulario de este proyecto no puede expresar faltan en lugar de
-      aproximarse — la «nemzetiségpolitika» (política hacia las minorías nacionales reconocidas
-      de Hungría) del ministerio de Relaciones Sociales y Cultura no tiene id, ni tampoco su
-      competencia sobre las relaciones con la sociedad civil, y la «kormányzati
-      tudománypolitika» del ministerio de Ciencia se etiqueta como research y no como
-      innovation porque el decreto no le asigna competencia de innovación aunque el ministerio
-      sea el sucesor del Kulturális és Innovációs Minisztérium.
+      ministro de Economía y Energía en el § 75, así que la etiqueta de comercio va allí. Tercera:
+      tres competencias que el vocabulario de áreas de este proyecto no puede expresar faltan
+      en lugar de aproximarse — la «nemzetiségpolitika» (política hacia las minorías nacionales
+      reconocidas de Hungría) del ministerio de Relaciones Sociales y Cultura no tiene área
+      equivalente, ni tampoco su competencia sobre las relaciones con la sociedad civil, y la
+      «kormányzati tudománypolitika» del ministerio de Ciencia lleva el área de investigación y
+      no la de innovación porque el decreto no le asigna competencia de innovación aunque el
+      ministerio sea el sucesor del Kulturális és Innovációs Minisztérium.
   - en: >-
-      All English and Spanish names in this file are the project's own. Hungary's government
+      All English and Spanish names on this page are the project's own. Hungary's government
       publishes no English list of its ministries: kormany.hu carries /en/ paths for every
       ministry, but as of 28 July 2026 they serve the Hungarian pages unchanged, so there is no
-      official English nomenclature to adopt and every name_en_provenance and
-      name_es_provenance is `translated`. Two renderings are worth flagging. "Miniszterelnökség"
+      official English nomenclature to adopt and every English and Spanish name is this
+      project's own translation, and is marked as such. Two renderings are worth flagging. "Miniszterelnökség"
       is given as "Prime Minister's Office" because that is what it is called in ordinary
       English usage, but the name should not be read as implying that the prime minister heads
       it — see note 2. And "Élő Környezetért Felelős Minisztérium" is rendered literally as
@@ -220,12 +219,12 @@ methodology_notes:
       energy in the Gazdasági és Energetikai Minisztérium and no dedicated climate portfolio at
       all.
     es: >-
-      Todos los nombres en inglés y español de este fichero son del proyecto. El Gobierno de
+      Todos los nombres en inglés y español de esta ficha son del proyecto. El Gobierno de
       Hungría no publica una lista en inglés de sus ministerios: kormany.hu mantiene rutas /en/
       para cada ministerio, pero a 28 de julio de 2026 sirven las páginas húngaras sin cambios,
-      por lo que no hay nomenclatura oficial en inglés que adoptar y todos los valores de
-      name_en_provenance y name_es_provenance son `translated`. Dos traducciones merecen
-      señalarse. «Miniszterelnökség» se da como «Oficina del Primer Ministro» porque es el
+      por lo que no hay nomenclatura oficial en inglés que adoptar y todos los nombres en
+      inglés y en español son traducciones de este proyecto, y así se indican. Dos traducciones
+      merecen señalarse. «Miniszterelnökség» se da como «Oficina del Primer Ministro» porque es el
       nombre habitual en español, pero no debe leerse como que el primer ministro la encabece
       —véase la nota 2—. Y «Élő Környezetért Felelős Minisztérium» se traduce literalmente como
       «Ministerio para el Entorno Vivo»: es el departamento de medio ambiente, naturaleza, agua
@@ -238,7 +237,7 @@ methodology_notes:
       and no instrument fixes an acronym for the ministries themselves. Several of these are
       also the ministries' everyday acronyms; BM in particular appears as a departmental prefix
       in the decree's own annex ("Belügyminisztérium Országos Katasztrófavédelmi
-      Főigazgatóság"). They are recorded in `abbreviation_original` because they are the only
+      Főigazgatóság"). They are recorded here because they are the only
       official short forms that exist, but a reader should know that MvM strictly abbreviates
       the *minister* heading the Miniszterelnökség rather than the ministry, and that PM here
       means Pénzügyminisztérium and not prime minister.
@@ -249,7 +248,7 @@ methodology_notes:
       TTM, VTM— y ningún instrumento fija un acrónimo para los ministerios en sí. Varias son
       además los acrónimos de uso corriente de los ministerios; BM en particular aparece como
       prefijo departamental en el propio anexo del decreto («Belügyminisztérium Országos
-      Katasztrófavédelmi Főigazgatóság»). Se registran en `abbreviation_original` porque son las
+      Katasztrófavédelmi Főigazgatóság»). Se registran aquí porque son las
       únicas formas breves oficiales que existen, pero el lector debe saber que MvM abrevia
       estrictamente al *ministro* que dirige la Miniszterelnökség y no al ministerio, y que PM
       aquí significa Pénzügyminisztérium y no primer ministro.

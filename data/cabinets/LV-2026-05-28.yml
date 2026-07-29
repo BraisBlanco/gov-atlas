@@ -103,7 +103,7 @@ methodology_notes:
       September 2023 and is not the sitting government: on 28 May 2026 the Saeima, at an
       extraordinary sitting, expressed confidence in a cabinet led by Andris Kulbergs, formed
       by Apvienotais saraksts, Jaunā Vienotība, Zaļo un Zemnieku savienība and Nacionālā
-      apvienība. `took_office` is the date of that vote and not of any later ceremony, because
+      apvienība. The date of taking office is the vote's, not any later ceremony's, because
       section 17 of the Ministru kabineta iekārtas likums provides that members of the Cabinet
       "stājas pie amata pienākumu pildīšanas tūlīt pēc tam, kad Saeima viņiem izteikusi
       uzticību" — they begin performing their duties immediately after the Saeima has
@@ -114,8 +114,8 @@ methodology_notes:
       posesión el 15 de septiembre de 2023 y no es el gobierno vigente: el 28 de mayo de 2026
       el Saeima, en sesión extraordinaria, expresó su confianza en un gabinete encabezado por
       Andris Kulbergs, formado por Apvienotais saraksts, Jaunā Vienotība, Zaļo un Zemnieku
-      savienība y Nacionālā apvienība. `took_office` es la fecha de esa votación y no la de
-      ninguna ceremonia posterior, porque el artículo 17 de la Ministru kabineta iekārtas
+      savienība y Nacionālā apvienība. La fecha de toma de posesión es la de esa votación y no
+      la de ninguna ceremonia posterior, porque el artículo 17 de la Ministru kabineta iekārtas
       likums dispone que los miembros del gabinete «stājas pie amata pienākumu pildīšanas
       tūlīt pēc tam, kad Saeima viņiem izteikusi uzticību», es decir, empiezan a ejercer sus
       funciones inmediatamente después de que el Saeima les haya expresado confianza. Las
@@ -128,10 +128,10 @@ methodology_notes:
       the Viedās administrācijas un reģionālās attīstības ministrija, "ņemot vērā ...
       kompetenci dabas aizsardzības jomā" (nature protection), and to the Klimata un
       enerģētikas ministrija, "ņemot vērā ... kompetenci vides aizsardzības jomā"
-      (environmental protection). The project's taxonomy has one id, `environment`, covering
-      "environment and nature", so it is tagged on both, and each of the two entities carries
-      a note saying which half it holds. Counting these as two environment ministries would
-      overstate Latvia's structure; counting neither would lose the split entirely.
+      (environmental protection). This project's classification has a single area covering
+      "environment and nature", so both ministries carry it, and each of the two entities
+      carries a note saying which half it holds. Counting these as two environment ministries
+      would overstate Latvia's structure; counting neither would lose the split entirely.
     es: >-
       La competencia ambiental está repartida deliberadamente entre dos ministerios, y así lo
       dice la ley. La disposición transitoria 19, añadida por la ley de 6 de junio de 2024,
@@ -139,13 +139,13 @@ methodology_notes:
       ahora tanto al Viedās administrācijas un reģionālās attīstības ministrija, «ņemot vērā
       ... kompetenci dabas aizsardzības jomā» (protección de la naturaleza), como al Klimata
       un enerģētikas ministrija, «ņemot vērā ... kompetenci vides aizsardzības jomā»
-      (protección del medio ambiente). La taxonomía del proyecto tiene un solo id,
-      `environment`, que cubre «medio ambiente y naturaleza», por lo que se etiqueta en ambos,
-      y cada una de las dos entidades lleva una nota que indica qué mitad tiene. Contarlos
+      (protección del medio ambiente). La clasificación de este proyecto tiene una sola área
+      que cubre «medio ambiente y naturaleza», por lo que ambos ministerios la llevan, y cada
+      una de las dos entidades lleva una nota que indica qué mitad tiene. Contarlos
       como dos ministerios de medio ambiente exageraría la estructura letona; no etiquetar
       ninguno haría desaparecer el reparto.
   - en: >-
-      Two official sources publish a figure or a name that this file does not follow, and both
+      Two official sources publish a figure or a name that this page does not follow, and both
       are worth knowing about. First, the English edition of mk.gov.lv carries two
       descriptions of the government: the "Cabinet composition" item says "the Prime Minister
       and 14 sectoral ministers", matching the Latvian page and the statute, while the
@@ -158,7 +158,7 @@ methodology_notes:
       minister titles used here are mk.gov.lv's current ones, which give "Minister for Smart
       Administration and Regional Development".
     es: >-
-      Dos fuentes oficiales publican una cifra o un nombre que este fichero no sigue, y
+      Dos fuentes oficiales publican una cifra o un nombre que esta ficha no sigue, y
       conviene conocer ambas. Primero, la edición inglesa de mk.gov.lv lleva dos descripciones
       del gobierno: la del apartado «Cabinet composition» dice «the Prime Minister and 14
       sectoral ministers», coincidiendo con la página en letón y con la ley, mientras que la
@@ -173,46 +173,47 @@ methodology_notes:
   - en: >-
       Names and provenance. The Latvian government publishes official English titles for its
       ministers ("Minister for Defence", "Minister for Welfare", "Minister for Smart
-      Administration and Regional Development"), and those are what this file records in
-      `head_title_en`. It does not publish a consolidated English list of the ministries as
-      institutions, so every `name_en` below is this project's rendering of the Latvian
-      institutional name, formed to match the government's own English title of the
-      corresponding minister, and is marked `translated`; the two entities whose English names
-      the government does publish — "Prime Minister" and "State Chancellery" — are marked
-      `official`. All Spanish names are this project's. Latvian minister titles are gendered:
-      the Saeima's notice writes "ārlietu ministre" and "izglītības un zinātnes ministre" of
-      the women holding those posts and "aizsardzības ministrs" of the man holding his.
-      `head_title_original` records the masculine form, which is the form the statute uses for
-      the office irrespective of who holds it.
+      Administration and Regional Development"), and those are the English minister titles
+      recorded here. It does not publish a consolidated English list of the ministries as
+      institutions, so every English ministry name below is this project's rendering of the
+      Latvian institutional name, formed to match the government's own English title of the
+      corresponding minister, and is marked as a translation; the two entities whose English
+      names the government does publish — "Prime Minister" and "State Chancellery" — are
+      marked as the government's own names. All Spanish names are this project's. Latvian
+      minister titles are gendered: the Saeima's notice writes "ārlietu ministre" and
+      "izglītības un zinātnes ministre" of the women holding those posts and "aizsardzības
+      ministrs" of the man holding his. The Latvian title is recorded here in the masculine
+      form, which is the form the statute uses for the office irrespective of who holds it.
     es: >-
       Nombres y procedencia. El gobierno letón publica títulos oficiales en inglés para sus
       ministros («Minister for Defence», «Minister for Welfare», «Minister for Smart
-      Administration and Regional Development»), y eso es lo que este fichero recoge en
-      `head_title_en`. No publica una lista consolidada en inglés de los ministerios como
-      instituciones, de modo que cada `name_en` de abajo es una traducción de este proyecto
-      del nombre institucional letón, construida para coincidir con el título inglés oficial
-      del ministro correspondiente, y lleva la marca `translated`; las dos entidades cuyo
-      nombre inglés sí publica el gobierno —«Prime Minister» y «State Chancellery»— llevan
-      `official`. Todos los nombres en español son de este proyecto. Los títulos ministeriales
-      letones tienen género: el aviso del Saeima escribe «ārlietu ministre» e «izglītības un
-      zinātnes ministre» de las mujeres que ocupan esos puestos y «aizsardzības ministrs» del
-      hombre que ocupa el suyo. `head_title_original` recoge la forma masculina, que es la que
-      usa la ley para el cargo con independencia de quién lo ocupe.
+      Administration and Regional Development»), y esos son los títulos ministeriales en
+      inglés que se recogen aquí. No publica una lista consolidada en inglés de los
+      ministerios como instituciones, de modo que cada nombre inglés de ministerio de abajo
+      es una traducción de este proyecto del nombre institucional letón, construida para
+      coincidir con el título inglés oficial del ministro correspondiente, y así se indica;
+      las dos entidades cuyo nombre inglés sí publica el gobierno —«Prime Minister» y «State
+      Chancellery»— se señalan como nombres propios del gobierno. Todos los nombres en
+      español son de este proyecto. Los títulos ministeriales letones tienen género: el aviso
+      del Saeima escribe «ārlietu ministre» e «izglītības un zinātnes ministre» de las
+      mujeres que ocupan esos puestos y «aizsardzības ministrs» del hombre que ocupa el suyo.
+      El título letón se recoge aquí en su forma masculina, que es la que usa la ley para el
+      cargo con independencia de quién lo ocupe.
   - en: >-
-      Listing order and perimeter. `order` follows the order of the statute and of the
+      Listing order and perimeter. The list here follows the order of the statute and of the
       Saeima's notice, both of which name the Ministru prezidents first and then the ministers
       in the same sequence; that is why the head of government stands at position 1 even
       though he is not counted. The State Chancellery is recorded last, outside both lists,
-      because no source treats it as a member of the Cabinet. This file describes the central
+      because no source treats it as a member of the Cabinet. This page describes the central
       government of the Republic of Latvia only: the 42 local governments and the five
       planning regions are subnational and out of scope, and appear here only as the subject
       matter of a ministry.
     es: >-
-      Orden de listado y perímetro. `order` sigue el orden de la ley y el del aviso del
+      Orden de listado y perímetro. La lista de aquí sigue el orden de la ley y el del aviso del
       Saeima, que nombran ambos primero al Ministru prezidents y luego a los ministros en la
       misma secuencia; por eso el jefe de gobierno ocupa la posición 1 aunque no se cuente. La
       Cancillería del Estado se registra al final, fuera de ambas listas, porque ninguna
-      fuente la trata como miembro del gabinete. Este fichero describe únicamente el gobierno
+      fuente la trata como miembro del gabinete. Esta ficha describe únicamente el gobierno
       central de la República de Letonia: los 42 gobiernos locales y las cinco regiones de
       planificación son subnacionales y quedan fuera de alcance, y aparecen aquí sólo como
       materia de un ministerio.

@@ -37,8 +37,8 @@ methodology_notes:
   - en: >-
       12 ministries and 19 cabinet seats. The twelve are the ministries listed in section 1
       of the valtioneuvostolaki, and the list includes the valtioneuvoston kanslia, the
-      Prime Minister's Office, which is counted here. That is the contested decision in this
-      file: excluding it as the office of the head of government, the way this project
+      Prime Minister's Office, which is counted here. That is the contested decision on this
+      page: excluding it as the office of the head of government, the way this project
       excludes Spain's Presidencia del Gobierno, would give Finland 11. It is counted
       because Finnish law does not treat it as an office attached to the Prime Minister but
       as one of the ministries — it appears in the statutory list on the same footing as the
@@ -52,7 +52,7 @@ methodology_notes:
       12 ministerios y 19 asientos en el gabinete. Los doce son los ministerios enumerados en
       el artículo 1 de la valtioneuvostolaki, y la lista incluye la valtioneuvoston kanslia,
       la Oficina del Primer Ministro, que aquí se cuenta. Esa es la decisión discutible de
-      este fichero: excluirla como oficina del jefe de gobierno, tal como este proyecto
+      esta ficha: excluirla como oficina del jefe de gobierno, tal como este proyecto
       excluye la Presidencia del Gobierno española, daría 11. Se cuenta porque el derecho
       finlandés no la trata como un cargo adscrito al primer ministro sino como uno de los
       ministerios: figura en la lista legal en pie de igualdad con los otros once, tiene su
@@ -89,7 +89,7 @@ methodology_notes:
       siete tiene rango ministerial pleno y asiento en el valtioneuvosto, por lo que cada uno
       suma un asiento y ningún ministerio. 12 + 7 = 19; las dos cifras nunca se suman.
   - en: >-
-      A Finnish minister can serve in more than one ministry, which is why this file records
+      A Finnish minister can serve in more than one ministry, which is why this page records
       ministries and not ministers' portfolios. The division of duties of 16 June 2026 gives
       the minister of local government and regional affairs matters in three ministries —
       Åland affairs in the Ministry of Justice, local and regional administration, public-
@@ -103,7 +103,7 @@ methodology_notes:
       ministry that holds the subject matter, not on the ministry whose minister happens to
       handle it.
     es: >-
-      Un ministro finlandés puede servir en más de un ministerio, y por eso este fichero
+      Un ministro finlandés puede servir en más de un ministerio, y por eso esta ficha
       registra ministerios y no carteras de ministros. El reparto de funciones de 16 de junio
       de 2026 asigna a la ministra de Administración Local y Regional asuntos en tres
       ministerios —los relativos a Åland en el Ministerio de Justicia; la administración local
@@ -133,7 +133,7 @@ methodology_notes:
       ministerios. Es lo contrario de los casos danés y neerlandés, donde un ministerio se
       crea o suprime por decreto y la cifra se mueve entre elecciones.
   - en: >-
-      Officeholders change without the structure changing, and this dataset records the
+      Officeholders change without the structure changing, and this project records the
       structure. Two of the nineteen ministers are not the same people as when the cabinet
       took office in June 2023, and the most recent change was on 16 June 2026, when
       Karoliina Partanen took over as minister of social security while Sanni Grahn-Laasonen
@@ -141,7 +141,7 @@ methodology_notes:
       figures are unaffected; the division of duties cited here is the version of 16 June
       2026, which reflects that substitution.
     es: >-
-      Los titulares cambian sin que cambie la estructura, y este dataset registra la
+      Los titulares cambian sin que cambie la estructura, y este proyecto registra la
       estructura. Dos de los diecinueve ministros no son las mismas personas que cuando el
       gobierno tomó posesión en junio de 2023, y el cambio más reciente es del 16 de junio de
       2026, cuando Karoliina Partanen asumió como ministra de Seguridad Social mientras Sanni
@@ -149,33 +149,33 @@ methodology_notes:
       y las dos cifras publicadas no se ven afectados; el reparto de funciones aquí citado es
       la versión de 16 de junio de 2026, que ya refleja esa sustitución.
   - en: >-
-      Perimeter and language. This file describes the central government of the Republic of
+      Perimeter and language. This page describes the central government of the Republic of
       Finland. Åland is an autonomous region with its own government and legislature and is
       out of scope; Åland affairs are a portfolio inside the Ministry of Justice, which is how
       they are recorded. Finland has two national languages, Finnish and Swedish, and every
       ministry has an official Swedish name (statsrådets kansli, utrikesministeriet, and so
-      on) which section 1 of the valtioneuvostolaki lists in parallel; `name_original` carries
-      the Finnish name only, which is a limitation of the schema rather than a judgement about
+      on) which section 1 of the valtioneuvostolaki lists in parallel; the original name shown
+      here is the Finnish one only, a limitation of this project rather than a judgement about
       the two languages.
     es: >-
-      Perímetro e idioma. Este fichero describe el gobierno central de la República de
+      Perímetro e idioma. Esta ficha describe el gobierno central de la República de
       Finlandia. Åland es una región autónoma con su propio gobierno y parlamento y queda
       fuera de alcance; los asuntos de Åland son una cartera dentro del Ministerio de
       Justicia, y así se registran. Finlandia tiene dos lenguas nacionales, el finés y el
       sueco, y todos los ministerios tienen nombre oficial en sueco (statsrådets kansli,
       utrikesministeriet, etc.) que el artículo 1 de la valtioneuvostolaki enumera en
-      paralelo; `name_original` recoge sólo el nombre finés, lo que es una limitación del
-      esquema y no un juicio sobre las dos lenguas.
+      paralelo; el nombre original que se muestra aquí es sólo el finés, una limitación de
+      este proyecto y no un juicio sobre las dos lenguas.
   - en: >-
       English ministry names are the Finnish government's own, taken from the English-language
-      edition of valtioneuvosto.fi, and marked name_en_provenance: official. The English and
+      edition of valtioneuvosto.fi, and are marked as the government's own. The English and
       Spanish titles of the seven ministers who head no ministry, and all Spanish names, are
-      this project's renderings and are marked translated.
+      this project's renderings and are marked as such.
     es: >-
       Los nombres ingleses de los ministerios son los del propio gobierno finlandés, tomados
-      de la edición inglesa de valtioneuvosto.fi, y llevan name_en_provenance: official. Los
+      de la edición inglesa de valtioneuvosto.fi, y se señalan como propios del gobierno. Los
       títulos en inglés y español de los siete ministros que no dirigen ministerio, y todos los
-      nombres en español, son traducciones de este proyecto y llevan la marca translated.
+      nombres en español, son traducciones de este proyecto y así se indican.
 
 sources:
   - id: laki-valtioneuvostosta-175-2003

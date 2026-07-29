@@ -43,8 +43,8 @@ methodology_notes:
       peaminister plus twelve ministers, which is the figure the government publishes for
       itself ("Kristen Michali juhitavas valitsuses on lisaks peaministrile 12 ministrit").
       The gap between eleven and twelve arises entirely inside the Kliimaministeerium, which
-      has two ministers; see its entry below. Estonia's constitution caps the government at
-      15 members (§ 3 lõige 4 of the Act: "Vabariigi Valitsuses ei ole üle 15 liikme"), so
+      has two ministers; see its entry below. The Act caps the government at
+      15 members (§ 3 lõige 4: "Vabariigi Valitsuses ei ole üle 15 liikme"), so
       the 13 sitting members are two below the statutory ceiling.
     es: >-
       11 ministerios y 13 asientos en el gabinete. Los once son exactamente los ministerios
@@ -61,21 +61,21 @@ methodology_notes:
       debajo del techo legal.
   - en: >-
       The Kliimaministeerium is one ministry with two co-equal heads, and that is the
-      judgement call in this file. The Prime Minister's korraldus of 12 August 2024 (as
+      judgement call on this page. The Prime Minister's korraldus of 12 August 2024 (as
       amended to 31 March 2025) says the energeetika- ja keskkonnaminister "juhib
       Kliimaministeeriumi oma vastutusvaldkonnas, välja arvatud valdkondades, mis on antud
       taristuministri juhtida", and separately that the taristuminister "juhib
       Kliimaministeeriumi oma vastutusvaldkonnas". Neither is subordinate to the other:
       point 14 of the same korraldus provides that where several ministers lead a ministry,
       questions falling to more than one of them are decided jointly. The entity is
-      therefore recorded once, counted once, with head_count 2 — one ministry, two seats. A
-      curator who treated "Ministry of Energy and the Environment" and "Ministry of
+      therefore recorded once and counted once, with two heads — one ministry, two seats.
+      Treating "Ministry of Energy and the Environment" and "Ministry of
       Infrastructure" as two departments, as several English-language summaries of the
-      Estonian cabinet do, would publish 12 ministries; that reading has no support in § 45,
+      Estonian cabinet do, would give 12 ministries; that reading has no support in § 45,
       which knows only the Kliimaministeerium.
     es: >-
       El Kliimaministeerium es un solo ministerio con dos titulares en pie de igualdad, y esa
-      es la decisión discutible de este fichero. La korraldus del primer ministro de 12 de
+      es la decisión discutible de esta ficha. La korraldus del primer ministro de 12 de
       agosto de 2024 (en su redacción de 31 de marzo de 2025) dice que el energeetika- ja
       keskkonnaminister «juhib Kliimaministeeriumi oma vastutusvaldkonnas, välja arvatud
       valdkondades, mis on antud taristuministri juhtida» y, por separado, que el
@@ -83,9 +83,9 @@ methodology_notes:
       subordinado al otro: el punto 14 de la misma korraldus establece que, cuando varios
       ministros dirigen un ministerio, las cuestiones que afectan a más de uno se deciden
       conjuntamente. La entidad se registra por tanto una sola vez, se cuenta una sola vez y
-      lleva head_count 2: un ministerio, dos asientos. Un curador que tratara «Ministry of
+      tiene dos titulares: un ministerio, dos asientos. Tratar «Ministry of
       Energy and the Environment» y «Ministry of Infrastructure» como dos departamentos,
-      como hacen varios resúmenes en inglés del gabinete estonio, publicaría 12 ministerios;
+      como hacen varios resúmenes en inglés del gabinete estonio, daría 12 ministerios;
       esa lectura no tiene apoyo en el § 45, que sólo conoce el Kliimaministeerium.
   - en: >-
       Why the peaminister is recorded but not counted, and why the Riigikantselei is not
@@ -97,8 +97,8 @@ methodology_notes:
       Prime Minister, who attends cabinet with the right to speak but is not a minister and
       holds no seat. So the Riigikantselei is neither a ministry nor a cabinet member, and
       recording it as an entity would either invent a twelfth department or invent a
-      fourteenth seat. The peaminister is recorded instead, uncounted, under
-      head_of_government_office, which is what makes the seat count come out at 13. This is
+      fourteenth seat. The peaminister is recorded instead, uncounted, as the office of the
+      head of government, which is what makes the seat count come out at 13. This is
       the opposite of the Finnish arrangement, where the valtioneuvoston kanslia is itself
       one of the statutory ministries and is counted.
     es: >-
@@ -111,8 +111,8 @@ methodology_notes:
       por el primer ministro que asiste al consejo con voz pero no es ministro ni tiene
       asiento. La Riigikantselei no es, por tanto, ni ministerio ni miembro del gabinete, y
       registrarla como entidad inventaría un duodécimo departamento o un decimocuarto
-      asiento. Se registra en su lugar el peaminister, sin contarlo, por
-      head_of_government_office, que es lo que hace que el recuento de asientos dé 13. Es lo
+      asiento. Se registra en su lugar el peaminister, sin contarlo, como oficina del jefe
+      de gobierno, que es lo que hace que el recuento de asientos dé 13. Es lo
       contrario del caso finlandés, donde la valtioneuvoston kanslia es ella misma uno de los
       ministerios legales y se cuenta.
   - en: >-
@@ -126,11 +126,11 @@ methodology_notes:
       liikmeid 13." The posts of sotsiaalkaitseminister and terviseminister, who between them
       led the Sotsiaalministeerium until then, were replaced by a single sotsiaalminister,
       and the kliimaminister was retitled energeetika- ja keskkonnaminister. Because the
-      change was to ministerial posts and not to departments, no entity here carries a
-      valid_to: the eleven ministries of § 45 were untouched, and the file records the
-      structure in force on the access date. The government's own composition page still
-      publishes the earlier rosters, and this file's took_office is the date the cabinet was
-      first sworn in, not the date of the March 2025 reconstitution.
+      change was to ministerial posts and not to departments, no department here is recorded
+      with an end date: the eleven ministries of § 45 were untouched, and this page records
+      the structure in force on the access date. The government's own composition page still
+      publishes the earlier rosters, and the date of taking office recorded here is the date
+      the cabinet was first sworn in, not the date of the March 2025 reconstitution.
     es: >-
       Dos cambios de ministros bajo este gobierno, ninguno de los cuales movió ninguna de las
       dos cifras. El gobierno tomó posesión el 23 de julio de 2024 con el peaminister y 13
@@ -143,74 +143,74 @@ methodology_notes:
       terviseminister, que hasta entonces dirigían conjuntamente el Sotsiaalministeerium,
       fueron sustituidos por un único sotsiaalminister, y el kliimaminister pasó a titularse
       energeetika- ja keskkonnaminister. Como el cambio afectó a puestos ministeriales y no a
-      departamentos, ninguna entidad lleva aquí valid_to: los once ministerios del § 45 no se
-      tocaron, y el fichero registra la estructura vigente en la fecha de consulta. La propia
-      página de composición del gobierno sigue publicando las listas anteriores, y el
-      took_office de este fichero es la fecha en que el gabinete juró por primera vez, no la
-      de la reconstitución de marzo de 2025.
+      departamentos, ningún departamento lleva aquí fecha de fin: los once ministerios del
+      § 45 no se tocaron, y esta ficha registra la estructura vigente en la fecha de consulta.
+      La propia página de composición del gobierno sigue publicando las listas anteriores, y
+      la fecha de toma de posesión aquí registrada es la fecha en que el gabinete juró por
+      primera vez, no la de la reconstitución de marzo de 2025.
   - en: >-
       Two ministry names no longer describe what the ministry does, and the tags follow the
       remit rather than the name. The Majandus- ja Kommunikatsiooniministeerium lost
       communications on 1 January 2025: digital society policy, public e-services,
       cybersecurity, state information systems and "telekommunikatsiooni korraldamine" all
       moved to the Justiits- ja Digiministeerium under § 59, and the Riigi Infosüsteemi Amet
-      moved with them, so digital and telecommunications are tagged on the justice ministry
-      and not on the one whose name still says Kommunikatsiooni. In the other direction, the
+      moved with them, so the digital and telecommunications areas are tagged on the justice
+      ministry and not on the one whose name still says Kommunikatsiooni. In the other direction, the
       Kliimaministeerium's remit under § 61 is far wider than climate — energy, environment,
       the marine economy, waste, housing and construction, and the whole of transport — which
       is why it carries nine policy areas. Foreign trade is a third case: § 69 gives it to
       the Välisministeerium, but point 6 of the Prime Minister's korraldus puts the relevant
-      Välisministeerium units under the majandus- ja tööstusminister, so trade is tagged on
-      the Majandus- ja Kommunikatsiooniministeerium, and the discrepancy is recorded on both
-      entities.
+      Välisministeerium units under the majandus- ja tööstusminister, so the trade area is
+      tagged on the Majandus- ja Kommunikatsiooniministeerium, and the discrepancy is
+      recorded on both ministries.
     es: >-
       Dos nombres de ministerio ya no describen lo que el ministerio hace, y las etiquetas
       siguen el ámbito y no el nombre. El Majandus- ja Kommunikatsiooniministeerium perdió las
       comunicaciones el 1 de enero de 2025: la política de sociedad digital, los servicios
       públicos electrónicos, la ciberseguridad, los sistemas de información del Estado y la
       «telekommunikatsiooni korraldamine» pasaron al Justiits- ja Digiministeerium por el
-      § 59, y con ellos la Riigi Infosüsteemi Amet, de modo que digital y telecommunications
-      se etiquetan en el ministerio de justicia y no en el que todavía se llama de
-      Comunicaciones. En sentido inverso, el ámbito del Kliimaministeerium según el § 61 es
+      § 59, y con ellos la Riigi Infosüsteemi Amet, de modo que las áreas de digitalización
+      y de telecomunicaciones se etiquetan en el ministerio de justicia y no en el que
+      todavía se llama de Comunicaciones. En sentido inverso, el ámbito del Kliimaministeerium según el § 61 es
       mucho más amplio que el clima —energía, medio ambiente, economía marítima, residuos,
       vivienda y construcción y todo el transporte—, y por eso lleva nueve áreas de política.
       El comercio exterior es un tercer caso: el § 69 lo atribuye al Välisministeerium, pero
       el punto 6 de la korraldus del primer ministro pone las unidades correspondientes del
-      Välisministeerium bajo el majandus- ja tööstusminister, de modo que trade se etiqueta
-      en el Majandus- ja Kommunikatsiooniministeerium y la discrepancia queda anotada en
-      ambas entidades.
+      Välisministeerium bajo el majandus- ja tööstusminister, de modo que el área de comercio
+      se etiqueta en el Majandus- ja Kommunikatsiooniministeerium y la discrepancia queda
+      anotada en ambos ministerios.
   - en: >-
       English names are the Estonian government's own, with one documented exception and one
       documented variant. Ten of the eleven English ministry names are copied from the
-      ministries menu of the English-language edition of valitsus.ee and are marked
-      name_en_provenance official. The exception is the Justiits- ja Digiministeerium: that
+      ministries menu of the English-language edition of valitsus.ee and are marked as the
+      government's own names. The exception is the Justiits- ja Digiministeerium: that
       menu still labels its link "Ministry of Justice", the name the ministry had before 1
       January 2025, while the same site's list of ministers already says "Minister of Justice
       and Digital Affairs" and the ministry's own English site is titled "Ministry of Justice
-      and Digital Affairs". This file follows the ministry's own current name and cites it.
+      and Digital Affairs". This page follows the ministry's own current name and cites it.
       The variant is the Kultuuriministeerium, which valitsus.ee calls "Ministry of Cultural
       Affairs" and its own site calls "Ministry of Culture"; the portal's form is used here
       for consistency with the rest of the list, and both are official. All Spanish names are
-      this project's own renderings and are marked translated. Estonian has one official
-      language, so name_original raises none of the parallel-name questions that Finland's or
-      Belgium's entries do.
+      this project's own translations, and are marked as such. Estonian has one official
+      language, so the original names raise none of the parallel-name questions that
+      Finland's or Belgium's entries do.
     es: >-
       Los nombres en inglés son los del propio gobierno estonio, con una excepción y una
       variante documentadas. Diez de los once nombres ingleses de ministerio están copiados
-      del menú de ministerios de la edición inglesa de valitsus.ee y llevan
-      name_en_provenance official. La excepción es el Justiits- ja Digiministeerium: ese menú
+      del menú de ministerios de la edición inglesa de valitsus.ee y se señalan como
+      nombres oficiales. La excepción es el Justiits- ja Digiministeerium: ese menú
       todavía etiqueta su enlace como «Ministry of Justice», el nombre que el ministerio tuvo
       hasta el 1 de enero de 2025, mientras que la lista de ministros del mismo sitio ya dice
       «Minister of Justice and Digital Affairs» y la propia web inglesa del ministerio se
-      titula «Ministry of Justice and Digital Affairs». Este fichero sigue el nombre actual
+      titula «Ministry of Justice and Digital Affairs». Esta ficha sigue el nombre actual
       del propio ministerio y lo cita. La variante es el Kultuuriministeerium, al que
       valitsus.ee llama «Ministry of Cultural Affairs» y su propia web «Ministry of Culture»;
       aquí se usa la forma del portal por coherencia con el resto de la lista, y ambas son
-      oficiales. Todos los nombres en español son traducciones de este proyecto y llevan la
-      marca translated. El estonio es la única lengua oficial, de modo que name_original no
-      plantea aquí las cuestiones de nombres paralelos que sí plantean Finlandia o Bélgica.
+      oficiales. Todos los nombres en español son traducciones de este proyecto y así se
+      indican. El estonio es la única lengua oficial, de modo que los nombres originales no
+      plantean aquí las cuestiones de nombres paralelos que sí plantean Finlandia o Bélgica.
   - en: >-
-      Perimeter, and what a future reader should check. This file describes the central
+      Perimeter, and what a future reader should check. This page describes the central
       government of the Republic of Estonia; the 79 kohaliku omavalitsuse üksused are
       subnational and out of scope, and their supervision is a portfolio of the Justiits- ja
       Digiministeerium and the Regionaal- ja Põllumajandusministeerium rather than a ministry
@@ -219,9 +219,9 @@ methodology_notes:
       published at the access date — one in force from 1 October 2026 (RT I, 30.06.2026, 43)
       and one from 1 January 2027 (RT I, 11.07.2026, 157) — and the § 45 list of eleven is
       identical in both, so the count is not due to change before the March 2027 Riigikogu
-      election on any instrument published so far.
+      election on any instrument published as of the access date.
     es: >-
-      Perímetro y qué debería comprobar un lector futuro. Este fichero describe el gobierno
+      Perímetro y qué debería comprobar un lector futuro. Esta ficha describe el gobierno
       central de la República de Estonia; las 79 kohaliku omavalitsuse üksused son
       subnacionales y quedan fuera de alcance, y su supervisión es una cartera del Justiits-
       ja Digiministeerium y del Regionaal- ja Põllumajandusministeerium y no un ministerio
@@ -230,7 +230,7 @@ methodology_notes:
       redacciones posteriores —una vigente desde el 1 de octubre de 2026 (RT I, 30.06.2026,
       43) y otra desde el 1 de enero de 2027 (RT I, 11.07.2026, 157)— y la lista de once del
       § 45 es idéntica en ambas, de modo que la cifra no va a cambiar antes de las elecciones
-      al Riigikogu de marzo de 2027 según ningún instrumento publicado hasta ahora.
+      al Riigikogu de marzo de 2027 según ningún instrumento publicado a la fecha de consulta.
 
 sources:
   - id: rt-vvs-2025-10-01
