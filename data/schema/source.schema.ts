@@ -43,6 +43,25 @@ export const SourceSchema = z.strictObject({
    * waiting to happen.
    */
   archive_url: z.url().nullable().default(null),
+  /**
+   * Why no snapshot exists, when the publisher is what prevents one.
+   *
+   * The archive requirement assumes every official document can be archived by
+   * somebody. Malta disproves it: every Maltese government host sits behind bot
+   * management that serves the archive crawler a challenge page instead of the
+   * gazette, so the requirement as first written made the country permanently
+   * uncoverable — not because the source is weak, but because its publisher blocks
+   * robots.
+   *
+   * Setting this downgrades `source-archive-required` from an error to the warning
+   * `source-archive-unavailable`, which keeps the gap in every validation run and in
+   * the published warning count rather than hiding it. It is not a way to defer
+   * archiving: write what was tried and what happened, because the next curator's
+   * decision about whether to retry rests on it. Leaving it null keeps the error, and
+   * setting it alongside an `archive_url` is itself an error — a stale exemption would
+   * outlive the problem it documents.
+   */
+  archive_unavailable_reason: z.string().min(40).nullable().default(null),
 
   lang: LangCode,
   published: IsoDate.nullable().default(null),

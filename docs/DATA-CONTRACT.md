@@ -87,7 +87,15 @@ Run `npm run validate`. It is not advisory — CI fails on any error. The rules,
 in [`scripts/lib/rules.ts`](../scripts/lib/rules.ts); the ones that catch people out:
 
 - `entity-source-unresolved` — you cited a source id that is not in the file.
-- `source-archive-required` — a tier 1 or 2 source with no archived snapshot.
+- `source-archive-required` — a tier 1 or 2 source with no archived snapshot. If the
+  *publisher* is what prevents one — bot management that serves the archive crawler a
+  challenge page, as on every Maltese government host — write what you tried and what
+  happened in `archive_unavailable_reason`. That demotes this to the warning
+  `source-archive-unavailable`, so the gap is counted in `metadata.sources_unarchived`
+  rather than either blocking the build forever or vanishing. It is not for deferring
+  work: remove it the moment a snapshot exists, because leaving it beside an `archive_url`
+  is the error `source-archive-exemption-stale`. Before using it, confirm the failure is
+  the publisher's and not the crawler's — the same path may hold successful captures.
 - `source-archive-same-as-url` / `source-archive-host-unknown` — `archive_url` must be a
   real snapshot on a real archive.
 - `source-tier-type-mismatch` — only a gazette or statute may claim tier 1.

@@ -41,6 +41,8 @@ export interface Metadata {
   ministries_total: number;
   sources_total: number;
   sources_by_tier: Record<string, number>;
+  /** Tier 1-2 citations with no snapshot, each with a declared reason in its source file. */
+  sources_unarchived: number;
   validation_warnings: number;
   license: string;
   schema_version: number;

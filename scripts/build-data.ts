@@ -152,6 +152,19 @@ const metadata = {
     }
     return acc;
   }, {}),
+  /**
+   * Tier 1 and 2 citations with no archived snapshot, each carrying a declared reason.
+   * Published rather than merely warned about: an archive gap the dataset tolerates is a
+   * property of the dataset, and a reader weighing it should not have to run the validator.
+   */
+  sources_unarchived: cabinets.reduce(
+    (sum, { value }) =>
+      sum +
+      value.sources.filter(
+        (source) => source.tier <= 2 && source.archive_url === null,
+      ).length,
+    0,
+  ),
   validation_warnings: warnings,
   license: 'CC-BY-4.0',
   schema_version: 1,

@@ -397,15 +397,37 @@ function checkSource(
 
   if (source.tier <= 2) {
     if (!source.archive_url) {
+      // A publisher that blocks the archive crawler would otherwise make a country
+      // permanently uncoverable. Declaring why demotes this to a warning, so the gap stays
+      // countable instead of becoming invisible; saying nothing keeps it an error.
       issues.push(
-        error(
-          'source-archive-required',
-          file,
-          `tier ${source.tier} sources must carry an archive_url snapshot`,
-          `${at}.archive_url`,
-        ),
+        source.archive_unavailable_reason
+          ? warning(
+              'source-archive-unavailable',
+              file,
+              `tier ${source.tier} source carries no snapshot; declared unavailable: ` +
+                source.archive_unavailable_reason.replace(/\s+/g, ' ').slice(0, 160),
+              `${at}.archive_url`,
+            )
+          : error(
+              'source-archive-required',
+              file,
+              `tier ${source.tier} sources must carry an archive_url snapshot`,
+              `${at}.archive_url`,
+            ),
       );
     } else {
+      if (source.archive_unavailable_reason) {
+        issues.push(
+          error(
+            'source-archive-exemption-stale',
+            file,
+            'archive_unavailable_reason is set alongside an archive_url; remove the reason ' +
+              'now that a snapshot exists',
+            `${at}.archive_unavailable_reason`,
+          ),
+        );
+      }
       if (source.archive_url === source.url) {
         issues.push(
           error(

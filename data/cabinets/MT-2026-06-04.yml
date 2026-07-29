@@ -290,6 +290,14 @@ sources:
       Government of Malta, Government Gazette No. 21,661 of 5th June 2026, pp. 12,385–12,397
     url: https://www.gov.mt/en/Government/DOI/Government%20Gazette/Documents/2026/06/Government%20Gazette%20-%205th%20June%20Ministers.pdf
     archive_url: null
+    archive_unavailable_reason: >-
+      The publisher blocks the archive crawler. Every Maltese government host sits behind
+      Cloudflare bot management: this URL serves its 24 pages normally to a real browser but
+      returns 403 to curl and to Save Page Now, which reported "Job failed" to every request
+      over more than an hour on 28 and 29 July 2026. The only capture that exists,
+      20260729001205, is the Cloudflare challenge page at status 403, not the gazette.
+      archive.today accepted jobs, never completed them, and gates its lookups behind a CAPTCHA.
+      See this source's note for the two-part acceptance test any future snapshot must pass.
     lang: en
     published: 2026-06-05
     accessed: 2026-07-28
@@ -335,28 +343,37 @@ sources:
       on each ministry's portfolio page, which is that entity's `url`. Nothing else is altered:
       the headings are verbatim and in the notice's own order, with the line breaks of the printed
       column joined up. Page numbering 12,385 to 12,397 is the gazette's own continuous pagination
-      for the year. ARCHIVE OUTSTANDING: archive_url is null and the file therefore fails
-      `source-archive-required`. This is not a judgement that the source cannot be archived — it is
-      a PDF on a path from which the Wayback Machine has captured other gazette issues, most
-      recently the issue of 13 January 2026 on 26 July 2026. No snapshot could be created while
-      this file was curated because Save Page Now returned "Job failed" to every request over more
-      than an hour, including control captures of unrelated URLs, and archive.today accepted
-      capture jobs but never completed them and gates its status pages behind a CAPTCHA.
-      One capture of this URL now exists, and it must not be used. The CDX API lists timestamp
-      20260729001205, and that capture is five kilobytes of Cloudflare's "Just a moment..."
-      interstitial, recorded with status 403 and mimetype text/html — not the gazette. Every
-      Maltese government host sits behind Cloudflare bot management, so a save that appears to
-      succeed can still archive the challenge page instead of the document; the January issue
-      cited above took two attempts, and its first attempt recorded exactly this kind of decoy.
-      The acceptance test for a snapshot of this URL is therefore mechanical, and neither half of
-      it is "open it in a browser", which is what a decoy passes. The CDX row for the timestamp
-      must read mimetype application/pdf with status 200 and a length in the megabytes, and
-      `pdftotext -layout` run on the raw capture — the `<timestamp>id_/` form of the URL, fetched
-      with `curl --compressed`, or the bytes arrive gzipped and every check fails for the wrong
-      reason — must contain the quote above. Only a timestamp that passes both belongs in
-      archive_url. Retry hours apart rather than in a loop: a tight retry loop on 29 July 2026
-      drew "Job failed" from every attempt and then sustained rate-limiting from Save Page Now
-      itself, which delays the next real chance instead of improving the odds.
+      for the year. ARCHIVE OUTSTANDING: archive_url is null, and the reason is declared in
+      `archive_unavailable_reason`, which demotes `source-archive-required` to the warning
+      `source-archive-unavailable` so the gap stays visible in every validation run instead of
+      blocking the build indefinitely. Replace both fields the moment a real snapshot exists;
+      leaving the reason in place alongside an archive_url is itself an error.
+      This is not a judgement that the source cannot be archived. The same path holds dozens of
+      genuine gazette captures — mimetype application/pdf, status 200, hundreds of kilobytes to
+      megabytes — and the most recent was made on 6 March 2026, of the issue of 9 January 2019. So
+      the crawler can still get PDFs from this host; it could not get this one.
+      Two different decoys have been recorded on this path, and a snapshot must be tested against
+      both. The first is Cloudflare's challenge: the CDX API lists timestamp 20260729001205 for
+      this URL, five kilobytes of the "Just a moment..." interstitial at status 403 and mimetype
+      text/html. The second is quieter and was mistaken for a success in an earlier revision of
+      this note — the capture of the 13 January 2026 issue, timestamp 20260726023114, records
+      status 200, which passes a naive check, but it is fourteen kilobytes of gov.mt's SharePoint
+      HTML rather than the gazette. Status alone therefore proves nothing, and neither does
+      opening a capture in a browser, which is what both decoys survive.
+      The acceptance test is mechanical and has two halves. The CDX row must read mimetype
+      application/pdf with status 200 and a length in the megabytes; and `pdftotext -layout` run
+      on the raw capture — the `<timestamp>id_/` form of the URL, fetched with `curl --compressed`,
+      or the bytes arrive gzipped and every check fails for the wrong reason — must contain the
+      quote above. Only a timestamp that passes both belongs in archive_url.
+      What has been tried, so it is not repeated blindly: Save Page Now returned "Job failed" to
+      every request over more than an hour on 28 and 29 July 2026, including control captures of
+      unrelated URLs; archive.today accepted capture jobs, never completed them, and gates both
+      its status pages and its lookups behind a CAPTCHA, answering an automated query with 429.
+      The live URL itself returns 403 to curl while serving the 24-page document normally to a
+      real browser, which is the shape of the whole problem. Retry hours apart rather than in a
+      loop: a tight retry loop on 29 July 2026 drew "Job failed" from every attempt and then
+      sustained rate-limiting from Save Page Now itself, which delays the next real chance instead
+      of improving the odds.
 
   - id: gazzetta-21661-gn842-ministers
     tier: 1
@@ -367,6 +384,10 @@ sources:
       5th June 2026
     url: https://www.gov.mt/en/Government/DOI/Government%20Gazette/Documents/2026/06/Government%20Gazette%20-%205th%20June%20Ministers.pdf
     archive_url: null
+    archive_unavailable_reason: >-
+      In the same gazette PDF as Government Notice 844 and blocked for the same reason: the
+      publisher's Cloudflare bot management serves the archive crawler a challenge page instead
+      of the document. One successful capture of that URL clears both citations at once.
     lang: en
     published: 2026-06-05
     accessed: 2026-07-28

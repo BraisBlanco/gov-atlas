@@ -91,6 +91,49 @@ describe('sourcing rules', () => {
     }
   });
 
+  it('accepts a missing snapshot only when the publisher is documented as blocking it', () => {
+    // The exemption has to stay countable rather than silent, so it demotes the error to a
+    // warning instead of clearing it. A gap nobody can see is the failure mode here.
+    const issues = check({
+      taxonomy,
+      cabinets: [
+        makeCabinetInput({
+          sources: [
+            makeSource({
+              archive_url: null,
+              archive_unavailable_reason:
+                'Every Maltese government host serves the archive crawler a challenge page ' +
+                'instead of the gazette; Save Page Now returned "Job failed" to every request.',
+            }),
+          ],
+        }),
+      ],
+    });
+    expect(rulesFrom(issues)).not.toContain('source-archive-required');
+    const declared = issues.filter((issue) => issue.rule === 'source-archive-unavailable');
+    expect(declared).toHaveLength(1);
+    expect(declared[0]?.severity).toBe('warning');
+    expect(declared[0]?.message).toContain('challenge page');
+  });
+
+  it('rejects an exemption left behind once a snapshot exists', () => {
+    // Otherwise the note outlives the problem it documents and the next curator trusts it.
+    const issues = check({
+      taxonomy,
+      cabinets: [
+        makeCabinetInput({
+          sources: [
+            makeSource({
+              archive_unavailable_reason:
+                'Left over from when the publisher blocked the crawler, which it no longer does.',
+            }),
+          ],
+        }),
+      ],
+    });
+    expect(rulesFrom(issues)).toContain('source-archive-exemption-stale');
+  });
+
   it('catches the live URL being pasted into archive_url', () => {
     const url = 'https://www.boe.es/eli/es/rd/2023/11/20/829';
     const issues = check({
