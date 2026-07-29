@@ -17,7 +17,7 @@
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit",
     "dev": "npm run build:data && npm run dev --workspace @gov-atlas/site",
-    "build": "npm run validate && npm run build:data && npm run build --workspace @gov-atlas/site",
+    "build": "npm run validate && npm run typecheck && npm run build:data && npm run build --workspace @gov-atlas/site",
     "preview": "npm run preview --workspace @gov-atlas/site"
   },
   "dependencies": {

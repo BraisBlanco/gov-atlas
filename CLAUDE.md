@@ -26,7 +26,7 @@ These are not style preferences. Breaking one breaks the project's only real cla
 npm run validate     # the CI gate — run this before you finish anything data-related
 npm test             # includes negative tests asserting each rule actually fires
 npm run build:data   # regenerate site/public/data (required before building the site)
-npm run build        # validate -> data -> site
+npm run build        # validate -> typecheck -> data -> site
 npm run build:geo    # refetch map geometry from Eurostat GISCO; output is committed
 ```
 
