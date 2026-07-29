@@ -2,6 +2,7 @@ import path from 'node:path';
 
 import type { Cabinet, Entity } from '../../data/schema/cabinet.schema.ts';
 import type { Country } from '../../data/schema/country.schema.ts';
+import type { Source } from '../../data/schema/source.schema.ts';
 import type { Taxonomy } from '../../data/schema/taxonomy.schema.ts';
 import type { Dataset } from './load.ts';
 import { valuesOf } from './load.ts';
@@ -387,9 +388,15 @@ function checkCabinetFile(file: string, cabinet: Cabinet, ctx: CabinetCheckConte
   return issues;
 }
 
+/**
+ * `Source` rather than a structural type listing the fields used here. Both callers pass a
+ * full source — a cabinet's citations and a country's population figure alike — and spelling
+ * out a subset meant that adding a field to the schema left this signature behind, which is
+ * a type error at the first line that reads the new field and nowhere near the cause.
+ */
 function checkSource(
   file: string,
-  source: { tier: 1 | 2 | 3; type: string; url: string; archive_url: string | null; published: string | null; accessed: string; quote: string },
+  source: Source,
   at: string,
   options: CheckOptions,
 ): Issue[] {
