@@ -1,0 +1,258 @@
+/*
+ * Mark specs for the history step chart.
+ *
+ * A 2px line per the line-mark spec, markers at 8px diameter and 11px when selected, a
+ * hairline grid one step off the surface, and hit areas that cover the full plot height so
+ * the target is a band rather than a 2px stroke. Colours come from tokens only: the single
+ * series wears categorical slot 1, and nothing here re-steps a validated value.
+ *
+ * The dashed variant is not decoration. It marks a period whose departments are on record
+ * but deliberately uncounted, where the plotted number is a floor rather than a count — and
+ * it carries a note in the frame, so the meaning never rests on the dash alone.
+ */
+
+.ct {
+  font-family: var(--font-sans);
+  position: relative;
+}
+
+.ct-plot {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.ct-grid {
+  stroke: var(--gridline);
+  stroke-width: 1;
+}
+
+.ct-axis {
+  stroke: var(--axis);
+  stroke-width: 1;
+}
+
+.ct-tick {
+  fill: var(--text-muted);
+  font-size: 11px;
+}
+
+.ct-tick-y {
+  text-anchor: end;
+  dominant-baseline: middle;
+}
+
+.ct-tick-x {
+  text-anchor: middle;
+}
+
+.ct-line {
+  fill: none;
+  stroke: var(--series-1);
+  stroke-width: 2;
+  stroke-linejoin: round;
+  stroke-linecap: butt;
+}
+
+.ct-line.is-estimate {
+  stroke-dasharray: 5 3;
+}
+
+.ct-marker {
+  fill: var(--series-1);
+  /* A 2px surface ring keeps a marker legible where it sits on the step it belongs to. */
+  stroke: var(--surface-1);
+  stroke-width: 2;
+}
+
+.ct-marker.is-selected {
+  fill: var(--text-primary);
+}
+
+/* Absence of data, drawn as absence: a wash and a label, never a bridged line. */
+.ct-gap {
+  fill: var(--wash);
+}
+
+.ct-gap-label {
+  fill: var(--text-muted);
+  font-size: 11px;
+  text-anchor: middle;
+  dominant-baseline: middle;
+}
+
+.ct-hit {
+  fill: transparent;
+  cursor: pointer;
+}
+
+.ct-hit:hover {
+  fill: var(--wash);
+}
+
+.ct-hit:focus-visible {
+  fill: var(--wash);
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+}
+
+.ct-tooltip {
+  position: fixed;
+  z-index: 20;
+  transform: translate(12px, -50%);
+  min-width: 12rem;
+  max-width: 20rem;
+  padding: var(--space-3);
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 4px 16px rgb(0 0 0 / 12%);
+  pointer-events: none;
+  font-size: var(--text-sm);
+}
+
+.ct-tip-title {
+  margin: 0 0 var(--space-2);
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.ct-tip-list {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 2px var(--space-3);
+  margin: 0;
+}
+
+.ct-tip-list dt {
+  color: var(--text-secondary);
+}
+
+.ct-tip-list dd {
+  margin: 0;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-primary);
+}
+
+/* --- the departments behind the selected step ------------------------------- */
+
+.ct-detail {
+  margin-top: var(--space-4);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--border);
+}
+
+.ct-detail-head {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-3);
+  align-items: baseline;
+  margin: 0 0 var(--space-3);
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.ct-detail-period {
+  font-weight: 400;
+  color: var(--text-secondary);
+}
+
+.ct-list {
+  margin: 0;
+  padding-inline-start: 1.6em;
+  columns: 2;
+  column-gap: var(--space-5);
+  font-size: var(--text-sm);
+  color: var(--text-primary);
+}
+
+@media (max-width: 44rem) {
+  .ct-list {
+    columns: 1;
+  }
+}
+
+.ct-list li {
+  margin-bottom: 2px;
+  break-inside: avoid;
+}
+
+.ct-gloss {
+  display: block;
+  color: var(--text-secondary);
+  font-size: var(--text-xs);
+}
+
+.ct-hint {
+  margin: var(--space-3) 0 0;
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+}
+
+/* --- controls ---------------------------------------------------------------- */
+
+.ct-metrics {
+  display: flex;
+  gap: var(--space-1);
+}
+
+.ct-metric {
+  padding: var(--space-1) var(--space-3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--text-secondary);
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  cursor: pointer;
+}
+
+.ct-metric.is-active {
+  background: var(--wash);
+  border-color: var(--axis);
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.ct-metric:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+/* --- table view -------------------------------------------------------------- */
+
+.ct-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--text-sm);
+}
+
+.ct-table th,
+.ct-table td {
+  padding: var(--space-2) var(--space-3);
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  vertical-align: top;
+}
+
+.ct-table thead th {
+  color: var(--text-secondary);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.ct-num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.ct-flag {
+  display: block;
+  font-weight: 400;
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+}

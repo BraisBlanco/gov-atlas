@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import CabinetTimeline from './charts/CabinetTimeline.tsx';
 import {
   areaLabel,
   countryName,
@@ -35,7 +36,16 @@ const { locale, iso2 } = Astro.props;
 const t = translator(locale);
 const es = locale === 'es';
 
-const [{ summary, entities }, taxonomy] = await Promise.all([loadCountry(iso2), loadTaxonomy()]);
+const [{ summary, entities, timeline, timeline_sources }, taxonomy] = await Promise.all([
+  loadCountry(iso2),
+  loadTaxonomy(),
+]);
+
+/**
+ * A single structural state is a snapshot, not a history — the tiles above already say what
+ * it is, so the chart appears only once there is a change to show.
+ */
+const hasHistory = timeline.length > 1;
 
 const counted = entities.filter((entity) => entity.counts_as_ministry);
 const excluded = entities.filter((entity) => !entity.counts_as_ministry);
@@ -148,6 +158,24 @@ const cabinetName = es ? summary.cabinet_name_es : summary.cabinet_name_en;
         {summary.methodology_notes.map((note) => (
           <p class="note">{es ? note.es : note.en}</p>
         ))}
+      </div>
+    ) : null
+  }
+
+  {
+    hasHistory ? (
+      <div class="wide">
+        <h2 class="section-head">{t('country.history')}</h2>
+        <p class="section-note">{t('country.historyNote')}</p>
+        <CabinetTimeline
+          client:load
+          locale={locale}
+          points={timeline}
+          sources={timeline_sources}
+          primaryLang={primaryLang}
+          asOf={summary.left_office ?? new Date().toISOString().slice(0, 10)}
+          methodologyHref={localePath(locale, 'methodology')}
+        />
       </div>
     ) : null
   }
