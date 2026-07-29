@@ -527,11 +527,11 @@ entities:
     note:
       en: >-
         Dutch title, equally official: "Minister van Defensie, belast met Buitenlandse
-        Handel". Pairing defence with foreign trade is unusual across this dataset; in most
+        Handel". Pairing defence with foreign trade is unusual across this project; in most
         countries trade sits with the economy or with foreign affairs.
       es: >-
         Título neerlandés, igualmente oficial: «Minister van Defensie, belast met Buitenlandse
-        Handel». Emparejar defensa con comercio exterior es inusual en este conjunto de datos;
+        Handel». Emparejar defensa con comercio exterior es inusual en este proyecto;
         en la mayoría de los países el comercio va con economía o con exteriores.
 
   - id: BE-2025-mobilite-climat
@@ -624,12 +624,12 @@ entities:
       en: >-
         Dutch title, equally official: "Minister van Consumentenbescherming, Sociale
         Fraude-bestrijding, Personen met een handicap en Gelijke Kansen". Belgium is one of
-        the few countries in this dataset where equality and disability are named in a
+        the few countries in this project where equality and disability are named in a
         portfolio title rather than folded into a social-affairs department.
       es: >-
         Título neerlandés, igualmente oficial: «Minister van Consumentenbescherming, Sociale
         Fraude-bestrijding, Personen met een handicap en Gelijke Kansen». Bélgica es uno de los
-        pocos países de este conjunto de datos donde igualdad y discapacidad se nombran en el
+        pocos países de este proyecto donde igualdad y discapacidad se nombran en el
         título de una cartera en lugar de diluirse en un departamento de asuntos sociales.
 
   - id: BE-2025-asile-migration

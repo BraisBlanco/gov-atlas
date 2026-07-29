@@ -1054,7 +1054,7 @@ entities:
         First in the Republic's order of precedence, and one of the three departments the
         Constitution itself names: article 46 reserves one of foreign affairs, defence or
         finance to a Turkish Cypriot minister, which is why those three and no others rest on
-        a tier-1 instrument in this file. The european_affairs area is tagged here because the
+        a tier-1 instrument in this page. The european_affairs area is tagged here because the
         ministry runs Cyprus's EU business, but note that a separate Deputy Minister for
         European Affairs sits in the Presidency on a temporary statute — recorded further down
         this list — and coordinated the 2026 Council Presidency.
@@ -1085,7 +1085,7 @@ entities:
     note:
       en: >-
         Named in article 46 of the Constitution, hence tier 1. Tagged with
-        public_administration, which in most countries in this dataset sits in an interior or
+        public_administration, which in most countries in this project sits in an interior or
         public-administration ministry: in Cyprus the Public Administration and Personnel
         Department and the Cyprus Academy of Public Administration are under Finance, not
         under Εσωτερικών. Every Deputy Ministry's budget is also submitted through this
@@ -1195,7 +1195,7 @@ entities:
         Deporte y Juventud; la ley 56(I)/2022 lo renombró cuando los Servicios Culturales, el
         Departamento de Antigüedades y el Archivo del Estado pasaron al nuevo Viceministerio de
         Cultura. Esa ley de cambio de nombre es la razón por la que este es uno de los solo
-        cinco ministerios del fichero apoyados en un instrumento de nivel 1. En consecuencia,
+        cinco ministerios de la ficha apoyados en un instrumento de nivel 1. En consecuencia,
         el área culture no queda etiquetada en ningún ministerio chipriota contado: véase la
         nota metodológica sobre el coste de la decisión de los Viceministerios.
 
@@ -1436,7 +1436,7 @@ entities:
     note:
       en: >-
         The head of government holds a seat without heading a ministry — but in Cyprus he is
-        also the head of state, which no other entry in this dataset carrying
+        also the head of state, which no other entry in this project carrying
         head_of_government_office is. Article 36(1) of the Constitution makes the President the
         Head of the State who "takes precedence over all persons in the Republic"; article 46
         vests the executive power in him and the Vice-President and gives them the Council of
@@ -1450,18 +1450,18 @@ entities:
         "has" it, is discussed in the methodology notes.
       es: >-
         El jefe de gobierno ocupa asiento sin encabezar ningún ministerio, pero en Chipre es
-        además el jefe del Estado, lo que no ocurre en ninguna otra entrada de este conjunto de
-        datos con head_of_government_office. El artículo 36.1 de la Constitución hace del
-        Presidente el Jefe del Estado que «precede a todas las personas en la República»; el
-        artículo 46 le atribuye, junto al Vicepresidente, el poder ejecutivo y les da el
-        Consejo de Ministros para asegurarlo; no hay primer ministro en ninguna parte del orden
-        constitucional. Preside el Consejo de Ministros, nombra y cesa a los ministros y nombra
-        a los viceministros por ley ordinaria. Se excluye del recuento de ministerios por el
-        motivo habitual —la presidencia es la cúspide del gabinete, no un departamento con
-        cartera— y se le da asiento por el motivo uniforme del proyecto, para que la cifra de
-        asientos de Chipre signifique lo mismo que la de los demás. La lectura estricta del
-        artículo 46, según la cual el Consejo «se compone de» los ministros y el Presidente
-        solo lo «tiene», se discute en las notas metodológicas.
+        además el jefe del Estado, lo que no ocurre en ninguna otra entrada de este proyecto con
+        head_of_government_office. El artículo 36.1 de la Constitución hace del Presidente el
+        Jefe del Estado que «precede a todas las personas en la República»; el artículo 46 le
+        atribuye, junto al Vicepresidente, el poder ejecutivo y les da el Consejo de Ministros
+        para asegurarlo; no hay primer ministro en ninguna parte del orden constitucional.
+        Preside el Consejo de Ministros, nombra y cesa a los ministros y nombra a los
+        viceministros por ley ordinaria. Se excluye del recuento de ministerios por el motivo
+        habitual —la presidencia es la cúspide del gabinete, no un departamento con cartera— y
+        se le da asiento por el motivo uniforme del proyecto, para que la cifra de asientos de
+        Chipre signifique lo mismo que la de los demás. La lectura estricta del artículo 46,
+        según la cual el Consejo «se compone de» los ministros y el Presidente solo lo «tiene»,
+        se discute en las notas metodológicas.
 
   - id: CY-2023-antiproedros-dimokratias
     order: 13
@@ -1484,22 +1484,20 @@ entities:
       en: >-
         A constitutional office that has been vacant since 1964, recorded here rather than
         ignored, and recorded as vacant rather than as filled. Under article 46 the executive
-        power is secured by the President *and the Vice-President* jointly; under article 36
-        the Vice-President is the Υπαρχηγός της Πολιτείας, the Deputy Head of the State, second
-        in precedence to the President; under article 47 a list of executive powers is
-        exercised by the two of them acting together, including the appointment of the members
-        of the Council of Ministers. The office is reserved to a Turkish Cypriot, and the holder
-        withdrew from the government in 1964 along with the three Turkish Cypriot ministers;
-        the Republic's own portal states that "the post of Vice-President remains vacant". It
-        is therefore recorded with `has_cabinet_seat: true` and `head_count: 0`: the seat exists
-        at the table and nobody holds it, so it contributes nothing to the seat count, which is
-        twelve rather than thirteen. `deputy_head_without_portfolio` is the closest fit in this
-        project's vocabulary and it is imperfect in both directions — the Vice-President heads
-        no department, which the reason captures, but he is a deputy head of *state* who shares
-        in the executive power rather than a deputy prime minister, which it does not.
-        `ceremonial_or_head_of_state` was rejected because its definition applies where the
-        office is distinct from the head of government, and here it is the President who is
-        both.
+        power is secured by the President *and the Vice-President* jointly; under article 36 the
+        Vice-President is the Υπαρχηγός της Πολιτείας, the Deputy Head of the State, second in
+        precedence to the President; under article 47 a list of executive powers is exercised by
+        the two of them acting together, including the appointment of the members of the Council
+        of Ministers. The office is reserved to a Turkish Cypriot, and the holder withdrew from
+        the government in 1964 along with the three Turkish Cypriot ministers; the Republic's
+        own portal states that "the post of Vice-President remains vacant". It is therefore
+        recorded with a seat and no holder: the seat exists at the table and nobody holds it, so
+        it contributes nothing to the seat count, which is twelve rather than thirteen.
+        A deputy-head post without portfolio is the closest fit in this project's vocabulary and it
+        is imperfect in both directions — the Vice-President heads no department, which the
+        reason captures, but he is a deputy head of *state* who shares in the executive power
+        rather than a deputy prime minister, which it does not. The ceremonial head-of-state reason was rejected because its definition applies where the office is distinct from the head
+        of government, and here it is the President who is both.
       es: >-
         Un cargo constitucional vacante desde 1964, registrado aquí en lugar de ignorado, y
         registrado como vacante y no como ocupado. Según el artículo 46 el poder ejecutivo lo
@@ -1510,13 +1508,12 @@ entities:
         Consejo de Ministros. El cargo está reservado a un turcochipriota, y su titular se
         retiró del gobierno en 1964 junto con los tres ministros turcochipriotas; el propio
         portal de la República afirma que «el cargo de Vicepresidente permanece vacante». Por
-        eso se registra con `has_cabinet_seat: true` y `head_count: 0`: el asiento existe en la
-        mesa y nadie lo ocupa, así que no aporta nada al recuento de asientos, que es doce y no
-        trece. `deputy_head_without_portfolio` es lo más aproximado del vocabulario de este
-        proyecto y es imperfecto en ambas direcciones: el Vicepresidente no encabeza
-        departamento alguno, lo que el motivo sí capta, pero es un subjefe del *Estado* que
-        participa del poder ejecutivo y no un viceprimer ministro, lo que no capta. Se descartó
-        `ceremonial_or_head_of_state` porque su definición se aplica cuando el cargo es distinto
+        eso se registra con asiento y sin titular: el asiento existe en la mesa y nadie lo
+        ocupa, así que no aporta nada al recuento de asientos, que es doce y no trece.
+        La vicepresidencia sin cartera es lo más aproximado del vocabulario de este proyecto y
+        es imperfecto en ambas direcciones: el Vicepresidente no encabeza departamento alguno,
+        lo que el motivo sí capta, pero es un subjefe del *Estado* que participa del poder
+        ejecutivo y no un viceprimer ministro, lo que no capta. Se descartó el motivo de jefatura del Estado ceremonial porque su definición se aplica cuando el cargo es distinto
         del jefe de gobierno, y aquí es el Presidente quien es ambos.
 
   - id: CY-2023-yfypourgos-para-to-proedro
@@ -1541,7 +1538,7 @@ entities:
         department. Sworn in on 1 March 2023 immediately after the Government Spokesman and
         before the five deputy ministers who did head Deputy Ministries, the post sits in the
         Presidency with responsibility for coordinating and monitoring delivery of the
-        government's programme. No Υφυπουργείο corresponds to it, so `url` is null and no
+        government's programme. No Υφυπουργείο corresponds to it, so no link is published and no
         constitutive statute is cited: unlike the six Deputy Ministries and unlike the European
         Affairs post, this one rests on the President's power to appoint Deputy Ministers under
         ordinary legislation, which the Republic's portal states in general terms, rather than
@@ -1550,13 +1547,13 @@ entities:
         El único viceministro que ha formado parte de este gobierno desde el principio y no
         encabeza departamento alguno. Juramentado el 1 de marzo de 2023 inmediatamente después
         del Portavoz del Gobierno y antes de los cinco viceministros que sí encabezaban
-        Viceministerios, el cargo reside en la Presidencia con la responsabilidad de coordinar
-        y supervisar la ejecución del programa de gobierno. No le corresponde ningún
-        Υφυπουργείο, de modo que `url` es null y no se cita ley constitutiva: a diferencia de
-        los seis Viceministerios y del cargo de Asuntos Europeos, este se apoya en la potestad
-        del Presidente de nombrar viceministros conforme a la legislación ordinaria, que el
-        portal de la República enuncia en términos generales, y no en una ley propia. No suma
-        ni ministerio ni asiento.
+        Viceministerios, el cargo reside en la Presidencia con la responsabilidad de coordinar y
+        supervisar la ejecución del programa de gobierno. No le corresponde ningún Υφυπουργείο,
+        de modo que no se publica enlace ni se cita ley constitutiva: a diferencia de los seis
+        Viceministerios y del cargo de Asuntos Europeos, este se apoya en la potestad del
+        Presidente de nombrar viceministros conforme a la legislación ordinaria, que el portal
+        de la República enuncia en términos generales, y no en una ley propia. No suma ni
+        ministerio ni asiento.
 
   - id: CY-2023-yfypourgeio-naftilias
     order: 15
@@ -1621,7 +1618,7 @@ entities:
         Created by law 123(I)/2018 and operating from 1 January 2019, replacing the Cyprus
         Tourism Organisation and taking the tourism competence out of what was then the
         Ministry of Energy, Commerce, Industry and Tourism. Tourism matters more to the Cypriot
-        economy than to almost any other in this dataset, so the consequence of not counting
+        economy than to almost any other in this project, so the consequence of not counting
         this department is worth stating twice: Cyprus registers no tourism ministry in the
         policy-area matrix, and the cell should be read as "no ministry", not "no department".
       es: >-
@@ -1763,34 +1760,33 @@ entities:
       en: >-
         A post, not a department, and a temporary one. Law 119(I)/2023 provides for the
         appointment of a Υφυπουργός παρά τω Προέδρω for European Affairs and establishes no
-        Υφυπουργείο, so `url` is null; the holder worked in the Presidency and coordinated
-        Cyprus's Presidency of the Council of the European Union in the first half of 2026.
-        Article 9 of that law fixes its own expiry: the Law "λήγει την 31η Ιουλίου 2026",
-        expires on 31 July 2026, which is this entity's `valid_to`. It was still in office on
-        the access date of 29 July 2026, two days short of that, so it is part of the current
+        Υφυπουργείο, so no link is published; the holder worked in the Presidency and
+        coordinated Cyprus's Presidency of the Council of the European Union in the first half
+        of 2026. Article 9 of that law fixes its own expiry: the Law "λήγει την 31η Ιουλίου
+        2026", expires on 31 July 2026, which is this entity's end date. It was still in office
+        on the access date of 29 July 2026, two days short of that, so it is part of the current
         snapshot; from 1 August 2026 it leaves the snapshot and this country's excluded and
         total entity counts drop by one, while the eleven ministries and twelve seats are
-        unaffected. `valid_from` is the date the law was published, 1 December 2023, which is
+        unaffected. Its start date is the date the law was published, 1 December 2023, which is
         the earliest the post could have existed; the Council of Ministers decision that
-        actually commenced the law is published in the fourth annex of the Gazette and could
-        not be located, so a future curator should replace the date if they find it. The 2012
-        Council Presidency had an identical temporary post under law 123(I)/2011.
+        actually commenced the law is published in the fourth annex of the Gazette and could not
+        be located, The 2012 Council Presidency had an identical temporary post under law
+        123(I)/2011.
       es: >-
         Un cargo, no un departamento, y además temporal. La ley 119(I)/2023 prevé el
         nombramiento de un Υφυπουργός παρά τω Προέδρω para Asuntos Europeos y no crea ningún
-        Υφυπουργείο, así que `url` es null; su titular trabajaba en la Presidencia y coordinó la
-        Presidencia chipriota del Consejo de la Unión Europea del primer semestre de 2026. El
-        artículo 9 de esa ley fija su propia caducidad: la ley «λήγει την 31η Ιουλίου 2026»,
-        expira el 31 de julio de 2026, que es el `valid_to` de esta entidad. Seguía en el cargo
-        en la fecha de consulta, 29 de julio de 2026, dos días antes, así que forma parte de la
-        foto actual; desde el 1 de agosto de 2026 sale de la foto y los recuentos de entidades
-        excluidas y totales de este país bajan en uno, mientras los once ministerios y los doce
-        asientos no se ven afectados. `valid_from` es la fecha de publicación de la ley, 1 de
-        diciembre de 2023, la más temprana en que el cargo podía existir; la decisión del
-        Consejo de Ministros que efectivamente puso la ley en vigor se publica en el cuarto
-        anexo del Boletín y no pudo localizarse, así que un curador futuro debería sustituir la
-        fecha si la encuentra. La Presidencia del Consejo de 2012 tuvo un cargo temporal
-        idéntico con la ley 123(I)/2011.
+        Υφυπουργείο, así que no se publica enlace; su titular trabajaba en la Presidencia y
+        coordinó la Presidencia chipriota del Consejo de la Unión Europea del primer semestre de
+        2026. El artículo 9 de esa ley fija su propia caducidad: la ley «λήγει την 31η Ιουλίου
+        2026», expira el 31 de julio de 2026, que es la fecha de fin de esta entidad. Seguía en
+        el cargo en la fecha de consulta, 29 de julio de 2026, dos días antes, así que forma
+        parte de la foto actual; desde el 1 de agosto de 2026 sale de la foto y los recuentos de
+        entidades excluidas y totales de este país bajan en uno, mientras los once ministerios y
+        los doce asientos no se ven afectados. Su fecha de inicio es la de publicación de la
+        ley, 1 de diciembre de 2023, la más temprana en que el cargo podía existir; la decisión
+        del Consejo de Ministros que efectivamente puso la ley en vigor se publica en el cuarto
+        anexo del Boletín y no pudo localizarse, La Presidencia del Consejo de 2012 tuvo un
+        cargo temporal idéntico con la ley 123(I)/2011.
 
   - id: CY-2023-yfypourgeio-metanastefsis
     order: 21
@@ -1811,21 +1807,21 @@ entities:
     sources: [ee-4986-2024-yfyp-metanastefsis, kdp-203-2024, govcy-synthesi-kyvernisis, govcy-istoselides-el]
     note:
       en: >-
-        The only department created during this cabinet's term, and the reason it carries
-        `valid_from`. Law 23(I)/2024 was published on 15 March 2024 but did not commence on
-        publication; the Minister of the Interior fixed 17 June 2024 by notification Κ.Δ.Π.
-        203/2024, and that is the date used. It took the Migration Department and the Asylum
-        Service out of the Ministry of the Interior, which is why the migration policy area is
-        no longer tagged there — and, because this department is not counted, why Cyprus
-        registers no migration ministry at all despite being among the EU member states with
-        the highest per-capita asylum caseload. It did not exist when the cabinet was sworn in
-        on 1 March 2023 and does not appear in the Press and Information Office's precedence
-        list of that date, which is why that source is not cited here.
+        The only department created during this cabinet's term, and the reason it carries a
+        start date of its own. Law 23(I)/2024 was published on 15 March 2024 but did not
+        commence on publication; the Minister of the Interior fixed 17 June 2024 by notification
+        Κ.Δ.Π. 203/2024, and that is the date used. It took the Migration Department and the
+        Asylum Service out of the Ministry of the Interior, which is why the migration policy
+        area is no longer tagged there — and, because this department is not counted, why Cyprus
+        registers no migration ministry at all despite being among the EU member states with the
+        highest per-capita asylum caseload. It did not exist when the cabinet was sworn in on 1
+        March 2023 and does not appear in the Press and Information Office's precedence list of
+        that date, which is why that source is not cited here.
       es: >-
-        El único departamento creado durante esta legislatura, y la razón por la que lleva
-        `valid_from`. La ley 23(I)/2024 se publicó el 15 de marzo de 2024 pero no entró en vigor
-        con la publicación; el ministro del Interior fijó el 17 de junio de 2024 mediante la
-        notificación Κ.Δ.Π. 203/2024, y esa es la fecha utilizada. Sacó el Departamento de
+        El único departamento creado durante esta legislatura, y la razón por la que lleva fecha
+        de inicio propia. La ley 23(I)/2024 se publicó el 15 de marzo de 2024 pero no entró en
+        vigor con la publicación; el ministro del Interior fijó el 17 de junio de 2024 mediante
+        la notificación Κ.Δ.Π. 203/2024, y esa es la fecha utilizada. Sacó el Departamento de
         Migración y el Servicio de Asilo del Ministerio del Interior, y por eso el área
         migration ya no se etiqueta allí y, como este departamento no se cuenta, Chipre no
         registra ningún ministerio de migración pese a estar entre los Estados miembros de la UE

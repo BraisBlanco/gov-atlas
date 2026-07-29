@@ -637,13 +637,13 @@ entities:
         Tagged defence only, although § 60 also gives it the development of the defence
         industry, the surveillance of Estonian airspace and the maritime border, and the
         coordination of marine pollution response. None of those is a primary portfolio in
-        the sense this dataset tags, and the Kaitsevägi, the Kaitseliit and the Välisluureamet
+        the sense this project tags, and the Kaitsevägi, the Kaitseliit and the Välisluureamet
         are all in its remit.
       es: >-
         Se etiqueta sólo defence, aunque el § 60 le atribuye además el desarrollo de la
         industria de defensa, la vigilancia del espacio aéreo y la frontera marítima y la
         coordinación de la respuesta a la contaminación marina. Ninguna de ellas es una
-        cartera principal en el sentido en que este dataset etiqueta, y en su ámbito están el
+        cartera principal en el sentido en que este proyecto etiqueta, y en su ámbito están el
         Kaitsevägi, la Kaitseliit y el Välisluureamet.
 
   - id: EE-2024-kliimaministeerium
@@ -667,37 +667,37 @@ entities:
     note:
       en: >-
         The only Estonian ministry with two heads, and the reason the country has eleven
-        ministries and twelve ministers. Points 4 and 11 of the Prime Minister's korraldus
-        each say a minister "juhib Kliimaministeeriumi oma vastutusvaldkonnas", and point 14
-        makes them co-equal by requiring joint decisions where their areas overlap; head_count
-        is therefore 2 and the entity is counted once. The nine policy areas come from § 61,
-        whose remit is much wider than the ministry's name: the green transition and climate
-        policy, energy and renewables, environmental and nature protection, water and the
-        marine environment, radiation and nuclear safety, subsoil resources and geological
-        mapping, the circular economy and waste, housing and construction, and the whole of
-        transport, including the Transpordiamet, the state fleet and the transport
-        infrastructure. Roughly, the energy and environment minister holds the first half and
-        the infrastructure minister the second, but the department is one. The
-        energeetika- ja keskkonnaminister post replaced the kliimaminister on 25 March 2025;
-        the ministry's statutory name did not change with it, and § 45 still reads
-        Kliimaministeerium in the redaktsioonid in force to 1 January 2027.
+        ministries and twelve ministers. Points 4 and 11 of the Prime Minister's korraldus each
+        say a minister "juhib Kliimaministeeriumi oma vastutusvaldkonnas", and point 14 makes
+        them co-equal by requiring joint decisions where their areas overlap; it therefore has
+        two heads and is counted once. The nine policy areas come from § 61, whose remit is much
+        wider than the ministry's name: the green transition and climate policy, energy and
+        renewables, environmental and nature protection, water and the marine environment,
+        radiation and nuclear safety, subsoil resources and geological mapping, the circular
+        economy and waste, housing and construction, and the whole of transport, including the
+        Transpordiamet, the state fleet and the transport infrastructure. Roughly, the energy
+        and environment minister holds the first half and the infrastructure minister the
+        second, but the department is one. The energeetika- ja keskkonnaminister post replaced
+        the kliimaminister on 25 March 2025; the ministry's statutory name did not change with
+        it, and § 45 still reads Kliimaministeerium in the redaktsioonid in force to 1 January
+        2027.
       es: >-
         El único ministerio estonio con dos titulares, y la razón de que el país tenga once
         ministerios y doce ministros. Los puntos 4 y 11 de la korraldus del primer ministro
-        dicen cada uno que un ministro «juhib Kliimaministeeriumi oma vastutusvaldkonnas», y
-        el punto 14 los equipara al exigir decisión conjunta cuando sus ámbitos se solapan;
-        head_count es por tanto 2 y la entidad se cuenta una sola vez. Las nueve áreas vienen
-        del § 61, cuyo ámbito es mucho más amplio que el nombre del ministerio: la transición
-        verde y la política climática, la energía y las renovables, la protección del medio
-        ambiente y la naturaleza, el agua y el medio marino, la seguridad radiológica y
-        nuclear, los recursos del subsuelo y la cartografía geológica, la economía circular y
-        los residuos, la vivienda y la construcción, y todo el transporte, incluida la
-        Transpordiamet, la flota estatal y las infraestructuras de transporte. A grandes
-        rasgos, el ministro de Energía y Medio Ambiente tiene la primera mitad y el de
-        Infraestructuras la segunda, pero el departamento es uno. El puesto de energeetika- ja
-        keskkonnaminister sustituyó al de kliimaminister el 25 de marzo de 2025; el nombre
-        legal del ministerio no cambió con él, y el § 45 sigue diciendo Kliimaministeerium en
-        las redacciones vigentes hasta el 1 de enero de 2027.
+        dicen cada uno que un ministro «juhib Kliimaministeeriumi oma vastutusvaldkonnas», y el
+        punto 14 los equipara al exigir decisión conjunta cuando sus ámbitos se solapan; tiene
+        por tanto dos titulares y se cuenta una sola vez. Las nueve áreas vienen del § 61, cuyo
+        ámbito es mucho más amplio que el nombre del ministerio: la transición verde y la
+        política climática, la energía y las renovables, la protección del medio ambiente y la
+        naturaleza, el agua y el medio marino, la seguridad radiológica y nuclear, los recursos
+        del subsuelo y la cartografía geológica, la economía circular y los residuos, la
+        vivienda y la construcción, y todo el transporte, incluida la Transpordiamet, la flota
+        estatal y las infraestructuras de transporte. A grandes rasgos, el ministro de Energía y
+        Medio Ambiente tiene la primera mitad y el de Infraestructuras la segunda, pero el
+        departamento es uno. El puesto de energeetika- ja keskkonnaminister sustituyó al de
+        kliimaminister el 25 de marzo de 2025; el nombre legal del ministerio no cambió con él,
+        y el § 45 sigue diciendo Kliimaministeerium en las redacciones vigentes hasta el 1 de
+        enero de 2027.
 
   - id: EE-2024-kultuuriministeerium
     order: 6
@@ -819,7 +819,7 @@ entities:
       en: >-
         § 65 gives it budget, resource management, tax, customs and financial policy,
         economic analysis and forecasting, state aid, accounting and auditing, official
-        statistics — the Statistikaamet is in its remit, which is where this dataset's
+        statistics — the Statistikaamet is in its remit, which is where this project's
         Estonian population figure comes from — the civil service and state personnel policy,
         state assets and public procurement, the management of EU funds, and state lending
         and guarantees. public_administration is tagged for the civil service and the
@@ -829,7 +829,7 @@ entities:
         El § 65 le atribuye la política presupuestaria, de gestión de recursos, fiscal,
         aduanera y financiera, el análisis y la previsión económica, las ayudas de Estado, la
         contabilidad y la auditoría, la estadística oficial —la Statistikaamet está en su
-        ámbito, y de ahí procede la cifra de población estonia de este dataset—, la función
+        ámbito, y de ahí procede la cifra de población estonia de este proyecto—, la función
         pública y la política de personal del Estado, el patrimonio estatal y la contratación
         pública, la gestión de los fondos europeos y los préstamos y garantías del Estado. Se
         etiqueta public_administration por la función pública y la planificación de la
@@ -946,13 +946,13 @@ entities:
     note:
       en: >-
         One minister now, two until 25 March 2025. From the day this cabinet took office the
-        ministry was led jointly by a sotsiaalkaitseminister and a terviseminister, on the
-        same co-equal footing the Kliimaministeerium still uses; both posts were abolished in
-        the March 2025 reconstitution and replaced by a single sotsiaalminister, which is the
-        one ministerial post the reconstituted cabinet has fewer of. head_count is 1 because
-        this file records the structure in force on the access date; the ministry itself was
-        never split or merged, so no entity carries a valid_to. § 67 gives it social security,
-        social welfare and pensions, the cross-border coordination of social insurance
+        ministry was led jointly by a sotsiaalkaitseminister and a terviseminister, on the same
+        co-equal footing the Kliimaministeerium still uses; both posts were abolished in the
+        March 2025 reconstitution and replaced by a single sotsiaalminister, which is the one
+        ministerial post the reconstituted cabinet has fewer of. It is recorded with a single
+        head because this page records the structure in force on the access date; the ministry
+        itself was never split or merged, so no entity carries an end date. § 67 gives it social
+        security, social welfare and pensions, the cross-border coordination of social insurance
         systems, children's rights and welfare, the quality of life of disabled people, public
         health, health care and the health system, health insurance, medicines and medical
         devices, with the Sotsiaalkindlustusamet, the Terviseamet and the Ravimiamet in its
@@ -961,16 +961,16 @@ entities:
         Un ministro ahora, dos hasta el 25 de marzo de 2025. Desde el día en que este gobierno
         tomó posesión, el ministerio estuvo dirigido conjuntamente por un sotsiaalkaitseminister
         y un terviseminister, en el mismo pie de igualdad que sigue usando el
-        Kliimaministeerium; ambos puestos se suprimieron en la reconstitución de marzo de 2025
-        y se sustituyeron por un único sotsiaalminister, que es el puesto ministerial de menos
-        que tiene el gabinete reconstituido. head_count es 1 porque este fichero registra la
-        estructura vigente en la fecha de consulta; el ministerio en sí nunca se escindió ni se
-        fusionó, de modo que ninguna entidad lleva valid_to. El § 67 le atribuye la seguridad
-        social, la asistencia social y las pensiones, la coordinación transfronteriza de los
-        sistemas de seguro social, los derechos y el bienestar de la infancia, la calidad de
-        vida de las personas con discapacidad, la salud pública, la sanidad y el sistema de
-        salud, el seguro de enfermedad, los medicamentos y los productos sanitarios, con la
-        Sotsiaalkindlustusamet, la Terviseamet y la Ravimiamet en su ámbito.
+        Kliimaministeerium; ambos puestos se suprimieron en la reconstitución de marzo de 2025 y
+        se sustituyeron por un único sotsiaalminister, que es el puesto ministerial de menos que
+        tiene el gabinete reconstituido. Se registra con un solo titular porque esta ficha
+        registra la estructura vigente en la fecha de consulta; el ministerio en sí nunca se
+        escindió ni se fusionó, de modo que ninguna entidad lleva fecha de fin. El § 67 le
+        atribuye la seguridad social, la asistencia social y las pensiones, la coordinación
+        transfronteriza de los sistemas de seguro social, los derechos y el bienestar de la
+        infancia, la calidad de vida de las personas con discapacidad, la salud pública, la
+        sanidad y el sistema de salud, el seguro de enfermedad, los medicamentos y los productos
+        sanitarios, con la Sotsiaalkindlustusamet, la Terviseamet y la Ravimiamet en su ámbito.
 
   - id: EE-2024-valisministeerium
     order: 12

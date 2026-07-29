@@ -423,12 +423,12 @@ entities:
     note:
       en: >-
         Climate policy is not here. Greece gives the climate crisis to a separate department,
-        the Ministry of Climate Crisis and Civil Protection, which is unusual in this dataset
+        the Ministry of Climate Crisis and Civil Protection, which is unusual in this project
         and is the reason this ministry is not tagged with the climate policy area.
       es: >-
         La política climática no está aquí. Grecia atribuye la crisis climática a un
         departamento aparte, el Ministerio de Crisis Climática y Protección Civil, lo que es
-        inusual en este conjunto de datos y explica que este ministerio no lleve el área de
+        inusual en este proyecto y explica que este ministerio no lleve el área de
         política «clima».
 
   - id: GR-2023-anaptyxis
@@ -649,11 +649,11 @@ entities:
     note:
       en: >-
         Created in 2021 after the summer wildfires. Greece is one of the few countries in
-        this dataset where climate has a department of its own, though it is paired with
+        this project where climate has a department of its own, though it is paired with
         emergency response rather than with energy or the environment.
       es: >-
         Creado en 2021 tras los incendios del verano. Grecia es uno de los pocos países de
-        este conjunto de datos donde el clima tiene departamento propio, aunque emparejado
+        este proyecto donde el clima tiene departamento propio, aunque emparejado
         con la respuesta a emergencias y no con la energía o el medio ambiente.
 
   # --- recorded, not counted ---------------------------------------------------

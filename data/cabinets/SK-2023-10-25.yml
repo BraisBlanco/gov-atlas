@@ -726,7 +726,7 @@ entities:
         conduct of housing policy, the state premium on building savings, the state contribution
         to mortgage loans and state-supported rental housing; Slovakia has no housing ministry.
         Spatial planning and construction are not tagged: they were moved to the Úrad pre územné
-        plánovanie a výstavbu Slovenskej republiky, a § 21 authority outside this file's scope,
+        plánovanie a výstavbu Slovenskej republiky, a § 21 authority outside this page's scope,
         for which § 8(3) leaves this ministry only the duty of preparing legislation.
       es: >-
         Se etiqueta vivienda porque el § 8(1)(k), (l) y (o) atribuye a este ministerio la
@@ -734,7 +734,7 @@ entities:
         construcción, la aportación estatal a los préstamos hipotecarios y la vivienda de alquiler
         con apoyo estatal; Eslovaquia no tiene ministerio de vivienda. No se etiquetan la
         ordenación del territorio ni la construcción: pasaron al Úrad pre územné plánovanie a
-        výstavbu Slovenskej republiky, una autoridad del § 21 fuera del alcance de este fichero,
+        výstavbu Slovenskej republiky, una autoridad del § 21 fuera del alcance de esta ficha,
         para la que el § 8(3) deja a este ministerio solo el deber de preparar la legislación.
 
   - id: SK-2023-podohospodarstvo
@@ -991,20 +991,21 @@ entities:
       en: >-
         Opened on 1 February 2024, when point 4 of article I of zákon č. 7/2024 Z. z. replaced
         letter l) of § 3 and this ministry took the place of the Ministerstvo školstva, vedy,
-        výskumu a športu Slovenskej republiky, which is recorded separately with a `valid_to`. The
-        same day sport left the portfolio for the new Ministry of Tourism and Sport, so `sport` is
-        not tagged here; § 17(e) leaves this ministry only the development of physical and sporting
-        activity in schools. Vocational training is tagged for § 17(a) and (c), secondary schools
-        and lifelong learning, and higher education for the vysoké školy in § 17(a).
+        výskumu a športu Slovenskej republiky, which is recorded separately with its end date.
+        The same day sport left the portfolio for the new Ministry of Tourism and Sport, so
+        sport is not tagged here; § 17(e) leaves this ministry only the development of physical
+        and sporting activity in schools. Vocational training is tagged for § 17(a) and (c),
+        secondary schools and lifelong learning, and higher education for the vysoké školy in §
+        17(a).
       es: >-
         Abierto el 1 de febrero de 2024, cuando el punto 4 del artículo I de la zákon č. 7/2024
         Z. z. sustituyó la letra l) del § 3 y este ministerio ocupó el lugar del Ministerstvo
-        školstva, vedy, výskumu a športu Slovenskej republiky, que se registra aparte con un
-        `valid_to`. Ese mismo día el deporte salió de la cartera hacia el nuevo Ministerio de
-        Turismo y Deporte, por lo que aquí no se etiqueta `sport`; el § 17(e) deja a este
-        ministerio solo el fomento de la actividad física y deportiva en los centros escolares. Se
-        etiqueta formación profesional por el § 17(a) y (c), enseñanza secundaria y aprendizaje a
-        lo largo de la vida, y universidades por las vysoké školy del § 17(a).
+        školstva, vedy, výskumu a športu Slovenskej republiky, que se registra aparte con su
+        fecha de fin. Ese mismo día el deporte salió de la cartera hacia el nuevo Ministerio de
+        Turismo y Deporte, por lo que aquí no se etiqueta deporte; el § 17(e) deja a este
+        ministerio solo el fomento de la actividad física y deportiva en los centros escolares.
+        Se etiqueta formación profesional por el § 17(a) y (c), enseñanza secundaria y
+        aprendizaje a lo largo de la vida, y universidades por las vysoké školy del § 17(a).
 
   - id: SK-2023-kultura
     order: 13
@@ -1102,31 +1103,31 @@ entities:
     sources: [slovlex-575-2001, ustava-460-1992, vlada-clenovia-vlady, vlada-vymenovanie-2023-10-25]
     note:
       en: >-
-        Not a ministry: § 3 of zákon č. 575/2001 Z. z. does not list it, § 21(1)(a) puts it among
-        the other central bodies of state administration, and § 22(1) puts a vedúci at its head
-        rather than a minister. It is recorded because it is the office of the head of government
-        — § 1b makes it the Prime Minister's executive organ as well as the government's
-        secretariat, and the government's own list of its members puts the Prime Minister and
-        this office on one line — and because its `has_cabinet_seat: true` is what carries the
+        Not a ministry: § 3 of zákon č. 575/2001 Z. z. does not list it, § 21(1)(a) puts it
+        among the other central bodies of state administration, and § 22(1) puts a vedúci at its
+        head rather than a minister. It is recorded because it is the office of the head of
+        government — § 1b makes it the Prime Minister's executive organ as well as the
+        government's secretariat, and the government's own list of its members puts the Prime
+        Minister and this office on one line — and because it is the entity that carries the
         Prime Minister's seat, the seat that makes the cabinet 16 people and the government 15
-        ministries. `head_title_original` therefore records the Prime Minister rather than the
+        ministries. The recorded head title is therefore the Prime Minister's rather than the
         vedúci: the vedúci is a civil-service director appointed by and answerable to the
-        government and the Prime Minister, and does not sit in the cabinet. Until 19 November 2025
-        the office also housed the deputy prime minister for the Recovery Plan, which is recorded
-        as its own entity.
+        government and the Prime Minister, and does not sit in the cabinet. Until 19 November
+        2025 the office also housed the deputy prime minister for the Recovery Plan, which is
+        recorded as its own entity.
       es: >-
-        No es un ministerio: el § 3 de la zákon č. 575/2001 Z. z. no lo enumera, el § 21(1)(a) lo
-        sitúa entre los demás órganos centrales de la administración estatal y el § 22(1) pone a
-        su cabeza un vedúci y no un ministro. Se registra porque es la oficina del jefe de
-        gobierno —el § 1b lo convierte en órgano ejecutivo del primer ministro además de
+        No es un ministerio: el § 3 de la zákon č. 575/2001 Z. z. no lo enumera, el § 21(1)(a)
+        lo sitúa entre los demás órganos centrales de la administración estatal y el § 22(1)
+        pone a su cabeza un vedúci y no un ministro. Se registra porque es la oficina del jefe
+        de gobierno —el § 1b lo convierte en órgano ejecutivo del primer ministro además de
         secretaría del gobierno, y la propia lista gubernamental de miembros pone al primer
-        ministro y a esta oficina en la misma línea— y porque su `has_cabinet_seat: true` es lo
-        que lleva el asiento del primer ministro, el asiento que hace que el gabinete sean 16
-        personas y el gobierno 15 ministerios. Por eso `head_title_original` recoge al primer
-        ministro y no al vedúci: el vedúci es un director de la función pública nombrado por el
-        gobierno y responsable ante él y ante el primer ministro, y no tiene asiento en el
-        gabinete. Hasta el 19 de noviembre de 2025 la oficina albergó además al viceprimer
-        ministro para el Plan de Recuperación, que se registra como entidad propia.
+        ministro y a esta oficina en la misma línea— y porque es la entidad que lleva el asiento
+        del primer ministro, el asiento que hace que el gabinete sean 16 personas y el gobierno
+        15 ministerios. Por eso el título de titular registrado es el del primer ministro y no
+        el del vedúci: el vedúci es un director de la función pública nombrado por el gobierno y
+        responsable ante él y ante el primer ministro, y no tiene asiento en el gabinete. Hasta
+        el 19 de noviembre de 2025 la oficina albergó además al viceprimer ministro para el Plan
+        de Recuperación, que se registra como entidad propia.
 
   - id: SK-2023-urad-podpredsedu-vlady-plan-obnovy
     order: 17
@@ -1154,27 +1155,28 @@ entities:
       en: >-
         A central body of state administration, not a ministry: § 21(1)(l) of zákon č. 575/2001
         Z. z. added it to the list of other central authorities with effect from 1 January 2025,
-        and § 22(5) puts a vedúci at its head, appointed by the government on the proposal of the
-        deputy prime minister it serves. It is recorded rather than left out of scope because the
-        government's own list of cabinet members carries it, with the minister of education listed
-        against it as "poverený riadením" — entrusted with running it — since the vice-premiership
-        it serves fell vacant on 19 November 2025. `has_cabinet_seat` is false and `head_count` is
-        0 because its own head has never sat in the cabinet; the cabinet seat that belonged to the
-        deputy prime minister is recorded on the next entity, and counting it here as well would
-        double it. Before 1 January 2025 the same agenda was run from inside the Úrad vlády
-        Slovenskej republiky.
+        and § 22(5) puts a vedúci at its head, appointed by the government on the proposal of
+        the deputy prime minister it serves. It is recorded rather than left out of scope
+        because the government's own list of cabinet members carries it, with the minister of
+        education listed against it as "poverený riadením" — entrusted with running it — since
+        the vice-premiership it serves fell vacant on 19 November 2025. It is recorded with no
+        seat and no counted head because its own head has never sat in the cabinet; the cabinet
+        seat that belonged to the deputy prime minister is recorded on the next entity, and
+        counting it here as well would double it. Before 1 January 2025 the same agenda was run
+        from inside the Úrad vlády Slovenskej republiky.
       es: >-
         Un órgano central de la administración estatal, no un ministerio: el § 21(1)(l) de la
-        zákon č. 575/2001 Z. z. lo añadió a la lista de las demás autoridades centrales con efecto
-        desde el 1 de enero de 2025, y el § 22(5) pone a su cabeza un vedúci nombrado por el
-        gobierno a propuesta del viceprimer ministro al que sirve. Se registra en lugar de dejarse
-        fuera de alcance porque la propia lista gubernamental de miembros del gabinete lo recoge,
-        con el ministro de educación anotado como «poverený riadením» —encargado de dirigirlo—
-        desde que la vicepresidencia a la que sirve quedó vacante el 19 de noviembre de 2025.
-        `has_cabinet_seat` es falso y `head_count` es 0 porque su propio titular nunca ha tenido
-        asiento en el gabinete; el asiento que correspondía al viceprimer ministro se registra en
-        la entidad siguiente, y contarlo también aquí lo duplicaría. Antes del 1 de enero de 2025
-        la misma agenda se dirigía desde dentro del Úrad vlády Slovenskej republiky.
+        zákon č. 575/2001 Z. z. lo añadió a la lista de las demás autoridades centrales con
+        efecto desde el 1 de enero de 2025, y el § 22(5) pone a su cabeza un vedúci nombrado por
+        el gobierno a propuesta del viceprimer ministro al que sirve. Se registra en lugar de
+        dejarse fuera de alcance porque la propia lista gubernamental de miembros del gabinete
+        lo recoge, con el ministro de educación anotado como «poverený riadením» —encargado de
+        dirigirlo— desde que la vicepresidencia a la que sirve quedó vacante el 19 de noviembre
+        de 2025. Se registra sin asiento y sin titular computado porque su propio titular nunca
+        ha tenido asiento en el gabinete; el asiento que correspondía al viceprimer ministro se
+        registra en la entidad siguiente, y contarlo también aquí lo duplicaría. Antes del 1 de
+        enero de 2025 la misma agenda se dirigía desde dentro del Úrad vlády Slovenskej
+        republiky.
 
   - id: SK-2023-podpredseda-vlady-plan-obnovy
     order: 18
@@ -1196,36 +1198,37 @@ entities:
     sources: [ustava-460-1992, vlada-vymenovanie-2023-10-25, prezident-kmec-demisia-2025, prezident-vymenovania-odvolania]
     note:
       en: >-
-        A deputy prime minister holding no ministry, and the only member of this cabinet who ever
-        was one: the other three vice-premiers each head a department and are counted through it.
-        He held a cabinet seat under article 109(1) of the Constitution and no portfolio under
-        § 3, which is the textbook case of `deputy_head_without_portfolio`. Closed on 19 November
-        2025, the day the President accepted his resignation and, under article 116(7) of the
-        Constitution, designated the minister of education to administer the agenda temporarily
-        rather than appointing a successor — so the seat ended rather than changing hands, and the
-        cabinet went from 17 seats to 16. The President's register of appointments records no
-        appointment to the post since. The post was renamed on 20 December 2024: from 25 October
-        2023 it was the podpredseda vlády Slovenskej republiky pre Plán obnovy a odolnosti a
-        využívanie eurofondov, and the register shows the dismissal from the old title and the
-        appointment to the new one on the same day. This entity spans both names rather than being
-        split, because the rename moved neither of the figures this dataset publishes; it is
-        recorded under the later name because that is the name under which the seat ended.
+        A deputy prime minister holding no ministry, and the only member of this cabinet who
+        ever was one: the other three vice-premiers each head a department and are counted
+        through it. He held a cabinet seat under article 109(1) of the Constitution and no
+        portfolio under § 3, which is the textbook case of a deputy-head post without portfolio.
+        Closed on 19 November 2025, the day the President accepted his resignation and, under
+        article 116(7) of the Constitution, designated the minister of education to administer
+        the agenda temporarily rather than appointing a successor — so the seat ended rather
+        than changing hands, and the cabinet went from 17 seats to 16. The President's register
+        of appointments records no appointment to the post since. The post was renamed on 20
+        December 2024: from 25 October 2023 it was the podpredseda vlády Slovenskej republiky
+        pre Plán obnovy a odolnosti a využívanie eurofondov, and the register shows the
+        dismissal from the old title and the appointment to the new one on the same day. This
+        entity spans both names rather than being split, because the rename moved neither of the
+        figures this project publishes; it is recorded under the later name because that is the
+        name under which the seat ended.
       es: >-
-        Un viceprimer ministro sin ministerio, y el único miembro de este gabinete que lo fue: los
-        otros tres vicepresidentes encabezan cada uno un departamento y se cuentan a través de él.
-        Tenía asiento en el gabinete conforme al artículo 109(1) de la Constitución y ninguna
-        cartera conforme al § 3, que es el caso de manual de `deputy_head_without_portfolio`.
-        Cerrado el 19 de noviembre de 2025, el día en que el presidente aceptó su dimisión y,
-        conforme al artículo 116(7) de la Constitución, designó al ministro de educación para
-        administrar temporalmente la agenda en vez de nombrar un sucesor: el asiento terminó en
-        lugar de cambiar de manos, y el gabinete pasó de 17 asientos a 16. El registro
-        presidencial de nombramientos no recoge ningún nombramiento al cargo desde entonces. El
-        cargo se renombró el 20 de diciembre de 2024: desde el 25 de octubre de 2023 era el
-        podpredseda vlády Slovenskej republiky pre Plán obnovy a odolnosti a využívanie
-        eurofondov, y el registro muestra el cese del título antiguo y el nombramiento al nuevo el
-        mismo día. Esta entidad abarca ambos nombres sin escindirse, porque el cambio de nombre no
-        movió ninguna de las cifras que publica este conjunto de datos; se registra con el nombre
-        posterior porque es el nombre con el que terminó el asiento.
+        Un viceprimer ministro sin ministerio, y el único miembro de este gabinete que lo fue:
+        los otros tres vicepresidentes encabezan cada uno un departamento y se cuentan a través
+        de él. Tenía asiento en el gabinete conforme al artículo 109(1) de la Constitución y
+        ninguna cartera conforme al § 3, que es el caso de manual de la vicepresidencia sin
+        cartera. Cerrado el 19 de noviembre de 2025, el día en que el presidente aceptó su
+        dimisión y, conforme al artículo 116(7) de la Constitución, designó al ministro de
+        educación para administrar temporalmente la agenda en vez de nombrar un sucesor: el
+        asiento terminó en lugar de cambiar de manos, y el gabinete pasó de 17 asientos a 16. El
+        registro presidencial de nombramientos no recoge ningún nombramiento al cargo desde
+        entonces. El cargo se renombró el 20 de diciembre de 2024: desde el 25 de octubre de
+        2023 era el podpredseda vlády Slovenskej republiky pre Plán obnovy a odolnosti a
+        využívanie eurofondov, y el registro muestra el cese del título antiguo y el
+        nombramiento al nuevo el mismo día. Esta entidad abarca ambos nombres sin escindirse,
+        porque el cambio de nombre no movió ninguna de las cifras que publica este proyecto; se
+        registra con el nombre posterior porque es el nombre con el que terminó el asiento.
 
   - id: SK-2023-skolstvo-veda-vyskum-sport
     order: 19
@@ -1247,32 +1250,31 @@ entities:
     sources: [zbierka-7-2024, vlada-vymenovanie-2023-10-25]
     note:
       en: >-
-        The education ministry as it stood when this cabinet was appointed on 25 October 2023, and
-        one of the fourteen ministries it then had. Point 4 of article I of zákon č. 7/2024 Z. z.
-        replaced letter l) of § 3 with effect from 1 February 2024, so this entity closes on 31
-        January 2024 and the Ministerstvo školstva, výskumu, vývoja a mládeže Slovenskej republiky
-        opens the next day; sport went to the new Ministry of Tourism and Sport at the same
-        moment. Kept for the historical record instead of being renamed in place: `valid_to` alone
-        already drops it out of this cabinet's current snapshot, and it additionally carries the
-        project's `superseded_within_cabinet` reason, which is the vocabulary this dataset provides
-        for a department merged, split or abolished mid-term. One consequence is worth stating
-        rather than leaving for a reader to discover: because it is recorded as not counted and
-        without a seat, a replay of a date before 1 February 2024 shows 13 ministries and 15 seats
-        instead of the 14 and 16 that were actually in place. It was in truth a full ministry with a
-        cabinet seat for the first three months of this cabinet, and the methodology notes say so.
+        The education ministry as it stood when this cabinet was appointed on 25 October 2023,
+        and one of the fourteen ministries it then had. Point 4 of article I of zákon č. 7/2024
+        Z. z. replaced letter l) of § 3 with effect from 1 February 2024, so this entity closes
+        on 31 January 2024 and the Ministerstvo školstva, výskumu, vývoja a mládeže Slovenskej
+        republiky opens the next day; sport went to the new Ministry of Tourism and Sport at the
+        same moment. Kept for the historical record instead of being renamed in place: its end
+        date alone already drops it out of this cabinet's current snapshot, and it additionally carries the reason of a department superseded during the term, which is the vocabulary this
+        project provides for a department merged, split or abolished mid-term. One consequence
+        is worth stating rather than leaving for a reader to discover: because it is recorded as
+        not counted and without a seat, a replay of a date before 1 February 2024 shows 13
+        ministries and 15 seats instead of the 14 and 16 that were actually in place. It was in
+        truth a full ministry with a cabinet seat for the first three months of this cabinet,
+        and the methodology notes say so.
       es: >-
         El ministerio de educación tal como estaba cuando este gabinete fue nombrado el 25 de
         octubre de 2023, y uno de los catorce ministerios que entonces tenía. El punto 4 del
-        artículo I de la zákon č. 7/2024 Z. z. sustituyó la letra l) del § 3 con efecto desde el 1
-        de febrero de 2024, de modo que esta entidad se cierra el 31 de enero de 2024 y el
+        artículo I de la zákon č. 7/2024 Z. z. sustituyó la letra l) del § 3 con efecto desde el
+        1 de febrero de 2024, de modo que esta entidad se cierra el 31 de enero de 2024 y el
         Ministerstvo školstva, výskumu, vývoja a mládeže Slovenskej republiky se abre al día
         siguiente; el deporte pasó al nuevo Ministerio de Turismo y Deporte en el mismo momento.
-        Se conserva para el registro histórico en lugar de renombrarse sobre la marcha: el
-        `valid_to` ya lo saca por sí solo de la foto actual de este gabinete, y además lleva el
-        motivo `superseded_within_cabinet` del proyecto, que es el vocabulario que este conjunto de
-        datos ofrece para un departamento fusionado, escindido o suprimido a mitad de legislatura.
-        Conviene decir una consecuencia en vez de dejar que el lector la descubra: como se registra
-        como no contado y sin asiento, la reconstrucción de una fecha anterior al 1 de febrero de
-        2024 muestra 13 ministerios y 15 asientos en lugar de los 14 y 16 que realmente había. En
-        realidad fue un ministerio completo con asiento en el gabinete durante los tres primeros
-        meses de este gabinete, y las notas metodológicas lo dicen.
+        Se conserva para el registro histórico en lugar de renombrarse sobre la marcha: su fecha
+        de fin ya lo saca por sí sola de la foto actual de este gabinete, y además lleva el motivo de departamento sustituido durante la legislatura, que es el vocabulario que este proyecto
+        ofrece para un departamento fusionado, escindido o suprimido a mitad de legislatura.
+        Conviene decir una consecuencia en vez de dejar que el lector la descubra: como se
+        registra como no contado y sin asiento, la reconstrucción de una fecha anterior al 1 de
+        febrero de 2024 muestra 13 ministerios y 15 asientos en lugar de los 14 y 16 que
+        realmente había. En realidad fue un ministerio completo con asiento en el gabinete
+        durante los tres primeros meses de este gabinete, y las notas metodológicas lo dicen.

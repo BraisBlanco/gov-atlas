@@ -598,27 +598,27 @@ entities:
     sources: [lu-jo-ri-2023-annexe-a, lu-jo-agd-2023-11-17-competences, lu-jo-agd-2023-12-13-competences-modif, lu-gouv-ministeres-fr, lu-gouv-ministeres-en, lu-gouv-composition]
     note:
       en: >-
-        The only entity in this file with two ministers. Annexe B divides it into
-        "I. Affaires étrangères et européennes, Coopération, Commerce extérieur et Grande
-        Région", held by Xavier Bettel as Minister of Foreign Affairs and Foreign Trade and
-        Minister of Development Cooperation and Humanitarian Affairs, and "II. Défense", held
-        by Yuriko Backes as Minister of Defence. It is one ministry with head_count: 2, and it
-        is linked to Backes's two other ministries so that this group of three departments
-        resolves to two people rather than one. Bettel is also Deputy Prime Minister, a
-        personal rank that adds neither a ministry nor a seat. The ministry also runs
-        Luxembourg's relations with the Grande Région, the cross-border cooperation area, for
-        which the taxonomy has no dedicated area.
+        The only entity in this page with two ministers. Annexe B divides it into "I. Affaires
+        étrangères et européennes, Coopération, Commerce extérieur et Grande Région", held by
+        Xavier Bettel as Minister of Foreign Affairs and Foreign Trade and Minister of
+        Development Cooperation and Humanitarian Affairs, and "II. Défense", held by Yuriko
+        Backes as Minister of Defence. It is one ministry with two heads, and it is linked to
+        Backes's two other ministries so that this group of three departments resolves to two
+        people rather than one. Bettel is also Deputy Prime Minister, a personal rank that adds
+        neither a ministry nor a seat. The ministry also runs Luxembourg's relations with the
+        Grande Région, the cross-border cooperation area, for which the taxonomy has no
+        dedicated area.
       es: >-
-        La única entidad de este fichero con dos ministros. El anexo B lo divide en
-        «I. Affaires étrangères et européennes, Coopération, Commerce extérieur et Grande
-        Région», a cargo de Xavier Bettel como ministro de Asuntos Exteriores y Comercio
-        Exterior y ministro de Cooperación y Acción Humanitaria, y «II. Défense», a cargo de
-        Yuriko Backes como ministra de Defensa. Es un ministerio con head_count: 2, vinculado
-        a los otros dos ministerios de Backes para que este grupo de tres departamentos
-        resuelva a dos personas y no a una. Bettel es además viceprimer ministro, rango
-        personal que no añade ni ministerio ni asiento. El ministerio gestiona también las
-        relaciones con la Grande Región, el área de cooperación transfronteriza, para la que
-        la taxonomía no tiene área propia.
+        La única entidad de esta ficha con dos ministros. El anexo B lo divide en «I. Affaires
+        étrangères et européennes, Coopération, Commerce extérieur et Grande Région», a cargo de
+        Xavier Bettel como ministro de Asuntos Exteriores y Comercio Exterior y ministro de
+        Cooperación y Acción Humanitaria, y «II. Défense», a cargo de Yuriko Backes como
+        ministra de Defensa. Es un ministerio con dos titulares, vinculado a los otros dos
+        ministerios de Backes para que este grupo de tres departamentos resuelva a dos personas
+        y no a una. Bettel es además viceprimer ministro, rango personal que no añade ni
+        ministerio ni asiento. El ministerio gestiona también las relaciones con la Grande
+        Región, el área de cooperación transfronteriza, para la que la taxonomía no tiene área
+        propia.
 
   - id: LU-2023-affaires-interieures
     order: 3
@@ -825,12 +825,12 @@ entities:
       en: >-
         Held by Yuriko Backes, who also holds Defence within the foreign-affairs ministry and
         the Ministère de la Mobilité et des Travaux publics — three ministries, one cabinet
-        seat. Luxembourg is one of the few countries in this dataset with a free-standing
+        seat. Luxembourg is one of the few countries in this project with a free-standing
         equality ministry.
       es: >-
         A cargo de Yuriko Backes, que ostenta además Defensa dentro del ministerio de
         Exteriores y el Ministère de la Mobilité et des Travaux publics: tres ministerios, un
-        asiento. Luxemburgo es uno de los pocos países de este conjunto de datos con un
+        asiento. Luxemburgo es uno de los pocos países de este proyecto con un
         ministerio de Igualdad autónomo.
 
   - id: LU-2023-environnement
@@ -1108,17 +1108,17 @@ entities:
     sources: [lu-jo-ri-2023-annexe-a, lu-jo-agd-2023-11-17-competences, lu-jo-agd-2025-12-11-competences-modif, lu-gouv-ministeres-fr, lu-gouv-ministeres-en, lu-gouv-composition]
     note:
       en: >-
-        Held by Martine Hansen, who also holds the Ministère de l'Agriculture, de
-        l'Alimentation et de la Viticulture — two ministries, one cabinet seat. Sport was held
-        by Georges Mischo from November 2023 until the arrêté of 11 December 2025 removed him
-        from the government and transferred the portfolio to Hansen. The ministry itself was
-        not created, renamed or abolished by that change, so it carries no valid_from.
+        Held by Martine Hansen, who also holds the Ministère de l'Agriculture, de l'Alimentation
+        et de la Viticulture — two ministries, one cabinet seat. Sport was held by Georges
+        Mischo from November 2023 until the arrêté of 11 December 2025 removed him from the
+        government and transferred the portfolio to Hansen. The ministry itself was not created,
+        renamed or abolished by that change, so it carries no start date of its own.
       es: >-
         A cargo de Martine Hansen, que ostenta además el Ministère de l'Agriculture, de
         l'Alimentation et de la Viticulture: dos ministerios, un asiento. Deportes lo ostentó
-        Georges Mischo desde noviembre de 2023 hasta que el arrêté de 11 de diciembre de 2025
-        lo sacó del gobierno y traspasó la cartera a Hansen. Ese cambio no creó, renombró ni
-        suprimió el ministerio, así que no lleva valid_from.
+        Georges Mischo desde noviembre de 2023 hasta que el arrêté de 11 de diciembre de 2025 lo
+        sacó del gobierno y traspasó la cartera a Hansen. Ese cambio no creó, renombró ni
+        suprimió el ministerio, así que no lleva fecha de inicio propia.
 
   - id: LU-2023-travail
     order: 20

@@ -470,7 +470,7 @@ entities:
         separately, the ministers "kuriem ir pakļautas attiecīgās ministrijas". Section 6(2)
         allows him to take over one minister's duties permanently or temporarily, which would
         change who runs a ministry but not how many there are. His own department is the
-        Valsts kanceleja, recorded last in this file and not counted because it is headed by a
+        Valsts kanceleja, recorded last in this page and not counted because it is headed by a
         civil-service director rather than a minister. This is the difference between Latvia
         and Finland, where the Prime Minister's Office is itself one of the statutory
         ministries and is counted.
@@ -480,7 +480,7 @@ entities:
         después, por separado, a los ministros «kuriem ir pakļautas attiecīgās ministrijas».
         El artículo 6(2) le permite asumir de forma permanente o temporal las funciones de un
         ministro, lo que cambiaría quién dirige un ministerio pero no cuántos hay. Su
-        departamento propio es la Valsts kanceleja, registrada al final de este fichero y no
+        departamento propio es la Valsts kanceleja, registrada al final de esta ficha y no
         contada porque la dirige un funcionario y no un ministro. Esta es la diferencia con
         Finlandia, donde la Oficina del Primer Ministro es ella misma uno de los ministerios
         legales y sí se cuenta.
@@ -505,14 +505,14 @@ entities:
     note:
       en: >-
         Tagged defence only. Latvia's compulsory national service, the Valsts aizsardzības
-        dienests introduced in 2023, and military cyber defence are this ministry's, but
-        civil protection and the rescue service are the Ministry of the Interior's, and this
-        dataset tags the ministry that holds the subject matter.
+        dienests introduced in 2023, and military cyber defence are this ministry's, but civil
+        protection and the rescue service are the Ministry of the Interior's, and this project
+        tags the ministry that holds the subject matter.
       es: >-
         Se etiqueta sólo defence. El servicio nacional obligatorio letón, el Valsts
         aizsardzības dienests introducido en 2023, y la ciberdefensa militar son de este
         ministerio, pero la protección civil y el servicio de salvamento son del Ministerio
-        del Interior, y este dataset etiqueta al ministerio que tiene la materia.
+        del Interior, y este proyecto etiqueta al ministerio que tiene la materia.
 
   - id: LV-2026-arlietu-ministrija
     order: 3
@@ -571,12 +571,12 @@ entities:
         ministry's own summary still mentions it: energy left this ministry on 1 January 2023
         for the Klimata un enerģētikas ministrija, which was created by reorganising this
         ministry and the former Vides aizsardzības un reģionālās attīstības ministrija.
-        Construction is not tagged as `infrastructure` either, because what this ministry
+        Construction is not tagged as public works and infrastructure either, because what this ministry
         holds is building regulation rather than public works, which are the Ministry of
         Transport's.
       es: >-
-        El ámbito más amplio del gobierno letón, y la lista de etiquetas más larga de este
-        fichero: el ministerio se describe como responsable de la política estructural de la
+        El ámbito más amplio del gobierno letón, y la lista de etiquetas más larga de esta
+        ficha: el ministerio se describe como responsable de la política estructural de la
         economía nacional y de la política de industria, construcción, turismo, relaciones
         económicas exteriores, mercado interior de bienes y servicios, desarrollo empresarial,
         inversiones y protección de los consumidores, y además tiene la política de vivienda.
@@ -584,8 +584,8 @@ entities:
         mencionándola: la energía salió de este ministerio el 1 de enero de 2023 hacia el
         Klimata un enerģētikas ministrija, creado reorganizando este ministerio y el antiguo
         Vides aizsardzības un reģionālās attīstības ministrija. Tampoco se etiqueta la
-        construcción como `infrastructure`, porque lo que tiene este ministerio es la
-        regulación de la edificación y no la obra pública, que es del Ministerio de
+        construcción como obras públicas e infraestructuras, porque lo que tiene este ministerio
+        es la regulación de la edificación y no la obra pública, que es del Ministerio de
         Transporte.
 
   - id: LV-2026-finansu-ministrija
@@ -608,14 +608,14 @@ entities:
       en: >-
         Tax policy, the annual budget, the tax and customs administration and macroeconomic
         supervision. It is also Latvia's managing authority for the EU cohesion funds, which
-        would fit the taxonomy's `regional_development` ("regional development and cohesion
+        would fit the taxonomy's regional development and cohesion funds ("regional development and cohesion
         funds"); that tag is deliberately left on the Ministry of Smart Administration and
         Regional Development instead, which makes regional policy, so that a cross-country
         reader is not shown two Latvian regional-development ministries where there is one.
       es: >-
         Política fiscal, presupuesto anual, administración tributaria y aduanera y
         supervisión macroeconómica. Es además la autoridad de gestión letona de los fondos de
-        cohesión de la UE, lo que encajaría con `regional_development` («desarrollo regional y
+        cohesión de la UE, lo que encajaría con desarrollo regional y fondos de cohesión («desarrollo regional y
         fondos de cohesión») de la taxonomía; esa etiqueta se deja deliberadamente en el
         Ministerio de Administración Inteligente y Desarrollo Regional, que hace la política
         regional, para que un lector transnacional no vea dos ministerios letones de
@@ -676,7 +676,7 @@ entities:
         itself as the leading authority in education, science and sport and in youth, space
         and state language policy. Sport and youth have no ministry of their own in Latvia.
         Space is a policy area of this ministry rather than of the economy ministry, which is
-        unusual in this dataset. Language policy is tagged here because this ministry makes
+        unusual in this project. Language policy is tagged here because this ministry makes
         it and the Latviešu valodas aģentūra is subordinate to it; enforcement of the State
         Language Law sits with the Valsts valodas centrs under the Ministry of Justice, so a
         reader looking for Latvian language policy should look at both.
@@ -685,7 +685,7 @@ entities:
         ministerio se describe como la autoridad rectora en educación, ciencia y deporte y en
         política de juventud, espacio y lengua estatal. El deporte y la juventud no tienen
         ministerio propio en Letonia. El espacio es área de política de este ministerio y no
-        del de Economía, algo poco habitual en este dataset. La política lingüística se
+        del de Economía, algo poco habitual en este proyecto. La política lingüística se
         etiqueta aquí porque la elabora este ministerio y la Latviešu valodas aģentūra depende
         de él; la vigilancia del cumplimiento de la Ley de la Lengua Estatal corresponde al
         Valsts valodas centrs, adscrito al Ministerio de Justicia, de modo que quien busque la
@@ -712,24 +712,24 @@ entities:
         The newest Latvian ministry, created on 1 January 2023 by reorganising the Ministry of
         Economics and the former Vides aizsardzības un reģionālās attīstības ministrija, and
         inserted into the statutory list as clause 7.1 rather than at its end. It is one of
-        the few dedicated climate ministries in this dataset. The `environment` tag is the
+        the few dedicated climate ministries in this project. The environment and nature tag is the
         contestable one: transitional provision 19 of the Act gives this ministry the
         vides aizsardzība half of the old environment portfolio — waste management,
         circular economy, surface, ground and marine water resources, pollution and
         environmental quality — while nature protection went to the Ministry of Smart
-        Administration and Regional Development, which is tagged `environment` too. `water` is
+        Administration and Regional Development, which is tagged environment and nature too. water is
         tagged here for the same reason.
       es: >-
         El ministerio letón más reciente, creado el 1 de enero de 2023 reorganizando el
         Ministerio de Economía y el antiguo Vides aizsardzības un reģionālās attīstības
         ministrija, e insertado en la lista legal como punto 7.1 y no al final. Es uno de los
-        pocos ministerios de clima propios de este dataset. La etiqueta `environment` es la
+        pocos ministerios de clima propios de este proyecto. La etiqueta medio ambiente y naturaleza es la
         discutible: la disposición transitoria 19 de la ley le da la mitad de vides
         aizsardzība de la antigua cartera ambiental —gestión de residuos, economía circular,
         aguas superficiales, subterráneas y marinas, contaminación y calidad ambiental—,
         mientras que la protección de la naturaleza pasó al Ministerio de Administración
-        Inteligente y Desarrollo Regional, que también lleva `environment`. Por la misma razón
-        se etiqueta aquí `water`.
+        Inteligente y Desarrollo Regional, que también lleva medio ambiente y naturaleza. Por la misma razón
+        se etiqueta aquí agua.
 
   - id: LV-2026-kulturas-ministrija
     order: 9
@@ -751,14 +751,14 @@ entities:
       en: >-
         The ministry describes itself as forming and coordinating state cultural policy,
         making state policy on the integration of society, and making mass-media policy —
-        hence `media` alongside `culture`. Its third stated task, sabiedrības integrācija, has
+        hence media and broadcasting alongside culture and heritage. Its third stated task, sabiedrības integrācija, has
         no home in the project's taxonomy: it is neither migration nor equality but social
         cohesion, and it is recorded here in prose rather than forced into a tag that would
         misdescribe it.
       es: >-
         El ministerio se describe como el que forma y coordina la política cultural estatal,
         elabora la política estatal de integración de la sociedad y elabora la política de
-        medios de comunicación de masas; de ahí `media` junto a `culture`. Su tercera tarea
+        medios de comunicación de masas; de ahí medios y radiodifusión junto a cultura y patrimonio. Su tercera tarea
         declarada, la sabiedrības integrācija, no tiene sitio en la taxonomía del proyecto: no
         es migración ni igualdad, sino cohesión social, y se recoge aquí en prosa en lugar de
         forzarla en una etiqueta que la describiría mal.
@@ -785,7 +785,7 @@ entities:
         equality ministry: this one is all of them. Its own description of the welfare sector
         covers pensions, benefits, social insurance, social inclusion, family and children,
         social work and services, the labour market, employment relations and occupational
-        safety, disability and gender equality. `equality` is tagged for that last item and
+        safety, disability and gender equality. equality and anti-discrimination is tagged for that last item and
         for the ministry's statutory lead on equal opportunities for persons with
         disabilities; Latvia has no wider anti-discrimination department.
       es: >-
@@ -793,7 +793,7 @@ entities:
         igualdad: este los reúne todos. Su propia descripción del sector del bienestar abarca
         pensiones, prestaciones, seguridad social, inclusión social, familia e infancia,
         trabajo social y servicios sociales, mercado laboral, relaciones laborales y seguridad
-        en el trabajo, discapacidad e igualdad de género. `equality` se etiqueta por esto
+        en el trabajo, discapacidad e igualdad de género. igualdad y no discriminación se etiqueta por esto
         último y por la competencia legal del ministerio en igualdad de oportunidades de las
         personas con discapacidad; Letonia no tiene un departamento más amplio de no
         discriminación.
@@ -819,8 +819,8 @@ entities:
         "Satiksme" is transport and "sakari" is communications, and this ministry is the
         leading authority in both. The transport sector is defined as covering rail, road,
         maritime and aviation, together with passenger, transit and dangerous-goods carriage;
-        the road sub-sector includes the state road network, which is why `infrastructure` is
-        tagged. `telecommunications` covers the communications half — electronic
+        the road sub-sector includes the state road network, which is why public works and infrastructure is
+        tagged. telecommunications covers the communications half — electronic
         communications and postal services — which is separate from the digital-government
         portfolio held by the Ministry of Smart Administration and Regional Development.
       es: >-
@@ -828,7 +828,7 @@ entities:
         rectora en ambos. El sector del transporte se define como ferrocarril, carretera,
         marítimo y aviación, junto con el transporte de pasajeros, de tránsito y de mercancías
         peligrosas; el subsector de carretera incluye la red estatal de carreteras, y por eso
-        se etiqueta `infrastructure`. `telecommunications` cubre la mitad de comunicaciones
+        se etiqueta obras públicas e infraestructuras. telecomunicaciones cubre la mitad de comunicaciones
         —comunicaciones electrónicas y servicios postales—, distinta de la cartera de gobierno
         digital que tiene el Ministerio de Administración Inteligente y Desarrollo Regional.
 
@@ -852,7 +852,7 @@ entities:
       en: >-
         The ministry describes itself as the leading authority in the justice sector — legal
         system policy, the court system and court administration — and in the other fields
-        assigned to it by its statutes. `religion` is tagged because the activity of religious
+        assigned to it by its statutes. religious affairs is tagged because the activity of religious
         organisations is one of those fields; Latvia has no ministry of religious affairs.
         Enforcement of the State Language Law also sits here, through the Valsts valodas
         centrs, but language policy is made by the Ministry of Education and Science and is
@@ -860,7 +860,7 @@ entities:
       es: >-
         El ministerio se describe como la autoridad rectora del sector de la justicia
         —política del sistema jurídico, sistema judicial y administración de los tribunales— y
-        de los demás ámbitos que le asigna su reglamento. Se etiqueta `religion` porque la
+        de los demás ámbitos que le asigna su reglamento. Se etiqueta asuntos religiosos porque la
         actividad de las organizaciones religiosas es uno de ellos; Letonia no tiene
         ministerio de asuntos religiosos. La vigilancia del cumplimiento de la Ley de la
         Lengua Estatal también está aquí, a través del Valsts valodas centrs, pero la política
@@ -907,7 +907,7 @@ entities:
         ministry now describes itself as making sectoral policy in nature protection, regional
         development and the governance of digital transformation; local government, national
         and municipal spatial development planning and the one-stop-shop network are also
-        its. `environment` is tagged for the dabas aizsardzība half of the old environment
+        its. environment and nature is tagged for the dabas aizsardzība half of the old environment
         portfolio, which transitional provision 19 of the Act expressly leaves here while
         assigning vides aizsardzība to the Ministry of Climate and Energy. Note that the
         government's own English translation of the Act still calls this post "Minister for
@@ -921,7 +921,7 @@ entities:
         sectorial en protección de la naturaleza, desarrollo regional y gobernanza de la
         transformación digital; también son suyos el gobierno local, la planificación del
         desarrollo territorial nacional y municipal y la red de ventanillas únicas.
-        `environment` se etiqueta por la mitad de dabas aizsardzība de la antigua cartera
+        medio ambiente y naturaleza se etiqueta por la mitad de dabas aizsardzība de la antigua cartera
         ambiental, que la disposición transitoria 19 de la ley deja expresamente aquí mientras
         asigna la vides aizsardzība al Ministerio de Clima y Energía. Nótese que la propia
         traducción inglesa oficial de la ley sigue llamando a este cargo «Minister for
@@ -950,7 +950,7 @@ entities:
         leading authority in agriculture, forestry and fisheries alike — forestry matters in
         a country slightly more than half of which is forest. Food and food safety and animal
         protection and welfare are also its, through the Pārtikas un veterinārais dienests,
-        which is why `food_safety` and `animal_welfare` are tagged although neither appears in
+        which is why food and food safety and animal welfare are tagged although neither appears in
         the name.
       es: >-
         «Zemkopība» significa labranza más que agricultura en sentido estricto, y el
@@ -958,7 +958,7 @@ entities:
         la silvicultura pesa en un país cuya superficie es algo más de la mitad bosque. La
         alimentación y la seguridad alimentaria y la protección y el bienestar de los animales
         también son suyos, a través del Pārtikas un veterinārais dienests, y por eso se
-        etiquetan `food_safety` y `animal_welfare` aunque ninguno aparezca en el nombre.
+        etiquetan alimentación y seguridad alimentaria y bienestar animal aunque ninguno aparezca en el nombre.
 
   # --- recorded, not counted --------------------------------------------------------------
   - id: LV-2026-valsts-kanceleja
@@ -983,22 +983,21 @@ entities:
         Recorded because a reader comparing Latvia with Germany or Finland will look for a
         chancellery and should find the answer here rather than infer it from an absence. The
         Valsts kanceleja is, in the government's own English words, "a central public
-        administration institution ... directly subordinated to the Prime Minister": it
-        services the Cabinet, prepares its sittings and runs public-administration
-        development policy. It is not counted for the plainest of reasons — section 5(1) of
-        the Ministru kabineta iekārtas likums does not list it, and its head is the Valsts
-        kancelejas direktors, a civil servant, not a minister. It adds no cabinet seat, so
-        Latvia's figures are unaffected either way; the German Bundeskanzleramt debate and the
-        Finnish valtioneuvoston kanslia decision have no Latvian counterpart.
+        administration institution... directly subordinated to the Prime Minister": it services
+        the Cabinet, prepares its sittings and runs public-administration development policy. It
+        is not counted for the plainest of reasons — section 5(1) of the Ministru kabineta
+        iekārtas likums does not list it, and its head is the Valsts kancelejas direktors, a
+        civil servant, not a minister. It adds no cabinet seat, so Latvia's figures are
+        unaffected either way; the German Bundeskanzleramt debate and the Finnish
+        valtioneuvoston kanslia decision have no Latvian counterpart.
       es: >-
         Se registra porque quien compare Letonia con Alemania o Finlandia buscará una
         cancillería y debe encontrar aquí la respuesta en vez de deducirla de una ausencia. La
         Valsts kanceleja es, en palabras inglesas del propio gobierno, «a central public
-        administration institution ... directly subordinated to the Prime Minister»: da
-        servicio al gabinete, prepara sus sesiones y lleva la política de desarrollo de la
-        administración pública. No se cuenta por la razón más simple: el artículo 5(1) de la
-        Ministru kabineta iekārtas likums no la enumera, y su titular es el Valsts kancelejas
-        direktors, un funcionario y no un ministro. No añade asiento en el gabinete, de modo
-        que las cifras de Letonia no varían en ningún caso; el debate del Bundeskanzleramt
-        alemán y la decisión sobre la valtioneuvoston kanslia finlandesa no tienen equivalente
-        letón.
+        administration institution... directly subordinated to the Prime Minister»: da servicio
+        al gabinete, prepara sus sesiones y lleva la política de desarrollo de la administración
+        pública. No se cuenta por la razón más simple: el artículo 5(1) de la Ministru kabineta
+        iekārtas likums no la enumera, y su titular es el Valsts kancelejas direktors, un
+        funcionario y no un ministro. No añade asiento en el gabinete, de modo que las cifras de
+        Letonia no varían en ningún caso; el debate del Bundeskanzleramt alemán y la decisión
+        sobre la valtioneuvoston kanslia finlandesa no tienen equivalente letón.

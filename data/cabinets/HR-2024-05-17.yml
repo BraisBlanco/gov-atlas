@@ -1081,7 +1081,7 @@ entities:
         cooperation. Trade is tagged because the same article gives it trade policy — the
         representation of Croatian interests in the adoption of the common commercial policy,
         the World Trade Organization, and the negotiation of investment-protection and economic
-        cooperation agreements — which most countries in this dataset keep in an economy
+        cooperation agreements — which most countries in this project keep in an economy
         ministry; Croatia's Ministry of Economic Affairs holds the domestic and internal-market
         side, and both are tagged trade. European affairs is here and not in a ministry of its
         own: Croatia has no separate European affairs portfolio.
@@ -1095,7 +1095,7 @@ entities:
         mismo artículo le atribuye la política comercial —la representación de los intereses
         croatas en la adopción de la política comercial común, la Organización Mundial del
         Comercio y la negociación de acuerdos de protección de inversiones y de cooperación
-        económica—, que la mayoría de los países de este conjunto de datos sitúa en un
+        económica—, que la mayoría de los países de este proyecto sitúa en un
         ministerio de economía; el Ministerio de Economía croata tiene la vertiente interna y de
         mercado interior, y ambos llevan la etiqueta trade. Los asuntos europeos están aquí y no
         en un ministerio propio: Croacia no tiene una cartera separada de asuntos europeos.
@@ -1126,7 +1126,7 @@ entities:
         and disasters, the warning and alerting system, and inspection in civil protection, fire
         protection, explosives, radiological and nuclear safety and demining — an unusually wide
         emergency remit that also covers nuclear licensing and radiation protection, which in
-        most countries in this dataset sit with an energy or health ministry. Migration is tagged
+        most countries in this project sit with an energy or health ministry. Migration is tagged
         for the administrative side — residence, asylum procedure and the reception of
         foreigners; the return and settlement of Croatian emigrants is the Ministry of Demography
         and Migration's, and the two are deliberately kept apart.
@@ -1140,12 +1140,11 @@ entities:
         grandes accidentes y catástrofes, el sistema de alerta y aviso, y la inspección en
         protección civil, protección contra incendios, explosivos, seguridad radiológica y
         nuclear y desminado —un ámbito de emergencias inusualmente amplio que incluye además la
-        autorización nuclear y la protección radiológica, que en la mayoría de los países de este
-        conjunto de datos corresponden a un ministerio de energía o de sanidad—. La migración se
-        etiqueta por su vertiente administrativa —residencia, procedimiento de asilo y acogida de
-        extranjeros—; el retorno y el asentamiento de los emigrantes croatas corresponden al
-        Ministerio de Demografía e Inmigración, y ambas cosas se mantienen deliberadamente
-        separadas.
+        autorización nuclear y la protección radiológica, que en la mayoría de los países
+        corresponden a un ministerio de energía o de sanidad—. La migración se etiqueta por su
+        vertiente administrativa —residencia, procedimiento de asilo y acogida de extranjeros—;
+        el retorno y el asentamiento de los emigrantes croatas corresponden al Ministerio de
+        Demografía e Inmigración, y ambas cosas se mantienen deliberadamente separadas.
 
   - id: HR-2024-obrana
     order: 3
@@ -1169,7 +1168,7 @@ entities:
         international military cooperation, military and civil defence planning, conscription and
         mobilisation, the organisation, equipment, armament, development and use of the Armed
         Forces, and their participation in operations abroad. Only defence is tagged: unlike
-        several countries in this dataset, Croatia does not give its defence ministry civil
+        several countries in this project, Croatia does not give its defence ministry civil
         protection, which article 6 places with the interior ministry, and it has no veterans
         remit either, which article 19 gives a ministry of its own.
       es: >-
@@ -1178,7 +1177,7 @@ entities:
         defensa militar y civil, el reclutamiento y la movilización, la organización, el
         equipamiento, el armamento, el desarrollo y el empleo de las Fuerzas Armadas y su
         participación en operaciones en el exterior. Sólo se etiqueta la defensa: a diferencia de
-        varios países de este conjunto de datos, Croacia no atribuye a su ministerio de defensa
+        varios países de este proyecto, Croacia no atribuye a su ministerio de defensa
         la protección civil, que el artículo 6 sitúa en el ministerio del Interior, ni tiene
         competencias sobre veteranos, a los que el artículo 19 dedica un ministerio propio.
 
@@ -1247,33 +1246,33 @@ entities:
     sources: [nn-57-2024-982, zakon-hr-zudtdu-procisceni, nn-60-2024-1006, vlada-clanovi-vlade, vlada-government-members-en]
     note:
       en: >-
-        The widest remit in the Croatian cabinet, and the entity most likely to be tagged
-        differently by another curator. It was created in May 2024 when the Ministarstvo
+        The widest remit in the Croatian cabinet, and the entity whose tagging most plausibly
+        admits a different reading. It was created in May 2024 when the Ministarstvo
         gospodarstva i održivog razvoja was split in two, the environmental half becoming the
         Ministry of Environment and Green Transition. Article 9 as replaced by the 2024 amending
-        Act gives it competitiveness and investment promotion, industrial policy, the application
-        of innovation and new technologies, mining, trade on the European Union's internal market,
-        supply and prices, standardisation, accreditation, conformity assessment, metrology and
-        competition policy, consumer protection, strategic commodity reserves, the public
-        procurement and concessions systems, public-private partnership, small and medium
-        enterprises, crafts and cooperatives, export and foreign investment promotion, and the
-        whole of the energy sector — electricity, heat, oil and oil derivatives, natural gas,
-        nuclear energy, renewables, hydrocarbon and geothermal exploration and energy efficiency.
-        Energy is the tag most likely to be looked for on the wrong ministry: it is here and not
-        with the environment ministry, whose name suggests a green-transition remit but whose
-        statutory field of activity does not include energy. Mining is tagged because "rudarstvo"
-        is named in the article. Innovation is not tagged here even though the article mentions
-        the application of innovation, because the innovation system itself is the Ministry of
-        Science, Education and Youth's; tourism is not tagged because Croatia has a tourism
-        ministry of its own.
+        Act gives it competitiveness and investment promotion, industrial policy, the
+        application of innovation and new technologies, mining, trade on the European Union's
+        internal market, supply and prices, standardisation, accreditation, conformity
+        assessment, metrology and competition policy, consumer protection, strategic commodity
+        reserves, the public procurement and concessions systems, public-private partnership,
+        small and medium enterprises, crafts and cooperatives, export and foreign investment
+        promotion, and the whole of the energy sector — electricity, heat, oil and oil
+        derivatives, natural gas, nuclear energy, renewables, hydrocarbon and geothermal
+        exploration and energy efficiency. Energy is the tag most likely to be looked for on the
+        wrong ministry: it is here and not with the environment ministry, whose name suggests a
+        green-transition remit but whose statutory field of activity does not include energy.
+        Mining is tagged because "rudarstvo" is named in the article. Innovation is not tagged
+        here even though the article mentions the application of innovation, because the
+        innovation system itself is the Ministry of Science, Education and Youth's; tourism is
+        not tagged because Croatia has a tourism ministry of its own.
       es: >-
-        La cartera más amplia del gabinete croata y la entidad que otro curador etiquetaría con
-        mayor probabilidad de forma distinta. Se creó en mayo de 2024 al escindirse en dos el
-        Ministarstvo gospodarstva i održivog razvoja, cuya mitad ambiental pasó a ser el
-        Ministerio de Protección del Medio Ambiente y Transición Verde. El artículo 9, en la
-        redacción que le dio la ley de modificación de 2024, le atribuye la competitividad y el
-        fomento de la inversión, la política industrial, la aplicación de la innovación y de las
-        nuevas tecnologías, la minería, el comercio en el mercado interior de la Unión Europea, el
+        La cartera más amplia del gabinete croata y la entidad cuyo etiquetado admite con más
+        probabilidad otra lectura. Se creó en mayo de 2024 al escindirse en dos el Ministarstvo
+        gospodarstva i održivog razvoja, cuya mitad ambiental pasó a ser el Ministerio de
+        Protección del Medio Ambiente y Transición Verde. El artículo 9, en la redacción que le
+        dio la ley de modificación de 2024, le atribuye la competitividad y el fomento de la
+        inversión, la política industrial, la aplicación de la innovación y de las nuevas
+        tecnologías, la minería, el comercio en el mercado interior de la Unión Europea, el
         abastecimiento y los precios, la normalización, la acreditación, la evaluación de la
         conformidad, la metrología y la política de competencia, la protección de los
         consumidores, las reservas estratégicas de mercancías, los sistemas de contratación
@@ -1281,13 +1280,13 @@ entities:
         cooperativismo, el fomento de la exportación y de la inversión extranjera, y todo el
         sector energético —electricidad, calor, petróleo y derivados, gas natural, energía
         nuclear, renovables, exploración de hidrocarburos y de aguas geotérmicas y eficiencia
-        energética—. La energía es la etiqueta que más probablemente se buscaría en el ministerio
-        equivocado: está aquí y no en el de medio ambiente, cuyo nombre sugiere una cartera de
-        transición verde pero cuyo ámbito legal de actividad no incluye la energía. Se etiqueta la
-        minería porque «rudarstvo» figura nombrado en el artículo. No se etiqueta la innovación
-        aunque el artículo mencione su aplicación, porque el sistema de innovación corresponde al
-        Ministerio de Ciencia, Educación y Juventud; no se etiqueta el turismo porque Croacia
-        tiene un ministerio de turismo propio.
+        energética—. La energía es la etiqueta que más probablemente se buscaría en el
+        ministerio equivocado: está aquí y no en el de medio ambiente, cuyo nombre sugiere una
+        cartera de transición verde pero cuyo ámbito legal de actividad no incluye la energía.
+        Se etiqueta la minería porque «rudarstvo» figura nombrado en el artículo. No se etiqueta
+        la innovación aunque el artículo mencione su aplicación, porque el sistema de innovación
+        corresponde al Ministerio de Ciencia, Educación y Juventud; no se etiqueta el turismo
+        porque Croacia tiene un ministerio de turismo propio.
 
   - id: HR-2024-zastita-okolisa-i-zelena-tranzicija
     order: 6
@@ -1362,79 +1361,80 @@ entities:
     sources: [nn-57-2024-982, zakon-hr-zudtdu-procisceni, nn-60-2024-1006, vlada-clanovi-vlade, vlada-government-members-en]
     note:
       en: >-
-        Three portfolios in one department, and the entity that carries the most surprising tags.
-        Article 10 gives it civil, criminal, misdemeanour and commercial law and administrative
-        adjudication, the prison and probation system, notaries and the bar, international legal
-        assistance, pardons, property rights, expropriation, the restitution of property seized
-        under communist rule, the succession to the assets of the former Yugoslavia, cooperation
-        with international criminal courts, human and national-minority rights not assigned
-        elsewhere, and anti-corruption coordination. Under the "uprava" head it holds the
-        political system, the system and organisation of the state administration, the
-        organisation and competences of local and regional self-government, electoral law and the
-        voter register, civil status registers, the general legal framework for institutions,
-        political parties, religious communities, associations and foundations, the general
-        administrative procedure, administrative inspection and employment in the state
-        administration — which is why both public_administration and territorial_administration
-        are tagged. religion is the softest tag in this file and is disclosed as such: it is
-        tagged here because the legal status and the register of religious communities are this
-        ministry's, but Croatia has no religious-affairs ministry and the political relationship
-        with the religious communities runs through a Government commission with an office of its
-        own, the Ured komisije za odnose s vjerskim zajednicama, which is outside this file's
-        perimeter. A curator applying the "primary responsibility" test strictly would drop the
-        tag; it is kept because the register and the legal framework are a real statutory
-        competence and because dropping it would leave a reader unable to find where religious
-        affairs sit in Croatia at all. Note also that the same paragraph gives this ministry the
-        registers of political parties, associations and foundations, for which the taxonomy has
-        no id and none is proposed. Digital is tagged because the 2024 amendment moved the whole
-        digital-transformation
-        portfolio here from the abolished Središnji državni ured za razvoj digitalnog društva: the
-        ministry now manages the digitalisation of every state and public administration body, the
-        state information infrastructure, interoperability and public registers, the digital
-        economy, trust services and innovative technologies including artificial intelligence.
-        Telecommunications is not tagged: electronic communications and postal services stayed
-        with the Ministry of the Sea, Transport and Infrastructure. A caution on the web address:
-        the domain mpudt.gov.hr matches the ministry's full name, but the title of its own site
-        still read "Ministarstvo pravosuđa i uprave Republike Hrvatske" on the access date, without
-        the digital transformation, so the site had not caught up with the 2024 renaming.
+        Three portfolios in one department, and the entity that carries the most surprising
+        tags. Article 10 gives it civil, criminal, misdemeanour and commercial law and
+        administrative adjudication, the prison and probation system, notaries and the bar,
+        international legal assistance, pardons, property rights, expropriation, the restitution
+        of property seized under communist rule, the succession to the assets of the former
+        Yugoslavia, cooperation with international criminal courts, human and national-minority
+        rights not assigned elsewhere, and anti-corruption coordination. Under the "uprava" head
+        it holds the political system, the system and organisation of the state administration,
+        the organisation and competences of local and regional self-government, electoral law
+        and the voter register, civil status registers, the general legal framework for
+        institutions, political parties, religious communities, associations and foundations,
+        the general administrative procedure, administrative inspection and employment in the
+        state administration — which is why both public_administration and
+        territorial_administration are tagged. religion is the softest tag in this page and is
+        disclosed as such: it is tagged here because the legal status and the register of
+        religious communities are this ministry's, but Croatia has no religious-affairs ministry
+        and the political relationship with the religious communities runs through a Government
+        commission with an office of its own, the Ured komisije za odnose s vjerskim
+        zajednicama, which is outside this page's perimeter. Applying the "primary
+        responsibility" test strictly, one would drop the tag; it is kept because the register
+        and the legal framework are a real statutory competence and because dropping it would
+        leave a reader unable to find where religious affairs sit in Croatia at all. Note also
+        that the same paragraph gives this ministry the registers of political parties,
+        associations and foundations, for which the taxonomy has no id and none is proposed.
+        Digital is tagged because the 2024 amendment moved the whole digital-transformation
+        portfolio here from the abolished Središnji državni ured za razvoj digitalnog društva:
+        the ministry now manages the digitalisation of every state and public administration
+        body, the state information infrastructure, interoperability and public registers, the
+        digital economy, trust services and innovative technologies including artificial
+        intelligence. Telecommunications is not tagged: electronic communications and postal
+        services stayed with the Ministry of the Sea, Transport and Infrastructure. A caution on
+        the web address: the domain mpudt.gov.hr matches the ministry's full name, but the title
+        of its own site still read "Ministarstvo pravosuđa i uprave Republike Hrvatske" on the
+        access date, without the digital transformation, so the site had not caught up with the
+        2024 renaming.
       es: >-
-        Tres carteras en un solo departamento, y la entidad con las etiquetas más sorprendentes. El
-        artículo 10 le atribuye el derecho civil, penal, de faltas y mercantil y la jurisdicción
-        administrativa, el sistema penitenciario y de probación, el notariado y la abogacía, la
-        asistencia jurídica internacional, los indultos, el derecho de propiedad, la expropiación,
-        la restitución de bienes confiscados bajo el régimen comunista, la sucesión en el
-        patrimonio de la antigua Yugoslavia, la cooperación con los tribunales penales
-        internacionales, los derechos humanos y de las minorías nacionales no atribuidos a otro
-        órgano y la coordinación anticorrupción. Bajo el epígrafe «uprava» tiene el sistema
-        político, el sistema y la organización de la administración del Estado, la organización y
-        las competencias de la autonomía local y regional, el derecho electoral y el censo, los
-        registros civiles, el marco legal general de las instituciones, los partidos políticos, las
-        comunidades religiosas, las asociaciones y las fundaciones, el procedimiento administrativo
-        general, la inspección administrativa y el empleo en la administración del Estado —de ahí
-        que se etiqueten public_administration y territorial_administration—. religion es la
-        etiqueta más discutible de este fichero y así se declara: se etiqueta aquí porque el
-        estatuto jurídico y el registro de las comunidades religiosas corresponden a este
-        ministerio, pero Croacia no tiene un ministerio de asuntos religiosos y la relación
-        política con las comunidades religiosas discurre a través de una comisión del Gobierno con
-        oficina propia, la Ured komisije za odnose s vjerskim zajednicama, que queda fuera del
-        perímetro de este fichero. Un curador que aplicara con rigor el criterio de
-        «responsabilidad principal» eliminaría la etiqueta; se mantiene porque el registro y el
-        marco legal son una competencia legal real y porque suprimirla dejaría al lector sin poder
-        localizar en absoluto dónde residen los asuntos religiosos en Croacia. Nótese además que el
-        mismo párrafo atribuye a este ministerio los registros de partidos políticos, asociaciones
-        y fundaciones, para los que la taxonomía no tiene identificador y no se propone ninguno. Se
-        etiqueta digital
-        porque la modificación de 2024 trasladó aquí toda la cartera de transformación digital desde
-        la suprimida Središnji državni ured za razvoj digitalnog društva: el ministerio gestiona
+        Tres carteras en un solo departamento, y la entidad con las etiquetas más sorprendentes.
+        El artículo 10 le atribuye el derecho civil, penal, de faltas y mercantil y la
+        jurisdicción administrativa, el sistema penitenciario y de probación, el notariado y la
+        abogacía, la asistencia jurídica internacional, los indultos, el derecho de propiedad,
+        la expropiación, la restitución de bienes confiscados bajo el régimen comunista, la
+        sucesión en el patrimonio de la antigua Yugoslavia, la cooperación con los tribunales
+        penales internacionales, los derechos humanos y de las minorías nacionales no atribuidos
+        a otro órgano y la coordinación anticorrupción. Bajo el epígrafe «uprava» tiene el
+        sistema político, el sistema y la organización de la administración del Estado, la
+        organización y las competencias de la autonomía local y regional, el derecho electoral y
+        el censo, los registros civiles, el marco legal general de las instituciones, los
+        partidos políticos, las comunidades religiosas, las asociaciones y las fundaciones, el
+        procedimiento administrativo general, la inspección administrativa y el empleo en la
+        administración del Estado —de ahí que se etiqueten public_administration y
+        territorial_administration—. religion es la etiqueta más discutible de esta ficha y así
+        se declara: se etiqueta aquí porque el estatuto jurídico y el registro de las
+        comunidades religiosas corresponden a este ministerio, pero Croacia no tiene un
+        ministerio de asuntos religiosos y la relación política con las comunidades religiosas
+        discurre a través de una comisión del Gobierno con oficina propia, la Ured komisije za
+        odnose s vjerskim zajednicama, que queda fuera del perímetro de esta ficha. Quien
+        aplicara con rigor el criterio de «responsabilidad principal» eliminaría la etiqueta; se
+        mantiene porque el registro y el marco legal son una competencia legal real y porque
+        suprimirla dejaría al lector sin poder localizar en absoluto dónde residen los asuntos
+        religiosos en Croacia. Nótese además que el mismo párrafo atribuye a este ministerio los
+        registros de partidos políticos, asociaciones y fundaciones, para los que la taxonomía
+        no tiene identificador y no se propone ninguno. Se etiqueta digital porque la
+        modificación de 2024 trasladó aquí toda la cartera de transformación digital desde la
+        suprimida Središnji državni ured za razvoj digitalnog društva: el ministerio gestiona
         ahora la digitalización de todos los órganos de la administración estatal y pública, la
-        infraestructura estatal de información, la interoperabilidad y los registros públicos, la
-        economía digital, los servicios de confianza y las tecnologías innovadoras incluida la
-        inteligencia artificial. No se etiquetan las telecomunicaciones: las comunicaciones
+        infraestructura estatal de información, la interoperabilidad y los registros públicos,
+        la economía digital, los servicios de confianza y las tecnologías innovadoras incluida
+        la inteligencia artificial. No se etiquetan las telecomunicaciones: las comunicaciones
         electrónicas y los servicios postales siguen en el Ministerio del Mar, Transporte e
-        Infraestructuras. Una advertencia sobre la dirección web: el dominio mpudt.gov.hr responde
-        al nombre completo del ministerio, pero el título de su propio sitio seguía siendo
-        «Ministarstvo pravosuđa i uprave Republike Hrvatske» en la fecha de consulta, sin la
-        transformación digital, de modo que el sitio no se había puesto al día con el cambio de
-        nombre de 2024.
+        Infraestructuras. Una advertencia sobre la dirección web: el dominio mpudt.gov.hr
+        responde al nombre completo del ministerio, pero el título de su propio sitio seguía
+        siendo «Ministarstvo pravosuđa i uprave Republike Hrvatske» en la fecha de consulta, sin
+        la transformación digital, de modo que el sitio no se había puesto al día con el cambio
+        de nombre de 2024.
 
   - id: HR-2024-znanost-obrazovanje-i-mladi
     order: 8
@@ -1521,7 +1521,7 @@ entities:
         return-migration of ethnic Croats, whereas immigration and asylum as a matter of
         administration are the interior ministry's. Family is tagged here and also on the Ministry
         of Labour, Pension System, Family and Social Policy; Croatia split family policy between
-        the two in 2024 and this dataset reports both rather than choosing.
+        the two in 2024 and this project reports both rather than choosing.
       es: >-
         Un ministerio enteramente nuevo creado por la reorganización de mayo de 2024, y la razón por
         la que se insertó el artículo 11.a en la ley. Sigue y analiza las tendencias demográficas,
@@ -1538,7 +1538,7 @@ entities:
         migración de retorno de croatas étnicos, mientras que la inmigración y el asilo como materia
         administrativa corresponden al ministerio del Interior. La familia se etiqueta aquí y también
         en el Ministerio de Trabajo, Sistema de Pensiones, Familia y Política Social; Croacia repartió
-        la política familiar entre los dos en 2024 y este conjunto de datos informa de ambos en lugar
+        la política familiar entre los dos en 2024 y este proyecto informa de ambos en lugar
         de elegir.
 
   - id: HR-2024-kultura-i-mediji
@@ -1596,7 +1596,7 @@ entities:
     sources: [nn-57-2024-982, nn-85-2020-1593, zakon-hr-zudtdu-procisceni, nn-60-2024-1006, vlada-clanovi-vlade, vlada-government-members-en]
     note:
       en: >-
-        Two unrelated portfolios in one department, which is common in this dataset but worth
+        Two unrelated portfolios in one department, which is common in this project but worth
         stating. Article 13 gives it tourism policy and the tourism development strategy,
         investment in tourism, health, inland, nautical, congress, adventure, cultural and youth
         tourism, small and medium enterprise in tourism and hospitality, accommodation quality,
@@ -1607,17 +1607,18 @@ entities:
         Tourism is a very large portfolio in Croatian terms and the ministry is not a junior one.
         Physical education inside the school curriculum belongs to the education ministry.
       es: >-
-        Dos carteras sin relación entre sí en un solo departamento, algo frecuente en este conjunto de
-        datos pero que conviene decir. El artículo 13 le atribuye la política turística y la
-        estrategia de desarrollo del turismo, la inversión en turismo, el turismo de salud, de
-        interior, náutico, de congresos, de aventura, cultural y juvenil, las pymes del turismo y la
-        hostelería, la calidad del alojamiento, la reestructuración de las empresas hoteleras, el
-        turismo digital y la infraestructura turística; y, por separado, el desarrollo del deporte y
-        de la cultura física, el deporte recreativo, escolar, universitario, amateur y profesional, la
-        financiación de programas deportivos, la categorización de deportes y deportistas y el apoyo y
-        el reconocimiento a los deportistas de élite. El turismo es una cartera muy grande en términos
-        croatas y el ministerio no es menor. La educación física dentro del currículo escolar
-        corresponde al ministerio de educación.
+        Dos carteras sin relación entre sí en un solo departamento, algo frecuente en los
+        gabinetes europeos pero que conviene decir. El artículo 13 le atribuye la política
+        turística y la estrategia de desarrollo del turismo, la inversión en turismo, el turismo
+        de salud, de interior, náutico, de congresos, de aventura, cultural y juvenil, las pymes
+        del turismo y la hostelería, la calidad del alojamiento, la reestructuración de las
+        empresas hoteleras, el turismo digital y la infraestructura turística; y, por separado,
+        el desarrollo del deporte y de la cultura física, el deporte recreativo, escolar,
+        universitario, amateur y profesional, la financiación de programas deportivos, la
+        categorización de deportes y deportistas y el apoyo y el reconocimiento a los
+        deportistas de élite. El turismo es una cartera muy grande en términos croatas y el
+        ministerio no es menor. La educación física dentro del currículo escolar corresponde al
+        ministerio de educación.
 
   - id: HR-2024-regionalni-razvoj-i-fondovi-eu
     order: 12
@@ -1832,39 +1833,41 @@ entities:
     sources: [nn-57-2024-982, zakon-hr-zudtdu-procisceni, nn-60-2024-1006, vlada-clanovi-vlade, vlada-government-members-en]
     note:
       en: >-
-        Article 18 gives this ministry spatial planning, construction and housing, the coordination
-        of spatial development, the use and protection of space, the spatial planning information
-        system, the monitoring of the state of the territory and the implementation of the spatial
-        plans of the Republic, location permits, the Spatial Development Strategy, the valuation of
-        real estate, the conditions for the design and construction of buildings, energy efficiency
-        in buildings, building and occupancy permits, the use, maintenance and removal of buildings,
-        and the professional chambers of architects and engineers. housing is tagged because
-        "stanovanje" is named in the first paragraph of the article; state_assets because state
-        property is in the ministry's name and article 8 refers to it as "ministarstvo nadležno za
-        upravljanje državnom imovinom", the ministry competent for the management of state property,
-        with which every other ministry must cooperate over shares in state-owned companies;
-        infrastructure because the ministry is the construction authority for public building works.
-        This is also the department that carries Croatia's post-earthquake reconstruction programme,
-        and a curator who wanted a reconstruction tag would put it here rather than on the regional
-        development ministry.
+        Article 18 gives this ministry spatial planning, construction and housing, the
+        coordination of spatial development, the use and protection of space, the spatial
+        planning information system, the monitoring of the state of the territory and the
+        implementation of the spatial plans of the Republic, location permits, the Spatial
+        Development Strategy, the valuation of real estate, the conditions for the design and
+        construction of buildings, energy efficiency in buildings, building and occupancy
+        permits, the use, maintenance and removal of buildings, and the professional chambers of
+        architects and engineers. housing is tagged because "stanovanje" is named in the first
+        paragraph of the article; state_assets because state property is in the ministry's name
+        and article 8 refers to it as "ministarstvo nadležno za upravljanje državnom imovinom",
+        the ministry competent for the management of state property, with which every other
+        ministry must cooperate over shares in state-owned companies; infrastructure because the
+        ministry is the construction authority for public building works. This is also the
+        department that carries Croatia's post-earthquake reconstruction programme, and anyone
+        wanting a reconstruction tag would put it here rather than on the regional development
+        ministry.
       es: >-
-        El artículo 18 atribuye a este ministerio la ordenación del territorio, la construcción y la
-        vivienda, la coordinación del desarrollo territorial, el uso y la protección del espacio, el
-        sistema de información de la ordenación del territorio, el seguimiento del estado del
-        territorio y la ejecución de los planes territoriales de la República, las licencias de
-        emplazamiento, la Estrategia de Desarrollo Territorial, la valoración de inmuebles, las
-        condiciones para el diseño y la construcción de edificios, la eficiencia energética en la
-        edificación, las licencias de obra y de primera ocupación, el uso, la conservación y la
-        demolición de edificios, y los colegios profesionales de arquitectos e ingenieros. Se etiqueta
-        housing porque «stanovanje» figura nombrado en el primer párrafo del artículo; state_assets
-        porque el patrimonio del Estado está en el nombre del ministerio y el artículo 8 se refiere a
-        él como «ministarstvo nadležno za upravljanje državnom imovinom», el ministerio competente para
-        la gestión del patrimonio del Estado, con el que todos los demás ministerios deben cooperar en
-        lo relativo a las acciones de las sociedades de titularidad estatal; infrastructure porque el
-        ministerio es la autoridad constructiva de la obra pública edificatoria. Es también el
-        departamento que lleva el programa croata de reconstrucción posterior a los terremotos, y un
-        curador que quisiera una etiqueta de reconstrucción la pondría aquí y no en el ministerio de
-        desarrollo regional.
+        El artículo 18 atribuye a este ministerio la ordenación del territorio, la construcción
+        y la vivienda, la coordinación del desarrollo territorial, el uso y la protección del
+        espacio, el sistema de información de la ordenación del territorio, el seguimiento del
+        estado del territorio y la ejecución de los planes territoriales de la República, las
+        licencias de emplazamiento, la Estrategia de Desarrollo Territorial, la valoración de
+        inmuebles, las condiciones para el diseño y la construcción de edificios, la eficiencia
+        energética en la edificación, las licencias de obra y de primera ocupación, el uso, la
+        conservación y la demolición de edificios, y los colegios profesionales de arquitectos e
+        ingenieros. Se etiqueta housing porque «stanovanje» figura nombrado en el primer párrafo
+        del artículo; state_assets porque el patrimonio del Estado está en el nombre del
+        ministerio y el artículo 8 se refiere a él como «ministarstvo nadležno za upravljanje
+        državnom imovinom», el ministerio competente para la gestión del patrimonio del Estado,
+        con el que todos los demás ministerios deben cooperar en lo relativo a las acciones de
+        las sociedades de titularidad estatal; infrastructure porque el ministerio es la
+        autoridad constructiva de la obra pública edificatoria. Es también el departamento que
+        lleva el programa croata de reconstrucción posterior a los terremotos, y quien quisiera
+        una etiqueta de reconstrucción la pondría aquí y no en el ministerio de desarrollo
+        regional.
 
   - id: HR-2024-hrvatski-branitelji
     order: 17
@@ -1884,7 +1887,7 @@ entities:
     sources: [nn-57-2024-982, nn-85-2020-1593, zakon-hr-zudtdu-procisceni, nn-60-2024-1006, vlada-clanovi-vlade, vlada-government-members-en]
     note:
       en: >-
-        A dedicated veterans ministry, which few countries in this dataset have and which follows
+        A dedicated veterans ministry, which few countries in this project have and which follows
         from the Homeland War of 1991-1995. Article 19 gives it the legal position and status of
         Croatian defenders of the Homeland War, war invalids and the families of the fallen and
         missing, the protection of civilian victims of that war, of participants in the Second World
@@ -1896,7 +1899,7 @@ entities:
         policy of the Spanish or Central European kind rather than the forensic identification of
         war dead, and adding it would make the comparison view treat two different things as one.
       es: >-
-        Un ministerio de veteranos propio, que pocos países de este conjunto de datos tienen y que se
+        Un ministerio de veteranos propio, que pocos países de este proyecto tienen y que se
         explica por la Guerra de la Patria de 1991-1995. El artículo 19 le atribuye la situación y el
         estatuto jurídico de los defensores croatas de la Guerra de la Patria, de los inválidos de
         guerra y de las familias de los caídos y desaparecidos, la protección de las víctimas civiles
@@ -1937,7 +1940,7 @@ entities:
         care are the Ministry of Labour's, and food safety is tagged on the agriculture ministry,
         which holds the general food-safety system, with this ministry's food competence confined to
         hygiene and health suitability. Croatia's health insurance fund, the Hrvatski zavod za
-        zdravstveno osiguranje, is a public body outside this file's perimeter.
+        zdravstveno osiguranje, is a public body outside this page's perimeter.
       es: >-
         El artículo 20 atribuye a este ministerio los sistemas de asistencia sanitaria y de seguro de
         enfermedad, el seguimiento y la mejora del estado de salud de la población, la protección
@@ -1951,7 +1954,7 @@ entities:
         food_safety se etiqueta en el ministerio de agricultura, que tiene el sistema general de
         seguridad alimentaria, mientras que la competencia alimentaria de este ministerio se limita a
         la higiene y la aptitud sanitaria. El fondo croata de seguro de enfermedad, el Hrvatski zavod
-        za zdravstveno osiguranje, es un organismo público fuera del perímetro de este fichero.
+        za zdravstveno osiguranje, es un organismo público fuera del perímetro de esta ficha.
 
   # --- recorded, not counted: the Government's own organs ----------------------------------
   - id: HR-2024-predsjednik-vlade
@@ -2219,7 +2222,7 @@ entities:
         holds no seat. Fire protection as a regulatory matter, together with civil protection and
         rescue, remains with the Ministry of the Interior under article 6, which is where the
         civil_protection tag sits. The abbreviation HVZ is the body's own and is used in the gazette
-        and on its website; it is the only abbreviation recorded anywhere in this file.
+        and on its website; it is the only abbreviation recorded anywhere in this page.
       es: >-
         El nombre más extraño del artículo 4: un órgano llamado «asociación» que en derecho es un
         órgano de la administración del Estado, enumerado en la misma ley que los ministerios croatas.
@@ -2232,7 +2235,7 @@ entities:
         contra incendios como materia regulatoria, junto con la protección civil y el rescate, sigue
         correspondiendo al Ministerio del Interior conforme al artículo 6, y ahí se sitúa la etiqueta
         civil_protection. La sigla HVZ es del propio órgano y se usa en el boletín oficial y en su
-        sitio web; es la única abreviatura registrada en todo este fichero.
+        sitio web; es la única abreviatura registrada en todo esta ficha.
 
   - id: HR-2024-drzavni-inspektorat
     order: 25
@@ -2263,21 +2266,22 @@ entities:
         inspectorate is headed by a glavni državni inspektor who answers to the Government and is not
         a minister, so it is not counted and holds no seat. It is recorded rather than omitted
         because a reader looking for where Croatian consumer and food enforcement sits would
-        otherwise find no answer in this file.
+        otherwise find no answer in this page.
       es: >-
-        El órgano de inspección consolidado de Croacia, y de gran tamaño: el artículo 27 le atribuye la
-        inspección en el comercio, los servicios, la actividad no registrada, la seguridad de los
-        productos no alimentarios, la protección de los consumidores, los artículos de uso general, los
-        biocidas, el ruido y las radiaciones no ionizantes, los productos del tabaco, los productos
-        químicos peligrosos, los alimentos incluidos los modificados genéticamente y los nuevos
-        alimentos, los organismos modificados genéticamente, la prevención de las enfermedades
-        transmisibles, los asuntos veterinarios y la seguridad alimentaria, y la agricultura. Aplica por
-        tanto normas dictadas por al menos cuatro ministerios contados. Conforme a los artículos 58(3) y
-        59 de la Zakon o sustavu državne uprave, un inspectorado del Estado está dirigido por un glavni
-        državni inspektor que responde ante el Gobierno y no es ministro, de modo que no se cuenta y no
-        lleva asiento. Se registra en lugar de omitirse porque, de lo contrario, quien buscara dónde
-        reside la vigilancia croata del consumo y de los alimentos no encontraría respuesta en este
-        fichero.
+        El órgano de inspección consolidado de Croacia, y de gran tamaño: el artículo 27 le
+        atribuye la inspección en el comercio, los servicios, la actividad no registrada, la
+        seguridad de los productos no alimentarios, la protección de los consumidores, los
+        artículos de uso general, los biocidas, el ruido y las radiaciones no ionizantes, los
+        productos del tabaco, los productos químicos peligrosos, los alimentos incluidos los
+        modificados genéticamente y los nuevos alimentos, los organismos modificados
+        genéticamente, la prevención de las enfermedades transmisibles, los asuntos veterinarios
+        y la seguridad alimentaria, y la agricultura. Aplica por tanto normas dictadas por al
+        menos cuatro ministerios contados. Conforme a los artículos 58(3) y 59 de la Zakon o
+        sustavu državne uprave, un inspectorado del Estado está dirigido por un glavni državni
+        inspektor que responde ante el Gobierno y no es ministro, de modo que no se cuenta y no
+        lleva asiento. Se registra en lugar de omitirse porque, de lo contrario, quien buscara
+        dónde reside la vigilancia croata del consumo y de los alimentos no encontraría
+        respuesta en esta ficha.
 
   - id: HR-2024-drzavna-geodetska-uprava
     order: 26
@@ -2342,7 +2346,7 @@ entities:
         meteorology, agrometeorology, weather modification, aeronautical meteorology and spatial
         planning. It is a "državni zavod" under article 58(2) of the Zakon o sustavu državne uprave,
         headed by a glavni ravnatelj and not by a minister, so it is not counted and holds no seat. It
-        is the Croatian counterpart of bodies that in some countries in this dataset sit inside an
+        is the Croatian counterpart of bodies that in some countries in this project sit inside an
         environment or transport ministry; here it is a separate state administration body listed
         beside the ministries.
       es: >-
@@ -2353,7 +2357,7 @@ entities:
         tiempo, la meteorología aeronáutica y la ordenación del territorio. Es un «državni zavod» del
         artículo 58(2) de la Zakon o sustavu državne uprave, dirigido por un glavni ravnatelj y no por
         un ministro, de modo que no se cuenta y no lleva asiento. Es el equivalente croata de órganos
-        que en algunos países de este conjunto de datos se sitúan dentro de un ministerio de medio
+        que en algunos países de este proyecto se sitúan dentro de un ministerio de medio
         ambiente o de transporte; aquí es un órgano separado de la administración del Estado enumerado
         junto a los ministerios.
 
@@ -2464,7 +2468,7 @@ entities:
     sources: [nn-57-2024-982, zakon-hr-zudtdu-procisceni, zakon-hr-zsdu]
     note:
       en: >-
-        Last of the nine, and the one this dataset relies on: the population figure on Croatia's
+        Last of the nine, and the one this project relies on: the population figure on Croatia's
         country page comes from this body. Article 32 gives it the production and dissemination of
         official statistics and the development of the Croatian official statistics system in
         accordance with the fundamental principles of official statistics, the role of principal
@@ -2476,7 +2480,7 @@ entities:
         a minister, so it is not counted and holds no seat; its statutory professional independence
         would be a further reason not to count it even if its head held ministerial rank.
       es: >-
-        La última de las nueve, y la que este conjunto de datos utiliza: la cifra de población de la
+        La última de las nueve, y la que este proyecto utiliza: la cifra de población de la
         ficha de país de Croacia viene de este órgano. El artículo 32 le atribuye la producción y
         difusión de las estadísticas oficiales y el desarrollo del sistema croata de estadística oficial
         conforme a los principios fundamentales de la estadística oficial, el papel de principal

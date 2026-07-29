@@ -439,14 +439,14 @@ entities:
       en: >-
         Excluded as the office of the head of government, which is this project's default.
         Statsministeriet is a ministry in Danish administrative practice — it issues the
-        ressort bekendtgørelser cited in this file and signs them "Statsministeriet, den 8.
+        ressort bekendtgørelser cited in this page and signs them "Statsministeriet, den 8.
         juni 2026" — but it is the apex of the cabinet rather than a portfolio department,
         and Denmark has no statute constituting it otherwise. Counting it would give Denmark
         21 ministries instead of 20. Its seat is the Prime Minister's and is counted.
       es: >-
         Excluido como oficina del jefe de gobierno, que es el criterio por defecto de este
         proyecto. El Statsministeriet es un ministerio en la práctica administrativa danesa
-        —dicta las bekendtgørelser de reparto de ressort citadas en este fichero y las firma
+        —dicta las bekendtgørelser de reparto de ressort citadas en esta ficha y las firma
         «Statsministeriet, den 8. juni 2026»—, pero es la cúspide del gabinete y no un
         departamento con cartera, y ninguna ley danesa lo constituye de otro modo. Contarlo
         daría 21 ministerios en lugar de 20. Su asiento es el de la primera ministra y sí se
@@ -536,14 +536,14 @@ entities:
     note:
       en: >-
         The minister is styled erhvervs- og konkurrencekraftsminister, but the ministry was
-        not renamed and calls itself Erhvervsministeriet; this file follows the ministry. It
+        not renamed and calls itself Erhvervsministeriet; this page follows the ministry. It
         gained food safety, food health and food supply from the abolished Ministeriet for
         Fødevarer, Landbrug og Fiskeri, which is why food_safety is tagged here rather than
         on Ministeriet for Natur og Dyrevelfærd, and it lost the whole financial-regulation
         area, including Finanstilsynet, to Skatte- og Vækstministeriet.
       es: >-
         El ministro se titula erhvervs- og konkurrencekraftsminister, pero el ministerio no se
-        renombró y se llama a sí mismo Erhvervsministeriet; este fichero sigue al ministerio.
+        renombró y se llama a sí mismo Erhvervsministeriet; esta ficha sigue al ministerio.
         Asumió la seguridad, la salud y el abastecimiento alimentarios del suprimido
         Ministeriet for Fødevarer, Landbrug og Fiskeri —de ahí la etiqueta food_safety aquí y
         no en el Ministeriet for Natur og Dyrevelfærd— y perdió toda el área de regulación

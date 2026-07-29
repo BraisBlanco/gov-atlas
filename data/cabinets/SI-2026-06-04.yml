@@ -1003,36 +1003,36 @@ entities:
     sources: [ul-555-2026-zvrs-k, pisrs-zvrs-npb19, pisrs-zdu-1-npb25, ul-872-2026-imenovanje-ministrov, gov-si-ministrstva, gov-si-ministries-en]
     note:
       en: >-
-        The widest remit in the Slovenian cabinet, and the entity most likely to be tagged
-        differently by another curator. It was the Ministrstvo za gospodarstvo, turizem in
-        šport until May 2026, when ZVRS-K moved employment relations, rights at work,
-        employment and vocational training into it from the labour ministry — which is why
-        labour and vocational_training are tagged here and not on the Ministry of Demography,
-        Family and Social Affairs, and why the opposition attacked the merger of the economy
-        and labour portfolios during the confirmation debate. Article 30 of the Zakon o državni
-        upravi also gives it tourism (Slovenia has no tourism ministry), competition and
-        consumer protection, trade policy, small business and crafts, company law, intellectual
-        property, metrology, postal services, state commodity reserves, and space — the only
-        home in this cabinet for space policy, which is why an eleventh-hour reader may find
-        that tag surprising. Sport is here rather than with education, except for the physical
-        education of children and young people delivered inside school programmes, which the
-        statute expressly carves out for the education ministry.
+        The widest remit in the Slovenian cabinet, and the entity whose tagging most plausibly
+        admits a different reading. It was the Ministrstvo za gospodarstvo, turizem in šport
+        until May 2026, when ZVRS-K moved employment relations, rights at work, employment and
+        vocational training into it from the labour ministry — which is why labour and
+        vocational_training are tagged here and not on the Ministry of Demography, Family and
+        Social Affairs, and why the opposition attacked the merger of the economy and labour
+        portfolios during the confirmation debate. Article 30 of the Zakon o državni upravi also
+        gives it tourism (Slovenia has no tourism ministry), competition and consumer
+        protection, trade policy, small business and crafts, company law, intellectual property,
+        metrology, postal services, state commodity reserves, and space — the only home in this
+        cabinet for space policy, which is why an eleventh-hour reader may find that tag
+        surprising. Sport is here rather than with education, except for the physical education
+        of children and young people delivered inside school programmes, which the statute
+        expressly carves out for the education ministry.
       es: >-
-        La cartera más amplia del gabinete esloveno y la entidad que otro curador etiquetaría
-        con mayor probabilidad de forma distinta. Fue el Ministrstvo za gospodarstvo, turizem in
-        šport hasta mayo de 2026, cuando la ZVRS-K le trasladó desde el ministerio de trabajo
-        las relaciones laborales, los derechos derivados del trabajo, el empleo y la formación
-        profesional —por eso labour y vocational_training se etiquetan aquí y no en el
-        Ministerio de Demografía, Familia y Asuntos Sociales, y por eso la oposición atacó la
-        fusión de las carteras de economía y trabajo en el debate de confirmación—. El artículo
-        30 de la Zakon o državni upravi le atribuye además el turismo (Eslovenia no tiene
-        ministerio de turismo), la competencia y la protección de los consumidores, la política
-        comercial, las pymes y la artesanía, el derecho de sociedades, la propiedad intelectual,
-        la metrología, los servicios postales, las reservas estatales de mercancías y el espacio
-        —el único hogar de la política espacial en este gabinete, de ahí que esa etiqueta pueda
-        sorprender—. El deporte está aquí y no en educación, salvo la educación física de niños
-        y jóvenes impartida en los programas escolares, que la ley reserva expresamente al
-        ministerio de educación.
+        La cartera más amplia del gabinete esloveno y la entidad cuyo etiquetado admite con más
+        probabilidad otra lectura. Fue el Ministrstvo za gospodarstvo, turizem in šport hasta
+        mayo de 2026, cuando la ZVRS-K le trasladó desde el ministerio de trabajo las relaciones
+        laborales, los derechos derivados del trabajo, el empleo y la formación profesional —por
+        eso labour y vocational_training se etiquetan aquí y no en el Ministerio de Demografía,
+        Familia y Asuntos Sociales, y por eso la oposición atacó la fusión de las carteras de
+        economía y trabajo en el debate de confirmación—. El artículo 30 de la Zakon o državni
+        upravi le atribuye además el turismo (Eslovenia no tiene ministerio de turismo), la
+        competencia y la protección de los consumidores, la política comercial, las pymes y la
+        artesanía, el derecho de sociedades, la propiedad intelectual, la metrología, los
+        servicios postales, las reservas estatales de mercancías y el espacio —el único hogar de
+        la política espacial en este gabinete, de ahí que esa etiqueta pueda sorprender—. El
+        deporte está aquí y no en educación, salvo la educación física de niños y jóvenes
+        impartida en los programas escolares, que la ley reserva expresamente al ministerio de
+        educación.
 
   - id: SI-2026-notranje-zadeve-javna-uprava
     order: 3
@@ -1065,7 +1065,7 @@ entities:
         self-government went to the Ministry of Local Self-Government, Cohesion and Regional
         Development. Migration is here in the administrative sense — residence, asylum
         procedure and the migration directorate; the reception and integration of migrants is a
-        separate government office outside this file's perimeter.
+        separate government office outside this page's perimeter.
       es: >-
         Aquí es donde Eslovenia guarda ahora la política digital, la etiqueta que más
         probablemente se busque en el ministerio equivocado. El Ministrstvo za digitalno
@@ -1081,7 +1081,7 @@ entities:
         Local, Cohesión y Desarrollo Regional. La migración está aquí en su sentido
         administrativo —residencia, procedimiento de asilo y la dirección de migraciones—; la
         acogida e integración de migrantes corresponde a una oficina gubernamental aparte,
-        fuera del perímetro de este fichero.
+        fuera del perímetro de esta ficha.
 
   - id: SI-2026-infrastruktura-energetika
     order: 4
@@ -1102,7 +1102,7 @@ entities:
     note:
       en: >-
         Energy moved here in May 2026 and that is the single most consequential tag change in
-        this file: until then it belonged to the Ministrstvo za okolje, podnebje in energijo,
+        this page: until then it belonged to the Ministrstvo za okolje, podnebje in energijo,
         so a comparison against Slovenia's previous cabinet will show energy under environment
         and here under infrastructure. ZVRS-K transferred energy, the supply of petroleum
         products, alternative-fuel infrastructure in transport, sustainable mobility, integrated
@@ -1113,7 +1113,7 @@ entities:
         tagged here: it stayed with the environment ministry.
       es: >-
         La energía se trasladó aquí en mayo de 2026 y ése es el cambio de etiqueta más
-        consecuente de este fichero: hasta entonces pertenecía al Ministrstvo za okolje,
+        consecuente de esta ficha: hasta entonces pertenecía al Ministrstvo za okolje,
         podnebje in energijo, de modo que una comparación con el gabinete esloveno anterior
         mostrará la energía bajo medio ambiente y aquí bajo infraestructuras. La ZVRS-K le
         transfirió por su nombre la energía, el abastecimiento de derivados del petróleo, la
@@ -1287,7 +1287,7 @@ entities:
         social ministry. elderly is tagged for long-term care and the dolgoživa družba
         programme. labour is emphatically not tagged: ZVRS-K moved employment relations, rights
         at work, employment and vocational training to the Ministry of the Economy, Labour and
-        Sport. social_security is tagged and is the one genuinely contested tag in this file —
+        Sport. social_security is tagged and is the one genuinely contested tag in this page —
         neither the ZVRS nor article 28 names the pension system, the point was raised in the
         National Assembly, and the tag rests on ZVRS-K's transfer of the old ministry's whole
         field of activity except the four labour areas it lists. See the methodology note.
@@ -1305,7 +1305,7 @@ entities:
         etiqueta en absoluto: la ZVRS-K trasladó las relaciones laborales, los derechos
         derivados del trabajo, el empleo y la formación profesional al Ministerio de Economía,
         Trabajo y Deporte. social_security sí se etiqueta y es la única etiqueta realmente
-        discutida de este fichero: ni la ZVRS ni el artículo 28 nombran el sistema de pensiones,
+        discutida de esta ficha: ni la ZVRS ni el artículo 28 nombran el sistema de pensiones,
         la cuestión se planteó en la Asamblea Nacional, y la etiqueta se apoya en la
         transferencia que hace la ZVRS-K de todo el ámbito de actividad del antiguo ministerio
         salvo las cuatro áreas laborales que enumera. Véase la nota metodológica.
@@ -1334,7 +1334,7 @@ entities:
         Human Rights Ombudsman, civil and criminal law, court procedure, the prison service,
         legal professions, data protection, e-justice and the systemic regulation of
         anti-corruption. The courts, the Državno tožilstvo and the Ustavno sodišče are
-        constitutionally outside the executive and are not recorded in this file even as
+        constitutionally outside the executive and are not recorded in this page even as
         exclusions, because they are not government departments; this ministry administers
         their organisation, not their work. The police belong to the interior ministry.
       es: >-
@@ -1345,7 +1345,7 @@ entities:
         penitenciario, las profesiones jurídicas, la protección de datos, la e-justicia y la
         regulación sistémica de la lucha contra la corrupción. Los tribunales, el Državno
         tožilstvo y el Ustavno sodišče están constitucionalmente fuera del ejecutivo y no se
-        registran en este fichero ni siquiera como exclusiones, porque no son departamentos de
+        registran en esta ficha ni siquiera como exclusiones, porque no son departamentos de
         gobierno; este ministerio administra su organización, no su trabajo. La policía
         pertenece al ministerio del Interior.
 
@@ -1410,7 +1410,7 @@ entities:
     sources: [ul-555-2026-zvrs-k, pisrs-zvrs-npb19, pisrs-zdu-1-npb25, ul-872-2026-imenovanje-ministrov, gov-si-ministrstva, gov-si-ministries-en]
     note:
       en: >-
-        Untouched by the reorganisation, and one of the few ministries in this dataset whose
+        Untouched by the reorganisation, and one of the few ministries in this project whose
         statutory field of activity is short enough to quote whole: article 32.a of the Zakon o
         državni upravi gives it "umetnosti, kulture, kulturne dediščine, filma, medijev,
         slovenskega jezika in verske svobode" — the arts, culture, cultural heritage, film,
@@ -1418,7 +1418,7 @@ entities:
         that sentence, which is why this is one of the few entities where language_policy and
         religion appear without interpretation. Sport is not here; it is the economy ministry's.
       es: >-
-        Intacto en la reorganización, y uno de los pocos ministerios de este conjunto de datos
+        Intacto en la reorganización, y uno de los pocos ministerios de este proyecto
         cuyo ámbito legal de actividad es lo bastante breve para citarlo entero: el artículo
         32.a de la Zakon o državni upravi le atribuye «umetnosti, kulture, kulturne dediščine,
         filma, medijev, slovenskega jezika in verske svobode» —las artes, la cultura, el
@@ -1450,7 +1450,7 @@ entities:
         first in its new name. Article 32.b of the Zakon o državni upravi gives it local
         self-government, European cohesion policy and the programming and management of its
         funds, other sources of non-repayable funds for reducing economic and social
-        disparities, and regional development. In most of this dataset's countries these two
+        disparities, and regional development. In most of this project's countries these two
         areas are split between an interior ministry and a finance ministry; Slovenia gives them
         a department of their own, and this is where the coalition's stated commitment to
         decentralisation and to the creation of pokrajine — a regional tier Slovenia does not
@@ -1462,12 +1462,12 @@ entities:
         su nuevo nombre. El artículo 32.b de la Zakon o državni upravi le atribuye el
         autogobierno local, la política europea de cohesión y la programación y gestión de sus
         fondos, otras fuentes de fondos no reembolsables para reducir las diferencias económicas
-        y sociales, y el desarrollo regional. En la mayoría de los países de este conjunto de
-        datos esas dos áreas se reparten entre un ministerio del interior y uno de hacienda;
-        Eslovenia les da un departamento propio, y aquí es donde se administraría el compromiso
-        declarado de la coalición con la descentralización y con la creación de pokrajine, un
-        nivel regional que Eslovenia todavía no tiene. Los municipios mismos son gobierno
-        subnacional y quedan fuera de alcance; el autogobierno local figura aquí como cartera.
+        y sociales, y el desarrollo regional. En la mayoría de los países esas dos áreas se
+        reparten entre un ministerio del interior y uno de hacienda; Eslovenia les da un
+        departamento propio, y aquí es donde se administraría el compromiso declarado de la
+        coalición con la descentralización y con la creación de pokrajine, un nivel regional que
+        Eslovenia todavía no tiene. Los municipios mismos son gobierno subnacional y quedan
+        fuera de alcance; el autogobierno local figura aquí como cartera.
 
   - id: SI-2026-obramba
     order: 13
@@ -1488,7 +1488,7 @@ entities:
     note:
       en: >-
         Untouched by the reorganisation, and the reason civil_protection is not on the interior
-        ministry where most of this dataset's countries keep it. Article 35 of the Zakon o
+        ministry where most of this project's countries keep it. Article 35 of the Zakon o
         državni upravi gives this ministry the defence system, the "sistem varstva pred
         naravnimi in drugimi nesrečami" — the system of protection against natural and other
         disasters, which is Slovenia's civil-protection and rescue service — and war invalids,
@@ -1497,14 +1497,14 @@ entities:
         land here.
       es: >-
         Intacto en la reorganización, y la razón de que civil_protection no esté en el
-        ministerio del Interior, donde la sitúan la mayoría de los países de este conjunto de
-        datos. El artículo 35 de la Zakon o državni upravi atribuye a este ministerio el sistema
-        de defensa, el «sistem varstva pred naravnimi in drugimi nesrečami» —el sistema de
-        protección frente a catástrofes naturales y de otro tipo, que es el servicio esloveno de
-        protección civil y rescate— y los inválidos de guerra, los veteranos de guerra, las
-        víctimas de la violencia de guerra y las tumbas de guerra, que es lo que motiva la
-        etiqueta veterans. Eslovenia no tiene un ministerio propio de veteranos ni de
-        emergencias, así que las dos áreas caen aquí.
+        ministerio del Interior, donde la sitúan la mayoría de los países. El artículo 35 de la
+        Zakon o državni upravi atribuye a este ministerio el sistema de defensa, el «sistem
+        varstva pred naravnimi in drugimi nesrečami» —el sistema de protección frente a
+        catástrofes naturales y de otro tipo, que es el servicio esloveno de protección civil y
+        rescate— y los inválidos de guerra, los veteranos de guerra, las víctimas de la
+        violencia de guerra y las tumbas de guerra, que es lo que motiva la etiqueta veterans.
+        Eslovenia no tiene un ministerio propio de veteranos ni de emergencias, así que las dos
+        áreas caen aquí.
 
   - id: SI-2026-zunanje-evropske-zadeve
     order: 14
@@ -1530,7 +1530,7 @@ entities:
         interests abroad, consular protection, international law and treaty-making,
         international development cooperation and humanitarian aid, European affairs, and
         relations with the OECD. european_affairs is on the ministry's own name and needs no
-        interpretation, which is unusual in this dataset. trade is not tagged here even though
+        interpretation, which is unusual in this project. trade is not tagged here even though
         economic diplomacy is: trade policy proper is named in article 30 as the economy
         ministry's, and this ministry's role is the diplomatic representation of it. Relations
         with Slovenians abroad are not this ministry's either — they belong to the minister
@@ -1544,7 +1544,7 @@ entities:
         la celebración de tratados, la cooperación internacional al desarrollo y la ayuda
         humanitaria, los asuntos europeos y las relaciones con la OCDE. european_affairs figura
         en el propio nombre del ministerio y no requiere interpretación, algo poco frecuente en
-        este conjunto de datos. trade no se etiqueta aquí aunque sí exista diplomacia económica:
+        este proyecto. trade no se etiqueta aquí aunque sí exista diplomacia económica:
         la política comercial propiamente dicha figura en el artículo 30 como del ministerio de
         economía, y el papel de esta casa es su representación diplomática. Las relaciones con
         los eslovenos del exterior tampoco son de este ministerio: corresponden a la ministra
@@ -1623,7 +1623,7 @@ entities:
       en: >-
         A cabinet seat and no ministry, and the reason the seat count is sixteen rather than
         fifteen. Slovenia is unusual in making a minister without portfolio compulsory: the
-        second paragraph of article 8 of the ZVRS provides that the government "ima ... ministra
+        second paragraph of article 8 of the ZVRS provides that the government "ima... ministra
         brez resorja za področje odnosov med Republiko Slovenijo in avtohtono slovensko narodno
         skupnostjo v sosednjih državah ter med Republiko Slovenijo in Slovenci po svetu", giving
         effect to article 14(1) of the Zakon o odnosih Republike Slovenije s Slovenci zunaj
@@ -1645,10 +1645,10 @@ entities:
       es: >-
         Un asiento en el gabinete y ningún ministerio, y la razón de que los asientos sean
         dieciséis y no quince. Eslovenia es inusual porque hace obligatorio un ministro sin
-        cartera: el apartado segundo del artículo 8 de la ZVRS establece que el gobierno «ima
-        ... ministra brez resorja za področje odnosov med Republiko Slovenijo in avtohtono
-        slovensko narodno skupnostjo v sosednjih državah ter med Republiko Slovenijo in Slovenci
-        po svetu», dando efecto al artículo 14(1) de la Zakon o odnosih Republike Slovenije s
+        cartera: el apartado segundo del artículo 8 de la ZVRS establece que el gobierno «ima...
+        ministra brez resorja za področje odnosov med Republiko Slovenijo in avtohtono slovensko
+        narodno skupnostjo v sosednjih državah ter med Republiko Slovenijo in Slovenci po
+        svetu», dando efecto al artículo 14(1) de la Zakon o odnosih Republike Slovenije s
         Slovenci zunaj njenih meja. El cargo no es opcional ni queda a discreción del presidente
         del Gobierno, a diferencia de los hasta dos ministros sin cartera adicionales que
         permite el apartado tercero, de los que este gabinete no tiene ninguno. La entidad se
@@ -1663,8 +1663,8 @@ entities:
         Republic of Slovenia and the Autochthonous Slovenian National Community in Neighbouring
         Countries, and between the Republic of Slovenia and Slovenians Abroad». No se etiqueta
         ninguna área de política, porque las áreas sólo se registran para los ministerios
-        contados; quien busque dónde se sitúa la política de diáspora en Eslovenia la
-        encontrará aquí y no en el ministerio de exteriores.
+        contados; quien busque dónde se sitúa la política de diáspora en Eslovenia la encontrará
+        aquí y no en el ministerio de exteriores.
 
   - id: SI-2026-kabinet-predsednika-vlade
     order: 17

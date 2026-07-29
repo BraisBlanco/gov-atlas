@@ -1329,14 +1329,14 @@ entities:
         act the Kabinetiroda was a ministry in its own right — point k) of its § 1 — headed by
         its own minister, and § 2 of that act made it, not the Miniszterelnökség, "a
         miniszterelnök munkaszervezete", the prime minister's work organisation. § 2(7) of Act
-        XIII of 2026 abolished it by merging it into the Miniszterelnökség with effect from
-        13 May 2026, the day this Government was formed. It did not vanish that day: § 4(2) and
-        § 4(3) of the act kept it in being as a budgetary and government administrative organ
-        with the minister heading the Miniszterelnökség exercising its head's powers, and § 206
-        of decree 90/2026 fixed 15 June 2026 as the day it ceased to exist. So for the first
-        month of this cabinet it existed without a minister of its own, which is why it is
-        recorded here, is not counted, carries no cabinet seat, and closes with
-        valid_to: 2026-06-15 instead of being deleted.
+        XIII of 2026 abolished it by merging it into the Miniszterelnökség with effect from 13
+        May 2026, the day this Government was formed. It did not vanish that day: § 4(2) and §
+        4(3) of the act kept it in being as a budgetary and government administrative organ with
+        the minister heading the Miniszterelnökség exercising its head's powers, and § 206 of
+        decree 90/2026 fixed 15 June 2026 as the day it ceased to exist. So for the first month
+        of this cabinet it existed without a minister of its own, which is why it is recorded
+        here, is not counted, carries no cabinet seat, and closes with 15 June 2026 as its end
+        date instead of being deleted.
       es: >-
         La segunda mitad de la cuestión de la Miniszterelnökség, y la razón por la que un
         recuento de ministerios húngaros anterior al 13 de mayo de 2026 no es comparable con
@@ -1350,7 +1350,7 @@ entities:
         titular el ministro que dirige la Miniszterelnökség, y el § 206 del decreto 90/2026 fijó
         el 15 de junio de 2026 como día de su extinción. Durante el primer mes de este gabinete
         existió, por tanto, sin ministro propio, y por eso se registra aquí, no se cuenta, no
-        aporta asiento y se cierra con valid_to: 2026-06-15 en lugar de borrarse.
+        aporta asiento y se cierra con fecha de fin 15 de junio de 2026 en lugar de borrarse.
 
   - id: HU-2026-europai-unios-ugyek
     order: 20
@@ -1374,21 +1374,21 @@ entities:
       en: >-
         Hungary had a dedicated European Union affairs ministry from 1 August 2023, created by
         splitting out of the justice ministry under the 2022 act. § 2(6) of Act XIII of 2026
-        abolished it by merging it into the Miniszterelnökség on 13 May 2026, and § 206 of decree
-        90/2026 fixed 15 June 2026 as the day it ceased to exist as an organ; in between, under
-        § 4(2) and § 4(3) of the act, it operated with no minister of its own and with the
+        abolished it by merging it into the Miniszterelnökség on 13 May 2026, and § 206 of
+        decree 90/2026 fixed 15 June 2026 as the day it ceased to exist as an organ; in between,
+        under § 4(2) and § 4(3) of the act, it operated with no minister of its own and with the
         minister heading the Miniszterelnökség exercising its head's powers. It is recorded with
-        valid_to for the same reason as the Kabinetiroda above, and its portfolio can be found
-        in § 8(1)(b) and (c) of decree 90/2026, under the Miniszterelnökség, which is where the
-        european_affairs tag now sits.
+        an end date for the same reason as the Kabinetiroda above, and its portfolio can be
+        found in § 8(1)(b) and (c) of decree 90/2026, under the Miniszterelnökség, which is
+        where the european_affairs tag now sits.
       es: >-
         Hungría tuvo un ministerio propio de asuntos de la Unión Europea desde el 1 de agosto de
-        2023, creado por escisión del ministerio de Justicia conforme a la ley de 2022. El
-        § 2(6) de la Ley XIII de 2026 lo suprimió fusionándolo en la Miniszterelnökség el 13 de
+        2023, creado por escisión del ministerio de Justicia conforme a la ley de 2022. El §
+        2(6) de la Ley XIII de 2026 lo suprimió fusionándolo en la Miniszterelnökség el 13 de
         mayo de 2026, y el § 206 del decreto 90/2026 fijó el 15 de junio de 2026 como día de su
         extinción como órgano; entretanto, conforme a los § 4(2) y § 4(3) de la ley, funcionó
         sin ministro propio y con el ministro que dirige la Miniszterelnökség ejerciendo las
-        competencias de su titular. Se registra con valid_to por la misma razón que la
+        competencias de su titular. Se registra con fecha de fin por la misma razón que la
         Kabinetiroda de más arriba, y su cartera puede encontrarse en el § 8(1)(b) y (c) del
         decreto 90/2026, bajo la Miniszterelnökség, que es donde está ahora la etiqueta
         european_affairs.

@@ -486,9 +486,9 @@ entities:
         personal precedence rank, not a department, and it adds neither a ministry nor a
         seat.
       es: >-
-        Su ministro es además uno de los cuatro viceprimeros ministros. Conforme al contrato
-        de datos la vicepresidencia no se registra como entidad aparte: es un rango personal
-        de precedencia, no un departamento, y no añade ni ministerio ni asiento.
+        Su ministro es además uno de los cuatro viceprimeros ministros. Conforme a las reglas de
+        este proyecto la vicepresidencia no se registra como entidad aparte: es un rango
+        personal de precedencia, no un departamento, y no añade ni ministerio ni asiento.
 
   - id: BG-2026-vatreshni-raboti
     order: 2
@@ -512,7 +512,7 @@ entities:
         separate emergencies department — Bulgaria has none. Migration is tagged here too:
         residence and migration enforcement is a directorate of this ministry, and there is
         no migration ministry. Asylum determination, by contrast, belongs to a state agency
-        outside every ministry and so appears nowhere in this file.
+        outside every ministry and so appears nowhere in this page.
       es: >-
         Más amplio que la policía. El ministerio del Interior búlgaro gestiona también la
         seguridad contra incendios y la protección de la población, y por eso
@@ -520,7 +520,7 @@ entities:
         Bulgaria no tiene ninguno. También se etiqueta «migración»: la gestión de la
         residencia y la migración es una dirección de este ministerio y no existe un
         ministerio de migración. La determinación del asilo, en cambio, corresponde a una
-        agencia estatal ajena a todo ministerio y no aparece en este fichero.
+        agencia estatal ajena a todo ministerio y no aparece en esta ficha.
 
   - id: BG-2026-otbrana
     order: 3
@@ -874,12 +874,12 @@ entities:
       en: >-
         Culture, heritage and cinema, but not broadcasting: Bulgarian media regulation belongs
         to an independent council and electronic communications to the transport ministry, so
-        the media area is tagged nowhere in this file.
+        the media area is tagged nowhere in this page.
       es: >-
         Cultura, patrimonio y cine, pero no radiodifusión: la regulación búlgara de los medios
         corresponde a un consejo independiente y las comunicaciones electrónicas al ministerio
-        de Transporte, de modo que el área «medios» no se etiqueta en ningún punto de este
-        fichero.
+        de Transporte, de modo que el área «medios» no se etiqueta en ningún punto de esta
+        ficha.
 
   - id: BG-2026-turizam
     order: 17
@@ -933,26 +933,26 @@ entities:
     note:
       en: >-
         The head of government holds a seat under article 108(1) of the Constitution without
-        heading a ministry, and is the first of the three seats that separate 18 from 21. He
-        is elected by the National Assembly rather than appointed by the head of state, which
-        is why took_office is the date of the parliamentary vote and not of the presidential
-        decree that preceded it. His services are the administration of the Council of
-        Ministers, which the structure decision does not name as a ministry and which is
+        heading a ministry, and is the first of the three seats that separate 18 from 21. He is
+        elected by the National Assembly rather than appointed by the head of state, which is
+        why the date of taking office is that of the parliamentary vote and not of the
+        presidential decree that preceded it. His services are the administration of the Council
+        of Ministers, which the structure decision does not name as a ministry and which is
         therefore not recorded at all. This is the one entity whose English name is marked
         translated: the government's English cabinet-members page lists the twenty elected
         ministers but not the Prime Minister, so "Prime Minister" here is this project's
         rendering of Министър-председател rather than a name quoted from the portal.
       es: >-
         El jefe de gobierno ocupa asiento conforme al artículo 108.1 de la Constitución sin
-        encabezar ningún ministerio, y es el primero de los tres asientos que separan el 18
-        del 21. Lo elige la Asamblea Nacional en lugar de nombrarlo el jefe del Estado, y por
-        eso took_office es la fecha de la votación parlamentaria y no del decreto presidencial
-        que la precedió. Sus servicios son la administración del Consejo de Ministros, que la
-        decisión de estructura no nombra como ministerio y que por tanto no se registra en
-        absoluto. Es la única entidad cuyo nombre en inglés se marca como translated: la
-        página inglesa de miembros del gabinete enumera a los veinte ministros elegidos pero
-        no al primer ministro, así que «Prime Minister» es aquí la versión de este proyecto de
-        Министър-председател y no un nombre citado del portal.
+        encabezar ningún ministerio, y es el primero de los tres asientos que separan el 18 del
+        21. Lo elige la Asamblea Nacional en lugar de nombrarlo el jefe del Estado, y por eso la
+        fecha de toma de posesión es la de la votación parlamentaria y no del decreto
+        presidencial que la precedió. Sus servicios son la administración del Consejo de
+        Ministros, que la decisión de estructura no nombra como ministerio y que por tanto no se
+        registra en absoluto. Es la única entidad cuyo nombre en inglés se marca como
+        translated: la página inglesa de miembros del gabinete enumera a los veinte ministros
+        elegidos pero no al primer ministro, así que «Prime Minister» es aquí la versión de este
+        proyecto de Министър-председател y no un nombre citado del portal.
 
   - id: BG-2026-zamestnik-mp-bez-portfeyl-1
     order: 20

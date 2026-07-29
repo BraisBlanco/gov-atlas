@@ -380,20 +380,19 @@ entities:
     sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
     note:
       en: >-
-        A borderline case, recorded so the borderline is visible. Unlike the other
-        delegated ministers this one is granted participation in the conseil des ministres
-        without restriction by the composition decree, so a defensible curator could set
-        has_cabinet_seat: true here and raise cabinet_seats_count to 22. We do not, because
-        the post heads no department and the clause granting participation could not be
-        cited from an archived source. It is still not a ministry on any reading.
+        A borderline case, recorded so the borderline is visible. Unlike the other delegated
+        ministers this one is granted participation in the conseil des ministres without
+        restriction by the composition decree, so it would be defensible to give it a seat here
+        and raise the seats figure to 22. That is not done, because the post heads no department
+        and the clause granting participation could not be cited from an archived source. It is
+        still not a ministry on any reading.
       es: >-
         Caso fronterizo, registrado para que la frontera se vea. A diferencia de los demás
         ministros delegados, el decreto de composición le concede participación sin
-        restricciones en el conseil des ministres, por lo que un curador defendible podría
-        poner aquí has_cabinet_seat: true y elevar cabinet_seats_count a 22. No lo hacemos,
-        porque el puesto no encabeza ningún departamento y la cláusula que concede esa
-        participación no pudo citarse desde una fuente archivada. En ninguna lectura es un
-        ministerio.
+        restricciones en el conseil des ministres, por lo que sería defendible darle asiento
+        aquí y elevar la cifra de asientos a 22. No se hace, porque el puesto no encabeza ningún
+        departamento y la cláusula que concede esa participación no pudo citarse desde una
+        fuente archivada. En ninguna lectura es un ministerio.
 
   - id: FR-2025-md-porte-parole-energie
     order: 3
@@ -508,15 +507,15 @@ entities:
     sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
     note:
       en: >-
-        A delegated post with no named remit — the decree attaches its holder to the
-        interior minister and stops there. The post itself is continuous from 12 October
-        2025; only its occupant changed in February 2026, when the previous holder moved to
-        the citizenship post recorded next, so it carries no valid_from.
+        A delegated post with no named remit — the decree attaches its holder to the interior
+        minister and stops there. The post itself is continuous from 12 October 2025; only its
+        occupant changed in February 2026, when the previous holder moved to the citizenship
+        post recorded next, so it carries no start date of its own.
       es: >-
-        Puesto delegado sin competencia nominada: el decreto adscribe a su titular al
-        ministro del Interior y no dice más. El puesto es continuo desde el 12 de octubre de
-        2025; en febrero de 2026 solo cambió su ocupante, cuando la titular anterior pasó al
-        puesto de Ciudadanía que se registra a continuación, de modo que no lleva valid_from.
+        Puesto delegado sin competencia nominada: el decreto adscribe a su titular al ministro
+        del Interior y no dice más. El puesto es continuo desde el 12 de octubre de 2025; en
+        febrero de 2026 solo cambió su ocupante, cuando la titular anterior pasó al puesto de
+        Ciudadanía que se registra a continuación, de modo que no lleva fecha de inicio propia.
 
   - id: FR-2025-md-citoyennete
     order: 7
@@ -537,14 +536,14 @@ entities:
     sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
     note:
       en: >-
-        Created by the composition decree of 26 February 2026 and given its remit by the
-        décret n° 2026-185 du 18 mars 2026. It is a new delegated portfolio, not a new
-        department, so it changes no count; valid_from records when it appeared.
+        Created by the composition decree of 26 February 2026 and given its remit by the décret
+        n° 2026-185 du 18 mars 2026. It is a new delegated portfolio, not a new department, so
+        it changes no count; its start date records when it appeared.
       es: >-
-        Creado por el decreto de composición del 26 de febrero de 2026 y dotado de
-        competencias por el décret n° 2026-185 du 18 mars 2026. Es una nueva delegación, no
-        un nuevo departamento, por lo que no altera ningún recuento; valid_from registra
-        cuándo apareció.
+        Creado por el decreto de composición del 26 de febrero de 2026 y dotado de competencias
+        por el décret n° 2026-185 du 18 mars 2026. Es una nueva delegación, no un nuevo
+        departamento, por lo que no altera ningún recuento; su fecha de inicio registra cuándo
+        apareció.
 
   - id: FR-2025-armees-anciens-combattants
     order: 8
@@ -1078,9 +1077,9 @@ entities:
       en: >-
         The media tag is a judgement the name does not state. The French culture ministry has
         carried press and broadcasting policy for decades, through its directorate-general for
-        media and cultural industries, and no other department claims the area; a curator
-        tagging culture alone would leave media unowned in the France row. The holder of this
-        department changed on 26 February 2026; the department did not.
+        media and cultural industries, and no other department claims the area; tagging culture
+        alone would leave media unowned in the France row. The holder of this department changed
+        on 26 February 2026; the department did not.
       es: >-
         La etiqueta media es un juicio que el nombre no enuncia. El ministerio de Cultura
         francés lleva décadas asumiendo la política de prensa y audiovisual, a través de su
@@ -1108,15 +1107,13 @@ entities:
         The taxonomy has no id for overseas or dependent territories, which is the one gap this
         country file really felt. Both tags are approximations: the department administers the
         overseas départements and collectivités and runs their development programmes, but it is
-        not a territorial-administration ministry in the sense the id implies. An
-        overseas_territories id is the addition this curator would propose.
+        not a territorial-administration ministry in the sense the id implies.
       es: >-
         La taxonomía no tiene id para territorios de ultramar o dependientes, y esa es la única
         laguna que este país ha hecho notar de verdad. Ambas etiquetas son aproximaciones: el
         departamento administra los departamentos y colectividades de ultramar y gestiona sus
         programas de desarrollo, pero no es un ministerio de administración territorial en el
-        sentido que sugiere el id. Un id overseas_territories es la adición que este curador
-        propondría.
+        sentido que sugiere el id.
 
   - id: FR-2025-amenagement-territoire-decentralisation
     order: 30
@@ -1240,12 +1237,11 @@ entities:
       en: >-
         "Vie associative" — the voluntary and community sector — is the third of this
         department's three named remits and has no id in the taxonomy, so it is not tagged at
-        all. A civil_society id would be the second addition this curator would propose.
+        all.
       es: >-
         «Vie associative» —el sector asociativo y del voluntariado— es la tercera de las tres
         competencias nombradas de este departamento y no tiene id en la taxonomía, por lo que no
-        se etiqueta en absoluto. Un id civil_society sería la segunda adición que este curador
-        propondría.
+        se etiqueta en absoluto.
 
   - id: FR-2025-transports
     order: 35
@@ -1291,17 +1287,16 @@ entities:
     sources: [info-gouv-composition-2026-02-26, info-gouv-composition-directory]
     note:
       en: >-
-        "Ville" is urban policy — the state's programmes for deprived neighbourhoods — for which the
-        taxonomy has no id; spatial_planning is the closest fit and is shared with the
-        territorial-planning department. An urban_policy id would be the third addition this curator
-        would propose. url is null: logement.gouv.fr redirects to the ecological-transition site and
-        ville.gouv.fr does not resolve.
+        "Ville" is urban policy — the state's programmes for deprived neighbourhoods — for which
+        the taxonomy has no id; spatial_planning is the closest fit and is shared with the
+        territorial-planning department. No link is published: logement.gouv.fr redirects to the
+        ecological-transition site and ville.gouv.fr does not resolve.
       es: >-
         «Ville» es la política de la ciudad —los programas estatales para barrios
         desfavorecidos—, para la que la taxonomía no tiene id; spatial_planning es lo más
-        aproximado y se comparte con el departamento de ordenación del territorio. Un id
-        urban_policy sería la tercera adición que este curador propondría. url es null:
-        logement.gouv.fr redirige al sitio de transición ecológica y ville.gouv.fr no resuelve.
+        aproximado y se comparte con el departamento de ordenación del territorio. No se publica
+        enlace: logement.gouv.fr redirige al sitio de transición ecológica y ville.gouv.fr no
+        resuelve.
 
   # --- closed during the term, kept for the historical record ---------------------
   - id: FR-2025-md-fonction-publique
@@ -1323,23 +1318,24 @@ entities:
     sources: [info-gouv-composition-2025-10-12, info-gouv-composition-2026-02-26]
     note:
       en: >-
-        Recorded rather than deleted, because a post that existed for four months of the term is a
-        fact about the term. It appears in the composition of 12 October 2025 and is absent from the
-        composition of 26 February 2026; the closing date is that of the Décret du 22 février 2026
-        relatif à la composition du Gouvernement (NOR HRUX2605372D, JORF n° 0046), which ended its
-        holder's functions on promoting him to head the Ministère de l'Action et des Comptes publics
-        and did not name a successor to the delegated post. That decree was read on Légifrance but
-        could not be archived, so the exact day rests on it while the two archived sources bracket the
-        change; a curator preferring to date the closure only from archived evidence would write
-        2026-02-26. No ministerial department was affected either way, so no count moves.
+        Recorded rather than deleted, because a post that existed for four months of the term is
+        a fact about the term. It appears in the composition of 12 October 2025 and is absent
+        from the composition of 26 February 2026; the closing date is that of the Décret du 22
+        février 2026 relatif à la composition du Gouvernement (NOR HRUX2605372D, JORF n° 0046),
+        which ended its holder's functions on promoting him to head the Ministère de l'Action et
+        des Comptes publics and did not name a successor to the delegated post. That decree was
+        read on Légifrance but could not be archived, so the exact day rests on it while the two
+        archived sources bracket the change; dating the closure only from archived evidence, one
+        would write 2026-02-26. No ministerial department was affected either way, so no count
+        moves.
       es: >-
-        Se registra en lugar de borrarse, porque un puesto que existió cuatro meses de la legislatura
-        es un hecho de la legislatura. Figura en la composición del 12 de octubre de 2025 y falta en
-        la del 26 de febrero de 2026; la fecha de cierre es la del Décret du 22 février 2026 relatif à
-        la composition du Gouvernement (NOR HRUX2605372D, JORF n° 0046), que puso fin a las funciones
-        de su titular al ascenderlo a encabezar el Ministère de l'Action et des Comptes publics y no
-        nombró sucesor en la delegación. Ese decreto se consultó en Légifrance pero no pudo
-        archivarse, de modo que el día exacto se apoya en él mientras las dos fuentes archivadas
-        acotan el cambio; un curador que prefiriera fechar el cierre solo con evidencia archivada
-        pondría 2026-02-26. En ningún caso se vio afectado un departamento ministerial, así que
-        ningún recuento se mueve.
+        Se registra en lugar de borrarse, porque un puesto que existió cuatro meses de la
+        legislatura es un hecho de la legislatura. Figura en la composición del 12 de octubre de
+        2025 y falta en la del 26 de febrero de 2026; la fecha de cierre es la del Décret du 22
+        février 2026 relatif à la composition du Gouvernement (NOR HRUX2605372D, JORF n° 0046),
+        que puso fin a las funciones de su titular al ascenderlo a encabezar el Ministère de
+        l'Action et des Comptes publics y no nombró sucesor en la delegación. Ese decreto se
+        consultó en Légifrance pero no pudo archivarse, de modo que el día exacto se apoya en él
+        mientras las dos fuentes archivadas acotan el cambio; quien prefiriera fechar el cierre
+        solo con evidencia archivada pondría 2026-02-26. En ningún caso se vio afectado un
+        departamento ministerial, así que ningún recuento se mueve.

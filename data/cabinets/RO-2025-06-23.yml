@@ -765,20 +765,21 @@ entities:
       en: >-
         Position 2 of Anexa nr. 1 to Hotărârea Parlamentului nr. 25/2025: a member of the
         Government holding the title of viceprim-ministru and no ministry, which is the textbook
-        case of `deputy_head_without_portfolio`. It carried a seat under article 18 of the Codul
-        administrativ and no field of activity, and its holder had only the aparatul propriu de
-        lucru that article 21 gives a deputy prime minister, which is a personal office and not
-        a department. Closed on 27 April 2026, when Decretul nr. 243/2026 took note of Marian
-        Neacșu's resignation and declared the post vacant after the PSD withdrew its support
-        from the coalition; the cabinet went from twenty seats to nineteen. It was not refilled,
-        and could not be: eight days later the Government's mandate ended on a censure motion,
-        and article 37(3) of the Codul administrativ leaves a dismissed Government only the
-        acts needed to administer public affairs. The entity is named by its position in the
-        annex rather than by its holder because this dataset records the seat, not the person.
+        case of a deputy-head post without portfolio. It carried a seat under article 18 of the
+        Codul administrativ and no field of activity, and its holder had only the aparatul
+        propriu de lucru that article 21 gives a deputy prime minister, which is a personal
+        office and not a department. Closed on 27 April 2026, when Decretul nr. 243/2026 took
+        note of Marian Neacșu's resignation and declared the post vacant after the PSD withdrew
+        its support from the coalition; the cabinet went from twenty seats to nineteen. It was
+        not refilled, and could not be: eight days later the Government's mandate ended on a
+        censure motion, and article 37(3) of the Codul administrativ leaves a dismissed
+        Government only the acts needed to administer public affairs. The entity is named by its
+        position in the annex rather than by its holder because this project records the seat,
+        not the person.
       es: >-
         Posición 2 del anexo n.º 1 de la Hotărârea Parlamentului nr. 25/2025: un miembro del
-        Gobierno con el título de viceprim-ministru y sin ministerio, que es el caso de manual de
-        `deputy_head_without_portfolio`. Llevaba asiento conforme al artículo 18 del Codul
+        Gobierno con el título de viceprim-ministru y sin ministerio, que es el caso de manual
+        de la vicepresidencia sin cartera. Llevaba asiento conforme al artículo 18 del Codul
         administrativ y ningún ámbito de actividad, y su titular sólo disponía del aparatul
         propriu de lucru que el artículo 21 concede a un viceprimer ministro, que es un gabinete
         personal y no un departamento. Cerrado el 27 de abril de 2026, cuando el Decretul nr.
@@ -787,8 +788,8 @@ entities:
         diecinueve. No se volvió a ocupar, ni podía: ocho días después el mandato del Gobierno
         terminó por una moción de censura, y el artículo 37(3) del Codul administrativ sólo deja
         a un Gobierno destituido los actos necesarios para administrar los asuntos públicos. La
-        entidad se nombra por su posición en el anexo y no por su titular porque este conjunto de
-        datos registra el asiento, no la persona.
+        entidad se nombra por su posición en el anexo y no por su titular porque este proyecto
+        registra el asiento, no la persona.
 
   - id: RO-2025-viceprim-ministru-3
     order: 3
@@ -853,31 +854,31 @@ entities:
         Position 4 of Anexa nr. 1 to Hotărârea Parlamentului nr. 25/2025: the third
         deputy-premiership without portfolio, still in place on the access date and held by a
         different person from the one named in the annex. The post is recorded as one continuous
-        entity, created with the cabinet and never closed, because what this dataset records is
+        entity, created with the cabinet and never closed, because what this project records is
         the post and not its occupant: the holder named in the annex left during 2025 and
         Decretul nr. 1017/2025 of 30 October 2025 appointed Oana-Clara Gheorghiu a member of the
         Government as viceprim-ministru, which is the post she holds on the access date. One gap
         in the record should be stated rather than papered over. Between the departure of the
         first holder and 30 October 2025 the post appears to have been covered by an interim
         designation, but the decree that would establish this could not be reached from this
-        network and no date for it is recorded here. `valid_from` is therefore left null, which
-        is correct for the post and may overstate the seat count by one for a reader replaying a
-        date inside that gap. Nothing in the current snapshot depends on it.
+        network and no date for it is recorded here. Its start date is therefore left empty,
+        which is correct for the post and may overstate the seat count by one for a reader
+        replaying a date inside that gap. Nothing in the current snapshot depends on it.
       es: >-
         Posición 4 del anexo n.º 1 de la Hotărârea Parlamentului nr. 25/2025: la tercera
         vicepresidencia sin cartera, todavía en pie en la fecha de consulta y ocupada por una
         persona distinta de la nombrada en el anexo. El cargo se registra como una única entidad
-        continua, creada con el gabinete y nunca cerrada, porque lo que este conjunto de datos
-        registra es el cargo y no su ocupante: el titular nombrado en el anexo lo dejó en el
-        curso de 2025 y el Decretul nr. 1017/2025 del 30 de octubre de 2025 nombró a
-        Oana-Clara Gheorghiu miembro del Gobierno como viceprim-ministru, que es el cargo que
-        ocupa en la fecha de consulta. Conviene declarar una laguna del registro en lugar de
-        disimularla. Entre la salida del primer titular y el 30 de octubre de 2025 el cargo
-        parece haber estado cubierto por una designación interina, pero el decreto que lo
-        acreditaría no pudo alcanzarse desde esta red y aquí no se recoge ninguna fecha para él.
-        Por eso `valid_from` se deja nulo, lo cual es correcto para el cargo y puede sobrestimar
-        en uno el recuento de asientos para un lector que reconstruya una fecha dentro de esa
-        laguna. Nada de la foto actual depende de ello.
+        continua, creada con el gabinete y nunca cerrada, porque lo que este proyecto registra
+        es el cargo y no su ocupante: el titular nombrado en el anexo lo dejó en el curso de
+        2025 y el Decretul nr. 1017/2025 del 30 de octubre de 2025 nombró a Oana-Clara Gheorghiu
+        miembro del Gobierno como viceprim-ministru, que es el cargo que ocupa en la fecha de
+        consulta. Conviene declarar una laguna del registro en lugar de disimularla. Entre la
+        salida del primer titular y el 30 de octubre de 2025 el cargo parece haber estado
+        cubierto por una designación interina, pero el decreto que lo acreditaría no pudo
+        alcanzarse desde esta red y aquí no se recoge ninguna fecha para él. Por eso su fecha de
+        inicio se deja vacía, lo cual es correcto para el cargo y puede sobrestimar en uno el
+        recuento de asientos para un lector que reconstruya una fecha dentro de esa laguna. Nada
+        de la foto actual depende de ello.
 
   # --- the sixteen ministries, in the investiture list's own order ------------------
   - id: RO-2025-afaceri-interne
@@ -900,17 +901,17 @@ entities:
       en: >-
         Position 5 of the investiture list, where the portfolio is held together with the title
         of viceprim-ministru. The deputy-premiership adds neither a ministry nor a seat and is
-        not recorded separately, as the data contract prescribes. `civil_protection` is tagged
+        not recorded separately, as the data contract prescribes. civil protection and emergencies is tagged
         because the emergency services and the inspectorate for emergency situations sit inside
-        this ministry rather than in a department of their own, and `migration` because the
+        this ministry rather than in a department of their own, and migration and asylum because the
         immigration authority does.
       es: >-
-        Posición 5 de la lista de investidura, donde la cartera se ostenta junto con el título de
-        viceprim-ministru. La vicepresidencia no añade ni ministerio ni asiento y no se registra
-        por separado, como prescribe el contrato de datos. Se etiqueta `civil_protection` porque
-        los servicios de emergencia y la inspección para situaciones de emergencia están dentro
-        de este ministerio y no en un departamento propio, y `migration` porque la autoridad de
-        inmigración también.
+        Posición 5 de la lista de investidura, donde la cartera se ostenta junto con el título
+        de viceprim-ministru. La vicepresidencia no añade ni ministerio ni asiento y no se
+        registra por separado, como prescriben las reglas de este proyecto. Se etiqueta
+        protección civil y emergencias porque los servicios de emergencia y la inspección para
+        situaciones de emergencia están dentro de este ministerio y no en un departamento
+        propio, y migración y asilo porque la autoridad de inmigración también.
 
   - id: RO-2025-aparare-nationala
     order: 6
@@ -933,13 +934,13 @@ entities:
         Position 6 of the investiture list, where the portfolio is held together with the title
         of viceprim-ministru, which adds neither a ministry nor a seat. Its holder changed during
         this cabinet's term and on the access date was additionally interim minister of transport
-        and infrastructure; neither fact moves either figure this dataset publishes.
+        and infrastructure; neither fact moves either figure this project publishes.
       es: >-
         Posición 6 de la lista de investidura, donde la cartera se ostenta junto con el título de
         viceprim-ministru, que no añade ni ministerio ni asiento. Su titular cambió durante la
         vida de este gabinete y en la fecha de consulta era además ministro interino de
         Transportes e Infraestructuras; ninguno de los dos hechos mueve ninguna de las cifras que
-        publica este conjunto de datos.
+        publica este proyecto.
 
   - id: RO-2025-transporturi-infrastructura
     order: 7
@@ -959,40 +960,40 @@ entities:
     sources: [mo-hp-25-2025, gov-ro-ministere, gov-ro-cabinet-ministri, gov-ro-ministries-en]
     note:
       en: >-
-        Position 7 of Anexa nr. 1 to Hotărârea Parlamentului nr. 25/2025. `shipping` is tagged
-        because the naval authority and the maritime and inland ports sit in this ministry,
-        which is where a reader looking for a Romanian ministry of the sea would otherwise fail
-        to find one. On the access date this portfolio had no minister of its own. It fell
-        vacant when the PSD ministers resigned in April 2026, and it is discharged ad interim by
-        the minister of national defence under article 46(2) and (3) of the Codul administrativ,
-        which lets the Prime Minister propose that another member of the Government take on the
-        duties for at most 45 days pending the appointment of a successor — an appointment a
-        Government whose mandate has ended cannot make. `head_count: 0` is what encodes that
-        vacancy, and it is why this cabinet is thirteen people rather than nineteen posts. It
-        does not mean the department is unled or that it has no minister at all:
-        `has_cabinet_seat` stays true because the seat exists and is filled at the Government's
-        table by the interim minister, and `counts_as_ministry` stays true because the ministry
-        exists and its head holds ministerial rank. No `shared_head_with` links this entity to
-        that minister's own department, because the two posts are not merged and recording them
-        as one would be a false structural claim about Romania.
+        Position 7 of Anexa nr. 1 to Hotărârea Parlamentului nr. 25/2025. shipping and ports is
+        tagged because the naval authority and the maritime and inland ports sit in this
+        ministry, which is where a reader looking for a Romanian ministry of the sea would
+        otherwise fail to find one. On the access date this portfolio had no minister of its
+        own. It fell vacant when the PSD ministers resigned in April 2026, and it is discharged
+        ad interim by the minister of national defence under article 46(2) and (3) of the Codul
+        administrativ, which lets the Prime Minister propose that another member of the
+        Government take on the duties for at most 45 days pending the appointment of a successor
+        — an appointment a Government whose mandate has ended cannot make. That vacancy is
+        recorded as a seat with no holder of its own, which is why this cabinet is thirteen
+        people rather than nineteen posts. It does not mean the department is unled or that it
+        has no minister at all: the seat is still recorded because it exists and is filled at
+        the Government's table by the interim minister, and the ministry is still counted
+        because it exists and its head holds ministerial rank. This entity is not recorded as a
+        portfolio sharing that minister's own department's head, because the two posts are not
+        merged and recording them as one would be a false structural claim about Romania.
       es: >-
-        Posición 7 del anexo n.º 1 de la Hotărârea Parlamentului nr. 25/2025. Se etiqueta
-        `shipping` porque la autoridad naval y los puertos marítimos y fluviales están en este
-        ministerio, que es donde un lector que buscara un ministerio rumano del mar no lo
-        encontraría de otro modo. En la fecha de consulta esta cartera no tenía ministro propio.
-        Quedó vacante cuando los ministros del PSD dimitieron en abril de 2026, y la desempeña
-        de forma interina el ministro de Defensa Nacional conforme al artículo 46(2) y (3) del
-        Codul administrativ, que permite al primer ministro proponer que otro miembro del
-        Gobierno asuma las atribuciones durante un máximo de 45 días hasta el nombramiento de un
-        sucesor, nombramiento que un Gobierno cuyo mandato ha terminado no puede hacer.
-        `head_count: 0` es lo que codifica esa vacante, y es la razón por la que este gabinete
-        son trece personas y no diecinueve puestos. No significa que el departamento esté sin
-        dirección ni que no tenga ningún ministro: `has_cabinet_seat` sigue siendo verdadero
-        porque el asiento existe y lo ocupa en la mesa del Gobierno el ministro interino, y
-        `counts_as_ministry` sigue siendo verdadero porque el ministerio existe y su titular
-        tiene rango ministerial. Ningún `shared_head_with` enlaza esta entidad con el
-        departamento propio de ese ministro, porque los dos cargos no están fusionados y
-        registrarlos como uno sería una afirmación estructural falsa sobre Rumanía.
+        Posición 7 del anexo n.º 1 de la Hotărârea Parlamentului nr. 25/2025. Se etiqueta marina
+        mercante y puertos porque la autoridad naval y los puertos marítimos y fluviales están
+        en este ministerio, que es donde un lector que buscara un ministerio rumano del mar no
+        lo encontraría de otro modo. En la fecha de consulta esta cartera no tenía ministro
+        propio. Quedó vacante cuando los ministros del PSD dimitieron en abril de 2026, y la
+        desempeña de forma interina el ministro de Defensa Nacional conforme al artículo 46(2) y
+        (3) del Codul administrativ, que permite al primer ministro proponer que otro miembro
+        del Gobierno asuma las atribuciones durante un máximo de 45 días hasta el nombramiento
+        de un sucesor, nombramiento que un Gobierno cuyo mandato ha terminado no puede hacer.
+        Esa vacante se registra como un asiento sin titular propio, y es la razón por la que
+        este gabinete son trece personas y no diecinueve puestos. No significa que el
+        departamento esté sin dirección ni que no tenga ningún ministro: el asiento se sigue
+        registrando porque existe y lo ocupa en la mesa del Gobierno el ministro interino, y el
+        ministerio se sigue contando porque existe y su titular tiene rango ministerial. Esta
+        entidad no se registra como cartera de titular compartido con el departamento propio de
+        ese ministro, porque los dos cargos no están fusionados y registrarlos como uno sería
+        una afirmación estructural falsa sobre Rumanía.
 
   - id: RO-2025-finante
     order: 8
@@ -1015,12 +1016,12 @@ entities:
         Position 8 of the investiture list, and one of the few portfolios whose holder did not
         change during this cabinet's term. Romania has no separate budget ministry: this
         department prepares the state budget and the social insurance budget and runs the tax
-        administration, so both `finance` and `budget` are tagged here.
+        administration, so both finance and treasury and budget and public spending are tagged here.
       es: >-
         Posición 8 de la lista de investidura, y una de las pocas carteras cuyo titular no cambió
         durante la vida de este gabinete. Rumanía no tiene un ministerio de presupuesto separado:
         este departamento elabora el presupuesto del Estado y el de la seguridad social y dirige
-        la administración tributaria, así que se etiquetan aquí tanto `finance` como `budget`.
+        la administración tributaria, así que se etiquetan aquí tanto hacienda y tesoro como presupuesto y gasto público.
 
   - id: RO-2025-justitie
     order: 9
@@ -1041,40 +1042,40 @@ entities:
     note:
       en: >-
         Position 9 of Anexa nr. 1 to Hotărârea Parlamentului nr. 25/2025. The prosecution
-        service and the judiciary are not part of this department and are outside this dataset's
+        service and the judiciary are not part of this department and are outside this project's
         perimeter; the ministry runs the prison administration, the trade register and the
         legislative side of justice policy. On the access date this portfolio had no minister of
         its own. It fell vacant when the PSD ministers resigned in April 2026, and it is
         discharged ad interim by the minister of internal affairs under article 46(2) and (3) of
         the Codul administrativ, which lets the Prime Minister propose that another member of
         the Government take on the duties for at most 45 days pending the appointment of a
-        successor — an appointment a Government whose mandate has ended cannot make.
-        `head_count: 0` is what encodes that vacancy, and it is why this cabinet is thirteen
-        people rather than nineteen posts. It does not mean the department is unled or that it
-        has no minister at all: `has_cabinet_seat` stays true because the seat exists and is
-        filled at the Government's table by the interim minister, and `counts_as_ministry` stays
-        true because the ministry exists and its head holds ministerial rank. No
-        `shared_head_with` links this entity to that minister's own department, because the two
+        successor — an appointment a Government whose mandate has ended cannot make. That
+        vacancy is recorded as a seat with no holder of its own, which is why this cabinet is
+        thirteen people rather than nineteen posts. It does not mean the department is unled or
+        that it has no minister at all: the seat is still recorded because it exists and is
+        filled at the Government's table by the interim minister, and the ministry is still
+        counted because it exists and its head holds ministerial rank. This entity is not
+        recorded as a portfolio sharing that minister's own department's head, because the two
         posts are not merged and recording them as one would be a false structural claim about
         Romania.
       es: >-
         Posición 9 del anexo n.º 1 de la Hotărârea Parlamentului nr. 25/2025. La fiscalía y el
         poder judicial no forman parte de este departamento y quedan fuera del perímetro de este
-        conjunto de datos; el ministerio dirige la administración penitenciaria, el registro
-        mercantil y la vertiente legislativa de la política de justicia. En la fecha de consulta
-        esta cartera no tenía ministro propio. Quedó vacante cuando los ministros del PSD
-        dimitieron en abril de 2026, y la desempeña de forma interina el ministro del Interior
-        conforme al artículo 46(2) y (3) del Codul administrativ, que permite al primer ministro
-        proponer que otro miembro del Gobierno asuma las atribuciones durante un máximo de 45
-        días hasta el nombramiento de un sucesor, nombramiento que un Gobierno cuyo mandato ha
-        terminado no puede hacer. `head_count: 0` es lo que codifica esa vacante, y es la razón
+        proyecto; el ministerio dirige la administración penitenciaria, el registro mercantil y
+        la vertiente legislativa de la política de justicia. En la fecha de consulta esta
+        cartera no tenía ministro propio. Quedó vacante cuando los ministros del PSD dimitieron
+        en abril de 2026, y la desempeña de forma interina el ministro del Interior conforme al
+        artículo 46(2) y (3) del Codul administrativ, que permite al primer ministro proponer
+        que otro miembro del Gobierno asuma las atribuciones durante un máximo de 45 días hasta
+        el nombramiento de un sucesor, nombramiento que un Gobierno cuyo mandato ha terminado no
+        puede hacer. Esa vacante se registra como un asiento sin titular propio, y es la razón
         por la que este gabinete son trece personas y no diecinueve puestos. No significa que el
-        departamento esté sin dirección ni que no tenga ningún ministro: `has_cabinet_seat`
-        sigue siendo verdadero porque el asiento existe y lo ocupa en la mesa del Gobierno el
-        ministro interino, y `counts_as_ministry` sigue siendo verdadero porque el ministerio
-        existe y su titular tiene rango ministerial. Ningún `shared_head_with` enlaza esta
-        entidad con el departamento propio de ese ministro, porque los dos cargos no están
-        fusionados y registrarlos como uno sería una afirmación estructural falsa sobre Rumanía.
+        departamento esté sin dirección ni que no tenga ningún ministro: el asiento se sigue
+        registrando porque existe y lo ocupa en la mesa del Gobierno el ministro interino, y el
+        ministerio se sigue contando porque existe y su titular tiene rango ministerial. Esta
+        entidad no se registra como cartera de titular compartido con el departamento propio de
+        ese ministro, porque los dos cargos no están fusionados y registrarlos como uno sería
+        una afirmación estructural falsa sobre Rumanía.
 
   - id: RO-2025-agricultura-dezvoltare-rurala
     order: 10
@@ -1094,42 +1095,42 @@ entities:
     sources: [mo-hp-25-2025, gov-ro-ministere, gov-ro-cabinet-ministri, gov-ro-ministries-en]
     note:
       en: >-
-        Position 10 of Anexa nr. 1 to Hotărârea Parlamentului nr. 25/2025. `fisheries` and
-        `food_safety` are tagged although neither appears in the name: the national agency for
-        fisheries and aquaculture and the food industry sit in this ministry, and Romania has no
-        separate ministry for either. On the access date this portfolio had no minister of its
-        own. It fell vacant when the PSD ministers resigned in April 2026, and it is discharged
-        ad interim by the deputy prime minister at position 3 of the investiture list under
-        article 46(2) and (3) of the Codul administrativ, which lets the Prime Minister propose
-        that another member of the Government take on the duties for at most 45 days pending the
-        appointment of a successor — an appointment a Government whose mandate has ended cannot
-        make. `head_count: 0` is what encodes that vacancy, and it is why this cabinet is
-        thirteen people rather than nineteen posts. It does not mean the department is unled or
-        that it has no minister at all: `has_cabinet_seat` stays true because the seat exists
-        and is filled at the Government's table by the interim minister, and
-        `counts_as_ministry` stays true because the ministry exists and its head holds
-        ministerial rank. No `shared_head_with` links this entity to that minister's own
-        department, because the two posts are not merged and recording them as one would be a
-        false structural claim about Romania.
+        Position 10 of Anexa nr. 1 to Hotărârea Parlamentului nr. 25/2025. fisheries and
+        maritime affairs and food and food safety are tagged although neither appears in the
+        name: the national agency for fisheries and aquaculture and the food industry sit in
+        this ministry, and Romania has no separate ministry for either. On the access date this
+        portfolio had no minister of its own. It fell vacant when the PSD ministers resigned in
+        April 2026, and it is discharged ad interim by the deputy prime minister at position 3
+        of the investiture list under article 46(2) and (3) of the Codul administrativ, which
+        lets the Prime Minister propose that another member of the Government take on the duties
+        for at most 45 days pending the appointment of a successor — an appointment a Government
+        whose mandate has ended cannot make. That vacancy is recorded as a seat with no holder
+        of its own, which is why this cabinet is thirteen people rather than nineteen posts. It
+        does not mean the department is unled or that it has no minister at all: the seat is
+        still recorded because it exists and is filled at the Government's table by the interim
+        minister, and the ministry is still counted because it exists and its head holds
+        ministerial rank. This entity is not recorded as a portfolio sharing that minister's own
+        department's head, because the two posts are not merged and recording them as one would
+        be a false structural claim about Romania.
       es: >-
         Posición 10 del anexo n.º 1 de la Hotărârea Parlamentului nr. 25/2025. Se etiquetan
-        `fisheries` y `food_safety` aunque ninguno aparece en el nombre: la agencia nacional de
-        pesca y acuicultura y la industria alimentaria están en este ministerio, y Rumanía no
-        tiene un ministerio separado para ninguna de las dos. En la fecha de consulta esta
-        cartera no tenía ministro propio. Quedó vacante cuando los ministros del PSD dimitieron
-        en abril de 2026, y la desempeña de forma interina el viceprimer ministro de la posición
-        3 de la lista de investidura conforme al artículo 46(2) y (3) del Codul administrativ,
-        que permite al primer ministro proponer que otro miembro del Gobierno asuma las
-        atribuciones durante un máximo de 45 días hasta el nombramiento de un sucesor,
-        nombramiento que un Gobierno cuyo mandato ha terminado no puede hacer. `head_count: 0`
-        es lo que codifica esa vacante, y es la razón por la que este gabinete son trece
-        personas y no diecinueve puestos. No significa que el departamento esté sin dirección ni
-        que no tenga ningún ministro: `has_cabinet_seat` sigue siendo verdadero porque el
-        asiento existe y lo ocupa en la mesa del Gobierno el ministro interino, y
-        `counts_as_ministry` sigue siendo verdadero porque el ministerio existe y su titular
-        tiene rango ministerial. Ningún `shared_head_with` enlaza esta entidad con el
-        departamento propio de ese ministro, porque los dos cargos no están fusionados y
-        registrarlos como uno sería una afirmación estructural falsa sobre Rumanía.
+        pesca y asuntos marítimos y alimentación y seguridad alimentaria aunque ninguno aparece
+        en el nombre: la agencia nacional de pesca y acuicultura y la industria alimentaria
+        están en este ministerio, y Rumanía no tiene un ministerio separado para ninguna de las
+        dos. En la fecha de consulta esta cartera no tenía ministro propio. Quedó vacante cuando
+        los ministros del PSD dimitieron en abril de 2026, y la desempeña de forma interina el
+        viceprimer ministro de la posición 3 de la lista de investidura conforme al artículo
+        46(2) y (3) del Codul administrativ, que permite al primer ministro proponer que otro
+        miembro del Gobierno asuma las atribuciones durante un máximo de 45 días hasta el
+        nombramiento de un sucesor, nombramiento que un Gobierno cuyo mandato ha terminado no
+        puede hacer. Esa vacante se registra como un asiento sin titular propio, y es la razón
+        por la que este gabinete son trece personas y no diecinueve puestos. No significa que el
+        departamento esté sin dirección ni que no tenga ningún ministro: el asiento se sigue
+        registrando porque existe y lo ocupa en la mesa del Gobierno el ministro interino, y el
+        ministerio se sigue contando porque existe y su titular tiene rango ministerial. Esta
+        entidad no se registra como cartera de titular compartido con el departamento propio de
+        ese ministro, porque los dos cargos no están fusionados y registrarlos como uno sería
+        una afirmación estructural falsa sobre Rumanía.
 
   - id: RO-2025-energie
     order: 11
@@ -1153,40 +1154,40 @@ entities:
         a department of its own, separate from both the environment and the economy. This is
         also the clearest illustration of why an interim is not recorded as a shared head: doing
         so here would merge a portfolio department into the office of the head of government and
-        collapse the very distinction this dataset exists to keep. On the access date this
+        collapse the very distinction this project exists to keep. On the access date this
         portfolio had no minister of its own. It fell vacant when the PSD ministers resigned in
         April 2026, and it is discharged ad interim by the Prime Minister himself under article
         46(2) and (3) of the Codul administrativ, which lets the Prime Minister propose that
         another member of the Government take on the duties for at most 45 days pending the
         appointment of a successor — an appointment a Government whose mandate has ended cannot
-        make. `head_count: 0` is what encodes that vacancy, and it is why this cabinet is
-        thirteen people rather than nineteen posts. It does not mean the department is unled or
-        that it has no minister at all: `has_cabinet_seat` stays true because the seat exists
-        and is filled at the Government's table by the interim minister, and
-        `counts_as_ministry` stays true because the ministry exists and its head holds
-        ministerial rank. No `shared_head_with` links this entity to that minister's own
-        department, because the two posts are not merged and recording them as one would be a
-        false structural claim about Romania.
+        make. That vacancy is recorded as a seat with no holder of its own, which is why this
+        cabinet is thirteen people rather than nineteen posts. It does not mean the department
+        is unled or that it has no minister at all: the seat is still recorded because it exists
+        and is filled at the Government's table by the interim minister, and the ministry is
+        still counted because it exists and its head holds ministerial rank. This entity is not
+        recorded as a portfolio sharing that minister's own department's head, because the two
+        posts are not merged and recording them as one would be a false structural claim about
+        Romania.
       es: >-
         Posición 11 del anexo n.º 1 de la Hotărârea Parlamentului nr. 25/2025. Rumanía da a la
         energía un departamento propio, separado tanto del medio ambiente como de la economía.
         Es también la ilustración más clara de por qué una interinidad no se registra como
         titularidad compartida: hacerlo aquí fusionaría un departamento con cartera en la
-        oficina del jefe de gobierno y destruiría la distinción misma que este conjunto de datos
-        existe para mantener. En la fecha de consulta esta cartera no tenía ministro propio.
-        Quedó vacante cuando los ministros del PSD dimitieron en abril de 2026, y la desempeña
-        de forma interina el propio primer ministro conforme al artículo 46(2) y (3) del Codul
+        oficina del jefe de gobierno y destruiría la distinción misma que este proyecto existe
+        para mantener. En la fecha de consulta esta cartera no tenía ministro propio. Quedó
+        vacante cuando los ministros del PSD dimitieron en abril de 2026, y la desempeña de
+        forma interina el propio primer ministro conforme al artículo 46(2) y (3) del Codul
         administrativ, que permite al primer ministro proponer que otro miembro del Gobierno
         asuma las atribuciones durante un máximo de 45 días hasta el nombramiento de un sucesor,
-        nombramiento que un Gobierno cuyo mandato ha terminado no puede hacer. `head_count: 0`
-        es lo que codifica esa vacante, y es la razón por la que este gabinete son trece
-        personas y no diecinueve puestos. No significa que el departamento esté sin dirección ni
-        que no tenga ningún ministro: `has_cabinet_seat` sigue siendo verdadero porque el
-        asiento existe y lo ocupa en la mesa del Gobierno el ministro interino, y
-        `counts_as_ministry` sigue siendo verdadero porque el ministerio existe y su titular
-        tiene rango ministerial. Ningún `shared_head_with` enlaza esta entidad con el
-        departamento propio de ese ministro, porque los dos cargos no están fusionados y
-        registrarlos como uno sería una afirmación estructural falsa sobre Rumanía.
+        nombramiento que un Gobierno cuyo mandato ha terminado no puede hacer. Esa vacante se
+        registra como un asiento sin titular propio, y es la razón por la que este gabinete son
+        trece personas y no diecinueve puestos. No significa que el departamento esté sin
+        dirección ni que no tenga ningún ministro: el asiento se sigue registrando porque existe
+        y lo ocupa en la mesa del Gobierno el ministro interino, y el ministerio se sigue
+        contando porque existe y su titular tiene rango ministerial. Esta entidad no se registra
+        como cartera de titular compartido con el departamento propio de ese ministro, porque
+        los dos cargos no están fusionados y registrarlos como uno sería una afirmación
+        estructural falsa sobre Rumanía.
 
   - id: RO-2025-sanatate
     order: 12
@@ -1212,14 +1213,14 @@ entities:
         public works and administration under article 46(2) and (3) of the Codul administrativ,
         which lets the Prime Minister propose that another member of the Government take on the
         duties for at most 45 days pending the appointment of a successor — an appointment a
-        Government whose mandate has ended cannot make. `head_count: 0` is what encodes that
-        vacancy, and it is why this cabinet is thirteen people rather than nineteen posts. It
-        does not mean the department is unled or that it has no minister at all:
-        `has_cabinet_seat` stays true because the seat exists and is filled at the Government's
-        table by the interim minister, and `counts_as_ministry` stays true because the ministry
-        exists and its head holds ministerial rank. No `shared_head_with` links this entity to
-        that minister's own department, because the two posts are not merged and recording them
-        as one would be a false structural claim about Romania.
+        Government whose mandate has ended cannot make. That vacancy is recorded as a seat with
+        no holder of its own, which is why this cabinet is thirteen people rather than nineteen
+        posts. It does not mean the department is unled or that it has no minister at all: the
+        seat is still recorded because it exists and is filled at the Government's table by the
+        interim minister, and the ministry is still counted because it exists and its head holds
+        ministerial rank. This entity is not recorded as a portfolio sharing that minister's own
+        department's head, because the two posts are not merged and recording them as one would
+        be a false structural claim about Romania.
       es: >-
         Posición 12 del anexo n.º 1 de la Hotărârea Parlamentului nr. 25/2025. En la fecha de
         consulta esta cartera no tenía ministro propio. Quedó vacante cuando los ministros del
@@ -1227,15 +1228,15 @@ entities:
         Desarrollo, Obras Públicas y Administración conforme al artículo 46(2) y (3) del Codul
         administrativ, que permite al primer ministro proponer que otro miembro del Gobierno
         asuma las atribuciones durante un máximo de 45 días hasta el nombramiento de un sucesor,
-        nombramiento que un Gobierno cuyo mandato ha terminado no puede hacer. `head_count: 0`
-        es lo que codifica esa vacante, y es la razón por la que este gabinete son trece
-        personas y no diecinueve puestos. No significa que el departamento esté sin dirección ni
-        que no tenga ningún ministro: `has_cabinet_seat` sigue siendo verdadero porque el
-        asiento existe y lo ocupa en la mesa del Gobierno el ministro interino, y
-        `counts_as_ministry` sigue siendo verdadero porque el ministerio existe y su titular
-        tiene rango ministerial. Ningún `shared_head_with` enlaza esta entidad con el
-        departamento propio de ese ministro, porque los dos cargos no están fusionados y
-        registrarlos como uno sería una afirmación estructural falsa sobre Rumanía.
+        nombramiento que un Gobierno cuyo mandato ha terminado no puede hacer. Esa vacante se
+        registra como un asiento sin titular propio, y es la razón por la que este gabinete son
+        trece personas y no diecinueve puestos. No significa que el departamento esté sin
+        dirección ni que no tenga ningún ministro: el asiento se sigue registrando porque existe
+        y lo ocupa en la mesa del Gobierno el ministro interino, y el ministerio se sigue
+        contando porque existe y su titular tiene rango ministerial. Esta entidad no se registra
+        como cartera de titular compartido con el departamento propio de ese ministro, porque
+        los dos cargos no están fusionados y registrarlos como uno sería una afirmación
+        estructural falsa sobre Rumanía.
 
   - id: RO-2025-investitii-proiecte-europene
     order: 13
@@ -1256,19 +1257,19 @@ entities:
     note:
       en: >-
         Position 13 of the investiture list, and one of the harder tagging decisions in this
-        file. The department is the managing authority for Romania's EU cohesion programmes and
-        for the national recovery and resilience plan, so it is tagged `regional_development`
-        (which in this taxonomy covers cohesion funds) and `reconstruction` (recovery funds). It
-        is deliberately not tagged `european_affairs`: it administers money, while relations with
-        the European Union belong to the foreign ministry. Its holder was additionally interim
-        minister of labour on the access date.
+        page. The department is the managing authority for Romania's EU cohesion programmes and
+        for the national recovery and resilience plan, so it is tagged regional development and
+        cohesion funds (which in this taxonomy covers cohesion funds) and reconstruction and
+        recovery funds (recovery funds). It is deliberately not tagged European affairs: it
+        administers money, while relations with the European Union belong to the foreign
+        ministry. Its holder was additionally interim minister of labour on the access date.
       es: >-
         Posición 13 de la lista de investidura, y una de las decisiones de etiquetado más
-        difíciles de este fichero. El departamento es la autoridad de gestión de los programas de
+        difíciles de esta ficha. El departamento es la autoridad de gestión de los programas de
         cohesión de la UE en Rumanía y del plan nacional de recuperación y resiliencia, así que
-        se etiqueta `regional_development` (que en esta taxonomía cubre los fondos de cohesión) y
-        `reconstruction` (fondos de recuperación). Deliberadamente no se etiqueta
-        `european_affairs`: administra dinero, mientras que las relaciones con la Unión Europea
+        se etiqueta desarrollo regional y fondos de cohesión (que en esta taxonomía cubre los fondos de cohesión) y
+        reconstrucción y fondos de recuperación (fondos de recuperación). Deliberadamente no se etiqueta
+        asuntos europeos: administra dinero, mientras que las relaciones con la Unión Europea
         corresponden al ministerio de Asuntos Exteriores. Su titular era además ministro interino
         de Trabajo en la fecha de consulta.
 
@@ -1295,7 +1296,7 @@ entities:
         article 5(a) transferred the research portfolio to it from the abolished Ministerul
         Cercetării, Inovării și Digitalizării, placing it under a new Autoritatea Națională pentru
         Cercetare inside the ministry. Romania therefore has no separate research ministry in this
-        cabinet, and `innovation` is tagged on the economy ministry rather than here, because
+        cabinet, and innovation is tagged on the economy ministry rather than here, because
         article 5(b) sent innovation the other way. Its holder changed twice during this cabinet's
         term.
       es: >-
@@ -1304,7 +1305,7 @@ entities:
         Cercetării y el artículo 5(a) le transfirió la cartera de investigación desde el suprimido
         Ministerul Cercetării, Inovării și Digitalizării, situándola bajo una nueva Autoritatea
         Națională pentru Cercetare dentro del ministerio. Rumanía no tiene por tanto un ministerio
-        de investigación separado en este gabinete, y `innovation` se etiqueta en el ministerio de
+        de investigación separado en este gabinete, y innovación se etiqueta en el ministerio de
         Economía y no aquí, porque el artículo 5(b) envió la innovación en la otra dirección. Su
         titular cambió dos veces durante la vida de este gabinete.
 
@@ -1326,19 +1327,19 @@ entities:
     sources: [mo-hp-25-2025, gov-ro-ministere, gov-ro-cabinet-ministri, gov-ro-ministries-en]
     note:
       en: >-
-        Position 15 of the investiture list. `european_affairs` is tagged here rather than on the
+        Position 15 of the investiture list. European affairs is tagged here rather than on the
         ministry of investments and European projects: this cabinet has no ministru delegat pentru
         afaceri europene, a post Romania has created and abolished repeatedly, so relations with
-        the Union sit in the foreign ministry. `diaspora` is deliberately not tagged even though
+        the Union sit in the foreign ministry. diaspora and citizens abroad is deliberately not tagged even though
         Romania has one of Europe's largest emigrant populations, because the department for
         Romanians abroad is a structure of the Government's working apparatus rather than a
         portfolio of this ministry.
       es: >-
-        Posición 15 de la lista de investidura. Se etiqueta `european_affairs` aquí y no en el
+        Posición 15 de la lista de investidura. Se etiqueta asuntos europeos aquí y no en el
         ministerio de Inversiones y Proyectos Europeos: este gabinete no tiene ningún ministru
         delegat pentru afaceri europene, un cargo que Rumanía ha creado y suprimido varias veces,
         así que las relaciones con la Unión están en el ministerio de Asuntos Exteriores.
-        Deliberadamente no se etiqueta `diaspora` aunque Rumanía tiene una de las mayores
+        Deliberadamente no se etiqueta diáspora y ciudadanos en el exterior aunque Rumanía tiene una de las mayores
         poblaciones emigrantes de Europa, porque el departamento para los rumanos en el exterior
         es una estructura del aparato de trabajo del Gobierno y no una cartera de este ministerio.
 
@@ -1360,14 +1361,14 @@ entities:
     sources: [mo-hp-25-2025, gov-ro-ministere, gov-ro-cabinet-ministri, gov-ro-ministries-en]
     note:
       en: >-
-        Position 16 of the investiture list. Three of the four tags are in the name; `climate` is
+        Position 16 of the investiture list. Three of the four tags are in the name; climate is
         added because Romania gives climate no department of its own and this ministry holds the
         national climate change and emissions trading remit. Energy is tagged on its own ministry
         and not here, which is a genuine structural difference from the countries that combine
         climate and energy in one department.
       es: >-
         Posición 16 de la lista de investidura. Tres de las cuatro etiquetas están en el nombre;
-        `climate` se añade porque Rumanía no da al clima un departamento propio y este ministerio
+        clima se añade porque Rumanía no da al clima un departamento propio y este ministerio
         tiene la competencia nacional de cambio climático y comercio de emisiones. La energía se
         etiqueta en su propio ministerio y no aquí, lo que es una diferencia estructural real
         respecto de los países que combinan clima y energía en un solo departamento.
@@ -1394,42 +1395,42 @@ entities:
         breadth are the work of article 1 of OUG nr. 153/2024, which merged the Ministerul
         Familiei, Tineretului și Egalității de Șanse into the labour ministry by absorption and
         renamed the result. One consequence is worth stating: equality lost its department in
-        that merger, and this cabinet has no ministry tagged `equality` at all.
-        `social_security` is tagged because the pension house and the pension system sit here.
-        On the access date this portfolio had no minister of its own. It fell vacant when the
-        PSD ministers resigned in April 2026, and it is discharged ad interim by the minister of
-        investments and European projects under article 46(2) and (3) of the Codul
-        administrativ, which lets the Prime Minister propose that another member of the
+        that merger, and this cabinet has no ministry tagged equality and anti-discrimination at
+        all. social security and pensions is tagged because the pension house and the pension
+        system sit here. On the access date this portfolio had no minister of its own. It fell
+        vacant when the PSD ministers resigned in April 2026, and it is discharged ad interim by
+        the minister of investments and European projects under article 46(2) and (3) of the
+        Codul administrativ, which lets the Prime Minister propose that another member of the
         Government take on the duties for at most 45 days pending the appointment of a successor
-        — an appointment a Government whose mandate has ended cannot make. `head_count: 0` is
-        what encodes that vacancy, and it is why this cabinet is thirteen people rather than
-        nineteen posts. It does not mean the department is unled or that it has no minister at
-        all: `has_cabinet_seat` stays true because the seat exists and is filled at the
-        Government's table by the interim minister, and `counts_as_ministry` stays true because
-        the ministry exists and its head holds ministerial rank. No `shared_head_with` links
-        this entity to that minister's own department, because the two posts are not merged and
-        recording them as one would be a false structural claim about Romania.
+        — an appointment a Government whose mandate has ended cannot make. That vacancy is
+        recorded as a seat with no holder of its own, which is why this cabinet is thirteen
+        people rather than nineteen posts. It does not mean the department is unled or that it
+        has no minister at all: the seat is still recorded because it exists and is filled at
+        the Government's table by the interim minister, and the ministry is still counted
+        because it exists and its head holds ministerial rank. This entity is not recorded as a
+        portfolio sharing that minister's own department's head, because the two posts are not
+        merged and recording them as one would be a false structural claim about Romania.
       es: >-
         Posición 17 del anexo n.º 1 de la Hotărârea Parlamentului nr. 25/2025. Su nombre y su
         amplitud son obra del artículo 1 de la OUG nr. 153/2024, que fusionó por absorción el
         Ministerul Familiei, Tineretului și Egalității de Șanse en el ministerio de Trabajo y
         renombró el resultado. Conviene decir una consecuencia: la igualdad perdió su
         departamento en esa fusión, y este gabinete no tiene ningún ministerio etiquetado
-        `equality`. Se etiqueta `social_security` porque la caja de pensiones y el sistema de
-        pensiones están aquí. En la fecha de consulta esta cartera no tenía ministro propio.
-        Quedó vacante cuando los ministros del PSD dimitieron en abril de 2026, y la desempeña
-        de forma interina el ministro de Inversiones y Proyectos Europeos conforme al artículo
-        46(2) y (3) del Codul administrativ, que permite al primer ministro proponer que otro
-        miembro del Gobierno asuma las atribuciones durante un máximo de 45 días hasta el
-        nombramiento de un sucesor, nombramiento que un Gobierno cuyo mandato ha terminado no
-        puede hacer. `head_count: 0` es lo que codifica esa vacante, y es la razón por la que
-        este gabinete son trece personas y no diecinueve puestos. No significa que el
-        departamento esté sin dirección ni que no tenga ningún ministro: `has_cabinet_seat`
-        sigue siendo verdadero porque el asiento existe y lo ocupa en la mesa del Gobierno el
-        ministro interino, y `counts_as_ministry` sigue siendo verdadero porque el ministerio
-        existe y su titular tiene rango ministerial. Ningún `shared_head_with` enlaza esta
-        entidad con el departamento propio de ese ministro, porque los dos cargos no están
-        fusionados y registrarlos como uno sería una afirmación estructural falsa sobre Rumanía.
+        igualdad y no discriminación. Se etiqueta seguridad social y pensiones porque la caja de
+        pensiones y el sistema de pensiones están aquí. En la fecha de consulta esta cartera no
+        tenía ministro propio. Quedó vacante cuando los ministros del PSD dimitieron en abril de
+        2026, y la desempeña de forma interina el ministro de Inversiones y Proyectos Europeos
+        conforme al artículo 46(2) y (3) del Codul administrativ, que permite al primer ministro
+        proponer que otro miembro del Gobierno asuma las atribuciones durante un máximo de 45
+        días hasta el nombramiento de un sucesor, nombramiento que un Gobierno cuyo mandato ha
+        terminado no puede hacer. Esa vacante se registra como un asiento sin titular propio, y
+        es la razón por la que este gabinete son trece personas y no diecinueve puestos. No
+        significa que el departamento esté sin dirección ni que no tenga ningún ministro: el
+        asiento se sigue registrando porque existe y lo ocupa en la mesa del Gobierno el
+        ministro interino, y el ministerio se sigue contando porque existe y su titular tiene
+        rango ministerial. Esta entidad no se registra como cartera de titular compartido con el
+        departamento propio de ese ministro, porque los dos cargos no están fusionados y
+        registrarlos como uno sería una afirmación estructural falsa sobre Rumanía.
 
   - id: RO-2025-economie-digitalizare-antreprenoriat-turism
     order: 18
@@ -1455,10 +1456,10 @@ entities:
         current name, article 5(b) transferred digitalisation, innovation and communications to
         it from the abolished Ministerul Cercetării, Inovării și Digitalizării, and article 6(2)
         gave it the state's shareholder role and the privatisation remit for the companies under
-        its authority. So `telecommunications`, `innovation` and `state_assets` are primary
+        its authority. So telecommunications, innovation and state assets and privatisation are primary
         responsibilities of this department even though none of them appears in its name, and
         Romania has no separate ministry for digitalisation, for industry or for state holdings.
-        Eight tags is the most any entity in this file carries, and it is a fact about Romanian
+        Eight tags is the most any entity in this page carries, and it is a fact about Romanian
         cabinet structure rather than a failure to choose.
       es: >-
         Posición 18 de la lista de investidura, y la cartera más amplia de este gabinete. Las
@@ -1468,10 +1469,10 @@ entities:
         la innovación y las comunicaciones desde el suprimido Ministerul Cercetării, Inovării și
         Digitalizării, y el artículo 6(2) le atribuyó la condición de accionista del Estado y la
         competencia de privatización de las sociedades bajo su autoridad. Así que
-        `telecommunications`, `innovation` y `state_assets` son responsabilidades principales de
+        telecomunicaciones, innovación y patrimonio estatal y privatizaciones son responsabilidades principales de
         este departamento aunque ninguna figure en su nombre, y Rumanía no tiene un ministerio
         separado de digitalización, de industria ni de patrimonio estatal. Ocho etiquetas es lo
-        máximo que lleva una entidad de este fichero, y es un hecho sobre la estructura del
+        máximo que lleva una entidad de esta ficha, y es un hecho sobre la estructura del
         gabinete rumano y no una incapacidad de elegir.
 
   - id: RO-2025-dezvoltare-lucrari-publice-administratie
@@ -1493,21 +1494,21 @@ entities:
     note:
       en: >-
         Position 19 of the investiture list. The three words of its name map onto five areas:
-        public works to `infrastructure`, administration to both `public_administration` (the
+        public works to public works and infrastructure, administration to both public administration and civil service (the
         civil service and the administrative code itself, which is issued jointly by this
-        minister and the secretary-general of the Government) and `territorial_administration`
-        (the relationship with counties and communes), and development to `spatial_planning` and
-        `housing`. It is deliberately not tagged `regional_development`: the cohesion funds sit
+        minister and the secretary-general of the Government) and territorial and local government
+        (the relationship with counties and communes), and development to spatial planning and land use and
+        housing. It is deliberately not tagged regional development and cohesion funds: the cohesion funds sit
         in the ministry of investments and European projects, and tagging both would double
         Romania in that column. Its holder was additionally interim minister of health on the
         access date.
       es: >-
         Posición 19 de la lista de investidura. Las tres palabras de su nombre se corresponden con
-        cinco áreas: obras públicas con `infrastructure`, administración tanto con
-        `public_administration` (la función pública y el propio código administrativo, que este
+        cinco áreas: obras públicas con obras públicas e infraestructuras, administración tanto con
+        administración pública y función pública (la función pública y el propio código administrativo, que este
         ministro emite conjuntamente con el secretario general del Gobierno) como con
-        `territorial_administration` (la relación con condados y comunas), y desarrollo con
-        `spatial_planning` y `housing`. Deliberadamente no se etiqueta `regional_development`: los
+        administración territorial y local (la relación con condados y comunas), y desarrollo con
+        ordenación del territorio y vivienda. Deliberadamente no se etiqueta desarrollo regional y fondos de cohesión: los
         fondos de cohesión están en el ministerio de Inversiones y Proyectos Europeos, y etiquetar
         ambos duplicaría a Rumanía en esa columna. Su titular era además ministro interino de
         Sanidad en la fecha de consulta.
@@ -1531,17 +1532,19 @@ entities:
     note:
       en: >-
         Position 20 of the investiture list, the last, and the narrowest portfolio in this
-        cabinet. Tagged `culture` alone: heritage is part of that area in this taxonomy, while
-        `media` is not tagged because broadcasting regulation belongs to an autonomous authority
-        and the public broadcasters answer to Parliament, not to this ministry. The `url` is the
-        address the Government's own register of ministries gives, unusual path and all.
+        cabinet. Tagged culture and heritage alone: heritage is part of that area in this
+        taxonomy, while media and broadcasting is not tagged because broadcasting regulation
+        belongs to an autonomous authority and the public broadcasters answer to Parliament, not
+        to this ministry. The link is the address the Government's own register of ministries
+        gives, unusual path and all.
       es: >-
         Posición 20 de la lista de investidura, la última, y la cartera más estrecha de este
-        gabinete. Etiquetada sólo con `culture`: el patrimonio forma parte de esa área en esta
-        taxonomía, mientras que `media` no se etiqueta porque la regulación audiovisual
-        corresponde a una autoridad autónoma y las radiotelevisiones públicas responden ante el
-        Parlamento y no ante este ministerio. La `url` es la dirección que da el propio registro
-        de ministerios del Gobierno, con su ruta inusual incluida.
+        gabinete. Etiquetada sólo con cultura y patrimonio: el patrimonio forma parte de esa
+        área en esta taxonomía, mientras que medios y radiodifusión no se etiqueta porque la
+        regulación audiovisual corresponde a una autoridad autónoma y las radiotelevisiones
+        públicas responden ante el Parlamento y no ante este ministerio. El enlace es la
+        dirección que da el propio registro de ministerios del Gobierno, con su ruta inusual
+        incluida.
 
   # --- recorded, not counted: ministry rank without a portfolio ---------------------
   - id: RO-2025-secretariat-general-guvern
@@ -1566,31 +1569,33 @@ entities:
         The Government's own secretariat, and the closest thing Romania has to a chancellery.
         Recorded because its head holds the rank of minister under article 20(1) of the Codul
         administrativ and a reader who counts ministry-rank bodies will find it. It is not
-        counted, and the exclusion reason chosen needs stating plainly: `not_headed_by_minister`
-        is used rather than `head_of_government_office` because the decisive fact is not that
-        the body serves the Prime Minister — it serves the Government as a whole, and article
-        20(3) calls it the element of continuity and stability of governance — but that its head
-        is not a member of the Government. Article 18 does not list the post among those that
-        may belong to the Government, and article 31(b) has the secretary-general appointed by a
-        decision of the Prime Minister rather than by presidential decree on a parliamentary
-        vote of confidence. Rank of minister is not membership of the Government in Romanian
-        law. `has_cabinet_seat` is false and `head_count` is 0 accordingly: the secretary-general
-        attends and countersigns, but holds no seat, so this entity moves neither figure.
+        counted, and the exclusion reason chosen needs stating plainly: it is excluded as not
+        headed by a minister rather than as the office of the head of government because the
+        decisive fact is not that the body serves the Prime Minister — it serves the Government
+        as a whole, and article 20(3) calls it the element of continuity and stability of
+        governance — but that its head is not a member of the Government. Article 18 does not
+        list the post among those that may belong to the Government, and article 31(b) has the
+        secretary-general appointed by a decision of the Prime Minister rather than by
+        presidential decree on a parliamentary vote of confidence. Rank of minister is not
+        membership of the Government in Romanian law. It is accordingly recorded with no seat
+        and no counted head: the secretary-general attends and countersigns, but holds no seat,
+        so this entity moves neither figure.
       es: >-
         El secretariado propio del Gobierno, y lo más parecido a una cancillería que tiene
-        Rumanía. Se registra porque su titular tiene rango de ministro conforme al artículo 20(1)
-        del Codul administrativ y un lector que cuente órganos con rango ministerial lo
+        Rumanía. Se registra porque su titular tiene rango de ministro conforme al artículo
+        20(1) del Codul administrativ y un lector que cuente órganos con rango ministerial lo
         encontrará. No se cuenta, y el motivo de exclusión elegido conviene explicarlo con
-        claridad: se usa `not_headed_by_minister` y no `head_of_government_office` porque el
-        hecho decisivo no es que el órgano sirva al primer ministro —sirve al Gobierno en su
-        conjunto, y el artículo 20(3) lo llama el elemento de enlace y estabilidad de la
-        gobernación— sino que su titular no es miembro del Gobierno. El artículo 18 no enumera el
-        cargo entre los que pueden formar parte del Gobierno, y el artículo 31(b) hace que el
-        secretario general sea nombrado por decisión del primer ministro y no por decreto
-        presidencial sobre un voto de confianza parlamentario. El rango de ministro no es la
-        condición de miembro del Gobierno en el derecho rumano. `has_cabinet_seat` es falso y
-        `head_count` es 0 en consecuencia: el secretario general asiste y refrenda, pero no ocupa
-        asiento, así que esta entidad no mueve ninguna de las dos cifras.
+        claridad: se excluye por no estar encabezado por un ministro, y no como oficina del jefe
+        de gobierno, porque el hecho decisivo no es que el órgano sirva al primer ministro
+        —sirve al Gobierno en su conjunto, y el artículo 20(3) lo llama el elemento de enlace y
+        estabilidad de la gobernación— sino que su titular no es miembro del Gobierno. El
+        artículo 18 no enumera el cargo entre los que pueden formar parte del Gobierno, y el
+        artículo 31(b) hace que el secretario general sea nombrado por decisión del primer
+        ministro y no por decreto presidencial sobre un voto de confianza parlamentario. El
+        rango de ministro no es la condición de miembro del Gobierno en el derecho rumano. Se
+        registra en consecuencia sin asiento y sin titular computado: el secretario general
+        asiste y refrenda, pero no ocupa asiento, así que esta entidad no mueve ninguna de las
+        dos cifras.
 
   - id: RO-2025-cancelaria-prim-ministrului
     order: 22
@@ -1611,13 +1616,13 @@ entities:
     sources: [cod-administrativ]
     note:
       en: >-
-        A legal person in the subordination of the Prime Minister, financed through the budget of
-        the General Secretariat, and part of the aparatul de lucru al Guvernului under article 19
-        of the Codul administrativ. Recorded for the same reason as the General Secretariat:
-        article 22(2) gives its head the rank of minister. Excluded as
-        `head_of_government_office` rather than `not_headed_by_minister` — the reverse of the
-        choice made one entity above — because here the decisive fact is what the body is: unlike
-        the General Secretariat it serves the Prime Minister personally and sits in his
+        A legal person in the subordination of the Prime Minister, financed through the budget
+        of the General Secretariat, and part of the aparatul de lucru al Guvernului under
+        article 19 of the Codul administrativ. Recorded for the same reason as the General
+        Secretariat: article 22(2) gives its head the rank of minister. Excluded as the office
+        of the head of government rather than as not headed by a minister — the reverse of the
+        choice made one entity above — because here the decisive fact is what the body is:
+        unlike the General Secretariat it serves the Prime Minister personally and sits in his
         subordination, which is precisely the office-of-the-head-of-government case. Its head is
         appointed and dismissed by decision of the Prime Minister and is not a member of the
         Government, so it carries no seat either. No official website of its own is published;
@@ -1625,13 +1630,13 @@ entities:
         Minister's office above.
       es: >-
         Una persona jurídica en subordinación del primer ministro, financiada a través del
-        presupuesto de la Secretaría General, y parte del aparatul de lucru al Guvernului conforme
-        al artículo 19 del Codul administrativ. Se registra por la misma razón que la Secretaría
-        General: el artículo 22(2) da rango de ministro a su titular. Se excluye como
-        `head_of_government_office` y no como `not_headed_by_minister` —al revés que en la entidad
-        anterior— porque aquí el hecho decisivo es lo que el órgano es: a diferencia de la
-        Secretaría General sirve al primer ministro personalmente y está en su subordinación, que
-        es exactamente el caso de la oficina del jefe de gobierno. Su titular es nombrado y cesado
-        por decisión del primer ministro y no es miembro del Gobierno, así que tampoco lleva
-        asiento. No se publica una web propia; el campo es nulo en lugar de apuntar a gov.ro, que
-        se registra arriba como oficina del primer ministro.
+        presupuesto de la Secretaría General, y parte del aparatul de lucru al Guvernului
+        conforme al artículo 19 del Codul administrativ. Se registra por la misma razón que la
+        Secretaría General: el artículo 22(2) da rango de ministro a su titular. Se excluye como
+        oficina del jefe de gobierno y no por falta de ministro al frente —al revés que en la
+        entidad anterior— porque aquí el hecho decisivo es lo que el órgano es: a diferencia de
+        la Secretaría General sirve al primer ministro personalmente y está en su subordinación,
+        que es exactamente el caso de la oficina del jefe de gobierno. Su titular es nombrado y
+        cesado por decisión del primer ministro y no es miembro del Gobierno, así que tampoco
+        lleva asiento. No se publica una web propia; el campo es nulo en lugar de apuntar a
+        gov.ro, que se registra arriba como oficina del primer ministro.

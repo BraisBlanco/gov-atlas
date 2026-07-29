@@ -464,7 +464,7 @@ entities:
         Gabinete, Oficina Electoral, personal y estándares, auditoría interna e investigaciones,
         información, Imprenta del Gobierno y Oficina de la Comisión del Servicio Público— y no un
         sector de política, así que no lleva ninguna área. Excluirla da 21 ministerios; contarla,
-        como el fichero irlandés cuenta el Departamento del Taoiseach, daría 22. Se excluye porque,
+        como la ficha irlandés cuenta el Departamento del Taoiseach, daría 22. Se excluye porque,
         a diferencia del irlandés, ningún instrumento maltés la constituye como uno de un conjunto
         definido de departamentos: el Government Notice 844 encabeza su bloque «Prime Minister», el
         cargo del jefe de gobierno, mientras todos los demás bloques se encabezan «Ministry for…»
@@ -495,8 +495,8 @@ entities:
         Notice 844 gives the two as a single heading with a single list of subjects, and Government
         Notice 842 appoints one person to both. The subjects assigned are health services
         regulation and standards, health services, parliamentary affairs, the elderly, community
-        care and homes for the elderly — hence `parliamentary_relations`, which in most cabinets
-        sits in the prime minister's office, and `elderly`, exercised through the parliamentary
+        care and homes for the elderly — hence parliamentary relations, which in most cabinets
+        sits in the prime minister's office, and ageing and elderly care, exercised through the parliamentary
         secretary for active ageing who serves within this ministry.
       es: >-
         Una sola entidad, contada una sola vez, aunque su nombre oficial contenga dos cargos. La
@@ -505,8 +505,8 @@ entities:
         materias, y el Government Notice 842 nombra a una sola persona para ambos. Las materias
         asignadas son la regulación y estándares de los servicios de salud, los servicios de salud,
         los asuntos parlamentarios, los mayores, los cuidados comunitarios y las residencias de
-        mayores: de ahí `parliamentary_relations`, que en la mayoría de gabinetes está en la oficina
-        del primer ministro, y `elderly`, ejercida a través del secretario parlamentario de
+        mayores: de ahí relaciones con el parlamento, que en la mayoría de gabinetes está en la oficina
+        del primer ministro, y envejecimiento y cuidados de mayores, ejercida a través del secretario parlamentario de
         envejecimiento activo que sirve dentro de este ministerio.
 
   - id: MT-2026-accommodation-lands
@@ -528,12 +528,12 @@ entities:
       en: >-
         "Accommodation" is social housing, affordable housing and rent; "Lands" is the state's own
         land and property, with the Lands Registry, which is why this ministry carries
-        `state_assets` as well as `housing`. A reader looking for a "Ministry for Housing" will not
+        state assets and privatisation as well as housing. A reader looking for a "Ministry for Housing" will not
         find that name in this legislature.
       es: >-
         «Accommodation» es la vivienda social, la asequible y el alquiler; «Lands» son los terrenos
         y propiedades del Estado, con el Registro de la Propiedad, y por eso este ministerio lleva
-        `state_assets` además de `housing`. Quien busque un «Ministry for Housing» no encontrará ese
+        patrimonio estatal y privatizaciones además de vivienda. Quien busque un «Ministry for Housing» no encontrará ese
         nombre en esta legislatura.
 
   - id: MT-2026-social-policy-family
@@ -554,14 +554,14 @@ entities:
     note:
       en: >-
         Malta's welfare ministry. The subjects assigned are social policy, family policy, child
-        policy, social security, pensions and solidarity services, so it carries `social_security`
-        as well as `social_affairs` — Malta has no separate pensions or social-insurance ministry —
-        and `family` on the strength of the assignment rather than the title alone.
+        policy, social security, pensions and solidarity services, so it carries social security and pensions
+        as well as social affairs and welfare — Malta has no separate pensions or social-insurance ministry —
+        and family and children on the strength of the assignment rather than the title alone.
       es: >-
         El ministerio de bienestar de Malta. Las materias asignadas son la política social, la
         familiar, la de infancia, la seguridad social, las pensiones y los servicios de
-        solidaridad, así que lleva `social_security` además de `social_affairs` —Malta no tiene
-        ministerio separado de pensiones o seguridad social— y `family` por la asignación y no solo
+        solidaridad, así que lleva seguridad social y pensiones además de asuntos sociales y bienestar —Malta no tiene
+        ministerio separado de pensiones o seguridad social— y familia e infancia por la asignación y no solo
         por el título.
 
   - id: MT-2026-agriculture-fisheries-food
@@ -583,19 +583,19 @@ entities:
       en: >-
         Rural development heads the list of subjects assigned, ahead of agriculture, horticulture,
         plant protection, food, fisheries, aquaculture and veterinary services, which is why
-        `rural_development` is tagged although the title does not mention it. "Food Supply" in the
+        rural development is tagged although the title does not mention it. "Food Supply" in the
         title is food security and the supply chain — the point of the portfolio for an island that
-        imports most of what it eats — and is tagged `food_safety`, the nearest area in the
+        imports most of what it eats — and is tagged food and food safety, the nearest area in the
         project's fixed vocabulary and the one other countries' food portfolios use. Animal welfare
         is not tagged here: the instrument assigns it to the energy and environment ministry,
         although veterinary services are assigned to this one.
       es: >-
         El desarrollo rural encabeza la lista de materias asignadas, por delante de la agricultura,
         la horticultura, la protección vegetal, la alimentación, la pesca, la acuicultura y los
-        servicios veterinarios, y por eso se etiqueta `rural_development` aunque el título no lo
+        servicios veterinarios, y por eso se etiqueta desarrollo rural aunque el título no lo
         mencione. «Food Supply» en el título es la seguridad del abastecimiento y la cadena de
         suministro —la razón de ser de la cartera en una isla que importa casi todo lo que come— y
-        se etiqueta `food_safety`, el área más próxima del vocabulario fijo del proyecto y la que
+        se etiqueta alimentación y seguridad alimentaria, el área más próxima del vocabulario fijo del proyecto y la que
         usan las carteras alimentarias de otros países. El bienestar animal no se etiqueta aquí: el
         instrumento lo asigna al ministerio de energía y medio ambiente, aunque los servicios
         veterinarios sí correspondan a este.
@@ -620,8 +620,8 @@ entities:
         Economic policy other than fiscal policy, which is assigned to the finance ministry. The
         subjects assigned run from artificial intelligence and the digital economy through
         industry, industrial parks and hubs, the Freeport, crafts and cooperatives to small
-        businesses, government investments and privatisation — hence `digital`, `industry`,
-        `small_business` and `state_assets` alongside `economy`. Research and innovation are not
+        businesses, government investments and privatisation — hence digital government and digitalisation, industry and manufacturing,
+        small business and entrepreneurship and state assets and privatisation alongside economy. Research and innovation are not
         tagged here: the instrument assigns them to the justice ministry. The government's list of
         ministries drops the definite article from the English name; the instrument keeps it, as
         the Maltese does, and the instrument is followed.
@@ -629,8 +629,8 @@ entities:
         La política económica distinta de la fiscal, que se asigna al ministerio de finanzas. Las
         materias asignadas van de la inteligencia artificial y la economía digital a la industria,
         los parques y polos industriales, el Freeport, la artesanía y las cooperativas, hasta las
-        pymes, las inversiones del Estado y las privatizaciones: de ahí `digital`, `industry`,
-        `small_business` y `state_assets` junto a `economy`. La investigación y la innovación no se
+        pymes, las inversiones del Estado y las privatizaciones: de ahí digitalización y gobierno digital, industria y manufactura,
+        pymes y emprendimiento y patrimonio estatal y privatizaciones junto a economía. La investigación y la innovación no se
         etiquetan aquí: el instrumento las asigna al ministerio de justicia. La lista oficial de
         ministerios suprime el artículo en el nombre inglés; el instrumento lo mantiene, como el
         maltés, y se sigue el instrumento.
@@ -654,15 +654,15 @@ entities:
       en: >-
         In Malta "inclusion" is principally disability policy: the subjects assigned are inclusion,
         persons with disability, care for persons with disability, and non-governmental and
-        voluntary organisations. `disability` is therefore tagged first, ahead of `social_affairs`.
+        voluntary organisations. disability is therefore tagged first, ahead of social affairs and welfare.
         The voluntary and non-governmental sector, the second half of the title, has no id in the
-        project's vocabulary and is not tagged at all; `social_affairs` is the nearest home for it.
+        project's vocabulary and is not tagged at all; social affairs and welfare is the nearest home for it.
       es: >-
         En Malta «inclusión» es sobre todo política de discapacidad: las materias asignadas son la
         inclusión, las personas con discapacidad, su atención, y las organizaciones no
-        gubernamentales y de voluntariado. Por eso se etiqueta `disability` primero, antes de
-        `social_affairs`. El sector voluntario y no gubernamental, la segunda mitad del título, no
-        tiene id en el vocabulario del proyecto y no se etiqueta; `social_affairs` es su hogar más
+        gubernamentales y de voluntariado. Por eso se etiqueta discapacidad primero, antes de
+        asuntos sociales y bienestar. El sector voluntario y no gubernamental, la segunda mitad del título, no
+        tiene id en el vocabulario del proyecto y no se etiqueta; asuntos sociales y bienestar es su hogar más
         próximo.
 
   - id: MT-2026-gozo
@@ -683,20 +683,20 @@ entities:
     note:
       en: >-
         A central-government ministry with a territorial remit, not a regional government, and
-        counted for that reason. The instrument assigns it "Gozo Affairs (excluding health services
-        and education but including all infrastructural works related to the education sector)" and
-        wild birds regulation — a carve-up of national government business by territory, with two
-        subjects carved back out, and not a transfer of power to an island that has no legislature
-        and no devolved competences. Excluding it as `subnational_government` would be a category
-        error; see the methodology note.
+        counted for that reason. The instrument assigns it "Gozo Affairs (excluding health
+        services and education but including all infrastructural works related to the education
+        sector)" and wild birds regulation — a carve-up of national government business by
+        territory, with two subjects carved back out, and not a transfer of power to an island
+        that has no legislature and no devolved competences. Excluding it as subnational
+        government would be a category error; see the methodology note.
       es: >-
-        Un ministerio del gobierno central con ámbito territorial, no un gobierno regional, y por
-        eso se cuenta. El instrumento le asigna «Gozo Affairs (excluding health services and
+        Un ministerio del gobierno central con ámbito territorial, no un gobierno regional, y
+        por eso se cuenta. El instrumento le asigna «Gozo Affairs (excluding health services and
         education but including all infrastructural works related to the education sector)» y la
         regulación de las aves silvestres: un reparto territorial de los asuntos del gobierno
         nacional, con dos materias excluidas, y no una transferencia de poder a una isla que no
-        tiene legislatura ni competencias propias. Excluirlo como `subnational_government` sería un
-        error de categoría; véase la nota metodológica.
+        tiene legislatura ni competencias propias. Excluirlo como administración subestatal
+        sería un error de categoría; véase la nota metodológica.
 
   - id: MT-2026-education-sports
     order: 9
@@ -717,10 +717,10 @@ entities:
       en: >-
         One education ministry for all levels: the subjects assigned are childcare and early
         education, compulsory education, higher education, life-long learning, examinations, sport
-        and sport complexes, so this entity carries both `education` and `higher_education` where
+        and sport complexes, so this entity carries both school education and higher education where
         Ireland splits them between two departments. Research is not tagged here — the instrument
         assigns it to justice. The ministry is also assigned citizenship, residence programmes and
-        the monitoring of their promotion; that is not tagged `migration`, because Malta's
+        the monitoring of their promotion; that is not tagged migration and asylum, because Malta's
         investment-migration schemes are not the migration and asylum portfolio, which the
         instrument splits between home affairs and the infrastructure and employment ministry. The
         English name is the instrument's plural "Sports"; the government's portal writes "Sport".
@@ -728,10 +728,10 @@ entities:
         Un solo ministerio de educación para todos los niveles: las materias asignadas son el
         cuidado infantil y la educación temprana, la educación obligatoria, la superior, el
         aprendizaje permanente, los exámenes, y el deporte y sus instalaciones, de modo que esta
-        entidad lleva `education` y `higher_education` donde Irlanda los reparte entre dos
+        entidad lleva educación escolar y universidades donde Irlanda los reparte entre dos
         departamentos. La investigación no se etiqueta aquí: el instrumento la asigna a justicia. Al
         ministerio se le asignan además la ciudadanía, los programas de residencia y la supervisión
-        de su promoción; eso no se etiqueta `migration`, porque los programas de migración por
+        de su promoción; eso no se etiqueta migración y asilo, porque los programas de migración por
         inversión de Malta no son la cartera de migración y asilo, que el instrumento reparte entre
         interior y el ministerio de infraestructuras y empleo. El nombre inglés es el plural
         «Sports» del instrumento; el portal del gobierno escribe «Sport».
@@ -757,18 +757,18 @@ entities:
         rather than the title. Alongside energy policy, alternative energy and environmental and
         resources policy, the subjects assigned include "Climate Change Policy" and "Water Policy",
         neither of which appears in the ministry's name, so Malta does have a ministry carrying
-        `climate` and `water`. `infrastructure` is for the regeneration of the Grand Harbour, the
+        climate and water. public works and infrastructure is for the regeneration of the Grand Harbour, the
         deep natural harbour around Valletta, together with urban embellishment and landscaping.
-        `animal_welfare` is tagged because the instrument assigns animal welfare here, exercised
+        animal welfare is tagged because the instrument assigns animal welfare here, exercised
         through the parliamentary secretary who serves within this ministry.
       es: >-
         La asignación más amplia del gabinete, y el caso más claro a favor de etiquetar por el
         instrumento y no por el título. Junto a la política energética, las energías alternativas y
         la política ambiental y de recursos, las materias asignadas incluyen «Climate Change Policy»
         y «Water Policy», ninguna de las cuales aparece en el nombre del ministerio, de modo que
-        Malta sí tiene un ministerio que lleva `climate` y `water`. `infrastructure` corresponde a
+        Malta sí tiene un ministerio que lleva clima y agua. obras públicas e infraestructuras corresponde a
         la regeneración del Gran Puerto, la rada natural profunda que rodea La Valeta, junto con el
-        embellecimiento y el paisajismo urbanos. Se etiqueta `animal_welfare` porque el instrumento
+        embellecimiento y el paisajismo urbanos. Se etiqueta bienestar animal porque el instrumento
         asigna aquí el bienestar animal, ejercido a través del secretario parlamentario que sirve
         dentro de este ministerio.
 
@@ -792,7 +792,7 @@ entities:
         Unlike Ireland, Malta does not split the treasury function: economic policy, fiscal policy,
         the Budget Office, the Treasury, inland revenue, indirect taxation, customs and excise,
         contracts, statistics, relations with the Central Bank of Malta, financial services and oil
-        exploration are all assigned here, so one entity carries `finance` and `budget`. `economy`
+        exploration are all assigned here, so one entity carries finance and treasury and budget and public spending. economy
         is tagged on both this ministry and the economy ministry, because economic policy is named
         in this assignment and the wider economic brief in the other — a shared area the matrix is
         meant to show rather than hide. The Central Bank of Malta appears in the assignment only as
@@ -803,7 +803,7 @@ entities:
         fiscal, la Oficina del Presupuesto, el Tesoro, la recaudación, la imposición indirecta,
         aduanas e impuestos especiales, la contratación, la estadística, las relaciones con el Banco
         Central de Malta, los servicios financieros y la exploración petrolífera se asignan todos
-        aquí, de modo que una sola entidad lleva `finance` y `budget`. `economy` se etiqueta en este
+        aquí, de modo que una sola entidad lleva hacienda y tesoro y presupuesto y gasto público. economía se etiqueta en este
         ministerio y en el de economía, porque la política económica figura en esta asignación y el
         mandato económico más amplio en la otra: un área compartida que la matriz debe mostrar y no
         ocultar. El Banco Central de Malta aparece en la asignación solo como organismo con el que
@@ -830,7 +830,7 @@ entities:
         An unusual assignment, and a good argument for tagging by policy area rather than by name:
         research and innovation, science and "Space Strategy" are assigned alongside the Courts of
         Justice, the Office of the Attorney General, the Office of the State Advocate, the Notary to
-        Government, data protection and freedom of information. `space` rests on that named
+        Government, data protection and freedom of information. space rests on that named
         subject. A cross-country comparison that looked for Malta's research or space portfolio
         under an education, science or transport ministry would not find it. The Attorney General
         and the State Advocate appear in the assignment as offices under this ministry; they are
@@ -839,7 +839,7 @@ entities:
         Una asignación inusual, y un buen argumento para etiquetar por área y no por nombre: la
         investigación y la innovación, la ciencia y la «Space Strategy» se asignan junto a los
         Tribunales de Justicia, la Oficina del Fiscal General, la Oficina del Abogado del Estado, el
-        Notario del Gobierno, la protección de datos y el acceso a la información. `space` se apoya
+        Notario del Gobierno, la protección de datos y el acceso a la información. espacio se apoya
         en esa materia expresa. Una comparación internacional que buscara la cartera de
         investigación o de espacio de Malta en un ministerio de educación, ciencia o transporte no
         la encontraría. El fiscal general y el abogado del Estado aparecen en la asignación como
@@ -864,9 +864,9 @@ entities:
     note:
       en: >-
         "Planning" here is development planning and the Planning Authority, not economic planning,
-        hence `spatial_planning`. The subjects assigned are development planning, infrastructural
+        hence spatial planning and land use. The subjects assigned are development planning, infrastructural
         projects, roads, employment and training, construction, occupational health and safety,
-        national identity management, and "Legal Migration and Expatriate Affairs". `migration` is
+        national identity management, and "Legal Migration and Expatriate Affairs". migration and asylum is
         tagged for that last subject: Malta splits the migration brief, with legal migration and
         identity documentation here and irregular migration in home affairs, so two ministries carry
         the area. Employment law and workplace safety sit in the same ministry as roads and
@@ -874,10 +874,10 @@ entities:
         third ministry and benefits to a fourth.
       es: >-
         «Planning» aquí es la planificación del desarrollo y la Planning Authority, no la
-        planificación económica, de ahí `spatial_planning`. Las materias asignadas son la
+        planificación económica, de ahí ordenación del territorio. Las materias asignadas son la
         planificación del desarrollo, los proyectos de infraestructura, las carreteras, el empleo y
         la formación, la construcción, la salud y seguridad laboral, la gestión de la identidad
-        nacional y «Legal Migration and Expatriate Affairs». `migration` se etiqueta por esta última:
+        nacional y «Legal Migration and Expatriate Affairs». migración y asilo se etiqueta por esta última:
         Malta divide la cartera migratoria, con la migración legal y la documentación de identidad
         aquí y la irregular en interior, de modo que dos ministerios llevan el área. El derecho
         laboral y la seguridad en el trabajo están en el mismo ministerio que las carreteras y las
@@ -932,13 +932,13 @@ entities:
       en: >-
         Malta's transport ministry, named for the policy goal rather than the sector. The instrument
         assigns it exactly four subjects — ports, maritime affairs, aviation and internal transport —
-        so `shipping` is tagged alongside `transport`, as it must be for an island state. Roads are
+        so shipping and ports is tagged alongside transport, as it must be for an island state. Roads are
         assigned to the infrastructure ministry, so this is a ministry of movement rather than of
         tarmac.
       es: >-
         El ministerio de transporte de Malta, nombrado por el objetivo político y no por el sector.
         El instrumento le asigna exactamente cuatro materias —puertos, asuntos marítimos, aviación y
-        transporte interno—, así que se etiqueta `shipping` junto a `transport`, como debe ser en un
+        transporte interno—, así que se etiqueta marina mercante y puertos junto a transporte, como debe ser en un
         estado insular. Las carreteras se asignan al ministerio de infraestructuras, así que este es
         un ministerio del movimiento y no del asfalto.
 
@@ -961,8 +961,8 @@ entities:
       en: >-
         Relations with foreign countries, with the European Union and with international
         organisations and institutions, plus EU internal coordination, commercial diplomacy,
-        international trade and cooperation, and trade promotion — hence `trade`, which in many
-        cabinets sits in an economy or enterprise ministry. `diaspora` is tagged for "Maltese
+        international trade and cooperation, and trade promotion — hence trade and commerce, which in many
+        cabinets sits in an economy or enterprise ministry. diaspora and citizens abroad is tagged for "Maltese
         Communities Abroad": a small state with a large emigrant population gives that its own line.
         Development cooperation is not tagged, because the assignment names trade and cooperation
         together without a distinct development remit.
@@ -970,7 +970,7 @@ entities:
         Las relaciones con países extranjeros, con la Unión Europea y con las organizaciones e
         instituciones internacionales, más la coordinación interna sobre la UE, la diplomacia
         comercial, el comercio y la cooperación internacionales y la promoción comercial: de ahí
-        `trade`, que en muchos gabinetes está en un ministerio de economía o de empresa. `diaspora`
+        comercio, que en muchos gabinetes está en un ministerio de economía o de empresa. diáspora y ciudadanos en el exterior
         se etiqueta por «Maltese Communities Abroad»: un estado pequeño con gran población emigrada
         le da línea propia. No se etiqueta la cooperación al desarrollo, porque la asignación nombra
         comercio y cooperación juntos sin un mandato de desarrollo distinto.
@@ -995,17 +995,17 @@ entities:
         Malta's local councils are the only elected tier below the national government, and this is
         the central ministry to which the instrument assigns them, together with public works,
         manufacturing and services, and public cleansing and maintenance. It is tagged
-        `territorial_administration` for that reason and is not excluded as a subnational body: it is
+        territorial and local government for that reason and is not excluded as a subnational body: it is
         itself central government, supervising local government rather than being part of it. It
-        shares `infrastructure` with two other ministries; three ministries holding one area is what
+        shares public works and infrastructure with two other ministries; three ministries holding one area is what
         the matrix is for.
       es: >-
         Los consejos locales malteses son el único nivel electo por debajo del gobierno nacional, y
         este es el ministerio central al que el instrumento se los asigna, junto con las obras
         públicas, la manufactura y los servicios, y la limpieza y el mantenimiento públicos. Se
-        etiqueta `territorial_administration` por eso y no se excluye como órgano subnacional: él
+        etiqueta administración territorial y local por eso y no se excluye como órgano subnacional: él
         mismo es gobierno central y supervisa al gobierno local en lugar de formar parte de él.
-        Comparte `infrastructure` con otros dos ministerios; que tres ministerios lleven una misma
+        Comparte obras públicas e infraestructuras con otros dos ministerios; que tres ministerios lleven una misma
         área es para lo que sirve la matriz.
 
   - id: MT-2026-european-funds
@@ -1027,15 +1027,15 @@ entities:
       en: >-
         Four subjects that go together in few other cabinets: European funds, social dialogue,
         employment and industrial relations, and consumer rights. European cohesion and recovery
-        funds are tagged `regional_development`, the project's area for cohesion funds. Social
-        dialogue and industrial relations are tagged `labour`, which this ministry therefore shares
+        funds are tagged regional development and cohesion funds, the project's area for cohesion funds. Social
+        dialogue and industrial relations are tagged labour and employment, which this ministry therefore shares
         with the infrastructure and employment ministry. Consumer protection is its own area, and
         Malta is one of the few countries that names it in a ministry title.
       es: >-
         Cuatro materias que van juntas en pocos gabinetes más: fondos europeos, diálogo social,
         empleo y relaciones industriales, y derechos del consumidor. Los fondos europeos de cohesión
-        y recuperación se etiquetan `regional_development`, el área del proyecto para los fondos de
-        cohesión. El diálogo social y las relaciones industriales se etiquetan `labour`, que este
+        y recuperación se etiquetan desarrollo regional y fondos de cohesión, el área del proyecto para los fondos de
+        cohesión. El diálogo social y las relaciones industriales se etiquetan trabajo y empleo, que este
         ministerio comparte por tanto con el de infraestructuras y empleo. La protección del
         consumidor es área propia, y Malta es uno de los pocos países que la nombra en el título de
         un ministerio.
@@ -1061,21 +1061,21 @@ entities:
         it here. The subjects assigned to this ministry begin "Defence, Armed Forces, Law
         Enforcement, Police, Immigration, Aviation Security, Correctional Services, Detention
         Services, Probation and Parole, Civil Protection, Protection of Critical Infrastructure,
-        Irregular Migration", so `defence` rests on a named assignment rather than on the title — a
+        Irregular Migration", so defence rests on a named assignment rather than on the title — a
         reader who counted defence ministries by name would record Malta as having no defence
-        portfolio at all, which is wrong. `migration` covers immigration and irregular migration;
+        portfolio at all, which is wrong. migration and asylum covers immigration and irregular migration;
         legal migration is assigned to the infrastructure and employment ministry, so the area
-        appears twice in Malta's row. `civil_protection` is likewise a named subject.
+        appears twice in Malta's row. civil protection and emergencies is likewise a named subject.
       es: >-
         Malta no tiene ministerio de defensa, pero sí tiene cartera de defensa, y el instrumento la
         sitúa aquí. Las materias asignadas a este ministerio empiezan con «Defence, Armed Forces,
         Law Enforcement, Police, Immigration, Aviation Security, Correctional Services, Detention
         Services, Probation and Parole, Civil Protection, Protection of Critical Infrastructure,
-        Irregular Migration», así que `defence` se apoya en una asignación expresa y no en el
+        Irregular Migration», así que defensa se apoya en una asignación expresa y no en el
         título: quien contara ministerios de defensa por el nombre registraría que Malta no tiene
-        ninguna cartera de defensa, lo cual es falso. `migration` cubre la inmigración y la
+        ninguna cartera de defensa, lo cual es falso. migración y asilo cubre la inmigración y la
         migración irregular; la migración legal se asigna al ministerio de infraestructuras y empleo,
-        así que el área aparece dos veces en la fila de Malta. `civil_protection` es igualmente
+        así que el área aparece dos veces en la fila de Malta. protección civil y emergencias es igualmente
         materia expresa.
 
   - id: MT-2026-arts-culture-heritage
@@ -1097,8 +1097,8 @@ entities:
       en: >-
         The subjects assigned are cultural heritage, restoration, the arts, theatres, the Maltese
         language, the National Archives, the National Library, public broadcasting and the film
-        industry. `media` is tagged because public broadcasting and the film industry are named
-        subjects — Malta does not put broadcasting in a communications ministry. `language_policy` is
+        industry. media and broadcasting is tagged because public broadcasting and the film industry are named
+        subjects — Malta does not put broadcasting in a communications ministry. language policy is
         tagged for "The Maltese Language": the state's stewardship of the national language is
         assigned to culture here, where Ireland assigns the Gaeltacht to a rural development
         department. The ministry's own portfolio page styles it "…and the National Heritage"; the
@@ -1107,9 +1107,9 @@ entities:
       es: >-
         Las materias asignadas son el patrimonio cultural, la restauración, las artes, los teatros,
         la lengua maltesa, el Archivo Nacional, la Biblioteca Nacional, la radiodifusión pública y la
-        industria del cine. Se etiqueta `media` porque la radiodifusión pública y el cine son
+        industria del cine. Se etiqueta medios y radiodifusión porque la radiodifusión pública y el cine son
         materias expresas: Malta no sitúa la radiodifusión en un ministerio de comunicaciones. Se
-        etiqueta `language_policy` por «The Maltese Language»: la tutela estatal de la lengua
+        etiqueta política lingüística por «The Maltese Language»: la tutela estatal de la lengua
         nacional se asigna aquí a cultura, donde Irlanda asigna la Gaeltacht a un departamento de
         desarrollo rural. La página de portafolio del propio ministerio lo titula «…and the National
         Heritage»; el instrumento y la lista oficial de ministerios suprimen el artículo, y se sigue
@@ -1135,7 +1135,7 @@ entities:
         The instrument assigns this ministry two subjects: youth, and implementation of the electoral
         programme. The second is not a sector but a function — a minister charged with driving
         delivery of the governing party's manifesto across the whole of government — and is tagged
-        `government_coordination`, the project's area for centre-of-government steering. That is why
+        government coordination, the project's area for centre-of-government steering. That is why
         a ministry that sounds like a youth department also appears in the governance cluster. Malta
         is unusual in giving manifesto delivery a named ministry rather than a unit inside the prime
         minister's office. "Wellbeing" appears in the ministry's name but among its assigned subjects
@@ -1145,7 +1145,7 @@ entities:
         El instrumento asigna a este ministerio dos materias: la juventud y la ejecución del programa
         electoral. La segunda no es un sector sino una función —un ministro encargado de impulsar la
         ejecución del programa del partido gobernante en todo el gobierno— y se etiqueta
-        `government_coordination`, el área del proyecto para la dirección desde el centro del
+        coordinación del gobierno, el área del proyecto para la dirección desde el centro del
         gobierno. Por eso un ministerio que suena a departamento de juventud aparece también en el
         grupo de gobernanza. Malta es inusual al dar a la ejecución del programa un ministerio con
         nombre propio en lugar de una unidad dentro de la oficina del primer ministro. «Wellbeing»
@@ -1173,7 +1173,7 @@ entities:
         Malta is one of the countries where equality is a ministry rather than a directorate inside
         one, which is exactly the sort of question the policy-area matrix is built to answer. The
         subjects assigned are equality, civil liberties, minority rights, reforms and foreign
-        communities. Only `equality` is tagged: civil liberties and minority rights are the same
+        communities. Only equality and anti-discrimination is tagged: civil liberties and minority rights are the same
         portfolio seen from the rights side rather than separate areas, "reforms" is not a sector,
         and foreign communities here is a consultative and integration remit rather than the
         migration and asylum portfolio, which the instrument assigns to two other ministries.
@@ -1181,7 +1181,7 @@ entities:
         Malta es uno de los países donde la igualdad es un ministerio y no una dirección general
         dentro de otro, que es justo el tipo de pregunta que la matriz de áreas sirve para responder.
         Las materias asignadas son la igualdad, las libertades civiles, los derechos de las
-        minorías, las reformas y las comunidades extranjeras. Solo se etiqueta `equality`: las
+        minorías, las reformas y las comunidades extranjeras. Solo se etiqueta igualdad y no discriminación: las
         libertades civiles y los derechos de las minorías son la misma cartera vista desde el lado de
         los derechos y no áreas distintas, «reformas» no es un sector, y las comunidades extranjeras
         son aquí un cometido consultivo y de integración y no la cartera de migración y asilo, que el

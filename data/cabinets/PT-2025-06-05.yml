@@ -622,7 +622,7 @@ entities:
     sources: [dre-dl-87-a-2025, dre-dpr-47-c-2025, portugal-gov-gc25-posse]
     note:
       en: >-
-        The hardest call in this file, and the one most likely to be decided
+        The hardest call in this page, and the one most likely to be decided
         differently. This minister has an unmistakable portfolio — mobility, land, air
         and maritime transport, communications, ports, housing, urban regeneration,
         construction and public procurement — and directs services and State-owned
@@ -635,18 +635,17 @@ entities:
         project applies asks for a department; if you read the portfolio rather than
         the instrument, count 13.
       es: >-
-        La decisión más difícil de este fichero y la que otro curador cambiaría con más
-        facilidad. Este ministro tiene una cartera inequívoca —movilidad, transportes
-        terrestres, aéreos y marítimos, comunicaciones, puertos, vivienda,
-        rehabilitación urbana, construcción y contratación pública— y dirige servicios
-        y empresas públicas propios según el artículo 19. Lo que no tiene es un
-        ministério: el artículo 19 se titula «Ministro das Infraestruturas e
-        Habitação», no «Infraestruturas e Habitação» como los doce artículos de
-        ministerio, nunca emplea la fórmula constitutiva, el artículo 13(3)(d) lo
-        integra en la Presidência do Conselho de Ministros y el artículo 13(7) atribuye
-        a ese departamento los servicios de apoyo de los organismos que de él dependen.
-        Se excluye porque la definición que aplica este proyecto exige un departamento;
-        quien lea la cartera en lugar del instrumento contará 13.
+        La decisión más difícil de esta ficha y la que más fácilmente admite otra lectura. Este
+        ministro tiene una cartera inequívoca —movilidad, transportes terrestres, aéreos y
+        marítimos, comunicaciones, puertos, vivienda, rehabilitación urbana, construcción y
+        contratación pública— y dirige servicios y empresas públicas propios según el artículo
+        19. Lo que no tiene es un ministério: el artículo 19 se titula «Ministro das
+        Infraestruturas e Habitação», no «Infraestruturas e Habitação» como los doce artículos
+        de ministerio, nunca emplea la fórmula constitutiva, el artículo 13(3)(d) lo integra en
+        la Presidência do Conselho de Ministros y el artículo 13(7) atribuye a ese departamento
+        los servicios de apoyo de los organismos que de él dependen. Se excluye porque la
+        definición que aplica este proyecto exige un departamento; quien lea la cartera en lugar
+        del instrumento contará 13.
 
   - id: PT-2025-justica
     order: 9
@@ -711,11 +710,11 @@ entities:
     sources: [dre-dl-87-a-2025, dre-dpr-47-c-2025]
     note:
       en: >-
-        Space is tagged because Article 22(2) names it explicitly among the ministry's
-        missions. Vocational training is tagged here on the strength of Article 22(1)
-        ("articular as políticas nacionais de qualificação e de formação
-        profissional"), although Article 24(1) gives the Ministry of Labour its own
-        vocational-training mandate; a curator could reasonably tag it on both.
+        Space is tagged because Article 22(2) names it explicitly among the ministry's missions.
+        Vocational training is tagged here on the strength of Article 22(1) ("articular as
+        políticas nacionais de qualificação e de formação profissional"), although Article 24(1)
+        gives the Ministry of Labour its own vocational-training mandate; it could reasonably be
+        tagged on both.
       es: >-
         Se etiqueta «space» porque el artículo 22(2) menciona expresamente el espacio
         entre sus misiones. La formación profesional se etiqueta aquí por el artículo
@@ -915,21 +914,20 @@ entities:
     sources: [dre-dl-87-a-2025]
     note:
       en: >-
-        The only one of the government's 43 secretaries of State recorded here, because
-        he is the only one the decree admits to the Council of Ministers: Article 4(2)
-        has him attend "sem direito a voto" unless the Prime Minister rules otherwise,
-        and Article 5 has him chair the Reunião de Secretários de Estado in the absence
-        of the Minister of the Presidency. Attendance without a vote is not a cabinet
-        seat, so has_cabinet_seat is false and the cabinet remains 17 people; treating
-        him as a member would make it 18. Not counted as a ministry: Article 10 gives
-        secretaries of State no competence of their own beyond their private offices.
+        The only one of the government's 43 secretaries of State recorded here, because he is
+        the only one the decree admits to the Council of Ministers: Article 4(2) has him attend
+        "sem direito a voto" unless the Prime Minister rules otherwise, and Article 5 has him
+        chair the Reunião de Secretários de Estado in the absence of the Minister of the
+        Presidency. Attendance without a vote is not a cabinet seat, so he is recorded without a
+        seat and the cabinet remains 17 people; treating him as a member would make it 18. Not
+        counted as a ministry: Article 10 gives secretaries of State no competence of their own
+        beyond their private offices.
       es: >-
-        El único de los 43 secretarios de Estado del Gobierno que se registra aquí,
-        porque es el único al que el decreto admite en el Consejo de Ministros: el
-        artículo 4(2) lo hace asistir «sem direito a voto» salvo decisión contraria del
-        primer ministro, y el artículo 5 le atribuye presidir la Reunião de Secretários
-        de Estado en ausencia del ministro de la Presidencia. Asistir sin voto no es
-        ocupar asiento, por lo que has_cabinet_seat es falso y el gabinete sigue siendo
-        de 17 personas; considerarlo miembro lo elevaría a 18. No se cuenta como
-        ministerio: el artículo 10 no atribuye a los secretarios de Estado competencia
-        propia más allá de sus gabinetes.
+        El único de los 43 secretarios de Estado del Gobierno que se registra aquí, porque es el
+        único al que el decreto admite en el Consejo de Ministros: el artículo 4(2) lo hace
+        asistir «sem direito a voto» salvo decisión contraria del primer ministro, y el artículo
+        5 le atribuye presidir la Reunião de Secretários de Estado en ausencia del ministro de
+        la Presidencia. Asistir sin voto no es ocupar asiento, por lo que se registra sin
+        asiento y el gabinete sigue siendo de 17 personas; considerarlo miembro lo elevaría a
+        18. No se cuenta como ministerio: el artículo 10 no atribuye a los secretarios de Estado
+        competencia propia más allá de sus gabinetes.

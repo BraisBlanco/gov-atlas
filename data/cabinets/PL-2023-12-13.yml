@@ -1489,20 +1489,19 @@ entities:
     sources: [du-2025-1047-berek, mp-2025-690, gov-pl-sklad-rady-ministrow]
     note:
       en: >-
-        A minister without portfolio: he runs no branch of government administration and,
-        by § 5 of his own remit regulation, is served by the Chancellery rather than by a
-        ministry. He coordinates the implementation of government policy and the government's
-        legislative process, and chairs the Stały Komitet Rady Ministrów. The office was
-        created on 24 July 2025 in place of the generic "Minister – Członek Rady Ministrów"
-        the same person had held since 13 December 2023, which is why valid_from is set.
+        A minister without portfolio: he runs no branch of government administration and, by § 5
+        of his own remit regulation, is served by the Chancellery rather than by a ministry. He
+        coordinates the implementation of government policy and the government's legislative
+        process, and chairs the Stały Komitet Rady Ministrów. The office was created on 24 July
+        2025 in place of the generic "Minister – Członek Rady Ministrów" the same person had
+        held since 13 December 2023, which is why it carries a start date.
       es: >-
-        Ministro sin cartera: no dirige ningún ramo de la administración gubernamental y,
-        según el § 5 de su propio reglamento de ámbito, le atiende la Cancillería y no un
-        ministerio. Coordina la aplicación de la política del Gobierno y el proceso
-        legislativo gubernamental, y preside el Stały Komitet Rady Ministrów. El cargo se
-        creó el 24 de julio de 2025 en sustitución del genérico «Minister – Członek Rady
-        Ministrów» que la misma persona ostentaba desde el 13 de diciembre de 2023, y de ahí
-        el valid_from.
+        Ministro sin cartera: no dirige ningún ramo de la administración gubernamental y, según
+        el § 5 de su propio reglamento de ámbito, le atiende la Cancillería y no un ministerio.
+        Coordina la aplicación de la política del Gobierno y el proceso legislativo
+        gubernamental, y preside el Stały Komitet Rady Ministrów. El cargo se creó el 24 de
+        julio de 2025 en sustitución del genérico «Minister – Członek Rady Ministrów» que la
+        misma persona ostentaba desde el 13 de diciembre de 2023, y de ahí su fecha de inicio.
 
   - id: PL-2023-kultury-i-dziedzictwa-narodowego
     order: 7
@@ -1538,20 +1537,19 @@ entities:
     sources: [du-2025-997-mfig, mp-2023-1383, mp-2025-690, gov-pl-ministerstwa]
     note:
       en: >-
-        One of the two ministries that serve the Minister Finansów i Gospodarki. Under
-        § 1(4)(2) of Dz.U. 2025 poz. 997 this one covers the budget, public finances and
-        financial institutions. Counted as a ministry and linked to Ministerstwo Rozwoju i
-        Technologii through shared_head_with, so the pair is two ministries and one cabinet
-        seat. Until 24 July 2025 its minister's title was simply "Minister Finansów"; the
-        ministry's name has not changed.
+        One of the two ministries that serve the Minister Finansów i Gospodarki. Under § 1(4)(2)
+        of Dz.U. 2025 poz. 997 this one covers the budget, public finances and financial
+        institutions. Counted as a ministry and linked to Ministerstwo Rozwoju i Technologii as
+        portfolios with a shared head, so the pair is two ministries and one cabinet seat. Until
+        24 July 2025 its minister's title was simply "Minister Finansów"; the ministry's name
+        has not changed.
       es: >-
-        Uno de los dos ministerios que atienden al Minister Finansów i Gospodarki. Conforme
-        al § 1.4.2 del Dz.U. 2025 poz. 997, a este le corresponden el presupuesto, las
-        finanzas públicas y las instituciones financieras. Se cuenta como ministerio y se
-        vincula al Ministerstwo Rozwoju i Technologii mediante shared_head_with, de modo que
-        el par son dos ministerios y un solo asiento. Hasta el 24 de julio de 2025 el título
-        de su ministro era simplemente «Minister Finansów»; el nombre del ministerio no ha
-        cambiado.
+        Uno de los dos ministerios que atienden al Minister Finansów i Gospodarki. Conforme al §
+        1.4.2 del Dz.U. 2025 poz. 997, a este le corresponden el presupuesto, las finanzas
+        públicas y las instituciones financieras. Se cuenta como ministerio y se vincula al
+        Ministerstwo Rozwoju i Technologii como carteras de titular compartido, de modo que el
+        par son dos ministerios y un solo asiento. Hasta el 24 de julio de 2025 el título de su
+        ministro era simplemente «Minister Finansów»; el nombre del ministerio no ha cambiado.
 
   - id: PL-2023-rozwoju-i-technologii
     order: 9
@@ -1571,26 +1569,25 @@ entities:
     sources: [du-2025-997-mfig, ustawa-o-dzialach-administracji-rzadowej, mp-2023-1383, gov-pl-ministerstwa, gov-pl-rozwoj-technologia]
     note:
       en: >-
-        The other ministry serving the Minister Finansów i Gospodarki, covering the economy
-        and construction, spatial planning and housing under § 1(4)(1) of Dz.U. 2025
-        poz. 997. Until 24 July 2025 it had a minister of its own, the Minister Rozwoju i
-        Technologii; since then it has shared the finance minister, but it was not abolished,
-        merged or renamed, and the Prime Minister gave it a fresh statute on 23 January
-        2026. This is the entity a curator counting ministers rather than ministries would
-        drop, taking Poland from 19 to 18. The policy areas follow the branches it serves:
-        article 9 of the ustawa o działach puts entrepreneurship and industry, foreign
-        economic cooperation and innovation inside "gospodarka".
+        The other ministry serving the Minister Finansów i Gospodarki, covering the economy and
+        construction, spatial planning and housing under § 1(4)(1) of Dz.U. 2025 poz. 997. Until
+        24 July 2025 it had a minister of its own, the Minister Rozwoju i Technologii; since
+        then it has shared the finance minister, but it was not abolished, merged or renamed,
+        and the Prime Minister gave it a fresh statute on 23 January 2026. This is the entity
+        that counting ministers rather than ministries would drop, taking Poland from 19 to 18.
+        The policy areas follow the branches it serves: article 9 of the ustawa o działach puts
+        entrepreneurship and industry, foreign economic cooperation and innovation inside
+        "gospodarka".
       es: >-
-        El otro ministerio que atiende al Minister Finansów i Gospodarki, con la economía y
-        la construcción, la ordenación del territorio y la vivienda conforme al § 1.4.1 del
-        Dz.U. 2025 poz. 997. Hasta el 24 de julio de 2025 tuvo ministro propio, el Minister
-        Rozwoju i Technologii; desde entonces comparte al ministro de Hacienda, pero no fue
-        suprimido, fusionado ni renombrado, y el primer ministro le aprobó un nuevo estatuto
-        el 23 de enero de 2026. Esta es la entidad que suprimiría un curador que contase
-        ministros en vez de ministerios, llevando a Polonia de 19 a 18. Las áreas de
-        política siguen los ramos que atiende: el artículo 9 de la ustawa o działach sitúa
-        el emprendimiento y la industria, la cooperación económica exterior y la innovación
-        dentro de «gospodarka».
+        El otro ministerio que atiende al Minister Finansów i Gospodarki, con la economía y la
+        construcción, la ordenación del territorio y la vivienda conforme al § 1.4.1 del Dz.U.
+        2025 poz. 997. Hasta el 24 de julio de 2025 tuvo ministro propio, el Minister Rozwoju i
+        Technologii; desde entonces comparte al ministro de Hacienda, pero no fue suprimido,
+        fusionado ni renombrado, y el primer ministro le aprobó un nuevo estatuto el 23 de enero
+        de 2026. Esta es la entidad que desaparecería si se contasen ministros en vez de
+        ministerios, llevando a Polonia de 19 a 18. Las áreas de política siguen los ramos que
+        atiende: el artículo 9 de la ustawa o działach sitúa el emprendimiento y la industria,
+        la cooperación económica exterior y la innovación dentro de «gospodarka».
 
   - id: PL-2023-rodziny-pracy-i-polityki-spolecznej
     order: 10
@@ -1642,28 +1639,27 @@ entities:
     sources: [du-2025-998-grabiec, mp-2023-1383, mp-2025-690, gov-pl-sklad-rady-ministrow, konstytucja-rp-1997]
     note:
       en: >-
-        A minister without portfolio who runs the Chancellery. The presidential
-        postanowienie appoints him only "na urzędy Ministra – Członka Rady Ministrów i
-        Przewodniczącego Komitetu do spraw Pożytku Publicznego"; the office of Szef
-        Kancelarii is conferred separately by the Prime Minister and is not a ministry.
-        Under article 149(1) of the Constitution he carries out tasks assigned by the Prime
-        Minister rather than running a branch of government administration, and § 5 of his
-        remit regulation confirms that the Chancellery serves him. He is recorded separately
-        from the Chancellery entity because his seat and the Prime Minister's are two of the
-        22, not one. A curator could defensibly file him under head_of_government_office
-        instead; the reason chosen here follows the gazette, which appoints him a
-        minister-member with no department.
+        A minister without portfolio who runs the Chancellery. The presidential postanowienie
+        appoints him only "na urzędy Ministra – Członka Rady Ministrów i Przewodniczącego
+        Komitetu do spraw Pożytku Publicznego"; the office of Szef Kancelarii is conferred
+        separately by the Prime Minister and is not a ministry. Under article 149(1) of the
+        Constitution he carries out tasks assigned by the Prime Minister rather than running a
+        branch of government administration, and § 5 of his remit regulation confirms that the
+        Chancellery serves him. He is recorded separately from the Chancellery entity because
+        his seat and the Prime Minister's are two of the 22, not one. He could defensibly be
+        filed as the office of the head of government instead; the reason chosen here follows
+        the gazette, which appoints him a minister-member with no department.
       es: >-
-        Ministro sin cartera que dirige la Cancillería. El postanowienie presidencial lo
-        nombra únicamente «na urzędy Ministra – Członka Rady Ministrów i Przewodniczącego
-        Komitetu do spraw Pożytku Publicznego»; el cargo de Szef Kancelarii lo confiere
-        aparte el primer ministro y no es un ministerio. Conforme al artículo 149.1 de la
-        Constitución desempeña las tareas que le asigna el primer ministro en lugar de
-        dirigir un ramo de la administración, y el § 5 de su reglamento de ámbito confirma
-        que le atiende la Cancillería. Se registra por separado de la entidad de la
-        Cancillería porque su asiento y el del primer ministro son dos de los 22, no uno. Un
-        curador podría razonablemente clasificarlo como head_of_government_office; el motivo
-        elegido aquí sigue al boletín, que lo nombra ministro-miembro sin departamento.
+        Ministro sin cartera que dirige la Cancillería. El postanowienie presidencial lo nombra
+        únicamente «na urzędy Ministra – Członka Rady Ministrów i Przewodniczącego Komitetu do
+        spraw Pożytku Publicznego»; el cargo de Szef Kancelarii lo confiere aparte el primer
+        ministro y no es un ministerio. Conforme al artículo 149.1 de la Constitución desempeña
+        las tareas que le asigna el primer ministro en lugar de dirigir un ramo de la
+        administración, y el § 5 de su reglamento de ámbito confirma que le atiende la
+        Cancillería. Se registra por separado de la entidad de la Cancillería porque su asiento
+        y el del primer ministro son dos de los 22, no uno. Sería razonable clasificarlo como
+        oficina del jefe de gobierno; el motivo elegido aquí sigue al boletín, que lo nombra
+        ministro-miembro sin departamento.
 
   - id: PL-2023-klimatu-i-srodowiska
     order: 12
@@ -1684,13 +1680,13 @@ entities:
       en: >-
         It ran the branch "energia" as well until 24 July 2025, and its energy units were
         transferred out on 21 August 2025 to form Ministerstwo Energii. The ministry was
-        transformed rather than replaced, so this entity runs continuously through the term
-        and carries no valid_to.
+        transformed rather than replaced, so this entity runs continuously through the term and
+        carries no end date.
       es: >-
         Dirigió también el ramo «energia» hasta el 24 de julio de 2025, y sus unidades de
-        energía se traspasaron el 21 de agosto de 2025 para formar el Ministerstwo Energii.
-        El ministerio fue transformado, no sustituido, por lo que esta entidad se mantiene de
-        forma continua durante la legislatura y no lleva valid_to.
+        energía se traspasaron el 21 de agosto de 2025 para formar el Ministerstwo Energii. El
+        ministerio fue transformado, no sustituido, por lo que esta entidad se mantiene de forma
+        continua durante la legislatura y no lleva fecha de fin.
 
   - id: PL-2023-spraw-wewnetrznych-i-administracji
     order: 13
@@ -1744,13 +1740,12 @@ entities:
     note:
       en: >-
         Four branches: maritime economy, water management, transport and inland waterways.
-        Water is a full branch of its own here, which is unusual in this dataset — in most
+        Water is a full branch of its own here, which is unusual in this project — in most
         countries water policy sits with an environment ministry.
       es: >-
-        Cuatro ramos: economía marítima, gestión del agua, transporte y navegación interior.
-        El agua es aquí un ramo propio completo, lo que resulta inusual en este conjunto de
-        datos: en la mayoría de los países la política del agua está en un ministerio de
-        medio ambiente.
+        Cuatro ramos: economía marítima, gestión del agua, transporte y navegación interior. El
+        agua es aquí un ramo propio completo, lo que resulta inusual: en la mayoría de los
+        países la política del agua está en un ministerio de medio ambiente.
 
   - id: PL-2023-nauki-i-szkolnictwa-wyzszego
     order: 15
@@ -1770,15 +1765,14 @@ entities:
     sources: [du-2023-2695-utworzenie-mnisw, du-2025-68-mnisw, mp-2023-1383, gov-pl-ministerstwa]
     note:
       en: >-
-        Created on 1 January 2024 out of Ministerstwo Edukacji i Nauki, which is why
-        valid_from is set nineteen days after the cabinet took office. Its minister was
-        titled simply "Minister Nauki" until 17 January 2025 and has carried the ministry's
-        full name since.
+        Created on 1 January 2024 out of Ministerstwo Edukacji i Nauki, which is why it carries
+        a start date nineteen days after the cabinet took office. Its minister was titled simply
+        "Minister Nauki" until 17 January 2025 and has carried the ministry's full name since.
       es: >-
-        Creado el 1 de enero de 2024 a partir del Ministerstwo Edukacji i Nauki, y de ahí el
-        valid_from diecinueve días posterior a la toma de posesión del gobierno. Su ministro
-        se tituló simplemente «Minister Nauki» hasta el 17 de enero de 2025 y desde entonces
-        lleva el nombre completo del ministerio.
+        Creado el 1 de enero de 2024 a partir del Ministerstwo Edukacji i Nauki, y de ahí su
+        fecha de inicio diecinueve días posterior a la toma de posesión del gobierno. Su
+        ministro se tituló simplemente «Minister Nauki» hasta el 17 de enero de 2025 y desde
+        entonces lleva el nombre completo del ministerio.
 
   - id: PL-2023-rolnictwa-i-rozwoju-wsi
     order: 16
@@ -1814,19 +1808,19 @@ entities:
     sources: [du-2025-1141-utworzenie-ministerstwa-energii, du-2025-1206-me, mp-2025-690, gov-pl-ministerstwa]
     note:
       en: >-
-        Created on 21 August 2025 by transforming Ministerstwo Przemysłu and adding the
-        energy units of Ministerstwo Klimatu i Środowiska. The minister took office four
-        weeks earlier, on 24 July 2025, and until 20 August was served by those two
-        ministries jointly; valid_from follows the ministry, not the minister. It runs the
-        branch "gospodarka surowcami energetycznymi" and supervises the Wyższy Urząd
-        Górniczy, hence the mining tag.
+        Created on 21 August 2025 by transforming Ministerstwo Przemysłu and adding the energy
+        units of Ministerstwo Klimatu i Środowiska. The minister took office four weeks earlier,
+        on 24 July 2025, and until 20 August was served by those two ministries jointly; the
+        start date follows the ministry, not the minister. It runs the branch "gospodarka
+        surowcami energetycznymi" and supervises the Wyższy Urząd Górniczy, hence the mining
+        tag.
       es: >-
-        Creado el 21 de agosto de 2025 transformando el Ministerstwo Przemysłu y añadiendo
-        las unidades de energía del Ministerstwo Klimatu i Środowiska. El ministro tomó
-        posesión cuatro semanas antes, el 24 de julio de 2025, y hasta el 20 de agosto lo
-        atendieron conjuntamente esos dos ministerios; valid_from sigue al ministerio, no al
-        ministro. Dirige el ramo «gospodarka surowcami energetycznymi» y supervisa el
-        Wyższy Urząd Górniczy, de ahí la etiqueta de minería.
+        Creado el 21 de agosto de 2025 transformando el Ministerstwo Przemysłu y añadiendo las
+        unidades de energía del Ministerstwo Klimatu i Środowiska. El ministro tomó posesión
+        cuatro semanas antes, el 24 de julio de 2025, y hasta el 20 de agosto lo atendieron
+        conjuntamente esos dos ministerios; la fecha de inicio sigue al ministerio, no al
+        ministro. Dirige el ramo «gospodarka surowcami energetycznymi» y supervisa el Wyższy
+        Urząd Górniczy, de ahí la etiqueta de minería.
 
   - id: PL-2023-edukacji-narodowej
     order: 18
@@ -1846,16 +1840,16 @@ entities:
     sources: [du-2023-2694-utworzenie-men, du-2023-2717-men, mp-2023-1383, gov-pl-ministerstwa]
     note:
       en: >-
-        Created on 1 January 2024 by transforming Ministerstwo Edukacji i Nauki, which is
-        why valid_from is set. Its minister's office is titled simply "Minister Edukacji",
-        not "Minister Edukacji Narodowej"; name_original gives the ministry as its own
+        Created on 1 January 2024 by transforming Ministerstwo Edukacji i Nauki, which is why it
+        carries a start date. Its minister's office is titled simply "Minister Edukacji", not
+        "Minister Edukacji Narodowej"; The original name gives the ministry as its own
         instrument spells it. It runs one branch, "oświata i wychowanie" — school education.
         Higher education and research sit with a separate ministry.
       es: >-
-        Creado el 1 de enero de 2024 transformando el Ministerstwo Edukacji i Nauki, y de ahí
-        el valid_from. El cargo de su ministra se titula simplemente «Minister Edukacji» y no
-        «Minister Edukacji Narodowej»; name_original da el ministerio tal como lo escribe su
-        propio instrumento. Dirige un solo ramo, «oświata i wychowanie», la educación
+        Creado el 1 de enero de 2024 transformando el Ministerstwo Edukacji i Nauki, y de ahí su
+        fecha de inicio. El cargo de su ministra se titula simplemente «Minister Edukacji» y no
+        «Minister Edukacji Narodowej»; El nombre original da el ministerio tal como lo escribe
+        su propio instrumento. Dirige un solo ramo, «oświata i wychowanie», la educación
         escolar. La educación superior y la investigación corresponden a otro ministerio.
 
   - id: PL-2023-funduszy-i-polityki-regionalnej
@@ -1878,15 +1872,14 @@ entities:
         One branch, "rozwój regionalny", which article 23a of the ustawa o działach defines
         broadly: it covers regional and urban policy, the structural funds and the Cohesion
         Fund, and the "plany rozwojowe" through which Poland draws EU recovery money. The
-        reconstruction tag reflects that last part; a curator tagging only the branch name
-        would leave it off.
+        reconstruction tag reflects that last part; tagging only the branch name would leave it
+        off.
       es: >-
-        Un solo ramo, «rozwój regionalny», que el artículo 23a de la ustawa o działach
-        define de forma amplia: abarca la política regional y urbana, los fondos
-        estructurales y el Fondo de Cohesión, y los «plany rozwojowe» mediante los cuales
-        Polonia capta los fondos europeos de recuperación. La etiqueta de reconstrucción
-        refleja esto último; un curador que etiquetase sólo por el nombre del ramo la
-        omitiría.
+        Un solo ramo, «rozwój regionalny», que el artículo 23a de la ustawa o działach define de
+        forma amplia: abarca la política regional y urbana, los fondos estructurales y el Fondo
+        de Cohesión, y los «plany rozwojowe» mediante los cuales Polonia capta los fondos
+        europeos de recuperación. La etiqueta de reconstrucción refleja esto último; etiquetar
+        sólo por el nombre del ramo la omitiría.
 
   - id: PL-2023-sportu-i-turystyki
     order: 20
@@ -1930,7 +1923,7 @@ entities:
         ABW, AW, SKW, SWW, CBA — are public bodies and are not recorded individually. The
         same person held a generic Minister – Członek Rady Ministrów seat from December 2023
         and was Minister Spraw Wewnętrznych i Administracji between May 2024 and July 2025;
-        this dataset records structure, not officeholders.
+        this project records structure, not officeholders.
       es: >-
         Ministro sin cartera que supervisa y coordina los servicios de inteligencia y
         seguridad conforme a la ustawa o Agencji Bezpieczeństwa Wewnętrznego oraz Agencji
@@ -1939,7 +1932,7 @@ entities:
         que supervisa —ABW, AW, SKW, SWW, CBA— son organismos públicos y no se registran
         individualmente. La misma persona ocupó un asiento genérico de Minister – Członek
         Rady Ministrów desde diciembre de 2023 y fue Minister Spraw Wewnętrznych i
-        Administracji entre mayo de 2024 y julio de 2025; este conjunto de datos registra la
+        Administracji entre mayo de 2024 y julio de 2025; este proyecto registra la
         estructura, no a los titulares.
 
   - id: PL-2023-zdrowia
@@ -2000,13 +1993,13 @@ entities:
         A department of this cabinet for its first nineteen days. It served two ministers at
         once — the Minister Edukacji and the Minister Nauki — and on 1 January 2024 was split
         into Ministerstwo Edukacji Narodowej and Ministerstwo Nauki i Szkolnictwa Wyższego.
-        Recorded for the historical record with no seat, because this file does not
+        Recorded for the historical record with no seat, because this page does not
         reconstruct the December 2023 allocation of ministers to offices.
       es: >-
         Departamento de este gobierno durante sus primeros diecinueve días. Atendía a dos
         ministros a la vez —el Minister Edukacji y el Minister Nauki— y el 1 de enero de 2024
         se escindió en Ministerstwo Edukacji Narodowej y Ministerstwo Nauki i Szkolnictwa
-        Wyższego. Se registra para el histórico sin asiento, porque este fichero no
+        Wyższego. Se registra para el histórico sin asiento, porque esta ficha no
         reconstruye el reparto de ministros por cargos de diciembre de 2023.
 
   - id: PL-2023-przemyslu
@@ -2034,7 +2027,7 @@ entities:
         and transformed into Ministerstwo Energii on 21 August 2025. Its minister's office,
         Minister Przemysłu, existed from 13 December 2023 and was abolished on 24 July 2025,
         four weeks before the ministry itself changed; between those dates the ministry
-        served the new Minister Energii. Recorded with no seat, because this file does not
+        served the new Minister Energii. Recorded with no seat, because this page does not
         reconstruct the term's personnel history.
       es: >-
         Creado el 1 de marzo de 2024 a partir del Ministerstwo Aktywów Państwowych, con sede
@@ -2042,7 +2035,7 @@ entities:
         de su ministra, Minister Przemysłu, existió desde el 13 de diciembre de 2023 y se
         suprimió el 24 de julio de 2025, cuatro semanas antes de que cambiara el ministerio;
         entre esas fechas el ministerio atendió al nuevo Minister Energii. Se registra sin
-        asiento, porque este fichero no reconstruye el historial de titulares de la
+        asiento, porque esta ficha no reconstruye el historial de titulares de la
         legislatura.
 
   # --- recorded, not counted: non-departmental offices abolished on 24 July 2025 -------

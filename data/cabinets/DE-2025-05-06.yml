@@ -496,7 +496,7 @@ entities:
     sources: [bgbl-2025-i-131, bgbl-2025-i-343-haushaltsgesetz-2026, gg-art-62, bundesregierung-bundesministerien]
     note:
       en: >-
-        The single most consequential judgement in this file: excluded, which is why
+        The single most consequential judgement in this page: excluded, which is why
         Germany is published as 16 and not 17. The Gesamtplan of the Haushaltsgesetz 2026
         gives it Einzelplan 04 under the heading "Bundeskanzler und Bundeskanzleramt" and
         withholds the word "Bundesministerium" that all 16 counted departments carry;
@@ -513,7 +513,7 @@ entities:
         Head of the Chancellery, recorded separately below; the seat recorded here is the
         Chancellor's own.
       es: >-
-        El juicio de mayor consecuencia de este fichero: excluido, y por eso Alemania se
+        El juicio de mayor consecuencia de esta ficha: excluido, y por eso Alemania se
         publica como 16 y no como 17. El Gesamtplan de la Ley de Presupuestos de 2026 le
         asigna el Einzelplan 04 bajo el epígrafe «Bundeskanzler und Bundeskanzleramt» y le
         niega la palabra «Bundesministerium» que sí llevan los 16 departamentos contados;
@@ -721,26 +721,24 @@ entities:
     sources: [bgbl-2025-i-131, bgbl-2025-i-343-haushaltsgesetz-2026, bundesregierung-bundesministerien]
     note:
       en: >-
-        Renamed by section II.4 of the Organisationserlass of 6 May 2025 from
-        Bundesministerium für Ernährung und Landwirtschaft, with the word order reversed and
-        "Heimat" added; section VII then transferred the competences for equivalent living
-        conditions and regional culture across from the interior ministry. "Heimat" has no
-        equivalent in this project's policy-area vocabulary and no clean translation in
-        either site language — the Federal Government's own English usage is "Regional
-        Identity", which is what is used here. It is tagged regional_development as the
-        closest available id, and the gap is flagged in the curator's hand-off notes rather
-        than resolved by inventing a taxonomy id mid-fan-out.
+        Renamed by section II.4 of the Organisationserlass of 6 May 2025 from Bundesministerium
+        für Ernährung und Landwirtschaft, with the word order reversed and "Heimat" added;
+        section VII then transferred the competences for equivalent living conditions and
+        regional culture across from the interior ministry. "Heimat" has no equivalent in this
+        project's policy-area vocabulary and no clean translation in either site language — the
+        Federal Government's own English usage is "Regional Identity", which is what is used
+        here. It is tagged regional_development as the closest available id, and the gap is
+        flagged here rather than resolved by inventing a taxonomy id mid-fan-out.
       es: >-
         Renombrado por la sección II.4 del Organisationserlass del 6 de mayo de 2025 desde
-        Bundesministerium für Ernährung und Landwirtschaft, invirtiendo el orden de las
-        palabras y añadiendo «Heimat»; la sección VII le trasladó después desde el
-        ministerio del Interior las competencias sobre condiciones de vida equivalentes y
-        cultura regional. «Heimat» no tiene equivalente en el vocabulario de áreas de
-        política de este proyecto ni traducción limpia en ninguno de los dos idiomas del
-        sitio: el uso inglés propio del Gobierno Federal es «Regional Identity», que es el
-        empleado aquí. Se etiqueta como regional_development por ser el id más cercano
-        disponible, y la carencia se señala en las notas de entrega del curador en lugar de
-        resolverse inventando un id de taxonomía a mitad del reparto.
+        Bundesministerium für Ernährung und Landwirtschaft, invirtiendo el orden de las palabras
+        y añadiendo «Heimat»; la sección VII le trasladó después desde el ministerio del
+        Interior las competencias sobre condiciones de vida equivalentes y cultura regional.
+        «Heimat» no tiene equivalente en el vocabulario de áreas de política de este proyecto ni
+        traducción limpia en ninguno de los dos idiomas del sitio: el uso inglés propio del
+        Gobierno Federal es «Regional Identity», que es el empleado aquí. Se etiqueta como
+        regional_development por ser el id más cercano disponible, y la carencia se señala aquí
+        en lugar de resolverse inventando un id de taxonomía a mitad del reparto.
 
   - id: DE-2025-arbeit-soziales
     order: 8
@@ -862,14 +860,14 @@ entities:
       en: >-
         The one department the Organisationserlass of 6 May 2025 does not mention anywhere:
         it was neither created, renamed nor altered in competence, so the decree is silent
-        about it. That silence is precisely why this file needs a second tier-1 source. Its
+        about it. That silence is precisely why this page needs a second tier-1 source. Its
         entry here rests on Einzelplan 15 of the Haushaltsgesetz 2026, and it is the clearest
         demonstration that a German Organisationserlass is a record of change rather than an
         enumeration of the government.
       es: >-
         El único departamento que el Organisationserlass del 6 de mayo de 2025 no menciona en
         ningún lugar: no fue creado, ni renombrado, ni alterado en competencias, de modo que
-        el decreto calla sobre él. Ese silencio es justamente la razón por la que este fichero
+        el decreto calla sobre él. Ese silencio es justamente la razón por la que esta ficha
         necesita una segunda fuente de nivel 1. Su entrada aquí se apoya en el Einzelplan 15
         de la Ley de Presupuestos de 2026, y es la demostración más clara de que un
         Organisationserlass alemán es un registro de cambios y no una enumeración del
@@ -898,18 +896,18 @@ entities:
         ministry and the Foreign Office under section IX. Germany therefore does have a
         dedicated climate portfolio, and it moved department on 6 May 2025. Nuclear safety has
         no id in this project's policy-area vocabulary; it is not tagged energy, because energy
-        policy sits with the economics ministry and nuclear safety here is regulatory
-        oversight. The missing id is flagged in the curator's hand-off notes.
+        policy sits with the economics ministry and nuclear safety here is regulatory oversight.
+        The gap is flagged here.
       es: >-
         Renombrado por la sección II.7 del Organisationserlass del 6 de mayo de 2025: se
-        suprimió «Verbraucherschutz» y se ganó «Klimaschutz», y ambas mitades de ese
-        intercambio fueron traslados reales de competencia, hacia el ministerio de Justicia por
-        la sección V y desde el ministerio de Economía y el Auswärtiges Amt por la sección IX.
-        Alemania sí tiene por tanto una cartera climática propia, y cambió de departamento el
-        6 de mayo de 2025. La seguridad nuclear no tiene id en el vocabulario de áreas de
-        política de este proyecto; no se etiqueta como energía, porque la política energética
-        corresponde al ministerio de Economía y la seguridad nuclear es aquí supervisión
-        regulatoria. La carencia se señala en las notas de entrega del curador.
+        suprimió «Verbraucherschutz» y se ganó «Klimaschutz», y ambas mitades de ese intercambio
+        fueron traslados reales de competencia, hacia el ministerio de Justicia por la sección V
+        y desde el ministerio de Economía y el Auswärtiges Amt por la sección IX. Alemania sí
+        tiene por tanto una cartera climática propia, y cambió de departamento el 6 de mayo de
+        2025. La seguridad nuclear no tiene id en el vocabulario de áreas de política de este
+        proyecto; no se etiqueta como energía, porque la política energética corresponde al
+        ministerio de Economía y la seguridad nuclear es aquí supervisión regulatoria. La
+        carencia queda señalada aquí.
 
   - id: DE-2025-bildung-familie-senioren-frauen-jugend
     order: 13
@@ -1003,25 +1001,24 @@ entities:
         it a consent veto over all material IT spending of the direct federal administration,
         with defence, police and intelligence and the tax administration carved out. Because it
         did not exist before 6 May 2025 and this cabinet took office on that same date, no
-        valid_from is set: the entity is valid for the whole term. Its budget section, Einzelplan
-        24, appears in the Haushaltsgesetz 2026 with no comparative figure for 2025, which is
-        what a department created mid-year looks like in the gazette.
+        separate start date is recorded: the entity is valid for the whole term. Its budget
+        section, Einzelplan 24, appears in the Haushaltsgesetz 2026 with no comparative figure
+        for 2025, which is what a department created mid-year looks like in the gazette.
       es: >-
         El único departamento auténticamente nuevo de este gabinete, creado de raíz por la
-        sección I del Organisationserlass del 6 de mayo de 2025 — «Es wird ein
-        Bundesministerium für Digitales und Staatsmodernisierung gebildet» — y ensamblado en la
-        sección XII con competencias tomadas de la Cancillería y de cinco ministerios
-        existentes: administración digital, informática federal y su infraestructura,
-        ciberseguridad en la administración federal, las redes del Estado, infraestructuras de
-        red, política digital y de datos, mejora de la regulación y reducción de burocracia, y
-        la dirección de la aplicación del Reglamento europeo de IA. La sección XIII le otorga
-        un veto de conformidad sobre todo gasto informático relevante de la administración
-        federal directa, con excepción de defensa, policía e inteligencia y la administración
-        tributaria. Como no existía antes del 6 de mayo de 2025 y este gabinete tomó posesión
-        esa misma fecha, no se fija valid_from: la entidad es válida para toda la legislatura.
-        Su sección presupuestaria, el Einzelplan 24, figura en la Ley de Presupuestos de 2026
-        sin cifra comparativa para 2025, que es el aspecto que tiene en el boletín un
-        departamento creado a mitad de año.
+        sección I del Organisationserlass del 6 de mayo de 2025 — «Es wird ein Bundesministerium
+        für Digitales und Staatsmodernisierung gebildet» — y ensamblado en la sección XII con
+        competencias tomadas de la Cancillería y de cinco ministerios existentes: administración
+        digital, informática federal y su infraestructura, ciberseguridad en la administración
+        federal, las redes del Estado, infraestructuras de red, política digital y de datos,
+        mejora de la regulación y reducción de burocracia, y la dirección de la aplicación del
+        Reglamento europeo de IA. La sección XIII le otorga un veto de conformidad sobre todo
+        gasto informático relevante de la administración federal directa, con excepción de
+        defensa, policía e inteligencia y la administración tributaria. Como no existía antes
+        del 6 de mayo de 2025 y este gabinete tomó posesión esa misma fecha, no lleva fecha de
+        inicio propia: la entidad es válida para toda la legislatura. Su sección presupuestaria,
+        el Einzelplan 24, figura en la Ley de Presupuestos de 2026 sin cifra comparativa para
+        2025, que es el aspecto que tiene en el boletín un departamento creado a mitad de año.
 
   - id: DE-2025-wohnen-stadtentwicklung-bauwesen
     order: 16
@@ -1174,12 +1171,12 @@ entities:
         attached directly to the Chancellor and sitting inside Einzelplan 04. Its holder is a
         Staatsminister, not a Bundesminister, so under Article 62 of the Basic Law he is not a
         member of the Federal Government; he attends cabinet meetings without holding a seat in
-        it, which is why has_cabinet_seat is false. That is a judgement a careful curator could
-        make differently — counting attendance as a seat would publish 19 cabinet seats for
-        Germany instead of 18 — and it is stated in the methodology notes rather than settled
-        silently here. No policy area is tagged, because policy areas are only counted for
-        counted ministries; a reader looking for German federal culture policy in the
-        comparison views will correctly find no ministry holding it.
+        it, which is why it is recorded without a seat. That judgement could be made differently
+        — counting attendance as a seat would publish 19 cabinet seats for Germany instead of 18
+        — and it is stated in the methodology notes rather than settled silently here. No policy
+        area is tagged, because policy areas are only counted for counted ministries; a reader
+        looking for German federal culture policy in the comparison views will correctly find no
+        ministry holding it.
       es: >-
         Se registra en lugar de omitirse porque responde a una pregunta que la lista de
         ministerios deja en el aire: Alemania no tiene ministerio de Cultura, y aquí es donde
@@ -1187,10 +1184,10 @@ entities:
         suprema con unos 430 efectivos, adscrita directamente al canciller y situada dentro del
         Einzelplan 04. Su titular es Staatsminister, no Bundesminister, de modo que conforme al
         artículo 62 de la Ley Fundamental no es miembro del Gobierno Federal; asiste a las
-        reuniones del gabinete sin ocupar asiento en él, y por eso has_cabinet_seat es falso. Es
-        un juicio que otro curador cuidadoso podría resolver de otro modo — contar la asistencia
-        como asiento publicaría 19 asientos de gabinete para Alemania en vez de 18 — y consta en
-        las notas metodológicas en lugar de zanjarse aquí en silencio. No se etiqueta ninguna
-        área de política, porque las áreas sólo se cuentan para los ministerios contados; quien
-        busque la política cultural federal alemana en las vistas comparativas encontrará
-        correctamente que ningún ministerio la ostenta.
+        reuniones del gabinete sin ocupar asiento en él, y por eso se registra sin asiento. Es
+        un juicio que podría resolverse de otro modo — contar la asistencia como asiento
+        publicaría 19 asientos de gabinete para Alemania en vez de 18 — y consta en las notas
+        metodológicas en lugar de zanjarse aquí en silencio. No se etiqueta ninguna área de
+        política, porque las áreas sólo se cuentan para los ministerios contados; quien busque
+        la política cultural federal alemana en las vistas comparativas encontrará correctamente
+        que ningún ministerio la ostenta.

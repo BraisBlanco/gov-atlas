@@ -526,7 +526,7 @@ entities:
     sources: [stcrt-2026-8194, rijksoverheid-ministeries, government-nl-ministries, grondwet-2023-02-22, rijksoverheid-bewindspersonen]
     note:
       en: >-
-        The contested entity in this file, and counted. It is both the Prime Minister's own
+        The contested entity in this page, and counted. It is both the Prime Minister's own
         department and a ministry in the ordinary sense: article 44(1) of the Grondwet makes
         a ministry a body established by royal decree and led by a minister, the Prime
         Minister's title is Minister van Algemene Zaken, and the department appears in the
@@ -535,7 +535,7 @@ entities:
         note. Its seat is the head of government's, so no separate office of the Prime
         Minister is recorded.
       es: >-
-        La entidad discutida de este fichero, y contada. Es a la vez el departamento propio
+        La entidad discutida de esta ficha, y contada. Es a la vez el departamento propio
         del primer ministro y un ministerio en sentido ordinario: el artículo 44.1 de la
         Grondwet define el ministerio como órgano creado por real decreto y dirigido por un
         ministro, el título del primer ministro es Minister van Algemene Zaken y el

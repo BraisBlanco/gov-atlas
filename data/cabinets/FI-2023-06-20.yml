@@ -384,7 +384,7 @@ entities:
     sources: [laki-valtioneuvostosta-175-2003, vn-ministerien-tyonjako-2026-06-16, vn-orpon-hallitus, vn-en-ministries]
     note:
       en: >-
-        The contested entity in this file, and counted. It is both the Prime Minister's own
+        The contested entity in this page, and counted. It is both the Prime Minister's own
         department and one of the twelve ministries listed in section 1 of the
         valtioneuvostolaki, and the government's division of duties says the Prime Minister
         acts as its päällikkö. Excluding it under head_of_government_office would give
@@ -395,7 +395,7 @@ entities:
         Its seat is the Prime Minister's, so no separate office of the Prime Minister is
         recorded.
       es: >-
-        La entidad discutida de este fichero, y contada. Es a la vez el departamento propio
+        La entidad discutida de esta ficha, y contada. Es a la vez el departamento propio
         del primer ministro y uno de los doce ministerios enumerados en el artículo 1 de la
         valtioneuvostolaki, y el reparto de funciones del gobierno dice que el primer ministro
         actúa como su päällikkö. Excluirla por head_of_government_office daría 11 ministerios
@@ -488,13 +488,13 @@ entities:
         Finland has no separate migration ministry: immigration and asylum are this
         ministry's, along with the police and the rescue services. Integration, by contrast,
         belongs to the Ministry of Economic Affairs and Employment, where this ministry's
-        minister handles it — a division that this dataset records on the ministries rather
+        minister handles it — a division that this project records on the ministries rather
         than on the minister.
       es: >-
         Finlandia no tiene un ministerio de migración propio: la inmigración y el asilo
         corresponden a este ministerio, junto con la policía y los servicios de rescate. La
         integración, en cambio, corresponde al Ministerio de Economía y Empleo, donde la
-        tramita la ministra de este ministerio: una división que este dataset registra en los
+        tramita la ministra de este ministerio: una división que este proyecto registra en los
         ministerios y no en la ministra.
 
   - id: FI-2023-puolustusministerio
@@ -648,7 +648,7 @@ entities:
         department), the minister of local government and regional affairs (urban
         development) and the minister of the interior (integration). The energy tag therefore
         sits here rather than on the Ministry of the Environment, whose minister handles it:
-        this dataset tags the ministry that holds the subject matter.
+        this project tags the ministry that holds the subject matter.
       es: >-
         Cinco de los diecinueve ministros tramitan asuntos en este ministerio, más que en
         ningún otro del gobierno finlandés: el de Trabajo como jefe, el de Economía
@@ -656,7 +656,7 @@ entities:
         regionales de crecimiento), la de Medio Ambiente y Clima (el departamento de
         energía), la de Administración Local y Regional (desarrollo urbano) y la del Interior
         (integración). La etiqueta energy está por tanto aquí y no en el Ministerio de Medio
-        Ambiente, cuya ministra la tramita: este dataset etiqueta al ministerio que tiene la
+        Ambiente, cuya ministra la tramita: este proyecto etiqueta al ministerio que tiene la
         materia.
 
   - id: FI-2023-sosiaali-ja-terveysministerio

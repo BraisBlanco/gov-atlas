@@ -1044,13 +1044,14 @@ entities:
         management except the protection of natural water accumulation, water sources and the
         quality of surface and groundwater, and the food industry; it is also the central
         authority for forests, hunting and fisheries outside national parks, and for veterinary
-        and phytosanitary care, food, the protection of animals against cruelty and rights in new
-        plant varieties and animal breeds. water and forestry are therefore tagged here with the
-        exceptions the section itself carves out and hands to the environment ministry, and both
-        entities record the split. rural_development is deliberately not tagged: the ministry
-        manages the rural development programme in practice, but § 15 does not name it, and this
-        dataset tags statutory portfolios rather than programme management. The Státní zemědělská
-        a potravinářská inspekce and the Státní veterinární správa are subordinate to it.
+        and phytosanitary care, food, the protection of animals against cruelty and rights in
+        new plant varieties and animal breeds. water and forestry are therefore tagged here with
+        the exceptions the section itself carves out and hands to the environment ministry, and
+        both entities record the split. rural_development is deliberately not tagged: the
+        ministry manages the rural development programme in practice, but § 15 does not name it,
+        and this project tags statutory portfolios rather than programme management. The Státní
+        zemědělská a potravinářská inspekce and the Státní veterinární správa are subordinate to
+        it.
       es: >-
         El § 15 le atribuye la agricultura salvo la protección del fondo de suelo agrícola, la
         gestión del agua salvo la protección de la acumulación natural de aguas, de las fuentes y
@@ -1061,7 +1062,7 @@ entities:
         animales. water y forestry se etiquetan por tanto aquí con las excepciones que el propio
         precepto reserva al ministerio de Medio Ambiente, y ambas entidades registran el reparto.
         rural_development no se etiqueta deliberadamente: el ministerio gestiona en la práctica el
-        programa de desarrollo rural, pero el § 15 no lo menciona, y este dataset etiqueta
+        programa de desarrollo rural, pero el § 15 no lo menciona, y este proyecto etiqueta
         carteras legales y no gestión de programas. La Státní zemědělská a potravinářská inspekce
         y la Státní veterinární správa le están subordinadas.
 

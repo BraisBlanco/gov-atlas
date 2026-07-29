@@ -909,12 +909,12 @@ entities:
     note:
       en: >-
         The department changed minister on 3 April 2026, when a new minister was sworn in after
-        the previous one resigned. The department itself was unaffected, and this dataset
+        the previous one resigned. The department itself was unaffected, and this project
         records departments rather than officeholders, so the entity is not split.
       es: >-
         El departamento cambió de ministro el 3 de abril de 2026, cuando juró un nuevo titular
-        tras la renuncia del anterior. El departamento no se vio afectado y este conjunto de
-        datos registra departamentos y no titulares, por lo que la entidad no se desdobla.
+        tras la renuncia del anterior. El departamento no se vio afectado y este proyecto
+        registra departamentos y no titulares, por lo que la entidad no se desdobla.
 
   # --- ministri senza portafoglio: recorded, not counted -------------------------
   - id: IT-2022-rapporti-parlamento
@@ -1227,7 +1227,7 @@ entities:
     note:
       en: >-
         Recorded to show where the edge of the cabinet is drawn, and the only junior office in
-        this file. Article 4(2) of legge 400/1988 makes this under-secretary the Secretary of
+        this page. Article 4(2) of legge 400/1988 makes this under-secretary the Secretary of
         the Council of Ministers, so he attends every meeting and keeps its minutes, but article
         92 of the Constitution confines membership to the President of the Council and the
         ministers — hence no cabinet seat. Sources that report Italy's cabinet as 26 people are
@@ -1235,7 +1235,7 @@ entities:
         an existing department and are not enumerated here.
       es: >-
         Se registra para mostrar dónde se traza el límite del gabinete, y es el único cargo
-        subordinado de este fichero. El artículo 4.2 de la legge 400/1988 hace de este
+        subordinado de esta ficha. El artículo 4.2 de la legge 400/1988 hace de este
         subsecretario el secretario del Consejo de Ministros, de modo que asiste a todas las
         reuniones y levanta acta, pero el artículo 92 de la Constitución limita la pertenencia
         al presidente del Consejo y a los ministros; de ahí que no tenga asiento. Las fuentes

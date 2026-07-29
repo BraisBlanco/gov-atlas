@@ -513,17 +513,17 @@ entities:
     sources: [vyriausybes-istatymas-i-464, lrv-xxi-vyriausybe-prisieke, lrv-ministerijos-en]
     note:
       en: >-
-        A single-purpose energy ministry, which is unusual in this dataset: most cabinets
+        A single-purpose energy ministry, which is unusual in this project: most cabinets
         attach energy to economy, environment or climate. It survived the reorganisation
         talk of 2025 unchanged, because abolishing or merging a Lithuanian ministry requires
         the Seimas to amend article 29 of the Vyriausybės įstatymas and no such amendment
         was made.
       es: >-
-        Un ministerio de energía monotemático, algo poco frecuente en este conjunto de
-        datos: la mayoría de los gabinetes adosan la energía a economía, medio ambiente o
-        clima. Sobrevivió sin cambios a los rumores de reorganización de 2025, porque
-        suprimir o fusionar un ministerio lituano exige que el Seimas modifique el artículo
-        29 de la Vyriausybės įstatymas, y no se aprobó tal modificación.
+        Un ministerio de energía monotemático, algo poco frecuente: la mayoría de los gabinetes
+        adosan la energía a economía, medio ambiente o clima. Sobrevivió sin cambios a los
+        rumores de reorganización de 2025, porque suprimir o fusionar un ministerio lituano
+        exige que el Seimas modifique el artículo 29 de la Vyriausybės įstatymas, y no se aprobó
+        tal modificación.
 
   - id: LT-2026-finansu-ministerija
     order: 4

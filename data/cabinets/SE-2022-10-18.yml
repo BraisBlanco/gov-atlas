@@ -580,12 +580,12 @@ entities:
       en: >-
         Two ministers: for education and integration, and for upper-secondary school, higher
         education and research. Integration policy therefore sits in the education department,
-        an arrangement no other country in this dataset shares; there is no integration area
+        an arrangement no other country in this project shares; there is no integration area
         in the taxonomy, which is recorded in the hand-off notes.
       es: >-
         Dos ministros: de Educación e Integración, y de Bachillerato, Universidades e
         Investigación. La política de integración se sitúa por tanto en el departamento de
-        educación, algo que no comparte ningún otro país de este dataset; la taxonomía no
+        educación, algo que no comparte ningún otro país de este proyecto; la taxonomía no
         tiene un área de integración, lo que queda anotado en las notas de entrega.
 
   - id: SE-2022-klimat-och-naringslivsdepartementet
@@ -607,22 +607,21 @@ entities:
     sources: [sfs-1996-1515, regeringen-sveriges-regering, government-se-government-of-sweden, regeringen-tva-nya-departement-2022]
     note:
       en: >-
-        Created on 1 January 2023, which is why valid_from is set: it gathered energy,
+        Created on 1 January 2023, which is why it carries a start date: it gathered energy,
         climate, environment and business affairs from the abolished Miljödepartementet,
         Näringsdepartementet and Infrastrukturdepartementet. Its head is the Minister for
-        Energy, Business and Industry, who is also Deputy Prime Minister — a personal rank
-        that adds neither a ministry nor a seat — and its second minister is the Minister for
-        Climate and the Environment. Sweden thus has climate and environment in the same
-        department as industrial policy, which is the arrangement the reorganisation was
-        announced to create.
+        Energy, Business and Industry, who is also Deputy Prime Minister — a personal rank that
+        adds neither a ministry nor a seat — and its second minister is the Minister for Climate
+        and the Environment. Sweden thus has climate and environment in the same department as
+        industrial policy, which is the arrangement the reorganisation was announced to create.
       es: >-
-        Creado el 1 de enero de 2023, y por eso lleva valid_from: reunió los asuntos de
-        energía, clima, medio ambiente y empresa procedentes de los suprimidos
+        Creado el 1 de enero de 2023, y por eso lleva fecha de inicio propia: reunió los asuntos
+        de energía, clima, medio ambiente y empresa procedentes de los suprimidos
         Miljödepartementet, Näringsdepartementet e Infrastrukturdepartementet. Su titular es la
-        ministra de Energía y Empresa, que es además vicepresidenta del gobierno —rango
-        personal que no añade ni ministerio ni asiento—, y su segunda ministra es la de Clima y
-        Medio Ambiente. Suecia tiene así el clima y el medio ambiente en el mismo departamento
-        que la política industrial, que es precisamente el arreglo que se anunció con la
+        ministra de Energía y Empresa, que es además vicepresidenta del gobierno —rango personal
+        que no añade ni ministerio ni asiento—, y su segunda ministra es la de Clima y Medio
+        Ambiente. Suecia tiene así el clima y el medio ambiente en el mismo departamento que la
+        política industrial, que es precisamente el arreglo que se anunció con la
         reorganización.
 
   - id: SE-2022-kulturdepartementet
@@ -645,11 +644,11 @@ entities:
       en: >-
         The only department with a single minister. Not tagged sport: responsibility for sport
         and civil society lies with the socialminister, per the government's own policy-area
-        page, unlike in most of the countries in this dataset.
+        page, unlike in most of the countries in this project.
       es: >-
         El único departamento con un solo ministro. No se etiqueta sport: la responsabilidad
         del deporte y la sociedad civil corresponde al socialminister, según la propia página
-        de área del gobierno, a diferencia de la mayoría de los países de este dataset.
+        de área del gobierno, a diferencia de la mayoría de los países de este proyecto.
 
   - id: SE-2022-arbetsmarknadsdepartementet
     order: 10
@@ -698,16 +697,16 @@ entities:
     note:
       en: >-
         Created on 1 January 2023 to gather rural affairs, forestry, transport and housing,
-        which is why valid_from is set and why the tag list is the longest in this file.
+        which is why it carries a start date and why the tag list is the longest in this page.
         Sweden has no agriculture ministry and no transport ministry as such: both portfolios
         are here, together with fisheries, housing and spatial planning. Two ministers: for
         rural affairs, and for infrastructure and housing.
       es: >-
-        Creado el 1 de enero de 2023 para reunir el mundo rural, los bosques, el transporte y
-        la vivienda; de ahí el valid_from y la lista de etiquetas más larga del fichero. Suecia
-        no tiene ministerio de agricultura ni de transporte como tales: ambas carteras están
-        aquí, junto con la pesca, la vivienda y la ordenación del territorio. Dos ministros: de
-        Mundo Rural, y de Infraestructuras y Vivienda.
+        Creado el 1 de enero de 2023 para reunir el mundo rural, los bosques, el transporte y la
+        vivienda; de ahí su fecha de inicio y la lista de etiquetas más larga de la ficha.
+        Suecia no tiene ministerio de agricultura ni de transporte como tales: ambas carteras
+        están aquí, junto con la pesca, la vivienda y la ordenación del territorio. Dos
+        ministros: de Mundo Rural, y de Infraestructuras y Vivienda.
 
   # --- recorded, not counted: the administrative division ------------------------------
   - id: SE-2022-forvaltningsavdelningen
@@ -768,14 +767,14 @@ entities:
         A department of this cabinet until 31 December 2022, when its climate and environment
         responsibilities were gathered into the new Klimat- och näringslivsdepartementet. It
         no longer appears in § 2 of the instruction, which was amended with effect from 1
-        January 2023. Recorded for the historical record, with no seat because this file does
+        January 2023. Recorded for the historical record, with no seat because this page does
         not reconstruct the pre-2023 allocation of ministers.
       es: >-
         Departamento de este gobierno hasta el 31 de diciembre de 2022, cuando sus
         competencias de clima y medio ambiente se reunieron en el nuevo Klimat- och
         näringslivsdepartementet. Ya no figura en el § 2 de la instrucción, modificado con
         efecto desde el 1 de enero de 2023. Se registra para el histórico, sin asiento porque
-        este fichero no reconstruye el reparto de ministros anterior a 2023.
+        esta ficha no reconstruye el reparto de ministros anterior a 2023.
 
   - id: SE-2022-naringsdepartementet
     order: 14

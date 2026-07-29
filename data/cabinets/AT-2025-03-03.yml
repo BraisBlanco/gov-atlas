@@ -712,49 +712,48 @@ entities:
     sources: [ris-bmg-1986-p1, ris-bmg-1986-anlage, bvg-art-77, bvg-art-69, bka-bundesministerien]
     note:
       en: >-
-        The single most consequential judgement in this file, and it goes the other way from
-        the German one: counted, which is why Austria is published as 13 and not 12. Item 1
-        of § 1 Abs. 1 BMG says "Bundesministerien im Sinne des Art. 77 B-VG sind: 1. das
+        The single most consequential judgement in this page, and it goes the other way from the
+        German one: counted, which is why Austria is published as 13 and not 12. Item 1 of § 1
+        Abs. 1 BMG says "Bundesministerien im Sinne des Art. 77 B-VG sind: 1. das
         Bundeskanzleramt", and Article 77 Abs. 3 B-VG speaks of "der Leitung der anderen
         Bundesministerien", so both the statute and the Constitution class it as one of the
-        ministries rather than as something adjacent to them. It is also not a bare apex
-        office: section A of the Annex to § 2 gives it twenty-nine numbered competences of
-        its own, including the constitutional service, the law of the civil service, digital
-        government, religious affairs, the recognised ethnic groups, family policy, youth
-        policy outside school, alternative civilian service and integration — subject matter
-        that in most European cabinets sits in a named department. The tagged areas follow
-        those items; integration and Volksgruppen are untagged only because the project's
-        vocabulary has no id for them, which is recorded in the methodology notes. The
-        contrary argument is real and is stated there too: this is the office of the head of
-        government, led by the Chancellor in person, and the project's default is to exclude
-        such an office, as it does for Spain's Presidencia del Gobierno and for the German
-        Bundeskanzleramt. Read that way, every Austrian ministry figure on this site falls by
-        one, to 12. The seat recorded here is the Chancellor's own; the federal minister who
-        runs part of this ministry's business is recorded separately below and holds her own
-        seat, so no seat is double-counted and head_count stays at 1.
+        ministries rather than as something adjacent to them. It is also not a bare apex office:
+        section A of the Annex to § 2 gives it twenty-nine numbered competences of its own,
+        including the constitutional service, the law of the civil service, digital government,
+        religious affairs, the recognised ethnic groups, family policy, youth policy outside
+        school, alternative civilian service and integration — subject matter that in most
+        European cabinets sits in a named department. The tagged areas follow those items;
+        integration and Volksgruppen are untagged only because the project's vocabulary has no
+        id for them, which is recorded in the methodology notes. The contrary argument is real
+        and is stated there too: this is the office of the head of government, led by the
+        Chancellor in person, and the project's default is to exclude such an office, as it does
+        for Spain's Presidencia del Gobierno and for the German Bundeskanzleramt. Read that way,
+        every Austrian ministry figure on this site falls by one, to 12. The seat recorded here
+        is the Chancellor's own; the federal minister who runs part of this ministry's business
+        is recorded separately below and holds her own seat, so no seat is double-counted and
+        the department contributes a single seat.
       es: >-
-        El juicio de mayor consecuencia de este fichero, y se resuelve al contrario que el
-        alemán: se cuenta, y por eso Austria se publica como 13 y no como 12. El punto 1 del
-        § 1 Abs. 1 BMG dice «Bundesministerien im Sinne des Art. 77 B-VG sind: 1. das
-        Bundeskanzleramt», y el artículo 77 Abs. 3 B-VG habla de «der Leitung der anderen
-        Bundesministerien», de modo que tanto la ley como la Constitución lo clasifican como
-        uno de los ministerios y no como algo contiguo a ellos. Tampoco es una simple
-        oficina de cúspide: la sección A del Anexo al § 2 le atribuye veintinueve
-        competencias numeradas propias, entre ellas el servicio constitucional, el derecho
-        de la función pública, la administración digital, los asuntos religiosos, los grupos
-        étnicos reconocidos, la política de familia, la política de juventud extraescolar,
-        el servicio civil sustitutorio y la integración: materias que en la mayoría de los
-        gabinetes europeos residen en un departamento con nombre propio. Las áreas
-        etiquetadas siguen esos puntos; integración y Volksgruppen quedan sin etiquetar sólo
-        porque el vocabulario del proyecto no tiene identificador para ellas, lo que consta
-        en las notas metodológicas. El argumento contrario es real y también consta allí:
-        esta es la oficina del jefe de gobierno, dirigida por el canciller en persona, y el
-        criterio por defecto del proyecto es excluirla, como hace con la Presidencia del
-        Gobierno española y con el Bundeskanzleramt alemán. Leído así, toda cifra austriaca
-        de ministerios de este sitio baja en uno, a 12. El asiento que aquí se registra es el
-        del propio canciller; la ministra federal que dirige parte de los asuntos de este
-        ministerio se registra aparte más abajo y ocupa su propio asiento, por lo que ningún
-        asiento se cuenta dos veces y head_count queda en 1.
+        El juicio de mayor consecuencia de esta ficha, y se resuelve al contrario que el alemán:
+        se cuenta, y por eso Austria se publica como 13 y no como 12. El punto 1 del § 1 Abs. 1
+        BMG dice «Bundesministerien im Sinne des Art. 77 B-VG sind: 1. das Bundeskanzleramt», y
+        el artículo 77 Abs. 3 B-VG habla de «der Leitung der anderen Bundesministerien», de modo
+        que tanto la ley como la Constitución lo clasifican como uno de los ministerios y no
+        como algo contiguo a ellos. Tampoco es una simple oficina de cúspide: la sección A del
+        Anexo al § 2 le atribuye veintinueve competencias numeradas propias, entre ellas el
+        servicio constitucional, el derecho de la función pública, la administración digital,
+        los asuntos religiosos, los grupos étnicos reconocidos, la política de familia, la
+        política de juventud extraescolar, el servicio civil sustitutorio y la integración:
+        materias que en la mayoría de los gabinetes europeos residen en un departamento con
+        nombre propio. Las áreas etiquetadas siguen esos puntos; integración y Volksgruppen
+        quedan sin etiquetar sólo porque el vocabulario del proyecto no tiene identificador para
+        ellas, lo que consta en las notas metodológicas. El argumento contrario es real y
+        también consta allí: esta es la oficina del jefe de gobierno, dirigida por el canciller
+        en persona, y el criterio por defecto del proyecto es excluirla, como hace con la
+        Presidencia del Gobierno española y con el Bundeskanzleramt alemán. Leído así, toda
+        cifra austriaca de ministerios de este sitio baja en uno, a 12. El asiento que aquí se
+        registra es el del propio canciller; la ministra federal que dirige parte de los asuntos
+        de este ministerio se registra aparte más abajo y ocupa su propio asiento, por lo que
+        ningún asiento se cuenta dos veces y el departamento aporta un único asiento.
 
   - id: AT-2025-wohnen-kunst-kultur-medien-sport
     order: 2
@@ -824,40 +823,39 @@ entities:
     sources: [ris-bmg-1986-p1, ris-bmg-1986-anlage, bka-bundesministerien]
     note:
       en: >-
-        Austria's foreign ministry, and one of the six departments whose statutory
-        designation the Bundesministeriengesetz-Novelle 2025 left untouched, which is why it
-        carries no valid_from. Section C of the Annex contains only two numbered items. The
-        first is foreign affairs in the widest sense — foreign policy, international law,
-        treaty negotiation, representation of the Republic, the diplomatic and consular
-        network, cultural relations abroad, protection of Austrian citizens abroad, and
-        expressly "Angelegenheiten der Entwicklungszusammenarbeit sowie Koordination der
-        internationalen Entwicklungspolitik", which is why development cooperation is tagged
-        and Austria has no separate development ministry. The second is deregulation and
-        cutting red tape, which has nothing to do with foreign affairs and is why
-        public_administration is tagged here as well as on the Chancellery; a reader who
-        finds that surprising should note that it is one of only two items in the section,
-        so it cannot be dismissed as incidental. European affairs are shared with the
-        Chancellery by design: the Annex gives the Chancellery the coordination of EU
-        business and this ministry the representation of Austrian interests in the Union,
-        each in agreement with the other.
+        Austria's foreign ministry, and one of the six departments whose statutory designation
+        the Bundesministeriengesetz-Novelle 2025 left untouched, which is why it carries no
+        start date of its own. Section C of the Annex contains only two numbered items. The
+        first is foreign affairs in the widest sense — foreign policy, international law, treaty
+        negotiation, representation of the Republic, the diplomatic and consular network,
+        cultural relations abroad, protection of Austrian citizens abroad, and expressly
+        "Angelegenheiten der Entwicklungszusammenarbeit sowie Koordination der internationalen
+        Entwicklungspolitik", which is why development cooperation is tagged and Austria has no
+        separate development ministry. The second is deregulation and cutting red tape, which
+        has nothing to do with foreign affairs and is why public_administration is tagged here
+        as well as on the Chancellery; a reader who finds that surprising should note that it is
+        one of only two items in the section, so it cannot be dismissed as incidental. European
+        affairs are shared with the Chancellery by design: the Annex gives the Chancellery the
+        coordination of EU business and this ministry the representation of Austrian interests
+        in the Union, each in agreement with the other.
       es: >-
-        El ministerio de Exteriores austriaco, y uno de los seis departamentos cuya
-        denominación legal no tocó la Bundesministeriengesetz-Novelle 2025, y por eso no
-        lleva valid_from. La sección C del Anexo contiene sólo dos puntos numerados. El
-        primero son los asuntos exteriores en el sentido más amplio —política exterior,
-        derecho internacional, negociación de tratados, representación de la República, red
-        diplomática y consular, relaciones culturales en el exterior, protección de los
-        ciudadanos austriacos en el extranjero— y expresamente «Angelegenheiten der
-        Entwicklungszusammenarbeit sowie Koordination der internationalen
-        Entwicklungspolitik», motivo por el que se etiqueta cooperación al desarrollo y por
-        el que Austria no tiene ministerio de Cooperación separado. El segundo es la
-        desregulación y la desburocratización, que nada tiene que ver con la acción exterior
-        y es la razón de que se etiquete aquí administración pública además de en la
-        Cancillería; a quien le sorprenda conviene recordarle que es uno de los dos únicos
-        puntos de la sección, así que no puede despacharse como accesorio. Los asuntos
-        europeos se comparten con la Cancillería por diseño: el Anexo da a la Cancillería la
-        coordinación de los asuntos de la Unión y a este ministerio la representación de los
-        intereses austriacos en ella, cada uno de acuerdo con el otro.
+        El ministerio de Exteriores austriaco, y uno de los seis departamentos cuya denominación
+        legal no tocó la Bundesministeriengesetz-Novelle 2025, y por eso no lleva fecha de
+        inicio propia. La sección C del Anexo contiene sólo dos puntos numerados. El primero son
+        los asuntos exteriores en el sentido más amplio —política exterior, derecho
+        internacional, negociación de tratados, representación de la República, red diplomática
+        y consular, relaciones culturales en el exterior, protección de los ciudadanos
+        austriacos en el extranjero— y expresamente «Angelegenheiten der
+        Entwicklungszusammenarbeit sowie Koordination der internationalen Entwicklungspolitik»,
+        motivo por el que se etiqueta cooperación al desarrollo y por el que Austria no tiene
+        ministerio de Cooperación separado. El segundo es la desregulación y la
+        desburocratización, que nada tiene que ver con la acción exterior y es la razón de que
+        se etiquete aquí administración pública además de en la Cancillería; a quien le
+        sorprenda conviene recordarle que es uno de los dos únicos puntos de la sección, así que
+        no puede despacharse como accesorio. Los asuntos europeos se comparten con la
+        Cancillería por diseño: el Anexo da a la Cancillería la coordinación de los asuntos de
+        la Unión y a este ministerio la representación de los intereses austriacos en ella, cada
+        uno de acuerdo con el otro.
 
   - id: AT-2025-arbeit-soziales-gesundheit-pflege-konsumentenschutz
     order: 4
@@ -930,7 +928,7 @@ entities:
         narrowest section in the Annex: coordination of early-childhood pedagogy, the school
         system including kindergartens and after-school care, the teacher-training
         Pädagogische Hochschulen, school foundations and school mobility programmes. Only
-        `education` is tagged even though the Pädagogische Hochschulen are formally tertiary
+        school education is tagged even though the Pädagogische Hochschulen are formally tertiary
         institutions, because tagging higher_education here would make Austria appear to have
         two higher-education ministries when the universities are unambiguously elsewhere.
         Vocational training is not tagged either: apprenticeship training is assigned by the
@@ -942,7 +940,7 @@ entities:
         queda es la sección más estrecha del Anexo: coordinación de la pedagogía infantil, el
         sistema escolar incluidas guarderías y centros de día, las Pädagogische Hochschulen
         de formación del profesorado, las fundaciones escolares y los programas escolares de
-        movilidad. Se etiqueta sólo `education` aunque las Pädagogische Hochschulen sean
+        movilidad. Se etiqueta sólo educación escolar aunque las Pädagogische Hochschulen sean
         formalmente instituciones terciarias, porque etiquetar aquí higher_education haría
         parecer que Austria tiene dos ministerios de universidades cuando estas están sin
         ambigüedad en otro. Tampoco se etiqueta formación profesional: el Anexo asigna la
@@ -971,8 +969,8 @@ entities:
         federal budget and banking, capital-market and insurance supervision, item 5 gives it
         general economic policy "soweit sie nicht in die Zuständigkeit eines anderen
         Bundesministeriums fallen", item 7 the administration and disposal of federal
-        property, and item 15 mining. `economy` is therefore tagged here as well as on the
-        economy ministry, and `state_assets` here as well as there: in Austria the general
+        property, and item 15 mining. economy is therefore tagged here as well as on the
+        economy ministry, and state assets and privatisation here as well as there: in Austria the general
         and the sectoral halves of economic policy, and the property and the enterprise
         halves of state ownership, sit in different departments. Mining is the tag most
         likely to look like a mistake and is not one — "Angelegenheiten des Bergwesens" has
@@ -985,7 +983,7 @@ entities:
         seguros, el punto 5 le da la política económica general «soweit sie nicht in die
         Zuständigkeit eines anderen Bundesministeriums fallen», el punto 7 la administración
         y disposición del patrimonio federal y el punto 15 la minería. Por eso se etiqueta
-        aquí `economy` además de en el ministerio de Economía, y `state_assets` aquí además
+        aquí economía además de en el ministerio de Economía, y patrimonio estatal y privatizaciones aquí además
         de allí: en Austria las mitades general y sectorial de la política económica, y las
         mitades patrimonial y empresarial de la propiedad estatal, residen en departamentos
         distintos. La minería es la etiqueta que más parece un error y no lo es: las
@@ -1010,32 +1008,31 @@ entities:
     sources: [ris-bmg-1986-p1, ris-bmg-1986-anlage, bgbl-2025-i-10-bmg-novelle, bka-bundesministerien, bka-mitglieder-bundesregierung]
     note:
       en: >-
-        A new department, created by the Bundesministeriengesetz-Novelle 2025 with effect
-        from 1 April 2025 and inserted into § 1 Abs. 1 as item 7, which is why valid_from is
-        set. It joins two remits that were previously apart: women's and equal-treatment
-        policy, which had been run from the Bundeskanzleramt, and universities and research,
-        which came from the former Bundesministerium für Bildung, Wissenschaft und
-        Forschung. Its minister was one of the two sworn in provisionally without a portfolio
-        on 3 March 2025, because this department did not exist for the cabinet's first four
-        weeks. Higher education covers the public universities, the private universities and
-        the Fachhochschulen; research covers the Austrian Science Fund and the Academy of
-        Sciences. Equality is tagged first because the ministry's name puts "Frauen" first
-        and because the Annex gives it the Gleichbehandlungskommission and the equal
-        treatment ombuds office as items of their own.
+        A new department, created by the Bundesministeriengesetz-Novelle 2025 with effect from 1
+        April 2025 and inserted into § 1 Abs. 1 as item 7, which is why it carries a start date.
+        It joins two remits that were previously apart: women's and equal-treatment policy,
+        which had been run from the Bundeskanzleramt, and universities and research, which came
+        from the former Bundesministerium für Bildung, Wissenschaft und Forschung. Its minister
+        was one of the two sworn in provisionally without a portfolio on 3 March 2025, because
+        this department did not exist for the cabinet's first four weeks. Higher education
+        covers the public universities, the private universities and the Fachhochschulen;
+        research covers the Austrian Science Fund and the Academy of Sciences. Equality is
+        tagged first because the ministry's name puts "Frauen" first and because the Annex gives
+        it the Gleichbehandlungskommission and the equal treatment ombuds office as items of
+        their own.
       es: >-
-        Departamento nuevo, creado por la Bundesministeriengesetz-Novelle 2025 con efecto
-        desde el 1 de abril de 2025 e insertado en el § 1 Abs. 1 como punto 7, y por eso
-        lleva valid_from. Reúne dos ámbitos antes separados: la política de mujeres e
-        igualdad de trato, que se dirigía desde el Bundeskanzleramt, y las universidades y la
-        investigación, procedentes del anterior Bundesministerium für Bildung, Wissenschaft
-        und Forschung. Su titular fue una de las dos juramentadas provisionalmente sin
-        cartera el 3 de marzo de 2025, porque este departamento no existió durante las
-        primeras cuatro semanas del gabinete. Universidades abarca las universidades
-        públicas, las privadas y las Fachhochschulen; investigación abarca el Fondo
-        Austriaco de Ciencia y la Academia de Ciencias. La igualdad se etiqueta primero
-        porque el nombre del ministerio pone «Frauen» delante y porque el Anexo le asigna la
-        Gleichbehandlungskommission y la defensoría de la igualdad de trato como puntos
-        propios.
+        Departamento nuevo, creado por la Bundesministeriengesetz-Novelle 2025 con efecto desde
+        el 1 de abril de 2025 e insertado en el § 1 Abs. 1 como punto 7, y por eso lleva fecha
+        de inicio propia. Reúne dos ámbitos antes separados: la política de mujeres e igualdad
+        de trato, que se dirigía desde el Bundeskanzleramt, y las universidades y la
+        investigación, procedentes del anterior Bundesministerium für Bildung, Wissenschaft und
+        Forschung. Su titular fue una de las dos juramentadas provisionalmente sin cartera el 3
+        de marzo de 2025, porque este departamento no existió durante las primeras cuatro
+        semanas del gabinete. Universidades abarca las universidades públicas, las privadas y
+        las Fachhochschulen; investigación abarca el Fondo Austriaco de Ciencia y la Academia de
+        Ciencias. La igualdad se etiqueta primero porque el nombre del ministerio pone «Frauen»
+        delante y porque el Anexo le asigna la Gleichbehandlungskommission y la defensoría de la
+        igualdad de trato como puntos propios.
 
   - id: AT-2025-inneres
     order: 8
@@ -1054,33 +1051,32 @@ entities:
     sources: [ris-bmg-1986-p1, ris-bmg-1986-anlage, bka-bundesministerien]
     note:
       en: >-
-        Named as it was before the 2025 amendment, hence no valid_from. Item 1 of section H
-        carries policing and public security and, within the same item, "Aufenthaltsverbot,
-        Ausweisung und Abschiebung; Asyl", the rescue services and the fire brigades,
-        national crisis and disaster-response coordination, international disaster relief and
-        civil defence — which is why migration and civil protection are both tagged here
-        rather than anywhere else. Territorial administration follows items 7 and 8, the
+        Named as it was before the 2025 amendment, hence no start date of its own. Item 1 of
+        section H carries policing and public security and, within the same item,
+        "Aufenthaltsverbot, Ausweisung und Abschiebung; Asyl", the rescue services and the fire
+        brigades, national crisis and disaster-response coordination, international disaster
+        relief and civil defence — which is why migration and civil protection are both tagged
+        here rather than anywhere else. Territorial administration follows items 7 and 8, the
         organisation of the internal administration in the Länder and the affairs of the
         municipalities. Historical memory follows items 10 and 11: the care of war graves and
         the running of the Mauthausen concentration-camp memorial, a competence that in Spain
         sits in a ministry named for democratic memory and in Austria sits with the police
-        ministry. Elections are also run from here, under item 6, and are untagged only
-        because the project's vocabulary has no id for electoral administration.
+        ministry. Elections are also run from here, under item 6, and are untagged only because
+        the project's vocabulary has no id for electoral administration.
       es: >-
-        Con el mismo nombre que antes de la reforma de 2025, de ahí que no lleve valid_from.
-        El punto 1 de la sección H lleva la policía y la seguridad pública y, dentro del
+        Con el mismo nombre que antes de la reforma de 2025, de ahí que no lleve fecha de inicio
+        propia. El punto 1 de la sección H lleva la policía y la seguridad pública y, dentro del
         mismo punto, «Aufenthaltsverbot, Ausweisung und Abschiebung; Asyl», los servicios de
         rescate y los bomberos, la coordinación estatal de crisis y catástrofes, la ayuda
-        internacional en catástrofes y la protección civil: por eso migración y protección
-        civil se etiquetan aquí y no en otro sitio. La administración territorial sigue a los
-        puntos 7 y 8, la organización de la administración interior en los Länder y los
-        asuntos de los municipios. La memoria histórica sigue a los puntos 10 y 11: el
-        cuidado de las tumbas de guerra y la gestión del memorial del campo de concentración
-        de Mauthausen, competencia que en España reside en un ministerio que lleva la memoria
-        democrática en el nombre y en Austria reside en el ministerio de la policía. Las
-        elecciones también se dirigen desde aquí, por el punto 6, y quedan sin etiquetar sólo
-        porque el vocabulario del proyecto no tiene identificador para la administración
-        electoral.
+        internacional en catástrofes y la protección civil: por eso migración y protección civil
+        se etiquetan aquí y no en otro sitio. La administración territorial sigue a los puntos 7
+        y 8, la organización de la administración interior en los Länder y los asuntos de los
+        municipios. La memoria histórica sigue a los puntos 10 y 11: el cuidado de las tumbas de
+        guerra y la gestión del memorial del campo de concentración de Mauthausen, competencia
+        que en España reside en un ministerio que lleva la memoria democrática en el nombre y en
+        Austria reside en el ministerio de la policía. Las elecciones también se dirigen desde
+        aquí, por el punto 6, y quedan sin etiquetar sólo porque el vocabulario del proyecto no
+        tiene identificador para la administración electoral.
 
   - id: AT-2025-innovation-mobilitaet-infrastruktur
     order: 9
@@ -1148,7 +1144,7 @@ entities:
         Named as it was before the 2025 amendment. Section J is long but single-subject:
         civil law, criminal law, the courts, the public prosecution service, enforcement,
         insolvency, the prisons, the bar and the notariat, court fees, and the legal aspects
-        of public procurement and of data protection. Only `justice` is tagged, because every
+        of public procurement and of data protection. Only justice is tagged, because every
         item is an aspect of the administration of justice; the prosecution service is part
         of this department in Austria rather than an independent body, which is worth knowing
         when comparing with countries where it is not.
@@ -1157,7 +1153,7 @@ entities:
         monotemática: derecho civil, derecho penal, los tribunales, el ministerio fiscal, la
         ejecución, la insolvencia, las prisiones, la abogacía y el notariado, las tasas
         judiciales y los aspectos jurídicos de la contratación pública y de la protección de
-        datos. Se etiqueta sólo `justice`, porque todos los puntos son aspectos de la
+        datos. Se etiqueta sólo justicia, porque todos los puntos son aspectos de la
         administración de justicia; en Austria la fiscalía forma parte de este departamento y
         no es un organismo independiente, lo que conviene saber al comparar con países donde
         no es así.
@@ -1245,7 +1241,7 @@ entities:
         followed by a list of particulars covering the Bundesheer's constitutional tasks,
         its operational command, military aviation, armament and procurement, military
         medicine, the attaché service, the Heeresgeschichtliches Museum and the European
-        Defence Agency. Only `defence` is tagged. Note that Austria's alternative civilian
+        Defence Agency. Only defence is tagged. Note that Austria's alternative civilian
         service, the Zivildienst, is not here but in the Bundeskanzleramt, and conscription
         policy therefore straddles two departments.
       es: >-
@@ -1254,7 +1250,7 @@ entities:
         de una relación de particulares que cubre las tareas constitucionales del Bundesheer,
         su mando operativo, la aviación militar, el armamento y la adquisición, la medicina
         militar, el servicio de agregados, el Heeresgeschichtliches Museum y la Agencia
-        Europea de Defensa. Se etiqueta sólo `defence`. Nótese que el servicio civil
+        Europea de Defensa. Se etiqueta sólo defensa. Nótese que el servicio civil
         sustitutorio austriaco, el Zivildienst, no está aquí sino en el Bundeskanzleramt, de
         modo que la política de reclutamiento se reparte entre dos departamentos.
 
@@ -1328,49 +1324,47 @@ entities:
         this is the second half of the Austrian Chancellery problem, and it is what makes 13
         ministries coexist with 14 cabinet seats even though the Chancellery is counted. The
         mechanism is § 1 Abs. 2 BMG and Article 77 Abs. 3 B-VG: the Federal President may
-        transfer the sachliche Leitung of specified matters belonging to the Chancellery's
-        remit to a separate federal minister, who then holds "die Stellung eines zuständigen
+        transfer the sachliche Leitung of specified matters belonging to the Chancellery's remit
+        to a separate federal minister, who then holds "die Stellung eines zuständigen
         Bundesministers" for them while the matters remain part of the Chancellery. That
         transfer was made by Entschließung of 8 April 2025, BGBl. II Nr. 62/2025, covering
         European coordination, religious affairs, national minorities, family, youth,
         integration and the Zivildienst. She is recorded as an entity rather than folded into
-        the Bundeskanzleramt because she is a distinct person holding a distinct
-        appointment; folding her in would have required head_count 2 on the Chancellery and
-        would have hidden a real office. She is classified minister_without_portfolio rather
-        than head_of_government_office because the Chancellor's own seat is already recorded
-        on the Bundeskanzleramt, and because § 1 Abs. 1 does not list her office as a
-        fourteenth Bundesministerium — her matters are the Chancellery's. No policy area is
-        tagged, because areas are counted only for counted ministries; the areas she runs are
-        tagged on the Bundeskanzleramt, which is where the Annex puts them. valid_from is
-        deliberately left null even though the Entschließung took effect on 8 April 2025: she
-        was appointed a federal minister on 3 March 2025, one of the two sworn in
-        provisionally without a portfolio, so her cabinet seat runs from the swearing-in, and
-        a valid_from of April would make a replay of March 2025 understate the seats. What
-        began in April is the title recorded here, not the seat.
+        the Bundeskanzleramt because she is a distinct person holding a distinct appointment;
+        folding her in would have meant recording two heads on the Chancellery and would have
+        hidden a real office. She is classified minister_without_portfolio rather than
+        head_of_government_office because the Chancellor's own seat is already recorded on the
+        Bundeskanzleramt, and because § 1 Abs. 1 does not list her office as a fourteenth
+        Bundesministerium — her matters are the Chancellery's. No policy area is tagged, because
+        areas are counted only for counted ministries; the areas she runs are tagged on the
+        Bundeskanzleramt, which is where the Annex puts them. The start date is deliberately
+        left empty even though the Entschließung took effect on 8 April 2025: she was appointed
+        a federal minister on 3 March 2025, one of the two sworn in provisionally without a
+        portfolio, so her cabinet seat runs from the swearing-in, and an April start date would make a reconstruction of March 2025 understate the seats. What began in April is the title
+        recorded here, not the seat.
       es: >-
-        Miembro pleno de la Bundesregierung con asiento en el gabinete y sin ministerio
-        propio: esta es la segunda mitad del problema austriaco de la Cancillería, y es lo
-        que hace que 13 ministerios convivan con 14 asientos aunque la Cancillería sí se
-        cuente. El mecanismo es el § 1 Abs. 2 BMG y el artículo 77 Abs. 3 B-VG: el presidente
-        federal puede transferir la sachliche Leitung de determinadas materias del ámbito de
-        la Cancillería a una ministra federal propia, que pasa a tener respecto de ellas «die
-        Stellung eines zuständigen Bundesministers» mientras las materias siguen siendo de la
-        Cancillería. Esa transferencia se hizo por Entschließung del 8 de abril de 2025, BGBl.
-        II Nr. 62/2025, y abarca la coordinación europea, los asuntos religiosos, los grupos
-        étnicos, la familia, la juventud, la integración y el Zivildienst. Se registra como
-        entidad y no se integra en el Bundeskanzleramt porque es una persona distinta con un
-        nombramiento distinto; integrarla habría exigido head_count 2 en la Cancillería y
-        habría ocultado un cargo real. Se clasifica como minister_without_portfolio y no como
-        head_of_government_office porque el asiento propio del canciller ya está registrado
-        en el Bundeskanzleramt y porque el § 1 Abs. 1 no enumera su cargo como decimocuarto
+        Miembro pleno de la Bundesregierung con asiento en el gabinete y sin ministerio propio:
+        esta es la segunda mitad del problema austriaco de la Cancillería, y es lo que hace que
+        13 ministerios convivan con 14 asientos aunque la Cancillería sí se cuente. El mecanismo
+        es el § 1 Abs. 2 BMG y el artículo 77 Abs. 3 B-VG: el presidente federal puede
+        transferir la sachliche Leitung de determinadas materias del ámbito de la Cancillería a
+        una ministra federal propia, que pasa a tener respecto de ellas «die Stellung eines
+        zuständigen Bundesministers» mientras las materias siguen siendo de la Cancillería. Esa
+        transferencia se hizo por Entschließung del 8 de abril de 2025, BGBl. II Nr. 62/2025, y
+        abarca la coordinación europea, los asuntos religiosos, los grupos étnicos, la familia,
+        la juventud, la integración y el Zivildienst. Se registra como entidad y no se integra
+        en el Bundeskanzleramt porque es una persona distinta con un nombramiento distinto;
+        integrarla habría exigido registrar dos titulares en la Cancillería y habría ocultado un
+        cargo real. Se clasifica como minister_without_portfolio y no como
+        head_of_government_office porque el asiento propio del canciller ya está registrado en
+        el Bundeskanzleramt y porque el § 1 Abs. 1 no enumera su cargo como decimocuarto
         Bundesministerium: sus materias son las de la Cancillería. No se etiqueta ninguna área
-        de política, porque las áreas sólo cuentan para los ministerios contados; las áreas
-        que ella dirige se etiquetan en el Bundeskanzleramt, que es donde las sitúa el Anexo.
-        valid_from se deja deliberadamente en null aunque la Entschließung entrase en vigor el
-        8 de abril de 2025: fue nombrada ministra federal el 3 de marzo de 2025, una de las
+        de política, porque las áreas sólo cuentan para los ministerios contados; las áreas que
+        ella dirige se etiquetan en el Bundeskanzleramt, que es donde las sitúa el Anexo. La
+        fecha de inicio se deja deliberadamente vacía aunque la Entschließung entrase en vigor
+        el 8 de abril de 2025: fue nombrada ministra federal el 3 de marzo de 2025, una de las
         dos juramentadas provisionalmente sin cartera, así que su asiento corre desde la
-        juramentación, y un valid_from de abril haría que una reconstrucción de marzo de 2025
-        subestimase los asientos. Lo que empezó en abril es el título aquí registrado, no el
+        juramentación, y una fecha de inicio en abril haría que una reconstrucción de marzo de 2025 subestimase los asientos. Lo que empezó en abril es el título aquí registrado, no el
         asiento.
 
   # --- recorded, not counted: the seven Staatssekretäre -------------------------------
@@ -1603,13 +1597,13 @@ entities:
         Item 2 of § 1 Abs. 1 BMG until 31 March 2025. From 1 April 2025 the same department
         continues as the Bundesministerium für Wohnen, Kunst, Kultur, Medien und Sport, minus
         the civil service, which went to the Bundeskanzleramt, and plus housing and media.
-        Recorded for the historical record, with no seat because this file does not
+        Recorded for the historical record, with no seat because this page does not
         reconstruct the March 2025 allocation of ministers.
       es: >-
         Punto 2 del § 1 Abs. 1 BMG hasta el 31 de marzo de 2025. Desde el 1 de abril de 2025
         el mismo departamento continúa como Bundesministerium für Wohnen, Kunst, Kultur,
         Medien und Sport, menos la función pública, que pasó al Bundeskanzleramt, y más
-        vivienda y medios. Se registra para el histórico, sin asiento porque este fichero no
+        vivienda y medios. Se registra para el histórico, sin asiento porque esta ficha no
         reconstruye el reparto de ministros de marzo de 2025.
 
   - id: AT-2025-arbeit-und-wirtschaft
