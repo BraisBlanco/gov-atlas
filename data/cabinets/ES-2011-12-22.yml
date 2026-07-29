@@ -1,0 +1,390 @@
+# Spain — government structure of the X legislature (2011-2016).
+#
+# Thirteen departments, the smallest cabinet in the Spanish series, and the longest-lived
+# structure in it: the same thirteen stood for nearly five years, through the caretaker period
+# that followed the inconclusive election of December 2015.
+
+country: ES
+cabinet_id: ES-2011-12-22
+
+cabinet_name_original: Gobierno de España, X Legislatura
+cabinet_name_en: Government of Spain, 10th legislature
+cabinet_name_es: Gobierno de España, X Legislatura
+
+head_of_government_title_original: Presidente del Gobierno
+head_of_government_title_en: Prime Minister
+
+took_office: 2011-12-22
+left_office: 2016-11-03
+
+methodology_notes:
+  - en: >-
+      Thirteen ministerial departments, down from fifteen. This is the fewest in the Spanish
+      series and the result of merging rather than abolishing: finance took public
+      administration, education took culture and sport, agriculture took the environment, and
+      health took social services and equality.
+    es: >-
+      Trece departamentos ministeriales, frente a los quince anteriores. Es la cifra más baja
+      de la serie española y resultado de fusionar, no de suprimir: Hacienda asumió las
+      administraciones públicas, Educación la cultura y el deporte, Agricultura el medio
+      ambiente, y Sanidad los servicios sociales y la igualdad.
+  - en: >-
+      Fourteen seats against thirteen departments: the Prime Minister holds a seat without
+      heading a department. This government had a single vice-president, who also headed the
+      Presidency department, and no minister was appointed without a portfolio.
+    es: >-
+      Catorce asientos frente a trece departamentos: el presidente del Gobierno ocupa un
+      asiento sin encabezar departamento. Este Gobierno tuvo una sola vicepresidencia, que
+      encabezaba además el departamento de la Presidencia, y ningún ministro fue nombrado sin
+      cartera.
+  - en: >-
+      The structure was never amended. The decree that created it was replaced only in
+      November 2016, so these thirteen departments cover the whole term including the eleven
+      months this government spent in a caretaker capacity after the December 2015 election.
+    es: >-
+      La estructura no se modificó nunca. El decreto que la creó no fue sustituido hasta
+      noviembre de 2016, de modo que estos trece departamentos abarcan toda la legislatura,
+      incluidos los once meses que este Gobierno estuvo en funciones tras las elecciones de
+      diciembre de 2015.
+
+sources:
+  - id: boe-rd-1823-2011
+    tier: 1
+    type: official_gazette
+    publisher: Boletín Oficial del Estado
+    title: >-
+      Real Decreto 1823/2011, de 21 de diciembre, por el que se reestructuran los
+      departamentos ministeriales
+    url: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19939
+    archive_url: https://web.archive.org/web/20251015061625/https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19939
+    lang: es
+    published: 2011-12-22
+    accessed: 2026-07-29
+    quote: |-
+      Artículo 1. Departamentos ministeriales.
+      La Administración General del Estado se estructura en los siguientes departamentos ministeriales:
+      Ministerio de Asuntos Exteriores y de Cooperación.
+      Ministerio de Justicia.
+      Ministerio de Defensa.
+      Ministerio de Hacienda y Administraciones Públicas.
+      Ministerio del Interior.
+      Ministerio de Fomento.
+      Ministerio de Educación, Cultura y Deporte.
+      Ministerio de Empleo y Seguridad Social.
+      Ministerio de Industria, Energía y Turismo.
+      Ministerio de Agricultura, Alimentación y Medio Ambiente.
+      Ministerio de la Presidencia.
+      Ministerio de Economía y Competitividad.
+      Ministerio de Sanidad, Servicios Sociales e Igualdad.
+    note: >-
+      The text as published, in force the same day. The gazette records no amendment to it: it
+      was superseded outright by the restructuring of November 2016, which is why this
+      enumeration describes the entire term.
+
+  - id: boe-rd-1826-2011
+    tier: 1
+    type: official_gazette
+    publisher: Boletín Oficial del Estado
+    title: >-
+      Real Decreto 1826/2011, de 21 de diciembre, por el que se nombran Ministros del Gobierno
+    url: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19942
+    archive_url: https://web.archive.org/web/20260226021006/https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-19942
+    lang: es
+    published: 2011-12-22
+    accessed: 2026-07-29
+    quote: |-
+      Ministro de Hacienda y Administraciones Públicas a don Cristóbal Montoro Romero.
+      Ministra de la Presidencia a doña María Soraya Sáenz de Santamaría Antón.
+      Ministro de Economía y Competitividad a don Luis de Guindos Jurado.
+      Ministra de Sanidad, Servicios Sociales e Igualdad a doña Ana Mato Adrover.
+    note: >-
+      Thirteen ministers for thirteen departments, one each and none without a portfolio,
+      which is what makes the seat count fourteen once the Prime Minister is added. The quote
+      includes the appointment of the sole vice-president, named the same day, to the
+      Presidency department.
+
+  - id: boe-ley-50-1997
+    tier: 1
+    type: statute
+    publisher: Boletín Oficial del Estado
+    title: Ley 50/1997, de 27 de noviembre, del Gobierno (texto consolidado)
+    url: https://www.boe.es/buscar/act.php?id=BOE-A-1997-25336
+    archive_url: https://web.archive.org/web/20260716135650/https://www.boe.es/buscar/act.php?id=BOE-A-1997-25336
+    lang: es
+    published: 1997-11-28
+    accessed: 2026-07-29
+    quote: >-
+      El Gobierno se compone del Presidente, del Vicepresidente o Vicepresidentes, en su
+      caso, y de los Ministros.
+    note: >-
+      Cited for the composition of the Government, which is what makes the Prime Minister's
+      seat a matter of statute rather than of interpretation.
+
+entities:
+  - id: ES-2011-asuntos-exteriores
+    order: 1
+    name_original: Ministerio de Asuntos Exteriores y de Cooperación
+    abbreviation_original: MAEC
+    name_en: Ministry of Foreign Affairs and Cooperation
+    name_es: Ministerio de Asuntos Exteriores y de Cooperación
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [foreign_affairs, development_cooperation, european_affairs]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-1823-2011]
+
+  - id: ES-2011-justicia
+    order: 2
+    name_original: Ministerio de Justicia
+    abbreviation_original: null
+    name_en: Ministry of Justice
+    name_es: Ministerio de Justicia
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [justice]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-1823-2011]
+
+  - id: ES-2011-defensa
+    order: 3
+    name_original: Ministerio de Defensa
+    abbreviation_original: null
+    name_en: Ministry of Defence
+    name_es: Ministerio de Defensa
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [defence]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-1823-2011]
+
+  - id: ES-2011-hacienda-administraciones-publicas
+    order: 4
+    name_original: Ministerio de Hacienda y Administraciones Públicas
+    abbreviation_original: MINHAP
+    name_en: Ministry of Finance and Public Administration
+    name_es: Ministerio de Hacienda y Administraciones Públicas
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [finance, budget, public_administration, territorial_administration]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-1823-2011]
+    note:
+      en: >-
+        Absorbed the public administration department, which had existed on its own since
+        1996. From this point the civil service is attached to finance for most of the series,
+        and it moves between finance, territorial policy and digital transformation
+        thereafter.
+      es: >-
+        Absorbió el departamento de Administraciones Públicas, que existía por separado desde
+        1996. Desde aquí la función pública queda adscrita a Hacienda durante buena parte de
+        la serie, y después se mueve entre Hacienda, Política Territorial y Transformación
+        Digital.
+
+  - id: ES-2011-interior
+    order: 5
+    name_original: Ministerio del Interior
+    abbreviation_original: null
+    name_en: Ministry of the Interior
+    name_es: Ministerio del Interior
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [interior, civil_protection]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-1823-2011]
+
+  - id: ES-2011-fomento
+    order: 6
+    name_original: Ministerio de Fomento
+    abbreviation_original: null
+    name_en: Ministry of Public Works
+    name_es: Ministerio de Fomento
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [infrastructure, transport, shipping, housing]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-1823-2011]
+
+  - id: ES-2011-educacion-cultura-deporte
+    order: 7
+    name_original: Ministerio de Educación, Cultura y Deporte
+    abbreviation_original: null
+    name_en: Ministry of Education, Culture and Sport
+    name_es: Ministerio de Educación, Cultura y Deporte
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [education, higher_education, culture, sport]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-1823-2011]
+
+  - id: ES-2011-empleo-seguridad-social
+    order: 8
+    name_original: Ministerio de Empleo y Seguridad Social
+    abbreviation_original: null
+    name_en: Ministry of Employment and Social Security
+    name_es: Ministerio de Empleo y Seguridad Social
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [labour, social_security, migration]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-1823-2011]
+
+  - id: ES-2011-industria-energia-turismo
+    order: 9
+    name_original: Ministerio de Industria, Energía y Turismo
+    abbreviation_original: null
+    name_en: Ministry of Industry, Energy and Tourism
+    name_es: Ministerio de Industria, Energía y Turismo
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [industry, energy, tourism, telecommunications]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-1823-2011]
+
+  - id: ES-2011-agricultura-alimentacion-medio-ambiente
+    order: 10
+    name_original: Ministerio de Agricultura, Alimentación y Medio Ambiente
+    abbreviation_original: MAGRAMA
+    name_en: Ministry of Agriculture, Food and the Environment
+    name_es: Ministerio de Agricultura, Alimentación y Medio Ambiente
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [agriculture, fisheries, food_safety, environment, water, rural_development]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-1823-2011]
+    note:
+      en: >-
+        The environment lost its own department here, fifteen years after gaining one, and was
+        attached to agriculture until 2018. Note that fisheries stays with it even though the
+        name drops the word.
+      es: >-
+        El medio ambiente perdió aquí su departamento propio, quince años después de
+        obtenerlo, y quedó adscrito a Agricultura hasta 2018. Conviene notar que la pesca
+        sigue en él aunque el nombre omita la palabra.
+
+  - id: ES-2011-presidencia
+    order: 11
+    name_original: Ministerio de la Presidencia
+    abbreviation_original: null
+    name_en: Ministry of the Presidency
+    name_es: Ministerio de la Presidencia
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [government_coordination, parliamentary_relations]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-1823-2011, boe-rd-1826-2011]
+    note:
+      en: >-
+        A full ministerial department, and not to be confused with the Presidency of the
+        Government further down this list.
+      es: >-
+        Departamento ministerial completo, que no debe confundirse con la Presidencia del
+        Gobierno que aparece más abajo.
+
+  - id: ES-2011-economia-competitividad
+    order: 12
+    name_original: Ministerio de Economía y Competitividad
+    abbreviation_original: MINECO
+    name_en: Ministry of Economy and Competitiveness
+    name_es: Ministerio de Economía y Competitividad
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [economy, trade, research, innovation]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-1823-2011]
+    note:
+      en: >-
+        Research sits with economic policy for this term and the next, rather than with
+        education or in a department of its own. It returned to a science department in 2018.
+      es: >-
+        La investigación acompaña a la política económica en esta legislatura y en la
+        siguiente, en lugar de a la educación o de tener departamento propio. Volvió a un
+        departamento de ciencia en 2018.
+
+  - id: ES-2011-sanidad-servicios-sociales-igualdad
+    order: 13
+    name_original: Ministerio de Sanidad, Servicios Sociales e Igualdad
+    abbreviation_original: null
+    name_en: Ministry of Health, Social Services and Equality
+    name_es: Ministerio de Sanidad, Servicios Sociales e Igualdad
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [health, social_affairs, equality, consumer_protection]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-1823-2011]
+
+  # --- recorded, not counted -----------------------------------------------------------
+  - id: ES-2011-presidencia-del-gobierno
+    order: 14
+    name_original: Presidencia del Gobierno
+    abbreviation_original: null
+    name_en: Office of the Prime Minister
+    name_es: Presidencia del Gobierno
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Presidente del Gobierno
+    head_title_en: Prime Minister
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: head_of_government_office
+    url: null
+    sources: [boe-ley-50-1997, boe-rd-1826-2011]
+    note:
+      en: >-
+        The Prime Minister's own office, and the apex of the cabinet rather than a portfolio
+        department. Recorded because it holds a seat.
+      es: >-
+        La oficina del propio presidente del Gobierno, cúspide del gabinete y no un
+        departamento con cartera. Se registra porque ocupa un asiento.

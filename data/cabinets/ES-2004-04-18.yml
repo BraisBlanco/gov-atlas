@@ -1,0 +1,449 @@
+# Spain — government structure of the VIII legislature (2004-2008).
+#
+# Sixteen departments, and the term that re-merged economy with finance and gave housing a
+# department of its own for the first time.
+
+country: ES
+cabinet_id: ES-2004-04-18
+
+cabinet_name_original: Gobierno de España, VIII Legislatura
+cabinet_name_en: Government of Spain, 8th legislature
+cabinet_name_es: Gobierno de España, VIII Legislatura
+
+head_of_government_title_original: Presidente del Gobierno
+head_of_government_title_en: Prime Minister
+
+took_office: 2004-04-18
+left_office: 2008-04-13
+
+methodology_notes:
+  - en: >-
+      Sixteen ministerial departments. The restructuring reversed two of the changes made in
+      2000 — economy and finance were merged back into one department and science and
+      technology was abolished, with research returning to education — while creating a
+      Ministry of Housing and restoring a separate Ministry of Culture.
+    es: >-
+      Dieciséis departamentos ministeriales. La reestructuración revirtió dos de los cambios
+      de 2000 —Economía y Hacienda volvieron a un solo departamento y se suprimió Ciencia y
+      Tecnología, con la investigación de vuelta a Educación— al tiempo que creaba un
+      Ministerio de Vivienda y restablecía un Ministerio de Cultura propio.
+  - en: >-
+      Seventeen seats against sixteen departments: the Prime Minister holds a seat without
+      heading a department. Both vice-presidents were serving ministers — the first also
+      headed the Presidency department and the second economy and finance — and no minister
+      was appointed without a portfolio.
+    es: >-
+      Diecisiete asientos frente a dieciséis departamentos: el presidente del Gobierno ocupa
+      un asiento sin encabezar departamento. Las dos vicepresidencias las ostentaron
+      ministros en ejercicio —la primera encabezaba además el departamento de la Presidencia
+      y el segundo Economía y Hacienda— y ningún ministro fue nombrado sin cartera.
+
+sources:
+  - id: boe-rd-553-2004
+    tier: 1
+    type: official_gazette
+    publisher: Boletín Oficial del Estado
+    title: >-
+      Real Decreto 553/2004, de 17 de abril, por el que se reestructuran los departamentos
+      ministeriales
+    url: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2004-6888
+    archive_url: https://web.archive.org/web/20231227125737/https://www.boe.es/diario_boe/txt.php?id=BOE-A-2004-6888
+    lang: es
+    published: 2004-04-18
+    accessed: 2026-07-29
+    quote: |-
+      Artículo 1. Departamentos ministeriales.
+      La Administración General del Estado queda estructurada en los siguientes departamentos ministeriales:
+      Ministerio de Asuntos Exteriores y de Cooperación.
+      Ministerio de Justicia.
+      Ministerio de Defensa.
+      Ministerio de Economía y Hacienda.
+      Ministerio del Interior.
+      Ministerio de Fomento.
+      Ministerio de Educación y Ciencia.
+      Ministerio de Trabajo y Asuntos Sociales.
+      Ministerio de Industria, Turismo y Comercio.
+      Ministerio de Agricultura, Pesca y Alimentación.
+      Ministerio de la Presidencia.
+      Ministerio de Administraciones Públicas.
+      Ministerio de Cultura.
+      Ministerio de Sanidad y Consumo.
+      Ministerio de Medio Ambiente.
+      Ministerio de Vivienda.
+    note: >-
+      The text as published, in force the same day. A later decree of September 2006 amended
+      the internal structure of the foreign affairs department without touching this
+      enumeration, so the sixteen departments stood for the whole term.
+
+  - id: boe-rd-558-2004
+    tier: 1
+    type: official_gazette
+    publisher: Boletín Oficial del Estado
+    title: >-
+      Real Decreto 558/2004, de 17 de abril, por el que se nombran Ministros del Gobierno
+    url: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2004-6893
+    archive_url: https://web.archive.org/web/20240603024735/https://www.boe.es/diario_boe/txt.php?id=BOE-A-2004-6893
+    lang: es
+    published: 2004-04-18
+    accessed: 2026-07-29
+    quote: |-
+      Ministro de Economía y Hacienda a don Pedro Solbes Mira.
+      Ministra de la Presidencia a doña María Teresa Fernández de la Vega Sanz.
+      Ministra de Cultura a doña Carmen Calvo Poyato.
+      Ministra de Sanidad y Consumo a doña Elena Salgado Méndez.
+      Ministra de Medio Ambiente a doña Cristina Narbona Ruiz.
+      Ministra de Vivienda a doña María Antonia Trujillo Rincón.
+    note: >-
+      Sixteen ministers for sixteen departments, one each and none without a portfolio, which
+      is what makes the seat count seventeen once the Prime Minister is added. The quote
+      picks out the appointments of the two vice-presidents named the same day, who headed
+      economy and finance and the Presidency, along with the departments new to this term.
+
+  - id: boe-ley-50-1997
+    tier: 1
+    type: statute
+    publisher: Boletín Oficial del Estado
+    title: Ley 50/1997, de 27 de noviembre, del Gobierno (texto consolidado)
+    url: https://www.boe.es/buscar/act.php?id=BOE-A-1997-25336
+    archive_url: https://web.archive.org/web/20260716135650/https://www.boe.es/buscar/act.php?id=BOE-A-1997-25336
+    lang: es
+    published: 1997-11-28
+    accessed: 2026-07-29
+    quote: >-
+      El Gobierno se compone del Presidente, del Vicepresidente o Vicepresidentes, en su
+      caso, y de los Ministros.
+    note: >-
+      Cited for the composition of the Government, which is what makes the Prime Minister's
+      seat a matter of statute rather than of interpretation.
+
+entities:
+  - id: ES-2004-asuntos-exteriores
+    order: 1
+    name_original: Ministerio de Asuntos Exteriores y de Cooperación
+    abbreviation_original: MAEC
+    name_en: Ministry of Foreign Affairs and Cooperation
+    name_es: Ministerio de Asuntos Exteriores y de Cooperación
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [foreign_affairs, development_cooperation, european_affairs]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-553-2004]
+    note:
+      en: >-
+        Renamed to put development cooperation in the title, which it kept until 2018. The
+        department had held the responsibility since well before the change of name.
+      es: >-
+        Se renombró para incorporar la cooperación al desarrollo al título, que mantuvo hasta
+        2018. El departamento ya tenía esa competencia bastante antes del cambio de nombre.
+
+  - id: ES-2004-justicia
+    order: 2
+    name_original: Ministerio de Justicia
+    abbreviation_original: null
+    name_en: Ministry of Justice
+    name_es: Ministerio de Justicia
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [justice]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-553-2004]
+
+  - id: ES-2004-defensa
+    order: 3
+    name_original: Ministerio de Defensa
+    abbreviation_original: null
+    name_en: Ministry of Defence
+    name_es: Ministerio de Defensa
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [defence]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-553-2004]
+
+  - id: ES-2004-economia-hacienda
+    order: 4
+    name_original: Ministerio de Economía y Hacienda
+    abbreviation_original: null
+    name_en: Ministry of Economy and Finance
+    name_es: Ministerio de Economía y Hacienda
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [economy, finance, budget]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-553-2004]
+
+  - id: ES-2004-interior
+    order: 5
+    name_original: Ministerio del Interior
+    abbreviation_original: null
+    name_en: Ministry of the Interior
+    name_es: Ministerio del Interior
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [interior, civil_protection]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-553-2004]
+
+  - id: ES-2004-fomento
+    order: 6
+    name_original: Ministerio de Fomento
+    abbreviation_original: null
+    name_en: Ministry of Public Works
+    name_es: Ministerio de Fomento
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [infrastructure, transport, shipping]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-553-2004]
+    note:
+      en: >-
+        Lost housing and town planning to the new Ministry of Housing, leaving it with public
+        works and transport. It took housing back in 2010, when that department was
+        abolished.
+      es: >-
+        Cedió la vivienda y el urbanismo al nuevo Ministerio de Vivienda, quedándose con las
+        obras públicas y los transportes. Recuperó la vivienda en 2010, al suprimirse ese
+        departamento.
+
+  - id: ES-2004-educacion-ciencia
+    order: 7
+    name_original: Ministerio de Educación y Ciencia
+    abbreviation_original: null
+    name_en: Ministry of Education and Science
+    name_es: Ministerio de Educación y Ciencia
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [education, higher_education, research]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-553-2004]
+
+  - id: ES-2004-trabajo-asuntos-sociales
+    order: 8
+    name_original: Ministerio de Trabajo y Asuntos Sociales
+    abbreviation_original: null
+    name_en: Ministry of Labour and Social Affairs
+    name_es: Ministerio de Trabajo y Asuntos Sociales
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [labour, social_security, social_affairs]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-553-2004]
+
+  - id: ES-2004-industria-turismo-comercio
+    order: 9
+    name_original: Ministerio de Industria, Turismo y Comercio
+    abbreviation_original: null
+    name_en: Ministry of Industry, Tourism and Trade
+    name_es: Ministerio de Industria, Turismo y Comercio
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [industry, tourism, trade, energy, telecommunications]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-553-2004]
+    note:
+      en: >-
+        Assembled industry and telecommunications from the abolished science and technology
+        department with trade, tourism and energy from the economy department. Industry and
+        energy had been in separate departments for the previous four years.
+      es: >-
+        Reunió la industria y las telecomunicaciones del suprimido Ciencia y Tecnología con el
+        comercio, el turismo y la energía de Economía. La industria y la energía habían estado
+        en departamentos distintos los cuatro años anteriores.
+
+  - id: ES-2004-agricultura
+    order: 10
+    name_original: Ministerio de Agricultura, Pesca y Alimentación
+    abbreviation_original: null
+    name_en: Ministry of Agriculture, Fisheries and Food
+    name_es: Ministerio de Agricultura, Pesca y Alimentación
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [agriculture, fisheries, food_safety, rural_development]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-553-2004]
+
+  - id: ES-2004-presidencia
+    order: 11
+    name_original: Ministerio de la Presidencia
+    abbreviation_original: null
+    name_en: Ministry of the Presidency
+    name_es: Ministerio de la Presidencia
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [government_coordination, parliamentary_relations]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-553-2004, boe-rd-558-2004]
+    note:
+      en: >-
+        A full ministerial department, and not to be confused with the Presidency of the
+        Government further down this list.
+      es: >-
+        Departamento ministerial completo, que no debe confundirse con la Presidencia del
+        Gobierno que aparece más abajo.
+
+  - id: ES-2004-administraciones-publicas
+    order: 12
+    name_original: Ministerio de Administraciones Públicas
+    abbreviation_original: MAP
+    name_en: Ministry of Public Administration
+    name_es: Ministerio de Administraciones Públicas
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [public_administration, territorial_administration]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-553-2004]
+
+  - id: ES-2004-cultura
+    order: 13
+    name_original: Ministerio de Cultura
+    abbreviation_original: null
+    name_en: Ministry of Culture
+    name_es: Ministerio de Cultura
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [culture]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-553-2004]
+    note:
+      en: >-
+        A department of its own again after eight years inside education. Culture has moved in
+        and out of a dedicated department repeatedly: merged into education in 1996, separated
+        in 2004, merged again in 2011 and separated again in 2018.
+      es: >-
+        Vuelve a ser departamento propio tras ocho años dentro de Educación. La cultura ha
+        entrado y salido repetidamente de un departamento dedicado: se integró en Educación en
+        1996, se separó en 2004, se volvió a integrar en 2011 y se separó de nuevo en 2018.
+
+  - id: ES-2004-sanidad-consumo
+    order: 14
+    name_original: Ministerio de Sanidad y Consumo
+    abbreviation_original: null
+    name_en: Ministry of Health and Consumer Affairs
+    name_es: Ministerio de Sanidad y Consumo
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [health, consumer_protection]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-553-2004]
+
+  - id: ES-2004-medio-ambiente
+    order: 15
+    name_original: Ministerio de Medio Ambiente
+    abbreviation_original: null
+    name_en: Ministry of the Environment
+    name_es: Ministerio de Medio Ambiente
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [environment, water, forestry]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-553-2004]
+
+  - id: ES-2004-vivienda
+    order: 16
+    name_original: Ministerio de Vivienda
+    abbreviation_original: null
+    name_en: Ministry of Housing
+    name_es: Ministerio de Vivienda
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [housing]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-553-2004]
+    note:
+      en: >-
+        Created in 2004, the first Spanish department dedicated to housing. It survived the
+        2008 restructuring and was abolished in October 2010, after which housing had no
+        department of its own until 2023.
+      es: >-
+        Creado en 2004, el primer departamento español dedicado a la vivienda. Sobrevivió a la
+        reestructuración de 2008 y se suprimió en octubre de 2010; después la vivienda no
+        volvió a tener departamento propio hasta 2023.
+
+  # --- recorded, not counted -----------------------------------------------------------
+  - id: ES-2004-presidencia-del-gobierno
+    order: 17
+    name_original: Presidencia del Gobierno
+    abbreviation_original: null
+    name_en: Office of the Prime Minister
+    name_es: Presidencia del Gobierno
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Presidente del Gobierno
+    head_title_en: Prime Minister
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: head_of_government_office
+    url: null
+    sources: [boe-ley-50-1997, boe-rd-558-2004]
+    note:
+      en: >-
+        The Prime Minister's own office, and the apex of the cabinet rather than a portfolio
+        department. Recorded because it holds a seat.
+      es: >-
+        La oficina del propio presidente del Gobierno, cúspide del gabinete y no un
+        departamento con cartera. Se registra porque ocupa un asiento.

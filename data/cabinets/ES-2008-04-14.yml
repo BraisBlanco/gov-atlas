@@ -1,0 +1,793 @@
+# Spain — government structure of the IX legislature (2008-2011).
+#
+# The hardest of the historical Spanish cabinets, and the reason it was curated first:
+# its department structure changed twice mid-term, so the file exercises the whole
+# valid_from / valid_to mechanism rather than describing one static list.
+#
+#   2008-04-14  Real Decreto 432/2008   17 departments
+#   2009-04-07  Real Decreto 542/2009   17 departments, three of them different
+#   2010-10-21  Real Decreto 1313/2010  15 departments
+#
+# The April 2009 step is the interesting one: the count does not move, so anything that
+# plots only the number shows a flat line across a reshuffle that renamed three
+# departments. That is why the departments in force on a given date are recorded here
+# individually instead of as a total.
+#
+# Departments that lasted the whole term carry no dates. Departments that began or ended
+# mid-term carry them, and remain counted for the period they existed — closing an entity
+# with a date is what removes it from later snapshots, so they keep counting as ministries.
+
+country: ES
+cabinet_id: ES-2008-04-14
+
+cabinet_name_original: Gobierno de España, IX Legislatura
+cabinet_name_en: Government of Spain, 9th legislature
+cabinet_name_es: Gobierno de España, IX Legislatura
+
+head_of_government_title_original: Presidente del Gobierno
+head_of_government_title_en: Prime Minister
+
+took_office: 2008-04-14
+left_office: 2011-12-21
+
+methodology_notes:
+  - en: >-
+      This government's department structure changed twice while it was in office. It began
+      with 17 ministerial departments on 14 April 2008, still had 17 after the restructuring
+      of 7 April 2009, and fell to 15 on 21 October 2010, when the Ministries of Housing and
+      of Equality were abolished. Any single figure for this term is therefore incomplete
+      without its date.
+    es: >-
+      La estructura departamental de este Gobierno cambió dos veces durante su mandato.
+      Comenzó con 17 departamentos ministeriales el 14 de abril de 2008, seguía teniendo 17
+      tras la reestructuración del 7 de abril de 2009 y bajó a 15 el 21 de octubre de 2010,
+      cuando se suprimieron los Ministerios de Vivienda y de Igualdad. Cualquier cifra
+      única para esta legislatura queda incompleta sin su fecha.
+  - en: >-
+      The April 2009 restructuring left the total unchanged at 17 while replacing three
+      departments: Education, Social Policy and Sport became Education, Public
+      Administration became Territorial Policy, and Health and Consumer Affairs became
+      Health and Social Policy. A reader following only the total would see no change at
+      all.
+    es: >-
+      La reestructuración de abril de 2009 dejó el total en 17 pero sustituyó tres
+      departamentos: Educación, Política Social y Deporte pasó a ser Educación,
+      Administraciones Públicas pasó a ser Política Territorial, y Sanidad y Consumo pasó a
+      ser Sanidad y Política Social. Quien siguiera únicamente el total no vería ningún
+      cambio.
+  - en: >-
+      Cabinet seats outnumber departments by one throughout the term: 18 seats against 17
+      departments until October 2010, and 16 against 15 afterwards. The Prime Minister holds
+      a seat without heading a department. Every vice-presidency in this government was held
+      by a serving minister — the first vice-president was also Minister of the Presidency
+      in 2008 and Minister of the Interior in 2010, the second was Minister of Economy and
+      Finance, and the third was Minister of Territorial Policy — so no vice-presidency adds
+      either a department or a seat.
+    es: >-
+      Los asientos en el Consejo de Ministros superan en uno a los departamentos durante
+      toda la legislatura: 18 asientos frente a 17 departamentos hasta octubre de 2010, y 16
+      frente a 15 después. El presidente del Gobierno ocupa un asiento sin encabezar
+      departamento alguno. Todas las vicepresidencias de este Gobierno las ostentaron
+      ministros en ejercicio —el vicepresidente primero fue además ministro de la
+      Presidencia en 2008 y ministro del Interior en 2010, el segundo fue ministro de
+      Economía y Hacienda y el tercero ministro de Política Territorial—, por lo que ninguna
+      vicepresidencia añade departamento ni asiento.
+  - en: >-
+      Two departments took on new responsibilities without being renamed, and the areas
+      listed for them cover the whole term rather than a single moment. Public Works absorbed
+      housing policy on 21 October 2010, when the Ministry of Housing was abolished.
+      Universities moved out of Science and Innovation and into Education on 7 April 2009.
+    es: >-
+      Dos departamentos asumieron nuevas competencias sin cambiar de nombre, y las materias
+      que aquí figuran para ellos abarcan toda la legislatura, no un momento concreto.
+      Fomento absorbió la política de vivienda el 21 de octubre de 2010, al suprimirse el
+      Ministerio de Vivienda. Las universidades salieron de Ciencia e Innovación y pasaron a
+      Educación el 7 de abril de 2009.
+
+sources:
+  - id: boe-rd-432-2008
+    tier: 1
+    type: official_gazette
+    publisher: Boletín Oficial del Estado
+    title: >-
+      Real Decreto 432/2008, de 12 de abril, por el que se reestructuran los departamentos
+      ministeriales
+    url: https://www.boe.es/boe/dias/2008/04/14/pdfs/A19757-19759.pdf
+    archive_url: https://web.archive.org/web/20250625094522/https://www.boe.es/boe/dias/2008/04/14/pdfs/A19757-19759.pdf
+    lang: es
+    published: 2008-04-14
+    accessed: 2026-07-29
+    quote: |-
+      Artículo 1. Departamentos ministeriales.
+      La Administración General del Estado queda estructurada en los siguientes departamentos ministeriales:
+      Ministerio de Asuntos Exteriores y de Cooperación.
+      Ministerio de Justicia.
+      Ministerio de Defensa.
+      Ministerio de Economía y Hacienda.
+      Ministerio del Interior.
+      Ministerio de Fomento.
+      Ministerio de Educación, Política Social y Deporte.
+      Ministerio de Trabajo e Inmigración.
+      Ministerio de Industria, Turismo y Comercio.
+      Ministerio de Medio Ambiente, y Medio Rural y Marino.
+      Ministerio de la Presidencia.
+      Ministerio de Administraciones Públicas.
+      Ministerio de Cultura.
+      Ministerio de Sanidad y Consumo.
+      Ministerio de Vivienda.
+      Ministerio de Ciencia e Innovación.
+      Ministerio de Igualdad.
+    note: >-
+      The original text as published, cited rather than the consolidated version: the
+      consolidated text of a superseded decree cannot show the structure that was in force
+      in April 2008. Scanned facsimile of pages 19757-19759 of issue 90.
+
+  - id: boe-rd-542-2009
+    tier: 1
+    type: official_gazette
+    publisher: Boletín Oficial del Estado
+    title: >-
+      Real Decreto 542/2009, de 7 de abril, por el que se reestructuran los departamentos
+      ministeriales
+    url: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2009-5824
+    archive_url: https://web.archive.org/web/20240915075149/https://www.boe.es/diario_boe/txt.php?id=BOE-A-2009-5824
+    lang: es
+    published: 2009-04-07
+    accessed: 2026-07-29
+    quote: |-
+      Artículo 1. Departamentos ministeriales.
+      La Administración General del Estado se estructura en los siguientes departamentos ministeriales:
+      Ministerio de Asuntos Exteriores y de Cooperación.
+      Ministerio de Justicia.
+      Ministerio de Defensa.
+      Ministerio de Economía y Hacienda.
+      Ministerio del Interior.
+      Ministerio de Fomento.
+      Ministerio de Educación.
+      Ministerio de Trabajo e Inmigración.
+      Ministerio de Industria, Turismo y Comercio.
+      Ministerio de Medio Ambiente, y Medio Rural y Marino.
+      Ministerio de la Presidencia.
+      Ministerio de Política Territorial.
+      Ministerio de Cultura.
+      Ministerio de Sanidad y Política Social.
+      Ministerio de Vivienda.
+      Ministerio de Ciencia e Innovación.
+      Ministerio de Igualdad.
+    note: >-
+      Entered into force on the day of publication. Also the evidence that Education
+      assumed universities, which article 8 assigns to it alongside schools and vocational
+      training.
+
+  - id: boe-rd-1313-2010
+    tier: 1
+    type: official_gazette
+    publisher: Boletín Oficial del Estado
+    title: >-
+      Real Decreto 1313/2010, de 20 de octubre, por el que se reestructuran los
+      departamentos ministeriales
+    url: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-16023
+    archive_url: https://web.archive.org/web/20250123234352/https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-16023
+    lang: es
+    published: 2010-10-21
+    accessed: 2026-07-29
+    quote: |-
+      Artículo 1. Departamentos ministeriales.
+      La Administración General del Estado se estructura en los siguientes departamentos ministeriales:
+      Ministerio de Asuntos Exteriores y de Cooperación.
+      Ministerio de Justicia.
+      Ministerio de Defensa.
+      Ministerio de Economía y Hacienda.
+      Ministerio del Interior.
+      Ministerio de Fomento.
+      Ministerio de Educación.
+      Ministerio de Trabajo e Inmigración.
+      Ministerio de Industria, Turismo y Comercio.
+      Ministerio de Medio Ambiente, y Medio Rural y Marino.
+      Ministerio de la Presidencia.
+      Ministerio de Política Territorial y Administración Pública.
+      Ministerio de Cultura.
+      Ministerio de Sanidad, Política Social e Igualdad.
+      Ministerio de Ciencia e Innovación.
+      [...]
+      Disposición final primera. Supresión de órganos.
+      Quedan suprimidos los siguientes departamentos ministeriales:
+      Ministerio de Política Territorial.
+      Ministerio de Sanidad y Política Social.
+      Ministerio de Vivienda.
+      Ministerio de Igualdad.
+    note: >-
+      Four departments suppressed and two created, which is how 17 becomes 15. The elision
+      marked in the quote skips articles 2 to 16, which define each department in the same
+      order as article 1. Article 7 assigns housing to Public Works.
+
+  - id: boe-rd-436-2008
+    tier: 1
+    type: official_gazette
+    publisher: Boletín Oficial del Estado
+    title: >-
+      Real Decreto 436/2008, de 12 de abril, por el que se nombran Ministros del Gobierno
+    url: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-6526
+    archive_url: https://web.archive.org/web/20250124043042/https://www.boe.es/diario_boe/txt.php?id=BOE-A-2008-6526
+    lang: es
+    published: 2008-04-14
+    accessed: 2026-07-29
+    quote: |-
+      Ministro de Asuntos Exteriores y de Cooperación a don Miguel Ángel Moratinos Cuyaubé.
+      Ministro de Justicia a don Mariano Fernández Bermejo.
+      Ministra de Defensa a doña Carme Chacón Piqueras.
+      Ministro de Economía y Hacienda a don Pedro Solbes Mira.
+      Ministro del Interior a don Alfredo Pérez Rubalcaba.
+      Ministra de Fomento a doña Magdalena Álvarez Arza.
+      Ministra de Educación, Política Social y Deporte a doña Mercedes Cabrera Calvo-Sotelo.
+      Ministro de Trabajo e Inmigración a don Celestino Corbacho Chaves.
+      Ministro de Industria, Turismo y Comercio a don Miguel Sebastián Gascón.
+      Ministra de Medio Ambiente, y Medio Rural y Marino a doña Elena Espinosa Mangana.
+      Ministra de la Presidencia a doña María Teresa Fernández de la Vega Sanz.
+      Ministra de Administraciones Públicas a doña Elena Salgado Méndez.
+      Ministro de Cultura a don César Antonio Molina Sánchez.
+      Ministro de Sanidad y Consumo a don Bernat Soria Escoms.
+      Ministra de Vivienda a doña Beatriz Corredor Sierra.
+      Ministra de Ciencia e Innovación a doña Cristina Garmendia Mendizábal.
+      Ministra de Igualdad a doña Bibiana Aído Almagro.
+    note: >-
+      Seventeen ministers for seventeen departments, one each, which is what makes the seat
+      count 18 once the Prime Minister is added. It also shows that the two vice-presidents
+      appointed the same day each headed a department: the first was Minister of the
+      Presidency and the second Minister of Economy and Finance. No minister was appointed
+      without a portfolio.
+
+  - id: boe-rd-553-2009
+    tier: 1
+    type: official_gazette
+    publisher: Boletín Oficial del Estado
+    title: >-
+      Real Decreto 553/2009, de 7 de abril, por el que se nombra Vicepresidente Tercero del
+      Gobierno a don Manuel Chaves González
+    url: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2009-5835
+    archive_url: https://web.archive.org/web/20240406010622/https://www.boe.es/diario_boe/txt.php?id=BOE-A-2009-5835
+    lang: es
+    published: 2009-04-07
+    accessed: 2026-07-29
+    quote: >-
+      Vengo en nombrar Vicepresidente Tercero del Gobierno a don Manuel Chaves González.
+    note: >-
+      Read together with the appointment of the same person as Minister of Territorial
+      Policy on the same day: the third vice-presidency created in April 2009 was held by a
+      departmental minister and so adds no seat.
+
+  - id: boe-rd-557-2009
+    tier: 1
+    type: official_gazette
+    publisher: Boletín Oficial del Estado
+    title: >-
+      Real Decreto 557/2009, de 7 de abril, por el que se nombra Ministro de Política
+      Territorial a don Manuel Chaves González
+    url: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2009-5839
+    archive_url: https://web.archive.org/web/20240406192806/https://www.boe.es/diario_boe/txt.php?id=BOE-A-2009-5839
+    lang: es
+    published: 2009-04-07
+    accessed: 2026-07-29
+    quote: >-
+      Vengo en nombrar Ministro de Política Territorial a don Manuel Chaves González.
+
+  - id: boe-rd-1330-2010
+    tier: 1
+    type: official_gazette
+    publisher: Boletín Oficial del Estado
+    title: >-
+      Real Decreto 1330/2010, de 20 de octubre, por el que se dispone que don Alfredo Pérez
+      Rubalcaba, Vicepresidente Primero del Gobierno y Ministro del Interior, asuma las
+      funciones de Portavoz del Gobierno
+    url: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-16042
+    archive_url: https://web.archive.org/web/20250123233827/https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-16042
+    lang: es
+    published: 2010-10-21
+    accessed: 2026-07-29
+    quote: >-
+      Vengo en disponer que don Alfredo Pérez Rubalcaba, Vicepresidente Primero del Gobierno
+      y Ministro del Interior, asuma las funciones de Portavoz del Gobierno.
+    note: >-
+      Cited for a structural fact rather than for the spokesman role: from October 2010 the
+      first vice-presidency was held by the Minister of the Interior, so it adds no seat.
+
+  - id: boe-ley-50-1997
+    tier: 1
+    type: statute
+    publisher: Boletín Oficial del Estado
+    title: Ley 50/1997, de 27 de noviembre, del Gobierno (texto consolidado)
+    url: https://www.boe.es/buscar/act.php?id=BOE-A-1997-25336
+    archive_url: https://web.archive.org/web/20260716135650/https://www.boe.es/buscar/act.php?id=BOE-A-1997-25336
+    lang: es
+    published: 1997-11-28
+    accessed: 2026-07-29
+    quote: >-
+      El Gobierno se compone del Presidente, del Vicepresidente o Vicepresidentes, en su
+      caso, y de los Ministros.
+    note: >-
+      Cited for the composition of the Government, which is what makes the Prime Minister's
+      seat a matter of statute rather than of interpretation, and therefore why the seat
+      count exceeds the department count by one.
+
+entities:
+  # --- in place for the whole term ------------------------------------------------------
+  - id: ES-2008-asuntos-exteriores
+    order: 1
+    name_original: Ministerio de Asuntos Exteriores y de Cooperación
+    abbreviation_original: MAEC
+    name_en: Ministry of Foreign Affairs and Cooperation
+    name_es: Ministerio de Asuntos Exteriores y de Cooperación
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [foreign_affairs, development_cooperation, european_affairs]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-432-2008]
+
+  - id: ES-2008-justicia
+    order: 2
+    name_original: Ministerio de Justicia
+    abbreviation_original: null
+    name_en: Ministry of Justice
+    name_es: Ministerio de Justicia
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [justice]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-432-2008]
+
+  - id: ES-2008-defensa
+    order: 3
+    name_original: Ministerio de Defensa
+    abbreviation_original: null
+    name_en: Ministry of Defence
+    name_es: Ministerio de Defensa
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [defence]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-432-2008]
+
+  - id: ES-2008-economia-hacienda
+    order: 4
+    name_original: Ministerio de Economía y Hacienda
+    abbreviation_original: null
+    name_en: Ministry of Economy and Finance
+    name_es: Ministerio de Economía y Hacienda
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [economy, finance, budget]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-432-2008]
+    note:
+      en: >-
+        Economic policy and the treasury sat in one department throughout this term. They
+        were separate ministries between 2000 and 2004 and separate again from 2020.
+      es: >-
+        La política económica y la hacienda pública estuvieron en un solo departamento
+        durante toda esta legislatura. Fueron ministerios distintos entre 2000 y 2004 y
+        volvieron a serlo desde 2020.
+
+  - id: ES-2008-interior
+    order: 5
+    name_original: Ministerio del Interior
+    abbreviation_original: null
+    name_en: Ministry of the Interior
+    name_es: Ministerio del Interior
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [interior, civil_protection]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-432-2008, boe-rd-1330-2010]
+
+  - id: ES-2008-fomento
+    order: 6
+    name_original: Ministerio de Fomento
+    abbreviation_original: null
+    name_en: Ministry of Public Works
+    name_es: Ministerio de Fomento
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [infrastructure, transport, shipping, housing]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-432-2008, boe-rd-1313-2010]
+    note:
+      en: >-
+        Housing appears among its areas because the department absorbed housing policy on
+        21 October 2010, when the Ministry of Housing was abolished. It held no housing
+        competence during the first two and a half years of the term.
+      es: >-
+        La vivienda figura entre sus materias porque el departamento absorbió esa política
+        el 21 de octubre de 2010, al suprimirse el Ministerio de Vivienda. No tuvo
+        competencias de vivienda durante los primeros dos años y medio de la legislatura.
+
+  - id: ES-2008-trabajo-inmigracion
+    order: 7
+    name_original: Ministerio de Trabajo e Inmigración
+    abbreviation_original: null
+    name_en: Ministry of Labour and Immigration
+    name_es: Ministerio de Trabajo e Inmigración
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [labour, migration, social_security]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-432-2008]
+
+  - id: ES-2008-industria-turismo-comercio
+    order: 8
+    name_original: Ministerio de Industria, Turismo y Comercio
+    abbreviation_original: null
+    name_en: Ministry of Industry, Tourism and Trade
+    name_es: Ministerio de Industria, Turismo y Comercio
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [industry, tourism, trade, energy]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-432-2008]
+
+  - id: ES-2008-medio-ambiente-rural-marino
+    order: 9
+    name_original: Ministerio de Medio Ambiente, y Medio Rural y Marino
+    abbreviation_original: MARM
+    name_en: Ministry of the Environment and Rural and Marine Affairs
+    name_es: Ministerio de Medio Ambiente, y Medio Rural y Marino
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [environment, agriculture, fisheries, rural_development, water]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-432-2008]
+    note:
+      en: >-
+        The comma in the official name is not a transcription error: it separates
+        environment from rural and marine affairs, which were merged into this department in
+        2008.
+      es: >-
+        La coma del nombre oficial no es un error de transcripción: separa el medio ambiente
+        del medio rural y marino, que se fusionaron en este departamento en 2008.
+
+  - id: ES-2008-presidencia
+    order: 10
+    name_original: Ministerio de la Presidencia
+    abbreviation_original: MPR
+    name_en: Ministry of the Presidency
+    name_es: Ministerio de la Presidencia
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [government_coordination, parliamentary_relations]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-432-2008, boe-rd-436-2008]
+    note:
+      en: >-
+        A full ministerial department, and not to be confused with the Presidency of the
+        Government further down this list, which is the Prime Minister's own office.
+      es: >-
+        Departamento ministerial completo, que no debe confundirse con la Presidencia del
+        Gobierno que aparece más abajo, la oficina del propio presidente.
+
+  - id: ES-2008-cultura
+    order: 11
+    name_original: Ministerio de Cultura
+    abbreviation_original: null
+    name_en: Ministry of Culture
+    name_es: Ministerio de Cultura
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [culture]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-432-2008]
+
+  - id: ES-2008-ciencia-innovacion
+    order: 12
+    name_original: Ministerio de Ciencia e Innovación
+    abbreviation_original: null
+    name_en: Ministry of Science and Innovation
+    name_es: Ministerio de Ciencia e Innovación
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [research, innovation, higher_education]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-432-2008, boe-rd-542-2009]
+    note:
+      en: >-
+        Higher education appears among its areas for the first year only: the department was
+        created in 2008 with a secretariat of state for universities, which moved to
+        Education on 7 April 2009.
+      es: >-
+        Las universidades figuran entre sus materias sólo durante el primer año: el
+        departamento se creó en 2008 con una secretaría de Estado de Universidades, que pasó
+        a Educación el 7 de abril de 2009.
+
+  # --- ended with the restructuring of 7 April 2009 -------------------------------------
+  - id: ES-2008-educacion-politica-social-deporte
+    order: 13
+    name_original: Ministerio de Educación, Política Social y Deporte
+    abbreviation_original: null
+    name_en: Ministry of Education, Social Policy and Sport
+    name_es: Ministerio de Educación, Política Social y Deporte
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [education, social_affairs, sport]
+    counts_as_ministry: true
+    valid_to: 2009-04-06
+    url: null
+    sources: [boe-rd-432-2008, boe-rd-542-2009]
+
+  - id: ES-2008-administraciones-publicas
+    order: 14
+    name_original: Ministerio de Administraciones Públicas
+    abbreviation_original: MAP
+    name_en: Ministry of Public Administration
+    name_es: Ministerio de Administraciones Públicas
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [public_administration, territorial_administration]
+    counts_as_ministry: true
+    valid_to: 2009-04-06
+    url: null
+    sources: [boe-rd-432-2008, boe-rd-542-2009]
+
+  - id: ES-2008-sanidad-consumo
+    order: 15
+    name_original: Ministerio de Sanidad y Consumo
+    abbreviation_original: null
+    name_en: Ministry of Health and Consumer Affairs
+    name_es: Ministerio de Sanidad y Consumo
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [health, consumer_protection]
+    counts_as_ministry: true
+    valid_to: 2009-04-06
+    url: null
+    sources: [boe-rd-432-2008, boe-rd-542-2009]
+
+  # --- abolished by the restructuring of 21 October 2010 --------------------------------
+  - id: ES-2008-vivienda
+    order: 16
+    name_original: Ministerio de Vivienda
+    abbreviation_original: null
+    name_en: Ministry of Housing
+    name_es: Ministerio de Vivienda
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [housing]
+    counts_as_ministry: true
+    valid_to: 2010-10-20
+    url: null
+    sources: [boe-rd-432-2008, boe-rd-1313-2010]
+    note:
+      en: >-
+        Spain's only dedicated housing ministry between 2004 and 2023. Its policy went to
+        Public Works when it was abolished, and housing had no department of its own again
+        until 2023.
+      es: >-
+        El único ministerio dedicado exclusivamente a la vivienda en España entre 2004 y
+        2023. Su política pasó a Fomento al suprimirse, y la vivienda no volvió a tener
+        departamento propio hasta 2023.
+
+  - id: ES-2008-igualdad
+    order: 17
+    name_original: Ministerio de Igualdad
+    abbreviation_original: null
+    name_en: Ministry of Equality
+    name_es: Ministerio de Igualdad
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [equality]
+    counts_as_ministry: true
+    valid_to: 2010-10-20
+    url: null
+    sources: [boe-rd-432-2008, boe-rd-1313-2010]
+    note:
+      en: >-
+        Created in 2008 as the first Spanish department dedicated to equality. It was folded
+        into Health and Social Policy in October 2010 and re-established as a separate
+        department in 2020.
+      es: >-
+        Creado en 2008 como el primer departamento español dedicado a la igualdad. Se
+        integró en Sanidad y Política Social en octubre de 2010 y volvió a constituirse como
+        departamento propio en 2020.
+
+  # --- created on 7 April 2009 ----------------------------------------------------------
+  - id: ES-2008-educacion
+    order: 18
+    name_original: Ministerio de Educación
+    abbreviation_original: null
+    name_en: Ministry of Education
+    name_es: Ministerio de Educación
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [education, vocational_training, higher_education]
+    counts_as_ministry: true
+    valid_from: 2009-04-07
+    url: null
+    sources: [boe-rd-542-2009]
+    note:
+      en: >-
+        Took over schools and vocational training from Education, Social Policy and Sport,
+        and universities from Science and Innovation. Social policy went to Health instead,
+        which is why this is a new department rather than a renaming.
+      es: >-
+        Asumió la educación y la formación profesional de Educación, Política Social y
+        Deporte, y las universidades de Ciencia e Innovación. La política social pasó en
+        cambio a Sanidad, y por eso se trata de un departamento nuevo y no de un cambio de
+        nombre.
+
+  - id: ES-2008-politica-territorial
+    order: 19
+    name_original: Ministerio de Política Territorial
+    abbreviation_original: null
+    name_en: Ministry of Territorial Policy
+    name_es: Ministerio de Política Territorial
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [territorial_administration]
+    counts_as_ministry: true
+    valid_from: 2009-04-07
+    valid_to: 2010-10-20
+    url: null
+    sources: [boe-rd-542-2009, boe-rd-1313-2010, boe-rd-553-2009, boe-rd-557-2009]
+    note:
+      en: >-
+        Responsible for relations with the autonomous communities and local government, but
+        not for the civil service, which the 2009 restructuring left outside any department
+        of that name. It regained it in October 2010 under a longer title.
+      es: >-
+        Responsable de las relaciones con las comunidades autónomas y la Administración
+        local, pero no de la función pública, que la reestructuración de 2009 dejó fuera de
+        todo departamento con ese nombre. La recuperó en octubre de 2010 con un título más
+        largo.
+
+  - id: ES-2008-sanidad-politica-social
+    order: 20
+    name_original: Ministerio de Sanidad y Política Social
+    abbreviation_original: null
+    name_en: Ministry of Health and Social Policy
+    name_es: Ministerio de Sanidad y Política Social
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [health, social_affairs]
+    counts_as_ministry: true
+    valid_from: 2009-04-07
+    valid_to: 2010-10-20
+    url: null
+    sources: [boe-rd-542-2009, boe-rd-1313-2010]
+
+  # --- created on 21 October 2010 -------------------------------------------------------
+  - id: ES-2008-politica-territorial-administracion-publica
+    order: 21
+    name_original: Ministerio de Política Territorial y Administración Pública
+    abbreviation_original: null
+    name_en: Ministry of Territorial Policy and Public Administration
+    name_es: Ministerio de Política Territorial y Administración Pública
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [territorial_administration, public_administration]
+    counts_as_ministry: true
+    valid_from: 2010-10-21
+    url: null
+    sources: [boe-rd-1313-2010]
+
+  - id: ES-2008-sanidad-politica-social-igualdad
+    order: 22
+    name_original: Ministerio de Sanidad, Política Social e Igualdad
+    abbreviation_original: null
+    name_en: Ministry of Health, Social Policy and Equality
+    name_es: Ministerio de Sanidad, Política Social e Igualdad
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [health, social_affairs, equality]
+    counts_as_ministry: true
+    valid_from: 2010-10-21
+    url: null
+    sources: [boe-rd-1313-2010]
+    note:
+      en: >-
+        Absorbed the abolished Ministry of Equality, which is why equality stops being a
+        department of its own at this point without disappearing from government.
+      es: >-
+        Absorbió el suprimido Ministerio de Igualdad, y por eso la igualdad deja aquí de ser
+        un departamento propio sin desaparecer del Gobierno.
+
+  # --- recorded, not counted -----------------------------------------------------------
+  - id: ES-2008-presidencia-del-gobierno
+    order: 23
+    name_original: Presidencia del Gobierno
+    abbreviation_original: null
+    name_en: Presidency of the Government
+    name_es: Presidencia del Gobierno
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Presidente del Gobierno
+    head_title_en: Prime Minister
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: head_of_government_office
+    url: null
+    sources: [boe-ley-50-1997, boe-rd-436-2008]
+    note:
+      en: >-
+        The Prime Minister's own office, and the apex of the cabinet rather than a portfolio
+        department. Recorded because it holds a seat: it is the difference between the
+        department count and the seat count.
+      es: >-
+        La oficina del propio presidente del Gobierno, cúspide del gabinete y no un
+        departamento con cartera. Se registra porque ocupa un asiento: es la diferencia
+        entre el número de departamentos y el de asientos.

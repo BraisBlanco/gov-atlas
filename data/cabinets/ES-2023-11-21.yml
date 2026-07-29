@@ -49,6 +49,19 @@ methodology_notes:
       cambia con cada remodelación; la estructura departamental no, y aquí sólo se
       registra esta última.
   - en: >-
+      Two departments changed name five weeks into the term, on 29 December 2023: finance
+      gave up the civil service and became simply the Ministry of Finance, and digital
+      transformation took it on. The number of departments did not move — it was 22 before
+      and 22 after — so the two names are recorded with the dates each was in use rather
+      than the later one being applied to the whole term.
+    es: >-
+      Dos departamentos cambiaron de nombre a las cinco semanas de legislatura, el 29 de
+      diciembre de 2023: hacienda cedió la función pública y pasó a ser simplemente
+      Ministerio de Hacienda, y transformación digital la asumió. El número de departamentos
+      no se movió —22 antes y 22 después—, así que se registran los dos nombres con las
+      fechas en que estuvo vigente cada uno, en lugar de aplicar el posterior a toda la
+      legislatura.
+  - en: >-
       Do not confuse the two entries containing the word "Presidencia". The "Ministerio
       de la Presidencia, Justicia y Relaciones con las Cortes" is a full department and
       is counted. "Presidencia del Gobierno" is the Prime Minister's own office and is
@@ -103,6 +116,75 @@ sources:
       department in the same sequence. Later decrees in 2024-2026 altered internal
       organic structure (directorates, secretariats) without changing this list of
       departments.
+
+  - id: boe-rd-829-2023-original
+    tier: 1
+    type: official_gazette
+    publisher: Boletín Oficial del Estado
+    title: >-
+      Real Decreto 829/2023, de 20 de noviembre, por el que se reestructuran los
+      departamentos ministeriales (texto original publicado)
+    url: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-23537
+    archive_url: https://web.archive.org/web/20250225035156/https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-23537
+    lang: es
+    published: 2023-11-21
+    accessed: 2026-07-29
+    quote: |-
+      Artículo 1. Departamentos ministeriales.
+      La Administración General del Estado se estructura en los siguientes departamentos ministeriales:
+      Ministerio de Asuntos Exteriores, Unión Europea y Cooperación.
+      Ministerio de la Presidencia, Justicia y Relaciones con las Cortes.
+      Ministerio de Defensa.
+      Ministerio de Hacienda y Función Pública.
+      Ministerio del Interior.
+      Ministerio de Transportes y Movilidad Sostenible.
+      Ministerio de Educación, Formación Profesional y Deportes.
+      Ministerio de Trabajo y Economía Social.
+      Ministerio de Industria y Turismo.
+      Ministerio de Agricultura, Pesca y Alimentación.
+      Ministerio de Política Territorial y Memoria Democrática.
+      Ministerio para la Transición Ecológica y el Reto Demográfico.
+      Ministerio de Vivienda y Agenda Urbana.
+      Ministerio de Cultura.
+      Ministerio de Economía, Comercio y Empresa.
+      Ministerio de Sanidad.
+      Ministerio de Derechos Sociales, Consumo y Agenda 2030.
+      Ministerio de Ciencia, Innovación y Universidades.
+      Ministerio de Igualdad.
+      Ministerio de Inclusión, Seguridad Social y Migraciones.
+      Ministerio de Transformación Digital.
+      Ministerio de Juventud e Infancia.
+    note: >-
+      The text as published on 21 November 2023, cited alongside the consolidated version
+      because the two differ: positions 4 and 21 read "Hacienda y Función Pública" and
+      "Transformación Digital" here, and the consolidated text shows the names they carry
+      after 29 December 2023. This is the source for what the departments were called during
+      the government's first five weeks.
+
+  - id: boe-rd-1230-2023
+    tier: 1
+    type: official_gazette
+    publisher: Boletín Oficial del Estado
+    title: >-
+      Real Decreto 1230/2023, de 29 de diciembre, por el que se modifica el Real Decreto
+      829/2023, de 20 de noviembre, por el que se reestructuran los departamentos
+      ministeriales
+    url: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-26727
+    archive_url: https://web.archive.org/web/20240524072619/https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-26727
+    lang: es
+    published: 2023-12-29
+    accessed: 2026-07-29
+    quote: |-
+      Disposición final primera. Supresión de órganos.
+      Quedan suprimidos los siguientes órganos superiores:
+      Ministerio de Hacienda y Función Pública.
+      Ministerio de Transformación Digital.
+      La Secretaría de Estado de Derechos Sociales y Agenda 2030.
+      La Secretaría de Estado de Igualdad y contra la Violencia de Género.
+    note: >-
+      Rewrites article 1 and suppresses the two department names it replaces, in force the
+      day it was published. The enumeration still lists 22 departments, so this changes what
+      two of them are called and not how many there are.
 
   - id: boe-ley-50-1997
     tier: 1
@@ -213,8 +295,19 @@ entities:
     has_cabinet_seat: true
     policy_areas: [finance, budget]
     counts_as_ministry: true
+    valid_from: 2023-12-29
     url: https://www.hacienda.gob.es
-    sources: [boe-rd-829-2023]
+    sources: [boe-rd-829-2023, boe-rd-1230-2023]
+    note:
+      en: >-
+        Under this name only from 29 December 2023. For the government's first five weeks the
+        department was the Ministry of Finance and the Civil Service, listed further down,
+        and the civil service then moved to digital transformation.
+      es: >-
+        Con este nombre sólo desde el 29 de diciembre de 2023. Durante las cinco primeras
+        semanas del Gobierno el departamento fue el Ministerio de Hacienda y Función
+        Pública, que aparece más abajo, y la función pública pasó entonces a transformación
+        digital.
 
   - id: ES-2023-interior
     order: 5
@@ -472,7 +565,7 @@ entities:
     url: https://www.inclusion.gob.es
     sources: [boe-rd-829-2023]
 
-  - id: ES-2023-transformacion-digital
+  - id: ES-2023-transformacion-digital-funcion-publica
     order: 21
     name_original: Ministerio para la Transformación Digital y de la Función Pública
     abbreviation_original: MTDFP
@@ -485,8 +578,18 @@ entities:
     has_cabinet_seat: true
     policy_areas: [digital, telecommunications, public_administration]
     counts_as_ministry: true
+    valid_from: 2023-12-29
     url: https://digital.gob.es
-    sources: [boe-rd-829-2023]
+    sources: [boe-rd-829-2023, boe-rd-1230-2023]
+    note:
+      en: >-
+        Took on the civil service on 29 December 2023, when it absorbed that responsibility
+        from finance. Until then it was the Ministry for Digital Transformation, listed
+        further down.
+      es: >-
+        Asumió la función pública el 29 de diciembre de 2023, cuando la absorbió de
+        hacienda. Hasta entonces fue el Ministerio de Transformación Digital, que aparece
+        más abajo.
 
   - id: ES-2023-juventud-infancia
     order: 22
@@ -503,6 +606,44 @@ entities:
     counts_as_ministry: true
     url: https://www.juventudeinfancia.gob.es/es
     sources: [boe-rd-829-2023]
+
+  # --- the two names that lasted only until 28 December 2023 --------------------
+  # Both held positions 4 and 21 of the November enumeration, the same positions their
+  # renamed successors hold above. Listing order has to be unique within a file, so they
+  # appear here at the end rather than twice at 4 and 21.
+  - id: ES-2023-hacienda-funcion-publica
+    order: 24
+    name_original: Ministerio de Hacienda y Función Pública
+    abbreviation_original: MHFP
+    name_en: Ministry of Finance and the Civil Service
+    name_es: Ministerio de Hacienda y Función Pública
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [finance, budget, public_administration]
+    counts_as_ministry: true
+    valid_to: 2023-12-28
+    url: null
+    sources: [boe-rd-829-2023-original, boe-rd-1230-2023]
+
+  - id: ES-2023-transformacion-digital
+    order: 25
+    name_original: Ministerio de Transformación Digital
+    abbreviation_original: null
+    name_en: Ministry for Digital Transformation
+    name_es: Ministerio de Transformación Digital
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [digital, telecommunications]
+    counts_as_ministry: true
+    valid_to: 2023-12-28
+    url: null
+    sources: [boe-rd-829-2023-original, boe-rd-1230-2023]
 
   # --- recorded, not counted ---------------------------------------------------
   - id: ES-2023-presidencia-del-gobierno

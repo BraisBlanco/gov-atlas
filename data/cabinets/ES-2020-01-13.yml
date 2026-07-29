@@ -1,0 +1,687 @@
+# Spain — government structure of the XIV legislature (2020-2023).
+#
+# Twenty-two departments, the largest in the Spanish series and five more than the government
+# before it. Two of them were renamed in July 2021 without the total changing, so this file
+# records two structural states: the departments in force from January 2020, and the same
+# twenty-two with two different names from 12 July 2021.
+#
+# The original enumeration keeps listing positions 1 to 22. The two names that replaced entries
+# 4 and 12 partway through appear at the end, because listing order has to be unique within a
+# file and cannot hold two occupants of the same position.
+
+country: ES
+cabinet_id: ES-2020-01-13
+
+cabinet_name_original: Gobierno de España, XIV Legislatura
+cabinet_name_en: Government of Spain, 14th legislature
+cabinet_name_es: Gobierno de España, XIV Legislatura
+
+head_of_government_title_original: Presidente del Gobierno
+head_of_government_title_en: Prime Minister
+
+took_office: 2020-01-13
+left_office: 2023-11-20
+
+methodology_notes:
+  - en: >-
+      Twenty-two ministerial departments, five more than the government before it and the
+      largest cabinet in this series. Consumer affairs, equality, universities, and inclusion
+      with social security and migration each got a department of their own, and science was
+      separated from universities.
+    es: >-
+      Veintidós departamentos ministeriales, cinco más que el Gobierno anterior y el gabinete
+      más numeroso de esta serie. El consumo, la igualdad, las universidades y la inclusión con
+      la seguridad social y las migraciones obtuvieron cada uno departamento propio, y la
+      ciencia se separó de las universidades.
+  - en: >-
+      Twenty-three seats against twenty-two departments: the Prime Minister holds a seat without
+      heading a department. This government had four vice-presidents, more than any other in the
+      series, and every one of them headed a listed department — the Presidency, social rights,
+      economic affairs and ecological transition — so none adds a seat. No minister was appointed
+      without a portfolio.
+    es: >-
+      Veintitrés asientos frente a veintidós departamentos: el presidente del Gobierno ocupa un
+      asiento sin encabezar departamento. Este Gobierno tuvo cuatro vicepresidencias, más que
+      ningún otro de la serie, y todas ellas encabezaban un departamento de la lista —Presidencia,
+      derechos sociales, asuntos económicos y transición ecológica—, por lo que ninguna añade
+      asiento. Ningún ministro fue nombrado sin cartera.
+  - en: >-
+      On 12 July 2021 two departments were renamed and the total stayed at twenty-two: the civil
+      service moved from territorial policy to finance, so finance became the Ministry of Finance
+      and the Civil Service and territorial policy dropped the words from its title. Both names
+      are recorded with the dates each was in use, rather than one being applied to the whole
+      term.
+    es: >-
+      El 12 de julio de 2021 dos departamentos cambiaron de nombre y el total siguió en
+      veintidós: la función pública pasó de Política Territorial a Hacienda, de modo que Hacienda
+      pasó a ser Ministerio de Hacienda y Función Pública y Política Territorial suprimió esas
+      palabras de su título. Se registran ambos nombres con las fechas en que estuvo vigente cada
+      uno, y no uno de ellos aplicado a toda la legislatura.
+  - en: >-
+      Three further decrees, in January and July 2020 and in July 2021, amended the internal
+      organisation of individual departments without touching the list of departments. They
+      change neither figure reported here.
+    es: >-
+      Otros tres decretos, de enero y julio de 2020 y de julio de 2021, modificaron la
+      organización interna de departamentos concretos sin afectar a la lista de departamentos. No
+      alteran ninguna de las dos cifras que aquí se recogen.
+
+sources:
+  - id: boe-rd-2-2020
+    tier: 1
+    type: official_gazette
+    publisher: Boletín Oficial del Estado
+    title: >-
+      Real Decreto 2/2020, de 12 de enero, por el que se reestructuran los departamentos
+      ministeriales
+    url: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-410
+    archive_url: https://web.archive.org/web/20260512041701/https://boe.es/diario_boe/txt.php?id=BOE-A-2020-410
+    lang: es
+    published: 2020-01-13
+    accessed: 2026-07-29
+    quote: |-
+      Artículo 1. Departamentos ministeriales.
+      La Administración General del Estado se estructura en los siguientes departamentos ministeriales:
+      Ministerio de Asuntos Exteriores, Unión Europea y Cooperación.
+      Ministerio de Justicia.
+      Ministerio de Defensa.
+      Ministerio de Hacienda.
+      Ministerio del Interior.
+      Ministerio de Transportes, Movilidad y Agenda Urbana.
+      Ministerio de Educación y Formación Profesional.
+      Ministerio de Trabajo y Economía Social.
+      Ministerio de Industria, Comercio y Turismo.
+      Ministerio de Agricultura, Pesca y Alimentación.
+      Ministerio de la Presidencia, Relaciones con las Cortes y Memoria Democrática.
+      Ministerio de Política Territorial y Función Pública.
+      Ministerio para la Transición Ecológica y el Reto Demográfico.
+      Ministerio de Cultura y Deporte.
+      Ministerio de Asuntos Económicos y Transformación Digital.
+      Ministerio de Sanidad.
+      Ministerio de Derechos Sociales y Agenda 2030.
+      Ministerio de Ciencia e Innovación.
+      Ministerio de Igualdad.
+      Ministerio de Consumo.
+      Ministerio de Inclusión, Seguridad Social y Migraciones.
+      Ministerio de Universidades.
+    note: >-
+      The text as published, in force the same day, and the source for the names in use from
+      January 2020 to 11 July 2021. Article 1 was rewritten in July 2021; two other decrees in
+      2020 and one in 2021 amended individual departments' internal organisation only.
+
+  - id: boe-rd-507-2021
+    tier: 1
+    type: official_gazette
+    publisher: Boletín Oficial del Estado
+    title: >-
+      Real Decreto 507/2021, de 10 de julio, por el que se modifica el Real Decreto 2/2020, de 12
+      de enero, por el que se reestructuran los departamentos ministeriales
+    url: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-11510
+    archive_url: https://web.archive.org/web/20260201195038/https://boe.es/diario_boe/txt.php?id=BOE-A-2021-11510
+    lang: es
+    published: 2021-07-12
+    accessed: 2026-07-29
+    quote: |-
+      Uno. El artículo 1 queda redactado de la siguiente manera:
+      «Artículo 1. Departamentos ministeriales.
+      La Administración General del Estado se estructura en los siguientes departamentos ministeriales:
+      Ministerio de Asuntos Exteriores, Unión Europea y Cooperación.
+      Ministerio de Justicia.
+      Ministerio de Defensa.
+      Ministerio de Hacienda y Función Pública.
+      Ministerio del Interior.
+      Ministerio de Transportes, Movilidad y Agenda Urbana.
+      Ministerio de Educación y Formación Profesional.
+      Ministerio de Trabajo y Economía Social.
+      Ministerio de Industria, Comercio y Turismo.
+      Ministerio de Agricultura, Pesca y Alimentación.
+      Ministerio de la Presidencia, Relaciones con las Cortes y Memoria Democrática.
+      Ministerio de Política Territorial.
+      Ministerio para la Transición Ecológica y el Reto Demográfico.
+      Ministerio de Cultura y Deporte.
+      Ministerio de Asuntos Económicos y Transformación Digital.
+      Ministerio de Sanidad.
+      Ministerio de Derechos Sociales y Agenda 2030.
+      Ministerio de Ciencia e Innovación.
+      Ministerio de Igualdad.
+      Ministerio de Consumo.
+      Ministerio de Inclusión, Seguridad Social y Migraciones.
+      Ministerio de Universidades.»
+    note: >-
+      Still twenty-two departments: entries 4 and 12 change name and nothing else does. In force
+      the day it was published, which is why the two earlier names end on 11 July 2021.
+
+  - id: boe-rd-8-2020
+    tier: 1
+    type: official_gazette
+    publisher: Boletín Oficial del Estado
+    title: >-
+      Real Decreto 8/2020, de 12 de enero, por el que se nombran Ministros del Gobierno
+    url: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-416
+    archive_url: https://web.archive.org/web/20260726082609/https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-416
+    lang: es
+    published: 2020-01-13
+    accessed: 2026-07-29
+    quote: |-
+      Ministra de la Presidencia, Relaciones con las Cortes y Memoria Democrática a doña María del Carmen Calvo Poyato.
+      Ministra para la Transición Ecológica y el Reto Demográfico a doña Teresa Ribera Rodríguez.
+      Ministra de Asuntos Económicos y Transformación Digital a doña Nadia María Calviño Santamaría.
+      Ministro de Derechos Sociales y Agenda 2030 a don Pablo Iglesias Turrión.
+      Ministra de Igualdad a doña Irene María Montero Gil.
+      Ministro de Consumo a don Alberto Carlos Garzón Espinosa.
+      Ministro de Inclusión, Seguridad Social y Migraciones a don José Luis Escrivá Belmonte.
+      Ministro de Universidades a don Manuel Castells Oliván.
+    note: >-
+      Twenty-two ministers for twenty-two departments, one each and none without a portfolio,
+      which is what makes the seat count twenty-three once the Prime Minister is added. The quote
+      covers the four departments headed by the vice-presidents appointed the same day, along
+      with the four created in this term.
+
+  - id: boe-ley-50-1997
+    tier: 1
+    type: statute
+    publisher: Boletín Oficial del Estado
+    title: Ley 50/1997, de 27 de noviembre, del Gobierno (texto consolidado)
+    url: https://www.boe.es/buscar/act.php?id=BOE-A-1997-25336
+    archive_url: https://web.archive.org/web/20260716135650/https://www.boe.es/buscar/act.php?id=BOE-A-1997-25336
+    lang: es
+    published: 1997-11-28
+    accessed: 2026-07-29
+    quote: >-
+      El Gobierno se compone del Presidente, del Vicepresidente o Vicepresidentes, en su
+      caso, y de los Ministros.
+    note: >-
+      Cited for the composition of the Government, which is what makes the Prime Minister's
+      seat a matter of statute rather than of interpretation.
+
+entities:
+  - id: ES-2020-asuntos-exteriores
+    order: 1
+    name_original: Ministerio de Asuntos Exteriores, Unión Europea y Cooperación
+    abbreviation_original: MAUC
+    name_en: Ministry of Foreign Affairs, European Union and Cooperation
+    name_es: Ministerio de Asuntos Exteriores, Unión Europea y Cooperación
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [foreign_affairs, european_affairs, development_cooperation]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-2-2020]
+
+  - id: ES-2020-justicia
+    order: 2
+    name_original: Ministerio de Justicia
+    abbreviation_original: null
+    name_en: Ministry of Justice
+    name_es: Ministerio de Justicia
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [justice]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-2-2020]
+    note:
+      en: >-
+        The last term in which justice has a department to itself: in 2023 it was merged into the
+        Presidency department.
+      es: >-
+        La última legislatura en que la justicia tiene departamento propio: en 2023 se integró en
+        el departamento de la Presidencia.
+
+  - id: ES-2020-defensa
+    order: 3
+    name_original: Ministerio de Defensa
+    abbreviation_original: null
+    name_en: Ministry of Defence
+    name_es: Ministerio de Defensa
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [defence]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-2-2020]
+
+  - id: ES-2020-hacienda
+    order: 4
+    name_original: Ministerio de Hacienda
+    abbreviation_original: null
+    name_en: Ministry of Finance
+    name_es: Ministerio de Hacienda
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [finance, budget]
+    counts_as_ministry: true
+    valid_to: 2021-07-11
+    url: null
+    sources: [boe-rd-2-2020, boe-rd-507-2021]
+    note:
+      en: >-
+        Under this name until 11 July 2021, when it took the civil service from territorial
+        policy and was renamed accordingly. The successor appears at the end of this list.
+      es: >-
+        Con este nombre hasta el 11 de julio de 2021, cuando asumió la función pública de
+        Política Territorial y se renombró en consecuencia. El sucesor aparece al final de esta
+        lista.
+
+  - id: ES-2020-interior
+    order: 5
+    name_original: Ministerio del Interior
+    abbreviation_original: null
+    name_en: Ministry of the Interior
+    name_es: Ministerio del Interior
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [interior, civil_protection]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-2-2020]
+
+  - id: ES-2020-transportes-movilidad-agenda-urbana
+    order: 6
+    name_original: Ministerio de Transportes, Movilidad y Agenda Urbana
+    abbreviation_original: MITMA
+    name_en: Ministry of Transport, Mobility and the Urban Agenda
+    name_es: Ministerio de Transportes, Movilidad y Agenda Urbana
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [transport, infrastructure, housing, spatial_planning, shipping]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-2-2020]
+    note:
+      en: >-
+        The department previously called Fomento, renamed here after twenty-four years. Housing
+        stayed with it until 2023, when a separate housing department was created.
+      es: >-
+        El departamento antes llamado Fomento, renombrado aquí tras veinticuatro años. La
+        vivienda permaneció en él hasta 2023, cuando se creó un departamento propio de vivienda.
+
+  - id: ES-2020-educacion-formacion-profesional
+    order: 7
+    name_original: Ministerio de Educación y Formación Profesional
+    abbreviation_original: null
+    name_en: Ministry of Education and Vocational Training
+    name_es: Ministerio de Educación y Formación Profesional
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [education, vocational_training]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-2-2020]
+
+  - id: ES-2020-trabajo-economia-social
+    order: 8
+    name_original: Ministerio de Trabajo y Economía Social
+    abbreviation_original: null
+    name_en: Ministry of Labour and the Social Economy
+    name_es: Ministerio de Trabajo y Economía Social
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [labour]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-2-2020]
+    note:
+      en: >-
+        Labour alone, without social security or migration: both went to the new inclusion
+        department. This is the narrowest the labour brief gets in the series.
+      es: >-
+        Trabajo en solitario, sin seguridad social ni migraciones: ambas pasaron al nuevo
+        departamento de Inclusión. Es la delimitación más estrecha que alcanza la competencia
+        laboral en la serie.
+
+  - id: ES-2020-industria-comercio-turismo
+    order: 9
+    name_original: Ministerio de Industria, Comercio y Turismo
+    abbreviation_original: null
+    name_en: Ministry of Industry, Trade and Tourism
+    name_es: Ministerio de Industria, Comercio y Turismo
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [industry, trade, tourism]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-2-2020]
+
+  - id: ES-2020-agricultura
+    order: 10
+    name_original: Ministerio de Agricultura, Pesca y Alimentación
+    abbreviation_original: MAPA
+    name_en: Ministry of Agriculture, Fisheries and Food
+    name_es: Ministerio de Agricultura, Pesca y Alimentación
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [agriculture, fisheries, food_safety, rural_development]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-2-2020]
+
+  - id: ES-2020-presidencia-cortes-memoria
+    order: 11
+    name_original: Ministerio de la Presidencia, Relaciones con las Cortes y Memoria Democrática
+    abbreviation_original: null
+    name_en: Ministry of the Presidency, Relations with the Cortes and Democratic Memory
+    name_es: Ministerio de la Presidencia, Relaciones con las Cortes y Memoria Democrática
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [government_coordination, parliamentary_relations, historical_memory]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-2-2020, boe-rd-8-2020]
+    note:
+      en: >-
+        A full ministerial department, and not to be confused with the Presidency of the
+        Government further down this list. Democratic memory enters a department title for the
+        first time here.
+      es: >-
+        Departamento ministerial completo, que no debe confundirse con la Presidencia del
+        Gobierno que aparece más abajo. La memoria democrática entra aquí por primera vez en el
+        título de un departamento.
+
+  - id: ES-2020-politica-territorial-funcion-publica
+    order: 12
+    name_original: Ministerio de Política Territorial y Función Pública
+    abbreviation_original: null
+    name_en: Ministry of Territorial Policy and the Civil Service
+    name_es: Ministerio de Política Territorial y Función Pública
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [territorial_administration, public_administration]
+    counts_as_ministry: true
+    valid_to: 2021-07-11
+    url: null
+    sources: [boe-rd-2-2020, boe-rd-507-2021]
+    note:
+      en: >-
+        Under this name until 11 July 2021, when the civil service went to finance and the
+        department was renamed. The successor appears at the end of this list.
+      es: >-
+        Con este nombre hasta el 11 de julio de 2021, cuando la función pública pasó a Hacienda
+        y el departamento se renombró. El sucesor aparece al final de esta lista.
+
+  - id: ES-2020-transicion-ecologica
+    order: 13
+    name_original: Ministerio para la Transición Ecológica y el Reto Demográfico
+    abbreviation_original: MITECO
+    name_en: Ministry for the Ecological Transition and Demographic Challenge
+    name_es: Ministerio para la Transición Ecológica y el Reto Demográfico
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [environment, climate, energy, water]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-2-2020]
+
+  - id: ES-2020-cultura-deporte
+    order: 14
+    name_original: Ministerio de Cultura y Deporte
+    abbreviation_original: null
+    name_en: Ministry of Culture and Sport
+    name_es: Ministerio de Cultura y Deporte
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [culture, sport]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-2-2020]
+
+  - id: ES-2020-asuntos-economicos-transformacion-digital
+    order: 15
+    name_original: Ministerio de Asuntos Económicos y Transformación Digital
+    abbreviation_original: null
+    name_en: Ministry of Economic Affairs and Digital Transformation
+    name_es: Ministerio de Asuntos Económicos y Transformación Digital
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [economy, digital, telecommunications]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-2-2020]
+
+  - id: ES-2020-sanidad
+    order: 16
+    name_original: Ministerio de Sanidad
+    abbreviation_original: null
+    name_en: Ministry of Health
+    name_es: Ministerio de Sanidad
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [health]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-2-2020]
+    note:
+      en: >-
+        Health alone, without consumer affairs or social services, for the first time in the
+        series: both had departments of their own in this government.
+      es: >-
+        Sanidad en solitario, sin consumo ni servicios sociales, por primera vez en la serie:
+        ambos tuvieron departamento propio en este Gobierno.
+
+  - id: ES-2020-derechos-sociales-agenda-2030
+    order: 17
+    name_original: Ministerio de Derechos Sociales y Agenda 2030
+    abbreviation_original: null
+    name_en: Ministry of Social Rights and the 2030 Agenda
+    name_es: Ministerio de Derechos Sociales y Agenda 2030
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [social_affairs, disability, family]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-2-2020]
+
+  - id: ES-2020-ciencia-innovacion
+    order: 18
+    name_original: Ministerio de Ciencia e Innovación
+    abbreviation_original: null
+    name_en: Ministry of Science and Innovation
+    name_es: Ministerio de Ciencia e Innovación
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [research, innovation]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-2-2020]
+
+  - id: ES-2020-igualdad
+    order: 19
+    name_original: Ministerio de Igualdad
+    abbreviation_original: null
+    name_en: Ministry of Equality
+    name_es: Ministerio de Igualdad
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [equality]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-2-2020]
+    note:
+      en: >-
+        Equality regains a department of its own, ten years after the one created in 2008 was
+        abolished. It has had one continuously since.
+      es: >-
+        La igualdad recupera departamento propio, diez años después de suprimirse el creado en
+        2008. Lo mantiene de forma continuada desde entonces.
+
+  - id: ES-2020-consumo
+    order: 20
+    name_original: Ministerio de Consumo
+    abbreviation_original: null
+    name_en: Ministry of Consumer Affairs
+    name_es: Ministerio de Consumo
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [consumer_protection]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-2-2020]
+    note:
+      en: >-
+        The only time consumer affairs has a department of its own in this series. It had been
+        attached to health for most of the period and returned to a combined department in 2023.
+      es: >-
+        La única vez en esta serie que el consumo tiene departamento propio. Había estado
+        adscrito a Sanidad durante la mayor parte del periodo y volvió a un departamento
+        combinado en 2023.
+
+  - id: ES-2020-inclusion-seguridad-social-migraciones
+    order: 21
+    name_original: Ministerio de Inclusión, Seguridad Social y Migraciones
+    abbreviation_original: null
+    name_en: Ministry of Inclusion, Social Security and Migration
+    name_es: Ministerio de Inclusión, Seguridad Social y Migraciones
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [social_security, migration]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-2-2020]
+
+  - id: ES-2020-universidades
+    order: 22
+    name_original: Ministerio de Universidades
+    abbreviation_original: null
+    name_en: Ministry of Universities
+    name_es: Ministerio de Universidades
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [higher_education]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-2-2020]
+    note:
+      en: >-
+        The only time universities have a department of their own in this series. They had been
+        with education or with science, and returned to science in 2023.
+      es: >-
+        La única vez en esta serie que las universidades tienen departamento propio. Habían
+        estado con Educación o con Ciencia, y volvieron a Ciencia en 2023.
+
+  # --- the two names created on 12 July 2021 -------------------------------------------
+  # They replaced entries 4 and 12 of the enumeration above. Listing order must be unique
+  # within a file, so they appear here rather than at those positions.
+  - id: ES-2020-hacienda-funcion-publica
+    order: 23
+    name_original: Ministerio de Hacienda y Función Pública
+    abbreviation_original: MHFP
+    name_en: Ministry of Finance and the Civil Service
+    name_es: Ministerio de Hacienda y Función Pública
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [finance, budget, public_administration]
+    counts_as_ministry: true
+    valid_from: 2021-07-12
+    url: null
+    sources: [boe-rd-507-2021]
+
+  - id: ES-2020-politica-territorial
+    order: 24
+    name_original: Ministerio de Política Territorial
+    abbreviation_original: null
+    name_en: Ministry of Territorial Policy
+    name_es: Ministerio de Política Territorial
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [territorial_administration]
+    counts_as_ministry: true
+    valid_from: 2021-07-12
+    url: null
+    sources: [boe-rd-507-2021]
+
+  # --- recorded, not counted -----------------------------------------------------------
+  - id: ES-2020-presidencia-del-gobierno
+    order: 25
+    name_original: Presidencia del Gobierno
+    abbreviation_original: null
+    name_en: Office of the Prime Minister
+    name_es: Presidencia del Gobierno
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Presidente del Gobierno
+    head_title_en: Prime Minister
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: head_of_government_office
+    url: null
+    sources: [boe-ley-50-1997, boe-rd-8-2020]
+    note:
+      en: >-
+        The Prime Minister's own office, and the apex of the cabinet rather than a portfolio
+        department. Recorded because it holds a seat.
+      es: >-
+        La oficina del propio presidente del Gobierno, cúspide del gabinete y no un
+        departamento con cartera. Se registra porque ocupa un asiento.

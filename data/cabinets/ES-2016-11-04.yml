@@ -1,0 +1,389 @@
+# Spain — government structure of the XII legislature (2016-2018).
+#
+# Also thirteen departments, and the second of the two places in the Spanish series where the
+# total does not move across a restructuring. Six of the thirteen changed name or remit, so a
+# chart of the number alone shows nothing happening between December 2011 and June 2018.
+
+country: ES
+cabinet_id: ES-2016-11-04
+
+cabinet_name_original: Gobierno de España, XII Legislatura (2016-2018)
+cabinet_name_en: Government of Spain, 12th legislature (2016-2018)
+cabinet_name_es: Gobierno de España, XII Legislatura (2016-2018)
+
+head_of_government_title_original: Presidente del Gobierno
+head_of_government_title_en: Prime Minister
+
+took_office: 2016-11-04
+left_office: 2018-06-06
+
+methodology_notes:
+  - en: >-
+      Thirteen ministerial departments, the same total as the outgoing government but not the
+      same thirteen. Public administration moved from finance to the Presidency department,
+      energy and tourism were recombined with the new digital agenda, industry joined economic
+      policy, and fisheries returned to the agriculture department's name. A figure for the
+      number of departments cannot show any of this.
+    es: >-
+      Trece departamentos ministeriales, el mismo total que el Gobierno saliente pero no los
+      mismos trece. La función pública pasó de Hacienda al departamento de la Presidencia, la
+      energía y el turismo se recombinaron con la nueva agenda digital, la industria se unió a
+      la política económica y la pesca volvió al nombre del departamento de Agricultura. Una
+      cifra del número de departamentos no puede mostrar nada de esto.
+  - en: >-
+      Fourteen seats against thirteen departments: the Prime Minister holds a seat without
+      heading a department. A single vice-president, who also headed the Presidency and
+      territorial administration department, and no minister without a portfolio.
+    es: >-
+      Catorce asientos frente a trece departamentos: el presidente del Gobierno ocupa un
+      asiento sin encabezar departamento. Una sola vicepresidencia, que encabezaba además el
+      departamento de la Presidencia y para las Administraciones Territoriales, y ningún
+      ministro sin cartera.
+  - en: >-
+      This is the shortest term in the Spanish series. The government took office in November
+      2016 and left in June 2018, when a motion of no confidence succeeded, so the structure
+      lasted nineteen months and was never amended.
+    es: >-
+      Es la legislatura más corta de la serie española. El Gobierno tomó posesión en noviembre
+      de 2016 y cesó en junio de 2018, al prosperar una moción de censura, de modo que la
+      estructura duró diecinueve meses y no se modificó nunca.
+
+sources:
+  - id: boe-rd-415-2016
+    tier: 1
+    type: official_gazette
+    publisher: Boletín Oficial del Estado
+    title: >-
+      Real Decreto 415/2016, de 3 de noviembre, por el que se reestructuran los departamentos
+      ministeriales
+    url: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-10167
+    archive_url: https://web.archive.org/web/20260114173021/https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-10167
+    lang: es
+    published: 2016-11-04
+    accessed: 2026-07-29
+    quote: |-
+      Artículo 1. Departamentos ministeriales.
+      La Administración General del Estado se estructura en los siguientes departamentos ministeriales:
+      Ministerio de Asuntos Exteriores y de Cooperación.
+      Ministerio de Justicia.
+      Ministerio de Defensa.
+      Ministerio de Hacienda y Función Pública.
+      Ministerio del Interior.
+      Ministerio de Fomento.
+      Ministerio de Educación, Cultura y Deporte.
+      Ministerio de Empleo y Seguridad Social.
+      Ministerio de Energía, Turismo y Agenda Digital.
+      Ministerio de Agricultura y Pesca, Alimentación y Medio Ambiente.
+      Ministerio de la Presidencia y para las Administraciones Territoriales.
+      Ministerio de Economía, Industria y Competitividad.
+      Ministerio de Sanidad, Servicios Sociales e Igualdad.
+    note: >-
+      The text as published, in force the same day. The gazette records no amendment to it
+      before it was superseded in June 2018, so this enumeration describes the whole term.
+
+  - id: boe-rd-417-2016
+    tier: 1
+    type: official_gazette
+    publisher: Boletín Oficial del Estado
+    title: >-
+      Real Decreto 417/2016, de 3 de noviembre, por el que se nombran Ministros del Gobierno
+    url: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-10169
+    archive_url: https://web.archive.org/web/20230514031512/https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-10169
+    lang: es
+    published: 2016-11-04
+    accessed: 2026-07-29
+    quote: |-
+      Ministro de Hacienda y Función Pública a don Cristóbal Montoro Romero.
+      Ministro de Energía, Turismo y Agenda Digital a don Álvaro María Nadal Belda.
+      Ministra de la Presidencia y para las Administraciones Territoriales a doña María Soraya Sáenz de Santamaría Antón.
+      Ministro de Economía, Industria y Competitividad a don Luis de Guindos Jurado.
+    note: >-
+      Thirteen ministers for thirteen departments, one each and none without a portfolio, which
+      is what makes the seat count fourteen once the Prime Minister is added. The quote
+      includes the sole vice-president, appointed the same day to the Presidency and
+      territorial administration department.
+
+  - id: boe-ley-50-1997
+    tier: 1
+    type: statute
+    publisher: Boletín Oficial del Estado
+    title: Ley 50/1997, de 27 de noviembre, del Gobierno (texto consolidado)
+    url: https://www.boe.es/buscar/act.php?id=BOE-A-1997-25336
+    archive_url: https://web.archive.org/web/20260716135650/https://www.boe.es/buscar/act.php?id=BOE-A-1997-25336
+    lang: es
+    published: 1997-11-28
+    accessed: 2026-07-29
+    quote: >-
+      El Gobierno se compone del Presidente, del Vicepresidente o Vicepresidentes, en su
+      caso, y de los Ministros.
+    note: >-
+      Cited for the composition of the Government, which is what makes the Prime Minister's
+      seat a matter of statute rather than of interpretation.
+
+entities:
+  - id: ES-2016-asuntos-exteriores
+    order: 1
+    name_original: Ministerio de Asuntos Exteriores y de Cooperación
+    abbreviation_original: MAEC
+    name_en: Ministry of Foreign Affairs and Cooperation
+    name_es: Ministerio de Asuntos Exteriores y de Cooperación
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [foreign_affairs, development_cooperation, european_affairs]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-415-2016]
+
+  - id: ES-2016-justicia
+    order: 2
+    name_original: Ministerio de Justicia
+    abbreviation_original: null
+    name_en: Ministry of Justice
+    name_es: Ministerio de Justicia
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [justice]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-415-2016]
+
+  - id: ES-2016-defensa
+    order: 3
+    name_original: Ministerio de Defensa
+    abbreviation_original: null
+    name_en: Ministry of Defence
+    name_es: Ministerio de Defensa
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [defence]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-415-2016]
+
+  - id: ES-2016-hacienda-funcion-publica
+    order: 4
+    name_original: Ministerio de Hacienda y Función Pública
+    abbreviation_original: MINHAFP
+    name_en: Ministry of Finance and the Civil Service
+    name_es: Ministerio de Hacienda y Función Pública
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [finance, budget, public_administration]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-415-2016]
+    note:
+      en: >-
+        Keeps the civil service but gives up relations with the regions, which went to the
+        Presidency department. The same pair of responsibilities is split and recombined
+        repeatedly across this series.
+      es: >-
+        Conserva la función pública pero cede las relaciones con las comunidades autónomas al
+        departamento de la Presidencia. Ese mismo par de competencias se separa y se recombina
+        repetidamente a lo largo de esta serie.
+
+  - id: ES-2016-interior
+    order: 5
+    name_original: Ministerio del Interior
+    abbreviation_original: null
+    name_en: Ministry of the Interior
+    name_es: Ministerio del Interior
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [interior, civil_protection]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-415-2016]
+
+  - id: ES-2016-fomento
+    order: 6
+    name_original: Ministerio de Fomento
+    abbreviation_original: null
+    name_en: Ministry of Public Works
+    name_es: Ministerio de Fomento
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [infrastructure, transport, shipping, housing]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-415-2016]
+    note:
+      en: >-
+        The last government in which public works carries this name: in 2020 the department
+        was renamed for transport, mobility and the urban agenda.
+      es: >-
+        El último Gobierno en que este departamento lleva el nombre de Fomento: en 2020 pasó a
+        denominarse de Transportes, Movilidad y Agenda Urbana.
+
+  - id: ES-2016-educacion-cultura-deporte
+    order: 7
+    name_original: Ministerio de Educación, Cultura y Deporte
+    abbreviation_original: null
+    name_en: Ministry of Education, Culture and Sport
+    name_es: Ministerio de Educación, Cultura y Deporte
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [education, higher_education, culture, sport]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-415-2016]
+
+  - id: ES-2016-empleo-seguridad-social
+    order: 8
+    name_original: Ministerio de Empleo y Seguridad Social
+    abbreviation_original: null
+    name_en: Ministry of Employment and Social Security
+    name_es: Ministerio de Empleo y Seguridad Social
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [labour, social_security, migration]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-415-2016]
+
+  - id: ES-2016-energia-turismo-agenda-digital
+    order: 9
+    name_original: Ministerio de Energía, Turismo y Agenda Digital
+    abbreviation_original: MINETAD
+    name_en: Ministry of Energy, Tourism and the Digital Agenda
+    name_es: Ministerio de Energía, Turismo y Agenda Digital
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [energy, tourism, digital, telecommunications]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-415-2016]
+    note:
+      en: >-
+        The first Spanish department to carry a digital brief in its name. Industry, which had
+        shared a department with energy and tourism in the previous term, moved to economic
+        policy instead.
+      es: >-
+        El primer departamento español que lleva una competencia digital en el nombre. La
+        industria, que en la legislatura anterior compartía departamento con la energía y el
+        turismo, pasó en cambio a la política económica.
+
+  - id: ES-2016-agricultura-pesca-alimentacion-medio-ambiente
+    order: 10
+    name_original: Ministerio de Agricultura y Pesca, Alimentación y Medio Ambiente
+    abbreviation_original: MAPAMA
+    name_en: Ministry of Agriculture and Fisheries, Food and the Environment
+    name_es: Ministerio de Agricultura y Pesca, Alimentación y Medio Ambiente
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [agriculture, fisheries, food_safety, environment, water, rural_development]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-415-2016]
+
+  - id: ES-2016-presidencia-administraciones-territoriales
+    order: 11
+    name_original: Ministerio de la Presidencia y para las Administraciones Territoriales
+    abbreviation_original: null
+    name_en: Ministry of the Presidency and Territorial Administration
+    name_es: Ministerio de la Presidencia y para las Administraciones Territoriales
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [government_coordination, parliamentary_relations, territorial_administration]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-415-2016, boe-rd-417-2016]
+    note:
+      en: >-
+        A full ministerial department, and not to be confused with the Presidency of the
+        Government further down this list. It took relations with the regions from finance for
+        this term.
+      es: >-
+        Departamento ministerial completo, que no debe confundirse con la Presidencia del
+        Gobierno que aparece más abajo. Asumió de Hacienda las relaciones con las comunidades
+        autónomas durante esta legislatura.
+
+  - id: ES-2016-economia-industria-competitividad
+    order: 12
+    name_original: Ministerio de Economía, Industria y Competitividad
+    abbreviation_original: MINECO
+    name_en: Ministry of Economy, Industry and Competitiveness
+    name_es: Ministerio de Economía, Industria y Competitividad
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [economy, industry, trade, research, innovation]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-415-2016]
+
+  - id: ES-2016-sanidad-servicios-sociales-igualdad
+    order: 13
+    name_original: Ministerio de Sanidad, Servicios Sociales e Igualdad
+    abbreviation_original: null
+    name_en: Ministry of Health, Social Services and Equality
+    name_es: Ministerio de Sanidad, Servicios Sociales e Igualdad
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [health, social_affairs, equality, consumer_protection]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-415-2016]
+
+  # --- recorded, not counted -----------------------------------------------------------
+  - id: ES-2016-presidencia-del-gobierno
+    order: 14
+    name_original: Presidencia del Gobierno
+    abbreviation_original: null
+    name_en: Office of the Prime Minister
+    name_es: Presidencia del Gobierno
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Presidente del Gobierno
+    head_title_en: Prime Minister
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: head_of_government_office
+    url: null
+    sources: [boe-ley-50-1997, boe-rd-417-2016]
+    note:
+      en: >-
+        The Prime Minister's own office, and the apex of the cabinet rather than a portfolio
+        department. Recorded because it holds a seat.
+      es: >-
+        La oficina del propio presidente del Gobierno, cúspide del gabinete y no un
+        departamento con cartera. Se registra porque ocupa un asiento.

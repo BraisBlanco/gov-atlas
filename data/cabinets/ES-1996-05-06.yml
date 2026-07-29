@@ -1,0 +1,444 @@
+# Spain — government structure of the VI legislature (1996-2000).
+#
+# The earliest cabinet on record here, included so the history series has a value at the
+# start of 2000 rather than beginning in April of that year, part-way through a term.
+#
+# Its enumerating decree is the only one in the Spanish series that exists solely as a
+# scanned facsimile: the gazette's machine-readable text does not go back to 1996. The quote
+# below was transcribed from the page image, not from optical character recognition, whose
+# output for this scan is unusable.
+
+country: ES
+cabinet_id: ES-1996-05-06
+
+cabinet_name_original: Gobierno de España, VI Legislatura
+cabinet_name_en: Government of Spain, 6th legislature
+cabinet_name_es: Gobierno de España, VI Legislatura
+
+head_of_government_title_original: Presidente del Gobierno
+head_of_government_title_en: Prime Minister
+
+took_office: 1996-05-06
+left_office: 2000-04-27
+
+methodology_notes:
+  - en: >-
+      Fourteen ministerial departments, the smallest Spanish cabinet in this series. The
+      restructuring that created it merged six departments away: justice and the interior
+      were split into two, education absorbed culture, labour absorbed social affairs, and
+      trade and tourism went to the economy and finance department.
+    es: >-
+      Catorce departamentos ministeriales, el gabinete español más reducido de esta serie. La
+      reestructuración que lo creó suprimió seis departamentos: Justicia e Interior se
+      dividió en dos, Educación absorbió Cultura, Trabajo absorbió Asuntos Sociales, y
+      Comercio y Turismo pasó a Economía y Hacienda.
+  - en: >-
+      Fifteen seats against fourteen departments. The Prime Minister holds a seat without
+      heading a department, and both vice-presidents were serving ministers — the first also
+      held the Presidency department and the second economy and finance — so neither
+      vice-presidency adds a seat. No minister was appointed without a portfolio.
+    es: >-
+      Quince asientos frente a catorce departamentos. El presidente del Gobierno ocupa un
+      asiento sin encabezar departamento, y los dos vicepresidentes eran ministros en
+      ejercicio —el primero encabezaba además el departamento de la Presidencia y el segundo
+      Economía y Hacienda—, por lo que ninguna vicepresidencia añade asiento. Ningún ministro
+      fue nombrado sin cartera.
+  - en: >-
+      The gazette prints the fifth department as "Ministerio de Interior", without the
+      article that the name carries in every later decree and in ordinary usage. The
+      spelling is reproduced as published, in the quoted enumeration and in the department's
+      official name, rather than silently corrected.
+    es: >-
+      El diario oficial imprime el quinto departamento como «Ministerio de Interior», sin el
+      artículo que el nombre lleva en todos los decretos posteriores y en el uso corriente.
+      Se reproduce la grafía tal como se publicó, tanto en la enumeración citada como en el
+      nombre oficial del departamento, en lugar de corregirla en silencio.
+
+sources:
+  - id: boe-rd-758-1996
+    tier: 1
+    type: official_gazette
+    publisher: Boletín Oficial del Estado
+    title: >-
+      Real Decreto 758/1996, de 5 de mayo, de reestructuración de Departamentos ministeriales
+    url: https://www.boe.es/boe/dias/1996/05/06/pdfs/A15707-15708.pdf
+    archive_url: https://web.archive.org/web/20250916085116/https://www.boe.es/boe/dias/1996/05/06/pdfs/A15707-15708.pdf
+    lang: es
+    published: 1996-05-06
+    accessed: 2026-07-29
+    quote: |-
+      Artículo 1.
+      La Administración General del Estado queda estructurada en los siguientes Departamentos ministeriales:
+      Ministerio de Asuntos Exteriores.
+      Ministerio de Justicia.
+      Ministerio de Defensa.
+      Ministerio de Economía y Hacienda.
+      Ministerio de Interior.
+      Ministerio de Fomento.
+      Ministerio de Educación y Cultura.
+      Ministerio de Trabajo y Asuntos Sociales.
+      Ministerio de Industria y Energía.
+      Ministerio de Agricultura, Pesca y Alimentación.
+      Ministerio de la Presidencia.
+      Ministerio de Administraciones Públicas.
+      Ministerio de Sanidad y Consumo.
+      Ministerio de Medio Ambiente.
+    note: >-
+      Pages 15707-15708 of issue 110, as published. A scanned facsimile: the gazette
+      publishes no machine-readable text for 1996, so this enumeration was transcribed from
+      the page image. In force the day it was published.
+
+  - id: boe-rd-762-1996
+    tier: 1
+    type: official_gazette
+    publisher: Boletín Oficial del Estado
+    title: >-
+      Real Decreto 762/1996, de 5 de mayo, por el que se nombran Ministros del Gobierno
+    url: https://www.boe.es/diario_boe/txt.php?id=BOE-A-1996-9947
+    archive_url: https://web.archive.org/web/20250124020413/https://www.boe.es/diario_boe/txt.php?id=BOE-A-1996-9947
+    lang: es
+    published: 1996-05-06
+    accessed: 2026-07-29
+    quote: |-
+      Ministro de Asuntos Exteriores a don Abel Matutes Juan.
+      Ministra de Justicia a doña Margarita Mariscal de Gante y Mirón.
+      Ministro de Defensa a don Eduardo Serra Rexach.
+      Ministro de Economía y Hacienda a don Rodrigo de Rato y Figaredo.
+      Ministro de Interior a don Jaime Mayor Oreja.
+      Ministro de Fomento a don Rafael Arias-Salgado y Montalvo.
+      Ministra de Educación y Cultura a doña Esperanza Aguirre y Gil de Biedma.
+      Ministro de Trabajo y Asuntos Sociales a don Javier Arenas Bocanegra.
+      Ministro de Industria y Energía a don Josep Piqué i Camps.
+      Ministra de Agricultura, Pesca y Alimentación a doña Loyola de Palacio del Valle-Lersundi.
+      Ministro de la Presidencia a don Francisco Alvarez-Cascos Fernández.
+      Ministro de Administraciones Públicas a don Mariano Rajoy Brey.
+      Ministro de Sanidad y Consumo a don José Manuel Romay Beccaría.
+      Ministra de Medio Ambiente a doña Isabel Tocino Biscarolasaga.
+    note: >-
+      Fourteen ministers for fourteen departments, one each and none without a portfolio,
+      which is what makes the seat count fifteen once the Prime Minister is added. It also
+      shows that the two vice-presidents appointed the same day each headed a department:
+      the first the Presidency, the second economy and finance.
+
+  - id: ce-art-98
+    tier: 1
+    type: statute
+    publisher: Boletín Oficial del Estado
+    title: Constitución Española (texto consolidado)
+    url: https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229
+    archive_url: https://web.archive.org/web/20260728064320/https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229
+    lang: es
+    published: 1978-12-29
+    accessed: 2026-07-29
+    quote: >-
+      El Gobierno se compone del Presidente, de los Vicepresidentes, en su caso, de los
+      Ministros y de los demás miembros que establezca la ley.
+    note: >-
+      Article 98.1, cited for the composition of the Government rather than the Ley del
+      Gobierno used for later cabinets: that statute is from November 1997 and was not in
+      force when this government took office.
+
+entities:
+  - id: ES-1996-asuntos-exteriores
+    order: 1
+    name_original: Ministerio de Asuntos Exteriores
+    abbreviation_original: null
+    name_en: Ministry of Foreign Affairs
+    name_es: Ministerio de Asuntos Exteriores
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [foreign_affairs, european_affairs, development_cooperation]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-758-1996]
+
+  - id: ES-1996-justicia
+    order: 2
+    name_original: Ministerio de Justicia
+    abbreviation_original: null
+    name_en: Ministry of Justice
+    name_es: Ministerio de Justicia
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [justice]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-758-1996]
+    note:
+      en: >-
+        Separated from the interior in this restructuring: until 1996 the two were a single
+        Ministry of Justice and the Interior.
+      es: >-
+        Se separó de Interior en esta reestructuración: hasta 1996 ambos formaban un único
+        Ministerio de Justicia e Interior.
+
+  - id: ES-1996-defensa
+    order: 3
+    name_original: Ministerio de Defensa
+    abbreviation_original: null
+    name_en: Ministry of Defence
+    name_es: Ministerio de Defensa
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [defence]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-758-1996]
+
+  - id: ES-1996-economia-hacienda
+    order: 4
+    name_original: Ministerio de Economía y Hacienda
+    abbreviation_original: null
+    name_en: Ministry of Economy and Finance
+    name_es: Ministerio de Economía y Hacienda
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [economy, finance, budget, trade, tourism]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-758-1996]
+    note:
+      en: >-
+        Trade and tourism are among its areas because the 1996 restructuring abolished the
+        Ministry of Trade and Tourism and gave its responsibilities to this department. They
+        moved to the economy department when it was split off in 2000.
+      es: >-
+        El comercio y el turismo figuran entre sus materias porque la reestructuración de
+        1996 suprimió el Ministerio de Comercio y Turismo y atribuyó sus competencias a este
+        departamento. Pasaron al Ministerio de Economía cuando este se escindió en 2000.
+
+  - id: ES-1996-interior
+    order: 5
+    name_original: Ministerio de Interior
+    abbreviation_original: null
+    name_en: Ministry of the Interior
+    name_es: Ministerio de Interior
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [interior, civil_protection]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-758-1996]
+    note:
+      en: >-
+        Named without the article, as the gazette prints it in both the enumeration and the
+        article assigning its responsibilities. Every later decree writes "Ministerio del
+        Interior".
+      es: >-
+        Se nombra sin artículo, tal como lo imprime el diario oficial tanto en la
+        enumeración como en el artículo que le atribuye competencias. Todos los decretos
+        posteriores escriben «Ministerio del Interior».
+
+  - id: ES-1996-fomento
+    order: 6
+    name_original: Ministerio de Fomento
+    abbreviation_original: null
+    name_en: Ministry of Public Works
+    name_es: Ministerio de Fomento
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [infrastructure, transport, telecommunications, housing, spatial_planning]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-758-1996]
+    note:
+      en: >-
+        Took transport, communications, housing and town planning from the abolished Ministry
+        of Public Works, Transport and the Environment, but not water infrastructure, which
+        went to the new environment department. Communications left for science and
+        technology in 2000.
+      es: >-
+        Asumió transportes, comunicaciones, vivienda y urbanismo del suprimido Ministerio de
+        Obras Públicas, Transportes y Medio Ambiente, pero no las obras hidráulicas, que
+        pasaron al nuevo departamento de Medio Ambiente. Las comunicaciones salieron hacia
+        Ciencia y Tecnología en 2000.
+
+  - id: ES-1996-educacion-cultura
+    order: 7
+    name_original: Ministerio de Educación y Cultura
+    abbreviation_original: null
+    name_en: Ministry of Education and Culture
+    name_es: Ministerio de Educación y Cultura
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [education, higher_education, culture, research]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-758-1996]
+
+  - id: ES-1996-trabajo-asuntos-sociales
+    order: 8
+    name_original: Ministerio de Trabajo y Asuntos Sociales
+    abbreviation_original: null
+    name_en: Ministry of Labour and Social Affairs
+    name_es: Ministerio de Trabajo y Asuntos Sociales
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [labour, social_security, social_affairs]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-758-1996]
+
+  - id: ES-1996-industria-energia
+    order: 9
+    name_original: Ministerio de Industria y Energía
+    abbreviation_original: null
+    name_en: Ministry of Industry and Energy
+    name_es: Ministerio de Industria y Energía
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [industry, energy, mining]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-758-1996]
+
+  - id: ES-1996-agricultura
+    order: 10
+    name_original: Ministerio de Agricultura, Pesca y Alimentación
+    abbreviation_original: null
+    name_en: Ministry of Agriculture, Fisheries and Food
+    name_es: Ministerio de Agricultura, Pesca y Alimentación
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [agriculture, fisheries, food_safety, rural_development]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-758-1996]
+
+  - id: ES-1996-presidencia
+    order: 11
+    name_original: Ministerio de la Presidencia
+    abbreviation_original: null
+    name_en: Ministry of the Presidency
+    name_es: Ministerio de la Presidencia
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [government_coordination, parliamentary_relations]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-758-1996, boe-rd-762-1996]
+    note:
+      en: >-
+        A full ministerial department, and not to be confused with the Presidency of the
+        Government further down this list, which is the Prime Minister's own office.
+      es: >-
+        Departamento ministerial completo, que no debe confundirse con la Presidencia del
+        Gobierno que aparece más abajo, la oficina del propio presidente.
+
+  - id: ES-1996-administraciones-publicas
+    order: 12
+    name_original: Ministerio de Administraciones Públicas
+    abbreviation_original: MAP
+    name_en: Ministry of Public Administration
+    name_es: Ministerio de Administraciones Públicas
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [public_administration, territorial_administration]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-758-1996]
+
+  - id: ES-1996-sanidad-consumo
+    order: 13
+    name_original: Ministerio de Sanidad y Consumo
+    abbreviation_original: null
+    name_en: Ministry of Health and Consumer Affairs
+    name_es: Ministerio de Sanidad y Consumo
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [health, consumer_protection]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-758-1996]
+
+  - id: ES-1996-medio-ambiente
+    order: 14
+    name_original: Ministerio de Medio Ambiente
+    abbreviation_original: null
+    name_en: Ministry of the Environment
+    name_es: Ministerio de Medio Ambiente
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [environment, water, forestry]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-758-1996]
+    note:
+      en: >-
+        Spain's first department dedicated to the environment. It was assembled from three
+        places: environmental policy from public works, nature conservation and the national
+        parks from agriculture, and water infrastructure with the river basin authorities.
+      es: >-
+        El primer departamento español dedicado al medio ambiente. Se formó a partir de tres
+        procedencias: la política ambiental de Obras Públicas, la conservación de la
+        naturaleza y los parques nacionales de Agricultura, y las obras hidráulicas con las
+        confederaciones hidrográficas.
+
+  # --- recorded, not counted -----------------------------------------------------------
+  - id: ES-1996-presidencia-del-gobierno
+    order: 15
+    name_original: Presidencia del Gobierno
+    abbreviation_original: null
+    name_en: Office of the Prime Minister
+    name_es: Presidencia del Gobierno
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Presidente del Gobierno
+    head_title_en: Prime Minister
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: head_of_government_office
+    url: null
+    sources: [ce-art-98, boe-rd-762-1996]
+    note:
+      en: >-
+        The Prime Minister's own office, and the apex of the cabinet rather than a portfolio
+        department. Recorded because it holds a seat: it is the difference between the
+        department count and the seat count.
+      es: >-
+        La oficina del propio presidente del Gobierno, cúspide del gabinete y no un
+        departamento con cartera. Se registra porque ocupa un asiento: es la diferencia
+        entre el número de departamentos y el de asientos.

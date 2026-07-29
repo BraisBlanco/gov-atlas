@@ -1,0 +1,506 @@
+# Spain — government structure of the VII legislature (2000-2004).
+#
+# The only Spanish cabinet in this series with a minister without portfolio, which is why it
+# is the only one whose seat count exceeds its department count by two rather than one. That
+# post was abolished halfway through the term, so the seat figure changes on a date when the
+# number of departments does not move at all — the mirror image of the reshuffles that change
+# department names without changing the total.
+
+country: ES
+cabinet_id: ES-2000-04-28
+
+cabinet_name_original: Gobierno de España, VII Legislatura
+cabinet_name_en: Government of Spain, 7th legislature
+cabinet_name_es: Gobierno de España, VII Legislatura
+
+head_of_government_title_original: Presidente del Gobierno
+head_of_government_title_en: Prime Minister
+
+took_office: 2000-04-28
+left_office: 2004-04-17
+
+methodology_notes:
+  - en: >-
+      Fifteen ministerial departments, one more than the previous term. The restructuring
+      split economy and finance into two departments and created a Ministry of Science and
+      Technology, which took research from education, industry from industry and energy, and
+      communications from public works.
+    es: >-
+      Quince departamentos ministeriales, uno más que la legislatura anterior. La
+      reestructuración dividió Economía y Hacienda en dos departamentos y creó un Ministerio
+      de Ciencia y Tecnología, que asumió la investigación de Educación, la industria de
+      Industria y Energía y las comunicaciones de Fomento.
+  - en: >-
+      Seventeen seats against fifteen departments for the first two years, and sixteen
+      afterwards. The gap is two rather than the usual one because alongside the Prime
+      Minister this government had a minister without portfolio, the government spokesman,
+      who sat in the Council of Ministers without heading a department. The post was
+      abolished in the reshuffle of 9 July 2002 and the spokesman's role passed to the first
+      vice-president, who was also Minister of the Presidency. From that date the seat count
+      falls by one while the number of departments stays at fifteen.
+    es: >-
+      Diecisiete asientos frente a quince departamentos durante los dos primeros años, y
+      dieciséis después. La diferencia es de dos y no de uno porque, junto al presidente del
+      Gobierno, este Ejecutivo tuvo un ministro sin cartera, el portavoz, que formaba parte
+      del Consejo de Ministros sin encabezar departamento alguno. El puesto se suprimió en la
+      remodelación del 9 de julio de 2002 y la portavocía pasó al vicepresidente primero, que
+      era además ministro de la Presidencia. Desde esa fecha los asientos bajan en uno
+      mientras los departamentos siguen siendo quince.
+  - en: >-
+      Both vice-presidencies were held by serving ministers: the first vice-president also
+      headed the Presidency department and the second, styled vice-president for economic
+      affairs, headed the economy department. Neither adds a department or a seat.
+    es: >-
+      Las dos vicepresidencias las ostentaron ministros en ejercicio: el vicepresidente
+      primero encabezaba además el departamento de la Presidencia y el segundo, con el título
+      de vicepresidente para Asuntos Económicos, el de Economía. Ninguna añade departamento
+      ni asiento.
+
+sources:
+  - id: boe-rd-557-2000
+    tier: 1
+    type: official_gazette
+    publisher: Boletín Oficial del Estado
+    title: >-
+      Real Decreto 557/2000, de 27 de abril, de reestructuración de los Departamentos
+      ministeriales
+    url: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2000-7860
+    archive_url: https://web.archive.org/web/20230607224455/https://www.boe.es/diario_boe/txt.php?id=BOE-A-2000-7860
+    lang: es
+    published: 2000-04-28
+    accessed: 2026-07-29
+    quote: |-
+      Artículo 1.
+      La Administración General del Estado queda estructurada en los siguientes Departamentos ministeriales:
+      Ministerio de Asuntos Exteriores.
+      Ministerio de Justicia.
+      Ministerio de Defensa.
+      Ministerio de Hacienda.
+      Ministerio del Interior.
+      Ministerio de Fomento.
+      Ministerio de Educación, Cultura y Deporte.
+      Ministerio de Trabajo y Asuntos Sociales.
+      Ministerio de Agricultura, Pesca y Alimentación.
+      Ministerio de la Presidencia.
+      Ministerio de Administraciones Públicas.
+      Ministerio de Sanidad y Consumo.
+      Ministerio de Medio Ambiente.
+      Ministerio de Economía.
+      Ministerio de Ciencia y Tecnología.
+    note: >-
+      The text as published, in force the same day. Articles 4 and 5 are what settle where
+      the responsibilities of the two abolished departments went: trade, tourism, energy and
+      mining to the economy department, and research, industry and communications to science
+      and technology.
+
+  - id: boe-rd-561-2000
+    tier: 1
+    type: official_gazette
+    publisher: Boletín Oficial del Estado
+    title: >-
+      Real Decreto 561/2000, de 27 de abril, por el que se nombran Ministros del Gobierno
+    url: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2000-7864
+    archive_url: https://web.archive.org/web/20250124022819/https://www.boe.es/diario_boe/txt.php?id=BOE-A-2000-7864
+    lang: es
+    published: 2000-04-28
+    accessed: 2026-07-29
+    quote: |-
+      Ministro de la Presidencia a don Mariano Rajoy Brey.
+      Ministro de Administraciones Públicas a don Jesús Posada Moreno.
+      Ministra de Sanidad y Consumo a doña Celia Villalobos Talero.
+      Ministro de Medio Ambiente a don Jaime Matas i Palou.
+      Ministro de Economía a don Rodrigo de Rato y Figaredo.
+      Ministra de Ciencia y Tecnología a doña Anna María Birulés Bertrán.
+      Ministro Portavoz del Gobierno, sin cartera, a don Pío Cabanillas Alonso.
+    note: >-
+      Sixteen ministers for fifteen departments. The quote is the closing part of the list,
+      which is where the difference shows: the last appointment is expressly without a
+      portfolio. It also shows the two vice-presidents appointed the same day heading the
+      Presidency and the economy departments.
+
+  - id: boe-rd-669-2002
+    tier: 1
+    type: official_gazette
+    publisher: Boletín Oficial del Estado
+    title: >-
+      Real Decreto 669/2002, de 9 de julio, por el que se dispone el cese de don Pío
+      Cabanillas Alonso como Ministro Portavoz del Gobierno, sin cartera
+    url: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2002-13572
+    archive_url: https://web.archive.org/web/20250123224451/https://boe.es/diario_boe/txt.php?id=BOE-A-2002-13572
+    lang: es
+    published: 2002-07-10
+    accessed: 2026-07-29
+    quote: >-
+      Vengo en disponer el cese de don Pío Cabanillas Alonso como Ministro Portavoz del
+      Gobierno, sin cartera, agradeciéndole los servicios prestados.
+    note: >-
+      Ends the only ministerial post in this series held without a portfolio. No replacement
+      was appointed to it; a decree of the same date gave the spokesman's role to the first
+      vice-president, who already headed the Presidency department.
+
+  - id: boe-ley-50-1997
+    tier: 1
+    type: statute
+    publisher: Boletín Oficial del Estado
+    title: Ley 50/1997, de 27 de noviembre, del Gobierno (texto consolidado)
+    url: https://www.boe.es/buscar/act.php?id=BOE-A-1997-25336
+    archive_url: https://web.archive.org/web/20260716135650/https://www.boe.es/buscar/act.php?id=BOE-A-1997-25336
+    lang: es
+    published: 1997-11-28
+    accessed: 2026-07-29
+    quote: >-
+      El Gobierno se compone del Presidente, del Vicepresidente o Vicepresidentes, en su
+      caso, y de los Ministros.
+    note: >-
+      Cited for the composition of the Government, which is what makes the Prime Minister's
+      seat a matter of statute rather than of interpretation. It also puts ministers without
+      portfolio in the Government on the same footing as departmental ones, which is why the
+      spokesman counts as a seat and not as a department.
+
+entities:
+  - id: ES-2000-asuntos-exteriores
+    order: 1
+    name_original: Ministerio de Asuntos Exteriores
+    abbreviation_original: null
+    name_en: Ministry of Foreign Affairs
+    name_es: Ministerio de Asuntos Exteriores
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [foreign_affairs, european_affairs, development_cooperation]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-557-2000]
+
+  - id: ES-2000-justicia
+    order: 2
+    name_original: Ministerio de Justicia
+    abbreviation_original: null
+    name_en: Ministry of Justice
+    name_es: Ministerio de Justicia
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [justice]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-557-2000]
+
+  - id: ES-2000-defensa
+    order: 3
+    name_original: Ministerio de Defensa
+    abbreviation_original: null
+    name_en: Ministry of Defence
+    name_es: Ministerio de Defensa
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [defence]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-557-2000]
+
+  - id: ES-2000-hacienda
+    order: 4
+    name_original: Ministerio de Hacienda
+    abbreviation_original: null
+    name_en: Ministry of Finance
+    name_es: Ministerio de Hacienda
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [finance, budget, state_assets]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-557-2000]
+    note:
+      en: >-
+        Created by splitting economy and finance in two. It kept the treasury, the budget and
+        state assets; economic policy went to the separate economy department. The two were
+        merged again in 2004 and separated again in 2018.
+      es: >-
+        Se creó al dividir en dos Economía y Hacienda. Conservó el tesoro, los presupuestos y
+        el patrimonio del Estado; la política económica pasó al Ministerio de Economía. Ambos
+        volvieron a fusionarse en 2004 y a separarse en 2018.
+
+  - id: ES-2000-interior
+    order: 5
+    name_original: Ministerio del Interior
+    abbreviation_original: null
+    name_en: Ministry of the Interior
+    name_es: Ministerio del Interior
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [interior, civil_protection]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-557-2000]
+
+  - id: ES-2000-fomento
+    order: 6
+    name_original: Ministerio de Fomento
+    abbreviation_original: null
+    name_en: Ministry of Public Works
+    name_es: Ministerio de Fomento
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [infrastructure, transport, shipping, housing, spatial_planning]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-557-2000]
+    note:
+      en: >-
+        Lost communications to the new science and technology department, and the regulation
+        of telecommunications tariffs to the economy department, keeping transport, public
+        works, housing and town planning.
+      es: >-
+        Perdió las comunicaciones en favor del nuevo departamento de Ciencia y Tecnología, y
+        la regulación de las tarifas de telecomunicación en favor de Economía, conservando
+        transportes, obras públicas, vivienda y urbanismo.
+
+  - id: ES-2000-educacion-cultura-deporte
+    order: 7
+    name_original: Ministerio de Educación, Cultura y Deporte
+    abbreviation_original: null
+    name_en: Ministry of Education, Culture and Sport
+    name_es: Ministerio de Educación, Cultura y Deporte
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [education, higher_education, culture, sport]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-557-2000]
+
+  - id: ES-2000-trabajo-asuntos-sociales
+    order: 8
+    name_original: Ministerio de Trabajo y Asuntos Sociales
+    abbreviation_original: null
+    name_en: Ministry of Labour and Social Affairs
+    name_es: Ministerio de Trabajo y Asuntos Sociales
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [labour, social_security, social_affairs]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-557-2000]
+
+  - id: ES-2000-agricultura
+    order: 9
+    name_original: Ministerio de Agricultura, Pesca y Alimentación
+    abbreviation_original: null
+    name_en: Ministry of Agriculture, Fisheries and Food
+    name_es: Ministerio de Agricultura, Pesca y Alimentación
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [agriculture, fisheries, food_safety, rural_development]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-557-2000]
+
+  - id: ES-2000-presidencia
+    order: 10
+    name_original: Ministerio de la Presidencia
+    abbreviation_original: null
+    name_en: Ministry of the Presidency
+    name_es: Ministerio de la Presidencia
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [government_coordination, parliamentary_relations]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-557-2000, boe-rd-561-2000]
+    note:
+      en: >-
+        A full ministerial department, and not to be confused with the Presidency of the
+        Government further down this list. From July 2002 its minister was also the
+        government spokesman, which is how that role continued after the post held without a
+        portfolio was abolished.
+      es: >-
+        Departamento ministerial completo, que no debe confundirse con la Presidencia del
+        Gobierno que aparece más abajo. Desde julio de 2002 su titular fue además portavoz
+        del Gobierno, y así continuó esa función tras suprimirse el puesto que se ostentaba
+        sin cartera.
+
+  - id: ES-2000-administraciones-publicas
+    order: 11
+    name_original: Ministerio de Administraciones Públicas
+    abbreviation_original: MAP
+    name_en: Ministry of Public Administration
+    name_es: Ministerio de Administraciones Públicas
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [public_administration, territorial_administration]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-557-2000]
+
+  - id: ES-2000-sanidad-consumo
+    order: 12
+    name_original: Ministerio de Sanidad y Consumo
+    abbreviation_original: null
+    name_en: Ministry of Health and Consumer Affairs
+    name_es: Ministerio de Sanidad y Consumo
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [health, consumer_protection]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-557-2000]
+
+  - id: ES-2000-medio-ambiente
+    order: 13
+    name_original: Ministerio de Medio Ambiente
+    abbreviation_original: null
+    name_en: Ministry of the Environment
+    name_es: Ministerio de Medio Ambiente
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [environment, water, forestry]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-557-2000]
+
+  - id: ES-2000-economia
+    order: 14
+    name_original: Ministerio de Economía
+    abbreviation_original: null
+    name_en: Ministry of Economy
+    name_es: Ministerio de Economía
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [economy, trade, tourism, small_business, energy, mining]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-557-2000]
+    note:
+      en: >-
+        Economic policy, trade, tourism and small business from the former economy and
+        finance department, plus energy and mining from the abolished industry and energy
+        department. The only period in this series when energy sits with economic policy
+        rather than with industry or the environment.
+      es: >-
+        La política económica, el comercio, el turismo y las pymes del antiguo Economía y
+        Hacienda, más la energía y las minas del suprimido Industria y Energía. El único
+        periodo de esta serie en que la energía acompaña a la política económica y no a la
+        industria o al medio ambiente.
+
+  - id: ES-2000-ciencia-tecnologia
+    order: 15
+    name_original: Ministerio de Ciencia y Tecnología
+    abbreviation_original: null
+    name_en: Ministry of Science and Technology
+    name_es: Ministerio de Ciencia y Tecnología
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro/a
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: [research, innovation, industry, telecommunications]
+    counts_as_ministry: true
+    url: null
+    sources: [boe-rd-557-2000]
+    note:
+      en: >-
+        Created in this restructuring out of three sources: research from education,
+        industrial policy from the abolished industry and energy department, and
+        communications from public works. Abolished in 2004, when industry and
+        telecommunications went to a new industry, tourism and trade department and research
+        returned to education.
+      es: >-
+        Creado en esta reestructuración a partir de tres procedencias: la investigación de
+        Educación, la política industrial del suprimido Industria y Energía y las
+        comunicaciones de Fomento. Se suprimió en 2004, cuando la industria y las
+        telecomunicaciones pasaron a un nuevo Industria, Turismo y Comercio y la
+        investigación volvió a Educación.
+
+  # --- recorded, not counted -----------------------------------------------------------
+  - id: ES-2000-portavoz-sin-cartera
+    order: 16
+    name_original: Ministro Portavoz del Gobierno, sin cartera
+    abbreviation_original: null
+    name_en: Minister and Government Spokesman, without portfolio
+    name_es: Ministro Portavoz del Gobierno, sin cartera
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Ministro
+    head_title_en: Minister
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: minister_without_portfolio
+    valid_to: 2002-07-09
+    url: null
+    sources: [boe-rd-561-2000, boe-rd-669-2002]
+    note:
+      en: >-
+        A member of the Council of Ministers with ministerial rank but no department, so it
+        adds a seat and not a ministry. The appointing decree says "sin cartera" in as many
+        words. Abolished on 9 July 2002 without a replacement, which is the only point in
+        this series where the seat count moves and the department count does not.
+      es: >-
+        Miembro del Consejo de Ministros con rango ministerial pero sin departamento, por lo
+        que añade un asiento y no un ministerio. El decreto de nombramiento dice «sin
+        cartera» con esas palabras. Se suprimió el 9 de julio de 2002 sin sustituto, y es el
+        único punto de esta serie en que se mueven los asientos y no los departamentos.
+
+  - id: ES-2000-presidencia-del-gobierno
+    order: 17
+    name_original: Presidencia del Gobierno
+    abbreviation_original: null
+    name_en: Office of the Prime Minister
+    name_es: Presidencia del Gobierno
+    name_en_provenance: translated
+    name_es_provenance: official
+    head_title_original: Presidente del Gobierno
+    head_title_en: Prime Minister
+    has_cabinet_seat: true
+    policy_areas: []
+    counts_as_ministry: false
+    exclusion_reason: head_of_government_office
+    url: null
+    sources: [boe-ley-50-1997, boe-rd-561-2000]
+    note:
+      en: >-
+        The Prime Minister's own office, and the apex of the cabinet rather than a portfolio
+        department. Recorded because it holds a seat.
+      es: >-
+        La oficina del propio presidente del Gobierno, cúspide del gabinete y no un
+        departamento con cartera. Se registra porque ocupa un asiento.

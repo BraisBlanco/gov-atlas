@@ -27,7 +27,7 @@ significance. See [METHODOLOGY.md](METHODOLOGY.md) for what is counted and why.
 | DE | A1 | Germany | 16 | 18 | A | 100% | 10 | DE-2025-05-06 |
 | DK | A2 | Denmark | 20 | 21 | A | 100% | 8 | DK-2026-06-03 |
 | EE | A2 | Estonia | 11 | 13 | A | 100% | 6 | EE-2024-07-23 |
-| ES | A0 | Spain | 22 | 23 | A | 100% | 3 | ES-2023-11-21 |
+| ES | A0 | Spain | 22 | 23 | A | 100% | 5 | ES-2023-11-21 |
 | FI | A2 | Finland | 12 | 19 | A | 100% | 4 | FI-2023-06-20 |
 | FR | A5 | France | 19 | 20 | B | 0% | 4 | FR-2025-10-12 |
 | GR | A3 | Greece | 20 | 27 | A | 100% | 4 | GR-2023-06-27 |
