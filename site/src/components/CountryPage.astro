@@ -154,10 +154,19 @@ const cabinetName = es ? summary.cabinet_name_es : summary.cabinet_name_en;
   {
     summary.methodology_notes.length > 0 ? (
       <div class="prose">
-        <h2>{t('country.notes')}</h2>
-        {summary.methodology_notes.map((note) => (
-          <p class="note">{es ? note.es : note.en}</p>
-        ))}
+        {/* Closed by default: the notes qualify the figures above, so they belong on the
+            page, but at full weight they read as the page's next argument rather than as
+            its small print. */}
+        <details class="notes">
+          <summary class="notes-head">
+            {t('country.notes', { count: summary.methodology_notes.length })}
+          </summary>
+          <div class="notes-body">
+            {summary.methodology_notes.map((note) => (
+              <p class="note">{es ? note.es : note.en}</p>
+            ))}
+          </div>
+        </details>
       </div>
     ) : null
   }
@@ -460,10 +469,61 @@ const cabinetName = es ? summary.cabinet_name_es : summary.cabinet_name_en;
       margin-top: var(--space-2);
     }
 
-    .note {
-      border-left: 2px solid var(--axis);
+    /* --- methodology notes ---------------------------------------------------- */
+
+    /* Small print, so it wears the footnote treatment rather than the editorial serif:
+       collapsed it is a single sans line between the tiles and the first chart. */
+    .notes {
+      margin-top: var(--space-5);
+      font-family: var(--font-sans);
+      font-size: var(--text-sm);
+    }
+
+    .notes-head {
+      display: inline-flex;
+      align-items: baseline;
+      gap: var(--space-2);
+      list-style: none;
+      color: var(--link);
+      cursor: pointer;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+
+    /* Safari still paints its own disclosure triangle without this. */
+    .notes-head::-webkit-details-marker {
+      display: none;
+    }
+
+    /* Our own marker, so it inherits the link colour and rotates on open. */
+    .notes-head::before {
+      content: '';
+      flex: none;
+      width: 0;
+      height: 0;
+      border-left: 5px solid currentColor;
+      border-block: 4px solid transparent;
+      transform: translateY(-1px);
+      transition: transform 120ms ease;
+    }
+
+    .notes[open] .notes-head::before {
+      transform: translateY(-1px) rotate(90deg);
+    }
+
+    .notes-body {
+      margin-top: var(--space-3);
+      border-left: 2px solid var(--gridline);
       padding-left: var(--space-4);
+    }
+
+    .note {
+      margin: 0 0 var(--space-2);
       color: var(--text-secondary);
+    }
+
+    .note:last-child {
+      margin-bottom: 0;
     }
 
     /* --- sections ------------------------------------------------------------- */

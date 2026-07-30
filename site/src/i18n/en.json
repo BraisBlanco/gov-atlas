@@ -78,7 +78,7 @@
   "country.sourceCount": "{count} sources",
   "country.population": "Population",
   "country.populationNote": "Context, not a denominator: nothing on this site is divided by population.",
-  "country.notes": "Methodology notes",
+  "country.notes": "Methodology notes ({count})",
   "country.nameProvenance.official": "the government's own name",
   "country.nameProvenance.translated": "our translation",
   "country.headOfGovernment": "Head of government",
