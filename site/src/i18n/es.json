@@ -1,7 +1,10 @@
 {
   "site.title": "Ministerios",
   "site.tagline": "Cómo se organizan los gobiernos, con fuentes para cada cifra",
-  "nav.home": "Inicio",
+  "nav.home": "Mapa",
+  "nav.sections": "Secciones",
+  "nav.language": "Idioma",
+  "nav.theme": "Cambiar a modo claro u oscuro",
   "nav.countries": "Países",
   "nav.methodology": "Metodología",
   "nav.dataQuality": "Calidad de los datos",

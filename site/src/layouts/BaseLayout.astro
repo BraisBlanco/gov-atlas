@@ -22,6 +22,23 @@ assertParity();
 
 const t = translator(locale);
 const other = otherLocale(locale);
+
+// Trailing slashes differ between `astro dev` and the built directory URLs, so compare
+// without them. A country page keeps "Países" marked as the section the reader is in.
+const trim = (path: string) => path.replace(/\/+$/, '');
+const here = trim(Astro.url.pathname);
+const sections = [
+  { href: localePath(locale), label: t('nav.home'), exact: true },
+  { href: localePath(locale, 'countries'), label: t('nav.countries'), exact: false },
+  { href: localePath(locale, 'methodology'), label: t('nav.methodology'), exact: false },
+  { href: localePath(locale, 'data-quality'), label: t('nav.dataQuality'), exact: false },
+].map((section) => {
+  const target = trim(section.href);
+  return {
+    ...section,
+    current: section.exact ? here === target : here === target || here.startsWith(`${target}/`),
+  };
+});
 ---
 
 <!doctype html>
@@ -45,13 +62,23 @@ const other = otherLocale(locale);
     <header class="site-head">
       <div class="wide site-head-inner">
         <a class="site-brand" href={localePath(locale)}>{t('site.title')}</a>
-        <nav class="site-nav" aria-label={t('nav.home')}>
-          <a href={localePath(locale, 'countries')}>{t('nav.countries')}</a>
-          <a href={localePath(locale, 'methodology')}>{t('nav.methodology')}</a>
-          <a href={localePath(locale, 'data-quality')}>{t('nav.dataQuality')}</a>
-          <a href={localePath(other)} lang={other}>{other === 'es' ? 'Español' : 'English'}</a>
-          <button type="button" id="theme-toggle" class="site-theme" aria-label="Toggle theme">◐</button>
+        <nav class="site-nav" aria-label={t('nav.sections')}>
+          {
+            sections.map((section) => (
+              <a href={section.href} aria-current={section.current ? 'page' : undefined}>
+                {section.label}
+              </a>
+            ))
+          }
         </nav>
+        <div class="site-controls">
+          <a class="site-chip" href={localePath(other)} lang={other} title={t('nav.language')}>
+            {other === 'es' ? 'Español' : 'English'}
+          </a>
+          <button type="button" id="theme-toggle" class="site-chip" aria-label={t('nav.theme')}>
+            ◐
+          </button>
+        </div>
       </div>
     </header>
 
@@ -86,8 +113,7 @@ const other = otherLocale(locale);
         display: flex;
         flex-wrap: wrap;
         gap: var(--space-4);
-        align-items: baseline;
-        justify-content: space-between;
+        align-items: center;
         padding-block: var(--space-4);
       }
 
@@ -99,24 +125,67 @@ const other = otherLocale(locale);
         text-decoration: none;
       }
 
+      /* Sections and controls travel together at the right edge; the brand keeps the left.
+         On a narrow screen they wrap under it rather than squeezing it. */
       .site-nav {
         display: flex;
         flex-wrap: wrap;
         gap: var(--space-4);
         align-items: center;
+        margin-inline-start: auto;
         font-family: var(--font-sans);
         font-size: var(--text-sm);
       }
 
-      .site-theme {
+      /* Navigation is not prose: a section name is a place, not a citation, so it carries
+         no link colour or underline until the pointer or keyboard is on it. The reader's
+         current section is the one that looks solid. */
+      .site-nav a {
+        color: var(--text-secondary);
+        text-decoration: none;
+        padding-block: 2px;
+        border-bottom: 2px solid transparent;
+      }
+
+      .site-nav a:hover,
+      .site-nav a:focus-visible {
+        color: var(--text-primary);
+        border-bottom-color: var(--border);
+      }
+
+      .site-nav a[aria-current='page'] {
+        color: var(--text-primary);
+        font-weight: 600;
+        border-bottom-color: var(--text-primary);
+      }
+
+      /* The language switch and the theme toggle change how the page is shown rather than
+         where the reader is, so they sit apart from the sections and look like controls. */
+      .site-controls {
+        display: flex;
+        gap: var(--space-2);
+        align-items: center;
+        font-family: var(--font-sans);
+        font-size: var(--text-sm);
+      }
+
+      .site-chip {
         appearance: none;
         background: none;
         border: 1px solid var(--border);
         border-radius: var(--radius);
         color: var(--text-secondary);
         cursor: pointer;
-        font-size: var(--text-sm);
+        font: inherit;
+        line-height: 1.4;
         padding: 2px var(--space-2);
+        text-decoration: none;
+      }
+
+      .site-chip:hover,
+      .site-chip:focus-visible {
+        color: var(--text-primary);
+        border-color: var(--axis);
       }
 
       main {

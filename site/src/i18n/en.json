@@ -1,7 +1,10 @@
 {
   "site.title": "Ministries",
   "site.tagline": "How governments are organised, with sources for every figure",
-  "nav.home": "Home",
+  "nav.home": "Map",
+  "nav.sections": "Sections",
+  "nav.language": "Language",
+  "nav.theme": "Switch between light and dark",
   "nav.countries": "Countries",
   "nav.methodology": "Methodology",
   "nav.dataQuality": "Data quality",
