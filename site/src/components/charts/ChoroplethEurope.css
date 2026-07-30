@@ -206,7 +206,7 @@
   color: var(--text-secondary);
 }
 
-/* --- tooltip ------------------------------------------------------------------ */
+/* --- the reading, floated and docked -------------------------------------------- */
 
 .ce-tooltip {
   position: fixed;
@@ -221,6 +221,52 @@
   box-shadow: 0 4px 16px rgb(0 0 0 / 12%);
   pointer-events: none;
   font-size: var(--text-sm);
+}
+
+/*
+ * What a tap gets instead of a tooltip: the same card, in the flow under the map. It is a
+ * block and not an overlay on purpose — an overlay on a 390px screen either covers the
+ * country being read or the legend that decodes it, and this covers neither. Appearing
+ * pushes the legend down once; the map above it, and so the shape under the finger, does
+ * not move.
+ */
+.ce-readout {
+  position: relative;
+  margin-top: var(--space-3);
+  padding: var(--space-3);
+  /* Room for the dismiss control, which is absolutely positioned over this corner. */
+  padding-inline-end: var(--space-8);
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: var(--text-sm);
+}
+
+/* A finger has no "elsewhere" to move to, so dismissal has to be a control. 44px square:
+   the touch target is the point of it. */
+.ce-readout-close {
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-end: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  appearance: none;
+  background: none;
+  border: 0;
+  border-radius: var(--radius);
+  color: var(--text-secondary);
+  cursor: pointer;
+  font: inherit;
+  font-size: var(--text-xl);
+  line-height: 1;
+}
+
+.ce-readout-close:hover,
+.ce-readout-close:focus-visible {
+  color: var(--text-primary);
 }
 
 /* The value leads: the reader already knows which country they are pointing at. */

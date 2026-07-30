@@ -34,6 +34,8 @@
 
   "map.legend.notCovered": "In scope, not covered yet ({count})",
   "map.legend.outOfScope": "Outside the dataset's scope",
+  "map.tapAgain": "Tap again to see its ministries",
+  "map.readoutClose": "Close the country detail",
 
   "table.country": "Country",
   "table.value": "Value",

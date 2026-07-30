@@ -34,6 +34,8 @@
 
   "map.legend.notCovered": "En el ámbito previsto, aún sin cubrir ({count})",
   "map.legend.outOfScope": "Fuera del ámbito del conjunto de datos",
+  "map.tapAgain": "Toca otra vez para ver sus ministerios",
+  "map.readoutClose": "Cerrar el detalle del país",
 
   "table.country": "País",
   "table.value": "Valor",

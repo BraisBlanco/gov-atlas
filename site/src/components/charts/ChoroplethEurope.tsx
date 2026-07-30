@@ -1,4 +1,4 @@
-import { useId, useMemo, useState } from 'react';
+import { useId, useMemo, useRef, useState } from 'react';
 
 import { countryName, formatNumber, type CountrySummary } from '../../lib/data.ts';
 import { rampStepsFor, type Bin, type BinScale } from '../../lib/bins.ts';
@@ -20,6 +20,10 @@ import './ChoroplethEurope.css';
  * a country we have curated carries a value, a country we set out to curate and have not
  * is explicitly empty, and everything else is context. Collapsing the middle state into
  * "no data" would quietly present an unfinished dataset as a finished one.
+ *
+ * A finger reads before it travels. There is no hover on a phone, so a shaded country that
+ * is only a link hands the reader its country page and never its number; the first tap
+ * therefore opens the reading and the second one follows the link. See `tap`.
  *
  * The marks and their legend, and nothing else: the frame, the metric toggle, the table
  * and the citations belong to `CountryComparison`, which shows this map and the ranked bars
@@ -50,12 +54,15 @@ type Shape = (typeof geo.countries)[number];
 /** The v1 ambition, carried in the geometry file so the map can report against it. */
 const IN_SCOPE = new Set<string>(geo.target_scope);
 
-interface Hover {
+interface Readout {
   iso2: string;
   /** Null for a country in scope that has no data yet. */
   summary: CountrySummary | null;
-  x: number;
-  y: number;
+  /**
+   * Viewport coordinates to float the card at, or null to dock it under the map. A cursor
+   * and a focus ring both have a place to point from; a finger does not — see `press`.
+   */
+  at: { x: number; y: number } | null;
 }
 
 /** Inclusive integer classes read as "14–15"; a class one value wide reads as "14". */
@@ -75,7 +82,18 @@ export function ChoroplethEurope({
   const t = translator(locale);
   const hrefFor = (iso2: string): string | undefined =>
     countryPathBase ? `${countryPathBase}/${iso2}` : undefined;
-  const [hovered, setHovered] = useState<Hover | null>(null);
+  const [readout, setReadout] = useState<Readout | null>(null);
+
+  /**
+   * A tap fires the whole synthetic mouse sequence — mouseover, mousemove, click — so the
+   * events themselves cannot tell a finger from a cursor. The pointer type can, and it is
+   * the only thing that can, so every handler below is written against pointer events and
+   * remembers which device is driving. Whatever moved last wins, which is what a hybrid
+   * laptop needs: touch the screen once and hover still works when the hand goes back to
+   * the trackpad.
+   */
+  const device = useRef<string>('mouse');
+  const isFinger = () => device.current === 'touch' || device.current === 'pen';
 
   const config = METRIC_CONFIG[metric];
   const byIso = useMemo(
@@ -108,17 +126,95 @@ export function ChoroplethEurope({
     return `var(--ce-bin-${step})`;
   };
 
-  const move = (iso2: string, summary: CountrySummary | null) => (event: { clientX: number; clientY: number }) =>
-    setHovered({ iso2, summary, x: event.clientX, y: event.clientY });
+  type Move = { pointerType: string; clientX: number; clientY: number };
+  const move = (iso2: string, summary: CountrySummary | null) => (event: Move) => {
+    device.current = event.pointerType;
+    // A finger gets the docked readout `tap` opens, so the synthetic move a tap emits on
+    // its way to the click must not float a card at the touch point first.
+    if (event.pointerType !== 'mouse') return;
+    setReadout({ iso2, summary, at: { x: event.clientX, y: event.clientY } });
+  };
+
+  /**
+   * A cursor leaving a shape has finished with it. A finger has not: it has nowhere to
+   * rest, so a tap would open the readout and the lift-off would close it again. A docked
+   * readout stays until another country is tapped or the reader dismisses it.
+   */
+  const leave = () => {
+    if (!isFinger()) setReadout(null);
+  };
 
   // Attached to the SVG <a> when a country page exists and to a bare <g> when it does not,
   // so the element type differs; `Element` is all the readout needs.
   const focus = (iso2: string, summary: CountrySummary | null) => (event: { currentTarget: Element }) => {
+    if (isFinger()) return;
     const rect = event.currentTarget.getBoundingClientRect();
-    setHovered({ iso2, summary, x: rect.left + rect.width / 2, y: rect.top + rect.height / 2 });
+    setReadout({ iso2, summary, at: { x: rect.left + rect.width / 2, y: rect.top + rect.height / 2 } });
   };
 
-  const hoveredShape = hovered ? geo.countries.find((shape) => shape.iso2 === hovered.iso2) : undefined;
+  /** Records the device and nothing else: changing state here would pre-empt `tap` below. */
+  const press = (event: { pointerType: string }) => {
+    device.current = event.pointerType;
+  };
+
+  /**
+   * The first tap on a country is a request to read it, not to leave the page. With no
+   * hover to precede the click, following the link straight away means the number the map
+   * exists to encode is the one thing a phone reader never sees. So a finger's first tap
+   * opens that country's readout and the second one follows the link; the readout says so.
+   * A cursor is untouched — by the time it clicks it has already hovered the country, so
+   * the number is on screen and the click is unambiguously a request for the page.
+   *
+   * The decision lives in the click handler alone, because a tap's `pointerdown` lands a
+   * whole turn earlier: opening the readout there would leave this handler looking at the
+   * country it just selected and waving the same tap straight through to the link.
+   */
+  const tap = (iso2: string, summary: CountrySummary | null) => (event: { preventDefault: () => void }) => {
+    if (!isFinger() || readout?.iso2 === iso2) return;
+    event.preventDefault();
+    setReadout({ iso2, summary, at: null });
+  };
+
+  const liftedShape = readout ? geo.countries.find((shape) => shape.iso2 === readout.iso2) : undefined;
+
+  /**
+   * One reading, drawn the same whether it floats at a cursor or docks under the map — the
+   * same numbers in the same order, so the two are not two different cards. Only the
+   * closing line differs, because what the reader does next differs: a cursor clicks, a
+   * finger taps the country again.
+   */
+  const card = (entry: Readout) =>
+    entry.summary ? (
+      <>
+        <p className="ce-tip-value">
+          <strong>{formatNumber(valueOf(entry.summary, metric), locale, config.decimals)}</strong>{' '}
+          <span className="ce-tip-unit">{t(config.unitKey)}</span>
+        </p>
+        <p className="ce-tip-title">
+          {/* Decorative, as everywhere else: the name says the same thing. */}
+          <span className="ce-flag" aria-hidden="true">
+            {flagEmoji(entry.iso2)}
+          </span>
+          {countryName(entry.summary, locale)}
+        </p>
+        <dl className="ce-tip-list">
+          <dt>{t('table.ministries')}</dt>
+          <dd>{formatNumber(entry.summary.ministries_count, locale)}</dd>
+          <dt>{t('table.seats')}</dt>
+          <dd>{formatNumber(entry.summary.cabinet_seats_count, locale)}</dd>
+          <dt>{t('quality.grade')}</dt>
+          <dd>{entry.summary.quality.grade}</dd>
+        </dl>
+        {countryPathBase ? (
+          <p className="ce-tip-hint">{entry.at ? t('country.viewMinistries') : t('map.tapAgain')}</p>
+        ) : null}
+      </>
+    ) : (
+      <>
+        <p className="ce-tip-title">{entry.iso2}</p>
+        <p className="ce-tip-empty">{t('empty.noData')}</p>
+      </>
+    );
 
   return (
     <div className="ce">
@@ -127,7 +223,7 @@ export function ChoroplethEurope({
         viewBox={geo.view_box}
         role="img"
         aria-label={t(config.titleKey)}
-        onMouseLeave={() => setHovered(null)}
+        onPointerLeave={leave}
       >
         <defs>
           {/*
@@ -153,8 +249,10 @@ export function ChoroplethEurope({
           {layers.empty.map((shape) => (
             <g
               key={shape.iso2}
-              onMouseMove={move(shape.iso2, null)}
-              onMouseLeave={() => setHovered(null)}
+              onPointerMove={move(shape.iso2, null)}
+              onPointerLeave={leave}
+              onPointerDown={press}
+              onClick={tap(shape.iso2, null)}
             >
               {shape.d ? (
                 <path d={shape.d} className="ce-shape is-empty" fill={hatchPaint} />
@@ -187,15 +285,15 @@ export function ChoroplethEurope({
             const summary = byIso.get(shape.iso2) as CountrySummary;
             const value = valueOf(summary, metric);
             const label = countryName(summary, locale);
-            const readout = `${label}: ${formatNumber(value, locale, config.decimals)} ${t(config.unitKey)}`;
+            const reading = `${label}: ${formatNumber(value, locale, config.decimals)} ${t(config.unitKey)}`;
             const href = hrefFor(shape.iso2);
 
             const marks = (
               <g
                 className="ce-country"
                 style={{ fill: fillFor(value) }}
-                onMouseMove={move(shape.iso2, summary)}
-                onMouseLeave={() => setHovered(null)}
+                onPointerMove={move(shape.iso2, summary)}
+                onPointerLeave={leave}
               >
                 {shape.d ? (
                   <path d={shape.d} className="ce-shape is-data" />
@@ -206,7 +304,7 @@ export function ChoroplethEurope({
                   <circle cx={shape.centroid[0]} cy={shape.centroid[1]} r={9} className="ce-hit" />
                 ) : null}
                 {/* Keeps the number reachable on hover before hydration, and in print. */}
-                <title>{readout}</title>
+                <title>{reading}</title>
               </g>
             );
 
@@ -215,9 +313,11 @@ export function ChoroplethEurope({
                 key={shape.iso2}
                 className="ce-link"
                 href={href}
-                aria-label={`${readout}. ${t('country.viewMinistries')}`}
+                aria-label={`${reading}. ${t('country.viewMinistries')}`}
                 onFocus={focus(shape.iso2, summary)}
-                onBlur={() => setHovered(null)}
+                onBlur={leave}
+                onPointerDown={press}
+                onClick={tap(shape.iso2, summary)}
               >
                 {marks}
               </a>
@@ -226,9 +326,11 @@ export function ChoroplethEurope({
                 key={shape.iso2}
                 tabIndex={0}
                 role="img"
-                aria-label={readout}
+                aria-label={reading}
                 onFocus={focus(shape.iso2, summary)}
-                onBlur={() => setHovered(null)}
+                onBlur={leave}
+                onPointerDown={press}
+                onClick={tap(shape.iso2, summary)}
               >
                 {marks}
               </g>
@@ -237,10 +339,12 @@ export function ChoroplethEurope({
         </g>
 
         {/*
-          SVG has no z-index, so the hovered shape is drawn a second time on top: that is
-          what lets its ring sit above its neighbours instead of under them.
+          SVG has no z-index, so the country being read is drawn a second time on top: that
+          is what lets its ring sit above its neighbours instead of under them. It is also
+          what tells a phone reader which shape their finger just landed on, the readout
+          itself being nowhere near it.
         */}
-        {hoveredShape ? (
+        {liftedShape ? (
           <g className="ce-layer-lift" aria-hidden="true" pointerEvents="none">
             {/* The copy repeats the original's fill exactly — a lift must not restate the
                 value. Uncovered countries keep their hatch. */}
@@ -249,24 +353,43 @@ export function ChoroplethEurope({
               resolve in an attribute at all, and any CSS rule outranks a presentation
               attribute — either mistake paints the lifted country solid black.
             */}
-            {hoveredShape.d ? (
+            {liftedShape.d ? (
               <path
-                d={hoveredShape.d}
+                d={liftedShape.d}
                 className="ce-shape is-lifted"
-                style={{ fill: hovered?.summary ? fillFor(valueOf(hovered.summary, metric)) : hatchPaint }}
+                style={{ fill: readout?.summary ? fillFor(valueOf(readout.summary, metric)) : hatchPaint }}
               />
             ) : (
               <circle
-                cx={hoveredShape.centroid[0]}
-                cy={hoveredShape.centroid[1]}
-                r={hovered?.summary ? 5 : 4}
+                cx={liftedShape.centroid[0]}
+                cy={liftedShape.centroid[1]}
+                r={readout?.summary ? 5 : 4}
                 className="ce-shape is-lifted"
-                style={{ fill: hovered?.summary ? fillFor(valueOf(hovered.summary, metric)) : hatchPaint }}
+                style={{ fill: readout?.summary ? fillFor(valueOf(readout.summary, metric)) : hatchPaint }}
               />
             )}
           </g>
         ) : null}
       </svg>
+
+      {/*
+        Where a tap's reading goes. Docked under the map rather than floated at the touch
+        point, because a card at the finger is under the finger that asked for it, and one
+        anchored to a country near the right edge of a phone runs off the screen entirely.
+      */}
+      {readout && !readout.at ? (
+        <div className="ce-readout">
+          <div role="status">{card(readout)}</div>
+          <button
+            type="button"
+            className="ce-readout-close"
+            onClick={() => setReadout(null)}
+            aria-label={t('map.readoutClose')}
+          >
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+      ) : null}
 
       {/* A magnitude encoded only in colour needs its key on the page, not on hover. */}
       <div className="ce-legend">
@@ -299,37 +422,13 @@ export function ChoroplethEurope({
         </ul>
       </div>
 
-      {hovered ? (
-        <div className="ce-tooltip" style={{ left: `${hovered.x}px`, top: `${hovered.y}px` }} role="status">
-          {hovered.summary ? (
-            <>
-              <p className="ce-tip-value">
-                <strong>{formatNumber(valueOf(hovered.summary, metric), locale, config.decimals)}</strong>{' '}
-                <span className="ce-tip-unit">{t(config.unitKey)}</span>
-              </p>
-              <p className="ce-tip-title">
-                {/* Decorative, as everywhere else: the name says the same thing. */}
-                <span className="ce-flag" aria-hidden="true">
-                  {flagEmoji(hovered.iso2)}
-                </span>
-                {countryName(hovered.summary, locale)}
-              </p>
-              <dl className="ce-tip-list">
-                <dt>{t('table.ministries')}</dt>
-                <dd>{formatNumber(hovered.summary.ministries_count, locale)}</dd>
-                <dt>{t('table.seats')}</dt>
-                <dd>{formatNumber(hovered.summary.cabinet_seats_count, locale)}</dd>
-                <dt>{t('quality.grade')}</dt>
-                <dd>{hovered.summary.quality.grade}</dd>
-              </dl>
-              {countryPathBase ? <p className="ce-tip-hint">{t('country.viewMinistries')}</p> : null}
-            </>
-          ) : (
-            <>
-              <p className="ce-tip-title">{hovered.iso2}</p>
-              <p className="ce-tip-empty">{t('empty.noData')}</p>
-            </>
-          )}
+      {readout?.at ? (
+        <div
+          className="ce-tooltip"
+          style={{ left: `${readout.at.x}px`, top: `${readout.at.y}px` }}
+          role="status"
+        >
+          {card(readout)}
         </div>
       ) : null}
     </div>
