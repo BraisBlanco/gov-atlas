@@ -54,9 +54,6 @@ export function RankedBars({ locale, rows, metric }: RankedBarsProps) {
         <ul className="rb-rows">
           {rows.map((row) => {
             const pct = (row.value / scaleMax) * 100;
-            // A short bar cannot hold its own label, so the label steps outside it. The
-            // threshold is a proxy for measuring: values here are 1-5 characters wide.
-            const labelInside = pct > 82;
             const formatted = formatNumber(row.value, locale, config.decimals);
 
             return (
@@ -82,10 +79,9 @@ export function RankedBars({ locale, rows, metric }: RankedBarsProps) {
                 </span>
                 <span className="rb-track">
                   <span className="rb-bar" style={{ width: `${pct}%` } as CSSProperties} />
-                  <span
-                    className={`rb-value${labelInside ? ' is-inside' : ''}`}
-                    style={labelInside ? undefined : { left: `${pct}%` }}
-                  >
+                  {/* Anchored to the bar's own tip, whatever its length — the track reserves
+                      the room for it, so the value never lands on a neighbour or on air. */}
+                  <span className="rb-value" style={{ left: `${pct}%` } as CSSProperties}>
                     {formatted}
                   </span>
                 </span>

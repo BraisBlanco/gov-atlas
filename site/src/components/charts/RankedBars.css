@@ -14,6 +14,14 @@
    */
   --rb-label-col: 12rem;
   --rb-plot-inset: calc(var(--rb-label-col) + var(--space-3));
+  /*
+   * Room at the right for the value that sits at each bar's tip. The plot is this much
+   * narrower rather than the longest bar's label being allowed to run off the end: the axis
+   * tops out at a round number at or above the largest value, so a bar can legitimately
+   * reach 100% and its label must still have somewhere to go. Five characters at --text-sm
+   * plus the 6px the label holds off the tip.
+   */
+  --rb-value-gutter: 2.75rem;
 }
 
 @media (max-width: 56rem) {
@@ -74,6 +82,9 @@
   position: relative;
   display: block;
   height: 22px;
+  /* Narrowed by the same amount as the two overlays below, so 100% of a bar still lands on
+     the last gridline. A gutter on one and not the other is a lie about the value. */
+  margin-right: var(--rb-value-gutter);
 }
 
 .rb-bar {
@@ -87,7 +98,16 @@
   min-width: 2px;
 }
 
-/* Values wear text tokens, never the series colour. */
+/*
+ * Values wear text tokens, never the series colour, and they sit past the bar's tip rather
+ * than on the fill.
+ *
+ * A label on the fill was the earlier intent, and it cannot be made to clear contrast here:
+ * against --series-1 at --text-sm, white is 4.42:1 in light mode and 3.64:1 in dark, and ink
+ * is 4.46:1 in light — every combination short of the 4.5:1 that text needs. Only dark ink on
+ * the dark-mode fill passes, and one mode passing is not a rule. Outside the tip the value
+ * wears --text-primary against the surface and the question does not arise.
+ */
 .rb-value {
   position: absolute;
   top: 50%;
@@ -99,17 +119,11 @@
   white-space: nowrap;
 }
 
-/* Inside a long bar the label sits on the fill, so it takes the on-fill ink. */
-.rb-value.is-inside {
-  right: 6px;
-  margin-left: 0;
-  color: #ffffff;
-}
-
 .rb-gridlines {
   position: absolute;
   inset: 0;
   left: var(--rb-plot-inset);
+  right: var(--rb-value-gutter);
   pointer-events: none;
 }
 
@@ -126,6 +140,7 @@
   height: 1.5rem;
   margin-top: var(--space-2);
   margin-left: var(--rb-plot-inset);
+  margin-right: var(--rb-value-gutter);
   border-top: 1px solid var(--axis);
 }
 
