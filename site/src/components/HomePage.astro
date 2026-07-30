@@ -1,7 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import ChoroplethEurope from './charts/ChoroplethEurope.tsx';
-import RankedBars from './charts/RankedBars.tsx';
+import CountryComparison from './charts/CountryComparison.tsx';
 import { chartSources, loadCountries, loadMetadata, loadMinistries } from '../lib/data.ts';
 import { localePath, translator, type Locale } from '../i18n/index.ts';
 
@@ -38,19 +37,7 @@ const countryPathBase = localePath(locale, 'countries');
   </div>
 
   <div class="wide chart-slot">
-    <ChoroplethEurope
-      client:load
-      locale={locale}
-      summaries={countries}
-      sources={sources}
-      asOf={metadata.as_of}
-      methodologyHref={localePath(locale, 'methodology')}
-      countryPathBase={countryPathBase}
-    />
-  </div>
-
-  <div class="wide chart-slot">
-    <RankedBars
+    <CountryComparison
       client:load
       locale={locale}
       summaries={countries}

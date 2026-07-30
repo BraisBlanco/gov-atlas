@@ -24,16 +24,13 @@
   "chart.asOf": "Gabinetes vigentes, a {date}",
   "chart.note": "Nota",
 
-  "metric.ministries": "Ministerios",
   "metric.ministries.short": "Ministerios",
-  "metric.seats": "Asientos en el gabinete",
   "metric.seats.short": "Asientos",
+  "metric.title.ministries": "Ministerios por país",
+  "metric.title.seats": "Asientos en el gabinete por país",
 
-  "map.title.ministries": "Ministerios por país",
-  "map.title.seats": "Asientos en el gabinete por país",
   "map.legend.notCovered": "En el ámbito previsto, aún sin cubrir ({count})",
   "map.legend.outOfScope": "Fuera del ámbito del conjunto de datos",
-  "map.table.class": "Clase de sombreado",
 
   "table.country": "País",
   "table.value": "Valor",

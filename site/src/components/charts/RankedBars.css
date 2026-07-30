@@ -138,41 +138,6 @@
   color: var(--text-muted);
 }
 
-/* --- controls --------------------------------------------------------------- */
-
-.rb-metrics {
-  display: inline-flex;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  overflow: hidden;
-}
-
-.rb-metric {
-  appearance: none;
-  background: none;
-  border: 0;
-  border-right: 1px solid var(--border);
-  padding: var(--space-2) var(--space-3);
-  font: inherit;
-  font-size: var(--text-sm);
-  color: var(--text-secondary);
-  cursor: pointer;
-}
-
-.rb-metric:last-child {
-  border-right: 0;
-}
-
-.rb-metric:hover {
-  background: var(--wash);
-}
-
-.rb-metric.is-active {
-  background: var(--wash);
-  color: var(--text-primary);
-  font-weight: 600;
-}
-
 /* --- tooltip ---------------------------------------------------------------- */
 
 .rb-tooltip {
@@ -212,47 +177,6 @@
   text-align: right;
   font-variant-numeric: tabular-nums;
   color: var(--text-primary);
-}
-
-/* --- table view ------------------------------------------------------------- */
-
-.rb-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: var(--text-sm);
-}
-
-.rb-table th,
-.rb-table td {
-  padding: var(--space-2) var(--space-3);
-  border-bottom: 1px solid var(--gridline);
-  text-align: left;
-}
-
-.rb-table thead th {
-  color: var(--text-secondary);
-  font-weight: 600;
-  border-bottom: 1px solid var(--axis);
-  vertical-align: bottom;
-}
-
-.rb-table tbody th {
-  font-weight: 400;
-  color: var(--text-primary);
-}
-
-.rb-table tbody th a {
-  color: var(--link);
-}
-
-.rb-num {
-  text-align: right;
-  font-variant-numeric: tabular-nums;
-}
-
-.rb-grade-note {
-  color: var(--text-muted);
-  font-size: var(--text-xs);
 }
 
 @media (max-width: 34rem) {

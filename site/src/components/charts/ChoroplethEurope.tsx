@@ -1,15 +1,9 @@
 import { useId, useMemo, useState } from 'react';
 
-import { ChartFrame, type ChartDownload } from '../chart-frame/ChartFrame.tsx';
-import {
-  countryName,
-  formatDate,
-  formatNumber,
-  type CountrySummary,
-  type Source,
-} from '../../lib/data.ts';
-import { equalIntervalBins, rampStepsFor, type Bin } from '../../lib/bins.ts';
+import { countryName, formatNumber, type CountrySummary } from '../../lib/data.ts';
+import { rampStepsFor, type Bin, type BinScale } from '../../lib/bins.ts';
 import { flagEmoji } from '../../lib/flag.ts';
+import { METRIC_CONFIG, valueOf, type Metric } from '../../lib/metric.ts';
 import { translator, type Locale } from '../../i18n/index.ts';
 import geo from '../../geo/europe-paths.json';
 import './ChoroplethEurope.css';
@@ -26,19 +20,19 @@ import './ChoroplethEurope.css';
  * a country we have curated carries a value, a country we set out to curate and have not
  * is explicitly empty, and everything else is context. Collapsing the middle state into
  * "no data" would quietly present an unfinished dataset as a finished one.
+ *
+ * The marks and their legend, and nothing else: the frame, the metric toggle, the table
+ * and the citations belong to `CountryComparison`, which shows this map and the ranked bars
+ * as two views of one figure. Both are driven by the `metric` and `scale` it passes in, so
+ * there is no second copy of either to fall out of step with the view beside it.
  */
-
-export type MapMetric = 'ministries' | 'seats';
 
 export interface ChoroplethEuropeProps {
   locale: Locale;
   summaries: CountrySummary[];
-  sources: Source[];
-  methodologyHref?: string;
-  /** Metrics offered in the control row, in order. The first is the initial view. */
-  metrics?: MapMetric[];
-  notes?: string[];
-  asOf?: string;
+  metric: Metric;
+  /** The class intervals the fills and the legend share, computed once by the frame. */
+  scale: BinScale;
   /**
    * Locale-prefixed base of the country pages, e.g. `/es/countries`. When given, every
    * shaded country becomes a link to `<base>/<ISO2>` — the map stops being the end of the
@@ -49,30 +43,6 @@ export interface ChoroplethEuropeProps {
    * crossing. Astro drops it silently, so the map renders with no links and no error.
    */
   countryPathBase?: string;
-}
-
-const METRIC_CONFIG: Record<MapMetric, { titleKey: string; shortKey: string; unitKey: string; decimals: number }> = {
-  ministries: {
-    titleKey: 'map.title.ministries',
-    shortKey: 'metric.ministries.short',
-    unitKey: 'table.ministries',
-    decimals: 0,
-  },
-  seats: {
-    titleKey: 'map.title.seats',
-    shortKey: 'metric.seats.short',
-    unitKey: 'table.seats',
-    decimals: 0,
-  },
-};
-
-function valueOf(summary: CountrySummary, metric: MapMetric): number {
-  switch (metric) {
-    case 'ministries':
-      return summary.ministries_count;
-    case 'seats':
-      return summary.cabinet_seats_count;
-  }
 }
 
 type Shape = (typeof geo.countries)[number];
@@ -98,32 +68,19 @@ function binLabel(bin: Bin, locale: Locale, decimals: number): string {
 export function ChoroplethEurope({
   locale,
   summaries,
-  sources,
-  methodologyHref,
-  metrics = ['ministries', 'seats'],
-  notes,
-  asOf,
+  metric,
+  scale,
   countryPathBase,
 }: ChoroplethEuropeProps) {
   const t = translator(locale);
   const hrefFor = (iso2: string): string | undefined =>
     countryPathBase ? `${countryPathBase}/${iso2}` : undefined;
-  const [metric, setMetric] = useState<MapMetric>(metrics[0] ?? 'ministries');
   const [hovered, setHovered] = useState<Hover | null>(null);
 
   const config = METRIC_CONFIG[metric];
   const byIso = useMemo(
     () => new Map(summaries.map((summary) => [summary.iso2, summary])),
     [summaries],
-  );
-
-  const scale = useMemo(
-    () =>
-      equalIntervalBins(
-        summaries.map((summary) => valueOf(summary, metric)),
-        { decimals: config.decimals },
-      ),
-    [summaries, metric, config.decimals],
   );
 
   const rampSteps = rampStepsFor(scale.bins.length);
@@ -145,51 +102,6 @@ export function ChoroplethEurope({
     return { context, empty, data };
   }, [byIso]);
 
-  const rows = useMemo(
-    () =>
-      summaries
-        .map((summary) => ({
-          iso2: summary.iso2,
-          label: countryName(summary, locale),
-          value: valueOf(summary, metric),
-          summary,
-        }))
-        .sort((a, b) => b.value - a.value || a.label.localeCompare(b.label)),
-    [summaries, metric, locale],
-  );
-
-  const download: ChartDownload = {
-    filename: `ministries-map-${metric}.csv`,
-    rows: rows.map((row) => ({
-      iso2: row.iso2,
-      country: row.label,
-      metric,
-      value: row.value,
-      class_from: scale.bins[scale.indexOf(row.value)]?.min ?? '',
-      class_to: scale.bins[scale.indexOf(row.value)]?.max ?? '',
-      ministries_count: row.summary.ministries_count,
-      cabinet_seats_count: row.summary.cabinet_seats_count,
-      population: row.summary.population.value,
-      population_year: row.summary.population.year,
-      source_grade: row.summary.quality.grade,
-      cabinet_id: row.summary.cabinet_id,
-    })),
-    columns: [
-      'iso2',
-      'country',
-      'metric',
-      'value',
-      'class_from',
-      'class_to',
-      'ministries_count',
-      'cabinet_seats_count',
-      'population',
-      'population_year',
-      'source_grade',
-      'cabinet_id',
-    ],
-  };
-
   const fillFor = (value: number): string => {
     const index = scale.indexOf(value);
     const step = rampSteps[index] ?? rampSteps[rampSteps.length - 1] ?? 3;
@@ -208,7 +120,7 @@ export function ChoroplethEurope({
 
   const hoveredShape = hovered ? geo.countries.find((shape) => shape.iso2 === hovered.iso2) : undefined;
 
-  const map = (
+  return (
     <div className="ce">
       <svg
         className="ce-map"
@@ -421,76 +333,6 @@ export function ChoroplethEurope({
         </div>
       ) : null}
     </div>
-  );
-
-  const table = (
-    <div className="scroll-x">
-      <table className="ce-table">
-        <thead>
-          <tr>
-            <th scope="col">{t('table.country')}</th>
-            <th scope="col" className="ce-num">
-              {t('table.ministries')}
-            </th>
-            <th scope="col" className="ce-num">
-              {t('table.seats')}
-            </th>
-            <th scope="col">{t('map.table.class')}</th>
-            <th scope="col">{t('table.grade')}</th>
-          </tr>
-        </thead>
-        <tbody>
-          {rows.map((row) => {
-            const bin = scale.bins[scale.indexOf(row.value)];
-            return (
-              <tr key={row.iso2}>
-                <th scope="row">
-                  {hrefFor(row.iso2) ? <a href={hrefFor(row.iso2)}>{row.label}</a> : row.label}
-                </th>
-                <td className="ce-num">{formatNumber(row.summary.ministries_count, locale)}</td>
-                <td className="ce-num">{formatNumber(row.summary.cabinet_seats_count, locale)}</td>
-                <td>{bin ? binLabel(bin, locale, config.decimals) : '—'}</td>
-                <td>{row.summary.quality.grade}</td>
-              </tr>
-            );
-          })}
-        </tbody>
-      </table>
-    </div>
-  );
-
-  return (
-    <ChartFrame
-      locale={locale}
-      t={t}
-      title={t(config.titleKey)}
-      subtitle={asOf ? t('chart.asOf', { date: formatDate(asOf, locale) }) : undefined}
-      views={[
-        { id: 'map', label: t('chart.view.map'), content: map },
-        { id: 'table', label: t('chart.view.table'), content: table },
-      ]}
-      sources={sources}
-      download={download}
-      methodologyHref={methodologyHref}
-      notes={notes}
-      controls={
-        metrics.length > 1 ? (
-          <div className="ce-metrics" role="group" aria-label={t('table.value')}>
-            {metrics.map((candidate) => (
-              <button
-                key={candidate}
-                type="button"
-                className={`ce-metric${candidate === metric ? ' is-active' : ''}`}
-                aria-pressed={candidate === metric}
-                onClick={() => setMetric(candidate)}
-              >
-                {t(METRIC_CONFIG[candidate].shortKey)}
-              </button>
-            ))}
-          </div>
-        ) : null
-      }
-    />
   );
 }
 

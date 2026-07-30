@@ -1,0 +1,82 @@
+/*
+ * The frame's own furniture: the metric toggle and the table shared by all three views.
+ *
+ * Both used to exist twice, once per chart, in byte-identical copies under two prefixes.
+ * One copy now, because there is one toggle and one table.
+ */
+
+/* --- controls --------------------------------------------------------------- */
+
+.cc-metrics {
+  display: inline-flex;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.cc-metric {
+  appearance: none;
+  background: none;
+  border: 0;
+  border-right: 1px solid var(--border);
+  padding: var(--space-2) var(--space-3);
+  font: inherit;
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  cursor: pointer;
+}
+
+.cc-metric:last-child {
+  border-right: 0;
+}
+
+.cc-metric:hover {
+  background: var(--wash);
+}
+
+.cc-metric.is-active {
+  background: var(--wash);
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+/* --- table ------------------------------------------------------------------ */
+
+.cc-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--text-sm);
+}
+
+.cc-table th,
+.cc-table td {
+  padding: var(--space-2) var(--space-3);
+  border-bottom: 1px solid var(--gridline);
+  text-align: left;
+}
+
+.cc-table thead th {
+  color: var(--text-secondary);
+  font-weight: 600;
+  border-bottom: 1px solid var(--axis);
+  vertical-align: bottom;
+}
+
+.cc-table tbody th {
+  font-weight: 400;
+  color: var(--text-primary);
+}
+
+.cc-table tbody th a {
+  color: var(--link);
+}
+
+.cc-num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.cc-grade-note {
+  color: var(--text-muted);
+  font-size: var(--text-xs);
+}

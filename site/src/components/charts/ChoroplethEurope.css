@@ -206,41 +206,6 @@
   color: var(--text-secondary);
 }
 
-/* --- controls ----------------------------------------------------------------- */
-
-.ce-metrics {
-  display: inline-flex;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  overflow: hidden;
-}
-
-.ce-metric {
-  appearance: none;
-  background: none;
-  border: 0;
-  border-right: 1px solid var(--border);
-  padding: var(--space-2) var(--space-3);
-  font: inherit;
-  font-size: var(--text-sm);
-  color: var(--text-secondary);
-  cursor: pointer;
-}
-
-.ce-metric:last-child {
-  border-right: 0;
-}
-
-.ce-metric:hover {
-  background: var(--wash);
-}
-
-.ce-metric.is-active {
-  background: var(--wash);
-  color: var(--text-primary);
-  font-weight: 600;
-}
-
 /* --- tooltip ------------------------------------------------------------------ */
 
 .ce-tooltip {
@@ -316,42 +281,6 @@
   text-align: right;
   font-variant-numeric: tabular-nums;
   color: var(--text-primary);
-}
-
-/* --- table view --------------------------------------------------------------- */
-
-.ce-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: var(--text-sm);
-}
-
-.ce-table th,
-.ce-table td {
-  padding: var(--space-2) var(--space-3);
-  border-bottom: 1px solid var(--gridline);
-  text-align: left;
-}
-
-.ce-table thead th {
-  color: var(--text-secondary);
-  font-weight: 600;
-  border-bottom: 1px solid var(--axis);
-  vertical-align: bottom;
-}
-
-.ce-table tbody th {
-  font-weight: 400;
-  color: var(--text-primary);
-}
-
-.ce-table tbody th a {
-  color: var(--link);
-}
-
-.ce-num {
-  text-align: right;
-  font-variant-numeric: tabular-nums;
 }
 
 /* Forced colours: keep the shapes distinguishable when the fills are overridden. */

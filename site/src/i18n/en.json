@@ -24,16 +24,13 @@
   "chart.asOf": "Current cabinets, as of {date}",
   "chart.note": "Note",
 
-  "metric.ministries": "Ministries",
   "metric.ministries.short": "Ministries",
-  "metric.seats": "Cabinet seats",
   "metric.seats.short": "Cabinet seats",
+  "metric.title.ministries": "Ministries by country",
+  "metric.title.seats": "Cabinet seats by country",
 
-  "map.title.ministries": "Ministries by country",
-  "map.title.seats": "Cabinet seats by country",
   "map.legend.notCovered": "In scope, not covered yet ({count})",
   "map.legend.outOfScope": "Outside the dataset's scope",
-  "map.table.class": "Shading class",
 
   "table.country": "Country",
   "table.value": "Value",
