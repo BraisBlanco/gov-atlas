@@ -168,6 +168,15 @@ p {
   text-wrap: pretty;
 }
 
+/* The deck under an h1. At display size a two-sentence deck breaks into a full line
+   and a stub, which `pretty` leaves alone because the stub is several words long, so
+   it balances like the heading it sits under instead. */
+.lede {
+  font-size: var(--text-lg);
+  color: var(--text-secondary);
+  text-wrap: balance;
+}
+
 a {
   color: var(--link);
   text-decoration-thickness: 1px;
