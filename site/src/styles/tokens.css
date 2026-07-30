@@ -174,7 +174,21 @@ p {
 .lede {
   font-size: var(--text-lg);
   color: var(--text-secondary);
-  text-wrap: balance;
+  text-wrap: pretty;
+}
+
+/*
+ * Balancing spends measure to even out line lengths, and only above this width is there
+ * any to spend: past 46rem the column has reached --measure and stops growing with the
+ * viewport, so shortening the lines costs the reader nothing. On a phone the column *is*
+ * the screen, and the same rule took a fifth to a third of it back as margin — a deck set
+ * visibly narrower than the paragraph beneath it, which reads as a layout fault rather
+ * than as typography.
+ */
+@media (min-width: 46rem) {
+  .lede {
+    text-wrap: balance;
+  }
 }
 
 a {
